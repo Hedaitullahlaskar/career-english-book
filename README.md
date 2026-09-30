@@ -37,9 +37,18 @@ Then open http://localhost:8000/index.html.
 
 ## Deployment
 
-Deployed to Hostinger via Git-based deployment. Pushing to `main` updates the
-live site automatically — see the repository's deployment notes / the project
-owner for the current Hostinger Git deployment configuration.
+Deployed to Hostinger by GitHub Actions (`.github/workflows/deploy.yml`), which
+uploads the repository root over FTPS using a dedicated FTP account restricted to
+`public_html/career-english-book/`. This is separate from the main website's
+Hostinger Git deployment.
+
+- Credentials come only from the GitHub secrets `FTP_SERVER`, `FTP_USERNAME`,
+  `FTP_PASSWORD`.
+- Pushes to `main` deploy only when the repository variable `DEPLOY_ENABLED` is
+  `true`. The workflow can also be run manually (Actions → Deploy to Hostinger →
+  Run workflow); manual runs default to a dry run.
+- `README.md`, `.gitignore`, `.git/` and `.github/` are not uploaded. Files are
+  never deleted from the server.
 
 Deployment target on the server: `public_html/career-english-book/` (repository
 root maps directly to that folder — no nested subfolder).
