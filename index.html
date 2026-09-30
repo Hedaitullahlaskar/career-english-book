@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Career English</title>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   Design plan
+   Layout: fixed left dashboard (cover/search/level-colored tree,
+   collapses to a slide-over drawer under 860px) + a book-style
+   reading pane on the right with sequential prev/next paging.
+   Color: warm-paper / near-black+gold brand from the HEA cover art,
+   plus five distinct level-accent hues for colorful wayfinding.
+   Type: Fraunces (display) + Inter (body) + JetBrains Mono (codes).
+   ============================================================ */
+:root{
+  --bg:#F5F2EA; --surface:#FFFFFF; --surface-2:#ECE6D8; --surface-3:#E3DCC9;
+  --ink:#20242B; --slate:#3E5C76; --slate-dark:#1F3245; --muted:#64707D;
+  --good:#1E7A4C; --good-bg:#E4F3EA; --warn:#9C6B1E; --warn-bg:#FBF0DC;
+  --gold:#A6791C; --gold-soft:#EFE4C4; --gold-ink:#5C4713;
+  --cover-bg:#0B0A07;
+  --border:rgba(32,36,43,0.13); --border-strong:rgba(32,36,43,0.22);
+  --shadow:0 1px 2px rgba(32,36,43,0.06), 0 10px 28px -10px rgba(32,36,43,0.22);
+  --font-display:"Fraunces",Georgia,"Noto Serif",serif;
+  --font-body:"Inter",-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono","SF Mono",Consolas,monospace;
+  --lvl1:#2F8F7A; --lvl1-bg:#E3F2ED;
+  --lvl2:#C97324; --lvl2-bg:#FBEBDC;
+  --lvl3:#3568A6; --lvl3-bg:#E3EBF5;
+  --lvl4:#8A4C9E; --lvl4-bg:#F1E6F4;
+  --lvl5:#B23A48; --lvl5-bg:#F8E4E6;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F0D09; --surface:#181410; --surface-2:#211B12; --surface-3:#2B2417;
+    --ink:#EDE6D6; --slate:#C9B48A; --slate-dark:#EEDFB4; --muted:#A69A83;
+    --good:#5FCB93; --good-bg:#132A21; --warn:#E4C568; --warn-bg:#3A2E13;
+    --gold:#E4C568; --gold-soft:#3A2E13; --gold-ink:#F3E4B4;
+    --border:rgba(228,197,104,0.16); --border-strong:rgba(228,197,104,0.32);
+    --shadow:0 1px 2px rgba(0,0,0,0.35), 0 12px 30px -10px rgba(0,0,0,0.65);
+    --lvl1:#4FBFA2; --lvl1-bg:#102621;
+    --lvl2:#E6A24E; --lvl2-bg:#2E2011;
+    --lvl3:#6FA3DE; --lvl3-bg:#131F2C;
+    --lvl4:#C08AD1; --lvl4-bg:#251A2A;
+    --lvl5:#E17683; --lvl5-bg:#2B1417;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F0D09; --surface:#181410; --surface-2:#211B12; --surface-3:#2B2417;
+  --ink:#EDE6D6; --slate:#C9B48A; --slate-dark:#EEDFB4; --muted:#A69A83;
+  --good:#5FCB93; --good-bg:#132A21; --warn:#E4C568; --warn-bg:#3A2E13;
+  --gold:#E4C568; --gold-soft:#3A2E13; --gold-ink:#F3E4B4;
+  --border:rgba(228,197,104,0.16); --border-strong:rgba(228,197,104,0.32);
+  --shadow:0 1px 2px rgba(0,0,0,0.35), 0 12px 30px -10px rgba(0,0,0,0.65);
+  --lvl1:#4FBFA2; --lvl1-bg:#102621;
+  --lvl2:#E6A24E; --lvl2-bg:#2E2011;
+  --lvl3:#6FA3DE; --lvl3-bg:#131F2C;
+  --lvl4:#C08AD1; --lvl4-bg:#251A2A;
+  --lvl5:#E17683; --lvl5-bg:#2B1417;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;}
+html,body{height:100%; overflow-x:hidden;}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--font-body); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;}
+a{color:var(--slate);}
+img{max-width:100%;}
+code{font-family:var(--font-mono); font-size:0.9em; background:var(--surface-3); padding:1px 5px; border-radius:4px; overflow-wrap:anywhere; word-break:break-word;}
+::selection{background:var(--gold-soft); color:var(--gold-ink);}
+
+/* ---------- cinematic intro (front-cover opening) ---------- */
+.intro-screen{
+  position:fixed; inset:0; z-index:100; background:var(--cover-bg); overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
+  transform-origin:left center; transition:transform 1s cubic-bezier(.65,0,.35,1), opacity .85s ease .15s;
+}
+.intro-screen.opening{transform:perspective(2200px) rotateY(-100deg); opacity:0; pointer-events:none;}
+.intro-bg-blur{position:absolute; inset:-40px; background-image:inherit; background-size:cover; background-position:center; filter:blur(42px) brightness(.5) saturate(1.15); transform:scale(1.18); animation:kenburns 18s ease-in-out infinite alternate;}
+@keyframes kenburns{from{transform:scale(1.18);} to{transform:scale(1.27);}}
+.intro-cover-img{
+  position:relative; z-index:2; display:block; border-radius:5px;
+  max-height:min(74vh,700px); max-width:86vw; width:auto; height:auto;
+  box-shadow:0 30px 80px -18px rgba(0,0,0,.65), 0 4px 20px rgba(0,0,0,.4);
+  opacity:0; animation:coverRise 1s cubic-bezier(.2,.8,.2,1) .25s forwards;
+}
+@keyframes coverRise{from{opacity:0; transform:translateY(26px) scale(.97);} to{opacity:1; transform:translateY(0) scale(1);}}
+.intro-scrim-bottom{position:absolute; z-index:1; left:0; right:0; bottom:0; height:26vh; background:linear-gradient(180deg, rgba(11,10,7,0) 0%, rgba(11,10,7,.82) 100%); pointer-events:none;}
+.intro-content{
+  position:absolute; z-index:3; left:0; right:0; bottom:0; display:flex; justify-content:center;
+  padding:0 24px calc(40px + env(safe-area-inset-bottom,0px));
+}
+.intro-cta{
+  display:inline-flex; align-items:center; gap:9px; background:var(--gold); color:#20180A; font:700 13.5px var(--font-body);
+  border:none; border-radius:30px; padding:13px 26px; cursor:pointer; box-shadow:0 14px 30px -10px rgba(0,0,0,.6);
+  opacity:0; animation:heaFadeUp .8s ease 1s forwards;
+}
+.intro-cta:hover{filter:brightness(1.08);}
+.intro-cta .arrow{transition:transform .2s;}
+.intro-cta:hover .arrow{transform:translateX(3px);}
+@keyframes heaFadeUp{from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:translateY(0);}}
+@media (prefers-reduced-motion:reduce){
+  .intro-screen{transition:opacity .4s;} .intro-screen.opening{transform:none;}
+  .intro-bg-blur{animation:none;}
+  .intro-cover-img,.intro-cta{animation:none; opacity:1; transform:none;}
+}
+
+/* ---------- back cover page ---------- */
+.backcover-page{max-width:620px; margin:0 auto;}
+.backcover-frame{border-radius:14px; overflow:hidden; box-shadow:0 22px 52px -18px rgba(0,0,0,.4), 0 2px 8px rgba(0,0,0,.15); border:1px solid var(--border); margin:18px 0 28px;}
+.backcover-frame img{display:block; width:100%;}
+.backcover-actions{display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; padding-bottom:16px;}
+.backcover-home{font-size:13px; color:var(--muted); text-decoration:none;}
+.backcover-home:hover{color:var(--slate);}
+.backcover-link{text-align:center; margin-top:6px;}
+.backcover-link a{font-size:12.5px; color:var(--muted); text-decoration:none; border-bottom:1px dotted var(--border-strong);}
+.backcover-link a:hover{color:var(--gold);}
+
+/* ---------- shell ---------- */
+#app{display:flex; min-height:100%;}
+
+.sidebar{
+  width:320px; flex-shrink:0; background:var(--surface); border-right:1px solid var(--border);
+  display:flex; flex-direction:column; height:100vh; position:sticky; top:0;
+  padding-top:env(safe-area-inset-top,0px);
+}
+.sb-brand{display:flex; align-items:center; gap:10px; padding:16px 16px 12px; border-bottom:1px solid var(--border);}
+.sb-badge{width:30px; height:30px; border-radius:50%; flex-shrink:0; background:var(--cover-bg); border:1.4px solid var(--gold); display:flex; align-items:center; justify-content:center;}
+.sb-badge span{font-family:var(--font-display); font-weight:600; font-size:10.5px; color:var(--gold);}
+.sb-brand-txt{font-family:var(--font-display); font-weight:600; font-size:15.5px; line-height:1.2;}
+.sb-brand-txt small{display:block; font-family:var(--font-body); font-weight:500; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin-top:1px;}
+
+.sb-search{padding:12px 14px; border-bottom:1px solid var(--border);}
+.sb-search input{width:100%; background:var(--surface-2); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font:500 13.5px var(--font-body); color:var(--ink);}
+.sb-search input:focus{outline:2px solid var(--gold); outline-offset:1px;}
+
+.sb-tree{flex:1; overflow-y:auto; padding:8px 8px 8px;}
+.sb-level{margin-bottom:4px; border-radius:10px; overflow:hidden;}
+.sb-level-head{display:flex; align-items:center; gap:9px; width:100%; background:none; border:none; cursor:pointer; padding:9px 8px; border-radius:8px; text-align:left; font:700 12.5px var(--font-body); color:var(--ink);}
+.sb-level-head:hover{background:var(--surface-2);}
+.sb-level-dot{width:9px; height:9px; border-radius:50%; flex-shrink:0; background:var(--lc);}
+.sb-level-head .chev{margin-left:auto; color:var(--muted); font-size:10px; transition:transform .15s;}
+.sb-level.open .chev{transform:rotate(90deg);}
+.sb-level-body{display:none; padding-left:6px;}
+.sb-level.open .sb-level-body{display:block;}
+
+.sb-module{margin:2px 0 2px 12px; border-left:2px solid var(--border); padding-left:8px;}
+.sb-module-head{display:flex; align-items:center; gap:7px; width:100%; background:none; border:none; cursor:pointer; padding:6px 6px; border-radius:6px; text-align:left; font:600 12px var(--font-body); color:var(--muted);}
+.sb-module-head:hover{background:var(--surface-2); color:var(--ink);}
+.sb-module-head .chev{margin-left:auto; font-size:9px; transition:transform .15s;}
+.sb-module.open .chev{transform:rotate(90deg);}
+.sb-module-body{display:none;}
+.sb-module.open .sb-module-body{display:block;}
+
+.sb-leaf{display:flex; align-items:center; gap:8px; width:100%; background:none; border:none; cursor:pointer; padding:6px 8px 6px 20px; border-radius:6px; text-align:left; font:500 12.5px var(--font-body); color:var(--ink); position:relative;}
+.sb-leaf:hover{background:var(--surface-2);}
+.sb-leaf.active{background:var(--lc-bg); color:var(--lc); font-weight:700;}
+.sb-leaf .num{font-family:var(--font-mono); font-size:10.5px; color:var(--muted); flex-shrink:0; width:16px;}
+.sb-leaf .t{flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.sb-leaf .dot{width:6px; height:6px; border-radius:50%; flex-shrink:0;}
+.sb-leaf .dot.done{background:var(--good);}
+.sb-leaf .dot.draft{background:var(--warn); opacity:.55;}
+.sb-leaf.special .t{font-weight:700;}
+.sb-leaf mark{background:var(--gold-soft); color:var(--gold-ink); border-radius:2px;}
+
+.sb-footer{border-top:1px solid var(--border); padding:12px 16px; display:flex; flex-direction:column; gap:8px;}
+.sb-progress-row{display:flex; justify-content:space-between; align-items:baseline; font-size:11.5px; color:var(--muted);}
+.sb-progress-row b{color:var(--ink); font-variant-numeric:tabular-nums;}
+.sb-progress-bar{height:5px; border-radius:3px; background:var(--surface-3); overflow:hidden;}
+.sb-progress-bar > div{height:100%; background:var(--good); border-radius:3px; transition:width .2s;}
+.theme-btn{border:1px solid var(--border-strong); background:var(--surface-2); color:var(--muted); border-radius:20px; padding:6px 12px; font:600 11.5px var(--font-body); cursor:pointer; align-self:flex-start;}
+
+.sb-close{display:none;}
+
+/* ---------- main column ---------- */
+.main-col{flex:1; min-width:0; max-width:100%; display:flex; flex-direction:column; min-height:100vh;}
+.topbar{
+  display:none; align-items:center; gap:10px; padding:10px 14px; background:var(--surface);
+  border-bottom:1px solid var(--border); position:sticky; top:env(safe-area-inset-top,0px); z-index:5;
+}
+.menu-btn{border:1px solid var(--border-strong); background:var(--surface-2); border-radius:8px; width:34px; height:34px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--ink); flex-shrink:0;}
+.topbar-title{font-family:var(--font-display); font-weight:600; font-size:14.5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+.reader-wrap{flex:1; display:flex; justify-content:center; padding:44px 28px 90px;}
+.reader{max-width:760px; width:100%;}
+
+/* ---------- cover / welcome screen ---------- */
+.cover-screen{max-width:980px; margin:0 auto; padding:10px 6px 40px;}
+.cover-hero{display:flex; gap:44px; align-items:center; margin-bottom:40px;}
+.cover-art{width:220px; flex-shrink:0; border-radius:10px; box-shadow:0 18px 44px -16px rgba(0,0,0,0.45), 0 2px 8px rgba(0,0,0,0.2); overflow:hidden; border:1px solid var(--border);}
+.cover-art img{display:block; width:100%;}
+.cover-text .eyebrow{display:block;}
+.cover-text h1{margin:2px 0 10px; font-size:clamp(30px,4.4vw,44px);}
+.cover-text .lede{max-width:56ch; font-size:16px;}
+.cover-cta{display:inline-flex; align-items:center; gap:8px; background:var(--gold); color:var(--cover-bg); font:700 13.5px var(--font-body); border:none; border-radius:30px; padding:11px 22px; margin-top:16px; cursor:pointer; box-shadow:var(--shadow);}
+.cover-cta:hover{filter:brightness(1.06);}
+
+.notice{background:var(--warn-bg); border:1px solid var(--border); border-radius:10px; padding:14px 16px; font-size:13.5px; color:var(--ink); margin:0 0 30px;}
+.notice strong{color:var(--warn);}
+
+.level-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px;}
+.level-card{background:var(--surface); border:1px solid var(--border); border-top:4px solid var(--lc); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow); cursor:pointer; text-align:left;}
+.level-card:hover{border-color:var(--border-strong); transform:translateY(-1px);}
+.level-card .ln{font-family:var(--font-display); font-weight:600; font-size:12px; color:var(--lc); text-transform:uppercase; letter-spacing:.06em;}
+.level-card h3{margin:5px 0 8px; font-family:var(--font-display); font-size:18px; color:var(--slate-dark);}
+.level-card .meta{font-size:12px; color:var(--muted); display:flex; gap:10px;}
+
+/* ---------- reading pane ---------- */
+.eyebrow{font:700 11px var(--font-body); letter-spacing:.12em; text-transform:uppercase; color:var(--gold); margin-bottom:8px; display:block;}
+.crumb{font-size:12px; color:var(--muted); margin-bottom:10px;}
+.crumb a{color:var(--muted); text-decoration:none;}
+.crumb a:hover{color:var(--slate);}
+.crumb .sep{margin:0 5px; opacity:.5;}
+
+h1{font-family:var(--font-display); font-weight:600; font-size:clamp(25px,3.6vw,33px); line-height:1.16; margin:0 0 10px; color:var(--slate-dark); text-wrap:balance;}
+h2{font-family:var(--font-display); font-weight:600; font-size:21px; color:var(--slate-dark); margin:34px 0 12px;}
+h3{font-family:var(--font-body); font-weight:700; font-size:14.5px; color:var(--slate-dark); margin:22px 0 8px;}
+p{margin:0 0 14px;}
+.reader-body h2:first-child, .reader-body h3:first-child{margin-top:0;}
+
+.gold-rule{width:40px; height:2px; background:var(--gold); border:none; margin:16px 0;}
+
+.pill{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; padding:3px 9px; border-radius:20px; letter-spacing:.02em; white-space:nowrap;}
+.pill.good{background:var(--good-bg); color:var(--good);}
+.pill.warn{background:var(--warn-bg); color:var(--warn);}
+.pill.muted{background:var(--surface-3); color:var(--muted);}
+.pill.lc{background:var(--lc-bg); color:var(--lc);}
+
+.reader-meta{display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:12px 0 26px;}
+.review-chk{display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:600; color:var(--muted); cursor:pointer; margin-left:auto; user-select:none;}
+.review-chk input{accent-color:var(--good); width:14px; height:14px;}
+
+.obj-box{background:var(--lc-bg); border:1px solid var(--border); border-left:3px solid var(--lc); border-radius:10px; padding:14px 18px; margin:0 0 30px;}
+.obj-box h2{margin:0 0 8px; font-size:14px; text-transform:uppercase; letter-spacing:.05em; color:var(--lc);}
+.obj-box ul{margin:0; padding-left:1.2em;}
+.obj-box li{margin-bottom:5px; font-size:14.5px;}
+
+.reader-body{font-size:16px;}
+.reader-body table{border-collapse:collapse; display:block; max-width:100%; overflow-x:auto; font-size:14px; margin:0 0 16px;}
+.reader-body th, .reader-body td{border:1px solid var(--border); padding:8px 10px; text-align:left; vertical-align:top;}
+.reader-body th{background:var(--surface-2); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.02em; white-space:nowrap;}
+.reader-body ul, .reader-body ol{padding-left:1.3em;}
+.reader-body li{margin-bottom:5px;}
+.reader-body pre{overflow-x:auto; max-width:100%; background:var(--surface-2); padding:12px 14px; border-radius:8px;}
+.reader-body blockquote{margin:0 0 14px; padding:4px 16px; border-left:3px solid var(--gold); color:var(--muted); font-style:italic;}
+
+.dialogue{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:18px 20px; margin:16px 0; box-shadow:var(--shadow);}
+.dialogue.dialogue-inline{background:var(--surface-2); box-shadow:none;}
+.dialogue .scene{font-style:italic; color:var(--muted); font-size:13.5px; margin-bottom:14px; padding-bottom:12px; border-bottom:1px solid var(--border);}
+.turn{display:grid; grid-template-columns:110px 1fr; gap:14px; margin-bottom:12px; align-items:baseline;}
+.turn .speaker{font-weight:700; color:var(--lc); font-size:13px; text-align:right;}
+.turn .text{font-size:15px;}
+
+.activity{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:12px;}
+.activity .a-top{display:flex; gap:8px; align-items:center; margin-bottom:8px;}
+.activity .a-type{font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--gold); background:var(--gold-soft); padding:2px 8px; border-radius:20px;}
+.activity .a-skill{font-size:11px; color:var(--muted);}
+.activity .a-prompt{font-size:14.5px; margin-bottom:8px;}
+.activity ul.opts{margin:6px 0; padding-left:1.2em; font-size:13.5px;}
+.activity .correct{color:var(--good); font-weight:600;}
+.activity .explain{font-size:13px; color:var(--muted); margin-top:8px; padding-top:8px; border-top:1px dashed var(--border);}
+
+/* ---------- rich lesson dialogue (multi-scene) ---------- */
+.dialogue-box{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:18px 20px; margin:20px 0; box-shadow:var(--shadow);}
+.dialogue-box-label{font:700 10.5px var(--font-body); letter-spacing:.08em; text-transform:uppercase; color:var(--lc); margin-bottom:10px;}
+.dialogue-scene-label{font:700 11px var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:16px 0 4px;}
+.dialogue-scene-divider{height:1px; background:var(--border); margin:16px 0 0;}
+.dialogue-setting{font-style:italic; color:var(--muted); font-size:13.5px; margin-bottom:12px; padding-bottom:10px; border-bottom:1px solid var(--border);}
+.dialogue-turns{display:flex; flex-direction:column; gap:10px;}
+.dialogue-turn{display:grid; grid-template-columns:110px 1fr; gap:14px; align-items:baseline;}
+.dialogue-speaker{font-weight:700; color:var(--lc); font-size:13px; text-align:right;}
+.dialogue-text{font-size:15px;}
+.dialogue-note{font-size:13px; color:var(--muted); background:var(--surface-2); border-radius:8px; padding:10px 14px; margin-top:14px;}
+
+/* ---------- vocabulary table (Bengali / Hindi support) ---------- */
+.reader-body table.vocab-table th{white-space:normal;}
+.reader-body table.vocab-table .bn{font-family:"Noto Sans Bengali",var(--font-body); font-size:14px;}
+.reader-body table.vocab-table .hi{font-family:"Noto Sans Devanagari",var(--font-body); font-size:14px;}
+.reader-body table.vocab-table code{white-space:nowrap;}
+
+/* ---------- mistake / tip callouts ---------- */
+.mistake-callout, .tip-callout{border-radius:12px; padding:14px 18px; margin:20px 0; border:1px solid var(--border);}
+.mistake-callout{background:var(--warn-bg);}
+.tip-callout{background:var(--good-bg);}
+.callout-label{font:700 10.5px var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:8px;}
+.callout-label code{background:none; padding:0; font-size:.95em;}
+.callout-wrong{color:var(--warn); font-weight:600; margin-bottom:6px; font-size:14.5px;}
+.callout-right{color:var(--good); font-weight:600; margin-bottom:8px; font-size:14.5px;}
+.callout-why{font-size:13.5px; color:var(--muted);}
+
+/* ---------- print-style exercises & answer key ---------- */
+.exercises-block, .answer-key-block{margin:26px 0;}
+.exercises-block h2, .answer-key-block h3{margin-top:0 0 14px;}
+.exercise{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:12px; box-shadow:var(--shadow);}
+.exercise-head{display:flex; align-items:center; gap:8px; margin-bottom:8px; flex-wrap:wrap;}
+.exercise-number{font-weight:700; color:var(--lc); font-size:13px;}
+.exercise-type{font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--gold); background:var(--gold-soft); padding:2px 8px; border-radius:20px;}
+.assessment-badge{font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; color:var(--warn); background:var(--warn-bg); padding:2px 8px; border-radius:20px;}
+.exercise-prompt{font-size:14.5px; margin-bottom:10px;}
+.exercise-prompt p{margin:0;}
+.mc-options{display:flex; flex-direction:column; gap:8px;}
+.mc-option{display:flex; gap:8px; font-size:13.5px;}
+.mc-option p{margin:0;}
+.mc-letter{font-weight:700; color:var(--muted); flex-shrink:0;}
+.write-lines{display:flex; flex-direction:column; gap:12px; margin-top:8px;}
+.write-lines span{display:block; border-bottom:1px solid var(--border-strong); height:1px;}
+.matching-list{display:flex; flex-direction:column; gap:8px; margin-top:6px;}
+.matching-row{display:flex; align-items:center; gap:10px; font-size:13.5px;}
+.matching-left{min-width:20px;}
+.matching-blank{flex:1; border-bottom:1px dotted var(--border-strong); color:var(--muted);}
+.answer-item{display:flex; gap:8px; font-size:13.5px; margin-bottom:8px; padding-bottom:8px; border-bottom:1px dashed var(--border);}
+.answer-item:last-child{border-bottom:none; margin-bottom:0; padding-bottom:0;}
+.answer-number{font-weight:700; color:var(--good); flex-shrink:0;}
+.answer-item p{margin:0;}
+
+.reader-pager{display:flex; justify-content:space-between; gap:12px; margin-top:44px; padding-top:20px; border-top:1px solid var(--border); font-size:13.5px;}
+.reader-pager a{display:flex; flex-direction:column; text-decoration:none; color:var(--ink); max-width:47%;}
+.reader-pager a:last-child{text-align:right; margin-left:auto;}
+.reader-pager .lbl{font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin-bottom:2px;}
+.reader-pager .tt{font-weight:600;}
+.reader-pager a:hover .tt{color:var(--gold);}
+
+/* module / level index pages inside reader */
+.cardgrid{display:grid; grid-template-columns:1fr; gap:11px; margin:18px 0;}
+.idx-card{background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow); cursor:pointer; text-align:left; display:block; width:100%;}
+.idx-card:hover{border-color:var(--border-strong);}
+.idx-card .top{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:5px;}
+.idx-card h3{margin:0; font-family:var(--font-display); font-size:16.5px; color:var(--slate-dark); font-weight:600;}
+.idx-card p{margin:0; color:var(--muted); font-size:13px;}
+.idx-card .meta{font-size:11.5px; color:var(--muted); margin-top:6px; display:flex; gap:10px;}
+
+.sitefoot{max-width:760px; margin:0 auto; padding:20px 0 40px; font-size:11.5px; color:var(--muted); text-align:center;}
+
+/* mobile */
+.scrim{display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:9;}
+@media (max-width:860px){
+  .sidebar{position:fixed; left:0; top:0; bottom:0; z-index:10; transform:translateX(-100%); transition:transform .2s; box-shadow:0 0 40px rgba(0,0,0,.3);}
+  .sidebar.open{transform:translateX(0);}
+  .sidebar.open ~ .scrim, .scrim.show{display:block;}
+  .sb-close{display:flex; margin-left:auto; border:none; background:none; color:var(--muted); font-size:18px; cursor:pointer; padding:4px 8px;}
+  .topbar{display:flex;}
+  .reader-wrap{padding:28px 18px 70px;}
+  .cover-hero{flex-direction:column; text-align:center; gap:22px;}
+  .cover-art{width:170px;}
+  .turn, .dialogue-turn{grid-template-columns:78px 1fr; gap:10px;}
+  .intro-content{padding:24px 20px calc(48px + env(safe-area-inset-bottom,0px));}
+}
+</style>
+
+<div class="intro-screen" id="introScreen">
+  <div class="intro-bg-blur" style="background-image:url('front-cover.jpg')"></div>
+  <img class="intro-cover-img" src="front-cover.jpg" alt="Career English — Hidayet English Academy book cover">
+  <div class="intro-scrim-bottom"></div>
+  <div class="intro-content">
+    <button class="intro-cta" id="openBookBtn" type="button">Open the Book <span class="arrow">→</span></button>
+  </div>
+</div>
+
+<div id="app">
+  <div class="scrim" id="scrim"></div>
+  <nav class="sidebar" id="sidebar">
+    <div class="sb-brand">
+      <div class="sb-badge"><span>HEA</span></div>
+      <div class="sb-brand-txt">Career English<small>Hidayet English Academy</small></div>
+      <button class="sb-close" id="sbClose" aria-label="Close menu">✕</button>
+    </div>
+    <div class="sb-search"><input id="searchInput" type="text" placeholder="Search lessons…" autocomplete="off"></div>
+    <div class="sb-tree" id="sbTree"></div>
+    <div class="sb-footer">
+      <div class="sb-progress-row"><span>Reviewed</span><b id="progressLabel">0 / 0</b></div>
+      <div class="sb-progress-bar"><div id="progressBar" style="width:0%"></div></div>
+      <button class="theme-btn" id="themeBtn" type="button">Auto</button>
+    </div>
+  </nav>
+
+  <div class="main-col">
+    <div class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="topbar-title" id="topbarTitle">Career English</div>
+    </div>
+    <div class="reader-wrap">
+      <div class="reader" id="reader"></div>
+    </div>
+    <div class="sitefoot">© Hidayet English Academy — Career English: Professional English for the Real Workplace. Early review build: most lessons are still in draft review, and audio/illustrations are not yet produced.</div>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var LEVEL_META = [
+  {dot:"lvl1", n:1}, {dot:"lvl2", n:2}, {dot:"lvl3", n:3}, {dot:"lvl4", n:4}, {dot:"lvl5", n:5}
+];
+var DATA = null;          // book-data.json
+var FLOW = [];             // flattened sequential reading order: {key, kind, levelIdx, moduleIdx, ref}
+var BYKEY = {};            // key -> flow entry
+var reviewed = {};
+var THEME_KEY = "hea-book-theme";
+var REVIEW_KEY = "hea-book-reviewed";
+
+function $(sel, root){ return (root||document).querySelector(sel); }
+function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function lv(n){ return "lvl"+n; }
+
+/* ---------------- storage (best-effort, per-viewer only) ---------------- */
+function loadReviewed(){
+  try{ var raw = localStorage.getItem(REVIEW_KEY); reviewed = raw ? JSON.parse(raw) : {}; }catch(e){ reviewed = {}; }
+}
+function saveReviewed(){
+  try{ localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewed)); }catch(e){}
+}
+function applyTheme(mode){
+  var root = document.documentElement;
+  if(mode==="light"||mode==="dark"){ root.setAttribute("data-theme", mode); } else { root.removeAttribute("data-theme"); }
+  $("#themeBtn").textContent = mode==="dark" ? "Dark" : mode==="light" ? "Light" : "Auto";
+}
+function initTheme(){
+  var saved = null;
+  try{ saved = localStorage.getItem(THEME_KEY); }catch(e){}
+  applyTheme(saved);
+  $("#themeBtn").addEventListener("click", function(){
+    var order = [null,"dark","light"];
+    var cur = null;
+    try{ cur = localStorage.getItem(THEME_KEY); }catch(e){}
+    var next = order[(order.indexOf(cur)+1) % order.length];
+    applyTheme(next);
+    try{ if(next) localStorage.setItem(THEME_KEY, next); else localStorage.removeItem(THEME_KEY); }catch(e){}
+  });
+}
+
+/* ---------------- build flattened flow + sidebar ---------------- */
+function buildFlow(){
+  DATA.forEach(function(level, li){
+    level.modules.forEach(function(mod, mi){
+      mod.lessons.forEach(function(lesson){
+        var entry = {key: lesson.lesson_id, kind:"lesson", levelIdx:li, moduleIdx:mi, ref:lesson};
+        FLOW.push(entry); BYKEY[entry.key] = entry;
+      });
+    });
+    if(level.assessment){
+      var ea = {key: level.assessment.id, kind:"assessment", levelIdx:li, ref:level.assessment};
+      FLOW.push(ea); BYKEY[ea.key] = ea;
+    }
+    if(level.capstone){
+      var ec = {key: level.capstone.id, kind:"capstone", levelIdx:li, ref:level.capstone};
+      FLOW.push(ec); BYKEY[ec.key] = ec;
+    }
+  });
+  var backEntry = {key:"back-cover", kind:"backcover", ref:{title:"Back Cover"}};
+  FLOW.push(backEntry); BYKEY[backEntry.key] = backEntry;
+}
+
+function lessonCount(level){
+  return level.modules.reduce(function(a,m){ return a+m.lessons.length; },0) + (level.assessment?1:0) + (level.capstone?1:0);
+}
+function totalReviewable(){ return FLOW.filter(function(e){return e.kind==="lesson";}).length; }
+
+function updateProgress(){
+  var total = totalReviewable();
+  var done = 0;
+  FLOW.forEach(function(e){ if(e.kind==="lesson" && reviewed[e.key]) done++; });
+  $("#progressLabel").textContent = done + " / " + total;
+  $("#progressBar").style.width = (total? (done/total*100):0) + "%";
+}
+
+function renderSidebar(filterText){
+  var tree = $("#sbTree");
+  tree.innerHTML = "";
+  var q = (filterText||"").trim().toLowerCase();
+
+  DATA.forEach(function(level, li){
+    var lc = lv(level.level_number);
+    var levelHasMatch = !q || level.title.toLowerCase().indexOf(q)>-1;
+    var matchedAny = false;
+
+    var levelEl = document.createElement("div");
+    levelEl.className = "sb-level";
+    levelEl.style.setProperty("--lc", "var(--"+lc+")");
+    var head = document.createElement("button");
+    head.className = "sb-level-head";
+    head.innerHTML = '<span class="sb-level-dot"></span><span>'+esc(level.title)+'</span><span class="chev">▸</span>';
+    head.addEventListener("click", function(){ levelEl.classList.toggle("open"); });
+    levelEl.appendChild(head);
+
+    var body = document.createElement("div");
+    body.className = "sb-level-body";
+
+    level.modules.forEach(function(mod, mi){
+      var modMatches = [];
+      mod.lessons.forEach(function(lesson){
+        if(!q || lesson.title.toLowerCase().indexOf(q)>-1) modMatches.push(lesson);
+      });
+      var modTitleMatch = !q || mod.title.toLowerCase().indexOf(q)>-1;
+      if(q && modMatches.length===0 && !modTitleMatch) return;
+      matchedAny = true;
+
+      var modEl = document.createElement("div");
+      modEl.className = "sb-module";
+      var mhead = document.createElement("button");
+      mhead.className = "sb-module-head";
+      mhead.innerHTML = '<span>'+esc(mod.title)+'</span><span class="chev">▸</span>';
+      mhead.addEventListener("click", function(){ modEl.classList.toggle("open"); });
+      modEl.appendChild(mhead);
+
+      var mbody = document.createElement("div");
+      mbody.className = "sb-module-body";
+      (q ? modMatches : mod.lessons).forEach(function(lesson){
+        var leaf = document.createElement("button");
+        leaf.className = "sb-leaf";
+        leaf.dataset.key = lesson.lesson_id;
+        leaf.style.setProperty("--lc", "var(--"+lc+")");
+        leaf.style.setProperty("--lc-bg", "var(--"+lc+"-bg)");
+        var dotCls = reviewed[lesson.lesson_id] ? "done" : "draft";
+        var titleHtml = esc(lesson.title);
+        if(q){ titleHtml = highlight(lesson.title, q); }
+        leaf.innerHTML = '<span class="num">'+lesson.sequence_in_module+'</span><span class="t">'+titleHtml+'</span><span class="dot '+dotCls+'"></span>';
+        leaf.addEventListener("click", function(){ goTo(lesson.lesson_id); closeSidebarMobile(); });
+        mbody.appendChild(leaf);
+      });
+      modEl.appendChild(mbody);
+      if(q && modMatches.length>0) modEl.classList.add("open");
+      body.appendChild(modEl);
+    });
+
+    ["assessment","capstone"].forEach(function(kind){
+      var item = level[kind];
+      if(!item) return;
+      if(q && item.title.toLowerCase().indexOf(q)===-1 && !levelHasMatch) return;
+      matchedAny = true;
+      var leaf = document.createElement("button");
+      leaf.className = "sb-leaf special";
+      leaf.dataset.key = item.id;
+      leaf.style.setProperty("--lc", "var(--"+lc+")");
+      leaf.style.setProperty("--lc-bg", "var(--"+lc+"-bg)");
+      var label = kind==="assessment" ? "★ Assessment" : "◆ Capstone";
+      leaf.innerHTML = '<span class="t">'+label+' — '+esc(item.title)+'</span>';
+      leaf.addEventListener("click", function(){ goTo(item.id); closeSidebarMobile(); });
+      body.appendChild(leaf);
+    });
+
+    levelEl.appendChild(body);
+    if(!q || levelHasMatch || matchedAny){
+      if(q && matchedAny) levelEl.classList.add("open");
+      tree.appendChild(levelEl);
+    }
+  });
+  markActive();
+}
+
+function highlight(text, q){
+  var idx = text.toLowerCase().indexOf(q);
+  if(idx===-1) return esc(text);
+  return esc(text.slice(0,idx)) + "<mark>" + esc(text.slice(idx,idx+q.length)) + "</mark>" + esc(text.slice(idx+q.length));
+}
+
+function markActive(){
+  document.querySelectorAll(".sb-leaf").forEach(function(el){
+    el.classList.toggle("active", el.dataset.key === currentKey);
+  });
+}
+
+/* ---------------- routing ---------------- */
+var currentKey = null;
+
+function closeSidebarMobile(){
+  $("#sidebar").classList.remove("open");
+  $("#scrim").classList.remove("show");
+}
+
+function goTo(key){
+  location.hash = key;
+}
+
+window.addEventListener("hashchange", function(){ render(location.hash.replace(/^#/,"")); });
+
+function goHome(){ history.replaceState(null,"","#"); render(""); }
+
+/* ---------------- rendering ---------------- */
+function render(key){
+  currentKey = key;
+  markActive();
+  if(!key){ renderCover(); $("#topbarTitle").textContent = "Career English"; window.scrollTo(0,0); return; }
+  var entry = BYKEY[key];
+  if(!entry){ renderCover(); return; }
+  if(entry.kind==="backcover"){
+    renderBackCover();
+    $("#topbarTitle").textContent = "Back Cover";
+    window.scrollTo(0,0);
+    return;
+  }
+  var level = DATA[entry.levelIdx];
+  if(entry.kind==="lesson"){
+    renderLesson(level, DATA[entry.levelIdx].modules[entry.moduleIdx], entry.ref);
+  } else {
+    renderSpecial(level, entry.ref, entry.kind);
+  }
+  $("#topbarTitle").textContent = entry.ref.title;
+  var readerWrap = document.querySelector(".reader-wrap");
+  if(readerWrap) readerWrap.scrollTop = 0;
+  window.scrollTo(0,0);
+}
+
+function levelColorVars(levelNumber){
+  var lc = lv(levelNumber);
+  return 'style="--lc:var(--'+lc+'); --lc-bg:var(--'+lc+'-bg);"';
+}
+
+function crumbHtml(level, mod, current){
+  var parts = ['<a href="#" onclick="event.preventDefault(); location.hash=\'\';">Career English</a>'];
+  parts.push('<span class="sep">/</span><a href="#" data-level="'+level.level_number+'">'+esc(level.title)+'</a>');
+  if(mod) parts.push('<span class="sep">/</span><span>'+esc(mod.title)+'</span>');
+  return '<div class="crumb">'+parts.join("")+'</div>';
+}
+
+function statusPill(status){
+  if(status==="CONTENT_APPROVED") return '<span class="pill good">✓ Approved</span>';
+  var label = status==="DRAFT" ? "Draft — pending review" : (status||"Unmarked");
+  return '<span class="pill warn">'+esc(label)+'</span>';
+}
+
+function reviewToggleHtml(key){
+  var checked = reviewed[key] ? "checked" : "";
+  return '<label class="review-chk"><input type="checkbox" id="reviewChk" '+checked+'> Mark reviewed</label>';
+}
+
+function pagerHtml(entry){
+  var idx = FLOW.indexOf(entry);
+  var prev = idx>0 ? FLOW[idx-1] : null;
+  var next = idx<FLOW.length-1 ? FLOW[idx+1] : null;
+  var html = '<div class="reader-pager">';
+  html += prev ? '<a href="#'+prev.key+'"><span class="lbl">← Previous</span><span class="tt">'+esc(prev.ref.title)+'</span></a>' : '<span></span>';
+  html += next ? '<a href="#'+next.key+'"><span class="lbl">Next →</span><span class="tt">'+esc(next.ref.title)+'</span></a>' : '<span></span>';
+  html += '</div>';
+  return html;
+}
+
+function renderLesson(level, mod, lesson){
+  var lc = lv(level.level_number);
+  var html = '<div '+levelColorVars(level.level_number)+'>';
+  html += crumbHtml(level, mod);
+  html += '<span class="eyebrow">'+esc(lesson.lesson_id)+(lesson.estimated_minutes?' · ~'+lesson.estimated_minutes+' min':'')+'</span>';
+  html += '<h1>'+esc(lesson.title)+'</h1>';
+  html += '<div class="reader-meta">'+statusPill(lesson.content_track_status)+reviewToggleHtml(lesson.lesson_id)+'</div>';
+  if(lesson.objectives_html){
+    html += '<div class="obj-box"><h2>What you\'ll learn</h2><ul>'+lesson.objectives_html+'</ul></div>';
+  }
+  html += '<div class="reader-body">'+lesson.body_html+'</div>';
+  if(lesson.practice_html){
+    html += lesson.practice_html;
+  }
+  var entry = BYKEY[lesson.lesson_id];
+  html += pagerHtml(entry);
+  html += '</div>';
+  $("#reader").innerHTML = html;
+  wireCrumbLevelLinks();
+  wireReviewToggle(lesson.lesson_id);
+}
+
+function renderSpecial(level, item, kind){
+  var html = '<div '+levelColorVars(level.level_number)+'>';
+  html += crumbHtml(level, null);
+  var tag = kind==="capstone" ? "Capstone" : "Level Assessment";
+  html += '<span class="eyebrow">'+esc(item.id)+(item.estimated_minutes?' · ~'+item.estimated_minutes+' min':'')+' · '+tag+'</span>';
+  html += '<h1>'+esc(item.title)+'</h1>';
+  html += '<div class="reader-meta">'+statusPill(item.content_track_status)+reviewToggleHtml(item.id)+'</div>';
+  if(item.objectives_html){
+    html += '<div class="obj-box"><h2>What you\'ll learn</h2><ul>'+item.objectives_html+'</ul></div>';
+  }
+  html += '<div class="reader-body">'+item.body_html+'</div>';
+  if(item.practice_html){
+    html += item.practice_html;
+  }
+  var entry = BYKEY[item.id];
+  html += pagerHtml(entry);
+  html += '</div>';
+  $("#reader").innerHTML = html;
+  wireCrumbLevelLinks();
+  wireReviewToggle(item.id);
+}
+
+function wireReviewToggle(key){
+  var chk = $("#reviewChk");
+  if(!chk) return;
+  chk.addEventListener("change", function(){
+    if(chk.checked) reviewed[key] = true; else delete reviewed[key];
+    saveReviewed();
+    updateProgress();
+    markActive();
+    var leaf = document.querySelector('.sb-leaf[data-key="'+key+'"] .dot');
+    if(leaf){ leaf.classList.toggle("done", !!reviewed[key]); leaf.classList.toggle("draft", !reviewed[key]); }
+  });
+}
+
+function wireCrumbLevelLinks(){
+  document.querySelectorAll(".crumb a[data-level]").forEach(function(a){
+    a.addEventListener("click", function(e){
+      e.preventDefault();
+      renderLevelIndex(parseInt(a.dataset.level,10));
+    });
+  });
+}
+
+function renderLevelIndex(levelNumber){
+  var level = DATA[levelNumber-1];
+  var lc = lv(levelNumber);
+  history.replaceState(null,"","#");
+  currentKey = null; markActive();
+  var html = '<div '+levelColorVars(levelNumber)+'>';
+  html += '<div class="crumb"><a href="#" onclick="event.preventDefault(); location.hash=\'\';">Career English</a></div>';
+  html += '<span class="eyebrow">Level '+levelNumber+'</span><h1>'+esc(level.title)+'</h1><hr class="gold-rule">';
+  html += '<div class="cardgrid">';
+  level.modules.forEach(function(mod, mi){
+    html += '<button class="idx-card" data-mod="'+mi+'"><div class="top"><h3>Module '+(mi+1)+' · '+esc(mod.title)+'</h3>'+
+      (mod.curriculum_status==="PRODUCED" ? '<span class="pill good">Produced</span>' : '<span class="pill muted">'+esc(mod.curriculum_status)+'</span>')+
+      '</div>'+(mod.purpose? '<p>'+esc(mod.purpose.slice(0,150))+(mod.purpose.length>150?"…":"")+'</p>':'')+
+      '<div class="meta"><span>'+mod.lessons.length+' lessons</span></div></button>';
+  });
+  if(level.assessment){
+    html += '<button class="idx-card" data-key="'+level.assessment.id+'"><div class="top"><h3>★ Level Assessment</h3><span class="pill muted">~'+level.assessment.estimated_minutes+' min</span></div><p>'+esc(level.assessment.title)+'</p></button>';
+  }
+  if(level.capstone){
+    html += '<button class="idx-card" data-key="'+level.capstone.id+'"><div class="top"><h3>◆ Capstone · '+esc(level.capstone.title)+'</h3><span class="pill muted">~'+level.capstone.estimated_minutes+' min</span></div><p>One continuous simulation drawing on everything in this level.</p></button>';
+  }
+  html += '</div></div>';
+  $("#reader").innerHTML = html;
+  $("#topbarTitle").textContent = level.title;
+  document.querySelectorAll(".idx-card[data-mod]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var mi = parseInt(btn.dataset.mod,10);
+      var firstLesson = level.modules[mi].lessons[0];
+      if(firstLesson) goTo(firstLesson.lesson_id);
+    });
+  });
+  document.querySelectorAll(".idx-card[data-key]").forEach(function(btn){
+    btn.addEventListener("click", function(){ goTo(btn.dataset.key); });
+  });
+}
+
+function renderBackCover(){
+  currentKey = "back-cover"; markActive();
+  var html = '<div class="backcover-page">';
+  html += '<div class="crumb"><a href="#" onclick="event.preventDefault(); location.hash=\'\';">Career English</a><span class="sep">/</span><span>Back Cover</span></div>';
+  html += '<span class="eyebrow">About the Author</span><h1>The Back of the Book</h1>';
+  html += '<div class="backcover-frame"><img src="back-cover.jpg" alt="Career English back cover — about the author, Hedai Tullah"></div>';
+  html += '<div class="backcover-actions">';
+  html += '<button class="cover-cta" id="restartBtn" type="button">Restart from Lesson 1 ↺</button>';
+  html += '<a href="#" class="backcover-home" onclick="event.preventDefault(); location.hash=\'\';">← Back to table of contents</a>';
+  html += '</div>';
+  var entry = BYKEY["back-cover"];
+  html += pagerHtml(entry);
+  html += '</div>';
+  $("#reader").innerHTML = html;
+  $("#restartBtn").addEventListener("click", function(){ goTo(FLOW[0].key); });
+}
+
+function renderCover(){
+  currentKey = null; markActive();
+  var html = '<div class="cover-screen">';
+  html += '<div class="cover-hero"><div class="cover-art"><img src="front-cover.jpg" alt="Career English book cover" loading="lazy"></div>';
+  html += '<div class="cover-text"><span class="eyebrow">Hidayet English Academy</span><h1>Career English</h1>';
+  html += '<p class="lede" style="color:var(--muted); font-size:16px;">Professional English for the Real Workplace — a five-level course taking a learner from their first day at work to leading with confidence, built around Arif\'s story across 40 modules and 186 lessons.</p>';
+  html += '<button class="cover-cta" id="startBtn">Start reading →</button></div></div>';
+  html += '<div class="notice"><strong>Review build.</strong> This is the full manuscript in one interactive dashboard so it can be checked page by page. Most lessons are still flagged draft inside the production pipeline, and audio narration / lesson illustrations haven\'t been produced yet — text, dialogue, and practice activities are what\'s here today.</div>';
+  html += '<div class="level-grid">';
+  DATA.forEach(function(level){
+    var lc = lv(level.level_number);
+    html += '<button class="level-card" '+levelColorVars(level.level_number)+' data-level="'+level.level_number+'">'+
+      '<span class="ln">Level '+level.level_number+'</span><h3>'+esc(level.title.replace(/^Level \d+ — /,""))+'</h3>'+
+      '<div class="meta"><span>'+level.modules.length+' modules</span><span>'+lessonCount(level)+' pages</span></div></button>';
+  });
+  html += '</div><div class="backcover-link"><a href="#back-cover">Meet the author &amp; see the back cover →</a></div></div>';
+  $("#reader").innerHTML = html;
+  $("#startBtn").addEventListener("click", function(){ goTo(FLOW[0].key); });
+  document.querySelectorAll(".level-card").forEach(function(btn){
+    btn.addEventListener("click", function(){ renderLevelIndex(parseInt(btn.dataset.level,10)); });
+  });
+}
+
+/* ---------------- mobile drawer ---------------- */
+function wireMobile(){
+  $("#menuBtn").addEventListener("click", function(){
+    $("#sidebar").classList.add("open");
+    $("#scrim").classList.add("show");
+  });
+  $("#sbClose").addEventListener("click", closeSidebarMobile);
+  $("#scrim").addEventListener("click", closeSidebarMobile);
+}
+
+/* ---------------- search ---------------- */
+function wireSearch(){
+  var input = $("#searchInput");
+  var t;
+  input.addEventListener("input", function(){
+    clearTimeout(t);
+    t = setTimeout(function(){ renderSidebar(input.value); }, 90);
+  });
+}
+
+/* ---------------- cinematic intro ---------------- */
+function wireIntro(){
+  var intro = $("#introScreen");
+  if(!intro) return;
+  if(location.hash){ intro.style.display = "none"; return; } // deep link: skip the splash
+  var opened = false;
+  function openBook(){
+    if(opened) return;
+    opened = true;
+    intro.classList.add("opening");
+    var done = false;
+    function finish(){ if(done) return; done = true; intro.style.display = "none"; }
+    intro.addEventListener("transitionend", finish, {once:true});
+    setTimeout(finish, 1300);
+  }
+  $("#openBookBtn").addEventListener("click", openBook);
+}
+
+/* ---------------- boot ---------------- */
+function boot(data){
+  DATA = data;
+  buildFlow();
+  loadReviewed();
+  initTheme();
+  wireMobile();
+  wireSearch();
+  renderSidebar("");
+  updateProgress();
+  render(location.hash.replace(/^#/,""));
+}
+
+wireIntro();
+fetch("book-data.json").then(function(r){ return r.json(); }).then(boot).catch(function(err){
+  $("#reader").innerHTML = '<div class="notice"><strong>Could not load book data.</strong> '+esc(err&&err.message||String(err))+'</div>';
+});
+
+})();
+</script>
+
+</body>
+</html>
