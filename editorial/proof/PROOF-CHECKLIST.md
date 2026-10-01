@@ -44,44 +44,44 @@ Columns:
 | CE-L01-M07-L04 | L1 7.4 | Tone, Hierarchy and Respect at Work | 157–161 | run, no flags | Batch 1 (complete) | 0 | Pending | n/a | No |
 | CE-L01-ASSESSMENT | L1 assessment | Level 1 Assessment | 162–167 | run, no flags | Batch 1 (complete) | 1 | Pending | n/a | No |
 | CE-L01-CAPSTONE | L1 capstone | Your First Weeks at Work | 168–175 | run, no flags | Batch 1 (complete) | 0 | Pending | n/a | No |
-| CE-L02-M01-L01 | L2 1.1 | Giving a Clear Status Update | 178–181 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M01-L02 | L2 1.2 | Reporting Problems and Delays | 182–185 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M01-L03 | L2 1.3 | Matching Update Detail to Your Audience | 186–189 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M01-L04 | L2 1.4 | The Standup Habit | 190–193 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M02-L01 | L2 2.1 | Requests with Conditions and Trade-offs | 195–198 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M02-L02 | L2 2.2 | Turning Down a Request Without Damaging the Relationship | 199–202 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M02-L03 | L2 2.3 | Negotiating Timing and Scope | 203–206 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M02-L04 | L2 2.4 | Relaying a Request Between People | 207–210 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M02-L05 | L2 2.5 | Written Requests: Short and Clear | 211–214 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M03-L01 | L2 3.1 | Answering and Identifying Yourself | 216–219 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M03-L02 | L2 3.2 | Taking a Message Accurately | 220–223 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M03-L03 | L2 3.3 | Asking Someone to Repeat or Slow Down | 224–227 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M03-L04 | L2 3.4 | Putting Someone on Hold and Transferring | 228–231 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M03-L05 | L2 3.5 | Handling a Difficult or Unclear Caller & Ending the Call | 232–235 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M04-L01 | L2 4.1 | Chat Register: How Chat Differs from Email and Speech | 237–240 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M04-L02 | L2 4.2 | Writing Clear, Short Work Messages | 241–244 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M04-L03 | L2 4.3 | Marking Urgency and Asking for a Quick Reply | 245–248 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M04-L04 | L2 4.4 | Reading the Room in Group Chats | 249–252 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M04-L05 | L2 4.5 | Message, Call, or Talk in Person? | 253–256 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M05-L01 | L2 5.1 | A Real Apology vs. a Weak One | 258–261 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M05-L02 | L2 5.2 | Apologizing for Your Own Mistake | 262–265 | run; text outside margin ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M05-L03 | L2 5.3 | Thanking Someone Specifically and Sincerely | 266–269 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M05-L04 | L2 5.4 | Apologizing on Behalf of the Team | 270–273 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M06-L01 | L2 6.1 | The Follow-Up Habit: Why and When | 275–278 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M06-L02 | L2 6.2 | Writing a Polite Follow-Up Message | 279–282 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M06-L03 | L2 6.3 | Following Up Without Sounding Pushy | 283–286 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M06-L04 | L2 6.4 | Closing the Loop | 287–290 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M07-L01 | L2 7.1 | Greeting and Welcoming a Customer | 292–296 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M07-L02 | L2 7.2 | Answering Simple Customer Questions Clearly | 297–300 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M07-L03 | L2 7.3 | "I Don't Know" — But I'll Find Out | 301–304 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M07-L04 | L2 7.4 | Handling a Simple Complaint (Non-Escalated) | 305–308 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M07-L05 | L2 7.5 | Closing a Customer Interaction Well | 309–312 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M08-L01 | L2 8.1 | Punctuality and Time Norms at Work | 314–317 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M08-L02 | L2 8.2 | Digital Etiquette and Confidentiality Basics | 318–322 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M08-L03 | L2 8.3 | Hierarchy, Titles, and Respectful Address | 323–326 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-M08-L04 | L2 8.4 | Putting It All Together: A Full Workday | 327–330 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-ASSESSMENT | L2 assessment | Level 2 Assessment | 331–338 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L02-CAPSTONE | L2 capstone | A Normal Week | 339–347 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
+| CE-L02-M01-L01 | L2 1.1 | Giving a Clear Status Update | 178–181 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M01-L02 | L2 1.2 | Reporting Problems and Delays | 182–185 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M01-L03 | L2 1.3 | Matching Update Detail to Your Audience | 186–189 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-M01-L04 | L2 1.4 | The Standup Habit | 190–193 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-M02-L01 | L2 2.1 | Requests with Conditions and Trade-offs | 195–198 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M02-L02 | L2 2.2 | Turning Down a Request Without Damaging the Relationship | 199–202 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M02-L03 | L2 2.3 | Negotiating Timing and Scope | 203–206 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M02-L04 | L2 2.4 | Relaying a Request Between People | 207–210 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M02-L05 | L2 2.5 | Written Requests: Short and Clear | 211–214 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-M03-L01 | L2 3.1 | Answering and Identifying Yourself | 216–219 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-M03-L02 | L2 3.2 | Taking a Message Accurately | 220–223 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M03-L03 | L2 3.3 | Asking Someone to Repeat or Slow Down | 224–227 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M03-L04 | L2 3.4 | Putting Someone on Hold and Transferring | 228–231 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M03-L05 | L2 3.5 | Handling a Difficult or Unclear Caller & Ending the Call | 232–235 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M04-L01 | L2 4.1 | Chat Register: How Chat Differs from Email and Speech | 237–240 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M04-L02 | L2 4.2 | Writing Clear, Short Work Messages | 241–244 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M04-L03 | L2 4.3 | Marking Urgency and Asking for a Quick Reply | 245–248 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M04-L04 | L2 4.4 | Reading the Room in Group Chats | 249–252 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-M04-L05 | L2 4.5 | Message, Call, or Talk in Person? | 253–256 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M05-L01 | L2 5.1 | A Real Apology vs. a Weak One | 258–261 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M05-L02 | L2 5.2 | Apologizing for Your Own Mistake | 262–265 | run; text outside margin ×2 | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M05-L03 | L2 5.3 | Thanking Someone Specifically and Sincerely | 266–269 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M05-L04 | L2 5.4 | Apologizing on Behalf of the Team | 270–273 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M06-L01 | L2 6.1 | The Follow-Up Habit: Why and When | 275–278 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M06-L02 | L2 6.2 | Writing a Polite Follow-Up Message | 279–282 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M06-L03 | L2 6.3 | Following Up Without Sounding Pushy | 283–286 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M06-L04 | L2 6.4 | Closing the Loop | 287–290 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M07-L01 | L2 7.1 | Greeting and Welcoming a Customer | 292–296 | run, no flags | Batch 2 (complete) | 2 | Pending | n/a | No |
+| CE-L02-M07-L02 | L2 7.2 | Answering Simple Customer Questions Clearly | 297–300 | run, no flags | Batch 2 (complete) | 2 | Pending | n/a | No |
+| CE-L02-M07-L03 | L2 7.3 | "I Don't Know" — But I'll Find Out | 301–304 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M07-L04 | L2 7.4 | Handling a Simple Complaint (Non-Escalated) | 305–308 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M07-L05 | L2 7.5 | Closing a Customer Interaction Well | 309–312 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M08-L01 | L2 8.1 | Punctuality and Time Norms at Work | 314–317 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M08-L02 | L2 8.2 | Digital Etiquette and Confidentiality Basics | 318–322 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M08-L03 | L2 8.3 | Hierarchy, Titles, and Respectful Address | 323–326 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-M08-L04 | L2 8.4 | Putting It All Together: A Full Workday | 327–330 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
+| CE-L02-ASSESSMENT | L2 assessment | Level 2 Assessment | 331–338 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
+| CE-L02-CAPSTONE | L2 capstone | A Normal Week | 339–347 | run, no flags | Batch 2 (complete) | 2 | Pending | n/a | No |
 | CE-L03-M01-L01 | L3 1.1 | Anatomy of a Professional Email | 350–355 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L03-M01-L02 | L3 1.2 | Making Requests and Sharing Information | 356–359 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L03-M01-L03 | L3 1.3 | Following Up, Reminding, and Confirming | 360–364 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
@@ -210,4 +210,4 @@ Columns:
 | CE-L05-CAPSTONE | L5 capstone | The Handover | 1058–1069 | run; British spelling ×2 | Not yet reviewed | 0 | Pending | n/a | No |
 | index | — | Reference Index and back cover | 1070–1104 | run | Not yet reviewed | 0 | Pending | n/a | No |
 
-Editorial review: 32 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
+Editorial review: 70 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
