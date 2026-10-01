@@ -12,6 +12,8 @@ lessons must stay consistent with.
 | Level 2: M01–M08, assessment, capstone | done |
 | Level 3: M01–M09, assessment, capstone | done |
 | Level 4: M01–M08, assessment, capstone | done |
+| Level 5: M01–M08, assessment, capstone | done |
+| Module purposes (40), US spelling, Bengali/Hindi tagging, exercise labels | done |
 
 ## Book-wide decisions
 
@@ -37,6 +39,9 @@ lessons must stay consistent with.
 - Meridian Partners (Ms. Elena Cruz): first conference in Level 3; about a year later (L4 M08) a two-year renewal, extended to three years in 8.5. Do not call the relationship "three years old".
 - Contract (L4 8.2): three original meeting rooms plus two new ones, four days, this year's per-room rate.
 - Bengal Textile linen contract: first negotiated in L4 Module 1; renewed a year later in the L4 capstone (8%, two years).
+- Arif's hotel: Riverside Hotel (Level 5; the Riverside Room in Level 2). The Level 2 supplier is Delta Linens; the Level 4 linen source is "our sister property downtown".
+- Level 5 team: Rima (newer; guest relations; Guest Relations Lead track), Hasan (experienced; owns the roster in the capstone), Farhan (front office; events liaison; escalation goal in M02). Priyanka resigns in L5 7.6.
+- Self-check-in: Level 4 installed one lobby kiosk; Level 5 M06 extends self-check-in (pilot for returning guests); the capstone's mobile check-in pilot is its first step.
 - Level 1 timeline: Arif's first weeks; capstone is "several weeks into the job".
 
 ## Book-wide follow-ups (after all levels are read)

@@ -98,3 +98,72 @@ rule("continuity-scenario-label", r"\(this (module|lesson)'s continuity scenario
      "Production language ('continuity scenario') in industry-overlay labels.", "production", fields=("body_html",))
 rule("scene-underscore-labels", r"Scene_([ab])", lambda m: "Scene " + m.group(1).upper(),
      "Conversion artifact ('Scene_a') in answer keys.", "typography", fields=("practice_html", "body_html"))
+
+rule("remove-empty-bengali-hindi-sections",
+     r"<h2>Bengali/Hindi [Ss]upport</h2>\s*<p><em>\(none for this lesson[^)]*\)</em></p>\s*", "",
+     "Sections that existed only to say there was no Bengali/Hindi note 'per the curriculum map'. "
+     "How to Use This Book explains that not every lesson uses every section.",
+     "production", fields=("body_html",), flags=16)
+
+rule("remove-empty-overlay-sections-2",
+     r"<h2>Industry [Oo]verlays</h2>\s*<p>(?:<em>\(none for this lesson[^)]*\)</em>|Example variety only, per the curriculum map\.)</p>\s*", "",
+     "Industry Overlays sections whose only content was an internal note ('Example variety only, per the curriculum map').",
+     "production", fields=("body_html",), flags=16)
+
+def _cap_after(m):
+    return m.group(1).upper()
+
+rule("overlay-curriculum-note",
+     r"Example variety only(?:, per the curriculum map| for this lesson)? — (\w)", _cap_after,
+     "Internal production note ('Example variety only, per the curriculum map') removed from the start of the overlay text.",
+     "production", fields=("body_html",))
+
+rule("parallel-contexts-curriculum-note", r"contexts, per the curriculum map — ", "contexts — ",
+     "Internal production note ('per the curriculum map') removed.", "production", fields=("body_html",), expect=1)
+
+_US = {"organis": "organiz", "Organis": "Organiz", "apologis": "apologiz", "Apologis": "Apologiz", "sceptic": "skeptic",
+       "finalis": "finaliz", "recognis": "recogniz", "behaviour": "behavior", "labelled": "labeled", "centre": "center",
+       "practis": "practic", "enquir": "inquir"}
+
+rule("us-spelling", r"\b(?:" + "|".join(_US) + r")", lambda m: _US[m.group(0)],
+     "The book uses American spelling throughout; British spellings that crept into corrected text are normalised.",
+     "typography", fields=("body_html", "practice_html", "objectives_html", "purpose"))
+
+rule("listening-comprehension-label", r'exercise-type">Listening Comprehension<', 'exercise-type">Comprehension<',
+     "No audio recordings exist yet; every one of these prompts now asks the reader to read the text (or hear a partner read it), so the label no longer promises listening.",
+     "audio", fields=("practice_html",), expect=13)
+
+
+def _tag_indic(m):
+    """Wrap Bengali / Devanagari runs that sit outside any bn/hi span, so they get the right font and lang."""
+    import re as _re
+    html = m.group(0)
+    out, stack = [], []
+    for part in _re.split(r"(<[^>]+>)", html):
+        if part.startswith("<"):
+            tag = _re.match(r"</?\s*(\w+)", part)
+            if tag and tag.group(1) == "span":
+                if part.startswith("</"):
+                    if stack:
+                        stack.pop()
+                else:
+                    cls = _re.search(r'class="([^"]*)"', part)
+                    stack.append(cls.group(1) if cls else "")
+            out.append(part)
+        elif any(c in ("bn", "hi") for c in stack):
+            out.append(part)
+        else:
+            part = _re.sub(r"[\u0980-\u09FF]+(?:[ \u0980-\u09FF]*[\u0980-\u09FF])?", lambda x: f'<span class="bn">{x.group(0)}</span>', part)
+            part = _re.sub(r"[\u0900-\u0963\u0966-\u097F]+(?:[ \u0900-\u0963\u0966-\u097F]*[\u0900-\u0963\u0966-\u097F])?", lambda x: f'<span class="hi">{x.group(0)}</span>', part)
+            out.append(part)
+    return "".join(out)
+
+
+rule("tag-inline-bengali-hindi", r"(?s)\A.*\Z", _tag_indic,
+     "Bengali and Hindi words quoted inside English sentences had no language tag, so they could not get the Bengali/Hindi font or lang attribute.",
+     "l1-support", fields=("body_html", "practice_html"),
+     targets=["CE-L01-M01-L03", "CE-L01-M02-L01", "CE-L01-M02-L04", "CE-L03-M07-L01", "CE-L03-M08-L03"])
+
+rule("danda-language-tag", r'<span class="hi">।</span>', "।",
+     "The Bengali full stop (danda, ।) was tagged as Hindi in the middle of Bengali sentences; it is shared punctuation and now takes the surrounding language.",
+     "l1-support", fields=("body_html", "practice_html"), expect=18)

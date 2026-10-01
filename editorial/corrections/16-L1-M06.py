@@ -48,3 +48,6 @@ fix(L, '<td>"Got it."</td>\n<td>Module 4</td>', '<td>"Got it."</td>\n<td>Module 
 fix(L, '<p><em>These phrases are not re-translated here — each was already glossed in the module where it\nfirst appeared, and repeating the translation would be redundant.</em></p>',
     '<p><em>These are short, fixed phrases: learn each one as a whole, rather than translating it word by word.</em></p>',
     "The note claimed every phrase had been translated earlier, which was not true.", "l1-support")
+
+fix("CE-L01-M06-L03", "Listen to (read) this schedule announcement and answer:", "Read this schedule announcement (or have someone read it aloud) and answer:",
+    "No audio exists for this announcement.", "audio")
