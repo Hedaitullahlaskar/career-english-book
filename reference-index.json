@@ -1,0 +1,8447 @@
+{
+ "types": {
+  "V": "Vocabulary",
+  "PAT": "Sentence patterns",
+  "GIC": "Grammar in context",
+  "CF": "Communication formulas",
+  "TL": "Career English Upgrade Ladders",
+  "MIS": "Common mistakes",
+  "TIP": "Tips",
+  "P": "Useful phrases"
+ },
+ "codes": {
+  "V-0001": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "professional",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "V-0002": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "punctual",
+   "uses": [
+    "CE-L01-M01-L01",
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0003": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "respectful",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "V-0004": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "expectation",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "V-0005": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "behavior",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "V-0006": {
+   "type": "V",
+   "home": "CE-L01-M01-L01",
+   "label": "workplace culture",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "V-0007": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "background",
+   "uses": [
+    "CE-L01-M01-L02",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "V-0008": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "experience",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0009": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "previously",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0010": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "currently",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0011": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "graduate",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0012": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "degree",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0013": {
+   "type": "V",
+   "home": "CE-L01-M01-L02",
+   "label": "training",
+   "uses": [
+    "CE-L01-M01-L02"
+   ]
+  },
+  "V-0014": {
+   "type": "V",
+   "home": "CE-L01-M01-L03",
+   "label": "team",
+   "uses": [
+    "CE-L01-M01-L03"
+   ]
+  },
+  "V-0015": {
+   "type": "V",
+   "home": "CE-L01-M01-L03",
+   "label": "department",
+   "uses": [
+    "CE-L01-M01-L03",
+    "CE-L01-M01-L04",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0016": {
+   "type": "V",
+   "home": "CE-L01-M01-L03",
+   "label": "report to",
+   "uses": [
+    "CE-L01-M01-L03",
+    "CE-L01-M01-L04"
+   ]
+  },
+  "V-0017": {
+   "type": "V",
+   "home": "CE-L01-M01-L04",
+   "label": "responsible for",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0018": {
+   "type": "V",
+   "home": "CE-L01-M01-L04",
+   "label": "colleague",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0019": {
+   "type": "V",
+   "home": "CE-L01-M01-L04",
+   "label": "team lead",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0020": {
+   "type": "V",
+   "home": "CE-L01-M01-L04",
+   "label": "manager",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0021": {
+   "type": "V",
+   "home": "CE-L01-M01-L04",
+   "label": "supervisor",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M01-L05",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0101": {
+   "type": "V",
+   "home": "CE-L01-M02-L01",
+   "label": "reception",
+   "uses": [
+    "CE-L01-M02-L01",
+    "CE-L01-M06-L01",
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0102": {
+   "type": "V",
+   "home": "CE-L01-M02-L01",
+   "label": "badge",
+   "uses": [
+    "CE-L01-M02-L01"
+   ]
+  },
+  "V-0103": {
+   "type": "V",
+   "home": "CE-L01-M02-L01",
+   "label": "sign in",
+   "uses": [
+    "CE-L01-M02-L01"
+   ]
+  },
+  "V-0104": {
+   "type": "V",
+   "home": "CE-L01-M02-L01",
+   "label": "orientation",
+   "uses": [
+    "CE-L01-M02-L01"
+   ]
+  },
+  "V-0105": {
+   "type": "V",
+   "home": "CE-L01-M02-L01",
+   "label": "colleague",
+   "uses": [
+    "CE-L01-M02-L01",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0106": {
+   "type": "V",
+   "home": "CE-L01-M02-L02",
+   "label": "team lead",
+   "uses": [
+    "CE-L01-M02-L02",
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0107": {
+   "type": "V",
+   "home": "CE-L01-M02-L02",
+   "label": "to settle in",
+   "uses": [
+    "CE-L01-M02-L02"
+   ]
+  },
+  "V-0108": {
+   "type": "V",
+   "home": "CE-L01-M02-L02",
+   "label": "Front Office (dept",
+   "uses": [
+    "CE-L01-M02-L02"
+   ]
+  },
+  "V-0109": {
+   "type": "V",
+   "home": "CE-L01-M02-L03",
+   "label": "huddle",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "V-0110": {
+   "type": "V",
+   "home": "CE-L01-M02-L03",
+   "label": "email signature",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "V-0111": {
+   "type": "V",
+   "home": "CE-L01-M02-L03",
+   "label": "to flag (something",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "V-0112": {
+   "type": "V",
+   "home": "CE-L01-M02-L03",
+   "label": "client list",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "V-0113": {
+   "type": "V",
+   "home": "CE-L01-M02-L04",
+   "label": "hallway",
+   "uses": [
+    "CE-L01-M02-L04",
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0114": {
+   "type": "V",
+   "home": "CE-L01-M02-L04",
+   "label": "washroom",
+   "uses": [
+    "CE-L01-M02-L04",
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0115": {
+   "type": "V",
+   "home": "CE-L01-M02-L04",
+   "label": "break room",
+   "uses": [
+    "CE-L01-M02-L04",
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0116": {
+   "type": "V",
+   "home": "CE-L01-M03-L01",
+   "label": "sir / ma'am",
+   "uses": [
+    "CE-L01-M03-L01"
+   ]
+  },
+  "V-0117": {
+   "type": "V",
+   "home": "CE-L01-M03-L02",
+   "label": "busy",
+   "uses": [
+    "CE-L01-M03-L02"
+   ]
+  },
+  "V-0118": {
+   "type": "V",
+   "home": "CE-L01-M03-L02",
+   "label": "quiet",
+   "uses": [
+    "CE-L01-M03-L02"
+   ]
+  },
+  "V-0119": {
+   "type": "V",
+   "home": "CE-L01-M03-L02",
+   "label": "weekend",
+   "uses": [
+    "CE-L01-M03-L02"
+   ]
+  },
+  "V-0120": {
+   "type": "V",
+   "home": "CE-L01-M03-L02",
+   "label": "commute",
+   "uses": [
+    "CE-L01-M03-L02"
+   ]
+  },
+  "V-0121": {
+   "type": "V",
+   "home": "CE-L01-M03-L03",
+   "label": "appropriate",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "V-0122": {
+   "type": "V",
+   "home": "CE-L01-M03-L03",
+   "label": "inappropriate",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "V-0123": {
+   "type": "V",
+   "home": "CE-L01-M03-L03",
+   "label": "personal",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "V-0124": {
+   "type": "V",
+   "home": "CE-L01-M03-L03",
+   "label": "sensitive topic",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "V-0125": {
+   "type": "V",
+   "home": "CE-L01-M03-L03",
+   "label": "redirect",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "V-0126": {
+   "type": "V",
+   "home": "CE-L01-M03-L04",
+   "label": "catch up",
+   "uses": [
+    "CE-L01-M03-L04"
+   ]
+  },
+  "V-0127": {
+   "type": "V",
+   "home": "CE-L01-M03-L04",
+   "label": "get back to it",
+   "uses": [
+    "CE-L01-M03-L04"
+   ]
+  },
+  "V-0128": {
+   "type": "V",
+   "home": "CE-L01-M04-L01",
+   "label": "key information",
+   "uses": [
+    "CE-L01-M04-L01"
+   ]
+  },
+  "V-0129": {
+   "type": "V",
+   "home": "CE-L01-M04-L01",
+   "label": "note down",
+   "uses": [
+    "CE-L01-M04-L01"
+   ]
+  },
+  "V-0130": {
+   "type": "V",
+   "home": "CE-L01-M04-L01",
+   "label": "task",
+   "uses": [
+    "CE-L01-M04-L01",
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0131": {
+   "type": "V",
+   "home": "CE-L01-M04-L01",
+   "label": "action item",
+   "uses": [
+    "CE-L01-M04-L01"
+   ]
+  },
+  "V-0132": {
+   "type": "V",
+   "home": "CE-L01-M04-L02",
+   "label": "confirm",
+   "uses": [
+    "CE-L01-M04-L02"
+   ]
+  },
+  "V-0133": {
+   "type": "V",
+   "home": "CE-L01-M04-L02",
+   "label": "restate",
+   "uses": [
+    "CE-L01-M04-L02"
+   ]
+  },
+  "V-0134": {
+   "type": "V",
+   "home": "CE-L01-M04-L02",
+   "label": "to make sure",
+   "uses": [
+    "CE-L01-M04-L02"
+   ]
+  },
+  "V-0135": {
+   "type": "V",
+   "home": "CE-L01-M04-L03",
+   "label": "priority",
+   "uses": [
+    "CE-L01-M04-L03",
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0136": {
+   "type": "V",
+   "home": "CE-L01-M04-L03",
+   "label": "urgent",
+   "uses": [
+    "CE-L01-M04-L03",
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0137": {
+   "type": "V",
+   "home": "CE-L01-M04-L03",
+   "label": "by end of day (EOD",
+   "uses": [
+    "CE-L01-M04-L03",
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0138": {
+   "type": "V",
+   "home": "CE-L01-M04-L03",
+   "label": "whenever you get a chance",
+   "uses": [
+    "CE-L01-M04-L03"
+   ]
+  },
+  "V-0139": {
+   "type": "V",
+   "home": "CE-L01-M04-L04",
+   "label": "clarify",
+   "uses": [
+    "CE-L01-M04-L04"
+   ]
+  },
+  "V-0140": {
+   "type": "V",
+   "home": "CE-L01-M04-L04",
+   "label": "the last part",
+   "uses": [
+    "CE-L01-M04-L04"
+   ]
+  },
+  "V-0141": {
+   "type": "V",
+   "home": "CE-L01-M04-L04",
+   "label": "what exactly",
+   "uses": [
+    "CE-L01-M04-L04"
+   ]
+  },
+  "V-0142": {
+   "type": "V",
+   "home": "CE-L01-M05-L01",
+   "label": "repeat",
+   "uses": [
+    "CE-L01-M05-L01"
+   ]
+  },
+  "V-0143": {
+   "type": "V",
+   "home": "CE-L01-M05-L01",
+   "label": "explain differently",
+   "uses": [
+    "CE-L01-M05-L01"
+   ]
+  },
+  "V-0144": {
+   "type": "V",
+   "home": "CE-L01-M05-L01",
+   "label": "one more time",
+   "uses": [
+    "CE-L01-M05-L01"
+   ]
+  },
+  "V-0145": {
+   "type": "V",
+   "home": "CE-L01-M05-L02",
+   "label": "specifically",
+   "uses": [
+    "CE-L01-M05-L02"
+   ]
+  },
+  "V-0146": {
+   "type": "V",
+   "home": "CE-L01-M05-L02",
+   "label": "do you mean",
+   "uses": [
+    "CE-L01-M05-L02"
+   ]
+  },
+  "V-0147": {
+   "type": "V",
+   "home": "CE-L01-M05-L02",
+   "label": "just to check",
+   "uses": [
+    "CE-L01-M05-L02"
+   ]
+  },
+  "V-0148": {
+   "type": "V",
+   "home": "CE-L01-M05-L03",
+   "label": "quick question",
+   "uses": [
+    "CE-L01-M05-L03"
+   ]
+  },
+  "V-0149": {
+   "type": "V",
+   "home": "CE-L01-M05-L03",
+   "label": "do you have a moment",
+   "uses": [
+    "CE-L01-M05-L03"
+   ]
+  },
+  "V-0150": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "HR",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0151": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "front desk",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0152": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "housekeeping",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0153": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "Accounts",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0154": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "Sales",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0155": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "IT support",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0156": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "customer service",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0157": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "receptionist",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0158": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "intern",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0159": {
+   "type": "V",
+   "home": "CE-L01-M06-L01",
+   "label": "trainee",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "V-0160": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "meeting room",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0161": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "storeroom / warehouse",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0162": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "ID card",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0163": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "computer / laptop",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0164": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "printer",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0165": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "form",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0166": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "file",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0167": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "email",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0168": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "memo",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0169": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "notice board",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0170": {
+   "type": "V",
+   "home": "CE-L01-M06-L02",
+   "label": "register / log",
+   "uses": [
+    "CE-L01-M06-L02"
+   ]
+  },
+  "V-0171": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "shift",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0172": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "roster",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0173": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "on time",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0174": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "late",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0175": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "overtime",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0176": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "deadline",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0177": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "leave",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0178": {
+   "type": "V",
+   "home": "CE-L01-M06-L03",
+   "label": "day off",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "V-0179": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "assignment",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0180": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "complete",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0181": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "in progress",
+   "uses": [
+    "CE-L01-M06-L04",
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0182": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "pending",
+   "uses": [
+    "CE-L01-M06-L04",
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0183": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "delegate",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0184": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "follow up",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0185": {
+   "type": "V",
+   "home": "CE-L01-M06-L04",
+   "label": "backlog",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "V-0186": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "submit",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0187": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "update",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0188": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "review",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0189": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "escalate",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0190": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "notify",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0191": {
+   "type": "V",
+   "home": "CE-L01-M06-L05",
+   "label": "coordinate",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "V-0192": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "tone",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0193": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "rude",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0194": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "casual",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0195": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "passive",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0196": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "confident",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0197": {
+   "type": "V",
+   "home": "CE-L01-M07-L01",
+   "label": "respectful",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "V-0198": {
+   "type": "V",
+   "home": "CE-L01-M07-L02",
+   "label": "would you mind",
+   "uses": [
+    "CE-L01-M07-L02"
+   ]
+  },
+  "V-0199": {
+   "type": "V",
+   "home": "CE-L01-M07-L02",
+   "label": "when you get a chance",
+   "uses": [
+    "CE-L01-M07-L02"
+   ]
+  },
+  "V-0200": {
+   "type": "V",
+   "home": "CE-L01-M07-L03",
+   "label": "I'm not able to",
+   "uses": [
+    "CE-L01-M07-L03"
+   ]
+  },
+  "V-0201": {
+   "type": "V",
+   "home": "CE-L05-M01-L01",
+   "label": "hand off (to someone",
+   "uses": [
+    "CE-L05-M01-L01"
+   ]
+  },
+  "V-0202": {
+   "type": "V",
+   "home": "CE-L05-M01-L01",
+   "label": "what done looks like",
+   "uses": [
+    "CE-L05-M01-L01"
+   ]
+  },
+  "V-0203": {
+   "type": "V",
+   "home": "CE-L05-M01-L01",
+   "label": "the context here is",
+   "uses": [
+    "CE-L05-M01-L01"
+   ]
+  },
+  "V-0204": {
+   "type": "V",
+   "home": "CE-L05-M01-L02",
+   "label": "since you've done this before",
+   "uses": [
+    "CE-L05-M01-L02"
+   ]
+  },
+  "V-0205": {
+   "type": "V",
+   "home": "CE-L05-M01-L02",
+   "label": "walk (someone) through (something) in full",
+   "uses": [
+    "CE-L05-M01-L02"
+   ]
+  },
+  "V-0206": {
+   "type": "V",
+   "home": "CE-L05-M01-L02",
+   "label": "I'll trust your judgment on",
+   "uses": [
+    "CE-L05-M01-L02"
+   ]
+  },
+  "V-0207": {
+   "type": "V",
+   "home": "CE-L05-M01-L03",
+   "label": "the goal here is",
+   "uses": [
+    "CE-L05-M01-L03"
+   ]
+  },
+  "V-0208": {
+   "type": "V",
+   "home": "CE-L05-M01-L03",
+   "label": "use your judgment on",
+   "uses": [
+    "CE-L05-M01-L03"
+   ]
+  },
+  "V-0209": {
+   "type": "V",
+   "home": "CE-L05-M01-L03",
+   "label": "figure out the details",
+   "uses": [
+    "CE-L05-M01-L03"
+   ]
+  },
+  "V-0210": {
+   "type": "V",
+   "home": "CE-L05-M02-L01",
+   "label": "a quick note on",
+   "uses": [
+    "CE-L05-M02-L01"
+   ]
+  },
+  "V-0211": {
+   "type": "V",
+   "home": "CE-L05-M02-L01",
+   "label": "something I noticed",
+   "uses": [
+    "CE-L05-M02-L01"
+   ]
+  },
+  "V-0212": {
+   "type": "V",
+   "home": "CE-L05-M02-L01",
+   "label": "worth flagging while it's fresh",
+   "uses": [
+    "CE-L05-M02-L01"
+   ]
+  },
+  "V-0213": {
+   "type": "V",
+   "home": "CE-L05-M02-L02",
+   "label": "let's start with what's going well",
+   "uses": [
+    "CE-L05-M02-L02"
+   ]
+  },
+  "V-0214": {
+   "type": "V",
+   "home": "CE-L05-M02-L02",
+   "label": "an area I'd like to see grow",
+   "uses": [
+    "CE-L05-M02-L02"
+   ]
+  },
+  "V-0215": {
+   "type": "V",
+   "home": "CE-L05-M02-L02",
+   "label": "overall",
+   "uses": [
+    "CE-L05-M02-L02"
+   ]
+  },
+  "V-0216": {
+   "type": "V",
+   "home": "CE-L05-M02-L03",
+   "label": "what would you like to focus on",
+   "uses": [
+    "CE-L05-M02-L03"
+   ]
+  },
+  "V-0217": {
+   "type": "V",
+   "home": "CE-L05-M02-L03",
+   "label": "does that feel achievable",
+   "uses": [
+    "CE-L05-M02-L03"
+   ]
+  },
+  "V-0218": {
+   "type": "V",
+   "home": "CE-L05-M02-L03",
+   "label": "let's check in on this in",
+   "uses": [
+    "CE-L05-M02-L03"
+   ]
+  },
+  "V-0219": {
+   "type": "V",
+   "home": "CE-L05-M02-L04",
+   "label": "this isn't meeting the expectation we set",
+   "uses": [
+    "CE-L05-M02-L04"
+   ]
+  },
+  "V-0220": {
+   "type": "V",
+   "home": "CE-L05-M02-L04",
+   "label": "here's what needs to change",
+   "uses": [
+    "CE-L05-M02-L04"
+   ]
+  },
+  "V-0221": {
+   "type": "V",
+   "home": "CE-L05-M02-L04",
+   "label": "how can I support you in getting there",
+   "uses": [
+    "CE-L05-M02-L04"
+   ]
+  },
+  "V-0222": {
+   "type": "V",
+   "home": "CE-L05-M03-L01",
+   "label": "telling",
+   "uses": [
+    "CE-L05-M03-L01"
+   ]
+  },
+  "V-0223": {
+   "type": "V",
+   "home": "CE-L05-M03-L01",
+   "label": "coaching",
+   "uses": [
+    "CE-L05-M03-L01"
+   ]
+  },
+  "V-0224": {
+   "type": "V",
+   "home": "CE-L05-M03-L01",
+   "label": "developing someone's thinking",
+   "uses": [
+    "CE-L05-M03-L01"
+   ]
+  },
+  "V-0225": {
+   "type": "V",
+   "home": "CE-L05-M03-L02",
+   "label": "what have you already tried",
+   "uses": [
+    "CE-L05-M03-L02"
+   ]
+  },
+  "V-0226": {
+   "type": "V",
+   "home": "CE-L05-M03-L02",
+   "label": "what's your instinct here",
+   "uses": [
+    "CE-L05-M03-L02"
+   ]
+  },
+  "V-0227": {
+   "type": "V",
+   "home": "CE-L05-M03-L02",
+   "label": "what would happen if",
+   "uses": [
+    "CE-L05-M03-L02"
+   ]
+  },
+  "V-0228": {
+   "type": "V",
+   "home": "CE-L05-M04-L01",
+   "label": "the reasoning behind this is",
+   "uses": [
+    "CE-L05-M04-L01",
+    "CE-L05-M06-L02"
+   ]
+  },
+  "V-0229": {
+   "type": "V",
+   "home": "CE-L05-M04-L01",
+   "label": "this connects directly to",
+   "uses": [
+    "CE-L05-M04-L01",
+    "CE-L05-M06-L02"
+   ]
+  },
+  "V-0230": {
+   "type": "V",
+   "home": "CE-L05-M04-L01",
+   "label": "what this means for our team",
+   "uses": [
+    "CE-L05-M04-L01"
+   ]
+  },
+  "V-0231": {
+   "type": "V",
+   "home": "CE-L05-M04-L02",
+   "label": "what's changing",
+   "uses": [
+    "CE-L05-M04-L02"
+   ]
+  },
+  "V-0232": {
+   "type": "V",
+   "home": "CE-L05-M04-L02",
+   "label": "what's staying the same",
+   "uses": [
+    "CE-L05-M04-L02"
+   ]
+  },
+  "V-0233": {
+   "type": "V",
+   "home": "CE-L05-M04-L02",
+   "label": "here's what to expect next",
+   "uses": [
+    "CE-L05-M04-L02"
+   ]
+  },
+  "V-0234": {
+   "type": "V",
+   "home": "CE-L05-M04-L03",
+   "label": "I hear that this is a real concern",
+   "uses": [
+    "CE-L05-M04-L03"
+   ]
+  },
+  "V-0235": {
+   "type": "V",
+   "home": "CE-L05-M04-L03",
+   "label": "let's talk through what's worrying you specifically",
+   "uses": [
+    "CE-L05-M04-L03"
+   ]
+  },
+  "V-0236": {
+   "type": "V",
+   "home": "CE-L05-M04-L03",
+   "label": "this is genuinely hard, and here's why we're still doing it",
+   "uses": [
+    "CE-L05-M04-L03"
+   ]
+  },
+  "V-0237": {
+   "type": "V",
+   "home": "CE-L05-M04-L04",
+   "label": "how is this landing so far",
+   "uses": [
+    "CE-L05-M04-L04"
+   ]
+  },
+  "V-0238": {
+   "type": "V",
+   "home": "CE-L05-M04-L04",
+   "label": "checking in on how the transition is going",
+   "uses": [
+    "CE-L05-M04-L04"
+   ]
+  },
+  "V-0239": {
+   "type": "V",
+   "home": "CE-L05-M05-L01",
+   "label": "as the person leading this",
+   "uses": [
+    "CE-L05-M05-L01"
+   ]
+  },
+  "V-0240": {
+   "type": "V",
+   "home": "CE-L05-M05-L01",
+   "label": "what I need us to walk away with",
+   "uses": [
+    "CE-L05-M05-L01"
+   ]
+  },
+  "V-0241": {
+   "type": "V",
+   "home": "CE-L05-M05-L01",
+   "label": "I'll make the final call on",
+   "uses": [
+    "CE-L05-M05-L01"
+   ]
+  },
+  "V-0242": {
+   "type": "V",
+   "home": "CE-L05-M05-L02",
+   "label": "I hear both sides of this",
+   "uses": [
+    "CE-L05-M05-L02"
+   ]
+  },
+  "V-0243": {
+   "type": "V",
+   "home": "CE-L05-M05-L02",
+   "label": "here's the call I'm making",
+   "uses": [
+    "CE-L05-M05-L02"
+   ]
+  },
+  "V-0244": {
+   "type": "V",
+   "home": "CE-L05-M05-L02",
+   "label": "I recognize this isn't unanimous",
+   "uses": [
+    "CE-L05-M05-L02"
+   ]
+  },
+  "V-0245": {
+   "type": "V",
+   "home": "CE-L05-M05-L03",
+   "label": "I know this wasn't everyone's first choice",
+   "uses": [
+    "CE-L05-M05-L03"
+   ]
+  },
+  "V-0246": {
+   "type": "V",
+   "home": "CE-L05-M05-L03",
+   "label": "here's what I need from all of us now",
+   "uses": [
+    "CE-L05-M05-L03"
+   ]
+  },
+  "V-0247": {
+   "type": "V",
+   "home": "CE-L05-M05-L04",
+   "label": "let's park that for now",
+   "uses": [
+    "CE-L05-M05-L04"
+   ]
+  },
+  "V-0248": {
+   "type": "V",
+   "home": "CE-L05-M05-L04",
+   "label": "in the interest of time",
+   "uses": [
+    "CE-L05-M05-L04"
+   ]
+  },
+  "V-0249": {
+   "type": "V",
+   "home": "CE-L05-M05-L04",
+   "label": "let's take that offline",
+   "uses": [
+    "CE-L05-M05-L04"
+   ]
+  },
+  "V-0250": {
+   "type": "V",
+   "home": "CE-L02-M01-L01",
+   "label": "wrapped up",
+   "uses": [
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0251": {
+   "type": "V",
+   "home": "CE-L02-M01-L01",
+   "label": "on track",
+   "uses": [
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0252": {
+   "type": "V",
+   "home": "CE-L02-M01-L01",
+   "label": "held up",
+   "uses": [
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0253": {
+   "type": "V",
+   "home": "CE-L02-M01-L01",
+   "label": "submitted",
+   "uses": [
+    "CE-L02-M01-L01"
+   ]
+  },
+  "V-0254": {
+   "type": "V",
+   "home": "CE-L02-M01-L02",
+   "label": "ran into",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "V-0255": {
+   "type": "V",
+   "home": "CE-L02-M01-L02",
+   "label": "a hold-up",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "V-0256": {
+   "type": "V",
+   "home": "CE-L02-M01-L02",
+   "label": "revised timeline",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "V-0257": {
+   "type": "V",
+   "home": "CE-L02-M01-L02",
+   "label": "I'll have it by",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "V-0258": {
+   "type": "V",
+   "home": "CE-L02-M02-L01",
+   "label": "if you get a chance",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "V-0259": {
+   "type": "V",
+   "home": "CE-L02-M02-L01",
+   "label": "as long as",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "V-0260": {
+   "type": "V",
+   "home": "CE-L02-M02-L01",
+   "label": "in return",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "V-0261": {
+   "type": "V",
+   "home": "CE-L02-M02-L01",
+   "label": "I can cover for you",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "V-0262": {
+   "type": "V",
+   "home": "CE-L02-M02-L02",
+   "label": "I'm tied up until",
+   "uses": [
+    "CE-L02-M02-L02"
+   ]
+  },
+  "V-0263": {
+   "type": "V",
+   "home": "CE-L02-M02-L02",
+   "label": "what I can do instead is",
+   "uses": [
+    "CE-L02-M02-L02"
+   ]
+  },
+  "V-0264": {
+   "type": "V",
+   "home": "CE-L02-M02-L02",
+   "label": "would that work",
+   "uses": [
+    "CE-L02-M02-L02"
+   ]
+  },
+  "V-0265": {
+   "type": "V",
+   "home": "CE-L02-M02-L03",
+   "label": "realistically",
+   "uses": [
+    "CE-L02-M02-L03"
+   ]
+  },
+  "V-0266": {
+   "type": "V",
+   "home": "CE-L02-M02-L03",
+   "label": "what's achievable is",
+   "uses": [
+    "CE-L02-M02-L03"
+   ]
+  },
+  "V-0267": {
+   "type": "V",
+   "home": "CE-L02-M02-L03",
+   "label": "split it into",
+   "uses": [
+    "CE-L02-M02-L03"
+   ]
+  },
+  "V-0268": {
+   "type": "V",
+   "home": "CE-L02-M02-L03",
+   "label": "a phased approach",
+   "uses": [
+    "CE-L02-M02-L03"
+   ]
+  },
+  "V-0269": {
+   "type": "V",
+   "home": "CE-L02-M02-L04",
+   "label": "asked me to pass on",
+   "uses": [
+    "CE-L02-M02-L04"
+   ]
+  },
+  "V-0270": {
+   "type": "V",
+   "home": "CE-L02-M02-L04",
+   "label": "wants to know if",
+   "uses": [
+    "CE-L02-M02-L04"
+   ]
+  },
+  "V-0271": {
+   "type": "V",
+   "home": "CE-L02-M02-L04",
+   "label": "said she'd get back to you",
+   "uses": [
+    "CE-L02-M02-L04"
+   ]
+  },
+  "V-0272": {
+   "type": "V",
+   "home": "CE-L02-M03-L01",
+   "label": "speaking",
+   "uses": [
+    "CE-L02-M03-L01"
+   ]
+  },
+  "V-0273": {
+   "type": "V",
+   "home": "CE-L02-M03-L01",
+   "label": "may I ask who's calling",
+   "uses": [
+    "CE-L02-M03-L01"
+   ]
+  },
+  "V-0274": {
+   "type": "V",
+   "home": "CE-L02-M03-L01",
+   "label": "how can I help you today",
+   "uses": [
+    "CE-L02-M03-L01"
+   ]
+  },
+  "V-0275": {
+   "type": "V",
+   "home": "CE-L02-M03-L02",
+   "label": "take a message",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "V-0276": {
+   "type": "V",
+   "home": "CE-L02-M03-L02",
+   "label": "regarding",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "V-0277": {
+   "type": "V",
+   "home": "CE-L02-M03-L02",
+   "label": "get back to you",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "V-0278": {
+   "type": "V",
+   "home": "CE-L02-M03-L02",
+   "label": "I'll pass that along",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "V-0279": {
+   "type": "V",
+   "home": "CE-L02-M03-L03",
+   "label": "the line's breaking up",
+   "uses": [
+    "CE-L02-M03-L03"
+   ]
+  },
+  "V-0280": {
+   "type": "V",
+   "home": "CE-L02-M03-L03",
+   "label": "could you spell that",
+   "uses": [
+    "CE-L02-M03-L03"
+   ]
+  },
+  "V-0281": {
+   "type": "V",
+   "home": "CE-L02-M03-L03",
+   "label": "let me just repeat that back",
+   "uses": [
+    "CE-L02-M03-L03"
+   ]
+  },
+  "V-0282": {
+   "type": "V",
+   "home": "CE-L02-M03-L04",
+   "label": "hold the line",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "V-0283": {
+   "type": "V",
+   "home": "CE-L02-M03-L04",
+   "label": "put you through",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "V-0284": {
+   "type": "V",
+   "home": "CE-L02-M03-L04",
+   "label": "thanks for waiting",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "V-0285": {
+   "type": "V",
+   "home": "CE-L02-M03-L04",
+   "label": "I'll connect you with",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "V-0286": {
+   "type": "V",
+   "home": "CE-L02-M04-L01",
+   "label": "register",
+   "uses": [
+    "CE-L02-M04-L01"
+   ]
+  },
+  "V-0287": {
+   "type": "V",
+   "home": "CE-L02-M04-L01",
+   "label": "informal / formal",
+   "uses": [
+    "CE-L02-M04-L01"
+   ]
+  },
+  "V-0288": {
+   "type": "V",
+   "home": "CE-L02-M04-L01",
+   "label": "shorthand",
+   "uses": [
+    "CE-L02-M04-L01"
+   ]
+  },
+  "V-0289": {
+   "type": "V",
+   "home": "CE-L02-M04-L02",
+   "label": "quick question",
+   "uses": [
+    "CE-L02-M04-L02"
+   ]
+  },
+  "V-0290": {
+   "type": "V",
+   "home": "CE-L02-M04-L02",
+   "label": "heads up",
+   "uses": [
+    "CE-L02-M04-L02"
+   ]
+  },
+  "V-0291": {
+   "type": "V",
+   "home": "CE-L02-M04-L02",
+   "label": "one more thing",
+   "uses": [
+    "CE-L02-M04-L02"
+   ]
+  },
+  "V-0292": {
+   "type": "V",
+   "home": "CE-L02-M04-L03",
+   "label": "time-sensitive",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "V-0293": {
+   "type": "V",
+   "home": "CE-L02-M04-L03",
+   "label": "no rush",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "V-0294": {
+   "type": "V",
+   "home": "CE-L02-M04-L03",
+   "label": "whenever you get a chance",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "V-0295": {
+   "type": "V",
+   "home": "CE-L02-M04-L03",
+   "label": "flagging this",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "V-0296": {
+   "type": "V",
+   "home": "CE-L02-M04-L04",
+   "label": "thread",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "V-0297": {
+   "type": "V",
+   "home": "CE-L02-M04-L04",
+   "label": "DM",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "V-0298": {
+   "type": "V",
+   "home": "CE-L02-M04-L04",
+   "label": "reply-all",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "V-0299": {
+   "type": "V",
+   "home": "CE-L02-M04-L04",
+   "label": "@mention",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "V-0300": {
+   "type": "V",
+   "home": "CE-L02-M04-L04",
+   "label": "pin a message",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "V-0301": {
+   "type": "V",
+   "home": "CE-L02-M05-L01",
+   "label": "acknowledge",
+   "uses": [
+    "CE-L02-M05-L01"
+   ]
+  },
+  "V-0302": {
+   "type": "V",
+   "home": "CE-L02-M05-L01",
+   "label": "take ownership",
+   "uses": [
+    "CE-L02-M05-L01"
+   ]
+  },
+  "V-0303": {
+   "type": "V",
+   "home": "CE-L02-M05-L01",
+   "label": "make sure it doesn't happen again",
+   "uses": [
+    "CE-L02-M05-L01"
+   ]
+  },
+  "V-0304": {
+   "type": "V",
+   "home": "CE-L02-M05-L02",
+   "label": "that was on me",
+   "uses": [
+    "CE-L02-M05-L02"
+   ]
+  },
+  "V-0305": {
+   "type": "V",
+   "home": "CE-L02-M05-L02",
+   "label": "I dropped the ball",
+   "uses": [
+    "CE-L02-M05-L02"
+   ]
+  },
+  "V-0306": {
+   "type": "V",
+   "home": "CE-L02-M05-L02",
+   "label": "going forward, I'll",
+   "uses": [
+    "CE-L02-M05-L02"
+   ]
+  },
+  "V-0307": {
+   "type": "V",
+   "home": "CE-L02-M05-L03",
+   "label": "I really appreciate",
+   "uses": [
+    "CE-L02-M05-L03"
+   ]
+  },
+  "V-0308": {
+   "type": "V",
+   "home": "CE-L02-M05-L03",
+   "label": "that made a real difference",
+   "uses": [
+    "CE-L02-M05-L03"
+   ]
+  },
+  "V-0309": {
+   "type": "V",
+   "home": "CE-L02-M05-L03",
+   "label": "I owe you one",
+   "uses": [
+    "CE-L02-M05-L03"
+   ]
+  },
+  "V-0310": {
+   "type": "V",
+   "home": "CE-L02-M06-L01",
+   "label": "it's been a few days",
+   "uses": [
+    "CE-L02-M06-L01"
+   ]
+  },
+  "V-0311": {
+   "type": "V",
+   "home": "CE-L02-M06-L01",
+   "label": "before it slips through the cracks",
+   "uses": [
+    "CE-L02-M06-L01"
+   ]
+  },
+  "V-0312": {
+   "type": "V",
+   "home": "CE-L02-M06-L01",
+   "label": "a gentle nudge",
+   "uses": [
+    "CE-L02-M06-L01"
+   ]
+  },
+  "V-0313": {
+   "type": "V",
+   "home": "CE-L02-M06-L02",
+   "label": "following up on",
+   "uses": [
+    "CE-L02-M06-L02"
+   ]
+  },
+  "V-0314": {
+   "type": "V",
+   "home": "CE-L02-M06-L02",
+   "label": "checking in",
+   "uses": [
+    "CE-L02-M06-L02"
+   ]
+  },
+  "V-0315": {
+   "type": "V",
+   "home": "CE-L02-M06-L02",
+   "label": "just wanted to flag",
+   "uses": [
+    "CE-L02-M06-L02"
+   ]
+  },
+  "V-0316": {
+   "type": "V",
+   "home": "CE-L02-M06-L03",
+   "label": "still haven't heard back",
+   "uses": [
+    "CE-L02-M06-L03"
+   ]
+  },
+  "V-0317": {
+   "type": "V",
+   "home": "CE-L02-M06-L03",
+   "label": "becoming time-sensitive",
+   "uses": [
+    "CE-L02-M06-L03"
+   ]
+  },
+  "V-0318": {
+   "type": "V",
+   "home": "CE-L02-M06-L03",
+   "label": "could you confirm by",
+   "uses": [
+    "CE-L02-M06-L03"
+   ]
+  },
+  "V-0319": {
+   "type": "V",
+   "home": "CE-L02-M07-L01",
+   "label": "welcome",
+   "uses": [
+    "CE-L02-M07-L01"
+   ]
+  },
+  "V-0320": {
+   "type": "V",
+   "home": "CE-L02-M07-L01",
+   "label": "thanks for stopping by / calling / reaching out",
+   "uses": [
+    "CE-L02-M07-L01"
+   ]
+  },
+  "V-0321": {
+   "type": "V",
+   "home": "CE-L02-M07-L02",
+   "label": "in other words",
+   "uses": [
+    "CE-L02-M07-L02"
+   ]
+  },
+  "V-0322": {
+   "type": "V",
+   "home": "CE-L02-M07-L02",
+   "label": "to put it simply",
+   "uses": [
+    "CE-L02-M07-L02"
+   ]
+  },
+  "V-0323": {
+   "type": "V",
+   "home": "CE-L02-M07-L02",
+   "label": "does that answer your question?",
+   "uses": [
+    "CE-L02-M07-L02"
+   ]
+  },
+  "V-0324": {
+   "type": "V",
+   "home": "CE-L02-M07-L03",
+   "label": "let me check on that",
+   "uses": [
+    "CE-L02-M07-L03"
+   ]
+  },
+  "V-0325": {
+   "type": "V",
+   "home": "CE-L02-M07-L03",
+   "label": "I'll find out and get back to you",
+   "uses": [
+    "CE-L02-M07-L03"
+   ]
+  },
+  "V-0326": {
+   "type": "V",
+   "home": "CE-L02-M07-L03",
+   "label": "let me confirm that for you",
+   "uses": [
+    "CE-L02-M07-L03"
+   ]
+  },
+  "V-0327": {
+   "type": "V",
+   "home": "CE-L02-M07-L04",
+   "label": "I understand your concern",
+   "uses": [
+    "CE-L02-M07-L04"
+   ]
+  },
+  "V-0328": {
+   "type": "V",
+   "home": "CE-L02-M07-L04",
+   "label": "let me see what I can do",
+   "uses": [
+    "CE-L02-M07-L04"
+   ]
+  },
+  "V-0329": {
+   "type": "V",
+   "home": "CE-L02-M07-L04",
+   "label": "I appreciate you bringing this to my attention",
+   "uses": [
+    "CE-L02-M07-L04"
+   ]
+  },
+  "V-0330": {
+   "type": "V",
+   "home": "CE-L02-M08-L01",
+   "label": "running a few minutes behind",
+   "uses": [
+    "CE-L02-M08-L01"
+   ]
+  },
+  "V-0331": {
+   "type": "V",
+   "home": "CE-L02-M08-L01",
+   "label": "I'll be there shortly",
+   "uses": [
+    "CE-L02-M08-L01"
+   ]
+  },
+  "V-0332": {
+   "type": "V",
+   "home": "CE-L02-M08-L01",
+   "label": "on my way",
+   "uses": [
+    "CE-L02-M08-L01"
+   ]
+  },
+  "V-0333": {
+   "type": "V",
+   "home": "CE-L02-M08-L02",
+   "label": "confidential",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "V-0334": {
+   "type": "V",
+   "home": "CE-L02-M08-L02",
+   "label": "forward without permission",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "V-0335": {
+   "type": "V",
+   "home": "CE-L02-M08-L02",
+   "label": "keep this between us",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "V-0336": {
+   "type": "V",
+   "home": "CE-L02-M08-L02",
+   "label": "need-to-know basis",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "V-0337": {
+   "type": "V",
+   "home": "CE-L02-M08-L03",
+   "label": "Mr. / Ms. / Dr. + surname conventions",
+   "uses": [
+    "CE-L02-M08-L03"
+   ]
+  },
+  "V-0338": {
+   "type": "V",
+   "home": "CE-L02-M08-L03",
+   "label": "CC'ing a senior colleague appropriately",
+   "uses": [
+    "CE-L02-M08-L03"
+   ]
+  },
+  "V-0339": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "subject line",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0340": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "greeting",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0341": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "sign-off",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0342": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "CC",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0343": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "BCC",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0344": {
+   "type": "V",
+   "home": "CE-L03-M01-L01",
+   "label": "re: / fwd",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "V-0345": {
+   "type": "V",
+   "home": "CE-L03-M01-L02",
+   "label": "please find attached",
+   "uses": [
+    "CE-L03-M01-L02"
+   ]
+  },
+  "V-0346": {
+   "type": "V",
+   "home": "CE-L03-M01-L02",
+   "label": "for your reference",
+   "uses": [
+    "CE-L03-M01-L02"
+   ]
+  },
+  "V-0347": {
+   "type": "V",
+   "home": "CE-L03-M01-L02",
+   "label": "as discussed",
+   "uses": [
+    "CE-L03-M01-L02"
+   ]
+  },
+  "V-0348": {
+   "type": "V",
+   "home": "CE-L03-M01-L03",
+   "label": "as a gentle reminder",
+   "uses": [
+    "CE-L03-M01-L03"
+   ]
+  },
+  "V-0349": {
+   "type": "V",
+   "home": "CE-L03-M01-L03",
+   "label": "to confirm our conversation",
+   "uses": [
+    "CE-L03-M01-L03"
+   ]
+  },
+  "V-0350": {
+   "type": "V",
+   "home": "CE-L03-M01-L03",
+   "label": "per our discussion",
+   "uses": [
+    "CE-L03-M01-L03"
+   ]
+  },
+  "V-0351": {
+   "type": "V",
+   "home": "CE-L03-M01-L04",
+   "label": "I sincerely apologize for",
+   "uses": [
+    "CE-L03-M01-L04"
+   ]
+  },
+  "V-0352": {
+   "type": "V",
+   "home": "CE-L03-M01-L04",
+   "label": "please accept my apologies",
+   "uses": [
+    "CE-L03-M01-L04"
+   ]
+  },
+  "V-0353": {
+   "type": "V",
+   "home": "CE-L03-M01-L04",
+   "label": "I understand your frustration",
+   "uses": [
+    "CE-L03-M01-L04"
+   ]
+  },
+  "V-0354": {
+   "type": "V",
+   "home": "CE-L03-M01-L05",
+   "label": "I'm raising this because",
+   "uses": [
+    "CE-L03-M01-L05"
+   ]
+  },
+  "V-0355": {
+   "type": "V",
+   "home": "CE-L03-M01-L05",
+   "label": "looping in",
+   "uses": [
+    "CE-L03-M01-L05"
+   ]
+  },
+  "V-0356": {
+   "type": "V",
+   "home": "CE-L03-M01-L05",
+   "label": "given the urgency",
+   "uses": [
+    "CE-L03-M01-L05"
+   ]
+  },
+  "V-0369": {
+   "type": "V",
+   "home": "CE-L03-M02-L01",
+   "label": "fact",
+   "uses": [
+    "CE-L03-M02-L01"
+   ]
+  },
+  "V-0370": {
+   "type": "V",
+   "home": "CE-L03-M02-L01",
+   "label": "evidence",
+   "uses": [
+    "CE-L03-M02-L01"
+   ]
+  },
+  "V-0371": {
+   "type": "V",
+   "home": "CE-L03-M02-L01",
+   "label": "analysis",
+   "uses": [
+    "CE-L03-M02-L01"
+   ]
+  },
+  "V-0372": {
+   "type": "V",
+   "home": "CE-L03-M02-L01",
+   "label": "contributing factor",
+   "uses": [
+    "CE-L03-M02-L01"
+   ]
+  },
+  "V-0373": {
+   "type": "V",
+   "home": "CE-L03-M02-L01",
+   "label": "recommend",
+   "uses": [
+    "CE-L03-M02-L01"
+   ]
+  },
+  "V-0374": {
+   "type": "V",
+   "home": "CE-L03-M02-L02",
+   "label": "summary",
+   "uses": [
+    "CE-L03-M02-L02"
+   ]
+  },
+  "V-0375": {
+   "type": "V",
+   "home": "CE-L03-M02-L02",
+   "label": "over the past week",
+   "uses": [
+    "CE-L03-M02-L02"
+   ]
+  },
+  "V-0376": {
+   "type": "V",
+   "home": "CE-L03-M02-L02",
+   "label": "key takeaway",
+   "uses": [
+    "CE-L03-M02-L02"
+   ]
+  },
+  "V-0377": {
+   "type": "V",
+   "home": "CE-L03-M02-L03",
+   "label": "occurred",
+   "uses": [
+    "CE-L03-M02-L03"
+   ]
+  },
+  "V-0378": {
+   "type": "V",
+   "home": "CE-L03-M02-L03",
+   "label": "was observed",
+   "uses": [
+    "CE-L03-M02-L03"
+   ]
+  },
+  "V-0379": {
+   "type": "V",
+   "home": "CE-L03-M02-L03",
+   "label": "immediate action taken",
+   "uses": [
+    "CE-L03-M02-L03"
+   ]
+  },
+  "V-0380": {
+   "type": "V",
+   "home": "CE-L03-M02-L04",
+   "label": "an increase of / a decrease of",
+   "uses": [
+    "CE-L03-M02-L04"
+   ]
+  },
+  "V-0381": {
+   "type": "V",
+   "home": "CE-L03-M02-L04",
+   "label": "compared to",
+   "uses": [
+    "CE-L03-M02-L04"
+   ]
+  },
+  "V-0382": {
+   "type": "V",
+   "home": "CE-L03-M02-L04",
+   "label": "on average",
+   "uses": [
+    "CE-L03-M02-L04"
+   ]
+  },
+  "V-0383": {
+   "type": "V",
+   "home": "CE-L03-M02-L04",
+   "label": "a trend",
+   "uses": [
+    "CE-L03-M02-L04"
+   ]
+  },
+  "V-0399": {
+   "type": "V",
+   "home": "CE-L03-M03-L01",
+   "label": "agenda item",
+   "uses": [
+    "CE-L03-M03-L01"
+   ]
+  },
+  "V-0400": {
+   "type": "V",
+   "home": "CE-L03-M03-L01",
+   "label": "purpose of this meeting",
+   "uses": [
+    "CE-L03-M03-L01"
+   ]
+  },
+  "V-0401": {
+   "type": "V",
+   "home": "CE-L03-M03-L01",
+   "label": "please come prepared to",
+   "uses": [
+    "CE-L03-M03-L01"
+   ]
+  },
+  "V-0402": {
+   "type": "V",
+   "home": "CE-L03-M03-L01",
+   "label": "RSVP",
+   "uses": [
+    "CE-L03-M03-L01"
+   ]
+  },
+  "V-0403": {
+   "type": "V",
+   "home": "CE-L03-M03-L02",
+   "label": "let's get started",
+   "uses": [
+    "CE-L03-M03-L02"
+   ]
+  },
+  "V-0404": {
+   "type": "V",
+   "home": "CE-L03-M03-L02",
+   "label": "the goal of today's meeting is",
+   "uses": [
+    "CE-L03-M03-L02"
+   ]
+  },
+  "V-0405": {
+   "type": "V",
+   "home": "CE-L03-M03-L02",
+   "label": "by the end of this meeting",
+   "uses": [
+    "CE-L03-M03-L02"
+   ]
+  },
+  "V-0406": {
+   "type": "V",
+   "home": "CE-L03-M03-L02",
+   "label": "kick off",
+   "uses": [
+    "CE-L03-M03-L02"
+   ]
+  },
+  "V-0407": {
+   "type": "V",
+   "home": "CE-L03-M03-L03",
+   "label": "I'd argue that",
+   "uses": [
+    "CE-L03-M03-L03"
+   ]
+  },
+  "V-0408": {
+   "type": "V",
+   "home": "CE-L03-M03-L03",
+   "label": "to play devil's advocate",
+   "uses": [
+    "CE-L03-M03-L03"
+   ]
+  },
+  "V-0409": {
+   "type": "V",
+   "home": "CE-L03-M03-L03",
+   "label": "that's a fair point, though",
+   "uses": [
+    "CE-L03-M03-L03"
+   ]
+  },
+  "V-0410": {
+   "type": "V",
+   "home": "CE-L03-M03-L03",
+   "label": "I see it a little differently",
+   "uses": [
+    "CE-L03-M03-L03"
+   ]
+  },
+  "V-0411": {
+   "type": "V",
+   "home": "CE-L03-M03-L04",
+   "label": "sorry to jump in",
+   "uses": [
+    "CE-L03-M03-L04"
+   ]
+  },
+  "V-0412": {
+   "type": "V",
+   "home": "CE-L03-M03-L04",
+   "label": "if I could just add",
+   "uses": [
+    "CE-L03-M03-L04"
+   ]
+  },
+  "V-0413": {
+   "type": "V",
+   "home": "CE-L03-M03-L04",
+   "label": "to summarize",
+   "uses": [
+    "CE-L03-M03-L04"
+   ]
+  },
+  "V-0414": {
+   "type": "V",
+   "home": "CE-L03-M03-L04",
+   "label": "can I just clarify something?",
+   "uses": [
+    "CE-L03-M03-L04"
+   ]
+  },
+  "V-0415": {
+   "type": "V",
+   "home": "CE-L03-M03-L05",
+   "label": "action point",
+   "uses": [
+    "CE-L03-M03-L05"
+   ]
+  },
+  "V-0416": {
+   "type": "V",
+   "home": "CE-L03-M03-L05",
+   "label": "owner",
+   "uses": [
+    "CE-L03-M03-L05"
+   ]
+  },
+  "V-0417": {
+   "type": "V",
+   "home": "CE-L03-M03-L05",
+   "label": "by when",
+   "uses": [
+    "CE-L03-M03-L05"
+   ]
+  },
+  "V-0418": {
+   "type": "V",
+   "home": "CE-L03-M03-L05",
+   "label": "let's wrap up",
+   "uses": [
+    "CE-L03-M03-L05"
+   ]
+  },
+  "V-0419": {
+   "type": "V",
+   "home": "CE-L03-M03-L06",
+   "label": "attendees",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "V-0420": {
+   "type": "V",
+   "home": "CE-L03-M03-L06",
+   "label": "decisions",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "V-0421": {
+   "type": "V",
+   "home": "CE-L03-M03-L06",
+   "label": "action items",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "V-0422": {
+   "type": "V",
+   "home": "CE-L03-M03-L06",
+   "label": "circulate the minutes",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "V-0429": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "overview",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0430": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "agenda",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0431": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "what I'll cover today",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0432": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "by the end of this",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0433": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "audience",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0434": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "relevance / why it matters",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0435": {
+   "type": "V",
+   "home": "CE-L03-M04-L01",
+   "label": "hook",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "V-0436": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "as you can see here",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0437": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "this shows",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0438": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "the trend here is",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0439": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "a sharp rise",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0440": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "leveled off",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0441": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "dropped slightly",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0442": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "data point",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0443": {
+   "type": "V",
+   "home": "CE-L03-M04-L02",
+   "label": "in plain terms",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "V-0444": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "compared with",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0445": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "the key takeaway",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0446": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "what stands out here",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0447": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "higher than",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0448": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "lower than",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0449": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "side by side",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0450": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "to highlight",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0451": {
+   "type": "V",
+   "home": "CE-L03-M04-L03",
+   "label": "a significant difference",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "V-0452": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "moving on to",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0453": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "that brings me to",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0454": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "before I wrap up",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0455": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "to wrap up",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0456": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "signpost",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0457": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "with that said",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0458": {
+   "type": "V",
+   "home": "CE-L03-M04-L04",
+   "label": "structure",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "V-0459": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "empathetic listening",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0460": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "reflect back",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0461": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "I can hear how frustrating this has been",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0462": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "that's completely understandable",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0463": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "let me make sure I understand",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0464": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "give them room to finish",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0465": {
+   "type": "V",
+   "home": "CE-L03-M05-L01",
+   "label": "personally targeted",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "V-0466": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "de-escalate",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0467": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "I want to help resolve this",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0468": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "let's see what we can do together",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0469": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "I hear you",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0470": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "match the tone",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0471": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "non-defensive",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0472": {
+   "type": "V",
+   "home": "CE-L03-M05-L02",
+   "label": "stay composed",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "V-0473": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "what I can offer is",
+   "uses": [
+    "CE-L03-M05-L03",
+    "CE-L04-M08-L04"
+   ]
+  },
+  "V-0474": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "I want to be upfront with you",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0475": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "here's what I can guarantee",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0476": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "manage expectations",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0477": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "over-promise",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0478": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "realistic timeline",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0479": {
+   "type": "V",
+   "home": "CE-L03-M05-L03",
+   "label": "follow through",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "V-0480": {
+   "type": "V",
+   "home": "CE-L03-M05-L04",
+   "label": "this needs your attention because",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "V-0481": {
+   "type": "V",
+   "home": "CE-L03-M05-L04",
+   "label": "the customer is requesting",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "V-0482": {
+   "type": "V",
+   "home": "CE-L03-M05-L04",
+   "label": "beyond my authority",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "V-0483": {
+   "type": "V",
+   "home": "CE-L03-M05-L04",
+   "label": "keep the customer informed",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "V-0484": {
+   "type": "V",
+   "home": "CE-L03-M05-L04",
+   "label": "with urgency",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "V-0485": {
+   "type": "V",
+   "home": "CE-L03-M05-L05",
+   "label": "make this right",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "V-0486": {
+   "type": "V",
+   "home": "CE-L03-M05-L05",
+   "label": "above and beyond",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "V-0487": {
+   "type": "V",
+   "home": "CE-L03-M05-L05",
+   "label": "genuinely satisfied",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "V-0488": {
+   "type": "V",
+   "home": "CE-L03-M05-L05",
+   "label": "turn this around",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "V-0489": {
+   "type": "V",
+   "home": "CE-L03-M06-L01",
+   "label": "it's a pleasure to finally meet you",
+   "uses": [
+    "CE-L03-M06-L01",
+    "CE-L04-M08-L01"
+   ]
+  },
+  "V-0490": {
+   "type": "V",
+   "home": "CE-L03-M06-L01",
+   "label": "thanks for making the time",
+   "uses": [
+    "CE-L03-M06-L01"
+   ]
+  },
+  "V-0491": {
+   "type": "V",
+   "home": "CE-L03-M06-L01",
+   "label": "I hope your journey here was smooth",
+   "uses": [
+    "CE-L03-M06-L01"
+   ]
+  },
+  "V-0492": {
+   "type": "V",
+   "home": "CE-L03-M06-L02",
+   "label": "what's prompting this",
+   "uses": [
+    "CE-L03-M06-L02"
+   ]
+  },
+  "V-0493": {
+   "type": "V",
+   "home": "CE-L03-M06-L02",
+   "label": "walk me through",
+   "uses": [
+    "CE-L03-M06-L02"
+   ]
+  },
+  "V-0494": {
+   "type": "V",
+   "home": "CE-L03-M06-L02",
+   "label": "what matters most to you here",
+   "uses": [
+    "CE-L03-M06-L02"
+   ]
+  },
+  "V-0495": {
+   "type": "V",
+   "home": "CE-L03-M06-L03",
+   "label": "based on what you've told me",
+   "uses": [
+    "CE-L03-M06-L03"
+   ]
+  },
+  "V-0496": {
+   "type": "V",
+   "home": "CE-L03-M06-L03",
+   "label": "this addresses",
+   "uses": [
+    "CE-L03-M06-L03"
+   ]
+  },
+  "V-0497": {
+   "type": "V",
+   "home": "CE-L03-M06-L03",
+   "label": "here's how this solves that",
+   "uses": [
+    "CE-L03-M06-L03"
+   ]
+  },
+  "V-0498": {
+   "type": "V",
+   "home": "CE-L03-M06-L04",
+   "label": "that's a fair concern",
+   "uses": [
+    "CE-L03-M06-L04",
+    "CE-L04-M03-L03"
+   ]
+  },
+  "V-0499": {
+   "type": "V",
+   "home": "CE-L03-M06-L04",
+   "label": "let me address that directly",
+   "uses": [
+    "CE-L03-M06-L04"
+   ]
+  },
+  "V-0500": {
+   "type": "V",
+   "home": "CE-L03-M06-L04",
+   "label": "here's what I can say with confidence",
+   "uses": [
+    "CE-L03-M06-L04"
+   ]
+  },
+  "V-0519": {
+   "type": "V",
+   "home": "CE-L03-M07-L02",
+   "label": "hedge",
+   "uses": [
+    "CE-L03-M07-L02"
+   ]
+  },
+  "V-0520": {
+   "type": "V",
+   "home": "CE-L03-M07-L04",
+   "label": "subject-verb agreement",
+   "uses": [
+    "CE-L03-M07-L04"
+   ]
+  },
+  "V-0521": {
+   "type": "V",
+   "home": "CE-L03-M07-L05",
+   "label": "relative clause",
+   "uses": [
+    "CE-L03-M07-L05"
+   ]
+  },
+  "V-0549": {
+   "type": "V",
+   "home": "CE-L03-M08-L01",
+   "label": "word stress",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "V-0550": {
+   "type": "V",
+   "home": "CE-L03-M08-L01",
+   "label": "sentence stress",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "V-0551": {
+   "type": "V",
+   "home": "CE-L03-M08-L01",
+   "label": "syllable",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "V-0552": {
+   "type": "V",
+   "home": "CE-L03-M08-L02",
+   "label": "intonation",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "V-0553": {
+   "type": "V",
+   "home": "CE-L03-M08-L02",
+   "label": "rhythm",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "V-0554": {
+   "type": "V",
+   "home": "CE-L03-M08-L02",
+   "label": "rising intonation",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "V-0555": {
+   "type": "V",
+   "home": "CE-L03-M08-L02",
+   "label": "falling intonation",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "V-0556": {
+   "type": "V",
+   "home": "CE-L03-M08-L03",
+   "label": "connected speech",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "V-0557": {
+   "type": "V",
+   "home": "CE-L03-M08-L03",
+   "label": "linking",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "V-0558": {
+   "type": "V",
+   "home": "CE-L03-M08-L03",
+   "label": "minimal pair",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "V-0559": {
+   "type": "V",
+   "home": "CE-L03-M08-L04",
+   "label": "filler word",
+   "uses": [
+    "CE-L03-M08-L04"
+   ]
+  },
+  "V-0560": {
+   "type": "V",
+   "home": "CE-L03-M08-L04",
+   "label": "hesitation marker",
+   "uses": [
+    "CE-L03-M08-L04"
+   ]
+  },
+  "V-0579": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "you're on mute",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0580": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "can you see this okay",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0581": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "let's hop on a call",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0582": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "screen share",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0583": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "join the call",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0584": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "dial in",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0585": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "you're breaking up",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0586": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "can everyone hear me okay",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0587": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "hop off the call",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0588": {
+   "type": "V",
+   "home": "CE-L03-M09-L01",
+   "label": "background noise",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "V-0589": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "bandwidth",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0590": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "synchronous",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0591": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "asynchronous",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0592": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "paper trail",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0593": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "low-stakes / high-stakes",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0594": {
+   "type": "V",
+   "home": "CE-L03-M09-L02",
+   "label": "default channel",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "V-0595": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "core content",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0596": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "register shift",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0597": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "channel-appropriate",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0598": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "compress / compression",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0599": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "expand",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0600": {
+   "type": "V",
+   "home": "CE-L03-M09-L03",
+   "label": "consistency (of message",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "V-0601": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "connected week",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0602": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "channel discipline",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0603": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "document quality",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0604": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "course-correct",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0605": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "carry over",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0606": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "close out (a week/task",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0607": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "hold the thread",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0608": {
+   "type": "V",
+   "home": "CE-L03-M09-L04",
+   "label": "professional judgment",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "V-0609": {
+   "type": "V",
+   "home": "CE-L04-M01-L01",
+   "label": "walk-away point",
+   "uses": [
+    "CE-L04-M01-L01"
+   ]
+  },
+  "V-0610": {
+   "type": "V",
+   "home": "CE-L04-M01-L01",
+   "label": "non-negotiable",
+   "uses": [
+    "CE-L04-M01-L01"
+   ]
+  },
+  "V-0611": {
+   "type": "V",
+   "home": "CE-L04-M01-L01",
+   "label": "leverage",
+   "uses": [
+    "CE-L04-M01-L01"
+   ]
+  },
+  "V-0612": {
+   "type": "V",
+   "home": "CE-L04-M01-L01",
+   "label": "best alternative",
+   "uses": [
+    "CE-L04-M01-L01"
+   ]
+  },
+  "V-0613": {
+   "type": "V",
+   "home": "CE-L04-M01-L02",
+   "label": "anchor",
+   "uses": [
+    "CE-L04-M01-L02"
+   ]
+  },
+  "V-0614": {
+   "type": "V",
+   "home": "CE-L04-M01-L02",
+   "label": "based on what we've seen elsewhere",
+   "uses": [
+    "CE-L04-M01-L02"
+   ]
+  },
+  "V-0615": {
+   "type": "V",
+   "home": "CE-L04-M01-L02",
+   "label": "that's a starting point for us",
+   "uses": [
+    "CE-L04-M01-L02"
+   ]
+  },
+  "V-0616": {
+   "type": "V",
+   "home": "CE-L04-M01-L03",
+   "label": "in exchange for",
+   "uses": [
+    "CE-L04-M01-L03"
+   ]
+  },
+  "V-0617": {
+   "type": "V",
+   "home": "CE-L04-M01-L03",
+   "label": "if we can agree on",
+   "uses": [
+    "CE-L04-M01-L03"
+   ]
+  },
+  "V-0618": {
+   "type": "V",
+   "home": "CE-L04-M01-L03",
+   "label": "that would need something in return",
+   "uses": [
+    "CE-L04-M01-L03"
+   ]
+  },
+  "V-0619": {
+   "type": "V",
+   "home": "CE-L04-M01-L04",
+   "label": "take-it-or-leave-it",
+   "uses": [
+    "CE-L04-M01-L04"
+   ]
+  },
+  "V-0620": {
+   "type": "V",
+   "home": "CE-L04-M01-L04",
+   "label": "let's find another way through this",
+   "uses": [
+    "CE-L04-M01-L04"
+   ]
+  },
+  "V-0621": {
+   "type": "V",
+   "home": "CE-L04-M01-L04",
+   "label": "what would work for both of us",
+   "uses": [
+    "CE-L04-M01-L04"
+   ]
+  },
+  "V-0631": {
+   "type": "V",
+   "home": "CE-L04-M02-L01",
+   "label": "the answer is still no",
+   "uses": [
+    "CE-L04-M02-L01",
+    "CE-L04-M08-L03"
+   ]
+  },
+  "V-0632": {
+   "type": "V",
+   "home": "CE-L04-M02-L01",
+   "label": "I won't be able to make an exception here",
+   "uses": [
+    "CE-L04-M02-L01"
+   ]
+  },
+  "V-0633": {
+   "type": "V",
+   "home": "CE-L04-M02-L01",
+   "label": "I need to hold this line",
+   "uses": [
+    "CE-L04-M02-L01"
+   ]
+  },
+  "V-0634": {
+   "type": "V",
+   "home": "CE-L04-M02-L02",
+   "label": "the impact of this was",
+   "uses": [
+    "CE-L04-M02-L02"
+   ]
+  },
+  "V-0635": {
+   "type": "V",
+   "home": "CE-L04-M02-L02",
+   "label": "going forward, I'd suggest",
+   "uses": [
+    "CE-L04-M02-L02"
+   ]
+  },
+  "V-0636": {
+   "type": "V",
+   "home": "CE-L04-M02-L02",
+   "label": "this specific part didn't land",
+   "uses": [
+    "CE-L04-M02-L02"
+   ]
+  },
+  "V-0637": {
+   "type": "V",
+   "home": "CE-L04-M02-L03",
+   "label": "that's fair",
+   "uses": [
+    "CE-L04-M02-L03"
+   ]
+  },
+  "V-0638": {
+   "type": "V",
+   "home": "CE-L04-M02-L03",
+   "label": "I hadn't considered that",
+   "uses": [
+    "CE-L04-M02-L03"
+   ]
+  },
+  "V-0639": {
+   "type": "V",
+   "home": "CE-L04-M02-L03",
+   "label": "let me think about how to address that",
+   "uses": [
+    "CE-L04-M02-L03"
+   ]
+  },
+  "V-0640": {
+   "type": "V",
+   "home": "CE-L04-M02-L04",
+   "label": "I want to flag this immediately",
+   "uses": [
+    "CE-L04-M02-L04"
+   ]
+  },
+  "V-0641": {
+   "type": "V",
+   "home": "CE-L04-M02-L04",
+   "label": "the full impact of this is",
+   "uses": [
+    "CE-L04-M02-L04"
+   ]
+  },
+  "V-0642": {
+   "type": "V",
+   "home": "CE-L04-M02-L04",
+   "label": "here's my plan to fix it",
+   "uses": [
+    "CE-L04-M02-L04"
+   ]
+  },
+  "V-0643": {
+   "type": "V",
+   "home": "CE-L04-M02-L05",
+   "label": "I've noticed a pattern where",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "V-0644": {
+   "type": "V",
+   "home": "CE-L04-M02-L05",
+   "label": "let's find a better way to work together",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "V-0645": {
+   "type": "V",
+   "home": "CE-L04-M02-L05",
+   "label": "what would help this go more smoothly",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "V-0657": {
+   "type": "V",
+   "home": "CE-L04-M03-L01",
+   "label": "my main point is",
+   "uses": [
+    "CE-L04-M03-L01"
+   ]
+  },
+  "V-0658": {
+   "type": "V",
+   "home": "CE-L04-M03-L01",
+   "label": "to back this up",
+   "uses": [
+    "CE-L04-M03-L01"
+   ]
+  },
+  "V-0659": {
+   "type": "V",
+   "home": "CE-L04-M03-L01",
+   "label": "the strongest case for this is",
+   "uses": [
+    "CE-L04-M03-L01"
+   ]
+  },
+  "V-0660": {
+   "type": "V",
+   "home": "CE-L04-M03-L02",
+   "label": "think of this as",
+   "uses": [
+    "CE-L04-M03-L02"
+   ]
+  },
+  "V-0661": {
+   "type": "V",
+   "home": "CE-L04-M03-L02",
+   "label": "the real cost of not doing this is",
+   "uses": [
+    "CE-L04-M03-L02"
+   ]
+  },
+  "V-0662": {
+   "type": "V",
+   "home": "CE-L04-M03-L02",
+   "label": "the evidence points to",
+   "uses": [
+    "CE-L04-M03-L02"
+   ]
+  },
+  "V-0663": {
+   "type": "V",
+   "home": "CE-L04-M03-L03",
+   "label": "what's giving you pause",
+   "uses": [
+    "CE-L04-M03-L03"
+   ]
+  },
+  "V-0664": {
+   "type": "V",
+   "home": "CE-L04-M03-L03",
+   "label": "I hear your hesitation",
+   "uses": [
+    "CE-L04-M03-L03"
+   ]
+  },
+  "V-0665": {
+   "type": "V",
+   "home": "CE-L04-M03-L03",
+   "label": "let me address that specifically",
+   "uses": [
+    "CE-L04-M03-L03"
+   ]
+  },
+  "V-0673": {
+   "type": "V",
+   "home": "CE-L04-M04-L01",
+   "label": "the core question here is",
+   "uses": [
+    "CE-L04-M04-L01"
+   ]
+  },
+  "V-0674": {
+   "type": "V",
+   "home": "CE-L04-M04-L01",
+   "label": "there are really two issues here",
+   "uses": [
+    "CE-L04-M04-L01"
+   ]
+  },
+  "V-0675": {
+   "type": "V",
+   "home": "CE-L04-M04-L01",
+   "label": "let's take this one piece at a time",
+   "uses": [
+    "CE-L04-M04-L01"
+   ]
+  },
+  "V-0676": {
+   "type": "V",
+   "home": "CE-L04-M04-L02",
+   "label": "the trade-off here is",
+   "uses": [
+    "CE-L04-M04-L02"
+   ]
+  },
+  "V-0677": {
+   "type": "V",
+   "home": "CE-L04-M04-L02",
+   "label": "what am I missing?",
+   "uses": [
+    "CE-L04-M04-L02"
+   ]
+  },
+  "V-0678": {
+   "type": "V",
+   "home": "CE-L04-M04-L02",
+   "label": "talk me through your thinking",
+   "uses": [
+    "CE-L04-M04-L02"
+   ]
+  },
+  "V-0679": {
+   "type": "V",
+   "home": "CE-L04-M04-L03",
+   "label": "we've decided to",
+   "uses": [
+    "CE-L04-M04-L03"
+   ]
+  },
+  "V-0680": {
+   "type": "V",
+   "home": "CE-L04-M04-L03",
+   "label": "the reasoning behind this is",
+   "uses": [
+    "CE-L04-M04-L03"
+   ]
+  },
+  "V-0681": {
+   "type": "V",
+   "home": "CE-L04-M04-L03",
+   "label": "what this means going forward",
+   "uses": [
+    "CE-L04-M04-L03"
+   ]
+  },
+  "V-0687": {
+   "type": "V",
+   "home": "CE-L04-M05-L01",
+   "label": "the bottom line is",
+   "uses": [
+    "CE-L04-M05-L01",
+    "CE-L05-M06-L01"
+   ]
+  },
+  "V-0688": {
+   "type": "V",
+   "home": "CE-L04-M05-L01",
+   "label": "at a high level",
+   "uses": [
+    "CE-L04-M05-L01"
+   ]
+  },
+  "V-0689": {
+   "type": "V",
+   "home": "CE-L04-M05-L01",
+   "label": "to cut to the chase",
+   "uses": [
+    "CE-L04-M05-L01"
+   ]
+  },
+  "V-0690": {
+   "type": "V",
+   "home": "CE-L04-M05-L02",
+   "label": "that's a fair challenge",
+   "uses": [
+    "CE-L04-M05-L02",
+    "CE-L05-M06-L03"
+   ]
+  },
+  "V-0691": {
+   "type": "V",
+   "home": "CE-L04-M05-L02",
+   "label": "let me push back on that gently",
+   "uses": [
+    "CE-L04-M05-L02"
+   ]
+  },
+  "V-0692": {
+   "type": "V",
+   "home": "CE-L04-M05-L02",
+   "label": "here's the data behind that claim",
+   "uses": [
+    "CE-L04-M05-L02",
+    "CE-L05-M06-L03"
+   ]
+  },
+  "V-0693": {
+   "type": "V",
+   "home": "CE-L04-M05-L03",
+   "label": "in the interest of time",
+   "uses": [
+    "CE-L04-M05-L03"
+   ]
+  },
+  "V-0694": {
+   "type": "V",
+   "home": "CE-L04-M05-L03",
+   "label": "let me jump ahead to",
+   "uses": [
+    "CE-L04-M05-L03"
+   ]
+  },
+  "V-0695": {
+   "type": "V",
+   "home": "CE-L04-M05-L03",
+   "label": "I'll come back to that",
+   "uses": [
+    "CE-L04-M05-L03"
+   ]
+  },
+  "V-0703": {
+   "type": "V",
+   "home": "CE-L04-M06-L01",
+   "label": "here's what we know so far",
+   "uses": [
+    "CE-L04-M06-L01"
+   ]
+  },
+  "V-0704": {
+   "type": "V",
+   "home": "CE-L04-M06-L01",
+   "label": "we're actively working on",
+   "uses": [
+    "CE-L04-M06-L01"
+   ]
+  },
+  "V-0705": {
+   "type": "V",
+   "home": "CE-L04-M06-L01",
+   "label": "I'll update you as soon as",
+   "uses": [
+    "CE-L04-M06-L01"
+   ]
+  },
+  "V-0706": {
+   "type": "V",
+   "home": "CE-L04-M06-L02",
+   "label": "I have some difficult news to share",
+   "uses": [
+    "CE-L04-M06-L02"
+   ]
+  },
+  "V-0707": {
+   "type": "V",
+   "home": "CE-L04-M06-L02",
+   "label": "I want to be direct with you",
+   "uses": [
+    "CE-L04-M06-L02"
+   ]
+  },
+  "V-0708": {
+   "type": "V",
+   "home": "CE-L04-M06-L02",
+   "label": "here's where we go from here",
+   "uses": [
+    "CE-L04-M06-L02"
+   ]
+  },
+  "V-0709": {
+   "type": "V",
+   "home": "CE-L04-M06-L03",
+   "label": "what I can guarantee by then is",
+   "uses": [
+    "CE-L04-M06-L03"
+   ]
+  },
+  "V-0710": {
+   "type": "V",
+   "home": "CE-L04-M06-L03",
+   "label": "pushing this timeline creates real risk",
+   "uses": [
+    "CE-L04-M06-L03"
+   ]
+  },
+  "V-0711": {
+   "type": "V",
+   "home": "CE-L04-M06-L03",
+   "label": "here's what would need to change",
+   "uses": [
+    "CE-L04-M06-L03"
+   ]
+  },
+  "V-0712": {
+   "type": "V",
+   "home": "CE-L04-M06-L04",
+   "label": "the situation as it currently stands",
+   "uses": [
+    "CE-L04-M06-L04"
+   ]
+  },
+  "V-0713": {
+   "type": "V",
+   "home": "CE-L04-M06-L04",
+   "label": "next update by",
+   "uses": [
+    "CE-L04-M06-L04"
+   ]
+  },
+  "V-0714": {
+   "type": "V",
+   "home": "CE-L04-M06-L04",
+   "label": "we are prioritizing",
+   "uses": [
+    "CE-L04-M06-L04"
+   ]
+  },
+  "V-0723": {
+   "type": "V",
+   "home": "CE-L04-M07-L01",
+   "label": "directness",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "V-0724": {
+   "type": "V",
+   "home": "CE-L04-M07-L01",
+   "label": "high-context communication",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "V-0725": {
+   "type": "V",
+   "home": "CE-L04-M07-L01",
+   "label": "low-context communication",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "V-0726": {
+   "type": "V",
+   "home": "CE-L04-M07-L01",
+   "label": "face-saving",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "V-0727": {
+   "type": "V",
+   "home": "CE-L04-M07-L01",
+   "label": "hierarchy signaling",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "V-0728": {
+   "type": "V",
+   "home": "CE-L04-M07-L02",
+   "label": "reading the room",
+   "uses": [
+    "CE-L04-M07-L02"
+   ]
+  },
+  "V-0729": {
+   "type": "V",
+   "home": "CE-L04-M07-L02",
+   "label": "calibrating your directness",
+   "uses": [
+    "CE-L04-M07-L02"
+   ]
+  },
+  "V-0730": {
+   "type": "V",
+   "home": "CE-L04-M07-L03",
+   "label": "does this work for you specifically",
+   "uses": [
+    "CE-L04-M07-L03"
+   ]
+  },
+  "V-0731": {
+   "type": "V",
+   "home": "CE-L04-M07-L03",
+   "label": "I want to check this lands the way I intend",
+   "uses": [
+    "CE-L04-M07-L03"
+   ]
+  },
+  "V-0743": {
+   "type": "V",
+   "home": "CE-L04-M08-L01",
+   "label": "over the course of our relationship",
+   "uses": [
+    "CE-L04-M08-L01"
+   ]
+  },
+  "V-0744": {
+   "type": "V",
+   "home": "CE-L04-M08-L01",
+   "label": "a trusted partner",
+   "uses": [
+    "CE-L04-M08-L01"
+   ]
+  },
+  "V-0745": {
+   "type": "V",
+   "home": "CE-L04-M08-L01",
+   "label": "checking in on how things are going",
+   "uses": [
+    "CE-L04-M08-L01"
+   ]
+  },
+  "V-0746": {
+   "type": "V",
+   "home": "CE-L04-M08-L02",
+   "label": "as our relationship has grown",
+   "uses": [
+    "CE-L04-M08-L02"
+   ]
+  },
+  "V-0747": {
+   "type": "V",
+   "home": "CE-L04-M08-L02",
+   "label": "it's worth revisiting",
+   "uses": [
+    "CE-L04-M08-L02"
+   ]
+  },
+  "V-0748": {
+   "type": "V",
+   "home": "CE-L04-M08-L03",
+   "label": "this needs to change starting now",
+   "uses": [
+    "CE-L04-M08-L03"
+   ]
+  },
+  "V-0749": {
+   "type": "V",
+   "home": "CE-L04-M08-L03",
+   "label": "I need to see improvement by",
+   "uses": [
+    "CE-L04-M08-L03"
+   ]
+  },
+  "V-0750": {
+   "type": "V",
+   "home": "CE-L04-M08-L04",
+   "label": "since we last spoke",
+   "uses": [
+    "CE-L04-M08-L04"
+   ]
+  },
+  "V-0751": {
+   "type": "V",
+   "home": "CE-L04-M08-L04",
+   "label": "circumstances have changed",
+   "uses": [
+    "CE-L04-M08-L04"
+   ]
+  },
+  "V-0752": {
+   "type": "V",
+   "home": "CE-L05-M06-L01",
+   "label": "as I see it",
+   "uses": [
+    "CE-L05-M06-L01"
+   ]
+  },
+  "V-0753": {
+   "type": "V",
+   "home": "CE-L05-M06-L01",
+   "label": "my call on this is",
+   "uses": [
+    "CE-L05-M06-L01"
+   ]
+  },
+  "V-0754": {
+   "type": "V",
+   "home": "CE-L05-M06-L01",
+   "label": "my call on this is",
+   "uses": [
+    "CE-L05-M06-L01"
+   ]
+  },
+  "V-0755": {
+   "type": "V",
+   "home": "CE-L05-M06-L02",
+   "label": "where we're headed",
+   "uses": [
+    "CE-L05-M06-L02"
+   ]
+  },
+  "V-0756": {
+   "type": "V",
+   "home": "CE-L05-M06-L02",
+   "label": "the vision here is",
+   "uses": [
+    "CE-L05-M06-L02"
+   ]
+  },
+  "V-0757": {
+   "type": "V",
+   "home": "CE-L05-M06-L03",
+   "label": "I'll stand by that, and here's why",
+   "uses": [
+    "CE-L05-M06-L03"
+   ]
+  },
+  "V-0764": {
+   "type": "V",
+   "home": "CE-L05-M07-L01",
+   "label": "achieved",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "V-0765": {
+   "type": "V",
+   "home": "CE-L05-M07-L01",
+   "label": "delivered",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "V-0766": {
+   "type": "V",
+   "home": "CE-L05-M07-L01",
+   "label": "spearheaded",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "V-0767": {
+   "type": "V",
+   "home": "CE-L05-M07-L01",
+   "label": "contributed to",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "V-0768": {
+   "type": "V",
+   "home": "CE-L05-M07-L01",
+   "label": "resulting in",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "V-0769": {
+   "type": "V",
+   "home": "CE-L05-M07-L02",
+   "label": "in my previous role",
+   "uses": [
+    "CE-L05-M07-L02"
+   ]
+  },
+  "V-0770": {
+   "type": "V",
+   "home": "CE-L05-M07-L02",
+   "label": "a specific example of this is",
+   "uses": [
+    "CE-L05-M07-L02"
+   ]
+  },
+  "V-0771": {
+   "type": "V",
+   "home": "CE-L05-M07-L02",
+   "label": "what I took away from that was",
+   "uses": [
+    "CE-L05-M07-L02"
+   ]
+  },
+  "V-0772": {
+   "type": "V",
+   "home": "CE-L05-M07-L03",
+   "label": "it was great meeting you at",
+   "uses": [
+    "CE-L05-M07-L03"
+   ]
+  },
+  "V-0773": {
+   "type": "V",
+   "home": "CE-L05-M07-L03",
+   "label": "I'd love to stay in touch",
+   "uses": [
+    "CE-L05-M07-L03"
+   ]
+  },
+  "V-0774": {
+   "type": "V",
+   "home": "CE-L05-M07-L03",
+   "label": "connecting after our conversation at",
+   "uses": [
+    "CE-L05-M07-L03"
+   ]
+  },
+  "V-0775": {
+   "type": "V",
+   "home": "CE-L05-M07-L04",
+   "label": "I'd value your honest feedback on",
+   "uses": [
+    "CE-L05-M07-L04"
+   ]
+  },
+  "V-0776": {
+   "type": "V",
+   "home": "CE-L05-M07-L04",
+   "label": "I'd like to talk about my growth here",
+   "uses": [
+    "CE-L05-M07-L04"
+   ]
+  },
+  "V-0777": {
+   "type": "V",
+   "home": "CE-L05-M07-L04",
+   "label": "based on what I've delivered",
+   "uses": [
+    "CE-L05-M07-L04"
+   ]
+  },
+  "V-0778": {
+   "type": "V",
+   "home": "CE-L05-M07-L05",
+   "label": "based on my research and experience",
+   "uses": [
+    "CE-L05-M07-L05"
+   ]
+  },
+  "V-0779": {
+   "type": "V",
+   "home": "CE-L05-M07-L05",
+   "label": "I'd like to discuss compensation",
+   "uses": [
+    "CE-L05-M07-L05"
+   ]
+  },
+  "V-0780": {
+   "type": "V",
+   "home": "CE-L05-M07-L05",
+   "label": "is there flexibility on",
+   "uses": [
+    "CE-L05-M07-L05"
+   ]
+  },
+  "V-0781": {
+   "type": "V",
+   "home": "CE-L05-M07-L06",
+   "label": "I'm grateful for the opportunity to",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "V-0782": {
+   "type": "V",
+   "home": "CE-L05-M07-L06",
+   "label": "I've decided to move on from",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "V-0783": {
+   "type": "V",
+   "home": "CE-L05-M07-L06",
+   "label": "I want to make this transition as smooth as possible",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "V-0790": {
+   "type": "V",
+   "home": "CE-L05-M08-L01",
+   "label": "my instinct is to",
+   "uses": [
+    "CE-L05-M08-L01"
+   ]
+  },
+  "V-0791": {
+   "type": "V",
+   "home": "CE-L05-M08-L01",
+   "label": "what I want to be known for",
+   "uses": [
+    "CE-L05-M08-L01"
+   ]
+  },
+  "V-0792": {
+   "type": "V",
+   "home": "CE-L05-M08-L01",
+   "label": "this is genuinely how I communicate",
+   "uses": [
+    "CE-L05-M08-L01"
+   ]
+  },
+  "PAT-0001": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L01",
+   "label": "I'm here to + verb\" — \"I'm here to see Mr",
+   "uses": [
+    "CE-L01-M02-L01",
+    "CE-L01-ASSESSMENT"
+   ]
+  },
+  "PAT-0002": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L03",
+   "label": "So, [first step] first, and then [second step]",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "PAT-0003": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L03",
+   "label": "I'll + action + if + condition (present simple",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "PAT-0004": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L04",
+   "label": "Could you tell me where + [place] + is?\" (statement word order after \"where",
+   "uses": [
+    "CE-L01-M02-L04"
+   ]
+  },
+  "PAT-0005": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L04",
+   "label": "Go straight down…, and it's on your left/right, (just) past/before…",
+   "uses": [
+    "CE-L01-M02-L04"
+   ]
+  },
+  "PAT-0006": {
+   "type": "PAT",
+   "home": "CE-L01-M02-L05",
+   "label": "Have a good + [evening / weekend / day off]",
+   "uses": [
+    "CE-L01-M02-L05"
+   ]
+  },
+  "PAT-0007": {
+   "type": "PAT",
+   "home": "CE-L01-M01-L02",
+   "label": "I've + past participle + for/since",
+   "uses": [
+    "CE-L01-M01-L02",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "PAT-0008": {
+   "type": "PAT",
+   "home": "CE-L01-M01-L04",
+   "label": "I'm responsible for + gerund/noun\" — for example, \"I'm responsible for managing check-ins",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "PAT-0009": {
+   "type": "PAT",
+   "home": "CE-L01-M03-L02",
+   "label": "Opener + Follow-up",
+   "uses": [
+    "CE-L01-M03-L02"
+   ]
+  },
+  "PAT-0010": {
+   "type": "PAT",
+   "home": "CE-L01-M03-L04",
+   "label": "Closing + Transition",
+   "uses": [
+    "CE-L01-M03-L04"
+   ]
+  },
+  "PAT-0011": {
+   "type": "PAT",
+   "home": "CE-L01-M04-L02",
+   "label": "Confirmation Restatement",
+   "uses": [
+    "CE-L01-M04-L02",
+    "CE-L05-M02-L03"
+   ]
+  },
+  "PAT-0012": {
+   "type": "PAT",
+   "home": "CE-L01-M04-L03",
+   "label": "Sequencing + Priority Restatement",
+   "uses": [
+    "CE-L01-M04-L03"
+   ]
+  },
+  "PAT-0013": {
+   "type": "PAT",
+   "home": "CE-L01-M05-L01",
+   "label": "Repeat/Rephrase Request",
+   "uses": [
+    "CE-L01-M05-L01",
+    "CE-L02-M03-L03"
+   ]
+  },
+  "PAT-0014": {
+   "type": "PAT",
+   "home": "CE-L01-M05-L02",
+   "label": "Targeted Clarifying Question",
+   "uses": [
+    "CE-L01-M05-L02",
+    "CE-L01-M05-L03"
+   ]
+  },
+  "PAT-0015": {
+   "type": "PAT",
+   "home": "CE-L01-M07-L02",
+   "label": "The softened-request family",
+   "uses": [
+    "CE-L01-M07-L02"
+   ]
+  },
+  "PAT-0016": {
+   "type": "PAT",
+   "home": "CE-L01-M07-L03",
+   "label": "I'm not able to [X] right now, but I can [Y] by [time]",
+   "uses": [
+    "CE-L01-M07-L03",
+    "CE-L01-M07-L04"
+   ]
+  },
+  "PAT-0017": {
+   "type": "PAT",
+   "home": "CE-L05-M01-L01",
+   "label": "Complete-Instruction Structure",
+   "uses": [
+    "CE-L05-M01-L01",
+    "CE-L05-M01-L03"
+   ]
+  },
+  "PAT-0018": {
+   "type": "PAT",
+   "home": "CE-L05-M01-L03",
+   "label": "Ownership-Transfer Structure",
+   "uses": [
+    "CE-L05-M01-L03"
+   ]
+  },
+  "PAT-0019": {
+   "type": "PAT",
+   "home": "CE-L05-M02-L02",
+   "label": "Formal Performance-Review Opening Structure",
+   "uses": [
+    "CE-L05-M02-L02",
+    "CE-L05-M02-L05"
+   ]
+  },
+  "PAT-0020": {
+   "type": "PAT",
+   "home": "CE-L05-M03-L02",
+   "label": "Open Coaching-Question Frame",
+   "uses": [
+    "CE-L05-M03-L02",
+    "CE-L05-M03-L03"
+   ]
+  },
+  "PAT-0021": {
+   "type": "PAT",
+   "home": "CE-L05-M04-L01",
+   "label": "Reasoning-First Structure",
+   "uses": [
+    "CE-L05-M04-L01",
+    "CE-L05-M04-L02",
+    "CE-L05-M04-L05",
+    "CE-L05-M06-L02"
+   ]
+  },
+  "PAT-0022": {
+   "type": "PAT",
+   "home": "CE-L05-M04-L02",
+   "label": "Change-Announcement Structure",
+   "uses": [
+    "CE-L05-M04-L02",
+    "CE-L05-M04-L05"
+   ]
+  },
+  "PAT-0023": {
+   "type": "PAT",
+   "home": "CE-L05-M05-L01",
+   "label": "Ownership-Register Meeting-Opening Structure",
+   "uses": [
+    "CE-L05-M05-L01"
+   ]
+  },
+  "PAT-0024": {
+   "type": "PAT",
+   "home": "CE-L05-M05-L02",
+   "label": "Decisive-Acknowledgment Structure",
+   "uses": [
+    "CE-L05-M05-L02"
+   ]
+  },
+  "PAT-0025": {
+   "type": "PAT",
+   "home": "CE-L02-M01-L01",
+   "label": "Done / Doing / Blocked Structure",
+   "uses": [
+    "CE-L02-M01-L01",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0026": {
+   "type": "PAT",
+   "home": "CE-L02-M01-L02",
+   "label": "Cause-and-Next-Step Structure",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "PAT-0027": {
+   "type": "PAT",
+   "home": "CE-L02-M02-L01",
+   "label": "Conditional Request Structure",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "PAT-0028": {
+   "type": "PAT",
+   "home": "CE-L02-M02-L02",
+   "label": "Decline-with-Alternative Structure",
+   "uses": [
+    "CE-L02-M02-L02"
+   ]
+  },
+  "PAT-0029": {
+   "type": "PAT",
+   "home": "CE-L02-M02-L03",
+   "label": "Counter-Proposal Structure",
+   "uses": [
+    "CE-L02-M02-L03",
+    "CE-L02-M02-L05",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0030": {
+   "type": "PAT",
+   "home": "CE-L02-M03-L01",
+   "label": "Phone Greeting-and-ID Formula",
+   "uses": [
+    "CE-L02-M03-L01",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0031": {
+   "type": "PAT",
+   "home": "CE-L02-M03-L02",
+   "label": "Message-Taking Question Set + Confirmation-Restatement",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "PAT-0032": {
+   "type": "PAT",
+   "home": "CE-L02-M03-L04",
+   "label": "Hold-and-Transfer Formula",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "PAT-0033": {
+   "type": "PAT",
+   "home": "CE-L02-M04-L02",
+   "label": "One-Idea-Per-Message Structure",
+   "uses": [
+    "CE-L02-M04-L02",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0034": {
+   "type": "PAT",
+   "home": "CE-L02-M04-L03",
+   "label": "Urgency-Marking Structure",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "PAT-0035": {
+   "type": "PAT",
+   "home": "CE-L02-M05-L01",
+   "label": "Three-Part Apology Structure",
+   "uses": [
+    "CE-L02-M05-L01",
+    "CE-L02-M05-L02",
+    "CE-L02-M05-L04",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0036": {
+   "type": "PAT",
+   "home": "CE-L02-M05-L03",
+   "label": "Specific-Gratitude Structure",
+   "uses": [
+    "CE-L02-M05-L03",
+    "CE-L02-M05-L04",
+    "CE-L02-M06-L04"
+   ]
+  },
+  "PAT-0037": {
+   "type": "PAT",
+   "home": "CE-L02-M06-L02",
+   "label": "Polite Follow-Up Opener Structure",
+   "uses": [
+    "CE-L02-M06-L02"
+   ]
+  },
+  "PAT-0038": {
+   "type": "PAT",
+   "home": "CE-L02-M06-L03",
+   "label": "Graduated Follow-Up Ladder",
+   "uses": [
+    "CE-L02-M06-L03",
+    "CE-L02-M06-L04",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0039": {
+   "type": "PAT",
+   "home": "CE-L02-M07-L01",
+   "label": "Channel-Adapted Greeting Formula",
+   "uses": [
+    "CE-L02-M07-L01",
+    "CE-L02-M07-L05"
+   ]
+  },
+  "PAT-0040": {
+   "type": "PAT",
+   "home": "CE-L02-M07-L02",
+   "label": "Plain-Language Check Structure",
+   "uses": [
+    "CE-L02-M07-L02",
+    "CE-L02-M07-L05"
+   ]
+  },
+  "PAT-0041": {
+   "type": "PAT",
+   "home": "CE-L02-M07-L03",
+   "label": "Honest-Uncertainty-Plus-Next-Step Structure",
+   "uses": [
+    "CE-L02-M07-L03",
+    "CE-L02-M07-L05",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0042": {
+   "type": "PAT",
+   "home": "CE-L02-M07-L04",
+   "label": "Listen-Acknowledge-Offer Structure",
+   "uses": [
+    "CE-L02-M07-L04",
+    "CE-L02-M07-L05"
+   ]
+  },
+  "PAT-0043": {
+   "type": "PAT",
+   "home": "CE-L02-M08-L01",
+   "label": "Lateness Notification Formula",
+   "uses": [
+    "CE-L02-M08-L01"
+   ]
+  },
+  "PAT-0044": {
+   "type": "PAT",
+   "home": "CE-L02-M08-L02",
+   "label": "Confidentiality Reminder Structure",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "PAT-0045": {
+   "type": "PAT",
+   "home": "CE-L02-M08-L03",
+   "label": "Hierarchy-Adapted Address Structure",
+   "uses": [
+    "CE-L02-M08-L03",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "PAT-0046": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L01",
+   "label": "Professional Email Structure",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "PAT-0047": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L02",
+   "label": "Email Request Structure",
+   "uses": [
+    "CE-L03-M01-L02",
+    "CE-L03-M01-L06"
+   ]
+  },
+  "PAT-0048": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L03",
+   "label": "Follow-Up / Reminder Email Structure",
+   "uses": [
+    "CE-L03-M01-L03",
+    "CE-L03-M01-L06"
+   ]
+  },
+  "PAT-0049": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L03",
+   "label": "Confirmation Email Structure",
+   "uses": [
+    "CE-L03-M01-L03",
+    "CE-L03-M01-L06"
+   ]
+  },
+  "PAT-0050": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L04",
+   "label": "Email Apology & Complaint-Response Structure",
+   "uses": [
+    "CE-L03-M01-L04",
+    "CE-L03-M01-L06"
+   ]
+  },
+  "PAT-0051": {
+   "type": "PAT",
+   "home": "CE-L03-M01-L05",
+   "label": "Escalation Email Structure",
+   "uses": [
+    "CE-L03-M01-L05"
+   ]
+  },
+  "PAT-0054": {
+   "type": "PAT",
+   "home": "CE-L03-M02-L01",
+   "label": "The Facts → Evidence → Analysis → Action → Recommendation Framework",
+   "uses": [
+    "CE-L03-M02-L01",
+    "CE-L03-M02-L02"
+   ]
+  },
+  "PAT-0055": {
+   "type": "PAT",
+   "home": "CE-L03-M02-L03",
+   "label": "Contributing factor",
+   "uses": [
+    "CE-L03-M02-L03"
+   ]
+  },
+  "PAT-0056": {
+   "type": "PAT",
+   "home": "CE-L03-M02-L04",
+   "label": "Never leaving a number to speak for itself",
+   "uses": [
+    "CE-L03-M02-L04"
+   ]
+  },
+  "PAT-0057": {
+   "type": "PAT",
+   "home": "CE-L03-M02-L05",
+   "label": "Yer of concrete detail Professional Grammar in Context: Specific-Recommendation Structure",
+   "uses": [
+    "CE-L03-M02-L05",
+    "CE-L03-ASSESSMENT"
+   ]
+  },
+  "PAT-0061": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L01",
+   "label": "Key Expressions Expression Function Register The purpose of this meeting is",
+   "uses": [
+    "CE-L03-M03-L01",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0062": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L02",
+   "label": "Meeting-Opening Objective Formula",
+   "uses": [
+    "CE-L03-M03-L02",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0063": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L03",
+   "label": "Opinion-Giving Formula",
+   "uses": [
+    "CE-L03-M03-L03",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0064": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L03",
+   "label": "Diplomatic Disagreement Formula",
+   "uses": [
+    "CE-L03-M03-L03",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0065": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L04",
+   "label": "Polite Interruption Formula",
+   "uses": [
+    "CE-L03-M03-L04",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0066": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L04",
+   "label": "Clarify-and-Summarize Formula",
+   "uses": [
+    "CE-L03-M03-L04",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0067": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L05",
+   "label": "Action Point Assignment Formula",
+   "uses": [
+    "CE-L03-M03-L05",
+    "CE-L03-M03-L06",
+    "CE-L03-ASSESSMENT"
+   ]
+  },
+  "PAT-0068": {
+   "type": "PAT",
+   "home": "CE-L03-M03-L06",
+   "label": "Key Expressions Expression Function Register Attendees",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "PAT-0069": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L01",
+   "label": "The Presentation Opening Formula",
+   "uses": [
+    "CE-L03-M04-L01",
+    "CE-L03-M04-L05",
+    "CE-L04-M05-L01"
+   ]
+  },
+  "PAT-0070": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L02",
+   "label": "The Chart-Description Structure",
+   "uses": [
+    "CE-L03-M04-L02",
+    "CE-L03-M04-L05"
+   ]
+  },
+  "PAT-0071": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L03",
+   "label": "The Comparison-and-Highlight Structure",
+   "uses": [
+    "CE-L03-M04-L03",
+    "CE-L03-M04-L05"
+   ]
+  },
+  "PAT-0072": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L04",
+   "label": "Closing signal",
+   "uses": [
+    "CE-L03-M04-L04",
+    "CE-L03-M04-L05"
+   ]
+  },
+  "PAT-0073": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L04",
+   "label": "Arif (presenting, transition",
+   "uses": [
+    "CE-L03-M04-L04",
+    "CE-L03-M04-L05"
+   ]
+  },
+  "PAT-0074": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L05",
+   "label": "Acknowledge → defer → commit",
+   "uses": [
+    "CE-L03-M04-L05",
+    "CE-L03-ASSESSMENT",
+    "CE-L03-CAPSTONE",
+    "CE-L04-M05-L02"
+   ]
+  },
+  "PAT-0075": {
+   "type": "PAT",
+   "home": "CE-L03-M04-L05",
+   "label": "Dr",
+   "uses": [
+    "CE-L03-M04-L05",
+    "CE-L03-ASSESSMENT",
+    "CE-L03-CAPSTONE",
+    "CE-L04-M05-L02"
+   ]
+  },
+  "PAT-0076": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L01",
+   "label": "Reflective Listening Structure",
+   "uses": [
+    "CE-L03-M05-L01",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0077": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L02",
+   "label": "Two De-escalation Structures",
+   "uses": [
+    "CE-L03-M05-L02",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0078": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L02",
+   "label": "PAT-0077",
+   "uses": [
+    "CE-L03-M05-L02",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0079": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L03",
+   "label": "Two Solution Structures",
+   "uses": [
+    "CE-L03-M05-L03",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0080": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L03",
+   "label": "PAT-0079",
+   "uses": [
+    "CE-L03-M05-L03",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0081": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L04",
+   "label": "Escalation Recognition and the Escalation Email",
+   "uses": [
+    "CE-L03-M05-L04",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0082": {
+   "type": "PAT",
+   "home": "CE-L03-M05-L04",
+   "label": "PAT-0082",
+   "uses": [
+    "CE-L03-M05-L04",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "PAT-0083": {
+   "type": "PAT",
+   "home": "CE-L03-M06-L01",
+   "label": "[Warm welcome + client's name] + [genuine rapport line] + [transition to the purpose of th…",
+   "uses": [
+    "CE-L03-M06-L01",
+    "CE-L03-M06-L05"
+   ]
+  },
+  "PAT-0084": {
+   "type": "PAT",
+   "home": "CE-L03-M06-L02",
+   "label": "[Open question] + [follow-up]",
+   "uses": [
+    "CE-L03-M06-L02",
+    "CE-L03-M06-L05"
+   ]
+  },
+  "PAT-0085": {
+   "type": "PAT",
+   "home": "CE-L03-M06-L03",
+   "label": "[Based on what you've told me / Since you mentioned] + [proposed solution] + [explicit lin…",
+   "uses": [
+    "CE-L03-M06-L03",
+    "CE-L03-M06-L05"
+   ]
+  },
+  "PAT-0086": {
+   "type": "PAT",
+   "home": "CE-L03-M06-L04",
+   "label": "[Acknowledge]",
+   "uses": [
+    "CE-L03-M06-L04",
+    "CE-L03-M06-L05"
+   ]
+  },
+  "PAT-0090": {
+   "type": "PAT",
+   "home": "CE-L03-M07-L06",
+   "label": "Data-Comparison Reporting Structure",
+   "uses": [
+    "CE-L03-M07-L06"
+   ]
+  },
+  "PAT-0098": {
+   "type": "PAT",
+   "home": "CE-L03-M08-L01",
+   "label": "Content-Word Stress Pattern",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "PAT-0099": {
+   "type": "PAT",
+   "home": "CE-L03-M08-L03",
+   "label": "Consonant-to-Vowel Linking Pattern",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "PAT-0104": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L01",
+   "label": "The Video-Call Join-and-Check Structure",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "PAT-0105": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L01",
+   "label": "The Mute/Connection Recovery Pattern",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "PAT-0106": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L02",
+   "label": "The Five-Channel Decision Checklist",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "PAT-0107": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L02",
+   "label": "The Wrong-Channel Recovery Pattern",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "PAT-0108": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L03",
+   "label": "Vocabulary core content (V-0595",
+   "uses": [
+    "CE-L03-M09-L03",
+    "CE-L05-M08-L03"
+   ]
+  },
+  "PAT-0109": {
+   "type": "PAT",
+   "home": "CE-L03-M09-L03",
+   "label": "The Compression-Expansion Pattern",
+   "uses": [
+    "CE-L03-M09-L03",
+    "CE-L05-M08-L03"
+   ]
+  },
+  "PAT-0110": {
+   "type": "PAT",
+   "home": "CE-L04-M01-L01",
+   "label": "Best alternative",
+   "uses": [
+    "CE-L04-M01-L01",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "PAT-0111": {
+   "type": "PAT",
+   "home": "CE-L04-M01-L02",
+   "label": "Anchoring Formula",
+   "uses": [
+    "CE-L04-M01-L02",
+    "CE-L04-M01-L05",
+    "CE-L04-M08-L02"
+   ]
+  },
+  "PAT-0112": {
+   "type": "PAT",
+   "home": "CE-L04-M01-L03",
+   "label": "Conditional Trade Formula",
+   "uses": [
+    "CE-L04-M01-L03",
+    "CE-L04-M01-L05",
+    "CE-L04-M08-L02"
+   ]
+  },
+  "PAT-0113": {
+   "type": "PAT",
+   "home": "CE-L04-M01-L04",
+   "label": "Composure-Under-Pressure Formula",
+   "uses": [
+    "CE-L04-M01-L04",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "PAT-0114": {
+   "type": "PAT",
+   "home": "CE-L04-M01-L04",
+   "label": "Deadlock-Breaking Question Formula",
+   "uses": [
+    "CE-L04-M01-L04",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "PAT-0117": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L01",
+   "label": "[State the decision + brief honest reason] + [if pushed]",
+   "uses": [
+    "CE-L04-M02-L01",
+    "CE-L04-M08-L03"
+   ]
+  },
+  "PAT-0118": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L02",
+   "label": "[Name the specific action, not the person's character] + [the impact of this was + concret…",
+   "uses": [
+    "CE-L04-M02-L02"
+   ]
+  },
+  "PAT-0119": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L03",
+   "label": "[Accept what's fair]",
+   "uses": [
+    "CE-L04-M02-L03"
+   ]
+  },
+  "PAT-0120": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L04",
+   "label": "The Proactive Mistake-Reporting Formula",
+   "uses": [
+    "CE-L04-M02-L04"
+   ]
+  },
+  "PAT-0121": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L05",
+   "label": "[I've noticed a pattern where + specific, repeated behavior, not one incident] + [let's fi…",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "PAT-0122": {
+   "type": "PAT",
+   "home": "CE-L04-M02-L06",
+   "label": "The Conflict Resolution Structure",
+   "uses": [
+    "CE-L04-M02-L06"
+   ]
+  },
+  "PAT-0126": {
+   "type": "PAT",
+   "home": "CE-L04-M03-L01",
+   "label": "The Persuasive Argument Structure",
+   "uses": [
+    "CE-L04-M03-L01",
+    "CE-L04-M03-L04"
+   ]
+  },
+  "PAT-0127": {
+   "type": "PAT",
+   "home": "CE-L04-M03-L02",
+   "label": "The Honest Framing Structure",
+   "uses": [
+    "CE-L04-M03-L02",
+    "CE-L04-M03-L04"
+   ]
+  },
+  "PAT-0128": {
+   "type": "PAT",
+   "home": "CE-L04-M03-L03",
+   "label": "The Doubt-Diagnosis Structure",
+   "uses": [
+    "CE-L04-M03-L03",
+    "CE-L04-M03-L04"
+   ]
+  },
+  "PAT-0129": {
+   "type": "PAT",
+   "home": "CE-L04-M03-L04",
+   "label": "The Influence-Without-Authority Structure",
+   "uses": [
+    "CE-L04-M03-L04"
+   ]
+  },
+  "PAT-0132": {
+   "type": "PAT",
+   "home": "CE-L04-M04-L01",
+   "label": "Spoken Problem-Structuring Framework",
+   "uses": [
+    "CE-L04-M04-L01",
+    "CE-L04-M04-L04"
+   ]
+  },
+  "PAT-0133": {
+   "type": "PAT",
+   "home": "CE-L04-M04-L02",
+   "label": "Collaborative Trade-off Exploration",
+   "uses": [
+    "CE-L04-M04-L02",
+    "CE-L04-M04-L04"
+   ]
+  },
+  "PAT-0138": {
+   "type": "PAT",
+   "home": "CE-L04-M05-L01",
+   "label": "The bottom line",
+   "uses": [
+    "CE-L04-M05-L01",
+    "CE-L04-M05-L04",
+    "CE-L05-M06-L01"
+   ]
+  },
+  "PAT-0139": {
+   "type": "PAT",
+   "home": "CE-L04-M05-L02",
+   "label": "The Tough-Question Response Formula",
+   "uses": [
+    "CE-L04-M05-L02",
+    "CE-L04-M05-L04",
+    "CE-L05-M06-L03"
+   ]
+  },
+  "PAT-0140": {
+   "type": "PAT",
+   "home": "CE-L04-M05-L03",
+   "label": "Two Live-Adaptation Formulas",
+   "uses": [
+    "CE-L04-M05-L03",
+    "CE-L04-M05-L04"
+   ]
+  },
+  "PAT-0141": {
+   "type": "PAT",
+   "home": "CE-L04-M05-L03",
+   "label": "PAT-0140",
+   "uses": [
+    "CE-L04-M05-L03",
+    "CE-L04-M05-L04"
+   ]
+  },
+  "PAT-0142": {
+   "type": "PAT",
+   "home": "CE-L04-M05-L04",
+   "label": "The Storytelling Opener",
+   "uses": [
+    "CE-L04-M05-L04"
+   ]
+  },
+  "PAT-0144": {
+   "type": "PAT",
+   "home": "CE-L04-M06-L01",
+   "label": "The same thirty seconds, this time using the Calm Crisis Opening Formula",
+   "uses": [
+    "CE-L04-M06-L01",
+    "CE-L04-M06-L05"
+   ]
+  },
+  "PAT-0145": {
+   "type": "PAT",
+   "home": "CE-L04-M06-L02",
+   "label": "Cold bluntness",
+   "uses": [
+    "CE-L04-M06-L02",
+    "CE-L04-M06-L05"
+   ]
+  },
+  "PAT-0146": {
+   "type": "PAT",
+   "home": "CE-L04-M06-L03",
+   "label": "Credible Alternative / Deadline Pushback Structure",
+   "uses": [
+    "CE-L04-M06-L03",
+    "CE-L04-M06-L05"
+   ]
+  },
+  "PAT-0147": {
+   "type": "PAT",
+   "home": "CE-L04-M06-L04",
+   "label": "Next update by",
+   "uses": [
+    "CE-L04-M06-L04",
+    "CE-L04-M06-L05"
+   ]
+  },
+  "PAT-0151": {
+   "type": "PAT",
+   "home": "CE-L04-M07-L01",
+   "label": "Style-vs-Substance Recognition Pattern",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "PAT-0152": {
+   "type": "PAT",
+   "home": "CE-L04-M07-L02",
+   "label": "Style-Calibrated Message Pattern",
+   "uses": [
+    "CE-L04-M07-L02"
+   ]
+  },
+  "PAT-0153": {
+   "type": "PAT",
+   "home": "CE-L04-M07-L03",
+   "label": "Proactive Cross-Cultural Check-In Pattern",
+   "uses": [
+    "CE-L04-M07-L03"
+   ]
+  },
+  "PAT-0157": {
+   "type": "PAT",
+   "home": "CE-L04-M08-L01",
+   "label": "[Open with a proactive check-in, not tied to any request] + [Reference the relationship's …",
+   "uses": [
+    "CE-L04-M08-L01",
+    "CE-L04-M08-L05"
+   ]
+  },
+  "PAT-0158": {
+   "type": "PAT",
+   "home": "CE-L04-M08-L02",
+   "label": "Renewal Negotiation Formula",
+   "uses": [
+    "CE-L04-M08-L02",
+    "CE-L04-M08-L05"
+   ]
+  },
+  "PAT-0159": {
+   "type": "PAT",
+   "home": "CE-L04-M08-L03",
+   "label": "Vendor Accountability Formula",
+   "uses": [
+    "CE-L04-M08-L03",
+    "CE-L04-M08-L05"
+   ]
+  },
+  "PAT-0160": {
+   "type": "PAT",
+   "home": "CE-L04-M08-L04",
+   "label": "Expectation-Reset Formula",
+   "uses": [
+    "CE-L04-M08-L04",
+    "CE-L04-M08-L05"
+   ]
+  },
+  "PAT-0161": {
+   "type": "PAT",
+   "home": "CE-L05-M06-L01",
+   "label": "The Authority-Register Opening",
+   "uses": [
+    "CE-L05-M06-L01",
+    "CE-L05-M06-L04"
+   ]
+  },
+  "PAT-0162": {
+   "type": "PAT",
+   "home": "CE-L05-M06-L02",
+   "label": "The Vision-Presentation Structure",
+   "uses": [
+    "CE-L05-M06-L02",
+    "CE-L05-M06-L04"
+   ]
+  },
+  "PAT-0163": {
+   "type": "PAT",
+   "home": "CE-L05-M06-L03",
+   "label": "The Authority-Register Challenge-Response",
+   "uses": [
+    "CE-L05-M06-L03"
+   ]
+  },
+  "PAT-0165": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L01",
+   "label": "B Arif rewrites the same work history using the Achievement-Bullet Structure",
+   "uses": [
+    "CE-L05-M07-L01",
+    "CE-L05-M07-L06"
+   ]
+  },
+  "PAT-0166": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L02",
+   "label": "Situation-Action-Result Interview Structure",
+   "uses": [
+    "CE-L05-M07-L02",
+    "CE-L05-M07-L06"
+   ]
+  },
+  "PAT-0167": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L03",
+   "label": "Networking Self-Introduction and Follow-Up Structure",
+   "uses": [
+    "CE-L05-M07-L03"
+   ]
+  },
+  "PAT-0168": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L04",
+   "label": "Evidence-Based Promotion-Case Structure",
+   "uses": [
+    "CE-L05-M07-L04"
+   ]
+  },
+  "PAT-0169": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L05",
+   "label": "Compensation-Discussion Structure",
+   "uses": [
+    "CE-L05-M07-L05",
+    "CE-L05-M07-L06"
+   ]
+  },
+  "PAT-0170": {
+   "type": "PAT",
+   "home": "CE-L05-M07-L06",
+   "label": "Noor, using the Graceful-Resignation Structure",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "PAT-0171": {
+   "type": "PAT",
+   "home": "CE-L05-M08-L01",
+   "label": "Authentic-Voice Recognition Pattern",
+   "uses": [
+    "CE-L05-M08-L01",
+    "CE-L05-M08-L02"
+   ]
+  },
+  "GIC-0001": {
+   "type": "GIC",
+   "home": "CE-L01-M02-L03",
+   "label": "Sequencing and simple conditions in instructions",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "GIC-0002": {
+   "type": "GIC",
+   "home": "CE-L01-M01-L02",
+   "label": "Past simple vs. present perfect for describing your background",
+   "uses": [
+    "CE-L01-M01-L02",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "GIC-0003": {
+   "type": "GIC",
+   "home": "CE-L01-M01-L04",
+   "label": "Present simple for your role now",
+   "uses": [
+    "CE-L01-M01-L04",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "GIC-0004": {
+   "type": "GIC",
+   "home": "CE-L01-M04-L01",
+   "label": "Instruction forms",
+   "uses": [
+    "CE-L01-M04-L01"
+   ]
+  },
+  "GIC-0005": {
+   "type": "GIC",
+   "home": "CE-L01-M07-L02",
+   "label": "Modals for softened requests",
+   "uses": [
+    "CE-L01-M07-L02"
+   ]
+  },
+  "GIC-0006": {
+   "type": "GIC",
+   "home": "CE-L02-M02-L04",
+   "label": "Reported Speech — Tense Shifts When Relaying a Message",
+   "uses": [
+    "CE-L02-M02-L04"
+   ]
+  },
+  "GIC-0007": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L01",
+   "label": "Simple Past in Status Writing",
+   "uses": [
+    "CE-L03-M07-L01"
+   ]
+  },
+  "GIC-0008": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L02",
+   "label": "Modal Softeners for Written Hedging",
+   "uses": [
+    "CE-L03-M07-L02"
+   ]
+  },
+  "GIC-0009": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L02",
+   "label": "Conditionals for Professional Hypotheticals",
+   "uses": [
+    "CE-L03-M07-L02"
+   ]
+  },
+  "GIC-0010": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L03",
+   "label": "Passive Voice for Objective Reporting",
+   "uses": [
+    "CE-L03-M07-L03"
+   ]
+  },
+  "GIC-0011": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L03",
+   "label": "Reported Speech Tense Shifts",
+   "uses": [
+    "CE-L03-M07-L03"
+   ]
+  },
+  "GIC-0012": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L04",
+   "label": "Articles in Professional Writing",
+   "uses": [
+    "CE-L03-M07-L04"
+   ]
+  },
+  "GIC-0013": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L04",
+   "label": "Fixed Preposition Pairings",
+   "uses": [
+    "CE-L03-M07-L04"
+   ]
+  },
+  "GIC-0014": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L04",
+   "label": "Subject-Verb Agreement with Tricky Subjects",
+   "uses": [
+    "CE-L03-M07-L04"
+   ]
+  },
+  "GIC-0015": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L05",
+   "label": "Relative Clauses for Combining Ideas",
+   "uses": [
+    "CE-L03-M07-L05"
+   ]
+  },
+  "GIC-0016": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L05",
+   "label": "Infinitive Patterns",
+   "uses": [
+    "CE-L03-M07-L05"
+   ]
+  },
+  "GIC-0017": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L06",
+   "label": "Comparatives and Superlatives for Data",
+   "uses": [
+    "CE-L03-M07-L06"
+   ]
+  },
+  "GIC-0018": {
+   "type": "GIC",
+   "home": "CE-L03-M07-L06",
+   "label": "Formal Sentence Structure Conventions",
+   "uses": [
+    "CE-L03-M07-L06"
+   ]
+  },
+  "CF-0001": {
+   "type": "CF",
+   "home": "CE-L01-M02-L03",
+   "label": "Listen → Restate → Clarify",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "CF-0002": {
+   "type": "CF",
+   "home": "CE-L01-M01-L03",
+   "label": "What changes between a peer and a manager isn't the content, it's the register",
+   "uses": [
+    "CE-L01-M01-L03",
+    "CE-L01-M01-L05"
+   ]
+  },
+  "CF-0003": {
+   "type": "CF",
+   "home": "CE-L01-M03-L03",
+   "label": "The Polite Redirect Formula",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "CF-0004": {
+   "type": "CF",
+   "home": "CE-L05-M02-L04",
+   "label": "The Underperformance-and-Support Formula",
+   "uses": [
+    "CE-L05-M02-L04",
+    "CE-L05-M02-L05"
+   ]
+  },
+  "CF-0005": {
+   "type": "CF",
+   "home": "CE-L02-M03-L05",
+   "label": "The Call-Closing Formula",
+   "uses": [
+    "CE-L02-M03-L05"
+   ]
+  },
+  "CF-0006": {
+   "type": "CF",
+   "home": "CE-L02-M04-L05",
+   "label": "The Channel-Selection Framework",
+   "uses": [
+    "CE-L02-M04-L05",
+    "CE-L03-M09-L02"
+   ]
+  },
+  "CF-0007": {
+   "type": "CF",
+   "home": "CE-L02-M06-L04",
+   "label": "The Closing-the-Loop Formula",
+   "uses": [
+    "CE-L02-M06-L04"
+   ]
+  },
+  "CF-0008": {
+   "type": "CF",
+   "home": "CE-L02-M07-L05",
+   "label": "The Customer-Interaction Closing Formula",
+   "uses": [
+    "CE-L02-M07-L05",
+    "CE-L02-ASSESSMENT"
+   ]
+  },
+  "CF-0009": {
+   "type": "CF",
+   "home": "CE-L03-M01-L06",
+   "label": "The Full Email Thread Formula",
+   "uses": [
+    "CE-L03-M01-L06"
+   ]
+  },
+  "CF-0011": {
+   "type": "CF",
+   "home": "CE-L03-M03-L06",
+   "label": "The Full Meeting Formula",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "CF-0012": {
+   "type": "CF",
+   "home": "CE-L03-M04-L05",
+   "label": "The Presentation Delivery Formula",
+   "uses": [
+    "CE-L03-M04-L05"
+   ]
+  },
+  "CF-0013": {
+   "type": "CF",
+   "home": "CE-L03-M05-L05",
+   "label": "The Service Recovery Formula",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "CF-0014": {
+   "type": "CF",
+   "home": "CE-L03-M06-L05",
+   "label": "Name the four parts of the Client-Closing-and-Follow-Up Formula",
+   "uses": [
+    "CE-L03-M06-L05"
+   ]
+  },
+  "CF-0017": {
+   "type": "CF",
+   "home": "CE-L03-M09-L04",
+   "label": "The Cross-Platform Judgment Formula",
+   "uses": [
+    "CE-L03-M09-L04",
+    "CE-L03-ASSESSMENT"
+   ]
+  },
+  "CF-0018": {
+   "type": "CF",
+   "home": "CE-L04-M01-L05",
+   "label": "Name the four parts of the Negotiation Closing Formula",
+   "uses": [
+    "CE-L04-M01-L05"
+   ]
+  },
+  "CF-0019": {
+   "type": "CF",
+   "home": "CE-L04-M02-L06",
+   "label": "The Conflict Resolution Formula",
+   "uses": [
+    "CE-L04-M02-L06"
+   ]
+  },
+  "CF-0020": {
+   "type": "CF",
+   "home": "CE-L04-M03-L04",
+   "label": "The Persuasion Formula",
+   "uses": [
+    "CE-L04-M03-L04",
+    "CE-L04-CAPSTONE"
+   ]
+  },
+  "CF-0021": {
+   "type": "CF",
+   "home": "CE-L04-M04-L03",
+   "label": "Decision Communication Formula",
+   "uses": [
+    "CE-L04-M04-L03",
+    "CE-L04-M04-L04",
+    "CE-L05-M05-L03"
+   ]
+  },
+  "CF-0022": {
+   "type": "CF",
+   "home": "CE-L04-M05-L04",
+   "label": "The Executive Presentation Formula",
+   "uses": [
+    "CE-L04-M05-L04"
+   ]
+  },
+  "CF-0023": {
+   "type": "CF",
+   "home": "CE-L04-M06-L05",
+   "label": "The Crisis Communication Formula",
+   "uses": [
+    "CE-L04-M06-L05",
+    "CE-L04-CAPSTONE"
+   ]
+  },
+  "CF-0024": {
+   "type": "CF",
+   "home": "CE-L04-M07-L04",
+   "label": "Guided",
+   "uses": [
+    "CE-L04-M07-L04"
+   ]
+  },
+  "CF-0025": {
+   "type": "CF",
+   "home": "CE-L04-M08-L05",
+   "label": "Name the five parts of the Relationship Management Formula",
+   "uses": [
+    "CE-L04-M08-L05",
+    "CE-L04-CAPSTONE"
+   ]
+  },
+  "CF-0026": {
+   "type": "CF",
+   "home": "CE-L05-M06-L04",
+   "label": "The Executive Presence Formula",
+   "uses": [
+    "CE-L05-M06-L04"
+   ]
+  },
+  "CF-0027": {
+   "type": "CF",
+   "home": "CE-L05-M07-L06",
+   "label": "Career Self-Advocacy Formula",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "CF-0028": {
+   "type": "CF",
+   "home": "CE-L05-M08-L04",
+   "label": "The Personal Leadership Voice Formula",
+   "uses": [
+    "CE-L05-M08-L04"
+   ]
+  },
+  "TL-0001": {
+   "type": "TL",
+   "home": "CE-L01-M02-L05",
+   "label": "Leaving at the end of the day",
+   "uses": [
+    "CE-L01-M02-L05"
+   ]
+  },
+  "TL-0002": {
+   "type": "TL",
+   "home": "CE-L01-M03-L01",
+   "label": "Greeting someone whose status you're unsure of",
+   "uses": [
+    "CE-L01-M03-L01",
+    "CE-L01-M05-L03"
+   ]
+  },
+  "TL-0003": {
+   "type": "TL",
+   "home": "CE-L01-M07-L04",
+   "label": "Asking your manager for something, while respecting hierarchy",
+   "uses": [
+    "CE-L01-M07-L04"
+   ]
+  },
+  "TL-0004": {
+   "type": "TL",
+   "home": "CE-L03-M01-L01",
+   "label": "Greeting and closing an email at the right formality level",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "TL-0007": {
+   "type": "TL",
+   "home": "CE-L03-M06-L01",
+   "label": "Welcoming a client for the first time",
+   "uses": [
+    "CE-L03-M06-L01"
+   ]
+  },
+  "TL-0008": {
+   "type": "TL",
+   "home": "CE-L03-M06-L04",
+   "label": "Responding to a client's cost objection",
+   "uses": [
+    "CE-L03-M06-L04"
+   ]
+  },
+  "TL-0009": {
+   "type": "TL",
+   "home": "CE-L04-M01-L02",
+   "label": "Opening a price negotiation",
+   "uses": [
+    "CE-L04-M01-L02"
+   ]
+  },
+  "TL-0010": {
+   "type": "TL",
+   "home": "CE-L04-M02-L01",
+   "label": "Holding a firm refusal under pushback",
+   "uses": [
+    "CE-L04-M02-L01"
+   ]
+  },
+  "TL-0011": {
+   "type": "TL",
+   "home": "CE-L04-M02-L05",
+   "label": "Naming a difficult colleague's pattern",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "TL-0012": {
+   "type": "TL",
+   "home": "CE-L04-M05-L01",
+   "label": "Opening a briefing for a senior or executive audience",
+   "uses": [
+    "CE-L04-M05-L01"
+   ]
+  },
+  "TL-0013": {
+   "type": "TL",
+   "home": "CE-L04-M07-L02",
+   "label": "Asking Jordan to confirm the headcount",
+   "uses": [
+    "CE-L04-M07-L02"
+   ]
+  },
+  "TL-0014": {
+   "type": "TL",
+   "home": "CE-L04-M08-L03",
+   "label": "Holding a vendor accountable without ending the relationship",
+   "uses": [
+    "CE-L04-M08-L03"
+   ]
+  },
+  "TL-0015": {
+   "type": "TL",
+   "home": "CE-L05-M06-L01",
+   "label": "Opening a Briefing as the Senior Person in the Room",
+   "uses": [
+    "CE-L05-M06-L01"
+   ]
+  },
+  "TL-0016": {
+   "type": "TL",
+   "home": "CE-L05-M07-L05",
+   "label": "Responding to a lower-than-hoped compensation offer",
+   "uses": [
+    "CE-L05-M07-L05"
+   ]
+  },
+  "MIS-0001": {
+   "type": "MIS",
+   "home": "CE-L01-M02-L01",
+   "label": "“I have come here for the joining” (mistake)",
+   "uses": []
+  },
+  "MIS-0002": {
+   "type": "MIS",
+   "home": "CE-L01-M01-L01",
+   "label": "“I want to become professional” (mistake)",
+   "uses": [
+    "CE-L01-M01-L01"
+   ]
+  },
+  "MIS-0003": {
+   "type": "MIS",
+   "home": "CE-L01-M01-L02",
+   "label": "“I am working there since 2 years” (mistake)",
+   "uses": []
+  },
+  "MIS-0004": {
+   "type": "MIS",
+   "home": "CE-L01-M01-L03",
+   "label": "“Hi, um, so my name is Arif, and, well, I studied hospitality management, and before that, …” (mistake)",
+   "uses": [
+    "CE-L01-M01-L03"
+   ]
+  },
+  "MIS-0005": {
+   "type": "MIS",
+   "home": "CE-L01-M01-L04",
+   "label": "“I am responsible to manage the front desk” (mistake)",
+   "uses": []
+  },
+  "MIS-0006": {
+   "type": "MIS",
+   "home": "CE-L01-M03-L01",
+   "label": "Greeting a senior director with \"Morning!\" the same way you'd greet a peer — not offensive",
+   "uses": [
+    "CE-L01-M03-L01",
+    "CE-L01-M07-L04"
+   ]
+  },
+  "MIS-0007": {
+   "type": "MIS",
+   "home": "CE-L01-M03-L03",
+   "label": "Answering bluntly (\"That's none of your business\" or \"Why do you want to know?\") shuts the…",
+   "uses": [
+    "CE-L01-M03-L03"
+   ]
+  },
+  "MIS-0008": {
+   "type": "MIS",
+   "home": "CE-L01-M04-L04",
+   "label": "Relying only on a flat \"I don't understand\" tells your supervisor almost nothing useful",
+   "uses": [
+    "CE-L01-M04-L04"
+   ]
+  },
+  "MIS-0009": {
+   "type": "MIS",
+   "home": "CE-L01-M05-L01",
+   "label": "Over-apologizing",
+   "uses": [
+    "CE-L01-M05-L01"
+   ]
+  },
+  "MIS-0010": {
+   "type": "MIS",
+   "home": "CE-L01-M05-L02",
+   "label": "Asking a vague clarifying question",
+   "uses": [
+    "CE-L01-M05-L02",
+    "CE-L01-M05-L03",
+    "CE-L01-ASSESSMENT"
+   ]
+  },
+  "MIS-0011": {
+   "type": "MIS",
+   "home": "CE-L01-M06-L01",
+   "label": "Confusing front desk and reception",
+   "uses": [
+    "CE-L01-M06-L01"
+   ]
+  },
+  "MIS-0012": {
+   "type": "MIS",
+   "home": "CE-L01-M06-L03",
+   "label": "Confusing on time and in time",
+   "uses": [
+    "CE-L01-M06-L03"
+   ]
+  },
+  "MIS-0013": {
+   "type": "MIS",
+   "home": "CE-L01-M06-L04",
+   "label": "Confusing pending and in progress",
+   "uses": [
+    "CE-L01-M06-L04"
+   ]
+  },
+  "MIS-0014": {
+   "type": "MIS",
+   "home": "CE-L01-M07-L01",
+   "label": "Assuming \"please\" alone fixes tone",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "MIS-0015": {
+   "type": "MIS",
+   "home": "CE-L01-M07-L02",
+   "label": "Softening the opener but not the rest of the sentence",
+   "uses": [
+    "CE-L01-M07-L02"
+   ]
+  },
+  "MIS-0016": {
+   "type": "MIS",
+   "home": "CE-L01-M07-L03",
+   "label": "Over-apologizing when declining",
+   "uses": [
+    "CE-L01-M07-L03"
+   ]
+  },
+  "MIS-0017": {
+   "type": "MIS",
+   "home": "CE-L01-M07-L04",
+   "label": "Over-familiarity with someone senior",
+   "uses": [
+    "CE-L01-M07-L04"
+   ]
+  },
+  "MIS-0018": {
+   "type": "MIS",
+   "home": "CE-L01-M07-L04",
+   "label": "Over-stiffness with someone senior",
+   "uses": [
+    "CE-L01-M07-L04"
+   ]
+  },
+  "MIS-0019": {
+   "type": "MIS",
+   "home": "CE-L05-M01-L01",
+   "label": "Delegating without defining done",
+   "uses": [
+    "CE-L05-M01-L01"
+   ]
+  },
+  "MIS-0020": {
+   "type": "MIS",
+   "home": "CE-L05-M01-L02",
+   "label": "One script for everyone",
+   "uses": [
+    "CE-L05-M01-L02",
+    "CE-L05-M01-L04"
+   ]
+  },
+  "MIS-0021": {
+   "type": "MIS",
+   "home": "CE-L05-M01-L03",
+   "label": "Checklist-only delegation",
+   "uses": [
+    "CE-L05-M01-L03",
+    "CE-L05-M01-L04"
+   ]
+  },
+  "MIS-0022": {
+   "type": "MIS",
+   "home": "CE-L05-M01-L04",
+   "label": "A check-in that reads as an audit",
+   "uses": [
+    "CE-L05-M01-L04"
+   ]
+  },
+  "MIS-0023": {
+   "type": "MIS",
+   "home": "CE-L05-M02-L01",
+   "label": "Turning a quick note into a big event",
+   "uses": [
+    "CE-L05-M02-L01"
+   ]
+  },
+  "MIS-0024": {
+   "type": "MIS",
+   "home": "CE-L05-M02-L02",
+   "label": "Leading with the growth area",
+   "uses": [
+    "CE-L05-M02-L02"
+   ]
+  },
+  "MIS-0025": {
+   "type": "MIS",
+   "home": "CE-L05-M02-L03",
+   "label": "Assigning instead of asking",
+   "uses": [
+    "CE-L05-M02-L03",
+    "CE-L05-M02-L05"
+   ]
+  },
+  "MIS-0026": {
+   "type": "MIS",
+   "home": "CE-L05-M02-L04",
+   "label": "Vague and avoidant",
+   "uses": [
+    "CE-L05-M02-L04"
+   ]
+  },
+  "MIS-0027": {
+   "type": "MIS",
+   "home": "CE-L05-M02-L05",
+   "label": "Treating the opening strengths as a token warm-up",
+   "uses": [
+    "CE-L05-M02-L05"
+   ]
+  },
+  "MIS-0028": {
+   "type": "MIS",
+   "home": "CE-L05-M03-L01",
+   "label": "Reflexively telling without noticing the choice",
+   "uses": [
+    "CE-L05-M03-L01"
+   ]
+  },
+  "MIS-0029": {
+   "type": "MIS",
+   "home": "CE-L05-M03-L02",
+   "label": "A leading question disguised as open",
+   "uses": [
+    "CE-L05-M03-L02",
+    "CE-L05-M03-L04"
+   ]
+  },
+  "MIS-0030": {
+   "type": "MIS",
+   "home": "CE-L05-M03-L03",
+   "label": "Taking over once the fix seems obvious",
+   "uses": [
+    "CE-L05-M03-L03",
+    "CE-L05-M03-L04"
+   ]
+  },
+  "MIS-0031": {
+   "type": "MIS",
+   "home": "CE-L05-M03-L04",
+   "label": "Coaching when telling was actually required",
+   "uses": [
+    "CE-L05-M03-L04"
+   ]
+  },
+  "MIS-0032": {
+   "type": "MIS",
+   "home": "CE-L05-M04-L01",
+   "label": "Stating the decision without the reasoning",
+   "uses": [
+    "CE-L05-M04-L01"
+   ]
+  },
+  "MIS-0033": {
+   "type": "MIS",
+   "home": "CE-L05-M04-L02",
+   "label": "Naming only what's changing",
+   "uses": [
+    "CE-L05-M04-L02",
+    "CE-L05-M04-L05"
+   ]
+  },
+  "MIS-0034": {
+   "type": "MIS",
+   "home": "CE-L05-M04-L03",
+   "label": "Dismissing the resistance",
+   "uses": [
+    "CE-L05-M04-L03",
+    "CE-L05-M04-L05"
+   ]
+  },
+  "MIS-0035": {
+   "type": "MIS",
+   "home": "CE-L05-M04-L04",
+   "label": "Announcing once and never following up",
+   "uses": [
+    "CE-L05-M04-L04",
+    "CE-L05-M04-L05"
+   ]
+  },
+  "MIS-0036": {
+   "type": "MIS",
+   "home": "CE-L05-M05-L01",
+   "label": "Opening a meeting the way an organizer would",
+   "uses": [
+    "CE-L05-M05-L01",
+    "CE-L05-M05-L05"
+   ]
+  },
+  "MIS-0037": {
+   "type": "MIS",
+   "home": "CE-L05-M05-L02",
+   "label": "Avoiding a decision because the group hasn't reached full agreement",
+   "uses": [
+    "CE-L05-M05-L02",
+    "CE-L05-M05-L05"
+   ]
+  },
+  "MIS-0038": {
+   "type": "MIS",
+   "home": "CE-L05-M05-L03",
+   "label": "Reopening the debate while announcing the decision",
+   "uses": [
+    "CE-L05-M05-L03",
+    "CE-L05-M05-L05"
+   ]
+  },
+  "MIS-0039": {
+   "type": "MIS",
+   "home": "CE-L05-M05-L04",
+   "label": "Letting a meeting run over its scheduled time instead of closing on schedule and taking th…",
+   "uses": [
+    "CE-L05-M05-L04",
+    "CE-L05-M05-L05"
+   ]
+  },
+  "MIS-0040": {
+   "type": "MIS",
+   "home": "CE-L02-M01-L01",
+   "label": "Giving an update as a long, unsorted account of everything that happened, instead of sorti…",
+   "uses": [
+    "CE-L02-M01-L01",
+    "CE-L02-M01-L04"
+   ]
+  },
+  "MIS-0041": {
+   "type": "MIS",
+   "home": "CE-L02-M01-L02",
+   "label": "Leading with the reason and apology, and only mentioning a plan at the end, if at all",
+   "uses": [
+    "CE-L02-M01-L02"
+   ]
+  },
+  "MIS-0042": {
+   "type": "MIS",
+   "home": "CE-L02-M01-L03",
+   "label": "Giving every audience the same amount of detail, regardless of what they actually need it …",
+   "uses": [
+    "CE-L02-M01-L03"
+   ]
+  },
+  "MIS-0043": {
+   "type": "MIS",
+   "home": "CE-L02-M02-L01",
+   "label": "Stating the condition but forgetting the trade-off, so a reasonable request still sounds o…",
+   "uses": [
+    "CE-L02-M02-L01"
+   ]
+  },
+  "MIS-0044": {
+   "type": "MIS",
+   "home": "CE-L02-M02-L02",
+   "label": "Giving a vague non-answer instead of a clear decline, leaving the other person unable to m…",
+   "uses": [
+    "CE-L02-M02-L02"
+   ]
+  },
+  "MIS-0045": {
+   "type": "MIS",
+   "home": "CE-L02-M02-L03",
+   "label": "Responding to an unrealistic deadline or scope with a vague objection instead of a specifi…",
+   "uses": [
+    "CE-L02-M02-L03",
+    "CE-L02-M02-L05"
+   ]
+  },
+  "MIS-0046": {
+   "type": "MIS",
+   "home": "CE-L02-M02-L04",
+   "label": "Relaying a message word-for-word from the original speaker, without shifting tense or pron…",
+   "uses": [
+    "CE-L02-M02-L04"
+   ]
+  },
+  "MIS-0047": {
+   "type": "MIS",
+   "home": "CE-L02-M02-L05",
+   "label": "Burying the actual request somewhere in the middle of a longer message, so the reader has …",
+   "uses": [
+    "CE-L02-M02-L05"
+   ]
+  },
+  "MIS-0048": {
+   "type": "MIS",
+   "home": "CE-L02-M03-L01",
+   "label": "Answering a work phone the same way you'd answer a personal call",
+   "uses": [
+    "CE-L02-M03-L01"
+   ]
+  },
+  "MIS-0049": {
+   "type": "MIS",
+   "home": "CE-L02-M03-L02",
+   "label": "Taking a message without confirming or restating the key details, so an error",
+   "uses": [
+    "CE-L02-M03-L02"
+   ]
+  },
+  "MIS-0050": {
+   "type": "MIS",
+   "home": "CE-L02-M03-L03",
+   "label": "Pretending to understand on a bad connection or with an unclear name, rather than asking f…",
+   "uses": [
+    "CE-L02-M03-L03"
+   ]
+  },
+  "MIS-0051": {
+   "type": "MIS",
+   "home": "CE-L02-M03-L04",
+   "label": "Putting a caller on hold or transferring them without asking first or explaining what's ha…",
+   "uses": [
+    "CE-L02-M03-L04"
+   ]
+  },
+  "MIS-0052": {
+   "type": "MIS",
+   "home": "CE-L02-M03-L05",
+   "label": "Ending a call abruptly right after resolving the immediate issue, without checking whether…",
+   "uses": [
+    "CE-L02-M03-L05"
+   ]
+  },
+  "MIS-0053": {
+   "type": "MIS",
+   "home": "CE-L02-M04-L01",
+   "label": "Using the same register everywhere, regardless of channel",
+   "uses": [
+    "CE-L02-M04-L01"
+   ]
+  },
+  "MIS-0054": {
+   "type": "MIS",
+   "home": "CE-L02-M04-L02",
+   "label": "Cramming several unrelated topics into one long chat message",
+   "uses": [
+    "CE-L02-M04-L02"
+   ]
+  },
+  "MIS-0055": {
+   "type": "MIS",
+   "home": "CE-L02-M04-L03",
+   "label": "Marking every message as urgent or \"ASAP,\" regardless of the actual deadline, until reader…",
+   "uses": [
+    "CE-L02-M04-L03"
+   ]
+  },
+  "MIS-0056": {
+   "type": "MIS",
+   "home": "CE-L02-M04-L04",
+   "label": "Posting a message meant for one person into the whole group chat, generating unnecessary n…",
+   "uses": [
+    "CE-L02-M04-L04"
+   ]
+  },
+  "MIS-0057": {
+   "type": "MIS",
+   "home": "CE-L02-M04-L05",
+   "label": "Defaulting to a chat message for something urgent, sensitive, or complex, because it's eas…",
+   "uses": [
+    "CE-L02-M04-L05"
+   ]
+  },
+  "MIS-0058": {
+   "type": "MIS",
+   "home": "CE-L02-M05-L01",
+   "label": "Giving a weak apology that only says \"sorry,\" without acknowledging the specific impact or…",
+   "uses": [
+    "CE-L02-M05-L01"
+   ]
+  },
+  "MIS-0059": {
+   "type": "MIS",
+   "home": "CE-L02-M05-L02",
+   "label": "Apologizing for a mistake while shifting the blame elsewhere, instead of owning it outrigh…",
+   "uses": [
+    "CE-L02-M05-L02"
+   ]
+  },
+  "MIS-0060": {
+   "type": "MIS",
+   "home": "CE-L02-M05-L03",
+   "label": "Giving generic thanks that doesn't name what was done or why it mattered, so real effort g…",
+   "uses": [
+    "CE-L02-M05-L03"
+   ]
+  },
+  "MIS-0061": {
+   "type": "MIS",
+   "home": "CE-L02-M05-L04",
+   "label": "Naming or blaming a specific team member when apologizing on behalf of the team, instead o…",
+   "uses": [
+    "CE-L02-M05-L04"
+   ]
+  },
+  "MIS-0062": {
+   "type": "MIS",
+   "home": "CE-L02-M06-L01",
+   "label": "Treating every follow-up timing the same way",
+   "uses": [
+    "CE-L02-M06-L01"
+   ]
+  },
+  "MIS-0063": {
+   "type": "MIS",
+   "home": "CE-L02-M06-L02",
+   "label": "Writing a follow-up that reads as an accusation or complaint rather than a reminder",
+   "uses": [
+    "CE-L02-M06-L02"
+   ]
+  },
+  "MIS-0064": {
+   "type": "MIS",
+   "home": "CE-L02-M06-L03",
+   "label": "Either jumping straight to a firm, demanding tone on the very first follow-up, or staying …",
+   "uses": [
+    "CE-L02-M06-L03"
+   ]
+  },
+  "MIS-0065": {
+   "type": "MIS",
+   "home": "CE-L02-M06-L04",
+   "label": "Letting a resolved follow-up thread go silent instead of closing it, even though the origi…",
+   "uses": [
+    "CE-L02-M06-L04"
+   ]
+  },
+  "MIS-0066": {
+   "type": "MIS",
+   "home": "CE-L02-M07-L01",
+   "label": "Using the exact same greeting script regardless of channel, so it sounds recited rather th…",
+   "uses": [
+    "CE-L02-M07-L01"
+   ]
+  },
+  "MIS-0067": {
+   "type": "MIS",
+   "home": "CE-L02-M07-L02",
+   "label": "Giving a technically correct answer full of internal terms or abbreviations, without check…",
+   "uses": [
+    "CE-L02-M07-L02"
+   ]
+  },
+  "MIS-0068": {
+   "type": "MIS",
+   "home": "CE-L02-M07-L03",
+   "label": "Guessing at an answer to sound confident, or deflecting the question entirely instead of a…",
+   "uses": [
+    "CE-L02-M07-L03"
+   ]
+  },
+  "MIS-0069": {
+   "type": "MIS",
+   "home": "CE-L02-M07-L04",
+   "label": "Jumping straight to explaining or defending what happened, before acknowledging the custom…",
+   "uses": [
+    "CE-L02-M07-L04"
+   ]
+  },
+  "MIS-0070": {
+   "type": "MIS",
+   "home": "CE-L02-M07-L05",
+   "label": "Ending the interaction as soon as the immediate problem is resolved, without checking for …",
+   "uses": [
+    "CE-L02-M07-L05"
+   ]
+  },
+  "MIS-0071": {
+   "type": "MIS",
+   "home": "CE-L02-M08-L01",
+   "label": "Staying silent about running late instead of sending a short, proactive heads-up",
+   "uses": [
+    "CE-L02-M08-L01"
+   ]
+  },
+  "MIS-0072": {
+   "type": "MIS",
+   "home": "CE-L02-M08-L02",
+   "label": "Forwarding or sharing a message, document, or screenshot without checking whether it's act…",
+   "uses": [
+    "CE-L02-M08-L02"
+   ]
+  },
+  "MIS-0073": {
+   "type": "MIS",
+   "home": "CE-L02-M08-L03",
+   "label": "Using first names with senior colleagues by default, regardless of the relationship, or CC…",
+   "uses": [
+    "CE-L02-M08-L03"
+   ]
+  },
+  "MIS-0074": {
+   "type": "MIS",
+   "home": "CE-L02-M08-L04",
+   "label": "Treating each workplace skill as something that only applies in its own separate \"lesson\" …",
+   "uses": [
+    "CE-L02-M08-L04"
+   ]
+  },
+  "MIS-0075": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L01",
+   "label": "Writing a vague or missing subject line, which forces the reader to open the email",
+   "uses": [
+    "CE-L03-M01-L01"
+   ]
+  },
+  "MIS-0076": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L02",
+   "label": "Sending a request with no background or context, which forces the reader to ask a follow-u…",
+   "uses": [
+    "CE-L03-M01-L02"
+   ]
+  },
+  "MIS-0077": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L03",
+   "label": "Writing a follow-up or reminder email that skips the softening opener and reads as impatie…",
+   "uses": [
+    "CE-L03-M01-L03"
+   ]
+  },
+  "MIS-0078": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L04",
+   "label": "Responding to a complaint defensively",
+   "uses": [
+    "CE-L03-M01-L04"
+   ]
+  },
+  "MIS-0079": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L05",
+   "label": "Writing an escalation email that reads as a threat or an attack on a person, rather than a…",
+   "uses": [
+    "CE-L03-M01-L05"
+   ]
+  },
+  "MIS-0080": {
+   "type": "MIS",
+   "home": "CE-L03-M01-L06",
+   "label": "Treating each message in a thread as a fresh, disconnected email",
+   "uses": [
+    "CE-L03-M01-L06"
+   ]
+  },
+  "MIS-0083": {
+   "type": "MIS",
+   "home": "CE-L03-M02-L01",
+   "label": "Letting opinion or interpretation creep into the facts section, before the reader has even…",
+   "uses": [
+    "CE-L03-M02-L01",
+    "CE-L03-M02-L05"
+   ]
+  },
+  "MIS-0084": {
+   "type": "MIS",
+   "home": "CE-L03-M02-L02",
+   "label": "Turning a report into a bare list of tasks completed, with no analysis and no recommendati…",
+   "uses": [
+    "CE-L03-M02-L02",
+    "CE-L03-M02-L05"
+   ]
+  },
+  "MIS-0085": {
+   "type": "MIS",
+   "home": "CE-L03-M02-L03",
+   "label": "Letting blame or opinion about a colleague's carelessness appear in the facts section, ins…",
+   "uses": [
+    "CE-L03-M02-L03",
+    "CE-L03-M02-L05"
+   ]
+  },
+  "MIS-0086": {
+   "type": "MIS",
+   "home": "CE-L03-M02-L04",
+   "label": "Listing data points one after another without stating what they mean, leaving the reader t…",
+   "uses": [
+    "CE-L03-M02-L04",
+    "CE-L03-M02-L05"
+   ]
+  },
+  "MIS-0087": {
+   "type": "MIS",
+   "home": "CE-L03-M02-L05",
+   "label": "Writing a recommendation so general that the reader still has to decide what to do themsel…",
+   "uses": [
+    "CE-L03-M02-L05"
+   ]
+  },
+  "MIS-0090": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L01",
+   "label": "Key Expressions Expression Function Register The purpose of this meeting is",
+   "uses": [
+    "CE-L03-M03-L01"
+   ]
+  },
+  "MIS-0091": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L02",
+   "label": "Skipping the objective entirely and diving straight into discussion, so the group talks fo…",
+   "uses": [
+    "CE-L03-M03-L02"
+   ]
+  },
+  "MIS-0092": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L03",
+   "label": "Disagreeing in a way that dismisses the other person's opinion outright, without acknowled…",
+   "uses": [
+    "CE-L03-M03-L03",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "MIS-0093": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L04",
+   "label": "Letting confusion sit unaddressed instead of interrupting to clarify, or letting a long di…",
+   "uses": [
+    "CE-L03-M03-L04"
+   ]
+  },
+  "MIS-0094": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L05",
+   "label": "Ending a meeting with decisions made but no one clearly responsible for carrying them out,…",
+   "uses": [
+    "CE-L03-M03-L05",
+    "CE-L03-M03-L06"
+   ]
+  },
+  "MIS-0095": {
+   "type": "MIS",
+   "home": "CE-L03-M03-L06",
+   "label": "Key Expressions Expression Function Register Attendees",
+   "uses": [
+    "CE-L03-M03-L06"
+   ]
+  },
+  "MIS-0098": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L01",
+   "label": "Diving straight into data or details without first stating the topic or the agenda, leavin…",
+   "uses": [
+    "CE-L03-M04-L01"
+   ]
+  },
+  "MIS-0099": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L02",
+   "label": "Reading a slide's text or numbers aloud word-for-word, instead of explaining what the char…",
+   "uses": [
+    "CE-L03-M04-L02"
+   ]
+  },
+  "MIS-0100": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L03",
+   "label": "Listing every data point with equal emphasis, so the audience never learns which one actua…",
+   "uses": [
+    "CE-L03-M04-L03"
+   ]
+  },
+  "MIS-0101": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L04",
+   "label": "Jumping from one section straight into the next with no transition or signpost, leaving th…",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "MIS-0102": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L04",
+   "label": "Ending a presentation abruptly, with no closing signal, so the audience is caught off guar…",
+   "uses": [
+    "CE-L03-M04-L04"
+   ]
+  },
+  "MIS-0103": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L05",
+   "label": "Getting defensive or visibly flustered when asked a challenging or critical question, rath…",
+   "uses": [
+    "CE-L03-M04-L05"
+   ]
+  },
+  "MIS-0104": {
+   "type": "MIS",
+   "home": "CE-L03-M04-L05",
+   "label": "Guessing at an answer or bluffing through a figure you don't actually have, instead of hon…",
+   "uses": [
+    "CE-L03-M04-L05"
+   ]
+  },
+  "MIS-0105": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L01",
+   "label": "Jumping in with an explanation or a fix before the customer has finished speaking, or befo…",
+   "uses": [
+    "CE-L03-M05-L01"
+   ]
+  },
+  "MIS-0106": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L02",
+   "label": "Matching the customer's tone",
+   "uses": [
+    "CE-L03-M05-L02",
+    "CE-L03-M05-L05"
+   ]
+  },
+  "MIS-0107": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L02",
+   "label": "Over-controlling your tone into something so flat and scripted that it sounds cold or robo…",
+   "uses": [
+    "CE-L03-M05-L02"
+   ]
+  },
+  "MIS-0108": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L03",
+   "label": "Over-promising a solution to make the customer feel better right now, even when it isn't r…",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "MIS-0109": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L03",
+   "label": "Being so hedged and cautious that the customer only hears refusal, not the actual offer un…",
+   "uses": [
+    "CE-L03-M05-L03"
+   ]
+  },
+  "MIS-0110": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L04",
+   "label": "Escalating internally but leaving the customer in the dark",
+   "uses": [
+    "CE-L03-M05-L04"
+   ]
+  },
+  "MIS-0111": {
+   "type": "MIS",
+   "home": "CE-L03-M05-L05",
+   "label": "Treating the situation as resolved once the customer stops complaining, rather than confir…",
+   "uses": [
+    "CE-L03-M05-L05"
+   ]
+  },
+  "MIS-0112": {
+   "type": "MIS",
+   "home": "CE-L03-M06-L01",
+   "label": "Rushing straight into business without any warmth, or the opposite",
+   "uses": [
+    "CE-L03-M06-L01"
+   ]
+  },
+  "MIS-0113": {
+   "type": "MIS",
+   "home": "CE-L03-M06-L02",
+   "label": "Assuming the client's need after their first sentence and moving straight to a pitch, inst…",
+   "uses": [
+    "CE-L03-M06-L02"
+   ]
+  },
+  "MIS-0114": {
+   "type": "MIS",
+   "home": "CE-L03-M06-L03",
+   "label": "Presenting a solution as a generic list of features, without ever tying it back to what th…",
+   "uses": [
+    "CE-L03-M06-L03"
+   ]
+  },
+  "MIS-0115": {
+   "type": "MIS",
+   "home": "CE-L03-M06-L04",
+   "label": "Responding to an objection defensively (explaining or justifying at length) or by over-pro…",
+   "uses": [
+    "CE-L03-M06-L04",
+    "CE-L03-M06-L05"
+   ]
+  },
+  "MIS-0116": {
+   "type": "MIS",
+   "home": "CE-L03-M06-L05",
+   "label": "Ending a client meeting on a vague, feel-good note, without a specific next step, date, or…",
+   "uses": [
+    "CE-L03-M06-L05"
+   ]
+  },
+  "MIS-0119": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L01",
+   "label": "Using the present perfect with a finished-time expression ( have finished … last Tuesday )…",
+   "uses": [
+    "CE-L03-M07-L01",
+    "CE-L03-M07-L06"
+   ]
+  },
+  "MIS-0120": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L02",
+   "label": "Writing an unhedged, absolute claim in a risk note or recommendation, instead of a modal-s…",
+   "uses": [
+    "CE-L03-M07-L02"
+   ]
+  },
+  "MIS-0121": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L03",
+   "label": "Copying the original speaker's time words into a report written later, so they now point t…",
+   "uses": [
+    "CE-L03-M07-L03"
+   ]
+  },
+  "MIS-0122": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L04",
+   "label": "Matching the verb to the nearest noun in the sentence instead of the true subject, especia…",
+   "uses": [
+    "CE-L03-M07-L04"
+   ]
+  },
+  "MIS-0123": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L05",
+   "label": "Using the wrong form",
+   "uses": [
+    "CE-L03-M07-L05"
+   ]
+  },
+  "MIS-0124": {
+   "type": "MIS",
+   "home": "CE-L03-M07-L06",
+   "label": "Writing a formal document in a spoken-register style",
+   "uses": [
+    "CE-L03-M07-L06"
+   ]
+  },
+  "MIS-0127": {
+   "type": "MIS",
+   "home": "CE-L03-M08-L01",
+   "label": "Placing word stress on the wrong syllable of a familiar multi-syllable word",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "MIS-0128": {
+   "type": "MIS",
+   "home": "CE-L03-M08-L02",
+   "label": "Using rising intonation on ordinary statements",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "MIS-0129": {
+   "type": "MIS",
+   "home": "CE-L03-M08-L03",
+   "label": "Confusing /v/ and /w/, which can turn one real word into a different real word and genuine…",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "MIS-0130": {
+   "type": "MIS",
+   "home": "CE-L03-M08-L03",
+   "label": "Speaking word-by-word, with a small pause before and after every word, instead of linking …",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "MIS-0131": {
+   "type": "MIS",
+   "home": "CE-L03-M08-L04",
+   "label": "Overusing filler words as a hesitation crutch, instead of allowing a brief silent pause wh…",
+   "uses": [
+    "CE-L03-M08-L04"
+   ]
+  },
+  "MIS-0133": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L01",
+   "label": "Speaking for several sentences before realizing you're on mute",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "MIS-0134": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L01",
+   "label": "Starting to explain a slide or document after sharing your screen, without confirming anyo…",
+   "uses": [
+    "CE-L03-M09-L01"
+   ]
+  },
+  "MIS-0135": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L02",
+   "label": "Defaulting to chat for something sensitive or complex, because it's the fastest option for…",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "MIS-0136": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L02",
+   "label": "Overcorrecting the other way",
+   "uses": [
+    "CE-L03-M09-L02"
+   ]
+  },
+  "MIS-0137": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L03",
+   "label": "Writing or saying the exact same wording across every channel instead of adjusting registe…",
+   "uses": [
+    "CE-L03-M09-L03"
+   ]
+  },
+  "MIS-0138": {
+   "type": "MIS",
+   "home": "CE-L03-M09-L04",
+   "label": "Treating each day's communication task as a fresh, isolated decision, rather than carrying…",
+   "uses": [
+    "CE-L03-M09-L04"
+   ]
+  },
+  "MIS-0139": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L01",
+   "label": "Walking into a negotiation without a walk-away point, or treating every item on the list a…",
+   "uses": [
+    "CE-L04-M01-L01"
+   ]
+  },
+  "MIS-0140": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L02",
+   "label": "Opening so weakly that there is no room left to negotiate from, or so aggressively that th…",
+   "uses": [
+    "CE-L04-M01-L02",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "MIS-0141": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L03",
+   "label": "Giving away a concession unconditionally, with nothing asked for in return, often because …",
+   "uses": [
+    "CE-L04-M01-L03",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "MIS-0142": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L04",
+   "label": "Escalating in response to a pressure tactic",
+   "uses": [
+    "CE-L04-M01-L04",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "MIS-0143": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L04",
+   "label": "Capitulating to a pressure tactic",
+   "uses": [
+    "CE-L04-M01-L04",
+    "CE-L04-M01-L05"
+   ]
+  },
+  "MIS-0144": {
+   "type": "MIS",
+   "home": "CE-L04-M01-L05",
+   "label": "Ending a negotiation on a vague, feel-good note once agreement is reached, without restati…",
+   "uses": [
+    "CE-L04-M01-L05"
+   ]
+  },
+  "MIS-0146": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L01",
+   "label": "The refusal wavers under a second round of pushback, sliding from no into let me see wh…",
+   "uses": [
+    "CE-L04-M02-L01"
+   ]
+  },
+  "MIS-0147": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L02",
+   "label": "Feedback that generalizes a single incident into a statement about the person's character,…",
+   "uses": [
+    "CE-L04-M02-L02"
+   ]
+  },
+  "MIS-0148": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L03",
+   "label": "Responding to criticism by explaining or justifying the original choice before acknowledgi…",
+   "uses": [
+    "CE-L04-M02-L03"
+   ]
+  },
+  "MIS-0149": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L04",
+   "label": "Delaying the report, hoping the error goes unnoticed, or minimizing the impact when it fin…",
+   "uses": [
+    "CE-L04-M02-L04"
+   ]
+  },
+  "MIS-0150": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L05",
+   "label": "Either tolerating a difficult pattern silently until it quietly damages the working relati…",
+   "uses": [
+    "CE-L04-M02-L05"
+   ]
+  },
+  "MIS-0151": {
+   "type": "MIS",
+   "home": "CE-L04-M02-L06",
+   "label": "Reacting to only the surface of the conflict",
+   "uses": [
+    "CE-L04-M02-L06"
+   ]
+  },
+  "MIS-0155": {
+   "type": "MIS",
+   "home": "CE-L04-M03-L01",
+   "label": "Listing every point in whatever order they come to mind, so the strongest point ends up bu…",
+   "uses": [
+    "CE-L04-M03-L01"
+   ]
+  },
+  "MIS-0156": {
+   "type": "MIS",
+   "home": "CE-L04-M03-L02",
+   "label": "Crossing the line from honest framing into spin",
+   "uses": [
+    "CE-L04-M03-L02"
+   ]
+  },
+  "MIS-0157": {
+   "type": "MIS",
+   "home": "CE-L04-M03-L03",
+   "label": "Repeating the original pitch again, more insistently or in more detail, when the listener …",
+   "uses": [
+    "CE-L04-M03-L03",
+    "CE-L04-M03-L04"
+   ]
+  },
+  "MIS-0158": {
+   "type": "MIS",
+   "home": "CE-L04-M03-L04",
+   "label": "Framing a request to a peer as though it were an instruction, with no acknowledgment of th…",
+   "uses": [
+    "CE-L04-M03-L04"
+   ]
+  },
+  "MIS-0161": {
+   "type": "MIS",
+   "home": "CE-L04-M04-L01",
+   "label": "Jumping straight to a half-formed conclusion, or listing disconnected thoughts, without ev…",
+   "uses": [
+    "CE-L04-M04-L01"
+   ]
+  },
+  "MIS-0162": {
+   "type": "MIS",
+   "home": "CE-L04-M04-L02",
+   "label": "Presenting your preferred option as if it has no downside at all, which shuts down real co…",
+   "uses": [
+    "CE-L04-M04-L02"
+   ]
+  },
+  "MIS-0163": {
+   "type": "MIS",
+   "home": "CE-L04-M04-L03",
+   "label": "Announcing only the decision or the instruction, without the reasoning behind it",
+   "uses": [
+    "CE-L04-M04-L03"
+   ]
+  },
+  "MIS-0164": {
+   "type": "MIS",
+   "home": "CE-L04-M04-L04",
+   "label": "Under time pressure, defaulting to a partial answer",
+   "uses": [
+    "CE-L04-M04-L04"
+   ]
+  },
+  "MIS-0167": {
+   "type": "MIS",
+   "home": "CE-L04-M05-L01",
+   "label": "Building up slowly to the point with a senior or executive audience, the way a peer presen…",
+   "uses": [
+    "CE-L04-M05-L01"
+   ]
+  },
+  "MIS-0168": {
+   "type": "MIS",
+   "home": "CE-L04-M05-L02",
+   "label": "Getting defensive, rushing an answer without evidence, or quietly conceding a tough questi…",
+   "uses": [
+    "CE-L04-M05-L02",
+    "CE-L04-M05-L04"
+   ]
+  },
+  "MIS-0169": {
+   "type": "MIS",
+   "home": "CE-L04-M05-L03",
+   "label": "Rambling through a shortened slot as though the time hadn't changed at all, either running…",
+   "uses": [
+    "CE-L04-M05-L03",
+    "CE-L04-M05-L04"
+   ]
+  },
+  "MIS-0170": {
+   "type": "MIS",
+   "home": "CE-L04-M05-L03",
+   "label": "Losing the thread after an interruption",
+   "uses": [
+    "CE-L04-M05-L03",
+    "CE-L04-M05-L04"
+   ]
+  },
+  "MIS-0171": {
+   "type": "MIS",
+   "home": "CE-L04-M05-L04",
+   "label": "Leading with data and figures only, never anchoring them in a concrete example",
+   "uses": [
+    "CE-L04-M05-L04"
+   ]
+  },
+  "MIS-0173": {
+   "type": "MIS",
+   "home": "CE-L04-M06-L01",
+   "label": "Reacting to the pressure of a crisis with panicked over-communication",
+   "uses": [
+    "CE-L04-M06-L01"
+   ]
+  },
+  "MIS-0174": {
+   "type": "MIS",
+   "home": "CE-L04-M06-L02",
+   "label": "Softening bad news so heavily that the listener isn't sure anything is actually wrong, or …",
+   "uses": [
+    "CE-L04-M06-L02"
+   ]
+  },
+  "MIS-0175": {
+   "type": "MIS",
+   "home": "CE-L04-M06-L03",
+   "label": "Either caving and promising the unrealistic deadline anyway to end the tension of the mome…",
+   "uses": [
+    "CE-L04-M06-L03"
+   ]
+  },
+  "MIS-0176": {
+   "type": "MIS",
+   "home": "CE-L04-M06-L04",
+   "label": "Sending a crisis update that is either too vague to be useful and gives no next-update tim…",
+   "uses": [
+    "CE-L04-M06-L04"
+   ]
+  },
+  "MIS-0180": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L01",
+   "label": "Reading a colleague's silence, brief answer, or agreeable tone as evidence of low investme…",
+   "uses": [
+    "CE-L04-M07-L01"
+   ]
+  },
+  "MIS-0181": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L02",
+   "label": "Deciding in advance that an entire category of people",
+   "uses": [
+    "CE-L04-M07-L02"
+   ]
+  },
+  "MIS-0182": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L03",
+   "label": "Asking a question to the whole group and treating silence, or a single soft I'll try my b…",
+   "uses": [
+    "CE-L04-M07-L03"
+   ]
+  },
+  "MIS-0183": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L03",
+   "label": "Reading an indirect refusal",
+   "uses": [
+    "CE-L04-M07-L03"
+   ]
+  },
+  "MIS-0184": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L04",
+   "label": "Generalizing one person's individual communication style into a claim about an entire nati…",
+   "uses": [
+    "CE-L04-M07-L04"
+   ]
+  },
+  "MIS-0185": {
+   "type": "MIS",
+   "home": "CE-L04-M07-L04",
+   "label": "Treating \"avoid stereotyping\" as a reason to stop adapting altogether",
+   "uses": [
+    "CE-L04-M07-L04"
+   ]
+  },
+  "MIS-0186": {
+   "type": "MIS",
+   "home": "CE-L04-M08-L01",
+   "label": "Only ever contacting a long-term client or vendor when something is needed from them",
+   "uses": [
+    "CE-L04-M08-L01"
+   ]
+  },
+  "MIS-0187": {
+   "type": "MIS",
+   "home": "CE-L04-M08-L02",
+   "label": "Treating a renewal exactly like a negotiation with a stranger",
+   "uses": [
+    "CE-L04-M08-L02"
+   ]
+  },
+  "MIS-0188": {
+   "type": "MIS",
+   "home": "CE-L04-M08-L03",
+   "label": "Raising a vendor's underperformance in vague, general terms",
+   "uses": [
+    "CE-L04-M08-L03"
+   ]
+  },
+  "MIS-0189": {
+   "type": "MIS",
+   "home": "CE-L04-M08-L04",
+   "label": "Letting the gap between what was promised and what is actually realistic grow quietly, hop…",
+   "uses": [
+    "CE-L04-M08-L04",
+    "CE-L04-M08-L05"
+   ]
+  },
+  "MIS-0190": {
+   "type": "MIS",
+   "home": "CE-L04-M08-L05",
+   "label": "Hasan's relationship",
+   "uses": [
+    "CE-L04-M08-L05"
+   ]
+  },
+  "MIS-0191": {
+   "type": "MIS",
+   "home": "CE-L05-M06-L01",
+   "label": "Staying in the upward-facing, seeking-approval register from Level 4 even when the speaker…",
+   "uses": [
+    "CE-L05-M06-L01",
+    "CE-L05-M06-L04"
+   ]
+  },
+  "MIS-0192": {
+   "type": "MIS",
+   "home": "CE-L05-M06-L02",
+   "label": "Presenting only a status update or a set of findings when the moment calls for a direction",
+   "uses": [
+    "CE-L05-M06-L02",
+    "CE-L05-M06-L04"
+   ]
+  },
+  "MIS-0193": {
+   "type": "MIS",
+   "home": "CE-L05-M06-L03",
+   "label": "Answering a tough question well and then quietly abandoning the judgment anyway, once the …",
+   "uses": [
+    "CE-L05-M06-L03",
+    "CE-L05-M06-L04"
+   ]
+  },
+  "MIS-0195": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L01",
+   "label": "Writing CV bullet points as a list of duties (\"responsible for,\" \"handled,\" \"was part of\")…",
+   "uses": [
+    "CE-L05-M07-L01"
+   ]
+  },
+  "MIS-0196": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L02",
+   "label": "Answering a behavioral interview question with a general claim about yourself instead of a…",
+   "uses": [
+    "CE-L05-M07-L02"
+   ]
+  },
+  "MIS-0197": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L03",
+   "label": "Sending a generic, detail-free follow-up message that could have been sent to anyone, whic…",
+   "uses": [
+    "CE-L05-M07-L03"
+   ]
+  },
+  "MIS-0198": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L04",
+   "label": "Waiting silently for feedback or promotion to be offered, then feeling overlooked or frust…",
+   "uses": [
+    "CE-L05-M07-L04"
+   ]
+  },
+  "MIS-0199": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L05",
+   "label": "Accepting the first number offered without discussion, out of discomfort with the topic, o…",
+   "uses": [
+    "CE-L05-M07-L05"
+   ]
+  },
+  "MIS-0200": {
+   "type": "MIS",
+   "home": "CE-L05-M07-L06",
+   "label": "Turning an exit interview into a list of complaints or unresolved grievances, or being so …",
+   "uses": [
+    "CE-L05-M07-L06"
+   ]
+  },
+  "MIS-0201": {
+   "type": "MIS",
+   "home": "CE-L05-M08-L01",
+   "label": "Describing your own communication style using generic \"leadership\" language borrowed from …",
+   "uses": [
+    "CE-L05-M08-L01"
+   ]
+  },
+  "MIS-0202": {
+   "type": "MIS",
+   "home": "CE-L05-M08-L02",
+   "label": "Listen & Read Performed, imitated register",
+   "uses": [
+    "CE-L05-M08-L02"
+   ]
+  },
+  "MIS-0203": {
+   "type": "MIS",
+   "home": "CE-L05-M08-L03",
+   "label": "Sounding like a genuinely different person on each channel",
+   "uses": [
+    "CE-L05-M08-L03"
+   ]
+  },
+  "MIS-0204": {
+   "type": "MIS",
+   "home": "CE-L05-M08-L04",
+   "label": "The mistake",
+   "uses": [
+    "CE-L05-M08-L04"
+   ]
+  },
+  "TIP-0001": {
+   "type": "TIP",
+   "home": "CE-L01-M02-L03",
+   "label": "If you're unsure about an instruction, confirm what you understood before starting the tas…",
+   "uses": [
+    "CE-L01-M02-L03"
+   ]
+  },
+  "TIP-0002": {
+   "type": "TIP",
+   "home": "CE-L01-M02-L02",
+   "label": "Saying \"Nice to meet you\" three times in a row sounds mechanical, even though it's grammat…",
+   "uses": [
+    "CE-L01-M02-L02"
+   ]
+  },
+  "TIP-0003": {
+   "type": "TIP",
+   "home": "CE-L01-M02-L01",
+   "label": "One clear \"Good morning\" beats a long introduction",
+   "uses": [
+    "CE-L01-M02-L01"
+   ]
+  },
+  "TIP-0004": {
+   "type": "TIP",
+   "home": "CE-L01-M07-L01",
+   "label": "The 3-second tone check",
+   "uses": [
+    "CE-L01-M07-L01"
+   ]
+  },
+  "TIP-0005": {
+   "type": "TIP",
+   "home": "CE-L03-M08-L01",
+   "label": "TIP-0005",
+   "uses": [
+    "CE-L03-M08-L01"
+   ]
+  },
+  "TIP-0006": {
+   "type": "TIP",
+   "home": "CE-L03-M08-L02",
+   "label": "TIP-0006",
+   "uses": [
+    "CE-L03-M08-L02"
+   ]
+  },
+  "TIP-0007": {
+   "type": "TIP",
+   "home": "CE-L03-M08-L03",
+   "label": "TIP-0007",
+   "uses": [
+    "CE-L03-M08-L03"
+   ]
+  },
+  "TIP-0008": {
+   "type": "TIP",
+   "home": "CE-L03-M08-L04",
+   "label": "TIP-0008",
+   "uses": [
+    "CE-L03-M08-L04"
+   ]
+  },
+  "P-0025": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Could you please...?",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0026": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "I'll take care of it",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0027": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Let me check and get back to you",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0028": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Thanks for letting me know",
+   "uses": [
+    "CE-L01-M06-L05",
+    "CE-L01-M07-L03"
+   ]
+  },
+  "P-0029": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Got it",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0030": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Just to confirm",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0031": {
+   "type": "P",
+   "home": "CE-L01-M06-L05",
+   "label": "Sorry, could you say that again?",
+   "uses": [
+    "CE-L01-M06-L05"
+   ]
+  },
+  "P-0032": {
+   "type": "P",
+   "home": "CE-L01-M07-L03",
+   "label": "Sure, I can do that",
+   "uses": [
+    "CE-L01-M07-L03"
+   ]
+  }
+ },
+ "units": {
+  "CE-L01-M01-L01": {
+   "ref": "Level 1 · Lesson 1.1",
+   "title": "Understanding What \"Professional\" Means at Work"
+  },
+  "CE-L01-M01-L02": {
+   "ref": "Level 1 · Lesson 1.2",
+   "title": "Talking About Your Background and Experience"
+  },
+  "CE-L01-M01-L03": {
+   "ref": "Level 1 · Lesson 1.3",
+   "title": "Introducing Yourself Professionally"
+  },
+  "CE-L01-M01-L04": {
+   "ref": "Level 1 · Lesson 1.4",
+   "title": "Talking About Your Job Role and Responsibilities"
+  },
+  "CE-L01-M01-L05": {
+   "ref": "Level 1 · Lesson 1.5",
+   "title": "Building Basic Workplace Confidence"
+  },
+  "CE-L01-M02-L01": {
+   "ref": "Level 1 · Lesson 2.1",
+   "title": "Arriving and Greeting on Day One"
+  },
+  "CE-L01-M02-L02": {
+   "ref": "Level 1 · Lesson 2.2",
+   "title": "Meeting Your Supervisor and Team"
+  },
+  "CE-L01-M02-L03": {
+   "ref": "Level 1 · Lesson 2.3",
+   "title": "Receiving Instructions and Understanding Routines"
+  },
+  "CE-L01-M02-L04": {
+   "ref": "Level 1 · Lesson 2.4",
+   "title": "Finding Your Way and Asking Where Things Are"
+  },
+  "CE-L01-M02-L05": {
+   "ref": "Level 1 · Lesson 2.5",
+   "title": "Ending Your First Day Professionally"
+  },
+  "CE-L01-M03-L01": {
+   "ref": "Level 1 · Lesson 3.1",
+   "title": "Formal and Informal Greetings"
+  },
+  "CE-L01-M03-L02": {
+   "ref": "Level 1 · Lesson 3.2",
+   "title": "Starting a Conversation"
+  },
+  "CE-L01-M03-L03": {
+   "ref": "Level 1 · Lesson 3.3",
+   "title": "Safe and Unsafe Small-Talk Topics"
+  },
+  "CE-L01-M03-L04": {
+   "ref": "Level 1 · Lesson 3.4",
+   "title": "Ending a Conversation Politely"
+  },
+  "CE-L01-M04-L01": {
+   "ref": "Level 1 · Lesson 4.1",
+   "title": "Listening for Key Information"
+  },
+  "CE-L01-M04-L02": {
+   "ref": "Level 1 · Lesson 4.2",
+   "title": "Confirming and Repeating Instructions"
+  },
+  "CE-L01-M04-L03": {
+   "ref": "Level 1 · Lesson 4.3",
+   "title": "Understanding Priorities, Sequence and Deadlines"
+  },
+  "CE-L01-M04-L04": {
+   "ref": "Level 1 · Lesson 4.4",
+   "title": "Saying When Something Is Unclear"
+  },
+  "CE-L01-M05-L01": {
+   "ref": "Level 1 · Lesson 5.1",
+   "title": "Asking Someone to Repeat or Explain"
+  },
+  "CE-L01-M05-L02": {
+   "ref": "Level 1 · Lesson 5.2",
+   "title": "Asking the Right Clarifying Question"
+  },
+  "CE-L01-M05-L03": {
+   "ref": "Level 1 · Lesson 5.3",
+   "title": "Asking Colleagues vs. Asking Supervisors"
+  },
+  "CE-L01-M06-L01": {
+   "ref": "Level 1 · Lesson 6.1",
+   "title": "People, Roles and Departments"
+  },
+  "CE-L01-M06-L02": {
+   "ref": "Level 1 · Lesson 6.2",
+   "title": "Places, Tools and Documents at Work"
+  },
+  "CE-L01-M06-L03": {
+   "ref": "Level 1 · Lesson 6.3",
+   "title": "Time, Schedules and Deadlines"
+  },
+  "CE-L01-M06-L04": {
+   "ref": "Level 1 · Lesson 6.4",
+   "title": "Tasks, Responsibility and Priority"
+  },
+  "CE-L01-M06-L05": {
+   "ref": "Level 1 · Lesson 6.5",
+   "title": "Core Workplace Verbs and Professional Phrases"
+  },
+  "CE-L01-M07-L01": {
+   "ref": "Level 1 · Lesson 7.1",
+   "title": "Why Tone Matters: Same Message, Different Sound"
+  },
+  "CE-L01-M07-L02": {
+   "ref": "Level 1 · Lesson 7.2",
+   "title": "Making Polite and Confident Requests"
+  },
+  "CE-L01-M07-L03": {
+   "ref": "Level 1 · Lesson 7.3",
+   "title": "Responding Professionally"
+  },
+  "CE-L01-M07-L04": {
+   "ref": "Level 1 · Lesson 7.4",
+   "title": "Tone, Hierarchy and Respect at Work"
+  },
+  "CE-L01-ASSESSMENT": {
+   "ref": "Level 1 · Assessment",
+   "title": "Level 1 Assessment"
+  },
+  "CE-L01-CAPSTONE": {
+   "ref": "Level 1 · Capstone",
+   "title": "Your First Weeks at Work"
+  },
+  "CE-L02-M01-L01": {
+   "ref": "Level 2 · Lesson 1.1",
+   "title": "Giving a Clear Status Update"
+  },
+  "CE-L02-M01-L02": {
+   "ref": "Level 2 · Lesson 1.2",
+   "title": "Reporting Problems and Delays"
+  },
+  "CE-L02-M01-L03": {
+   "ref": "Level 2 · Lesson 1.3",
+   "title": "Matching Update Detail to Your Audience"
+  },
+  "CE-L02-M01-L04": {
+   "ref": "Level 2 · Lesson 1.4",
+   "title": "The Standup Habit"
+  },
+  "CE-L02-M02-L01": {
+   "ref": "Level 2 · Lesson 2.1",
+   "title": "Requests with Conditions and Trade-offs"
+  },
+  "CE-L02-M02-L02": {
+   "ref": "Level 2 · Lesson 2.2",
+   "title": "Turning Down a Request Without Damaging the Relationship"
+  },
+  "CE-L02-M02-L03": {
+   "ref": "Level 2 · Lesson 2.3",
+   "title": "Negotiating Timing and Scope"
+  },
+  "CE-L02-M02-L04": {
+   "ref": "Level 2 · Lesson 2.4",
+   "title": "Relaying a Request Between People"
+  },
+  "CE-L02-M02-L05": {
+   "ref": "Level 2 · Lesson 2.5",
+   "title": "Written Requests: Short and Clear"
+  },
+  "CE-L02-M03-L01": {
+   "ref": "Level 2 · Lesson 3.1",
+   "title": "Answering and Identifying Yourself"
+  },
+  "CE-L02-M03-L02": {
+   "ref": "Level 2 · Lesson 3.2",
+   "title": "Taking a Message Accurately"
+  },
+  "CE-L02-M03-L03": {
+   "ref": "Level 2 · Lesson 3.3",
+   "title": "Asking Someone to Repeat or Slow Down"
+  },
+  "CE-L02-M03-L04": {
+   "ref": "Level 2 · Lesson 3.4",
+   "title": "Putting Someone on Hold and Transferring"
+  },
+  "CE-L02-M03-L05": {
+   "ref": "Level 2 · Lesson 3.5",
+   "title": "Handling a Difficult or Unclear Caller & Ending the Call"
+  },
+  "CE-L02-M04-L01": {
+   "ref": "Level 2 · Lesson 4.1",
+   "title": "Chat Register: How Chat Differs from Email and Speech"
+  },
+  "CE-L02-M04-L02": {
+   "ref": "Level 2 · Lesson 4.2",
+   "title": "Writing Clear, Short Work Messages"
+  },
+  "CE-L02-M04-L03": {
+   "ref": "Level 2 · Lesson 4.3",
+   "title": "Marking Urgency and Asking for a Quick Reply"
+  },
+  "CE-L02-M04-L04": {
+   "ref": "Level 2 · Lesson 4.4",
+   "title": "Reading the Room in Group Chats"
+  },
+  "CE-L02-M04-L05": {
+   "ref": "Level 2 · Lesson 4.5",
+   "title": "Message, Call, or Talk in Person?"
+  },
+  "CE-L02-M05-L01": {
+   "ref": "Level 2 · Lesson 5.1",
+   "title": "A Real Apology vs. a Weak One"
+  },
+  "CE-L02-M05-L02": {
+   "ref": "Level 2 · Lesson 5.2",
+   "title": "Apologizing for Your Own Mistake"
+  },
+  "CE-L02-M05-L03": {
+   "ref": "Level 2 · Lesson 5.3",
+   "title": "Thanking Someone Specifically and Sincerely"
+  },
+  "CE-L02-M05-L04": {
+   "ref": "Level 2 · Lesson 5.4",
+   "title": "Apologizing on Behalf of the Team"
+  },
+  "CE-L02-M06-L01": {
+   "ref": "Level 2 · Lesson 6.1",
+   "title": "The Follow-Up Habit: Why and When"
+  },
+  "CE-L02-M06-L02": {
+   "ref": "Level 2 · Lesson 6.2",
+   "title": "Writing a Polite Follow-Up Message"
+  },
+  "CE-L02-M06-L03": {
+   "ref": "Level 2 · Lesson 6.3",
+   "title": "Following Up Without Sounding Pushy"
+  },
+  "CE-L02-M06-L04": {
+   "ref": "Level 2 · Lesson 6.4",
+   "title": "Closing the Loop"
+  },
+  "CE-L02-M07-L01": {
+   "ref": "Level 2 · Lesson 7.1",
+   "title": "Greeting and Welcoming a Customer"
+  },
+  "CE-L02-M07-L02": {
+   "ref": "Level 2 · Lesson 7.2",
+   "title": "Answering Simple Customer Questions Clearly"
+  },
+  "CE-L02-M07-L03": {
+   "ref": "Level 2 · Lesson 7.3",
+   "title": "\"I Don't Know\" — But I'll Find Out"
+  },
+  "CE-L02-M07-L04": {
+   "ref": "Level 2 · Lesson 7.4",
+   "title": "Handling a Simple Complaint (Non-Escalated)"
+  },
+  "CE-L02-M07-L05": {
+   "ref": "Level 2 · Lesson 7.5",
+   "title": "Closing a Customer Interaction Well"
+  },
+  "CE-L02-M08-L01": {
+   "ref": "Level 2 · Lesson 8.1",
+   "title": "Punctuality and Time Norms at Work"
+  },
+  "CE-L02-M08-L02": {
+   "ref": "Level 2 · Lesson 8.2",
+   "title": "Digital Etiquette and Confidentiality Basics"
+  },
+  "CE-L02-M08-L03": {
+   "ref": "Level 2 · Lesson 8.3",
+   "title": "Hierarchy, Titles, and Respectful Address"
+  },
+  "CE-L02-M08-L04": {
+   "ref": "Level 2 · Lesson 8.4",
+   "title": "Putting It All Together: A Full Workday"
+  },
+  "CE-L02-ASSESSMENT": {
+   "ref": "Level 2 · Assessment",
+   "title": "Level 2 Assessment"
+  },
+  "CE-L02-CAPSTONE": {
+   "ref": "Level 2 · Capstone",
+   "title": "A Normal Week"
+  },
+  "CE-L03-M01-L01": {
+   "ref": "Level 3 · Lesson 1.1",
+   "title": "Anatomy of a Professional Email"
+  },
+  "CE-L03-M01-L02": {
+   "ref": "Level 3 · Lesson 1.2",
+   "title": "Making Requests and Sharing Information"
+  },
+  "CE-L03-M01-L03": {
+   "ref": "Level 3 · Lesson 1.3",
+   "title": "Following Up, Reminding, and Confirming"
+  },
+  "CE-L03-M01-L04": {
+   "ref": "Level 3 · Lesson 1.4",
+   "title": "Apologizing and Responding to a Complaint"
+  },
+  "CE-L03-M01-L05": {
+   "ref": "Level 3 · Lesson 1.5",
+   "title": "Escalating an Issue by Email"
+  },
+  "CE-L03-M01-L06": {
+   "ref": "Level 3 · Lesson 1.6",
+   "title": "Putting a Full Email Thread Together"
+  },
+  "CE-L03-M02-L01": {
+   "ref": "Level 3 · Lesson 2.1",
+   "title": "The Facts → Evidence → Analysis → Action → Recommendation Framework"
+  },
+  "CE-L03-M02-L02": {
+   "ref": "Level 3 · Lesson 2.2",
+   "title": "Daily and Weekly Reports"
+  },
+  "CE-L03-M02-L03": {
+   "ref": "Level 3 · Lesson 2.3",
+   "title": "Incident and Complaint Reports"
+  },
+  "CE-L03-M02-L04": {
+   "ref": "Level 3 · Lesson 2.4",
+   "title": "Performance and Operational Reports"
+  },
+  "CE-L03-M02-L05": {
+   "ref": "Level 3 · Lesson 2.5",
+   "title": "Writing a Recommendation That Gets Acted On"
+  },
+  "CE-L03-M03-L01": {
+   "ref": "Level 3 · Lesson 3.1",
+   "title": "Before a Meeting: Invitations and Agendas"
+  },
+  "CE-L03-M03-L02": {
+   "ref": "Level 3 · Lesson 3.2",
+   "title": "Opening a Meeting and Setting Objectives"
+  },
+  "CE-L03-M03-L03": {
+   "ref": "Level 3 · Lesson 3.3",
+   "title": "Giving and Asking for Opinions, Agreeing and Disagreeing Diplomatically"
+  },
+  "CE-L03-M03-L04": {
+   "ref": "Level 3 · Lesson 3.4",
+   "title": "Clarifying, Interrupting Politely, and Summarizing"
+  },
+  "CE-L03-M03-L05": {
+   "ref": "Level 3 · Lesson 3.5",
+   "title": "Assigning Action Points and Closing a Meeting"
+  },
+  "CE-L03-M03-L06": {
+   "ref": "Level 3 · Lesson 3.6",
+   "title": "After a Meeting: Minutes and Follow-Up"
+  },
+  "CE-L03-M04-L01": {
+   "ref": "Level 3 · Lesson 4.1",
+   "title": "Opening a Presentation and Introducing Your Topic"
+  },
+  "CE-L03-M04-L02": {
+   "ref": "Level 3 · Lesson 4.2",
+   "title": "Explaining Slides, Charts, and Data"
+  },
+  "CE-L03-M04-L03": {
+   "ref": "Level 3 · Lesson 4.3",
+   "title": "Comparing Data and Highlighting Key Points"
+  },
+  "CE-L03-M04-L04": {
+   "ref": "Level 3 · Lesson 4.4",
+   "title": "Transitions and Structure"
+  },
+  "CE-L03-M04-L05": {
+   "ref": "Level 3 · Lesson 4.5",
+   "title": "Handling Questions After a Presentation"
+  },
+  "CE-L03-M05-L01": {
+   "ref": "Level 3 · Lesson 5.1",
+   "title": "Listening with Empathy"
+  },
+  "CE-L03-M05-L02": {
+   "ref": "Level 3 · Lesson 5.2",
+   "title": "De-escalating an Angry Customer"
+  },
+  "CE-L03-M05-L03": {
+   "ref": "Level 3 · Lesson 5.3",
+   "title": "Presenting Solutions and Managing Expectations"
+  },
+  "CE-L03-M05-L04": {
+   "ref": "Level 3 · Lesson 5.4",
+   "title": "Escalating a Complaint Internally"
+  },
+  "CE-L03-M05-L05": {
+   "ref": "Level 3 · Lesson 5.5",
+   "title": "Service Recovery: Turning a Bad Experience Around"
+  },
+  "CE-L03-M06-L01": {
+   "ref": "Level 3 · Lesson 6.1",
+   "title": "Welcoming a Client and Building Rapport"
+  },
+  "CE-L03-M06-L02": {
+   "ref": "Level 3 · Lesson 6.2",
+   "title": "Understanding Client Needs Through Questions"
+  },
+  "CE-L03-M06-L03": {
+   "ref": "Level 3 · Lesson 6.3",
+   "title": "Presenting a Solution to a Client"
+  },
+  "CE-L03-M06-L04": {
+   "ref": "Level 3 · Lesson 6.4",
+   "title": "Handling Client Objections"
+  },
+  "CE-L03-M06-L05": {
+   "ref": "Level 3 · Lesson 6.5",
+   "title": "Closing and Following Up with a Client"
+  },
+  "CE-L03-M07-L01": {
+   "ref": "Level 3 · Lesson 7.1",
+   "title": "Tenses and Aspect for Professional Writing"
+  },
+  "CE-L03-M07-L02": {
+   "ref": "Level 3 · Lesson 7.2",
+   "title": "Modals and Conditionals for Professional Nuance"
+  },
+  "CE-L03-M07-L03": {
+   "ref": "Level 3 · Lesson 7.3",
+   "title": "Passive Voice and Reported Speech in Professional Documents"
+  },
+  "CE-L03-M07-L04": {
+   "ref": "Level 3 · Lesson 7.4",
+   "title": "Articles, Prepositions, and Subject-Verb Agreement in Practice"
+  },
+  "CE-L03-M07-L05": {
+   "ref": "Level 3 · Lesson 7.5",
+   "title": "Relative Clauses, Gerunds, and Infinitives for Fluent Writing"
+  },
+  "CE-L03-M07-L06": {
+   "ref": "Level 3 · Lesson 7.6",
+   "title": "Comparatives and Formal Sentence Structures"
+  },
+  "CE-L03-M08-L01": {
+   "ref": "Level 3 · Lesson 8.1",
+   "title": "Word Stress and Sentence Stress"
+  },
+  "CE-L03-M08-L02": {
+   "ref": "Level 3 · Lesson 8.2",
+   "title": "Intonation and Rhythm in Professional Speech"
+  },
+  "CE-L03-M08-L03": {
+   "ref": "Level 3 · Lesson 8.3",
+   "title": "Connected Speech and Commonly Confused Sounds"
+  },
+  "CE-L03-M08-L04": {
+   "ref": "Level 3 · Lesson 8.4",
+   "title": "Speaking with Confidence"
+  },
+  "CE-L03-M09-L01": {
+   "ref": "Level 3 · Lesson 9.1",
+   "title": "Video Call Etiquette (Zoom/Google Meet)"
+  },
+  "CE-L03-M09-L02": {
+   "ref": "Level 3 · Lesson 9.2",
+   "title": "Choosing Between Email, Chat, Call, and Video Call"
+  },
+  "CE-L03-M09-L03": {
+   "ref": "Level 3 · Lesson 9.3",
+   "title": "Adapting One Message Across Every Channel"
+  },
+  "CE-L03-M09-L04": {
+   "ref": "Level 3 · Lesson 9.4",
+   "title": "Level 3 Synthesis: A Full Professional Week"
+  },
+  "CE-L03-ASSESSMENT": {
+   "ref": "Level 3 · Assessment",
+   "title": "Level 3 Assessment"
+  },
+  "CE-L03-CAPSTONE": {
+   "ref": "Level 3 · Capstone",
+   "title": "The Client Review"
+  },
+  "CE-L04-M01-L01": {
+   "ref": "Level 4 · Lesson 1.1",
+   "title": "Preparing to Negotiate: Knowing Your Position"
+  },
+  "CE-L04-M01-L02": {
+   "ref": "Level 4 · Lesson 1.2",
+   "title": "Opening a Negotiation and Anchoring"
+  },
+  "CE-L04-M01-L03": {
+   "ref": "Level 4 · Lesson 1.3",
+   "title": "Trading Concessions Without Giving Away Too Much"
+  },
+  "CE-L04-M01-L04": {
+   "ref": "Level 4 · Lesson 1.4",
+   "title": "Handling Pressure Tactics and Deadlocks"
+  },
+  "CE-L04-M01-L05": {
+   "ref": "Level 4 · Lesson 1.5",
+   "title": "Closing a Negotiation and Confirming the Deal"
+  },
+  "CE-L04-M02-L01": {
+   "ref": "Level 4 · Lesson 2.1",
+   "title": "Saying No Firmly and Professionally"
+  },
+  "CE-L04-M02-L02": {
+   "ref": "Level 4 · Lesson 2.2",
+   "title": "Giving Critical Feedback Without Damaging the Relationship"
+  },
+  "CE-L04-M02-L03": {
+   "ref": "Level 4 · Lesson 2.3",
+   "title": "Receiving Criticism Gracefully"
+  },
+  "CE-L04-M02-L04": {
+   "ref": "Level 4 · Lesson 2.4",
+   "title": "Admitting and Reporting a Serious Mistake"
+  },
+  "CE-L04-M02-L05": {
+   "ref": "Level 4 · Lesson 2.5",
+   "title": "Handling a Difficult Colleague"
+  },
+  "CE-L04-M02-L06": {
+   "ref": "Level 4 · Lesson 2.6",
+   "title": "Managing Conflict to a Resolution"
+  },
+  "CE-L04-M03-L01": {
+   "ref": "Level 4 · Lesson 3.1",
+   "title": "The Anatomy of a Persuasive Argument"
+  },
+  "CE-L04-M03-L02": {
+   "ref": "Level 4 · Lesson 3.2",
+   "title": "Using Evidence and Framing"
+  },
+  "CE-L04-M03-L03": {
+   "ref": "Level 4 · Lesson 3.3",
+   "title": "Persuading a Skeptical Audience"
+  },
+  "CE-L04-M03-L04": {
+   "ref": "Level 4 · Lesson 3.4",
+   "title": "Influencing Without Authority"
+  },
+  "CE-L04-M04-L01": {
+   "ref": "Level 4 · Lesson 4.1",
+   "title": "Structuring an Ambiguous Problem Out Loud"
+  },
+  "CE-L04-M04-L02": {
+   "ref": "Level 4 · Lesson 4.2",
+   "title": "Exploring Options and Trade-offs Collaboratively"
+  },
+  "CE-L04-M04-L03": {
+   "ref": "Level 4 · Lesson 4.3",
+   "title": "Communicating a Decision and Its Reasoning"
+  },
+  "CE-L04-M04-L04": {
+   "ref": "Level 4 · Lesson 4.4",
+   "title": "Solving a Problem Live Under Time Pressure"
+  },
+  "CE-L04-M05-L01": {
+   "ref": "Level 4 · Lesson 5.1",
+   "title": "Presenting to a Senior or Executive Audience"
+  },
+  "CE-L04-M05-L02": {
+   "ref": "Level 4 · Lesson 5.2",
+   "title": "Handling Tough and Skeptical Questions"
+  },
+  "CE-L04-M05-L03": {
+   "ref": "Level 4 · Lesson 5.3",
+   "title": "Presenting Under Time Pressure or Interruption"
+  },
+  "CE-L04-M05-L04": {
+   "ref": "Level 4 · Lesson 5.4",
+   "title": "Storytelling and Persuasive Structure in Presentations"
+  },
+  "CE-L04-M06-L01": {
+   "ref": "Level 4 · Lesson 6.1",
+   "title": "Communicating Calmly Under Pressure"
+  },
+  "CE-L04-M06-L02": {
+   "ref": "Level 4 · Lesson 6.2",
+   "title": "Delivering Bad News"
+  },
+  "CE-L04-M06-L03": {
+   "ref": "Level 4 · Lesson 6.3",
+   "title": "Managing Unrealistic Deadlines and Expectations Under Pressure"
+  },
+  "CE-L04-M06-L04": {
+   "ref": "Level 4 · Lesson 6.4",
+   "title": "Crisis Communication: Keeping People Informed"
+  },
+  "CE-L04-M06-L05": {
+   "ref": "Level 4 · Lesson 6.5",
+   "title": "A Full Crisis Scenario: Communicate, Escalate, Resolve"
+  },
+  "CE-L04-M07-L01": {
+   "ref": "Level 4 · Lesson 7.1",
+   "title": "Recognizing Cultural Differences in Communication Style"
+  },
+  "CE-L04-M07-L02": {
+   "ref": "Level 4 · Lesson 7.2",
+   "title": "Adapting Directness and Formality Across Cultures"
+  },
+  "CE-L04-M07-L03": {
+   "ref": "Level 4 · Lesson 7.3",
+   "title": "Avoiding Misunderstandings in Cross-Cultural Teams"
+  },
+  "CE-L04-M07-L04": {
+   "ref": "Level 4 · Lesson 7.4",
+   "title": "Communicating Respectfully Without Stereotyping"
+  },
+  "CE-L04-M08-L01": {
+   "ref": "Level 4 · Lesson 8.1",
+   "title": "Managing a Long-Term Client or Vendor Relationship"
+  },
+  "CE-L04-M08-L02": {
+   "ref": "Level 4 · Lesson 8.2",
+   "title": "Renewing or Renegotiating a Contract"
+  },
+  "CE-L04-M08-L03": {
+   "ref": "Level 4 · Lesson 8.3",
+   "title": "Difficult Vendor Conversations"
+  },
+  "CE-L04-M08-L04": {
+   "ref": "Level 4 · Lesson 8.4",
+   "title": "Managing Client Expectations Over Time"
+  },
+  "CE-L04-M08-L05": {
+   "ref": "Level 4 · Lesson 8.5",
+   "title": "A Full Relationship-Management Scenario"
+  },
+  "CE-L04-ASSESSMENT": {
+   "ref": "Level 4 · Assessment",
+   "title": "Level 4 Assessment"
+  },
+  "CE-L04-CAPSTONE": {
+   "ref": "Level 4 · Capstone",
+   "title": "The Difficult Quarter"
+  },
+  "CE-L05-M01-L01": {
+   "ref": "Level 5 · Lesson 1.1",
+   "title": "Delegating a Task Clearly"
+  },
+  "CE-L05-M01-L02": {
+   "ref": "Level 5 · Lesson 1.2",
+   "title": "Matching Instruction Detail to the Person's Experience"
+  },
+  "CE-L05-M01-L03": {
+   "ref": "Level 5 · Lesson 1.3",
+   "title": "Delegating Ownership, Not Just Tasks"
+  },
+  "CE-L05-M01-L04": {
+   "ref": "Level 5 · Lesson 1.4",
+   "title": "Following Up on Delegated Work Without Micromanaging"
+  },
+  "CE-L05-M02-L01": {
+   "ref": "Level 5 · Lesson 2.1",
+   "title": "Giving Ongoing, Everyday Feedback"
+  },
+  "CE-L05-M02-L02": {
+   "ref": "Level 5 · Lesson 2.2",
+   "title": "Structuring a Formal Performance Conversation"
+  },
+  "CE-L05-M02-L03": {
+   "ref": "Level 5 · Lesson 2.3",
+   "title": "Setting Goals and Expectations Together"
+  },
+  "CE-L05-M02-L04": {
+   "ref": "Level 5 · Lesson 2.4",
+   "title": "Addressing Underperformance"
+  },
+  "CE-L05-M02-L05": {
+   "ref": "Level 5 · Lesson 2.5",
+   "title": "A Full Performance Review Conversation"
+  },
+  "CE-L05-M03-L01": {
+   "ref": "Level 5 · Lesson 3.1",
+   "title": "The Difference Between Telling and Coaching"
+  },
+  "CE-L05-M03-L02": {
+   "ref": "Level 5 · Lesson 3.2",
+   "title": "Asking Questions That Open Up Thinking"
+  },
+  "CE-L05-M03-L03": {
+   "ref": "Level 5 · Lesson 3.3",
+   "title": "Coaching Someone Through a Problem They Own"
+  },
+  "CE-L05-M03-L04": {
+   "ref": "Level 5 · Lesson 3.4",
+   "title": "Knowing When to Coach and When to Just Tell Them"
+  },
+  "CE-L05-M04-L01": {
+   "ref": "Level 5 · Lesson 4.1",
+   "title": "Communicating the \"Why\" Behind a Strategy"
+  },
+  "CE-L05-M04-L02": {
+   "ref": "Level 5 · Lesson 4.2",
+   "title": "Announcing a Change to a Team"
+  },
+  "CE-L05-M04-L03": {
+   "ref": "Level 5 · Lesson 4.3",
+   "title": "Addressing Resistance to Change"
+  },
+  "CE-L05-M04-L04": {
+   "ref": "Level 5 · Lesson 4.4",
+   "title": "Keeping People Aligned Over Time"
+  },
+  "CE-L05-M04-L05": {
+   "ref": "Level 5 · Lesson 4.5",
+   "title": "Leading a Team Through a Full Change Cycle"
+  },
+  "CE-L05-M05-L01": {
+   "ref": "Level 5 · Lesson 5.1",
+   "title": "Chairing a Meeting as Its Owner"
+  },
+  "CE-L05-M05-L02": {
+   "ref": "Level 5 · Lesson 5.2",
+   "title": "Making a Decision When the Group Disagrees"
+  },
+  "CE-L05-M05-L03": {
+   "ref": "Level 5 · Lesson 5.3",
+   "title": "Communicating a Decision the Room Didn't Fully Agree With"
+  },
+  "CE-L05-M05-L04": {
+   "ref": "Level 5 · Lesson 5.4",
+   "title": "Keeping a Meeting Focused and On Time"
+  },
+  "CE-L05-M05-L05": {
+   "ref": "Level 5 · Lesson 5.5",
+   "title": "Leading a Full Decision-Making Meeting"
+  },
+  "CE-L05-M06-L01": {
+   "ref": "Level 5 · Lesson 6.1",
+   "title": "Presenting as the Senior Voice in the Room"
+  },
+  "CE-L05-M06-L02": {
+   "ref": "Level 5 · Lesson 6.2",
+   "title": "Presenting Strategy and Vision"
+  },
+  "CE-L05-M06-L03": {
+   "ref": "Level 5 · Lesson 6.3",
+   "title": "Commanding a Room Under Scrutiny"
+  },
+  "CE-L05-M06-L04": {
+   "ref": "Level 5 · Lesson 6.4",
+   "title": "A Full Executive Presentation"
+  },
+  "CE-L05-M07-L01": {
+   "ref": "Level 5 · Lesson 7.1",
+   "title": "Writing Your Story: CV and LinkedIn English"
+  },
+  "CE-L05-M07-L02": {
+   "ref": "Level 5 · Lesson 7.2",
+   "title": "Interviewing with Confidence"
+  },
+  "CE-L05-M07-L03": {
+   "ref": "Level 5 · Lesson 7.3",
+   "title": "Networking and Building Professional Relationships"
+  },
+  "CE-L05-M07-L04": {
+   "ref": "Level 5 · Lesson 7.4",
+   "title": "Asking for Feedback and Discussing Promotion"
+  },
+  "CE-L05-M07-L05": {
+   "ref": "Level 5 · Lesson 7.5",
+   "title": "Discussing Salary and Compensation"
+  },
+  "CE-L05-M07-L06": {
+   "ref": "Level 5 · Lesson 7.6",
+   "title": "Resigning and Exit Interviews Gracefully"
+  },
+  "CE-L05-M08-L01": {
+   "ref": "Level 5 · Lesson 8.1",
+   "title": "What Makes a Communication Style Recognizably Yours"
+  },
+  "CE-L05-M08-L02": {
+   "ref": "Level 5 · Lesson 8.2",
+   "title": "Staying Authentic Under Pressure"
+  },
+  "CE-L05-M08-L03": {
+   "ref": "Level 5 · Lesson 8.3",
+   "title": "Leading With Consistency Across Every Channel"
+  },
+  "CE-L05-M08-L04": {
+   "ref": "Level 5 · Lesson 8.4",
+   "title": "Putting It All Together: A Week as a Leader"
+  },
+  "CE-L05-ASSESSMENT": {
+   "ref": "Level 5 · Assessment",
+   "title": "Level 5 Assessment"
+  },
+  "CE-L05-CAPSTONE": {
+   "ref": "Level 5 · Capstone",
+   "title": "The Handover"
+  }
+ }
+}
