@@ -1,0 +1,22 @@
+{
+ "note": "Assessments of consistency_audit.py discrepancies, merged into SOURCE-PDF-CONSISTENCY.md and consistency-discrepancies.csv. Match on check + location ('*' = any location) and an optional substring of the detail. A discrepancy with no matching entry is shown as UNTRIAGED.",
+ "entries": [
+  {"check": "Text", "location": "CE-L01-M07-L02", "assessment": "Not a defect: speaker labels with descriptions wrap over several lines in the dialogue's label column (checked on p. 148), so the extracted line order differs. All text is present.", "action": "None"},
+  {"check": "Text", "location": "CE-L01-M07-L03", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Arif (weak agreement):\"), as on p. 148.", "action": "None"},
+  {"check": "Text", "location": "CE-L02-M08-L02", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Ms. Noor (chat):\").", "action": "None"},
+  {"check": "Text", "location": "CE-L02-CAPSTONE", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Ms. Fatima Noor:\").", "action": "None"},
+  {"check": "Text", "location": "CE-L03-M04-L03", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Arif (presenting):\").", "action": "None"},
+  {"check": "Text", "location": "CE-L03-M04-L04", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Arif (presenting, transition):\").", "action": "None"},
+  {"check": "Text", "location": "CE-L03-M08-L04", "assessment": "Not a defect: stress marking in the source (after<strong>NOON</strong>) splits the word for this comparison; the page shows \"afterNOON\".", "action": "None"},
+  {"check": "Text", "location": "CE-L04-M05-L04", "assessment": "Not a defect: wrapped dialogue speaker labels (\"Arif (presenting):\").", "action": "None"},
+  {"check": "Text", "location": "CE-L04-ASSESSMENT", "assessment": "Not a defect: the Part C answer is printed in two columns (checked on p. 846), so extracted lines interleave.", "action": "None"},
+  {"check": "Index", "location": "PAT-0057", "assessment": "DEFECT: the index label is \"Yer of concrete detail Professional Grammar in Context: Specific-Recommendation Structure\"; it should be \"Specific-Recommendation Structure\". The index generator picked up text from the table above the heading.", "action": "Fix the label rule in build_reference_index.py at the next regeneration; recheck the website index and PDF index."},
+  {"check": "Index", "location": "PAT-0061", "assessment": "DEFECT: the label is the Key Expressions table text (\"Key Expressions Expression Function Register The purpose of this meeting is\") instead of \"Meeting Invitation & Agenda Formula\".", "action": "Fix at the next regeneration (index generator)."},
+  {"check": "Index", "location": "PAT-0068", "assessment": "DEFECT: the label is table text (\"Key Expressions Expression Function Register Attendees\") instead of \"Meeting Minutes Structure\".", "action": "Fix at the next regeneration (index generator)."},
+  {"check": "Index", "location": "PAT-0108", "assessment": "DEFECT: the label is \"Vocabulary core content (V-0595)\" instead of \"Same-Content, Three-Register Structure\". In the PDF index, the code also appears inside another row.", "action": "Fix at the next regeneration (index generator)."},
+  {"check": "Index", "location": "MIS-0090", "assessment": "DEFECT: the label is table text instead of the mistake (sending a vague invitation with no real agenda).", "action": "Fix at the next regeneration (index generator)."},
+  {"check": "Index", "location": "MIS-0095", "assessment": "DEFECT: the label is table text instead of the mistake (minutes written as a transcript).", "action": "Fix at the next regeneration (index generator)."},
+  {"check": "Codes", "location": "*", "assessment": "Known: one of the seven vocabulary items with two codes.", "action": "Author decision B (editorial/AUTHOR-DECISIONS.md)."},
+  {"check": "Bookmarks", "location": "*", "detail": "spacing", "assessment": "DEFECT (minor): Chrome drops the space where a long lesson title wraps, so the bookmark reads e.g. \"atWork\". The printed page and the contents are correct; only the PDF's bookmark panel is affected.", "action": "Fix in render_pdf.js (set bookmark titles from headings.json, which it already matches) at the next regeneration."}
+ ]
+}

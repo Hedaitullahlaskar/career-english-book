@@ -100,20 +100,57 @@ def main():
         auto[r["unit"]].append(r["flag"])
     per_unit = Counter(i["unit"] for i in issues if i["status"].startswith("Applied"))
 
+    # Human and native-language status come from the registers that reviewers fill in.
+    human, approved_units = {}, set()
+    hp = PROOF / "HUMAN-PROOFREAD-REGISTER.csv"
+    if hp.exists():
+        for r in csv.DictReader(open(hp, encoding="utf-8")):
+            key = r["Unit"].split(" — ")[0]
+            human[key] = r["Proofread Status"] or "PENDING"
+            if r["Approved"].strip().upper() == "YES":
+                approved_units.add(key)
+    native = defaultdict(Counter)
+    nl = PROOF / "NATIVE-LANGUAGE-REVIEW.csv"
+    if nl.exists():
+        for r in csv.DictReader(open(nl, encoding="utf-8")):
+            if r["Language"] in ("Bengali", "Hindi"):
+                native[r["Unit"]]["approved" if r["Approved"].strip().upper() == "YES" else "open"] += 1
+
+    def native_txt(uid):
+        c = native.get(uid)
+        if not c:
+            return "n/a"
+        return "Approved" if not c["open"] else f'Pending ({c["open"]} items)'
+
+    gates = json.loads((PROOF / "publication-gates.json").read_text(encoding="utf-8"))["gates"]
+    approval = next(g for g in gates if g["gate"] == "Publication Approval")
+    others_open = [g["gate"] for g in gates if g["gate"] != "Publication Approval" and g["status"] != "PASS"]
+    if approval["status"].upper() != "NO" and others_open:
+        sys.exit(f"Refusing to show Publication Approval = {approval['status']} while these gates are not PASS: {', '.join(others_open)}")
+
     out = ["# PDF proofreading checklist", "",
-           "One row per unit of the print edition (`editorial/print/Career-English-Master.pdf`).",
-           "", "Columns:",
-           "- **Automated**: the automated layout and typography checks (`auto_checks.py`) ran on this unit; flags are listed, and each was reviewed (see PROOF-ISSUES.csv).",
-           "- **Editorial review**: read in full by Claude, from the rendered PDF text, in the batch shown. This is not a substitute for a human proofread.",
-           "- **Proof fixes**: corrections applied during this proof (all are in the correction log).",
-           "- **Human proofread / Native speaker**: still to be done by a person. Native-speaker review applies to units with Bengali/Hindi text.",
-           "- **Approved**: no unit is approved until the human checks are signed off.", "",
-           "| Unit | Ref | Title | PDF pages | Automated | Editorial review | Proof fixes | Human proofread | Native speaker (bn/hi) | Approved |",
-           "|---|---|---|---|---|---|---|---|---|---|"]
+           "## Publication gate", "",
+           "| Gate | Status |", "|---|---|"]
+    out += [f'| {g["gate"]} | {"**" + g["status"] + "**" if g["gate"] == "Publication Approval" else g["status"]} |' for g in gates]
+    out += ["", "Evidence for each gate (from `publication-gates.json`):", ""]
+    out += [f'- **{g["gate"]}:** {g["evidence"]}' for g in gates]
+    out += ["", "**NOT READY FOR PUBLICATION.**", "",
+            "## Units", "",
+            "One row per unit of the print edition (`editorial/print/Career-English-Master.pdf`).",
+            "", "Columns:",
+            "- **Automated**: the automated layout and typography checks (`auto_checks.py`) ran on this unit; flags are listed, and each was reviewed (see PROOF-ISSUES.csv).",
+            "- **Editorial review**: read in full by Claude, from the rendered PDF text, in the batch shown. This is not a substitute for a human proofread.",
+            "- **Proof fixes**: corrections applied during this proof (all are in the correction log).",
+            "- **Human proofread**: the status in `HUMAN-PROOFREAD-REGISTER.csv`, entered by the human proofreader.",
+            "- **Native speaker (bn/hi)**: open items for this unit in `NATIVE-LANGUAGE-REVIEW.csv` (Bengali/Hindi text only; English statements about Bengali/Hindi are in the register too).",
+            "- **Approved**: from the proofread register's Approved column. No unit is approved until the human checks are signed off.", "",
+            "| Unit | Ref | Title | PDF pages | Automated | Editorial review | Proof fixes | Human proofread | Native speaker (bn/hi) | Approved |",
+            "|---|---|---|---|---|---|---|---|---|---|"]
     fm = rng.get("how-to-use")
     b = reviewed.get("front-matter")
     out.append(f"| front-matter | — | Cover, edition page, contents, How to Use | 1–{fm[1] if fm else ''} | run | "
-               f"{'Batch ' + str(b['batch']) if b else 'Not yet reviewed'} | {per_unit.get('front-matter', 0)} | Pending | n/a | No |")
+               f"{'Batch ' + str(b['batch']) if b else 'Not yet reviewed'} | {per_unit.get('front-matter', 0)} | "
+               f"{human.get('FRONT-MATTER', 'PENDING')} | n/a | {'Yes' if 'FRONT-MATTER' in approved_units else 'No'} |")
     for it in units:
         a, z = rng.get(it["id"], ("", ""))
         ref = f'L{it["level"]} {it["number"]}' if it["kind"] == "lesson" else f'L{it["level"]} {it["kind"]}'
@@ -121,15 +158,20 @@ def main():
         a_txt = "run, no flags" if not flags else "run; " + ", ".join(f"{k} ×{v}" for k, v in flags.items())
         b = reviewed.get(it["id"])
         e_txt = f"Batch {b['batch']} (complete)" if b else "Not yet reviewed"
-        out.append(f'| {it["id"]} | {ref} | {it["title"]} | {a}–{z} | {a_txt} | {e_txt} | {per_unit.get(it["id"], 0)} | Pending | '
-                   f'{"Pending" if has_l1[it["id"]] else "n/a"} | No |')
+        out.append(f'| {it["id"]} | {ref} | {it["title"]} | {a}–{z} | {a_txt} | {e_txt} | {per_unit.get(it["id"], 0)} | '
+                   f'{human.get(it["id"], "PENDING")} | {native_txt(it["id"])} | {"Yes" if it["id"] in approved_units else "No"} |')
     b = reviewed.get("index")
     ix = rng.get("index")
     out.append(f"| index | — | Reference Index and back cover | {ix[0] if ix else ''}–{len(pdftext)} | run | "
-               f"{'Batch ' + str(b['batch']) if b else 'Not yet reviewed'} | 0 | Pending | n/a | No |")
+               f"{'Batch ' + str(b['batch']) if b else 'Not yet reviewed'} | 0 | {human.get('BACK-MATTER', 'PENDING')} | n/a | "
+               f"{'Yes' if 'BACK-MATTER' in approved_units else 'No'} |")
     done = sum(1 for it in units if it["id"] in reviewed)
-    out += ["", f"Editorial review: {done} of {len(units)} units complete. Human proofread: 0 of {len(units)}. "
-            f"Native-speaker review: 0 of {sum(has_l1.values())} units with Bengali/Hindi text. Approved: 0."]
+    h_done = sum(1 for it in units if human.get(it["id"], "PENDING").upper() not in ("PENDING", ""))
+    l1_units = [u for u in native]
+    n_done = sum(1 for u in l1_units if not native[u]["open"])
+    out += ["", f"Editorial review: {done} of {len(units)} units complete. Human proofread: {h_done} of {len(units)}. "
+            f"Native-speaker review: {n_done} of {len(l1_units)} units with Bengali/Hindi text. "
+            f"Approved: {sum(1 for it in units if it['id'] in approved_units)}."]
     (PROOF / "PROOF-CHECKLIST.md").write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"{len(issues)} issues; editorial review {done}/{len(units)} units")
 

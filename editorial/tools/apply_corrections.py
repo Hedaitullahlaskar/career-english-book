@@ -11,6 +11,8 @@ expected number of times -- a stale or ambiguous correction fails loudly
 instead of silently doing nothing.
 """
 import csv
+import hashlib
+import io
 import html
 import json
 import re
@@ -125,10 +127,71 @@ def excerpt(s, limit=400):
     return t if len(t) <= limit else t[:limit - 1] + "…"
 
 
+# Each review phase has its own correction files and its own label in the log's "source" column, so the
+# audit trail stays distinguishable:
+#   11-90 files                      editorial audit (source left empty or a reference such as a dictionary)
+#   95-proof-b<N>.py                 "PDF proof, batch N"
+#   96-human-proofread*.py           "Human proofread"
+#   97-native-language-review*.py    "Native-language review"
+#   98-author-decision*.py           "Author decision"
+PHASE_FILES = [
+    (re.compile(r"^95-proof-b(\d+)"), None),
+    (re.compile(r"^96-human-proofread"), "Human proofread"),
+    (re.compile(r"^97-native-language-review"), "Native-language review"),
+    (re.compile(r"^98-author-decision"), "Author decision"),
+]
+RESERVED = ("PDF proof", "Human proofread", "Native-language review", "Author decision")
+FROZEN = ROOT / "editorial" / "correction-log-frozen.json"
+
+
+def phase_errors(entries):
+    """Correction files must belong to a known phase, and phase labels can't be borrowed."""
+    errors = []
+    for name in sorted({e.file for e in entries}):
+        prefix = int(name[:2], 16) if re.match(r"^[0-9A-F]{2}-", name) else None
+        if prefix is not None and prefix >= 0x95 and not any(rx.match(name) for rx, _ in PHASE_FILES):
+            errors.append(f"[{name}] unknown phase: name new correction files 96-human-proofread-*.py, "
+                          "97-native-language-review-*.py or 98-author-decision-*.py")
+    for e in entries:
+        own = next((label for rx, label in PHASE_FILES if rx.match(e.file)), None)
+        src = getattr(e, "source", None) or ""
+        if own is None and not re.match(r"^95-proof-b", e.file) and src.startswith(RESERVED):
+            errors.append(f"[{e.file}] source '{src}' is reserved for its own phase's correction files")
+    return errors
+
+
 def entry_source(e):
-    """Corrections from the PDF proofreading pass are labelled with their batch."""
+    """The log label for a correction: its phase, plus any detail the correction gives."""
     m = re.match(r"95-proof-b(\d+)", getattr(e, "file", "") or "")
-    return e.source if getattr(e, "source", None) else (f"PDF proof, batch {m.group(1)}" if m else "")
+    if m:
+        return e.source if getattr(e, "source", None) else f"PDF proof, batch {m.group(1)}"
+    for rx, label in PHASE_FILES[1:]:
+        if rx.match(getattr(e, "file", "") or ""):
+            detail = getattr(e, "source", None)
+            return label + (f" · {detail}" if detail and not detail.startswith(label) else "")
+    return e.source if getattr(e, "source", None) else ""
+
+
+def phase_of(source):
+    return next((p for p in RESERVED if source.startswith(p)), "Editorial audit")
+
+
+def frozen_errors(rows):
+    """Rows already in the published log (see correction-log-frozen.json) must never change."""
+    if not FROZEN.exists():
+        return []
+    frozen = json.loads(FROZEN.read_text(encoding="utf-8"))
+    n = frozen["rows"]
+    if len(rows) < n:
+        return [f"the log would have {len(rows)} rows, fewer than the {n} frozen historical rows"]
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(frozen["columns"])
+    w.writerows([[str(r[c]) for c in frozen["columns"]] for r in rows[:n]])
+    if hashlib.sha256(buf.getvalue().encode("utf-8")).hexdigest() != frozen["sha256"]:
+        return [f"rows 1-{n} of the correction log would change; historical entries must stay as they are "
+                "(add new corrections in a 96-, 97- or 98- file, which are appended after them)"]
+    return []
 
 
 def write_log(data, entries):
@@ -166,6 +229,10 @@ def write_log(data, entries):
                 "original": f"pattern /{e.pattern}/", "replacement": e.replace if isinstance(e.replace, str) else "(computed)",
                 "reason": f"{e.reason} ({total} replacements)", "source": entry_source(e),
             })
+    return rows
+
+
+def write_log_files(rows):
     with LOG_CSV.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["no"])
         w.writeheader()
@@ -178,7 +245,12 @@ def write_log(data, entries):
     counts = {}
     for r in rows:
         counts[r["category"]] = counts.get(r["category"], 0) + 1
-    md += ["| Category | Corrections |", "|---|---|"]
+    phases = {}
+    for r in rows:
+        phases[phase_of(r["source"])] = phases.get(phase_of(r["source"]), 0) + 1
+    md += ["| Phase (source label) | Corrections |", "|---|---|"]
+    md += [f"| {p} | {phases.get(p, 0)} |" for p in ("Editorial audit",) + RESERVED]
+    md += ["", "| Category | Corrections |", "|---|---|"]
     md += [f"| {k} | {v} |" for k, v in sorted(counts.items(), key=lambda kv: -kv[1])]
     md.append("")
     last = None
@@ -208,8 +280,13 @@ def main():
     check = "--check" in sys.argv
     entries = load_corrections()
     data = baseline()
-    errors = apply(data, entries)
+    errors = phase_errors(entries) + apply(data, entries)
     if errors:
+        print("\n".join(errors))
+        sys.exit(1)
+    rows = write_log(data, entries)
+    errors = frozen_errors(rows)
+    if errors:  # checked before anything is written
         print("\n".join(errors))
         sys.exit(1)
     out = json.dumps(data, ensure_ascii=False, indent=1) + "\n"
@@ -217,9 +294,11 @@ def main():
     if check:
         ok = current == out
         print("book-data.json matches baseline + corrections" if ok else "book-data.json DIFFERS from baseline + corrections")
+        print(f"correction log: rows 1-{json.loads(FROZEN.read_text(encoding='utf-8'))['rows'] if FROZEN.exists() else 0} "
+              f"unchanged; {len(rows)} rows in all")
         sys.exit(0 if ok else 1)
     DATA.write_text(out, encoding="utf-8", newline="\n")
-    n = write_log(data, entries)
+    n = write_log_files(rows)
     print(f"applied {len(entries)} corrections; log has {n} rows")
 
 

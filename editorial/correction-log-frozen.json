@@ -1,0 +1,21 @@
+{
+ "note": "Fingerprint of the correction log as of commit 603b29f (1 October 2026): 846 editorial-audit entries and 95 PDF-proof entries. apply_corrections.py refuses to run if rows 1-941 would change. New corrections are appended after them.",
+ "rows": 941,
+ "columns": [
+  "no",
+  "level",
+  "module",
+  "lesson",
+  "id",
+  "category",
+  "original",
+  "replacement",
+  "reason",
+  "source"
+ ],
+ "sha256": "71d6ea14026a0a58cfad38d47c3d6a1ddcde891ba7a40ac10de8bfc99e416505",
+ "by_phase": {
+  "Editorial audit": 846,
+  "PDF proof": 95
+ }
+}

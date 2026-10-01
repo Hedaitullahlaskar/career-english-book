@@ -5,6 +5,14 @@ Baseline: the reviewed edition at commit `61c769f`. 941 logged corrections.
 
 Original and replacement text are shown as plain text (HTML tags removed).
 
+| Phase (source label) | Corrections |
+|---|---|
+| Editorial audit | 846 |
+| PDF proof | 95 |
+| Human proofread | 0 |
+| Native-language review | 0 |
+| Author decision | 0 |
+
 | Category | Corrections |
 |---|---|
 | Production language / unfinished material | 232 |
