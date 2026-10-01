@@ -41,6 +41,9 @@ def block_around(html, pos):
 
 def clean(label):
     label = re.sub(r"[❌✅⚠️]", "", label)
+    quoted = re.match(r'^\s*["“]([^"”]{3,})["”]', label)
+    if quoted:  # a pattern quoted and then explained: keep just the quoted pattern
+        label = quoted.group(1)
     label = re.sub(r"^(Grammar in Context|Grammar in context|Communication Formula|Common Mistake|Pattern|Structure)\s*:?\s*", "", label)
     label = re.sub(r"^(Unclear|Wrong|Weak|Incorrect)\s*:\s*", "", label.strip())
     label = label.strip(" \"'“”‘’():;,.—–-")
@@ -50,7 +53,8 @@ def clean(label):
         label += ")"
 
     label = re.sub(r"\s+", " ", label)
-    label = label[:90] + ("…" if len(label) > 90 else "")
+    if len(label) > 90:
+        label = label[:90].rsplit(" ", 1)[0].rstrip(",;:—–-") + "…"
     if label.count('"') % 2:
         label = label.replace('"', "")
     return label
@@ -69,7 +73,11 @@ def label_for(code, block):
     m = re.search(r"([^()]{3,90})\(\s*" + esc + r"\b[^)]*\)", text)
     if m:
         before = m.group(1)
-        strong = re.findall(r"<strong>(.*?)</strong>", block[:block.find(code)])
+        pre = block[:block.find(code)]
+        adjacent = re.search(r"<(strong|em)>([^<]{1,70})</\1>\s*\(\s*(?:<code>)?\s*$", pre)
+        if adjacent:  # "<em>term</em> (CODE)": the term right before the code
+            return clean(adjacent.group(2))
+        strong = re.findall(r"<strong>(.*?)</strong>", pre)
         if strong and len(plain(strong[-1])) <= 70 and not CODE.search(plain(strong[-1])):
             return clean(plain(strong[-1]))
         return clean(re.split(r"[.!?]\s", before)[-1])
@@ -88,14 +96,15 @@ def label_for(code, block):
     return ""
 
 
-GENERIC = re.compile(r"^(Common Mistakes?|Tip|Mistake|Common mistake|Tip ·)$", re.I)
+GENERIC = re.compile(r"^(Common Mistakes?|Tip|Mistake|The mistake|Common mistake|Tip ·|(V|PAT|GIC|CF|TL|MIS|TIP|P)-\d{3,4})$", re.I)
 
 
 def label_after(html, pos):
     """For a code in a heading or callout label, describe it with the text that follows."""
     end = html.find(">", html.find("</", pos)) + 1
     text = plain(html[end:end + 700])
-    text = re.sub(r"^\s*(Mistake|Tip)\s*:\s*", "", text)
+    text = re.sub(r"^\s*" + CODE.pattern + DASH, "", text)
+    text = re.sub(r"^\s*(?:[—–-]\s*)?(?:the mistake|mistake|tip)\s*:\s*", "", text, flags=re.I)
     first = re.split(r"(?<=[.!?])\s|\s[—–]\s|\s--\s|:\s", text.strip(), maxsplit=1)[0]
     return clean(first)
 

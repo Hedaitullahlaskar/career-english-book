@@ -186,6 +186,53 @@
         "CE-L04-ASSESSMENT",
         "CE-L04-CAPSTONE"
       ]
+    },
+    {
+      "batch": 5,
+      "pages": "861–1104",
+      "date": "2026-10-01",
+      "units": [
+        "CE-L05-M01-L01",
+        "CE-L05-M01-L02",
+        "CE-L05-M01-L03",
+        "CE-L05-M01-L04",
+        "CE-L05-M02-L01",
+        "CE-L05-M02-L02",
+        "CE-L05-M02-L03",
+        "CE-L05-M02-L04",
+        "CE-L05-M02-L05",
+        "CE-L05-M03-L01",
+        "CE-L05-M03-L02",
+        "CE-L05-M03-L03",
+        "CE-L05-M03-L04",
+        "CE-L05-M04-L01",
+        "CE-L05-M04-L02",
+        "CE-L05-M04-L03",
+        "CE-L05-M04-L04",
+        "CE-L05-M04-L05",
+        "CE-L05-M05-L01",
+        "CE-L05-M05-L02",
+        "CE-L05-M05-L03",
+        "CE-L05-M05-L04",
+        "CE-L05-M05-L05",
+        "CE-L05-M06-L01",
+        "CE-L05-M06-L02",
+        "CE-L05-M06-L03",
+        "CE-L05-M06-L04",
+        "CE-L05-M07-L01",
+        "CE-L05-M07-L02",
+        "CE-L05-M07-L03",
+        "CE-L05-M07-L04",
+        "CE-L05-M07-L05",
+        "CE-L05-M07-L06",
+        "CE-L05-M08-L01",
+        "CE-L05-M08-L02",
+        "CE-L05-M08-L03",
+        "CE-L05-M08-L04",
+        "CE-L05-ASSESSMENT",
+        "CE-L05-CAPSTONE",
+        "index"
+      ]
     }
   ]
 }

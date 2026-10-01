@@ -169,45 +169,45 @@ Columns:
 | CE-L04-M08-L05 | L4 8.5 | A Full Relationship-Management Scenario | 834–839 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
 | CE-L04-ASSESSMENT | L4 assessment | Level 4 Assessment | 840–846 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
 | CE-L04-CAPSTONE | L4 capstone | The Difficult Quarter | 847–860 | run, no flags | Batch 4 (complete) | 2 | Pending | n/a | No |
-| CE-L05-M01-L01 | L5 1.1 | Delegating a Task Clearly | 863–866 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M01-L02 | L5 1.2 | Matching Instruction Detail to the Person's Experience | 867–871 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M01-L03 | L5 1.3 | Delegating Ownership, Not Just Tasks | 872–875 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M01-L04 | L5 1.4 | Following Up on Delegated Work Without Micromanaging | 876–880 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M02-L01 | L5 2.1 | Giving Ongoing, Everyday Feedback | 882–885 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M02-L02 | L5 2.2 | Structuring a Formal Performance Conversation | 886–889 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M02-L03 | L5 2.3 | Setting Goals and Expectations Together | 890–893 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M02-L04 | L5 2.4 | Addressing Underperformance | 894–897 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M02-L05 | L5 2.5 | A Full Performance Review Conversation | 898–901 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M03-L01 | L5 3.1 | The Difference Between Telling and Coaching | 903–907 | run, no flags | Not yet reviewed | 0 | Pending | Pending | No |
-| CE-L05-M03-L02 | L5 3.2 | Asking Questions That Open Up Thinking | 908–911 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M03-L03 | L5 3.3 | Coaching Someone Through a Problem They Own | 912–915 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M03-L04 | L5 3.4 | Knowing When to Coach and When to Just Tell Them | 916–919 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M04-L01 | L5 4.1 | Communicating the "Why" Behind a Strategy | 921–924 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M04-L02 | L5 4.2 | Announcing a Change to a Team | 925–928 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M04-L03 | L5 4.3 | Addressing Resistance to Change | 929–933 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M04-L04 | L5 4.4 | Keeping People Aligned Over Time | 934–937 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M04-L05 | L5 4.5 | Leading a Team Through a Full Change Cycle | 938–941 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M05-L01 | L5 5.1 | Chairing a Meeting as Its Owner | 943–948 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M05-L02 | L5 5.2 | Making a Decision When the Group Disagrees | 949–953 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M05-L03 | L5 5.3 | Communicating a Decision the Room Didn't Fully Agree With | 954–959 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M05-L04 | L5 5.4 | Keeping a Meeting Focused and On Time | 960–964 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M05-L05 | L5 5.5 | Leading a Full Decision-Making Meeting | 965–969 | run; repeated word ×1 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M06-L01 | L5 6.1 | Presenting as the Senior Voice in the Room | 971–977 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M06-L02 | L5 6.2 | Presenting Strategy and Vision | 978–983 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M06-L03 | L5 6.3 | Commanding a Room Under Scrutiny | 984–989 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M06-L04 | L5 6.4 | A Full Executive Presentation | 990–994 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L01 | L5 7.1 | Writing Your Story: CV and LinkedIn English | 996–1001 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L02 | L5 7.2 | Interviewing with Confidence | 1002–1007 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L03 | L5 7.3 | Networking and Building Professional Relationships | 1008–1012 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L04 | L5 7.4 | Asking for Feedback and Discussing Promotion | 1013–1018 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L05 | L5 7.5 | Discussing Salary and Compensation | 1019–1024 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M07-L06 | L5 7.6 | Resigning and Exit Interviews Gracefully | 1025–1030 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M08-L01 | L5 8.1 | What Makes a Communication Style Recognizably Yours | 1032–1036 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M08-L02 | L5 8.2 | Staying Authentic Under Pressure | 1037–1040 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M08-L03 | L5 8.3 | Leading With Consistency Across Every Channel | 1041–1045 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-M08-L04 | L5 8.4 | Putting It All Together: A Week as a Leader | 1046–1052 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-ASSESSMENT | L5 assessment | Level 5 Assessment | 1053–1057 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L05-CAPSTONE | L5 capstone | The Handover | 1058–1069 | run; British spelling ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| index | — | Reference Index and back cover | 1070–1104 | run | Not yet reviewed | 0 | Pending | n/a | No |
+| CE-L05-M01-L01 | L5 1.1 | Delegating a Task Clearly | 863–866 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M01-L02 | L5 1.2 | Matching Instruction Detail to the Person's Experience | 867–871 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M01-L03 | L5 1.3 | Delegating Ownership, Not Just Tasks | 872–875 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M01-L04 | L5 1.4 | Following Up on Delegated Work Without Micromanaging | 876–880 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M02-L01 | L5 2.1 | Giving Ongoing, Everyday Feedback | 882–885 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M02-L02 | L5 2.2 | Structuring a Formal Performance Conversation | 886–889 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M02-L03 | L5 2.3 | Setting Goals and Expectations Together | 890–893 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M02-L04 | L5 2.4 | Addressing Underperformance | 894–897 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M02-L05 | L5 2.5 | A Full Performance Review Conversation | 898–901 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M03-L01 | L5 3.1 | The Difference Between Telling and Coaching | 903–907 | run, no flags | Batch 5 (complete) | 1 | Pending | Pending | No |
+| CE-L05-M03-L02 | L5 3.2 | Asking Questions That Open Up Thinking | 908–911 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M03-L03 | L5 3.3 | Coaching Someone Through a Problem They Own | 912–915 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M03-L04 | L5 3.4 | Knowing When to Coach and When to Just Tell Them | 916–919 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M04-L01 | L5 4.1 | Communicating the "Why" Behind a Strategy | 921–924 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M04-L02 | L5 4.2 | Announcing a Change to a Team | 925–928 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M04-L03 | L5 4.3 | Addressing Resistance to Change | 929–933 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M04-L04 | L5 4.4 | Keeping People Aligned Over Time | 934–937 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M04-L05 | L5 4.5 | Leading a Team Through a Full Change Cycle | 938–941 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M05-L01 | L5 5.1 | Chairing a Meeting as Its Owner | 943–948 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M05-L02 | L5 5.2 | Making a Decision When the Group Disagrees | 949–953 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M05-L03 | L5 5.3 | Communicating a Decision the Room Didn't Fully Agree With | 954–959 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M05-L04 | L5 5.4 | Keeping a Meeting Focused and On Time | 960–964 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M05-L05 | L5 5.5 | Leading a Full Decision-Making Meeting | 965–969 | run; repeated word ×1 | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M06-L01 | L5 6.1 | Presenting as the Senior Voice in the Room | 971–977 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M06-L02 | L5 6.2 | Presenting Strategy and Vision | 978–983 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M06-L03 | L5 6.3 | Commanding a Room Under Scrutiny | 984–989 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M06-L04 | L5 6.4 | A Full Executive Presentation | 990–994 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M07-L01 | L5 7.1 | Writing Your Story: CV and LinkedIn English | 996–1001 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M07-L02 | L5 7.2 | Interviewing with Confidence | 1002–1007 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M07-L03 | L5 7.3 | Networking and Building Professional Relationships | 1008–1012 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M07-L04 | L5 7.4 | Asking for Feedback and Discussing Promotion | 1013–1018 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M07-L05 | L5 7.5 | Discussing Salary and Compensation | 1019–1024 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M07-L06 | L5 7.6 | Resigning and Exit Interviews Gracefully | 1025–1030 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M08-L01 | L5 8.1 | What Makes a Communication Style Recognizably Yours | 1032–1036 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M08-L02 | L5 8.2 | Staying Authentic Under Pressure | 1037–1040 | run, no flags | Batch 5 (complete) | 0 | Pending | n/a | No |
+| CE-L05-M08-L03 | L5 8.3 | Leading With Consistency Across Every Channel | 1041–1045 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-M08-L04 | L5 8.4 | Putting It All Together: A Week as a Leader | 1046–1052 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-ASSESSMENT | L5 assessment | Level 5 Assessment | 1053–1057 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| CE-L05-CAPSTONE | L5 capstone | The Handover | 1058–1069 | run, no flags | Batch 5 (complete) | 1 | Pending | n/a | No |
+| index | — | Reference Index and back cover | 1070–1104 | run | Batch 5 | 0 | Pending | n/a | No |
 
-Editorial review: 157 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
+Editorial review: 196 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
