@@ -82,54 +82,54 @@ Columns:
 | CE-L02-M08-L04 | L2 8.4 | Putting It All Together: A Full Workday | 327–330 | run, no flags | Batch 2 (complete) | 1 | Pending | n/a | No |
 | CE-L02-ASSESSMENT | L2 assessment | Level 2 Assessment | 331–338 | run, no flags | Batch 2 (complete) | 0 | Pending | n/a | No |
 | CE-L02-CAPSTONE | L2 capstone | A Normal Week | 339–347 | run, no flags | Batch 2 (complete) | 2 | Pending | n/a | No |
-| CE-L03-M01-L01 | L3 1.1 | Anatomy of a Professional Email | 350–355 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M01-L02 | L3 1.2 | Making Requests and Sharing Information | 356–359 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M01-L03 | L3 1.3 | Following Up, Reminding, and Confirming | 360–364 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M01-L04 | L3 1.4 | Apologizing and Responding to a Complaint | 365–369 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M01-L05 | L3 1.5 | Escalating an Issue by Email | 370–374 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M01-L06 | L3 1.6 | Putting a Full Email Thread Together | 375–379 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M02-L01 | L3 2.1 | The Facts → Evidence → Analysis → Action → Recommendation Framework | 381–386 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M02-L02 | L3 2.2 | Daily and Weekly Reports | 387–392 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M02-L03 | L3 2.3 | Incident and Complaint Reports | 393–397 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M02-L04 | L3 2.4 | Performance and Operational Reports | 398–402 | run, no flags | Not yet reviewed | 0 | Pending | Pending | No |
-| CE-L03-M02-L05 | L3 2.5 | Writing a Recommendation That Gets Acted On | 403–407 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L01 | L3 3.1 | Before a Meeting: Invitations and Agendas | 409–413 | run; unbalanced brackets ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L02 | L3 3.2 | Opening a Meeting and Setting Objectives | 414–417 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L03 | L3 3.3 | Giving and Asking for Opinions, Agreeing and Disagreeing Diplomatically | 418–422 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L04 | L3 3.4 | Clarifying, Interrupting Politely, and Summarizing | 423–427 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L05 | L3 3.5 | Assigning Action Points and Closing a Meeting | 428–431 | run; unbalanced brackets ×1 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M03-L06 | L3 3.6 | After a Meeting: Minutes and Follow-Up | 432–436 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M04-L01 | L3 4.1 | Opening a Presentation and Introducing Your Topic | 438–442 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M04-L02 | L3 4.2 | Explaining Slides, Charts, and Data | 443–446 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M04-L03 | L3 4.3 | Comparing Data and Highlighting Key Points | 447–451 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M04-L04 | L3 4.4 | Transitions and Structure | 452–456 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M04-L05 | L3 4.5 | Handling Questions After a Presentation | 457–461 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M05-L01 | L3 5.1 | Listening with Empathy | 463–467 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M05-L02 | L3 5.2 | De-escalating an Angry Customer | 468–473 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M05-L03 | L3 5.3 | Presenting Solutions and Managing Expectations | 474–478 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M05-L04 | L3 5.4 | Escalating a Complaint Internally | 479–483 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M05-L05 | L3 5.5 | Service Recovery: Turning a Bad Experience Around | 484–488 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M06-L01 | L3 6.1 | Welcoming a Client and Building Rapport | 490–494 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M06-L02 | L3 6.2 | Understanding Client Needs Through Questions | 495–499 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M06-L03 | L3 6.3 | Presenting a Solution to a Client | 500–504 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M06-L04 | L3 6.4 | Handling Client Objections | 505–509 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M06-L05 | L3 6.5 | Closing and Following Up with a Client | 510–514 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M07-L01 | L3 7.1 | Tenses and Aspect for Professional Writing | 516–520 | run, no flags | Not yet reviewed | 0 | Pending | Pending | No |
-| CE-L03-M07-L02 | L3 7.2 | Modals and Conditionals for Professional Nuance | 521–525 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M07-L03 | L3 7.3 | Passive Voice and Reported Speech in Professional Documents | 526–530 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M07-L04 | L3 7.4 | Articles, Prepositions, and Subject-Verb Agreement in Practice | 531–535 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M07-L05 | L3 7.5 | Relative Clauses, Gerunds, and Infinitives for Fluent Writing | 536–540 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M07-L06 | L3 7.6 | Comparatives and Formal Sentence Structures | 541–546 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M08-L01 | L3 8.1 | Word Stress and Sentence Stress | 548–554 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M08-L02 | L3 8.2 | Intonation and Rhythm in Professional Speech | 555–559 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M08-L03 | L3 8.3 | Connected Speech and Commonly Confused Sounds | 560–565 | run, no flags | Not yet reviewed | 0 | Pending | Pending | No |
-| CE-L03-M08-L04 | L3 8.4 | Speaking with Confidence | 566–570 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M09-L01 | L3 9.1 | Video Call Etiquette (Zoom/Google Meet) | 572–577 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M09-L02 | L3 9.2 | Choosing Between Email, Chat, Call, and Video Call | 578–582 | run; space before punctuation ×1 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M09-L03 | L3 9.3 | Adapting One Message Across Every Channel | 583–587 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-M09-L04 | L3 9.4 | Level 3 Synthesis: A Full Professional Week | 588–594 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-ASSESSMENT | L3 assessment | Level 3 Assessment | 595–601 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L03-CAPSTONE | L3 capstone | The Client Review | 602–614 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
+| CE-L03-M01-L01 | L3 1.1 | Anatomy of a Professional Email | 350–355 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M01-L02 | L3 1.2 | Making Requests and Sharing Information | 356–359 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M01-L03 | L3 1.3 | Following Up, Reminding, and Confirming | 360–364 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M01-L04 | L3 1.4 | Apologizing and Responding to a Complaint | 365–369 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M01-L05 | L3 1.5 | Escalating an Issue by Email | 370–374 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M01-L06 | L3 1.6 | Putting a Full Email Thread Together | 375–379 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M02-L01 | L3 2.1 | The Facts → Evidence → Analysis → Action → Recommendation Framework | 381–386 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M02-L02 | L3 2.2 | Daily and Weekly Reports | 387–392 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M02-L03 | L3 2.3 | Incident and Complaint Reports | 393–397 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M02-L04 | L3 2.4 | Performance and Operational Reports | 398–402 | run, no flags | Batch 3 (complete) | 0 | Pending | Pending | No |
+| CE-L03-M02-L05 | L3 2.5 | Writing a Recommendation That Gets Acted On | 403–407 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L01 | L3 3.1 | Before a Meeting: Invitations and Agendas | 409–413 | run; unbalanced brackets ×2 | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L02 | L3 3.2 | Opening a Meeting and Setting Objectives | 414–417 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L03 | L3 3.3 | Giving and Asking for Opinions, Agreeing and Disagreeing Diplomatically | 418–422 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L04 | L3 3.4 | Clarifying, Interrupting Politely, and Summarizing | 423–427 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L05 | L3 3.5 | Assigning Action Points and Closing a Meeting | 428–431 | run; unbalanced brackets ×1 | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M03-L06 | L3 3.6 | After a Meeting: Minutes and Follow-Up | 432–436 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M04-L01 | L3 4.1 | Opening a Presentation and Introducing Your Topic | 438–442 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M04-L02 | L3 4.2 | Explaining Slides, Charts, and Data | 443–446 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M04-L03 | L3 4.3 | Comparing Data and Highlighting Key Points | 447–451 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M04-L04 | L3 4.4 | Transitions and Structure | 452–456 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M04-L05 | L3 4.5 | Handling Questions After a Presentation | 457–461 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M05-L01 | L3 5.1 | Listening with Empathy | 463–467 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M05-L02 | L3 5.2 | De-escalating an Angry Customer | 468–473 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
+| CE-L03-M05-L03 | L3 5.3 | Presenting Solutions and Managing Expectations | 474–478 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M05-L04 | L3 5.4 | Escalating a Complaint Internally | 479–483 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M05-L05 | L3 5.5 | Service Recovery: Turning a Bad Experience Around | 484–488 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
+| CE-L03-M06-L01 | L3 6.1 | Welcoming a Client and Building Rapport | 490–494 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M06-L02 | L3 6.2 | Understanding Client Needs Through Questions | 495–499 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M06-L03 | L3 6.3 | Presenting a Solution to a Client | 500–504 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M06-L04 | L3 6.4 | Handling Client Objections | 505–509 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M06-L05 | L3 6.5 | Closing and Following Up with a Client | 510–514 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M07-L01 | L3 7.1 | Tenses and Aspect for Professional Writing | 516–520 | run, no flags | Batch 3 (complete) | 0 | Pending | Pending | No |
+| CE-L03-M07-L02 | L3 7.2 | Modals and Conditionals for Professional Nuance | 521–525 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M07-L03 | L3 7.3 | Passive Voice and Reported Speech in Professional Documents | 526–530 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M07-L04 | L3 7.4 | Articles, Prepositions, and Subject-Verb Agreement in Practice | 531–535 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M07-L05 | L3 7.5 | Relative Clauses, Gerunds, and Infinitives for Fluent Writing | 536–540 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M07-L06 | L3 7.6 | Comparatives and Formal Sentence Structures | 541–546 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
+| CE-L03-M08-L01 | L3 8.1 | Word Stress and Sentence Stress | 548–554 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M08-L02 | L3 8.2 | Intonation and Rhythm in Professional Speech | 555–559 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M08-L03 | L3 8.3 | Connected Speech and Commonly Confused Sounds | 560–565 | run, no flags | Batch 3 (complete) | 0 | Pending | Pending | No |
+| CE-L03-M08-L04 | L3 8.4 | Speaking with Confidence | 566–570 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M09-L01 | L3 9.1 | Video Call Etiquette (Zoom/Google Meet) | 572–577 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M09-L02 | L3 9.2 | Choosing Between Email, Chat, Call, and Video Call | 578–582 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-M09-L03 | L3 9.3 | Adapting One Message Across Every Channel | 583–587 | run, no flags | Batch 3 (complete) | 0 | Pending | n/a | No |
+| CE-L03-M09-L04 | L3 9.4 | Level 3 Synthesis: A Full Professional Week | 588–594 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
+| CE-L03-ASSESSMENT | L3 assessment | Level 3 Assessment | 595–601 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
+| CE-L03-CAPSTONE | L3 capstone | The Client Review | 602–614 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
 | CE-L04-M01-L01 | L4 1.1 | Preparing to Negotiate: Knowing Your Position | 617–622 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L04-M01-L02 | L4 1.2 | Opening a Negotiation and Anchoring | 623–627 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L04-M01-L03 | L4 1.3 | Trading Concessions Without Giving Away Too Much | 628–632 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
@@ -210,4 +210,4 @@ Columns:
 | CE-L05-CAPSTONE | L5 capstone | The Handover | 1058–1069 | run; British spelling ×2 | Not yet reviewed | 0 | Pending | n/a | No |
 | index | — | Reference Index and back cover | 1070–1104 | run | Not yet reviewed | 0 | Pending | n/a | No |
 
-Editorial review: 70 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
+Editorial review: 118 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
