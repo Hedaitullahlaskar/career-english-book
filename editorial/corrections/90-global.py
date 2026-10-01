@@ -93,3 +93,8 @@ rule("blockquote-line-breaks",
      "Model emails, agendas and minutes kept their line structure (list items, labelled lines, sign-offs) only as source line breaks, "
      "which browsers collapse — so 'Agenda: 1. … 2. … 3. …' and 'Thanks, Arif' ran together on one line.",
      "structure", fields=("body_html",), flags=16)
+
+rule("continuity-scenario-label", r"\(this (module|lesson)'s continuity scenario\)", r"(this \1's scenario)",
+     "Production language ('continuity scenario') in industry-overlay labels.", "production", fields=("body_html",))
+rule("scene-underscore-labels", r"Scene_([ab])", lambda m: "Scene " + m.group(1).upper(),
+     "Conversion artifact ('Scene_a') in answer keys.", "typography", fields=("practice_html", "body_html"))

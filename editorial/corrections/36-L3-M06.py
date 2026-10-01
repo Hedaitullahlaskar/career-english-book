@@ -23,3 +23,5 @@ fix(L, "written proposal, copying in the General Manager for a high-value bookin
 fix(L, '<span class="answer-number">2.</span> <p>What to listen/look for:',
     '<span class="answer-number">2.</span> <p>Score 0–6: one point for each of the five meeting stages, plus one for a follow-up email that names the client\'s need and the agreed next step. Pass at 5. What to listen/look for:',
     "The module assessment ('graded holistically') had no scale.", "assessment")
+fix(L, "graded holistically, then write a short follow-up email", "then write a short follow-up email",
+    "'Graded holistically' contradicted the 0–6 scale in the answer key for Exercise 2.", "assessment")
