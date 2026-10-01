@@ -5,14 +5,14 @@ Branch: `editorial-audit-2026-10` · Date: 1 October 2026 · Nothing has been de
 ## Summary
 
 - All 186 lessons, 5 level assessments and 5 capstones (196 units) were read and corrected. No lesson was removed or merged.
-- **846 corrections** are logged in [`correction-log.csv`](correction-log.csv) and [`CORRECTION-LOG.md`](CORRECTION-LOG.md). Each entry records level, module, lesson, original, replacement and reason.
+- **941 corrections** are logged in [`correction-log.csv`](correction-log.csv) and [`CORRECTION-LOG.md`](CORRECTION-LOG.md): 846 from the editorial audit and 95 from the PDF proof pass. Each entry records level, module, lesson, original, replacement, reason and source.
 - Every correction is a script in [`corrections/`](corrections/), applied to the original text (commit `61c769f`) by `tools/apply_corrections.py`. Running `python editorial/tools/apply_corrections.py --check` confirms that `book-data.json` matches the original plus the logged corrections, so nothing changed without a log entry.
 - The website was updated and checked in headless Chrome at desktop and phone widths: 0 console errors, 0 layout overflow, 0 duplicate IDs, 0 broken internal links (3,699 checked).
 - A master PDF was generated from the corrected text: A4, 1,104 pages, contents and index with real page numbers, bookmarks for every level, module, lesson and assessment, and running heads.
 
-**Status: not yet publication-ready.** The editorial audit and website checks are complete. The PDF has only been spot-checked; it still needs a full human proofread, and the open items below need a decision.
+**Status: not yet publication-ready.** The editorial audit, the website checks and an editorial read of the complete rendered PDF (all 1,104 pages, in five batches) are done. The PDF still needs a full human proofread and a native-speaker review of the Bengali/Hindi text; the back-cover image needs correcting; and three items need an author decision (see Open items). No unit is marked approved.
 
-## Corrections by type
+## Corrections by type (editorial audit, 846)
 
 | Type | Count |
 |---|---|
@@ -107,18 +107,46 @@ By level: Level 1: 212 · Level 2: 107 · Level 3: 159 · Level 4: 145 · Level 
 - Fonts are embedded: Noto Sans Bengali and Noto Sans Devanagari for the Bengali and Hindi text.
 - Page breaks avoid splitting dialogue turns, table rows, exercises and answer items.
 - The output `editorial/print/Career-English-Master.pdf` is not committed (12.8 MB; it is in `.gitignore`). Rebuild it with the commands in `HOSTINGER-UPDATE.md`.
-- Proofed pages, rendered and checked visually:
-  - cover, contents, Lesson 1.1, the Lesson 1.3 vocabulary table (Bengali/Hindi), Lesson 3.8.1 (stress), the Level 5 capstone, the index and the back cover;
-  - 3,699 web links checked automatically.
+## PDF proof pass
+
+The whole rendered PDF was reviewed in five batches: front matter and Level 1 (pp. 1–175), Level 2 (176–347), Level 3 (348–614), Level 4 (615–860), and Level 5, the index and the back cover (861–1104). The PDF was rebuilt after each batch.
+
+- **Three kinds of check, kept separate:**
+  - *Automated* (`proof/auto_checks.py` on the PDF text): layout flags (near-empty pages, headings stranded at the foot of a page, text outside the margins) and text flags (repeated words, stray spaces, a/an, unbalanced quotes or brackets, leftover markers, British spelling). Every flag was reviewed; the 18 still raised are confirmed false positives (numbered "1) 2)" answers, multi-paragraph quotations, "checked in in", the deliberate "really really").
+  - *Editorial review* (Claude): every page's text read in full for grammar, instructional accuracy, examples, answer keys, scoring, continuity and typography, with flagged and changed pages rendered and checked visually.
+  - *Human and native-speaker review*: not done yet, and recorded as pending for every unit.
+- **95 corrections** (each in the correction log with source "PDF proof, batch N"):
+  - story continuity: 26;
+  - natural professional English: 21;
+  - typography and consistency: 20;
+  - exercise and answer-key alignment: 8;
+  - production language: 6;
+  - assessment scoring: 6;
+  - factual accuracy: 3;
+  - reference codes: 3;
+  - grammar: 2.
+- **Layout fixes in the build** (`tools/build_print.py`): contents headings no longer stranded at the foot of a page; reference codes in table cells no longer split across lines; a duplicated sentence in How to Use removed.
+- **Index fixes** (`tools/build_reference_index.py`, which also feeds the website): tips and patterns that were labelled with their own code now show their names, V-0754 shows the right term, quoted patterns lose their stray quotation marks, and long labels break at a word.
+- **Outputs:**
+  - [`proof/PROOF-CHECKLIST.md`](proof/PROOF-CHECKLIST.md): one row per unit, with PDF pages, automated flags, the editorial-review batch, the number of proof fixes, and human, native-speaker and approval status.
+  - [`proof/PROOF-ISSUES.csv`](proof/PROOF-ISSUES.csv): all 123 issues, each with unit, PDF page, original, correction, reason and status.
+- **Final build:** 1,104 pages, 243 of 243 bookmarks matched; `apply_corrections.py --check` passes.
 
 ## Open items (need a decision or human review)
 
-1. **Full proofread of the PDF.** About 1,100 pages were generated, but only sample pages were checked visually.
-2. **Bengali and Hindi glosses.** Script and tagging are verified, and the glosses I sampled are accurate. A native-speaker review of all entries is still recommended.
-3. **Cover artwork.** The back cover says "www.HedayatEnglishAcademy.com" and "info@HedayatEnglishAcademy.com", but the front cover says "hidayetenglishacademy.com". These are images, so they need the designer.
-4. **Audio.** The book is now honest that there are no recordings. If audio is produced later, the "read the dialogue" prompts and the How to Use note should be updated.
-5. **Internal status fields.** `content_track_status` / `curriculum_status` in `book-data.json` still hold the production values (DRAFT, UNKNOWN). They are no longer shown anywhere; I changed the display, not the data.
-6. **Deployment.** Not done. See `HOSTINGER-UPDATE.md`.
+1. **Human proofread of the PDF.** Every page has had an editorial read, but no person has proofread the printed layout. 0 of 196 units are approved.
+2. **Bengali and Hindi.** Text extraction cannot verify these scripts; rendered pages show correct glyphs. A native speaker needs to check the glosses, the example sentences and the statements about Bengali/Hindi usage and workplace custom (31 units contain Bengali or Hindi text; see the checklist).
+3. **Back-cover image.** `back-cover.jpg` (repository root) reads "www.HedayatEnglishAcademy.com" and "info@HedayatEnglishAcademy.com". The website should be hidayetenglishacademy.com, as on the front cover. The email address also needs confirming. The text is part of the image, so the designer needs to replace the file.
+4. **Author decisions.**
+   - The linen contract is fixed for two years in Level 4 Module 1, but the Level 4 capstone (and a Lesson 8.2 example) treat it as an annual renewal a year later.
+   - Seven vocabulary items have two codes (e.g. "colleague", V-0018 and V-0105).
+   - In Level 5 Lessons 6.3–6.4 Arif does not cite his own successful Level 4 kiosk pilot when challenged about adoption.
+5. **House-style choices for the human proofread.**
+   - Date style: "September 20" vs "12 March".
+   - The British idiom "to hand", used as a taught expression in Level 3.
+6. **Audio.** The book is now honest that there are no recordings. If audio is produced later, the "read the dialogue" prompts and the How to Use note should be updated.
+7. **Internal status fields.** `content_track_status` / `curriculum_status` in `book-data.json` still hold the production values (DRAFT, UNKNOWN). They are no longer shown anywhere; I changed the display, not the data.
+8. **Deployment.** Not done. See `HOSTINGER-UPDATE.md`.
 
 ## How to review the changes
 
