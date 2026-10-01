@@ -130,45 +130,45 @@ Columns:
 | CE-L03-M09-L04 | L3 9.4 | Level 3 Synthesis: A Full Professional Week | 588–594 | run, no flags | Batch 3 (complete) | 1 | Pending | n/a | No |
 | CE-L03-ASSESSMENT | L3 assessment | Level 3 Assessment | 595–601 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
 | CE-L03-CAPSTONE | L3 capstone | The Client Review | 602–614 | run, no flags | Batch 3 (complete) | 2 | Pending | n/a | No |
-| CE-L04-M01-L01 | L4 1.1 | Preparing to Negotiate: Knowing Your Position | 617–622 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M01-L02 | L4 1.2 | Opening a Negotiation and Anchoring | 623–627 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M01-L03 | L4 1.3 | Trading Concessions Without Giving Away Too Much | 628–632 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M01-L04 | L4 1.4 | Handling Pressure Tactics and Deadlocks | 633–638 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M01-L05 | L4 1.5 | Closing a Negotiation and Confirming the Deal | 639–644 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L01 | L4 2.1 | Saying No Firmly and Professionally | 646–651 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L02 | L4 2.2 | Giving Critical Feedback Without Damaging the Relationship | 652–656 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L03 | L4 2.3 | Receiving Criticism Gracefully | 657–661 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L04 | L4 2.4 | Admitting and Reporting a Serious Mistake | 662–667 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L05 | L4 2.5 | Handling a Difficult Colleague | 668–673 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M02-L06 | L4 2.6 | Managing Conflict to a Resolution | 674–679 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M03-L01 | L4 3.1 | The Anatomy of a Persuasive Argument | 681–685 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M03-L02 | L4 3.2 | Using Evidence and Framing | 686–690 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M03-L03 | L4 3.3 | Persuading a Skeptical Audience | 691–695 | run; repeated word ×1 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M03-L04 | L4 3.4 | Influencing Without Authority | 696–700 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M04-L01 | L4 4.1 | Structuring an Ambiguous Problem Out Loud | 702–707 | run; unbalanced quotes ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M04-L02 | L4 4.2 | Exploring Options and Trade-offs Collaboratively | 708–713 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M04-L03 | L4 4.3 | Communicating a Decision and Its Reasoning | 714–719 | run; unbalanced quotes ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M04-L04 | L4 4.4 | Solving a Problem Live Under Time Pressure | 720–726 | run; unbalanced quotes ×2 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M05-L01 | L4 5.1 | Presenting to a Senior or Executive Audience | 728–733 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M05-L02 | L4 5.2 | Handling Tough and Skeptical Questions | 734–738 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M05-L03 | L4 5.3 | Presenting Under Time Pressure or Interruption | 739–744 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M05-L04 | L4 5.4 | Storytelling and Persuasive Structure in Presentations | 745–750 | run; repeated word ×1 | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M06-L01 | L4 6.1 | Communicating Calmly Under Pressure | 752–756 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M06-L02 | L4 6.2 | Delivering Bad News | 757–762 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M06-L03 | L4 6.3 | Managing Unrealistic Deadlines and Expectations Under Pressure | 763–768 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M06-L04 | L4 6.4 | Crisis Communication: Keeping People Informed | 769–774 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M06-L05 | L4 6.5 | A Full Crisis Scenario: Communicate, Escalate, Resolve | 775–780 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M07-L01 | L4 7.1 | Recognizing Cultural Differences in Communication Style | 782–789 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M07-L02 | L4 7.2 | Adapting Directness and Formality Across Cultures | 790–796 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M07-L03 | L4 7.3 | Avoiding Misunderstandings in Cross-Cultural Teams | 797–802 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M07-L04 | L4 7.4 | Communicating Respectfully Without Stereotyping | 803–809 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M08-L01 | L4 8.1 | Managing a Long-Term Client or Vendor Relationship | 811–815 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M08-L02 | L4 8.2 | Renewing or Renegotiating a Contract | 816–821 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M08-L03 | L4 8.3 | Difficult Vendor Conversations | 822–827 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M08-L04 | L4 8.4 | Managing Client Expectations Over Time | 828–833 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-M08-L05 | L4 8.5 | A Full Relationship-Management Scenario | 834–839 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-ASSESSMENT | L4 assessment | Level 4 Assessment | 840–846 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
-| CE-L04-CAPSTONE | L4 capstone | The Difficult Quarter | 847–860 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
+| CE-L04-M01-L01 | L4 1.1 | Preparing to Negotiate: Knowing Your Position | 617–622 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M01-L02 | L4 1.2 | Opening a Negotiation and Anchoring | 623–627 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M01-L03 | L4 1.3 | Trading Concessions Without Giving Away Too Much | 628–632 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M01-L04 | L4 1.4 | Handling Pressure Tactics and Deadlocks | 633–638 | run, no flags | Batch 4 (complete) | 2 | Pending | n/a | No |
+| CE-L04-M01-L05 | L4 1.5 | Closing a Negotiation and Confirming the Deal | 639–644 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M02-L01 | L4 2.1 | Saying No Firmly and Professionally | 646–651 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M02-L02 | L4 2.2 | Giving Critical Feedback Without Damaging the Relationship | 652–656 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M02-L03 | L4 2.3 | Receiving Criticism Gracefully | 657–661 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M02-L04 | L4 2.4 | Admitting and Reporting a Serious Mistake | 662–667 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M02-L05 | L4 2.5 | Handling a Difficult Colleague | 668–673 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M02-L06 | L4 2.6 | Managing Conflict to a Resolution | 674–679 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M03-L01 | L4 3.1 | The Anatomy of a Persuasive Argument | 681–685 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M03-L02 | L4 3.2 | Using Evidence and Framing | 686–690 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M03-L03 | L4 3.3 | Persuading a Skeptical Audience | 691–695 | run, no flags | Batch 4 (complete) | 2 | Pending | n/a | No |
+| CE-L04-M03-L04 | L4 3.4 | Influencing Without Authority | 696–700 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M04-L01 | L4 4.1 | Structuring an Ambiguous Problem Out Loud | 702–707 | run; unbalanced quotes ×2 | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M04-L02 | L4 4.2 | Exploring Options and Trade-offs Collaboratively | 708–713 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M04-L03 | L4 4.3 | Communicating a Decision and Its Reasoning | 714–719 | run; unbalanced quotes ×2 | Batch 4 (complete) | 2 | Pending | n/a | No |
+| CE-L04-M04-L04 | L4 4.4 | Solving a Problem Live Under Time Pressure | 720–726 | run; unbalanced quotes ×2 | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M05-L01 | L4 5.1 | Presenting to a Senior or Executive Audience | 728–733 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M05-L02 | L4 5.2 | Handling Tough and Skeptical Questions | 734–738 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M05-L03 | L4 5.3 | Presenting Under Time Pressure or Interruption | 739–744 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M05-L04 | L4 5.4 | Storytelling and Persuasive Structure in Presentations | 745–750 | run; repeated word ×1 | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M06-L01 | L4 6.1 | Communicating Calmly Under Pressure | 752–756 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M06-L02 | L4 6.2 | Delivering Bad News | 757–762 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M06-L03 | L4 6.3 | Managing Unrealistic Deadlines and Expectations Under Pressure | 763–768 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M06-L04 | L4 6.4 | Crisis Communication: Keeping People Informed | 769–774 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M06-L05 | L4 6.5 | A Full Crisis Scenario: Communicate, Escalate, Resolve | 775–780 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M07-L01 | L4 7.1 | Recognizing Cultural Differences in Communication Style | 782–789 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M07-L02 | L4 7.2 | Adapting Directness and Formality Across Cultures | 790–796 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M07-L03 | L4 7.3 | Avoiding Misunderstandings in Cross-Cultural Teams | 797–802 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M07-L04 | L4 7.4 | Communicating Respectfully Without Stereotyping | 803–809 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-M08-L01 | L4 8.1 | Managing a Long-Term Client or Vendor Relationship | 811–815 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M08-L02 | L4 8.2 | Renewing or Renegotiating a Contract | 816–821 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M08-L03 | L4 8.3 | Difficult Vendor Conversations | 822–827 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M08-L04 | L4 8.4 | Managing Client Expectations Over Time | 828–833 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-M08-L05 | L4 8.5 | A Full Relationship-Management Scenario | 834–839 | run, no flags | Batch 4 (complete) | 1 | Pending | n/a | No |
+| CE-L04-ASSESSMENT | L4 assessment | Level 4 Assessment | 840–846 | run, no flags | Batch 4 (complete) | 0 | Pending | n/a | No |
+| CE-L04-CAPSTONE | L4 capstone | The Difficult Quarter | 847–860 | run, no flags | Batch 4 (complete) | 2 | Pending | n/a | No |
 | CE-L05-M01-L01 | L5 1.1 | Delegating a Task Clearly | 863–866 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L05-M01-L02 | L5 1.2 | Matching Instruction Detail to the Person's Experience | 867–871 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
 | CE-L05-M01-L03 | L5 1.3 | Delegating Ownership, Not Just Tasks | 872–875 | run, no flags | Not yet reviewed | 0 | Pending | n/a | No |
@@ -210,4 +210,4 @@ Columns:
 | CE-L05-CAPSTONE | L5 capstone | The Handover | 1058–1069 | run; British spelling ×2 | Not yet reviewed | 0 | Pending | n/a | No |
 | index | — | Reference Index and back cover | 1070–1104 | run | Not yet reviewed | 0 | Pending | n/a | No |
 
-Editorial review: 118 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
+Editorial review: 157 of 196 units complete. Human proofread: 0 of 196. Native-speaker review: 0 of 31 units with Bengali/Hindi text. Approved: 0.
