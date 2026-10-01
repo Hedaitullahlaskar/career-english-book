@@ -1,12 +1,15 @@
 """Print raw baseline HTML around a needle, for writing exact corrections.
 Usage: python show.py ID "needle" [before] [after]   (searches all text fields)"""
 import json
+import io
 import subprocess
 import sys
 
 from book import ROOT, by_id
 
 from apply_corrections import BASELINE_COMMIT
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 data = json.loads(subprocess.check_output(["git", "show", f"{BASELINE_COMMIT}:book-data.json"], cwd=ROOT).decode("utf-8"))
 ref = by_id(data)[sys.argv[1]]["ref"]

@@ -139,6 +139,17 @@ def write_log(data, entries):
                 "original": excerpt(e.find), "replacement": excerpt(e.replace) or "(removed)",
                 "reason": e.reason, "source": e.source or "",
             })
+        elif e.targets and len({h[0] for h in e.hits}) == 1:
+            total = sum(h[2] for h in e.hits)
+            it = index[e.hits[0][0]]
+            rows.append({
+                "no": n, "level": it["level"],
+                "module": f'M{it["module"]:02d} {it.get("module_title") or ""}'.strip() if it.get("module") else "—",
+                "lesson": f'{it["number"]} {it["title"]}', "id": it["id"], "category": CATEGORIES[e.category],
+                "original": f"/{e.pattern}/ ({total}×)",
+                "replacement": e.replace if isinstance(e.replace, str) else "(computed)",
+                "reason": e.reason, "source": "",
+            })
         else:
             total = sum(h[2] for h in e.hits)
             ids = sorted({h[0] for h in e.hits})

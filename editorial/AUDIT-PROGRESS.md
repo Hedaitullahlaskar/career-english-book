@@ -9,6 +9,7 @@ lessons must stay consistent with.
 | Unit | Status |
 |---|---|
 | Level 1: M01–M07, assessment, capstone | done |
+| Level 2: M01–M08, assessment, capstone | done |
 
 ## Book-wide decisions
 
@@ -37,3 +38,6 @@ lessons must stay consistent with.
 - Relabel "Listening Comprehension" exercise types (audio does not exist); prompts are being changed per lesson.
 - Reference-code index and links (site + PDF).
 - Front matter for the PDF (About, How to Use, codes, stress notation, audio note).
+- Linen suppliers: "Mr. Siddique, Riverside Linens" (L2 3.2, renamed from Mr. Rahman); "Golam, Bengal Linen Supply" (L2 capstone). Level 4 vendor "Mr. Hossain, Bengal Textile Supplies" clashes with Level 1 supervisor Mr. Hossain — consider making him Golam Mostafa (Mr. Mostafa) of Bengal Linen Supply.
+- Level 2 timeline: starts a few weeks after day one; capstone "several months into the job". Keycard encoder arrives Thursday (L2 capstone).
+- Assessment scoring scheme (Levels 1–2): Part A 1 pt/item; Parts B/C 0–3 per item on Task / Language / Tone & delivery; pass 70% with a Part A minimum. Capstones keep the weighted 8-row rubric with a 0–4 scale and a 70/100 threshold.
