@@ -3,3 +3,8 @@ Thumbs.db
 *.log
 .env
 .env.*
+
+# Print-edition build outputs (regenerate with editorial/tools/build_print.py + editorial/print/render_pdf.js)
+editorial/print/career-english-print.html
+editorial/print/*.pdf
+editorial/print/node_modules/

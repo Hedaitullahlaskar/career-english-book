@@ -252,7 +252,7 @@
   "V-0108": {
    "type": "V",
    "home": "CE-L01-M02-L02",
-   "label": "Front Office (dept",
+   "label": "Front Office (dept)",
    "uses": [
     "CE-L01-M02-L02"
    ]
@@ -276,7 +276,7 @@
   "V-0111": {
    "type": "V",
    "home": "CE-L01-M02-L03",
-   "label": "to flag (something",
+   "label": "to flag (something)",
    "uses": [
     "CE-L01-M02-L03"
    ]
@@ -490,7 +490,7 @@
   "V-0137": {
    "type": "V",
    "home": "CE-L01-M04-L03",
-   "label": "by end of day (EOD",
+   "label": "by end of day (EOD)",
    "uses": [
     "CE-L01-M04-L03",
     "CE-L01-M06-L03"
@@ -1005,7 +1005,7 @@
   "V-0201": {
    "type": "V",
    "home": "CE-L05-M01-L01",
-   "label": "hand off (to someone",
+   "label": "hand off (to someone)",
    "uses": [
     "CE-L05-M01-L01"
    ]
@@ -3434,7 +3434,7 @@
   "V-0600": {
    "type": "V",
    "home": "CE-L03-M09-L03",
-   "label": "consistency (of message",
+   "label": "consistency (of message)",
    "uses": [
     "CE-L03-M09-L03"
    ]
@@ -3482,7 +3482,7 @@
   "V-0606": {
    "type": "V",
    "home": "CE-L03-M09-L04",
-   "label": "close out (a week/task",
+   "label": "close out (a week/task)",
    "uses": [
     "CE-L03-M09-L04"
    ]
@@ -4439,7 +4439,7 @@
   "PAT-0003": {
    "type": "PAT",
    "home": "CE-L01-M02-L03",
-   "label": "I'll + action + if + condition (present simple",
+   "label": "I'll + action + if + condition (present simple)",
    "uses": [
     "CE-L01-M02-L03"
    ]
@@ -4447,7 +4447,7 @@
   "PAT-0004": {
    "type": "PAT",
    "home": "CE-L01-M02-L04",
-   "label": "Could you tell me where + [place] + is?\" (statement word order after \"where",
+   "label": "Could you tell me where + [place] + is?\" (statement word order after \"where)",
    "uses": [
     "CE-L01-M02-L04"
    ]
@@ -5009,7 +5009,7 @@
   "PAT-0073": {
    "type": "PAT",
    "home": "CE-L03-M04-L04",
-   "label": "Arif (presenting, transition",
+   "label": "Arif (presenting, transition)",
    "uses": [
     "CE-L03-M04-L04",
     "CE-L03-M04-L05"
@@ -5195,7 +5195,7 @@
   "PAT-0108": {
    "type": "PAT",
    "home": "CE-L03-M09-L03",
-   "label": "Vocabulary core content (V-0595",
+   "label": "Vocabulary core content (V-0595)",
    "uses": [
     "CE-L03-M09-L03",
     "CE-L05-M08-L03"

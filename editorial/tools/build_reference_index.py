@@ -46,6 +46,8 @@ def clean(label):
     label = label.strip(" \"'“”‘’():;,.—–-")
     if label.count("[") > label.count("]"):
         label += "]"
+    if label.count("(") > label.count(")"):
+        label += ")"
 
     label = re.sub(r"\s+", " ", label)
     label = label[:90] + ("…" if len(label) > 90 else "")
