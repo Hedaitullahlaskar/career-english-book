@@ -58,10 +58,10 @@ def load_corrections():
                              file=current))
 
     def rule(name, pattern, replace, reason, category, fields=("body_html", "practice_html", "objectives_html"),
-             flags=0, targets=None, expect=None):
+             flags=0, targets=None, expect=None, source=None):
         entries.append(Entry("rule", name=name, pattern=pattern, replace=replace, reason=reason,
                              category=category, fields=fields, flags=flags, targets=targets,
-                             expect=expect, file=current))
+                             expect=expect, source=source, file=current))
 
     for path in sorted(CORR_DIR.glob("*.py")):
         current = path.name
@@ -125,6 +125,12 @@ def excerpt(s, limit=400):
     return t if len(t) <= limit else t[:limit - 1] + "…"
 
 
+def entry_source(e):
+    """Corrections from the PDF proofreading pass are labelled with their batch."""
+    m = re.match(r"95-proof-b(\d+)", getattr(e, "file", "") or "")
+    return e.source if getattr(e, "source", None) else (f"PDF proof, batch {m.group(1)}" if m else "")
+
+
 def write_log(data, entries):
     index = by_id(data)
     rows = []
@@ -137,7 +143,7 @@ def write_log(data, entries):
                 "lesson": f'{it["number"]} {it["title"]}' if it["kind"] != "module" else "(module description)",
                 "id": e.target, "category": CATEGORIES[e.category],
                 "original": excerpt(e.find), "replacement": excerpt(e.replace) or "(removed)",
-                "reason": e.reason, "source": e.source or "",
+                "reason": e.reason, "source": entry_source(e),
             })
         elif e.targets and len({h[0] for h in e.hits}) == 1:
             total = sum(h[2] for h in e.hits)
@@ -148,7 +154,7 @@ def write_log(data, entries):
                 "lesson": f'{it["number"]} {it["title"]}', "id": it["id"], "category": CATEGORIES[e.category],
                 "original": f"/{e.pattern}/ ({total}×)",
                 "replacement": e.replace if isinstance(e.replace, str) else "(computed)",
-                "reason": e.reason, "source": "",
+                "reason": e.reason, "source": entry_source(e),
             })
         else:
             total = sum(h[2] for h in e.hits)
@@ -158,7 +164,7 @@ def write_log(data, entries):
                 "lesson": f"{len(ids)} units", "id": "global rule: " + e.name,
                 "category": CATEGORIES[e.category],
                 "original": f"pattern /{e.pattern}/", "replacement": e.replace if isinstance(e.replace, str) else "(computed)",
-                "reason": f"{e.reason} ({total} replacements)", "source": "",
+                "reason": f"{e.reason} ({total} replacements)", "source": entry_source(e),
             })
     with LOG_CSV.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["no"])

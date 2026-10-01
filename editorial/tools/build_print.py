@@ -33,8 +33,8 @@ def how_to_use_html():
     parts = re.findall(r"'((?:[^'\\]|\\.)*)'", block)
     text = "".join(p.replace("\\'", "'") for p in parts)
     # in print, the index is in the back matter rather than behind a link
-    text = text.replace('<a href="#codes">Reference index</a>', "Reference Index at the back of the book")
-    text = text.replace(" The <a", " The <a").replace("codes in the lessons link there too", "use it to find the page where each one is introduced")
+    text = re.sub(r'The <a href="#codes">Reference index</a> lists them all,.*?</p>',
+                  "The Reference Index at the back of the book lists them all, with the lesson and page where each one is introduced.</p>", text)
     return re.sub(r"<h2>Tracking your progress</h2>.*$", "", text, flags=re.S)
 
 
@@ -46,7 +46,13 @@ def demote(fragment):
     return fragment
 
 
+def code_cells(fragment):
+    """Keep reference codes in table cells on one line (they wrapped as 'V-' / '0150')."""
+    return re.sub(r"<td>((?:V|P|PAT|GIC|CF|TL|MIS|TIP)-\d{4})</td>", r'<td class="code-id">\1</td>', fragment)
+
+
 def tag_languages(fragment):
+    fragment = code_cells(fragment)
     fragment = fragment.replace('<span class="bn">', '<span class="bn" lang="bn">')
     return fragment.replace('<span class="hi">', '<span class="hi" lang="hi">')
 
@@ -68,6 +74,7 @@ body { font-size: 10.4pt; line-height: 1.5; }
 .front h1, .level-title h1 { font-size: 26pt; }
 .edition p { font-size: 9.5pt; color: #3b434d; }
 .toc { break-before: page; }
+.toc-level, .toc-module { break-after: avoid; }
 .toc-level { font-family: var(--font-display); font-weight: 700; font-size: 13pt; margin: 14pt 0 4pt; color: var(--lc); display: flex; }
 .toc-module { font-weight: 700; font-size: 9.8pt; margin: 6pt 0 2pt 4mm; display: flex; }
 .toc-lesson { font-size: 9.2pt; margin: 0 0 0 9mm; display: flex; }
@@ -103,6 +110,7 @@ body { font-size: 10.4pt; line-height: 1.5; }
 a { color: inherit; text-decoration: none; }
 code { background: #ECE6D8; }
 .index-page { break-before: page; }
+.reader-body td code, .reader-body td.code-id { white-space: nowrap; }
 .index-page table { width: 100%; border-collapse: collapse; font-size: 8.6pt; }
 .index-page th, .index-page td { border-bottom: 0.5px solid #d6d1c4; padding: 1.2mm 1.5mm; text-align: left; vertical-align: top; }
 .index-page th { font-size: 7.8pt; text-transform: uppercase; letter-spacing: .03em; color: #56606B; }
