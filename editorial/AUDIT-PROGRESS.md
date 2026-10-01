@@ -10,6 +10,7 @@ lessons must stay consistent with.
 |---|---|
 | Level 1: M01–M07, assessment, capstone | done |
 | Level 2: M01–M08, assessment, capstone | done |
+| Level 3: M01–M09, assessment, capstone | done |
 
 ## Book-wide decisions
 

@@ -67,9 +67,29 @@ rule("arrow-escaped",
 rule("criteria-list-punctuation",
      r"\.;\s", "; ",
      "Marking-criteria lists were joined with '.;' (a full stop followed by a semicolon).", "typography",
-     fields=("practice_html", "body_html"), expect=18)
+     fields=("practice_html", "body_html"))
 
 rule("stage-direction-brackets",
      r"\[(Later|A short while later)\]", r"(\1)",
      "Stage directions use parentheses everywhere else in the book's dialogues.", "typography",
      fields=("body_html", "practice_html"), expect=3)
+
+rule("dialogue-note-paragraph-breaks",
+     r'(<div class="dialogue-note">)(.*?)(</div>)',
+     lambda m: m.group(1) + __import__("re").sub(r"\n\s*\n", "<br><br>\n", m.group(2)) + m.group(3),
+     "Emails and messages shown inside dialogue boxes kept their blank-line paragraph breaks only in the source; "
+     "browsers collapsed them, so subject line, greeting, body and sign-off ran together on one line.",
+     "structure", fields=("body_html",), flags=16)
+
+def _blockquote_lines(m):
+    import re as _re
+    body = m.group(2)
+    body = _re.sub(r"\n(?=(?:- |\d+[.)] |<strong>))", "<br>\n", body)
+    body = _re.sub(r"((?:Thanks|Best regards|Best|Kind regards|Regards|Many thanks|Warm regards|Sincerely),)\n", r"\1<br>\n", body)
+    return m.group(1) + body + m.group(3)
+
+rule("blockquote-line-breaks",
+     r"(<blockquote>)(.*?)(</blockquote>)", _blockquote_lines,
+     "Model emails, agendas and minutes kept their line structure (list items, labelled lines, sign-offs) only as source line breaks, "
+     "which browsers collapse — so 'Agenda: 1. … 2. … 3. …' and 'Thanks, Arif' ran together on one line.",
+     "structure", fields=("body_html",), flags=16)
