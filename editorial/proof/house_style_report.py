@@ -127,8 +127,9 @@ def write_markdown(dates, hands):
           "\"the 2nd and 3rd introduction\" (Level 1 Lesson 2.2).", "",
           "Also noted (typography, not a date-order question): Level 3 Lesson 1.6 writes a day range as \"the 20th-22nd\" with a hyphen; "
           "elsewhere the book uses an en dash for ranges.", "",
-          "**Author decision needed:** one style for full dates — US (\"September 20\", \"Friday, May 14\") or UK (\"12 March\", "
-          "\"Friday 14 May\") — or keep both. The book otherwise uses US spelling.", "",
+          "**Author decision (3 October 2026): British/UK style** — day before month (\"20 September\", \"Friday 14 May\"). "
+          "The three US-style dates in Level 4 Lesson 2.4 were changed (correction log, source \"Author decision\"); any new "
+          "full date should follow this style. A US-style date found by this report would mean a regression.", "",
           "## 2. \"to hand\" — HOUSE STYLE / BRITISH ENGLISH DECISION", "",
           "\"I don't have that figure to hand\" is a standard British idiom (meaning: with me, available now). It is not an error, "
           "and in Level 3 Lesson 4.5 it is taught as a key expression. American English would more often say \"on hand\" or "
@@ -136,9 +137,8 @@ def write_markdown(dates, hands):
           "| Form | Lesson | PDF page | Context | Classification |", "|---|---|---|---|---|"]
     for h in hands:
         L.append(f'| {h["Form"]} | {h["Lesson"]} | {h["PDF Page"]} | {h["Context"].replace("|", "/")} | {h["Classification"]} |')
-    L += ["", "**Author decision needed:** keep \"to hand\" as taught (recommended if the book is happy to teach one British idiom "
-          "alongside US spelling), or change the taught expression to \"on hand\" / \"with me\" throughout (Level 3 Lesson 4.5's key "
-          "expressions, dialogue, answer key, and the recycled uses in Level 4 Lesson 5.2 and Level 5 Lesson 7.2)."]
+    L += ["", "**Author decision (3 October 2026): keep \"to hand\"** as an intentional British-English teaching item (option A). "
+          "No change; it is not to be treated as an error in proofreading."]
     (PROOF / "HOUSE-STYLE-REPORT.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 

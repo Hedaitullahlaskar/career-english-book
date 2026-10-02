@@ -2,6 +2,18 @@
 
 **Status: DESIGNER ACTION REQUIRED**
 
+## Text confirmed by the author (3 October 2026)
+
+| Line | Final text |
+|---|---|
+| Website | `hidayetenglishacademy.com` |
+| Email | `info@hidayetenglishacademy.com` |
+| Helpline | `Helpline: 6290 05 6461` (confirmed current; unchanged) |
+| Mission line | "To help Bengali and Hindi learners worldwide grow from where they are today, build confidence in English and move forward in their personal and professional lives." |
+| Artwork | Supply at 300 ppi for the final designer rebuild (at least 2480 × 3508 px for A4) |
+
+The designer replaces `back-cover.jpg` with artwork showing exactly this text; everything else stays as described in section 5.
+
 | Item | Detail |
 |---|---|
 | File | `back-cover.jpg` (repository root), unchanged since the first commit (`b61e293`) |
@@ -17,30 +29,24 @@ The footer of the back cover gives a website and an email address on a misspelt 
 |---|---|---|
 | Website (globe icon) | `www.HedayatEnglishAcademy.com` | Wrong spelling of the domain |
 | Email (envelope icon) | `info@HedayatEnglishAcademy.com` | Same wrong domain; the correct address is not yet confirmed |
-| Helpline (phone icon) | `Helpline: 6290 05 6461` | No problem found; matches the number in the logo (`6290056461`). Author to confirm it is current. |
+| Helpline (phone icon) | `Helpline: 6290 05 6461` | No problem; matches the logo (`6290056461`). Author confirmed it is current (3 Oct 2026). |
 
 ## 2. Exact website correction
 
 - Replace `www.HedayatEnglishAcademy.com` with the website on the front cover: **hidayetenglishacademy.com**.
-- The author should choose how it appears, keeping the current typeface and spacing:
-  - Option A, as on the front cover: `hidayetenglishacademy.com`.
-  - Option B, keeping the current style: `www.HidayetEnglishAcademy.com`.
-- Domains are not case-sensitive, so both open the same site.
+- **Author confirmed (3 Oct 2026):** `hidayetenglishacademy.com`, as on the front cover, in the current typeface and spacing.
 
 ## 3. Email requiring confirmation
 
 - The current address, `info@HedayatEnglishAcademy.com`, uses the misspelt domain.
-- **The author must supply the correct email address.** This brief does not propose one; nobody has confirmed which mailbox exists on the correct domain.
+- **Author supplied (3 Oct 2026):** `info@hidayetenglishacademy.com`.
 - Before the artwork is signed off, send a test email to the confirmed address and check that it arrives.
 
 ## 4. Mission-line issue
 
 - The mission paragraph currently reads: "To help Bengali learners worldwide grow from where they are today, build confidence in English and move forward in their personal and professional lives."
 - The book supports both Bengali and Hindi speakers: vocabulary tables give both languages, and the Bengali/Hindi notes address both.
-- **Author decision:**
-  - (a) keep "Bengali learners";
-  - (b) change to wording that covers both, for example "Bengali and Hindi speakers" or "Bengali- and Hindi-speaking learners";
-  - (c) use other wording the author supplies.
+- **Author decision (3 Oct 2026):** change to "Bengali and Hindi learners": "To help Bengali and Hindi learners worldwide grow from where they are today, build confidence in English and move forward in their personal and professional lives."
 - The new line must fit the same three-line block without shrinking the type.
 
 ## 5. Visual elements to preserve
@@ -89,11 +95,11 @@ The replacement should change only the text in sections 2–4 above. Keep everyt
 | Check | Status |
 |---|---|
 | Website corrected to hidayetenglishacademy.com | PENDING (designer) |
-| Email address supplied by the author | PENDING (author) |
-| Email address corrected in the artwork | PENDING (designer, after the author confirms) |
-| Mission line decision | PENDING (author) |
+| Email address supplied by the author | DONE (info@hidayetenglishacademy.com, 3 Oct 2026) |
+| Email address corrected in the artwork | PENDING (designer) |
+| Mission line decision | DONE ("Bengali and Hindi learners", 3 Oct 2026); artwork PENDING (designer) |
 | Visual elements preserved (section 5) | PENDING (designer) |
-| Print resolution and A4 shape (section 6) | PENDING (designer) |
+| Print resolution and A4 shape (section 6) | PENDING (designer): author requires 300 ppi artwork in the final designer rebuild |
 | Front-cover resolution decision | PENDING (author and designer) |
 | Replacement file committed and PDF rebuilt | PENDING |
 | Final visual check of PDF p. 1104 | PENDING |

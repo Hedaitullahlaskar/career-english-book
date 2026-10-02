@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const { pathToFileURL } = require("url");
 const puppeteer = require("puppeteer-core");
-const { PDFDocument, StandardFonts, rgb } = require("pdf-lib");
+const { PDFDocument, StandardFonts, rgb, PDFName, PDFDict, PDFHexString } = require("pdf-lib");
 
 const DIR = __dirname;
 const HTML = path.join(DIR, "career-english-print.html");
@@ -39,6 +39,24 @@ async function outlinePages(file) {
   return { flat, numPages: doc.numPages };
 }
 
+// The outline's item dictionaries in the same depth-first order as pdf.js's getOutline().
+function outlineDicts(pdf) {
+  const ctx = pdf.context;
+  const out = [];
+  const root = ctx.lookup(pdf.catalog.get(PDFName.of("Outlines")));
+  function walk(ref) {
+    while (ref) {
+      const d = ctx.lookup(ref, PDFDict);
+      out.push(d);
+      const child = d.get(PDFName.of("First"));
+      if (child) walk(child);
+      ref = d.get(PDFName.of("Next"));
+    }
+  }
+  if (root) walk(root.get(PDFName.of("First")));
+  return out;
+}
+
 (async () => {
   const browser = await puppeteer.launch({ executablePath: CHROME, headless: "new" });
   const page = await browser.newPage();
@@ -51,10 +69,15 @@ async function outlinePages(file) {
   const heads = JSON.parse(fs.readFileSync(path.join(DIR, "headings.json"), "utf8"));
   const { flat, numPages } = await outlinePages(RAW);
   const pages = {};
+  const retitle = []; // [outline index, heading title]: Chrome drops the space where a long heading wraps
   let i = 0;
-  for (const o of flat) {
-    if (i < heads.length && norm(o.title) === norm(heads[i].title)) { pages[heads[i].key] = o.page; i++; }
-  }
+  flat.forEach((o, idx) => {
+    if (i < heads.length && norm(o.title) === norm(heads[i].title)) {
+      pages[heads[i].key] = o.page;
+      if (o.title !== heads[i].title) retitle.push([idx, heads[i].title]);
+      i++;
+    }
+  });
   if (i < heads.length) console.warn(`only ${i} of ${heads.length} headings found in the outline; next expected: ${heads[i].title}`);
   fs.writeFileSync(path.join(DIR, "pages.json"), JSON.stringify(pages, null, 1));
 
@@ -86,11 +109,15 @@ async function outlinePages(file) {
       pg.drawText(head, { x: 48, y: 812, size: 7.5, font, color: grey });
     }
   });
+  // Give the level, module, lesson and assessment bookmarks their exact heading text.
+  const dicts = outlineDicts(pdf);
+  if (dicts.length !== flat.length) throw new Error(`outline has ${dicts.length} items but pdf.js read ${flat.length}`);
+  for (const [idx, title] of retitle) dicts[idx].set(PDFName.of("Title"), PDFHexString.fromText(title));
   pdf.setTitle("Career English: Professional English for the Real Workplace");
   pdf.setAuthor("Hidayet English Academy");
   pdf.setSubject("Five-level workplace English course: 40 modules, 186 lessons");
   pdf.setLanguage("en");
   fs.writeFileSync(OUT, await pdf.save());
   fs.unlinkSync(RAW);
-  console.log(JSON.stringify({ pages: numPages, bookmarksMatched: i, of: heads.length, out: path.basename(OUT) }));
+  console.log(JSON.stringify({ pages: numPages, bookmarksMatched: i, of: heads.length, bookmarkTitlesFixed: retitle.length, out: path.basename(OUT) }));
 })().catch(e => { console.error(e); process.exit(1); });

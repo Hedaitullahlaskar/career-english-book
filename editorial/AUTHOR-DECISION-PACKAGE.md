@@ -2,6 +2,20 @@
 
 **Current status: NOT READY FOR PUBLICATION**
 
+## Decisions received (3 October 2026) — all applied
+
+| Decision | Answer | Applied |
+|---|---|---|
+| 1 Linen contract | A: two-year contract (2027–2028) | 9 corrections (L4 capstone, L4 8.2 example) |
+| 2 Vocabulary codes | Approve | 11 corrections; 7 later codes retired; index 933 → 926 |
+| 3 Arif continuity | A: cite the Level 4 pilot | 4 corrections (L5 6.3, 6.4) |
+| 4 Date style | British/UK (20 September) | 3 corrections (L4 2.4) |
+| 5 "to hand" | A: keep | No change |
+| Index labels and bookmarks (technical) | — | Fixed in the generators; PDF rebuilt |
+| Back cover | Website, email, mission line, helpline supplied | Designer still to supply 300 ppi artwork |
+
+Logged as source "Author decision" (correction log rows 942–968). The analysis below is kept for the record.
+
 Branch `editorial-audit-2026-10`, HEAD `b2a263b`. Page numbers refer to the current PDF (1,104 pages). Nothing has been changed; full evidence is in `editorial/AUTHOR-DECISIONS.md` and `editorial/proof/HOUSE-STYLE-REPORT.md`.
 
 ---
@@ -37,7 +51,7 @@ Level 4 Module 1 signs the Bengal Textile linen contract for **two years at a fi
 - These include the model dialogues, the PAT-0112 example, the MIS-0141 example, the 12-month review clause in 1.4, the close and written confirmation in 1.5, and vocabulary examples such as V-0617 ("If we can agree on a two-year term…").
 - Effects: the lesson's model negotiation and four answer keys change. No codes or index entries change.
 
-**AUTHOR DECISION: A or B?**
+**AUTHOR DECISION: A** (two-year contract), applied.
 
 ---
 
@@ -66,7 +80,7 @@ Seven terms each have two codes. None of the 14 codes appears in an answer key, 
 - **Native-language register:** the 3 rows with Bengali/Hindi glosses are flagged for re-review.
 - **Answer keys:** not affected.
 
-**AUTHOR DECISION: APPROVE / CHANGE**
+**AUTHOR DECISION: APPROVE**, applied.
 
 ---
 
@@ -83,7 +97,7 @@ Seven terms each have two codes. None of the 14 codes appears in an answer key, 
 - **Treatment A:** add one clause to Arif's answer in 6.3 and 6.4 (and the two matching answer keys, pp. 988 and 994), e.g. "…and our own lobby kiosk pilot cut check-in time by sixty percent once a staff member was beside it."
 - **Treatment B:** leave as is. Optionally add one sentence explaining that the new plan (most guests) goes beyond the single lobby kiosk.
 
-**AUTHOR DECISION: A or B?**
+**AUTHOR DECISION: A** (cite the pilot), applied.
 
 ---
 
@@ -101,7 +115,7 @@ Only 7 full dates exist, none with a year. Another 43 are day-only ("the 15th") 
 - **A — American:** September 20, 2026 (3 dates already match; 4 change).
 - **B — British/international:** 20 September 2026 (4 already match; 3 change).
 
-**AUTHOR DECISION: A or B?**
+**AUTHOR DECISION: B** (British/UK), applied.
 
 ---
 
@@ -120,13 +134,13 @@ The book uses "on hand" once (L3 4.5, p. 460).
 - **A:** Keep "to hand" as an intentional British-English teaching item.
 - **B:** Replace it with "on hand" / "with me", or annotate it (e.g. "to hand (UK) / on hand (US)"). This affects the 11 places above.
 
-**AUTHOR DECISION: A or B?**
+**AUTHOR DECISION: A** (keep), no change.
 
 ---
 
 ## NON-AUTHOR TECHNICAL FIXES
 
-**Index labels — TECHNICAL FIX — REQUIRED BEFORE FINAL REBUILD**
+**Index labels — TECHNICAL FIX — DONE (3 Oct 2026)**: the generator now names a pattern or mistake from its own heading; all six are correct in the PDF and the website index.
 
 The generator is `editorial/tools/build_reference_index.py`. Each code's first mention is in a "One full worked example in this lesson…" paragraph, and the generator took the text that follows it as the label.
 
@@ -141,7 +155,7 @@ The generator is `editorial/tools/build_reference_index.py`. Each code's first m
 
 The same wrong labels appear on the website's index (it reads the same `reference-index.json`). PDF index pages: 1088–1089 and 1098.
 
-**Bookmarks — GENERATOR FIX — REQUIRED BEFORE FINAL REBUILD**
+**Bookmarks — GENERATOR FIX — DONE (3 Oct 2026)**: `render_pdf.js` now writes the exact heading text into the 52 bookmarks. (4 in-lesson section bookmarks still join two words; low priority, not part of the 52.)
 - 52 bookmark titles lose the space where a long heading wraps, e.g. "atWork", "andExperience", "AdvancedProfessional English".
   - By level: L1 8, L2 5, L3 15, L4 13, L5 10, plus 1 level title.
 - **Printed PDF text is correct:** all 52 headings are spaced correctly on their pages. Only the PDF's bookmark panel is affected.

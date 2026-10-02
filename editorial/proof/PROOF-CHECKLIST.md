@@ -8,7 +8,7 @@
 | Editorial Proof Pass | PASS |
 | Human PDF Proofread | PENDING |
 | Bengali/Hindi Native Review | PENDING |
-| Author Decisions | PENDING |
+| Author Decisions | PASS |
 | Back Cover | PENDING |
 | Final Regeneration | PENDING |
 | Final PDF QA | PENDING |
@@ -16,12 +16,12 @@
 
 Evidence for each gate (from `publication-gates.json`):
 
-- **Automated QA:** auto_checks.py on the 1 Oct 2026 PDF: 18 flags, all reviewed as non-errors (auto-checks.csv, PROOF-ISSUES.csv)
+- **Automated QA:** auto_checks.py on the 3 Oct 2026 PDF: 18 flags, all reviewed as non-errors; consistency audit: 0 defects, 9 checked layout artifacts
 - **Editorial Proof Pass:** All 196 units read in five batches; 95 corrections logged as 'PDF proof, batch N'
 - **Human PDF Proofread:** HUMAN-PROOFREAD-REGISTER.csv: every unit PENDING
 - **Bengali/Hindi Native Review:** NATIVE-LANGUAGE-REVIEW.csv: every item PENDING
-- **Author Decisions:** editorial/AUTHOR-DECISIONS.md: decisions A, B, C open; house-style choices open (HOUSE-STYLE-REPORT.md)
-- **Back Cover:** BACK-COVER-REPLACEMENT-BRIEF.md: DESIGNER ACTION REQUIRED
+- **Author Decisions:** Decided by the author on 3 Oct 2026 (1A, 2 approve, 3A, 4 British dates, 5A) and applied as 27 'Author decision' corrections; see AUTHOR-DECISIONS.md
+- **Back Cover:** Author supplied the website, email, mission line and helpline (3 Oct 2026); replacement artwork at 300 ppi still needed from the designer (BACK-COVER-REPLACEMENT-BRIEF.md)
 - **Final Regeneration:** After all corrections and the new cover: rebuild index, print HTML and PDF (two passes)
 - **Final PDF QA:** After regeneration: consistency_audit.py, auto_checks.py, bookmark and page-reference checks
 - **Publication Approval:** Not approved

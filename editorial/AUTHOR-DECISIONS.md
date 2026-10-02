@@ -6,9 +6,24 @@ None of these questions has been resolved in the text. Each needs a single answe
 
 | Decision | Question | Status |
 |---|---|---|
-| A | How long is the Bengal Textile linen contract? | PENDING AUTHOR DECISION |
-| B | How should the seven vocabulary items with two codes be coded? | PENDING AUTHOR DECISION |
-| C | Should Arif cite his own Level 4 kiosk pilot when challenged in Level 5? | PENDING AUTHOR DECISION |
+| A | How long is the Bengal Textile linen contract? | **DECIDED 3 Oct 2026: two-year contract (2027–2028). APPLIED** |
+| B | How should the seven vocabulary items with two codes be coded? | **DECIDED 3 Oct 2026: approved, first code kept. APPLIED** |
+| C | Should Arif cite his own Level 4 kiosk pilot when challenged in Level 5? | **DECIDED 3 Oct 2026: yes (Treatment A). APPLIED** |
+| House style | Date order; "to hand" | **DECIDED 3 Oct 2026: British/UK dates (APPLIED); keep "to hand" (no change)** |
+
+## Decisions recorded (3 October 2026)
+
+All changes are in `editorial/corrections/98-author-decision.py`, logged as rows 942–968 of the correction log with source "Author decision". Rows 1–941 are unchanged. The PDF was rebuilt on 3 October 2026.
+
+| Decision | Author's answer | What changed |
+|---|---|---|
+| A — Linen contract | **Option A: two-year contract (2027–2028)** | 9 corrections. Capstone Step 1 (pp. 848–849): the call now comes as the two-year contract ends, with "two years of history" and "another two-year term instead of a one-year renewal". The capstone rubric now says "first two years" (p. 857). The L4 8.2 example returns "at the end of the two-year contract" (p. 819). Module 1 is unchanged. |
+| B — Vocabulary codes | **Approved** | 11 corrections. The first code is kept and each later entry is marked "recycled". V-0105, V-0106, V-0197, V-0228, V-0248, V-0289 and V-0294 are retired as gaps (nothing renumbered). The index has 926 codes (was 933); the L1 6.1 recap table shows one code per term. Definitions and Bengali/Hindi glosses are unchanged. |
+| C — Arif's kiosk pilot | **Treatment A** | 4 corrections. In L5 6.3 (dialogue, worked example, answer key 1) and L5 6.4 (dialogue), the evidence now begins: "our own six-week kiosk pilot here cut average check-in time by sixty percent, and the two hotels in our group…". |
+| Date style | **British/UK** | 3 corrections (L4 2.4, p. 664): 20, 23 and 25 September. All 7 full dates are now day-month. |
+| "to hand" | **A: keep** | No change. It is an intentional British-English teaching item. |
+
+The original analysis is kept below for the record.
 
 ---
 
@@ -43,7 +58,7 @@ None of these questions has been resolved in the text. Each needs a single answe
    - It is the larger change, and it alters the lesson's model negotiation.
 3. **Another resolution** that the author specifies.
 
-**Author's decision:** __________________ (date, initials)
+**Author's decision:** Option A, two-year contract (3 October 2026). Applied.
 
 ---
 
@@ -80,7 +95,7 @@ Seven vocabulary items are each defined under two different codes. Both codes ap
 2. Retire some and keep others. Some second codes mark a real change of register or sense (V-0197 tone label; V-0289 and V-0294 chat), so the author may prefer to keep those as separate entries.
 3. Keep all 14 codes and add a "see also" note to each pair in the index (a change to the index generator, not the lessons).
 
-**Author's decision:** __________________ (date, initials)
+**Author's decision:** Approved (3 October 2026). Applied.
 
 ---
 
@@ -112,4 +127,4 @@ It could still be read as **(1) intentional**: the Level 5 proposal covers "most
 2. **Continuity omission; add the Level 4 pilot to Arif's evidence** in 6.3 and 6.4 (and their answer keys, pp. 988–989 and 994). For example: "and our own lobby kiosk pilot cut check-in time by sixty percent once a staff member was beside it." The data move in PAT-0163 stays the same; only the evidence changes.
 3. **Another resolution** that the author specifies, for example changing who raises the 2019 objection in 6.4.
 
-**Author's decision:** __________________ (date, initials)
+**Author's decision:** Treatment A (3 October 2026). Applied.

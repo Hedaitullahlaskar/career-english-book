@@ -32,7 +32,8 @@
    "home": "CE-L01-M01-L01",
    "label": "respectful",
    "uses": [
-    "CE-L01-M01-L01"
+    "CE-L01-M01-L01",
+    "CE-L01-M07-L01"
    ]
   },
   "V-0004": {
@@ -158,6 +159,7 @@
    "label": "colleague",
    "uses": [
     "CE-L01-M01-L04",
+    "CE-L01-M02-L01",
     "CE-L01-M06-L01"
    ]
   },
@@ -167,6 +169,7 @@
    "label": "team lead",
    "uses": [
     "CE-L01-M01-L04",
+    "CE-L01-M02-L02",
     "CE-L01-M06-L01"
    ]
   },
@@ -221,24 +224,6 @@
    "label": "orientation",
    "uses": [
     "CE-L01-M02-L01"
-   ]
-  },
-  "V-0105": {
-   "type": "V",
-   "home": "CE-L01-M02-L01",
-   "label": "colleague",
-   "uses": [
-    "CE-L01-M02-L01",
-    "CE-L01-M06-L01"
-   ]
-  },
-  "V-0106": {
-   "type": "V",
-   "home": "CE-L01-M02-L02",
-   "label": "team lead",
-   "uses": [
-    "CE-L01-M02-L02",
-    "CE-L01-M06-L01"
    ]
   },
   "V-0107": {
@@ -501,7 +486,8 @@
    "home": "CE-L01-M04-L03",
    "label": "whenever you get a chance",
    "uses": [
-    "CE-L01-M04-L03"
+    "CE-L01-M04-L03",
+    "CE-L02-M04-L03"
    ]
   },
   "V-0139": {
@@ -581,7 +567,8 @@
    "home": "CE-L01-M05-L03",
    "label": "quick question",
    "uses": [
-    "CE-L01-M05-L03"
+    "CE-L01-M05-L03",
+    "CE-L02-M04-L02"
    ]
   },
   "V-0149": {
@@ -970,14 +957,6 @@
     "CE-L01-M07-L01"
    ]
   },
-  "V-0197": {
-   "type": "V",
-   "home": "CE-L01-M07-L01",
-   "label": "respectful",
-   "uses": [
-    "CE-L01-M07-L01"
-   ]
-  },
   "V-0198": {
    "type": "V",
    "home": "CE-L01-M07-L02",
@@ -1218,15 +1197,6 @@
     "CE-L05-M03-L02"
    ]
   },
-  "V-0228": {
-   "type": "V",
-   "home": "CE-L05-M04-L01",
-   "label": "the reasoning behind this is",
-   "uses": [
-    "CE-L05-M04-L01",
-    "CE-L05-M06-L02"
-   ]
-  },
   "V-0229": {
    "type": "V",
    "home": "CE-L05-M04-L01",
@@ -1376,14 +1346,6 @@
    "type": "V",
    "home": "CE-L05-M05-L04",
    "label": "let's park that for now",
-   "uses": [
-    "CE-L05-M05-L04"
-   ]
-  },
-  "V-0248": {
-   "type": "V",
-   "home": "CE-L05-M05-L04",
-   "label": "in the interest of time",
    "uses": [
     "CE-L05-M05-L04"
    ]
@@ -1708,14 +1670,6 @@
     "CE-L02-M04-L01"
    ]
   },
-  "V-0289": {
-   "type": "V",
-   "home": "CE-L02-M04-L02",
-   "label": "quick question",
-   "uses": [
-    "CE-L02-M04-L02"
-   ]
-  },
   "V-0290": {
    "type": "V",
    "home": "CE-L02-M04-L02",
@@ -1744,14 +1698,6 @@
    "type": "V",
    "home": "CE-L02-M04-L03",
    "label": "no rush",
-   "uses": [
-    "CE-L02-M04-L03"
-   ]
-  },
-  "V-0294": {
-   "type": "V",
-   "home": "CE-L02-M04-L03",
-   "label": "whenever you get a chance",
    "uses": [
     "CE-L02-M04-L03"
    ]
@@ -3861,7 +3807,9 @@
    "home": "CE-L04-M04-L03",
    "label": "the reasoning behind this is",
    "uses": [
-    "CE-L04-M04-L03"
+    "CE-L04-M04-L03",
+    "CE-L05-M04-L01",
+    "CE-L05-M06-L02"
    ]
   },
   "V-0681": {
@@ -3928,7 +3876,8 @@
    "home": "CE-L04-M05-L03",
    "label": "in the interest of time",
    "uses": [
-    "CE-L04-M05-L03"
+    "CE-L04-M05-L03",
+    "CE-L05-M05-L04"
    ]
   },
   "V-0694": {
@@ -4630,7 +4579,6 @@
    "home": "CE-L02-M01-L01",
    "label": "Done / Doing / Blocked Structure",
    "uses": [
-    "CE-L02-M01-L01",
     "CE-L02-ASSESSMENT"
    ]
   },
@@ -4875,7 +4823,7 @@
   "PAT-0055": {
    "type": "PAT",
    "home": "CE-L03-M02-L03",
-   "label": "Contributing factor",
+   "label": "Objective Incident-Report Language",
    "uses": [
     "CE-L03-M02-L03"
    ]
@@ -4883,7 +4831,7 @@
   "PAT-0056": {
    "type": "PAT",
    "home": "CE-L03-M02-L04",
-   "label": "Never leaving a number to speak for itself",
+   "label": "Connecting Data to Analysis",
    "uses": [
     "CE-L03-M02-L04"
    ]
@@ -4891,7 +4839,7 @@
   "PAT-0057": {
    "type": "PAT",
    "home": "CE-L03-M02-L05",
-   "label": "Yer of concrete detail Professional Grammar in Context: Specific-Recommendation Structure",
+   "label": "Specific-Recommendation Structure",
    "uses": [
     "CE-L03-M02-L05",
     "CE-L03-ASSESSMENT"
@@ -4900,7 +4848,7 @@
   "PAT-0061": {
    "type": "PAT",
    "home": "CE-L03-M03-L01",
-   "label": "Key Expressions Expression Function Register The purpose of this meeting is",
+   "label": "Meeting Invitation & Agenda Formula",
    "uses": [
     "CE-L03-M03-L01",
     "CE-L03-M03-L06"
@@ -4964,7 +4912,7 @@
   "PAT-0068": {
    "type": "PAT",
    "home": "CE-L03-M03-L06",
-   "label": "Key Expressions Expression Function Register Attendees",
+   "label": "Meeting Minutes Structure",
    "uses": [
     "CE-L03-M03-L06"
    ]
@@ -5140,9 +5088,7 @@
    "type": "PAT",
    "home": "CE-L03-M07-L06",
    "label": "Data-Comparison Reporting Structure",
-   "uses": [
-    "CE-L03-M07-L06"
-   ]
+   "uses": []
   },
   "PAT-0098": {
    "type": "PAT",
@@ -5195,7 +5141,7 @@
   "PAT-0108": {
    "type": "PAT",
    "home": "CE-L03-M09-L03",
-   "label": "Vocabulary core content (V-0595)",
+   "label": "The Same-Content, Three-Register Structure",
    "uses": [
     "CE-L03-M09-L03",
     "CE-L05-M08-L03"
@@ -5213,7 +5159,7 @@
   "PAT-0110": {
    "type": "PAT",
    "home": "CE-L04-M01-L01",
-   "label": "Best alternative",
+   "label": "Negotiation Preparation Framework",
    "uses": [
     "CE-L04-M01-L01",
     "CE-L04-M01-L05"
@@ -5302,9 +5248,7 @@
    "type": "PAT",
    "home": "CE-L04-M02-L06",
    "label": "The Conflict Resolution Structure",
-   "uses": [
-    "CE-L04-M02-L06"
-   ]
+   "uses": []
   },
   "PAT-0126": {
    "type": "PAT",
@@ -5362,7 +5306,7 @@
   "PAT-0138": {
    "type": "PAT",
    "home": "CE-L04-M05-L01",
-   "label": "The bottom line",
+   "label": "The Bottom-Line-First Opening",
    "uses": [
     "CE-L04-M05-L01",
     "CE-L04-M05-L04",
@@ -5408,7 +5352,7 @@
   "PAT-0144": {
    "type": "PAT",
    "home": "CE-L04-M06-L01",
-   "label": "The same thirty seconds, this time using the Calm Crisis Opening Formula",
+   "label": "Calm Crisis Opening Formula",
    "uses": [
     "CE-L04-M06-L01",
     "CE-L04-M06-L05"
@@ -5417,7 +5361,7 @@
   "PAT-0145": {
    "type": "PAT",
    "home": "CE-L04-M06-L02",
-   "label": "Cold bluntness",
+   "label": "Bad News Delivery Structure",
    "uses": [
     "CE-L04-M06-L02",
     "CE-L04-M06-L05"
@@ -5435,7 +5379,7 @@
   "PAT-0147": {
    "type": "PAT",
    "home": "CE-L04-M06-L04",
-   "label": "Next update by",
+   "label": "Crisis Update Structure",
    "uses": [
     "CE-L04-M06-L04",
     "CE-L04-M06-L05"
@@ -5530,7 +5474,7 @@
   "PAT-0165": {
    "type": "PAT",
    "home": "CE-L05-M07-L01",
-   "label": "B Arif rewrites the same work history using the Achievement-Bullet Structure",
+   "label": "Achievement-Bullet Structure",
    "uses": [
     "CE-L05-M07-L01",
     "CE-L05-M07-L06"
@@ -5573,7 +5517,7 @@
   "PAT-0170": {
    "type": "PAT",
    "home": "CE-L05-M07-L06",
-   "label": "Noor, using the Graceful-Resignation Structure",
+   "label": "Graceful-Resignation Structure",
    "uses": [
     "CE-L05-M07-L06"
    ]
@@ -5640,7 +5584,7 @@
   "GIC-0007": {
    "type": "GIC",
    "home": "CE-L03-M07-L01",
-   "label": "Simple Past in Status Writing",
+   "label": "Present Perfect vs. Simple Past in Status Writing",
    "uses": [
     "CE-L03-M07-L01"
    ]
@@ -5712,7 +5656,7 @@
   "GIC-0016": {
    "type": "GIC",
    "home": "CE-L03-M07-L05",
-   "label": "Infinitive Patterns",
+   "label": "Gerund vs. Infinitive Patterns",
    "uses": [
     "CE-L03-M07-L05"
    ]
@@ -6380,7 +6324,7 @@
   "MIS-0040": {
    "type": "MIS",
    "home": "CE-L02-M01-L01",
-   "label": "Giving an update as a long, unsorted account of everything that happened, instead of…",
+   "label": "Giving an update as a long, unsorted account of everything that happened",
    "uses": [
     "CE-L02-M01-L01",
     "CE-L02-M01-L04"
@@ -6405,7 +6349,7 @@
   "MIS-0043": {
    "type": "MIS",
    "home": "CE-L02-M02-L01",
-   "label": "Stating the condition but forgetting the trade-off, so a reasonable request still sounds…",
+   "label": "Stating the condition but forgetting the trade-off",
    "uses": [
     "CE-L02-M02-L01"
    ]
@@ -6413,7 +6357,7 @@
   "MIS-0044": {
    "type": "MIS",
    "home": "CE-L02-M02-L02",
-   "label": "Giving a vague non-answer instead of a clear decline, leaving the other person unable to…",
+   "label": "Giving a vague non-answer instead of a clear decline",
    "uses": [
     "CE-L02-M02-L02"
    ]
@@ -6438,10 +6382,8 @@
   "MIS-0047": {
    "type": "MIS",
    "home": "CE-L02-M02-L05",
-   "label": "Burying the actual request somewhere in the middle of a longer message, so the reader has…",
-   "uses": [
-    "CE-L02-M02-L05"
-   ]
+   "label": "Burying the actual request somewhere in the middle of a longer message",
+   "uses": []
   },
   "MIS-0048": {
    "type": "MIS",
@@ -6454,7 +6396,7 @@
   "MIS-0049": {
    "type": "MIS",
    "home": "CE-L02-M03-L02",
-   "label": "Taking a message without confirming or restating the key details, so an error",
+   "label": "Taking a message without confirming or restating the key details",
    "uses": [
     "CE-L02-M03-L02"
    ]
@@ -6487,33 +6429,25 @@
    "type": "MIS",
    "home": "CE-L02-M04-L01",
    "label": "Using the same register everywhere, regardless of channel",
-   "uses": [
-    "CE-L02-M04-L01"
-   ]
+   "uses": []
   },
   "MIS-0054": {
    "type": "MIS",
    "home": "CE-L02-M04-L02",
    "label": "Cramming several unrelated topics into one long chat message",
-   "uses": [
-    "CE-L02-M04-L02"
-   ]
+   "uses": []
   },
   "MIS-0055": {
    "type": "MIS",
    "home": "CE-L02-M04-L03",
    "label": "Marking every message as urgent or \"ASAP,\" regardless of the actual deadline, until…",
-   "uses": [
-    "CE-L02-M04-L03"
-   ]
+   "uses": []
   },
   "MIS-0056": {
    "type": "MIS",
    "home": "CE-L02-M04-L04",
    "label": "Posting a message meant for one person into the whole group chat, generating unnecessary…",
-   "uses": [
-    "CE-L02-M04-L04"
-   ]
+   "uses": []
   },
   "MIS-0057": {
    "type": "MIS",
@@ -6534,7 +6468,7 @@
   "MIS-0059": {
    "type": "MIS",
    "home": "CE-L02-M05-L02",
-   "label": "Apologizing for a mistake while shifting the blame elsewhere, instead of owning it…",
+   "label": "Apologizing for a mistake while shifting the blame elsewhere",
    "uses": [
     "CE-L02-M05-L02"
    ]
@@ -6542,7 +6476,7 @@
   "MIS-0060": {
    "type": "MIS",
    "home": "CE-L02-M05-L03",
-   "label": "Giving generic thanks that doesn't name what was done or why it mattered, so real effort…",
+   "label": "Giving generic thanks that doesn't name what was done or why it mattered",
    "uses": [
     "CE-L02-M05-L03"
    ]
@@ -6550,10 +6484,8 @@
   "MIS-0061": {
    "type": "MIS",
    "home": "CE-L02-M05-L04",
-   "label": "Naming or blaming a specific team member when apologizing on behalf of the team, instead…",
-   "uses": [
-    "CE-L02-M05-L04"
-   ]
+   "label": "Naming or blaming a specific team member when apologizing on behalf of the team",
+   "uses": []
   },
   "MIS-0062": {
    "type": "MIS",
@@ -6590,7 +6522,7 @@
   "MIS-0066": {
    "type": "MIS",
    "home": "CE-L02-M07-L01",
-   "label": "Using the exact same greeting script regardless of channel, so it sounds recited rather…",
+   "label": "Using the exact same greeting script regardless of channel",
    "uses": [
     "CE-L02-M07-L01"
    ]
@@ -6615,17 +6547,13 @@
    "type": "MIS",
    "home": "CE-L02-M07-L04",
    "label": "Jumping straight to explaining or defending what happened, before acknowledging the…",
-   "uses": [
-    "CE-L02-M07-L04"
-   ]
+   "uses": []
   },
   "MIS-0070": {
    "type": "MIS",
    "home": "CE-L02-M07-L05",
    "label": "Ending the interaction as soon as the immediate problem is resolved, without checking for…",
-   "uses": [
-    "CE-L02-M07-L05"
-   ]
+   "uses": []
   },
   "MIS-0071": {
    "type": "MIS",
@@ -6662,7 +6590,7 @@
   "MIS-0075": {
    "type": "MIS",
    "home": "CE-L03-M01-L01",
-   "label": "Writing a vague or missing subject line, which forces the reader to open the email",
+   "label": "Writing a vague or missing subject line",
    "uses": [
     "CE-L03-M01-L01"
    ]
@@ -6670,7 +6598,7 @@
   "MIS-0076": {
    "type": "MIS",
    "home": "CE-L03-M01-L02",
-   "label": "Sending a request with no background or context, which forces the reader to ask a…",
+   "label": "Sending a request with no background or context",
    "uses": [
     "CE-L03-M01-L02"
    ]
@@ -6728,7 +6656,7 @@
   "MIS-0085": {
    "type": "MIS",
    "home": "CE-L03-M02-L03",
-   "label": "Letting blame or opinion about a colleague's carelessness appear in the facts section…",
+   "label": "Letting blame or opinion about a colleague's carelessness appear in the facts section",
    "uses": [
     "CE-L03-M02-L03",
     "CE-L03-M02-L05"
@@ -6737,7 +6665,7 @@
   "MIS-0086": {
    "type": "MIS",
    "home": "CE-L03-M02-L04",
-   "label": "Listing data points one after another without stating what they mean, leaving the reader…",
+   "label": "Listing data points one after another without stating what they mean",
    "uses": [
     "CE-L03-M02-L04",
     "CE-L03-M02-L05"
@@ -6754,7 +6682,7 @@
   "MIS-0090": {
    "type": "MIS",
    "home": "CE-L03-M03-L01",
-   "label": "Key Expressions Expression Function Register The purpose of this meeting is",
+   "label": "Sending a vague invitation with no real agenda",
    "uses": [
     "CE-L03-M03-L01"
    ]
@@ -6762,7 +6690,7 @@
   "MIS-0091": {
    "type": "MIS",
    "home": "CE-L03-M03-L02",
-   "label": "Skipping the objective entirely and diving straight into discussion, so the group talks…",
+   "label": "Skipping the objective entirely and diving straight into discussion",
    "uses": [
     "CE-L03-M03-L02"
    ]
@@ -6787,7 +6715,7 @@
   "MIS-0094": {
    "type": "MIS",
    "home": "CE-L03-M03-L05",
-   "label": "Ending a meeting with decisions made but no one clearly responsible for carrying them…",
+   "label": "Ending a meeting with decisions made but no one clearly responsible for carrying them out",
    "uses": [
     "CE-L03-M03-L05",
     "CE-L03-M03-L06"
@@ -6796,7 +6724,7 @@
   "MIS-0095": {
    "type": "MIS",
    "home": "CE-L03-M03-L06",
-   "label": "Key Expressions Expression Function Register Attendees",
+   "label": "Writing minutes as a near word-for-word transcript of everything that was said",
    "uses": [
     "CE-L03-M03-L06"
    ]
@@ -6804,7 +6732,7 @@
   "MIS-0098": {
    "type": "MIS",
    "home": "CE-L03-M04-L01",
-   "label": "Diving straight into data or details without first stating the topic or the agenda…",
+   "label": "Diving straight into data or details without first stating the topic or the agenda",
    "uses": [
     "CE-L03-M04-L01"
    ]
@@ -6812,7 +6740,7 @@
   "MIS-0099": {
    "type": "MIS",
    "home": "CE-L03-M04-L02",
-   "label": "Reading a slide's text or numbers aloud word-for-word, instead of explaining what the…",
+   "label": "Reading a slide's text or numbers aloud word-for-word",
    "uses": [
     "CE-L03-M04-L02"
    ]
@@ -6820,7 +6748,7 @@
   "MIS-0100": {
    "type": "MIS",
    "home": "CE-L03-M04-L03",
-   "label": "Listing every data point with equal emphasis, so the audience never learns which one…",
+   "label": "Listing every data point with equal emphasis",
    "uses": [
     "CE-L03-M04-L03"
    ]
@@ -6828,7 +6756,7 @@
   "MIS-0101": {
    "type": "MIS",
    "home": "CE-L03-M04-L04",
-   "label": "Jumping from one section straight into the next with no transition or signpost, leaving…",
+   "label": "Jumping from one section straight into the next with no transition or signpost",
    "uses": [
     "CE-L03-M04-L04"
    ]
@@ -6836,7 +6764,7 @@
   "MIS-0102": {
    "type": "MIS",
    "home": "CE-L03-M04-L04",
-   "label": "Ending a presentation abruptly, with no closing signal, so the audience is caught off…",
+   "label": "Ending a presentation abruptly, with no closing signal",
    "uses": [
     "CE-L03-M04-L04"
    ]
@@ -6852,7 +6780,7 @@
   "MIS-0104": {
    "type": "MIS",
    "home": "CE-L03-M04-L05",
-   "label": "Guessing at an answer or bluffing through a figure you don't actually have, instead of…",
+   "label": "Guessing at an answer or bluffing through a figure you don't actually have",
    "uses": [
     "CE-L03-M04-L05"
    ]
@@ -6925,7 +6853,7 @@
   "MIS-0113": {
    "type": "MIS",
    "home": "CE-L03-M06-L02",
-   "label": "Assuming the client's need after their first sentence and moving straight to a pitch…",
+   "label": "Assuming the client's need after their first sentence and moving straight to a pitch",
    "uses": [
     "CE-L03-M06-L02"
    ]
@@ -6960,41 +6888,32 @@
    "home": "CE-L03-M07-L01",
    "label": "Using the present perfect with a finished-time expression ( have finished … last Tuesday…",
    "uses": [
-    "CE-L03-M07-L01",
     "CE-L03-M07-L06"
    ]
   },
   "MIS-0120": {
    "type": "MIS",
    "home": "CE-L03-M07-L02",
-   "label": "Writing an unhedged, absolute claim in a risk note or recommendation, instead of a…",
-   "uses": [
-    "CE-L03-M07-L02"
-   ]
+   "label": "Writing an unhedged, absolute claim in a risk note or recommendation",
+   "uses": []
   },
   "MIS-0121": {
    "type": "MIS",
    "home": "CE-L03-M07-L03",
-   "label": "Copying the original speaker's time words into a report written later, so they now point…",
-   "uses": [
-    "CE-L03-M07-L03"
-   ]
+   "label": "Copying the original speaker's time words into a report written later",
+   "uses": []
   },
   "MIS-0122": {
    "type": "MIS",
    "home": "CE-L03-M07-L04",
    "label": "Matching the verb to the nearest noun in the sentence instead of the true subject…",
-   "uses": [
-    "CE-L03-M07-L04"
-   ]
+   "uses": []
   },
   "MIS-0123": {
    "type": "MIS",
    "home": "CE-L03-M07-L05",
    "label": "Using the wrong form",
-   "uses": [
-    "CE-L03-M07-L05"
-   ]
+   "uses": []
   },
   "MIS-0124": {
    "type": "MIS",
@@ -7023,7 +6942,7 @@
   "MIS-0129": {
    "type": "MIS",
    "home": "CE-L03-M08-L03",
-   "label": "Confusing /v/ and /w/, which can turn one real word into a different real word and…",
+   "label": "Confusing /v/ and /w/",
    "uses": [
     "CE-L03-M08-L03"
    ]
@@ -7031,7 +6950,7 @@
   "MIS-0130": {
    "type": "MIS",
    "home": "CE-L03-M08-L03",
-   "label": "Speaking word-by-word, with a small pause before and after every word, instead of linking…",
+   "label": "Speaking word-by-word, with a small pause before and after every word",
    "uses": [
     "CE-L03-M08-L03"
    ]
@@ -7039,7 +6958,7 @@
   "MIS-0131": {
    "type": "MIS",
    "home": "CE-L03-M08-L04",
-   "label": "Overusing filler words as a hesitation crutch, instead of allowing a brief silent pause…",
+   "label": "Overusing filler words as a hesitation crutch",
    "uses": [
     "CE-L03-M08-L04"
    ]
@@ -7048,41 +6967,31 @@
    "type": "MIS",
    "home": "CE-L03-M09-L01",
    "label": "Speaking for several sentences before realizing you're on mute",
-   "uses": [
-    "CE-L03-M09-L01"
-   ]
+   "uses": []
   },
   "MIS-0134": {
    "type": "MIS",
    "home": "CE-L03-M09-L01",
    "label": "Starting to explain a slide or document after sharing your screen, without confirming…",
-   "uses": [
-    "CE-L03-M09-L01"
-   ]
+   "uses": []
   },
   "MIS-0135": {
    "type": "MIS",
    "home": "CE-L03-M09-L02",
    "label": "Defaulting to chat for something sensitive or complex, because it's the fastest option…",
-   "uses": [
-    "CE-L03-M09-L02"
-   ]
+   "uses": []
   },
   "MIS-0136": {
    "type": "MIS",
    "home": "CE-L03-M09-L02",
    "label": "Overcorrecting the other way",
-   "uses": [
-    "CE-L03-M09-L02"
-   ]
+   "uses": []
   },
   "MIS-0137": {
    "type": "MIS",
    "home": "CE-L03-M09-L03",
    "label": "Writing or saying the exact same wording across every channel instead of adjusting…",
-   "uses": [
-    "CE-L03-M09-L03"
-   ]
+   "uses": []
   },
   "MIS-0138": {
    "type": "MIS",
@@ -7195,7 +7104,7 @@
   "MIS-0155": {
    "type": "MIS",
    "home": "CE-L04-M03-L01",
-   "label": "Listing every point in whatever order they come to mind, so the strongest point ends up…",
+   "label": "Listing every point in whatever order they come to mind",
    "uses": [
     "CE-L04-M03-L01"
    ]
@@ -7236,7 +7145,7 @@
   "MIS-0162": {
    "type": "MIS",
    "home": "CE-L04-M04-L02",
-   "label": "Presenting your preferred option as if it has no downside at all, which shuts down real…",
+   "label": "Presenting your preferred option as if it has no downside at all",
    "uses": [
     "CE-L04-M04-L02"
    ]
@@ -7452,9 +7361,7 @@
    "type": "MIS",
    "home": "CE-L05-M07-L01",
    "label": "Writing CV bullet points as a list of duties (responsible for, handled, was part…",
-   "uses": [
-    "CE-L05-M07-L01"
-   ]
+   "uses": []
   },
   "MIS-0196": {
    "type": "MIS",
@@ -7467,7 +7374,7 @@
   "MIS-0197": {
    "type": "MIS",
    "home": "CE-L05-M07-L03",
-   "label": "Sending a generic, detail-free follow-up message that could have been sent to anyone…",
+   "label": "Sending a generic, detail-free follow-up message that could have been sent to anyone",
    "uses": [
     "CE-L05-M07-L03"
    ]
@@ -7507,7 +7414,7 @@
   "MIS-0202": {
    "type": "MIS",
    "home": "CE-L05-M08-L02",
-   "label": "Listen & Read Performed, imitated register",
+   "label": "Reaching for a performed, imitated \"leadership register\" under pressure",
    "uses": [
     "CE-L05-M08-L02"
    ]

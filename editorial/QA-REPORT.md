@@ -5,7 +5,7 @@ Branch: `editorial-audit-2026-10` · Date: 1 October 2026 · Nothing has been de
 ## Summary
 
 - All 186 lessons, 5 level assessments and 5 capstones (196 units) were read and corrected. No lesson was removed or merged.
-- **941 corrections** are logged in [`correction-log.csv`](correction-log.csv) and [`CORRECTION-LOG.md`](CORRECTION-LOG.md): 846 from the editorial audit and 95 from the PDF proof pass. Each entry records level, module, lesson, original, replacement, reason and source.
+- **968 corrections** are logged in [`correction-log.csv`](correction-log.csv) and [`CORRECTION-LOG.md`](CORRECTION-LOG.md): 846 from the editorial audit, 95 from the PDF proof pass and 27 author decisions (3 October 2026). Each entry records level, module, lesson, original, replacement, reason and source; rows 1–941 are frozen.
 - Every correction is a script in [`corrections/`](corrections/), applied to the original text (commit `61c769f`) by `tools/apply_corrections.py`. Running `python editorial/tools/apply_corrections.py --check` confirms that `book-data.json` matches the original plus the logged corrections, so nothing changed without a log entry.
 - The website was updated and checked in headless Chrome at desktop and phone widths: 0 console errors, 0 layout overflow, 0 duplicate IDs, 0 broken internal links (3,699 checked).
 - A master PDF was generated from the corrected text: A4, 1,104 pages, contents and index with real page numbers, bookmarks for every level, module, lesson and assessment, and running heads.
@@ -13,11 +13,10 @@ Branch: `editorial-audit-2026-10` · Date: 1 October 2026 · Nothing has been de
 **Status: NOT READY FOR PUBLICATION.** The editorial audit, the website checks and an editorial read of the complete rendered PDF (all 1,104 pages, in five batches) are done, and the registers for the human stage are ready (see "Final human QA and author decision gate"). Still needed:
 - a human proofread of the PDF;
 - a native-speaker review of the Bengali/Hindi text;
-- author decisions A–C and the house-style choices;
-- a corrected back-cover image;
+- a corrected back-cover image (the author has supplied the text; the designer must supply 300 ppi artwork);
 - a final regeneration and final PDF QA.
 
-No unit is marked approved.
+The author decisions and house-style choices were made and applied on 3 October 2026. No unit is marked approved.
 
 ## Corrections by type (editorial audit, 846)
 
@@ -156,24 +155,24 @@ This stage prepares the book for people to check and approve. It changed no less
 - New corrections are labelled by phase in the correction log. Use correction files named `96-human-proofread*.py` (label "Human proofread"), `97-native-language-review*.py` ("Native-language review") or `98-author-decision*.py` ("Author decision"). `apply_corrections.py` refuses to run if rows 1–941 of the existing log would change (`correction-log-frozen.json`).
 
 **Source/PDF consistency (1 October 2026 PDF):**
-- The source matches the 941 logged corrections; the index and print files are current; the PDF is newer than every input.
+- The source matches the 968 logged corrections; the index and print files are current; the PDF (rebuilt 3 October 2026) is newer than every input.
 - All 243 structural bookmarks and all 243 contents page numbers are correct.
 - All 95 PDF-proof corrections are in the PDF.
 - 709 exercises have 709 answers, with no numbering or multiple-choice letter mismatches.
 - Pass marks, totals and the five capstone rubrics (100% each) add up.
-- New defects found (reported, not fixed, for the next regeneration):
-  - **6 Reference Index labels** picked up neighbouring text: PAT-0057, PAT-0061, PAT-0068, PAT-0108, MIS-0090, MIS-0095.
-  - **52 lesson bookmarks** lose a space where a long title wraps (e.g. "atWork"); the printed pages are correct.
-  - **Both cover images** are 1024 × 1536 px, about 131 ppi on A4, and narrower than A4.
+- Defects found by the audit, now fixed (3 October 2026):
+  - **6 Reference Index labels** (PAT-0057, PAT-0061, PAT-0068, PAT-0108, MIS-0090, MIS-0095) and 42 other labels taken from nearby text: the index generator now names each pattern or mistake from its own heading. The website index and PDF index agree on all 926 codes.
+  - **52 lesson bookmarks** that lost a space where a title wrapped: `render_pdf.js` now writes the exact heading text. 4 in-lesson section bookmarks still join two words (low priority).
+- Still open: **both cover images** are 1024 × 1536 px, about 131 ppi on A4, and narrower than A4.
 
 ## Open items (need a decision or human review)
 
 1. **Human proofread of the PDF.** Every page has had an editorial read, but no person has proofread the printed layout. Use `proof/HUMAN-PROOFREAD-REGISTER.csv`; 0 of 196 units are approved.
 2. **Bengali and Hindi.** Text extraction cannot verify these scripts; rendered pages show correct glyphs. A native speaker needs to review every item in `proof/NATIVE-LANGUAGE-REVIEW.csv`.
-3. **Back-cover image.** See `proof/BACK-COVER-REPLACEMENT-BRIEF.md`: the website should read hidayetenglishacademy.com; the email address must be supplied by the author; the mission line ("Bengali learners") needs a decision; and the print resolution is too low.
-4. **Author decisions A, B and C.** See `AUTHOR-DECISIONS.md`.
-5. **House style.** Date order and "to hand": see `proof/HOUSE-STYLE-REPORT.md`.
-6. **Generator fixes before the final regeneration.** The 6 index labels and the 52 bookmark titles listed above.
+3. **Back-cover image.** The author has supplied the text: website `hidayetenglishacademy.com`, email `info@hidayetenglishacademy.com`, mission line "Bengali and Hindi learners", helpline 6290 05 6461 (confirmed). The designer must now supply the artwork at 300 ppi (see `proof/BACK-COVER-REPLACEMENT-BRIEF.md`). The front cover's resolution is still to be decided.
+4. **Author decisions A, B and C.** Decided and applied on 3 October 2026 (A: two-year contract; B: approved; C: cite the Level 4 pilot); see `AUTHOR-DECISIONS.md`.
+5. **House style.** Decided on 3 October 2026: British/UK dates (applied) and keep "to hand" (no change); see `proof/HOUSE-STYLE-REPORT.md`.
+6. **Generator fixes.** Done on 3 October 2026 (index labels and 52 bookmark titles).
 7. **Audio.** The book is now honest that there are no recordings. If audio is produced later, the "read the dialogue" prompts and the How to Use note should be updated.
 8. **Internal status fields.** `content_track_status` / `curriculum_status` in `book-data.json` still hold the production values (DRAFT, UNKNOWN). They are no longer shown anywhere; I changed the display, not the data.
 9. **Deployment.** Not done. See `HOSTINGER-UPDATE.md`.

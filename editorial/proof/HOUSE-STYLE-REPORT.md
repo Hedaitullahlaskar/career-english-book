@@ -9,8 +9,7 @@ Full lists: [`HOUSE-STYLE-DATES.csv`](HOUSE-STYLE-DATES.csv) and [`HOUSE-STYLE-T
 | Style | Occurrences | Units |
 |---|---|---|
 | Ordinal day only (the 15th) | 43 | 11 |
-| Day Month (UK: 12 March) | 4 | 3 |
-| Month Day (US: September 20) | 3 | 1 |
+| Day Month (UK: 12 March) | 7 | 3 |
 
 Every full date (day and month), with its location:
 
@@ -18,9 +17,9 @@ Every full date (day and month), with its location:
 |---|---|---|---|---|
 | Day Month (UK: 12 March) | 14 June | Level 3 · Lesson 3.6 | 436 | …if. Key decisions: BrightPath Training will run the one-day course on 14 June. Action items: Priyanka — book the conference room — by Wednesday; Ha… |
 | Day Month (UK: 12 March) | Friday 14 May | Level 4 · Lesson 1.5 | 644 | …anding, and let me know if the contract can be ready for signature by Friday 14 May. Best regards, Arif" What to listen/look for: The written confirmatio… |
-| Month Day (US: September 20) | September 20 | Level 4 · Lesson 2.4 | 664 | …d to a self-reported billing error rather than an accident: Facts: On September 20, the Meridian Partners conference block (Reservation Group #4471) was… |
-| Month Day (US: September 20) | September 25 | Level 4 · Lesson 2.4 | 664 | …s 45 rooms. Impact: If uncorrected, the Meridian invoice generated on September 25 would under-bill the account by an estimated 210,000 taka (the differ… |
-| Month Day (US: September 20) | September 23 | Level 4 · Lesson 2.4 | 664 | …ghts). Immediate action taken: The rate code was corrected to C-14 on September 23, the same day the error was identified. Recommendation: I recommend a… |
+| Day Month (UK: 12 March) | 20 September | Level 4 · Lesson 2.4 | 664 | …d to a self-reported billing error rather than an accident: Facts: On 20 September, the Meridian Partners conference block (Reservation Group #4471) was… |
+| Day Month (UK: 12 March) | 25 September | Level 4 · Lesson 2.4 | 664 | …s 45 rooms. Impact: If uncorrected, the Meridian invoice generated on 25 September would under-bill the account by an estimated 210,000 taka (the differ… |
+| Day Month (UK: 12 March) | 23 September | Level 4 · Lesson 2.4 | 664 | …ghts). Immediate action taken: The rate code was corrected to C-14 on 23 September, the same day the error was identified. Recommendation: I recommend a… |
 | Day Month (UK: 12 March) | 12 March | Level 4 · Lesson 2.4 | 667 | … avoiding MIS-0149's delay-and-minimize pattern. 4. Sample: Facts: On 12 March, the pickup for the Rahim family (Booking #8842) was booked for 10:00… |
 | Day Month (UK: 12 March) | 12 March | Level 4 · Lesson 2.4 | 667 | …port. Immediate action taken: The pickup was corrected to 10:00 AM on 12 March, the same day the error was identified, and the driver confirmed. Rec… |
 
@@ -44,7 +43,7 @@ Checked and not dates: "24/7" (Level 3 Lesson 6.3) and lesson references such as
 
 Also noted (typography, not a date-order question): Level 3 Lesson 1.6 writes a day range as "the 20th-22nd" with a hyphen; elsewhere the book uses an en dash for ranges.
 
-**Author decision needed:** one style for full dates — US ("September 20", "Friday, May 14") or UK ("12 March", "Friday 14 May") — or keep both. The book otherwise uses US spelling.
+**Author decision (3 October 2026): British/UK style** — day before month ("20 September", "Friday 14 May"). The three US-style dates in Level 4 Lesson 2.4 were changed (correction log, source "Author decision"); any new full date should follow this style. A US-style date found by this report would mean a regression.
 
 ## 2. "to hand" — HOUSE STYLE / BRITISH ENGLISH DECISION
 
@@ -65,4 +64,4 @@ Also noted (typography, not a date-order question): Level 3 Lesson 1.6 writes a 
 | to hand (British idiom: 'available, with me') | Level 4 · Lesson 5.2 | 734 | …tly (acknowledge → bridge → answer, PAT-0074), or defer it honestly when the figure isn't to hand (acknowledge → defer → commit, PAT-0075). Both of… | HOUSE STYLE / BRITISH ENGLISH DECISION |
 | to hand (British idiom: 'available, with me') | Level 5 · Lesson 7.2 | 1006 | … time, and what I took away from that was the value of keeping a backup supplier's number to hand." 4. What to listen/look for: Uses the full Situa… | HOUSE STYLE / BRITISH ENGLISH DECISION |
 
-**Author decision needed:** keep "to hand" as taught (recommended if the book is happy to teach one British idiom alongside US spelling), or change the taught expression to "on hand" / "with me" throughout (Level 3 Lesson 4.5's key expressions, dialogue, answer key, and the recycled uses in Level 4 Lesson 5.2 and Level 5 Lesson 7.2).
+**Author decision (3 October 2026): keep "to hand"** as an intentional British-English teaching item (option A). No change; it is not to be treated as an error in proofreading.

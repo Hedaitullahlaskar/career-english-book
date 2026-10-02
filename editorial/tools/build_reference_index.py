@@ -109,6 +109,23 @@ def label_after(html, pos):
     return clean(first)
 
 
+def defining_heading(html, code):
+    """The label from the heading that introduces a code, e.g.
+    <h2>Grammar in Context: Meeting Minutes Structure (PAT-0068)</h2>  ->  Meeting Minutes Structure
+    <h2>Common Mistake (MIS-0090)</h2><p><strong>Mistake:</strong> Sending a vague invitation…  ->  that sentence
+    Only used for codes whose first mention in the lesson is not already the heading or a labelled definition."""
+    h = re.search(r"<h[2-4]>([^<]*)\(\s*" + re.escape(code) + r"\s*\)\s*</h[2-4]>", html)
+    if not h:
+        return ""
+    name = clean(plain(h.group(1)))
+    if name and not GENERIC.match(name):
+        return name
+    mistake = re.match(r"\s*<p><strong>Mistake:</strong>\s*(.*?)</p>", html[h.end():], re.S)
+    if mistake:
+        return clean(re.split(r"(?<=[.!?])\s|,\s(?:so|which|leaving|instead)\b|\s[—–]\s", plain(mistake.group(1)), maxsplit=1)[0])
+    return ""
+
+
 def main():
     data = load()
     index = {}
@@ -125,6 +142,12 @@ def main():
                 callout = re.search(r'callout-label">[^<]*<code>' + code + r'</code></div><div class="callout-wrong">(.*?)</div>', html)
                 if callout:
                     entry["label"] = '“' + clean(plain(callout.group(1))) + '” (mistake)'
+                    continue
+                # A pattern or mistake with its own heading in this lesson is named by that heading, even when
+                # an earlier paragraph mentions it first ("…following PAT-0061 (Purpose + …)").
+                heading = defining_heading(html, code)
+                if heading:
+                    entry["label"] = heading
                     continue
                 label = label_for(code, block_around(html, m.start()))
                 if not label or GENERIC.match(label):
