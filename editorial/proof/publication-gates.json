@@ -1,50 +1,27 @@
 {
- "note": "Publication gates shown at the top of PROOF-CHECKLIST.md. Change a status only when the gate's condition is met and recorded. Publication Approval can only be YES when every other gate is PASS (build_proof_reports.py enforces this).",
+ "note": "Publication gates shown at the top of PROOF-CHECKLIST.md, grouped by what each is waiting for. Change a status only when the gate's condition is met and recorded. build_proof_reports.py checks the evidence: it refuses PASS for a gate whose register, artwork file, PDF or audit does not support it, and refuses Publication Approval YES while any other gate is not PASS.",
+ "groups": ["Completed", "Pending human review", "Pending artwork", "Pending regeneration", "Pending final QA", "Approval"],
  "gates": [
-  {
-   "gate": "Automated QA",
-   "status": "PASS",
-   "evidence": "auto_checks.py on the 3 Oct 2026 PDF: 18 flags, all reviewed as non-errors; consistency audit: 0 defects, 9 checked layout artifacts"
-  },
-  {
-   "gate": "Editorial Proof Pass",
-   "status": "PASS",
-   "evidence": "All 196 units read in five batches; 95 corrections logged as 'PDF proof, batch N'"
-  },
-  {
-   "gate": "Human PDF Proofread",
-   "status": "PENDING",
-   "evidence": "HUMAN-PROOFREAD-REGISTER.csv: every unit PENDING"
-  },
-  {
-   "gate": "Bengali/Hindi Native Review",
-   "status": "PENDING",
-   "evidence": "NATIVE-LANGUAGE-REVIEW.csv: every item PENDING"
-  },
-  {
-   "gate": "Author Decisions",
-   "status": "PASS",
-   "evidence": "Decided by the author on 3 Oct 2026 (1A, 2 approve, 3A, 4 British dates, 5A) and applied as 27 'Author decision' corrections; see AUTHOR-DECISIONS.md"
-  },
-  {
-   "gate": "Back Cover",
-   "status": "PENDING",
-   "evidence": "Author supplied the website, email, mission line and helpline (3 Oct 2026); replacement artwork at 300 ppi still needed from the designer (BACK-COVER-REPLACEMENT-BRIEF.md)"
-  },
-  {
-   "gate": "Final Regeneration",
-   "status": "PENDING",
-   "evidence": "After all corrections and the new cover: rebuild index, print HTML and PDF (two passes)"
-  },
-  {
-   "gate": "Final PDF QA",
-   "status": "PENDING",
-   "evidence": "After regeneration: consistency_audit.py, auto_checks.py, bookmark and page-reference checks"
-  },
-  {
-   "gate": "Publication Approval",
-   "status": "NO",
-   "evidence": "Not approved"
-  }
+  {"gate": "Automated QA", "group": "Completed", "status": "PASS", "evidence": "auto_checks.py on the 3 Oct 2026 PDF: 18 flags, all reviewed as non-errors"},
+  {"gate": "Editorial Proof Pass", "group": "Completed", "status": "PASS", "evidence": "All 196 units read in five batches; 95 corrections logged as 'PDF proof, batch N'"},
+  {"gate": "Author Decisions", "group": "Completed", "status": "PASS", "evidence": "Decided by the author on 3 Oct 2026 (1A, 2 approve, 3A, 4 British dates, 5A) and applied as 27 'Author decision' corrections; closed (AUTHOR-DECISIONS.md)"},
+  {"gate": "Technical Fixes", "group": "Completed", "status": "PASS", "evidence": "Index labels taken from each item's own heading (website and PDF index agree on 926 codes); 52 main bookmark titles corrected in render_pdf.js"},
+  {"gate": "Consistency Audit", "group": "Completed", "status": "PASS", "evidence": "SOURCE-PDF-CONSISTENCY.md on the 3 Oct 2026 PDF: 0 defects; 9 known layout artifacts, checked and triaged"},
+  {"gate": "Human PDF Proofread", "group": "Pending human review", "status": "PENDING", "check": "human_register", "evidence": "HUMAN-PROOFREAD-REGISTER.csv: units proofread and approved by a named reviewer"},
+  {"gate": "Bengali/Hindi Native Review", "group": "Pending human review", "status": "PENDING", "check": "native_register", "evidence": "NATIVE-LANGUAGE-REVIEW.csv: items reviewed and approved by a named native speaker"},
+  {"gate": "Back Cover", "group": "Pending artwork", "status": "PENDING", "check": "artwork:back-cover.jpg", "evidence": "Text supplied by the author (3 Oct 2026); replacement artwork at 300 ppi still needed from the designer (BACK-COVER-REPLACEMENT-BRIEF.md)"},
+  {"gate": "Front Cover", "group": "Pending artwork", "status": "PENDING", "check": "artwork:front-cover.jpg", "evidence": "Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration. Its text is correct; the current file is too low-resolution for print."},
+  {"gate": "Final Regeneration", "group": "Pending regeneration", "status": "PENDING", "check": "regeneration", "evidence": "After the human and native-language corrections and both new covers: rebuild the index, print HTML and PDF (two passes)"},
+  {"gate": "Final PDF QA", "group": "Pending final QA", "status": "PENDING", "check": "final_qa", "evidence": "After regeneration: pdf_text.mjs, pdf_outline.mjs, auto_checks.py, consistency_audit.py (no defects, nothing untriaged), visual check of both covers"},
+  {"gate": "Publication Approval", "group": "Approval", "status": "NO", "evidence": "Not approved"}
+ ],
+ "production_checklist": [
+  "Human proofread of all 196 units plus front and back matter, recorded in HUMAN-PROOFREAD-REGISTER.csv (reviewer, date, Approved = YES); corrections in 96-human-proofread*.py.",
+  "Native Bengali and Hindi review of all 243 items in the 31 units, recorded in NATIVE-LANGUAGE-REVIEW.csv (reviewer, Approved = YES); corrections in 97-native-language-review*.py.",
+  "Back-cover artwork replaced by the designer with the confirmed text (BACK-COVER-REPLACEMENT-BRIEF.md) at 300 ppi: at least 2480 × 3508 px for A4.",
+  "Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration (at least 2480 × 3508 px for A4).",
+  "Final regeneration only after all of the above: build_reference_index.py, build_print.py, render_pdf.js, build_print.py, render_pdf.js.",
+  "Final PDF QA on the regenerated PDF: auto_checks.py and consistency_audit.py with no defects and nothing untriaged; visual check of both covers at 100% and 200%.",
+  "Publication approval by the author, only after every gate above is PASS."
  ]
 }

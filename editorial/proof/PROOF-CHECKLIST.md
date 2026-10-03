@@ -2,31 +2,61 @@
 
 ## Publication gate
 
-| Gate | Status |
-|---|---|
-| Automated QA | PASS |
-| Editorial Proof Pass | PASS |
-| Human PDF Proofread | PENDING |
-| Bengali/Hindi Native Review | PENDING |
-| Author Decisions | PASS |
-| Back Cover | PENDING |
-| Final Regeneration | PENDING |
-| Final PDF QA | PENDING |
-| Publication Approval | **NO** |
+Statuses are set in `publication-gates.json`; the **Measured now** column is computed from the registers, the artwork files, the PDF and the consistency audit each time this checklist is generated, and a gate cannot be shown as PASS against it.
 
-Evidence for each gate (from `publication-gates.json`):
+### Completed
 
-- **Automated QA:** auto_checks.py on the 3 Oct 2026 PDF: 18 flags, all reviewed as non-errors; consistency audit: 0 defects, 9 checked layout artifacts
-- **Editorial Proof Pass:** All 196 units read in five batches; 95 corrections logged as 'PDF proof, batch N'
-- **Human PDF Proofread:** HUMAN-PROOFREAD-REGISTER.csv: every unit PENDING
-- **Bengali/Hindi Native Review:** NATIVE-LANGUAGE-REVIEW.csv: every item PENDING
-- **Author Decisions:** Decided by the author on 3 Oct 2026 (1A, 2 approve, 3A, 4 British dates, 5A) and applied as 27 'Author decision' corrections; see AUTHOR-DECISIONS.md
-- **Back Cover:** Author supplied the website, email, mission line and helpline (3 Oct 2026); replacement artwork at 300 ppi still needed from the designer (BACK-COVER-REPLACEMENT-BRIEF.md)
-- **Final Regeneration:** After all corrections and the new cover: rebuild index, print HTML and PDF (two passes)
-- **Final PDF QA:** After regeneration: consistency_audit.py, auto_checks.py, bookmark and page-reference checks
-- **Publication Approval:** Not approved
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Automated QA | PASS | — | auto_checks.py on the 3 Oct 2026 PDF: 18 flags, all reviewed as non-errors |
+| Editorial Proof Pass | PASS | — | All 196 units read in five batches; 95 corrections logged as 'PDF proof, batch N' |
+| Author Decisions | PASS | — | Decided by the author on 3 Oct 2026 (1A, 2 approve, 3A, 4 British dates, 5A) and applied as 27 'Author decision' corrections; closed (AUTHOR-DECISIONS.md) |
+| Technical Fixes | PASS | — | Index labels taken from each item's own heading (website and PDF index agree on 926 codes); 52 main bookmark titles corrected in render_pdf.js |
+| Consistency Audit | PASS | — | SOURCE-PDF-CONSISTENCY.md on the 3 Oct 2026 PDF: 0 defects; 9 known layout artifacts, checked and triaged |
+
+### Pending human review
+
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Human PDF Proofread | PENDING | 0/198 register rows approved by a named reviewer | HUMAN-PROOFREAD-REGISTER.csv: units proofread and approved by a named reviewer |
+| Bengali/Hindi Native Review | PENDING | 0/243 items approved; 0/31 units with Bengali/Hindi text and 0/25 with English statements about them complete | NATIVE-LANGUAGE-REVIEW.csv: items reviewed and approved by a named native speaker |
+
+### Pending artwork
+
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Back Cover | PENDING | `back-cover.jpg` is 1024 × 1536 px (about 131 ppi on A4); below the 300 ppi minimum of 2480 × 3508 px | Text supplied by the author (3 Oct 2026); replacement artwork at 300 ppi still needed from the designer (BACK-COVER-REPLACEMENT-BRIEF.md) |
+| Front Cover | PENDING | `front-cover.jpg` is 1024 × 1536 px (about 131 ppi on A4); below the 300 ppi minimum of 2480 × 3508 px | Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration. Its text is correct; the current file is too low-resolution for print. |
+
+### Pending regeneration
+
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Final Regeneration | PENDING | PDF is newer than the book data, index and both covers; not final while these are open: Human PDF Proofread, Bengali/Hindi Native Review, Back Cover, Front Cover | After the human and native-language corrections and both new covers: rebuild the index, print HTML and PDF (two passes) |
+
+### Pending final QA
+
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Final PDF QA | PENDING | latest consistency audit: 0 defects or untriaged findings, 9 triaged as not defects; must be re-run after: Human PDF Proofread, Bengali/Hindi Native Review, Back Cover, Front Cover, Final Regeneration | After regeneration: pdf_text.mjs, pdf_outline.mjs, auto_checks.py, consistency_audit.py (no defects, nothing untriaged), visual check of both covers |
+
+### Approval
+
+| Gate | Status | Measured now | Evidence / requirement |
+|---|---|---|---|
+| Publication Approval | **NO** | — | Not approved |
 
 **NOT READY FOR PUBLICATION.**
+
+## Production checklist (remaining, in order)
+
+1. [ ] Human proofread of all 196 units plus front and back matter, recorded in HUMAN-PROOFREAD-REGISTER.csv (reviewer, date, Approved = YES); corrections in 96-human-proofread*.py.
+2. [ ] Native Bengali and Hindi review of all 243 items in the 31 units, recorded in NATIVE-LANGUAGE-REVIEW.csv (reviewer, Approved = YES); corrections in 97-native-language-review*.py.
+3. [ ] Back-cover artwork replaced by the designer with the confirmed text (BACK-COVER-REPLACEMENT-BRIEF.md) at 300 ppi: at least 2480 × 3508 px for A4.
+4. [ ] Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration (at least 2480 × 3508 px for A4).
+5. [ ] Final regeneration only after all of the above: build_reference_index.py, build_print.py, render_pdf.js, build_print.py, render_pdf.js.
+6. [ ] Final PDF QA on the regenerated PDF: auto_checks.py and consistency_audit.py with no defects and nothing untriaged; visual check of both covers at 100% and 200%.
+7. [ ] Publication approval by the author, only after every gate above is PASS.
 
 ## Units
 

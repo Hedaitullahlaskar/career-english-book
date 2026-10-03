@@ -82,7 +82,7 @@ The replacement should change only the text in sections 2–4 above. Keep everyt
 - **Shape.** The current image is 2:3 (1.5) while A4 is 1:1.414. The PDF fits it to the page height, leaving a dark strip about 6 mm wide on each side.
   - Either supply artwork at A4 proportions with bleed (216 × 303 mm if the printer asks for 3 mm bleed),
   - or confirm that the side strips are acceptable.
-- **Front cover.** `front-cover.jpg` has the same size and shape (1024 × 1536 px, about 131 ppi on A4). Its text is correct, but it needs the same resolution and shape decision before print.
+- **Front cover.** Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration. `front-cover.jpg` has the same size and shape (1024 × 1536 px, about 131 ppi on A4). Its text is correct; it needs at least 2480 × 3508 px and the same A4 shape decision. It is a separate gate (Front Cover) in `PROOF-CHECKLIST.md`.
 - **Proof steps after replacement:**
   1. Rebuild the PDF (`build_print.py` and `render_pdf.js`, twice).
   2. Check the PDF at 100% and at 200% zoom.
@@ -100,7 +100,7 @@ The replacement should change only the text in sections 2–4 above. Keep everyt
 | Mission line decision | DONE ("Bengali and Hindi learners", 3 Oct 2026); artwork PENDING (designer) |
 | Visual elements preserved (section 5) | PENDING (designer) |
 | Print resolution and A4 shape (section 6) | PENDING (designer): author requires 300 ppi artwork in the final designer rebuild |
-| Front-cover resolution decision | PENDING (author and designer) |
+| Front-cover artwork at 300 ppi (at least 2480 × 3508 px), before final PDF regeneration | PENDING (designer); requirement set, text unchanged |
 | Replacement file committed and PDF rebuilt | PENDING |
 | Final visual check of PDF p. 1104 | PENDING |
 | **Designer approval** | **DESIGNER ACTION REQUIRED** |

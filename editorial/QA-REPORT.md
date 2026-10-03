@@ -169,10 +169,14 @@ This stage prepares the book for people to check and approve. It changed no less
 
 1. **Human proofread of the PDF.** Every page has had an editorial read, but no person has proofread the printed layout. Use `proof/HUMAN-PROOFREAD-REGISTER.csv`; 0 of 196 units are approved.
 2. **Bengali and Hindi.** Text extraction cannot verify these scripts; rendered pages show correct glyphs. A native speaker needs to review every item in `proof/NATIVE-LANGUAGE-REVIEW.csv`.
-3. **Back-cover image.** The author has supplied the text: website `hidayetenglishacademy.com`, email `info@hidayetenglishacademy.com`, mission line "Bengali and Hindi learners", helpline 6290 05 6461 (confirmed). The designer must now supply the artwork at 300 ppi (see `proof/BACK-COVER-REPLACEMENT-BRIEF.md`). The front cover's resolution is still to be decided.
+3. **Back-cover image.** The author has supplied the text: website `hidayetenglishacademy.com`, email `info@hidayetenglishacademy.com`, mission line "Bengali and Hindi learners", helpline 6290 05 6461 (confirmed). The designer must now supply the artwork at 300 ppi (see `proof/BACK-COVER-REPLACEMENT-BRIEF.md`).
 4. **Author decisions A, B and C.** Decided and applied on 3 October 2026 (A: two-year contract; B: approved; C: cite the Level 4 pilot); see `AUTHOR-DECISIONS.md`.
 5. **House style.** Decided on 3 October 2026: British/UK dates (applied) and keep "to hand" (no change); see `proof/HOUSE-STYLE-REPORT.md`.
 6. **Generator fixes.** Done on 3 October 2026 (index labels and 52 bookmark titles).
+7. **Front-cover image.** Front-cover artwork must be supplied/rebuilt at 300 ppi before final PDF regeneration. Its text is correct, but `front-cover.jpg` is 1024 × 1536 px (about 131 ppi on A4); A4 at 300 ppi needs at least 2480 × 3508 px. This is a separate gate from the back cover.
+8. **Final regeneration and final PDF QA.** Only after items 1–3 and 7: rebuild the index, print HTML and PDF (two passes), then re-run `auto_checks.py` and `consistency_audit.py` and check both covers visually.
+
+The gate dashboard at the top of `proof/PROOF-CHECKLIST.md` groups the gates as completed, pending human review, pending artwork, pending regeneration and pending final QA. Its "Measured now" column is computed from the registers, the cover files, the PDF and the audit, and `build_proof_reports.py` refuses to show a gate as PASS when that evidence does not support it. The production checklist below the dashboard lists the remaining steps in order. Publication approval: **NO**.
 7. **Audio.** The book is now honest that there are no recordings. If audio is produced later, the "read the dialogue" prompts and the How to Use note should be updated.
 8. **Internal status fields.** `content_track_status` / `curriculum_status` in `book-data.json` still hold the production values (DRAFT, UNKNOWN). They are no longer shown anywhere; I changed the display, not the data.
 9. **Deployment.** Not done. See `HOSTINGER-UPDATE.md`.

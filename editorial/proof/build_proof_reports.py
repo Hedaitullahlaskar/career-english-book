@@ -34,6 +34,86 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
+PRINT_PPI = 300
+A4_MIN_PX = (2480, 3508)  # A4 (210 × 297 mm) at 300 ppi
+
+
+def jpeg_size(path):
+    """(width, height) from the JPEG's SOF marker, or None if it can't be read."""
+    data = path.read_bytes()
+    i = 2
+    while i + 9 < len(data):
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7 or marker == 0xFF:
+            i += 1 if marker == 0xFF else 2
+            continue
+        seg = int.from_bytes(data[i + 2:i + 4], "big")
+        if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+            return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
+        i += 2 + seg
+    return None
+
+
+def measure_gates(gates):
+    """For each gate with a "check", whether its condition is met now and a short description.
+
+    Returns {gate: (met, text)}. Gates without a check (decisions, completed passes) are not measured here;
+    their evidence is in the files the gate cites.
+    """
+    out = {}
+    for g in gates:
+        check = g.get("check")
+        if not check:
+            continue
+        if check == "human_register":
+            rows = list(csv.DictReader(open(PROOF / "HUMAN-PROOFREAD-REGISTER.csv", encoding="utf-8")))
+            ok = [r for r in rows if r["Approved"].strip().upper() == "YES" and r["Reviewer"].strip() and r["Date"].strip()
+                  and r["Proofread Status"].strip().upper() not in ("", "PENDING", "IN PROGRESS")]
+            out[g["gate"]] = (len(ok) == len(rows), f"{len(ok)}/{len(rows)} register rows approved by a named reviewer")
+        elif check == "native_register":
+            rows = list(csv.DictReader(open(PROOF / "NATIVE-LANGUAGE-REVIEW.csv", encoding="utf-8")))
+            ok = [r for r in rows if r["Approved"].strip().upper() == "YES" and r["Reviewer"].strip()]
+            units = {r["Unit"] for r in rows}
+            script = {r["Unit"] for r in rows if r["Language"] in ("Bengali", "Hindi")}
+            done = {u for u in units if all(r in ok for r in rows if r["Unit"] == u)}
+            out[g["gate"]] = (len(ok) == len(rows),
+                              f"{len(ok)}/{len(rows)} items approved; {len(done & script)}/{len(script)} units with Bengali/Hindi text "
+                              f"and {len(done - script)}/{len(units - script)} with English statements about them complete")
+        elif check.startswith("artwork:"):
+            name = check.split(":", 1)[1]
+            size = jpeg_size(ROOT / name)
+            if not size:
+                out[g["gate"]] = (False, f"`{name}` missing or unreadable")
+                continue
+            ppi = round(size[1] / (297 / 25.4))  # the PDF fits the cover to the page height
+            met = size[0] >= A4_MIN_PX[0] and size[1] >= A4_MIN_PX[1]
+            out[g["gate"]] = (met, f"`{name}` is {size[0]} × {size[1]} px (about {ppi} ppi on A4); "
+                                   f"{'meets' if met else 'below'} the {PRINT_PPI} ppi minimum of {A4_MIN_PX[0]} × {A4_MIN_PX[1]} px")
+        elif check == "regeneration":
+            pdf = PRINT / "Career-English-Master.pdf"
+            inputs = [ROOT / "book-data.json", ROOT / "reference-index.json", ROOT / "front-cover.jpg", ROOT / "back-cover.jpg"]
+            stale = [p.name for p in inputs if p.exists() and pdf.exists() and p.stat().st_mtime > pdf.stat().st_mtime]
+            met = pdf.exists() and not stale
+            prereq = [k for k, (m, _) in out.items() if m is False]  # gates listed before this one
+            text = ("PDF is newer than the book data, index and both covers" if met
+                    else "PDF is older than: " + ", ".join(stale) if pdf.exists() else "PDF missing")
+            if prereq:
+                text += "; not final while these are open: " + ", ".join(prereq)
+            out[g["gate"]] = (met and not prereq, text)
+        elif check == "final_qa":
+            rows = list(csv.DictReader(open(PROOF / "consistency-discrepancies.csv", encoding="utf-8")))
+            bad = [r for r in rows if r["assessment"] == "UNTRIAGED" or r["assessment"].startswith("DEFECT")]
+            prereq = [k for k, (m, _) in out.items() if m is False]
+            text = f"latest consistency audit: {len(bad)} defects or untriaged findings, {len(rows) - len(bad)} triaged as not defects"
+            if prereq:
+                text += "; must be re-run after: " + ", ".join(prereq)
+            out[g["gate"]] = (not bad and not prereq, text)
+    return out
+
+
 def main():
     pdftext = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     page_text = {p["page"]: norm(" ".join(l["text"] for l in p["lines"])) for p in pdftext}
@@ -122,7 +202,13 @@ def main():
             return "n/a"
         return "Approved" if not c["open"] else f'Pending ({c["open"]} items)'
 
-    gates = json.loads((PROOF / "publication-gates.json").read_text(encoding="utf-8"))["gates"]
+    gates_doc = json.loads((PROOF / "publication-gates.json").read_text(encoding="utf-8"))
+    gates = gates_doc["gates"]
+    measured = measure_gates(gates)
+    for g in gates:  # a gate with a measurable condition can't be marked PASS without the evidence
+        met, what = measured.get(g["gate"], (None, ""))
+        if g["status"].upper() == "PASS" and met is False:
+            sys.exit(f'Refusing to show {g["gate"]} = PASS: the evidence does not support it ({what})')
     approval = next(g for g in gates if g["gate"] == "Publication Approval")
     others_open = [g["gate"] for g in gates if g["gate"] != "Publication Approval" and g["status"] != "PASS"]
     if approval["status"].upper() != "NO" and others_open:
@@ -130,11 +216,20 @@ def main():
 
     out = ["# PDF proofreading checklist", "",
            "## Publication gate", "",
-           "| Gate | Status |", "|---|---|"]
-    out += [f'| {g["gate"]} | {"**" + g["status"] + "**" if g["gate"] == "Publication Approval" else g["status"]} |' for g in gates]
-    out += ["", "Evidence for each gate (from `publication-gates.json`):", ""]
-    out += [f'- **{g["gate"]}:** {g["evidence"]}' for g in gates]
-    out += ["", "**NOT READY FOR PUBLICATION.**", "",
+           "Statuses are set in `publication-gates.json`; the **Measured now** column is computed from the registers, the artwork files, "
+           "the PDF and the consistency audit each time this checklist is generated, and a gate cannot be shown as PASS against it.", ""]
+    for group in gates_doc.get("groups", sorted({g.get("group", "") for g in gates})):
+        rows = [g for g in gates if g.get("group", "") == group]
+        if not rows:
+            continue
+        out += [f"### {group}", "", "| Gate | Status | Measured now | Evidence / requirement |", "|---|---|---|---|"]
+        for g in rows:
+            status = "**" + g["status"] + "**" if g["gate"] == "Publication Approval" else g["status"]
+            out.append(f'| {g["gate"]} | {status} | {measured.get(g["gate"], (None, "—"))[1] or "—"} | {g["evidence"]} |')
+        out.append("")
+    out += ["**NOT READY FOR PUBLICATION.**", "", "## Production checklist (remaining, in order)", ""]
+    out += [f"{n}. [ ] {item}" for n, item in enumerate(gates_doc.get("production_checklist", []), 1)]
+    out += ["",
             "## Units", "",
             "One row per unit of the print edition (`editorial/print/Career-English-Master.pdf`).",
             "", "Columns:",
