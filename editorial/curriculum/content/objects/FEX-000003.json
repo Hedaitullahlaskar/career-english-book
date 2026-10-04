@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000003",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0020|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0020|A1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "eb7ee644fd93492e",
+ "content": {
+  "function": "CFN-0020",
+  "cefr": "A1",
+  "exponents": [
+   "Sorry, I cannot do that.",
+   "No, sorry.",
+   "Sorry, that is not possible."
+  ],
+  "notes": "Use a brief refusal with a polite word and a calm tone."
+ }
+}

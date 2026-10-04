@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000006",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0085|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0085|B1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "0fb13e9cc6b01406",
+ "content": {
+  "function": "CFN-0085",
+  "cefr": "B1",
+  "exponents": [
+   "The price is ₹5,000, including the basic service.",
+   "That price is for one item; delivery costs extra.",
+   "The total comes to ₹5,500 with delivery."
+  ],
+  "notes": "Explain what the stated price covers and distinguish it from the final total."
+ }
+}

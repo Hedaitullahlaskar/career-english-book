@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000009",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0022|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0022|B1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "2b337d7231be10f8",
+ "content": {
+  "function": "CFN-0022",
+  "cefr": "B1",
+  "exponents": [
+   "I am following up on the quotation I sent yesterday.",
+   "Have you had a chance to look at the options?",
+   "We agreed to speak today; is this still a good time?"
+  ],
+  "notes": "Refer to the earlier contact and invite a response without pressuring the other person."
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "RCO-000003",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0016",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0016"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "ca32258bed4524e5",
+ "content": {
+  "role": "ROL-0016",
+  "parent": null,
+  "responsibilities": [
+   "Welcome the customer and discover their needs.",
+   "Describe relevant options and recommend a suitable choice.",
+   "Explain the stated price and what is included.",
+   "Respond to questions or objections using available information.",
+   "Discuss terms only within the worker's authority.",
+   "Confirm the customer's decision and agreed next step.",
+   "Follow up on an enquiry or quotation respectfully.",
+   "Acknowledge complaints and involve an appropriate colleague when needed."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Client",
+   "Sales Manager",
+   "Support team"
+  ],
+  "keyFunctions": [
+   "CFN-0034",
+   "CFN-0035",
+   "CFN-0091",
+   "CFN-0085",
+   "CFN-0061",
+   "CFN-0062",
+   "CFN-0022",
+   "CFN-0037",
+   "CFN-0024"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Customer requirements",
+    "text": "A recommendation is stronger when it follows the customer's stated purpose, preferences and constraints. Questions gather that information before the worker describes an option."
+   },
+   {
+    "title": "Quoted information",
+    "text": "A quoted price and the final amount may differ when the customer changes the option or adds something. Explain what the current quotation covers rather than treating every amount as final."
+   },
+   {
+    "title": "Authority limits",
+    "text": "A sales worker may need confirmation from a colleague before agreeing a request. English can clearly distinguish a confirmed offer from a proposal awaiting a decision."
+   },
+   {
+    "title": "Follow-up purpose",
+    "text": "A useful follow-up refers to a previous enquiry and asks what the customer needs next. It does not assume that silence means agreement or that a purchase decision has been made."
+   },
+   {
+    "title": "Concern versus complaint",
+    "text": "A concern before purchase may require an explanation or comparison. A complaint about an earlier exchange may require fact-checking and support from another team."
+   }
+  ],
+  "deltaFromParent": []
+ }
+}

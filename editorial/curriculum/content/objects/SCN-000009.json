@@ -1,0 +1,48 @@
+{
+ "id": "SCN-000009",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0043",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0043"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "12ef88985e41da47",
+ "content": {
+  "situation": "STM-0043",
+  "description": "A customer reports a wrong or missing delivery item. The worker acknowledges the complaint, checks the order and reported discrepancy, apologises for an established personal mistake if relevant, and passes the issue to the appropriate team when a decision is outside their authority.",
+  "flow": [
+   "Hear and acknowledge the customer's complaint.",
+   "Clarify which item is wrong or missing.",
+   "Check the available order information and acknowledge any established personal error.",
+   "Explain the escalation to the appropriate team without promising an unconfirmed remedy.",
+   "Confirm the next communication step."
+  ],
+  "functions": [
+   "CFN-0037",
+   "CFN-0007",
+   "CFN-0024"
+  ],
+  "variationPoints": [
+   "Wrong item versus missing item.",
+   "What the worker can verify from the available order information.",
+   "Which person or team can decide the outcome.",
+   "A2 language support for checking details and explaining escalation."
+  ]
+ }
+}

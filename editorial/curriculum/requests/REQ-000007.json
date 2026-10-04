@@ -6,16 +6,6 @@
  "layer": "L6",
  "status": "BLOCKED",
  "dependsOn": [
-  "L0|CFN-0022|B1",
-  "L0|CFN-0085|B1",
-  "L0|CFN-0091|B1",
-  "L0|CFN-0097|B1",
-  "L1|STM-0019",
-  "L1|STM-0026",
-  "L1|STM-0028",
-  "L2|CM-03",
-  "L3|ROL-0016",
-  "L3|ROL-0050",
   "L4|RPF-000002",
   "L5|SEN-0003|-"
  ],
@@ -45,11 +35,196 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0085|B1": null,
-     "L1|STM-0019": null,
-     "L2|CM-03": null,
-     "L3|ROL-0016": null,
-     "L3|ROL-0050": null,
+     "L0|CFN-0085|B1": {
+      "function": "CFN-0085",
+      "cefr": "B1",
+      "exponents": [
+       "The price is ₹5,000, including the basic service.",
+       "That price is for one item; delivery costs extra.",
+       "The total comes to ₹5,500 with delivery."
+      ],
+      "notes": "Explain what the stated price covers and distinguish it from the final total."
+     },
+     "L1|STM-0019": {
+      "situation": "STM-0019",
+      "description": "A customer asks about an item's price. The worker explains the quoted amount and what it includes, clarifies any known additional charges, and checks that the customer understands the total. This situation explains a price; it does not require bargaining.",
+      "flow": [
+       "Identify the item or option being priced.",
+       "State the price and what it includes.",
+       "Clarify any known additional charges.",
+       "Confirm the customer's understanding of the total."
+      ],
+      "functions": [
+       "CFN-0085"
+      ],
+      "variationPoints": [
+       "Unit price, package price or quotation total.",
+       "Included features and separately charged additions.",
+       "Confirmed price versus an amount awaiting confirmation.",
+       "Short A2 statements or connected B1 explanations."
+      ]
+     },
+     "L2|CM-03": {
+      "coreModule": "CM-03",
+      "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+      "communicationMoves": [
+       {
+        "move": "Welcome the customer and open the exchange.",
+        "functions": [
+         "CFN-0034"
+        ]
+       },
+       {
+        "move": "Ask questions to understand the customer's needs.",
+        "functions": [
+         "CFN-0035"
+        ]
+       },
+       {
+        "move": "Describe and compare relevant options.",
+        "functions": [
+         "CFN-0091"
+        ]
+       },
+       {
+        "move": "Explain the price and respond to concerns.",
+        "functions": [
+         "CFN-0085",
+         "CFN-0061"
+        ]
+       },
+       {
+        "move": "Discuss an available alternative or offer within the worker's authority.",
+        "functions": [
+         "CFN-0026",
+         "CFN-0092"
+        ]
+       },
+       {
+        "move": "Confirm the customer's chosen option and close respectfully.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       },
+       {
+        "move": "Follow up on an earlier enquiry when appropriate.",
+        "functions": [
+         "CFN-0022"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Recommendations respond to the customer's stated needs.",
+       "Prices and included items are explained clearly.",
+       "Claims are supported by available information.",
+       "The customer can decline without pressure.",
+       "The chosen option and next step are understood."
+      ]
+     },
+     "L3|ROL-0016": {
+      "role": "ROL-0016",
+      "parent": null,
+      "responsibilities": [
+       "Welcome the customer and discover their needs.",
+       "Describe relevant options and recommend a suitable choice.",
+       "Explain the stated price and what is included.",
+       "Respond to questions or objections using available information.",
+       "Discuss terms only within the worker's authority.",
+       "Confirm the customer's decision and agreed next step.",
+       "Follow up on an enquiry or quotation respectfully.",
+       "Acknowledge complaints and involve an appropriate colleague when needed."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Client",
+       "Sales Manager",
+       "Support team"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0061",
+       "CFN-0062",
+       "CFN-0022",
+       "CFN-0037",
+       "CFN-0024"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Customer requirements",
+        "text": "A recommendation is stronger when it follows the customer's stated purpose, preferences and constraints. Questions gather that information before the worker describes an option."
+       },
+       {
+        "title": "Quoted information",
+        "text": "A quoted price and the final amount may differ when the customer changes the option or adds something. Explain what the current quotation covers rather than treating every amount as final."
+       },
+       {
+        "title": "Authority limits",
+        "text": "A sales worker may need confirmation from a colleague before agreeing a request. English can clearly distinguish a confirmed offer from a proposal awaiting a decision."
+       },
+       {
+        "title": "Follow-up purpose",
+        "text": "A useful follow-up refers to a previous enquiry and asks what the customer needs next. It does not assume that silence means agreement or that a purchase decision has been made."
+       },
+       {
+        "title": "Concern versus complaint",
+        "text": "A concern before purchase may require an explanation or comparison. A complaint about an earlier exchange may require fact-checking and support from another team."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0050": {
+      "role": "ROL-0050",
+      "parent": "ROL-0016",
+      "responsibilities": [
+       "Clarify the customer's preferred vehicle model or version.",
+       "Compare relevant vehicle features from the available product information.",
+       "Explain what the selected vehicle quotation includes and what remains to be confirmed.",
+       "Arrange the customer's test-drive appointment and confirm the meeting details.",
+       "Ask permission before proceeding with an appointment-related action.",
+       "Follow up on a showroom visit or vehicle quotation with the customer's current questions."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Sales Manager",
+       "Appointment coordinator"
+      ],
+      "keyFunctions": [
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0097",
+       "CFN-0022",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Model and version",
+        "text": "A model may be offered in more than one version. Features discussed with the customer should correspond to the actual option under consideration, using the dealership's available information."
+       },
+       {
+        "title": "Vehicle quotation",
+        "text": "A vehicle quotation may show several components or optional additions. Explain only the information provided in the quotation and identify amounts awaiting confirmation, without offering finance or regulatory advice."
+       },
+       {
+        "title": "Appointment coordination",
+        "text": "The pilot's test-drive communication covers the preferred option, availability, timing, meeting details and related customer questions. It does not cover vehicle operation or safety training."
+       },
+       {
+        "title": "Customer choice",
+        "text": "A customer may compare options, request more information or postpone a decision. The worker can clarify that preference and agree on the next contact without claiming that an appointment commits the customer to buy."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vehicle model/version identification and relevant feature comparisons.",
+       "Adds clarification of the selected vehicle quotation.",
+       "Adds communication-only test-drive appointment coordination.",
+       "Adds follow-up tied to a vehicle enquiry or showroom visit."
+      ]
+     },
      "L4|RPF-000002": null,
      "L5|SEN-0003|-": null
     }
@@ -92,12 +267,207 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0091|B1": null,
-     "L0|CFN-0097|B1": null,
-     "L1|STM-0026": null,
-     "L2|CM-03": null,
-     "L3|ROL-0016": null,
-     "L3|ROL-0050": null,
+     "L0|CFN-0091|B1": {
+      "function": "CFN-0091",
+      "cefr": "B1",
+      "exponents": [
+       "This model has more storage space than the other one.",
+       "Both options include the same basic features.",
+       "This one costs less, but the larger one holds more."
+      ],
+      "notes": "Compare relevant features without making unsupported claims about performance."
+     },
+     "L0|CFN-0097|B1": {
+      "function": "CFN-0097",
+      "cefr": "B1",
+      "exponents": [
+       "May I come in to discuss the appointment?",
+       "Would it be all right if I started our discussion now?",
+       "May I take a photograph of this item?"
+      ],
+      "notes": "Ask permission before the proposed action and wait for the other person's response."
+     },
+     "L1|STM-0026": {
+      "situation": "STM-0026",
+      "description": "A customer and worker arrange a test-drive appointment. They clarify the preferred model or option, compare relevant features simply, seek permission before the proposed appointment-related action, and confirm the arrangement. The exchange covers coordination and customer communication only.",
+      "flow": [
+       "Clarify which model or option the customer wants to try.",
+       "Describe or compare the relevant options simply.",
+       "Ask permission to proceed with the proposed appointment arrangement.",
+       "Confirm the agreed time, meeting point and next contact."
+      ],
+      "functions": [
+       "CFN-0091",
+       "CFN-0097"
+      ],
+      "variationPoints": [
+       "Model availability and appointment timing.",
+       "The customer's preferred option and comparison questions.",
+       "The dealership's test-drive policy, referred to generically.",
+       "The level of language support, while keeping every version communication-only."
+      ]
+     },
+     "L2|CM-03": {
+      "coreModule": "CM-03",
+      "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+      "communicationMoves": [
+       {
+        "move": "Welcome the customer and open the exchange.",
+        "functions": [
+         "CFN-0034"
+        ]
+       },
+       {
+        "move": "Ask questions to understand the customer's needs.",
+        "functions": [
+         "CFN-0035"
+        ]
+       },
+       {
+        "move": "Describe and compare relevant options.",
+        "functions": [
+         "CFN-0091"
+        ]
+       },
+       {
+        "move": "Explain the price and respond to concerns.",
+        "functions": [
+         "CFN-0085",
+         "CFN-0061"
+        ]
+       },
+       {
+        "move": "Discuss an available alternative or offer within the worker's authority.",
+        "functions": [
+         "CFN-0026",
+         "CFN-0092"
+        ]
+       },
+       {
+        "move": "Confirm the customer's chosen option and close respectfully.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       },
+       {
+        "move": "Follow up on an earlier enquiry when appropriate.",
+        "functions": [
+         "CFN-0022"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Recommendations respond to the customer's stated needs.",
+       "Prices and included items are explained clearly.",
+       "Claims are supported by available information.",
+       "The customer can decline without pressure.",
+       "The chosen option and next step are understood."
+      ]
+     },
+     "L3|ROL-0016": {
+      "role": "ROL-0016",
+      "parent": null,
+      "responsibilities": [
+       "Welcome the customer and discover their needs.",
+       "Describe relevant options and recommend a suitable choice.",
+       "Explain the stated price and what is included.",
+       "Respond to questions or objections using available information.",
+       "Discuss terms only within the worker's authority.",
+       "Confirm the customer's decision and agreed next step.",
+       "Follow up on an enquiry or quotation respectfully.",
+       "Acknowledge complaints and involve an appropriate colleague when needed."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Client",
+       "Sales Manager",
+       "Support team"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0061",
+       "CFN-0062",
+       "CFN-0022",
+       "CFN-0037",
+       "CFN-0024"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Customer requirements",
+        "text": "A recommendation is stronger when it follows the customer's stated purpose, preferences and constraints. Questions gather that information before the worker describes an option."
+       },
+       {
+        "title": "Quoted information",
+        "text": "A quoted price and the final amount may differ when the customer changes the option or adds something. Explain what the current quotation covers rather than treating every amount as final."
+       },
+       {
+        "title": "Authority limits",
+        "text": "A sales worker may need confirmation from a colleague before agreeing a request. English can clearly distinguish a confirmed offer from a proposal awaiting a decision."
+       },
+       {
+        "title": "Follow-up purpose",
+        "text": "A useful follow-up refers to a previous enquiry and asks what the customer needs next. It does not assume that silence means agreement or that a purchase decision has been made."
+       },
+       {
+        "title": "Concern versus complaint",
+        "text": "A concern before purchase may require an explanation or comparison. A complaint about an earlier exchange may require fact-checking and support from another team."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0050": {
+      "role": "ROL-0050",
+      "parent": "ROL-0016",
+      "responsibilities": [
+       "Clarify the customer's preferred vehicle model or version.",
+       "Compare relevant vehicle features from the available product information.",
+       "Explain what the selected vehicle quotation includes and what remains to be confirmed.",
+       "Arrange the customer's test-drive appointment and confirm the meeting details.",
+       "Ask permission before proceeding with an appointment-related action.",
+       "Follow up on a showroom visit or vehicle quotation with the customer's current questions."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Sales Manager",
+       "Appointment coordinator"
+      ],
+      "keyFunctions": [
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0097",
+       "CFN-0022",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Model and version",
+        "text": "A model may be offered in more than one version. Features discussed with the customer should correspond to the actual option under consideration, using the dealership's available information."
+       },
+       {
+        "title": "Vehicle quotation",
+        "text": "A vehicle quotation may show several components or optional additions. Explain only the information provided in the quotation and identify amounts awaiting confirmation, without offering finance or regulatory advice."
+       },
+       {
+        "title": "Appointment coordination",
+        "text": "The pilot's test-drive communication covers the preferred option, availability, timing, meeting details and related customer questions. It does not cover vehicle operation or safety training."
+       },
+       {
+        "title": "Customer choice",
+        "text": "A customer may compare options, request more information or postpone a decision. The worker can clarify that preference and agree on the next contact without claiming that an appointment commits the customer to buy."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vehicle model/version identification and relevant feature comparisons.",
+       "Adds clarification of the selected vehicle quotation.",
+       "Adds communication-only test-drive appointment coordination.",
+       "Adds follow-up tied to a vehicle enquiry or showroom visit."
+      ]
+     },
      "L4|RPF-000002": null,
      "L5|SEN-0003|-": null
     }
@@ -127,11 +497,196 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0022|B1": null,
-     "L1|STM-0028": null,
-     "L2|CM-03": null,
-     "L3|ROL-0016": null,
-     "L3|ROL-0050": null,
+     "L0|CFN-0022|B1": {
+      "function": "CFN-0022",
+      "cefr": "B1",
+      "exponents": [
+       "I am following up on the quotation I sent yesterday.",
+       "Have you had a chance to look at the options?",
+       "We agreed to speak today; is this still a good time?"
+      ],
+      "notes": "Refer to the earlier contact and invite a response without pressuring the other person."
+     },
+     "L1|STM-0028": {
+      "situation": "STM-0028",
+      "description": "A worker contacts a customer after a quotation or visit. They refer to the earlier exchange, check whether it is a suitable time to follow up, invite questions or a decision, and establish the next contact without applying pressure.",
+      "flow": [
+       "Refer to the earlier quotation or visit.",
+       "Check whether the customer can discuss it now.",
+       "Invite a response or questions about the earlier information.",
+       "Confirm the next contact or close respectfully."
+      ],
+      "functions": [
+       "CFN-0022"
+      ],
+      "variationPoints": [
+       "Spoken follow-up versus a written message.",
+       "The time elapsed since the original contact.",
+       "Whether the customer wants clarification, more time or no further contact.",
+       "Brief B1 questions or more developed follow-up language."
+      ]
+     },
+     "L2|CM-03": {
+      "coreModule": "CM-03",
+      "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+      "communicationMoves": [
+       {
+        "move": "Welcome the customer and open the exchange.",
+        "functions": [
+         "CFN-0034"
+        ]
+       },
+       {
+        "move": "Ask questions to understand the customer's needs.",
+        "functions": [
+         "CFN-0035"
+        ]
+       },
+       {
+        "move": "Describe and compare relevant options.",
+        "functions": [
+         "CFN-0091"
+        ]
+       },
+       {
+        "move": "Explain the price and respond to concerns.",
+        "functions": [
+         "CFN-0085",
+         "CFN-0061"
+        ]
+       },
+       {
+        "move": "Discuss an available alternative or offer within the worker's authority.",
+        "functions": [
+         "CFN-0026",
+         "CFN-0092"
+        ]
+       },
+       {
+        "move": "Confirm the customer's chosen option and close respectfully.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       },
+       {
+        "move": "Follow up on an earlier enquiry when appropriate.",
+        "functions": [
+         "CFN-0022"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Recommendations respond to the customer's stated needs.",
+       "Prices and included items are explained clearly.",
+       "Claims are supported by available information.",
+       "The customer can decline without pressure.",
+       "The chosen option and next step are understood."
+      ]
+     },
+     "L3|ROL-0016": {
+      "role": "ROL-0016",
+      "parent": null,
+      "responsibilities": [
+       "Welcome the customer and discover their needs.",
+       "Describe relevant options and recommend a suitable choice.",
+       "Explain the stated price and what is included.",
+       "Respond to questions or objections using available information.",
+       "Discuss terms only within the worker's authority.",
+       "Confirm the customer's decision and agreed next step.",
+       "Follow up on an enquiry or quotation respectfully.",
+       "Acknowledge complaints and involve an appropriate colleague when needed."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Client",
+       "Sales Manager",
+       "Support team"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0061",
+       "CFN-0062",
+       "CFN-0022",
+       "CFN-0037",
+       "CFN-0024"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Customer requirements",
+        "text": "A recommendation is stronger when it follows the customer's stated purpose, preferences and constraints. Questions gather that information before the worker describes an option."
+       },
+       {
+        "title": "Quoted information",
+        "text": "A quoted price and the final amount may differ when the customer changes the option or adds something. Explain what the current quotation covers rather than treating every amount as final."
+       },
+       {
+        "title": "Authority limits",
+        "text": "A sales worker may need confirmation from a colleague before agreeing a request. English can clearly distinguish a confirmed offer from a proposal awaiting a decision."
+       },
+       {
+        "title": "Follow-up purpose",
+        "text": "A useful follow-up refers to a previous enquiry and asks what the customer needs next. It does not assume that silence means agreement or that a purchase decision has been made."
+       },
+       {
+        "title": "Concern versus complaint",
+        "text": "A concern before purchase may require an explanation or comparison. A complaint about an earlier exchange may require fact-checking and support from another team."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0050": {
+      "role": "ROL-0050",
+      "parent": "ROL-0016",
+      "responsibilities": [
+       "Clarify the customer's preferred vehicle model or version.",
+       "Compare relevant vehicle features from the available product information.",
+       "Explain what the selected vehicle quotation includes and what remains to be confirmed.",
+       "Arrange the customer's test-drive appointment and confirm the meeting details.",
+       "Ask permission before proceeding with an appointment-related action.",
+       "Follow up on a showroom visit or vehicle quotation with the customer's current questions."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Sales Manager",
+       "Appointment coordinator"
+      ],
+      "keyFunctions": [
+       "CFN-0035",
+       "CFN-0091",
+       "CFN-0085",
+       "CFN-0097",
+       "CFN-0022",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Model and version",
+        "text": "A model may be offered in more than one version. Features discussed with the customer should correspond to the actual option under consideration, using the dealership's available information."
+       },
+       {
+        "title": "Vehicle quotation",
+        "text": "A vehicle quotation may show several components or optional additions. Explain only the information provided in the quotation and identify amounts awaiting confirmation, without offering finance or regulatory advice."
+       },
+       {
+        "title": "Appointment coordination",
+        "text": "The pilot's test-drive communication covers the preferred option, availability, timing, meeting details and related customer questions. It does not cover vehicle operation or safety training."
+       },
+       {
+        "title": "Customer choice",
+        "text": "A customer may compare options, request more information or postpone a decision. The worker can clarify that preference and agree on the next contact without claiming that an appointment commits the customer to buy."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vehicle model/version identification and relevant feature comparisons.",
+       "Adds clarification of the selected vehicle quotation.",
+       "Adds communication-only test-drive appointment coordination.",
+       "Adds follow-up tied to a vehicle enquiry or showroom visit."
+      ]
+     },
      "L4|RPF-000002": null,
      "L5|SEN-0003|-": null
     }
@@ -162,7 +717,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 12 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "blockedNote": "Built when 2 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
  },
  "style": {
   "spelling": "UK",
@@ -747,7 +1302,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 3134,
+  "inputTokens": 7941,
   "maxOutputTokens": 10500
  }
 }

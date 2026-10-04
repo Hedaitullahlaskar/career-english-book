@@ -1,0 +1,46 @@
+{
+ "id": "SCN-000008",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0040",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0040"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "72c3539fd0f49562",
+ "content": {
+  "situation": "STM-0040",
+  "description": "A worker calls a customer because an address or meeting location needs clarification. They check the relevant building, entrance, flat number or landmark, ask for repetition when needed, and read back the agreed location details.",
+  "flow": [
+   "Identify the purpose of the call.",
+   "Ask about the unclear location detail.",
+   "Request clarification or repetition as needed.",
+   "Confirm the agreed address or meeting point."
+  ],
+  "functions": [
+   "CFN-0095",
+   "CFN-0013"
+  ],
+  "variationPoints": [
+   "Building name, entrance, flat number or landmark.",
+   "Customer contact versus contact with a receptionist or guard.",
+   "Which location detail is unclear.",
+   "The number of details handled in each A2 turn."
+  ]
+ }
+}

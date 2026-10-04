@@ -1,0 +1,45 @@
+{
+ "id": "SCN-000003",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0034",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0034"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "dd66574da01309be",
+ "content": {
+  "situation": "STM-0034",
+  "description": "A worker and customer complete a payment exchange. They confirm the amount, discuss an available payment method, and acknowledge the payment result. Where relevant, they confirm change or a receipt without presenting an unconfirmed payment as successful.",
+  "flow": [
+   "State the total amount due.",
+   "Confirm the customer's payment method from the available options.",
+   "Check and communicate the known payment result.",
+   "Confirm any change or receipt and close the exchange."
+  ],
+  "functions": [
+   "CFN-0089"
+  ],
+  "variationPoints": [
+   "Which payment methods the workplace actually accepts.",
+   "Exact payment versus change.",
+   "Whether a receipt is available or requested.",
+   "Simple spoken amounts or fuller explanations by CEFR level."
+  ]
+ }
+}

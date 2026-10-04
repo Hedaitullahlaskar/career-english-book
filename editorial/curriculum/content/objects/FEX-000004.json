@@ -1,0 +1,37 @@
+{
+ "id": "FEX-000004",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0086|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0086|A1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "4c332812d128c10f",
+ "content": {
+  "function": "CFN-0086",
+  "cefr": "A1",
+  "exponents": [
+   "How many do you want?",
+   "How much do you need?",
+   "This weighs one kilo.",
+   "Do you want a small one?"
+  ],
+  "notes": "Use how many for countable items and how much for an amount or weight."
+ }
+}

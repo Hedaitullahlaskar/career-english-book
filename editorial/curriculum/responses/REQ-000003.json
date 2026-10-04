@@ -1,0 +1,345 @@
+{
+ "requestId": "REQ-000003",
+ "contractVersion": "1.0",
+ "model": "GPT-6",
+ "outputs": [
+  {
+   "tempId": "tmp:L2|CM-03",
+   "type": "core-module",
+   "key": "L2|CM-03",
+   "record": {
+    "content": {
+     "coreModule": "CM-03",
+     "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+     "communicationMoves": [
+      {
+       "move": "Welcome the customer and open the exchange.",
+       "functions": [
+        "CFN-0034"
+       ]
+      },
+      {
+       "move": "Ask questions to understand the customer's needs.",
+       "functions": [
+        "CFN-0035"
+       ]
+      },
+      {
+       "move": "Describe and compare relevant options.",
+       "functions": [
+        "CFN-0091"
+       ]
+      },
+      {
+       "move": "Explain the price and respond to concerns.",
+       "functions": [
+        "CFN-0085",
+        "CFN-0061"
+       ]
+      },
+      {
+       "move": "Discuss an available alternative or offer within the worker's authority.",
+       "functions": [
+        "CFN-0026",
+        "CFN-0092"
+       ]
+      },
+      {
+       "move": "Confirm the customer's chosen option and close respectfully.",
+       "functions": [
+        "CFN-0014",
+        "CFN-0041"
+       ]
+      },
+      {
+       "move": "Follow up on an earlier enquiry when appropriate.",
+       "functions": [
+        "CFN-0022"
+       ]
+      }
+     ],
+     "qualityCriteria": [
+      "Recommendations respond to the customer's stated needs.",
+      "Prices and included items are explained clearly.",
+      "Claims are supported by available information.",
+      "The customer can decline without pressure.",
+      "The chosen option and next step are understood."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L2|CM-04",
+   "type": "core-module",
+   "key": "L2|CM-04",
+   "record": {
+    "content": {
+     "coreModule": "CM-04",
+     "summary": "Complete the communication around a transaction accurately. Confirm the agreed order or amount, explain the available payment options, acknowledge the known payment result, and clarify any change or receipt. If payment information is unclear or a problem occurs, check the relevant facts and explain who can resolve it. This module teaches transaction language rather than financial advice or payment-system procedures.",
+     "communicationMoves": [
+      {
+       "move": "Confirm the agreed order and total.",
+       "functions": [
+        "CFN-0088",
+        "CFN-0085"
+       ]
+      },
+      {
+       "move": "Discuss an available payment method.",
+       "functions": [
+        "CFN-0089"
+       ]
+      },
+      {
+       "move": "Clarify an unclear amount or payment detail.",
+       "functions": [
+        "CFN-0013",
+        "CFN-0014"
+       ]
+      },
+      {
+       "move": "Acknowledge the known payment result and any change or receipt.",
+       "functions": [
+        "CFN-0089"
+       ]
+      },
+      {
+       "move": "Explain a payment problem or refer it to the appropriate person.",
+       "functions": [
+        "CFN-0090",
+        "CFN-0024"
+       ]
+      },
+      {
+       "move": "Close the transaction politely.",
+       "functions": [
+        "CFN-0041"
+       ]
+      }
+     ],
+     "qualityCriteria": [
+      "The amount matches the agreed transaction.",
+      "Available methods are distinguished from unavailable options.",
+      "Payment is not described as complete without confirmation.",
+      "Any change or receipt is communicated accurately.",
+      "Unresolved problems are explained without unsupported promises."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L2|CM-06",
+   "type": "core-module",
+   "key": "L2|CM-06",
+   "record": {
+    "content": {
+     "coreModule": "CM-06",
+     "summary": "Coordinate pickup, delivery and arrival through clear exchanges with customers and workplace contacts. Confirm the relevant order, address or meeting details, communicate known status and delays, and handle discrepancies within the worker's authority. The focus is information exchange and handover. It does not teach vehicle operation, routes, traffic rules or safety practices.",
+     "communicationMoves": [
+      {
+       "move": "Identify the relevant order or pickup details.",
+       "functions": [
+        "CFN-0088",
+        "CFN-0014"
+       ]
+      },
+      {
+       "move": "Clarify the address or meeting location.",
+       "functions": [
+        "CFN-0095",
+        "CFN-0013"
+       ]
+      },
+      {
+       "move": "Give a factual status or delay update.",
+       "functions": [
+        "CFN-0027",
+        "CFN-0028"
+       ]
+      },
+      {
+       "move": "Announce arrival and explain the contact purpose.",
+       "functions": [
+        "CFN-0096"
+       ]
+      },
+      {
+       "move": "Acknowledge a discrepancy and contact the appropriate team.",
+       "functions": [
+        "CFN-0037",
+        "CFN-0024"
+       ]
+      },
+      {
+       "move": "Confirm the communication or handover outcome.",
+       "functions": [
+        "CFN-0014",
+        "CFN-0041"
+       ]
+      }
+     ],
+     "qualityCriteria": [
+      "The exchange concerns the correct order or contact.",
+      "Unclear location details are checked rather than guessed.",
+      "Updates distinguish known facts from estimates.",
+      "Complaints are acknowledged without blame or unauthorised remedies.",
+      "The customer understands the next communication step."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L2|CM-11",
+   "type": "core-module",
+   "key": "L2|CM-11",
+   "record": {
+    "content": {
+     "coreModule": "CM-11",
+     "summary": "Communicate priorities, decisions and performance expectations across people and teams. Gather relevant information, consider options, explain decisions and responsibilities, and review agreed outcomes. Use evidence and respectful questioning to understand performance gaps. Management responsibility and language proficiency remain separate: the same decision may need simpler or more developed English depending on the learner.",
+     "communicationMoves": [
+      {
+       "move": "Set the discussion purpose and priorities.",
+       "functions": [
+        "CFN-0051",
+        "CFN-0077"
+       ]
+      },
+      {
+       "move": "Gather relevant information and summarise the situation.",
+       "functions": [
+        "CFN-0011",
+        "CFN-0016"
+       ]
+      },
+      {
+       "move": "Discuss options and their trade-offs.",
+       "functions": [
+        "CFN-0044",
+        "CFN-0052"
+       ]
+      },
+      {
+       "move": "Explain the decision and its reasoning.",
+       "functions": [
+        "CFN-0074"
+       ]
+      },
+      {
+       "move": "Agree ownership and action points.",
+       "functions": [
+        "CFN-0066",
+        "CFN-0054"
+       ]
+      },
+      {
+       "move": "Discuss performance gaps and practical support.",
+       "functions": [
+        "CFN-0070",
+        "CFN-0071"
+       ]
+      },
+      {
+       "move": "Review progress against agreed goals.",
+       "functions": [
+        "CFN-0069",
+        "CFN-0030"
+       ]
+      }
+     ],
+     "qualityCriteria": [
+      "The purpose and priorities are clear to participants.",
+      "Decisions reflect the information available.",
+      "Actions have understood owners and review points.",
+      "Performance discussion uses specific evidence rather than personal labels.",
+      "English difficulty reflects the specified CEFR level, not the job title."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L2|CM-10",
+   "type": "core-module",
+   "key": "L2|CM-10",
+   "record": {
+    "content": {
+     "coreModule": "CM-10",
+     "summary": "Coordinate a team's immediate work through briefings, clear task ownership, progress checks and everyday feedback. Invite questions, identify obstacles, and confirm handovers or revised arrangements. Keep the focus on the work and the support needed. Team supervision concerns day-to-day coordination; broader decisions and formal performance conversations belong to the management module.",
+     "communicationMoves": [
+      {
+       "move": "Brief the team on the immediate work.",
+       "functions": [
+        "CFN-0065"
+       ]
+      },
+      {
+       "move": "Clarify each task and its owner.",
+       "functions": [
+        "CFN-0066"
+       ]
+      },
+      {
+       "move": "Check understanding and invite questions.",
+       "functions": [
+        "CFN-0015",
+        "CFN-0013"
+       ]
+      },
+      {
+       "move": "Ask for progress and identify obstacles.",
+       "functions": [
+        "CFN-0027",
+        "CFN-0028"
+       ]
+      },
+      {
+       "move": "Give specific everyday feedback and agree practical support.",
+       "functions": [
+        "CFN-0067",
+        "CFN-0026"
+       ]
+      },
+      {
+       "move": "Confirm the handover and remaining actions.",
+       "functions": [
+        "CFN-0033",
+        "CFN-0014"
+       ]
+      }
+     ],
+     "qualityCriteria": [
+      "Team members understand the immediate task and owner.",
+      "Questions and obstacles receive a clear response.",
+      "Updates identify completed, ongoing or blocked work.",
+      "Feedback addresses an observable action.",
+      "Handovers explain what remains and who will follow up."
+     ]
+    }
+   }
+  }
+ ],
+ "selfCheck": [
+  {
+   "check": "Completeness and identifiers",
+   "result": "met",
+   "notes": "All five requested modules are present with supplied identifiers unchanged."
+  },
+  {
+   "check": "Shared module boundaries",
+   "result": "met",
+   "notes": "Content is role- and industry-neutral; daily supervision is distinguished from broader management communication."
+  },
+  {
+   "check": "Function references and specialist scope",
+   "result": "met",
+   "notes": "Communication functions were checked against the repository registry; no specialist instructions or advice are supplied."
+  },
+  {
+   "check": "Learning utility",
+   "result": "met",
+   "notes": "Each module has a purposeful move sequence and observable performance criteria."
+  }
+ ],
+ "assumptions": [],
+ "flags": [],
+ "questions": []
+}

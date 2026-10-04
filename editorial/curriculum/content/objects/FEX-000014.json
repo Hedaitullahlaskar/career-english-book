@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000014",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0013|A2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0013|A2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "d94c742ce1600ff2",
+ "content": {
+  "function": "CFN-0013",
+  "cefr": "A2",
+  "exponents": [
+   "Could you say that again, please?",
+   "Do you mean the main entrance?",
+   "Could you repeat the number, please?"
+  ],
+  "notes": "Ask for the particular detail you did not understand."
+ }
+}

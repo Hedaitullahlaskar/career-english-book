@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000001",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0087|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0087|A1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "742c6d55b7a5dd91",
+ "content": {
+  "function": "CFN-0087",
+  "cefr": "A1",
+  "exponents": [
+   "Could you make it ₹90, please?",
+   "Can you give me a better price?",
+   "I can take ₹95."
+  ],
+  "notes": "Use a polite question to request a lower price or a short statement to offer one."
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "CMC-000001",
+ "type": "core-module",
+ "layer": "L2",
+ "key": "L2|CM-03",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000003",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L2|CM-03"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "8a87fc65a9331355",
+ "content": {
+  "coreModule": "CM-03",
+  "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+  "communicationMoves": [
+   {
+    "move": "Welcome the customer and open the exchange.",
+    "functions": [
+     "CFN-0034"
+    ]
+   },
+   {
+    "move": "Ask questions to understand the customer's needs.",
+    "functions": [
+     "CFN-0035"
+    ]
+   },
+   {
+    "move": "Describe and compare relevant options.",
+    "functions": [
+     "CFN-0091"
+    ]
+   },
+   {
+    "move": "Explain the price and respond to concerns.",
+    "functions": [
+     "CFN-0085",
+     "CFN-0061"
+    ]
+   },
+   {
+    "move": "Discuss an available alternative or offer within the worker's authority.",
+    "functions": [
+     "CFN-0026",
+     "CFN-0092"
+    ]
+   },
+   {
+    "move": "Confirm the customer's chosen option and close respectfully.",
+    "functions": [
+     "CFN-0014",
+     "CFN-0041"
+    ]
+   },
+   {
+    "move": "Follow up on an earlier enquiry when appropriate.",
+    "functions": [
+     "CFN-0022"
+    ]
+   }
+  ],
+  "qualityCriteria": [
+   "Recommendations respond to the customer's stated needs.",
+   "Prices and included items are explained clearly.",
+   "Claims are supported by available information.",
+   "The customer can decline without pressure.",
+   "The chosen option and next step are understood."
+  ]
+ }
+}

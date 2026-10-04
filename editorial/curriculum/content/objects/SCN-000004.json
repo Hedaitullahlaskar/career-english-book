@@ -1,0 +1,45 @@
+{
+ "id": "SCN-000004",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0019",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0019"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "dc44d561c3bf25ef",
+ "content": {
+  "situation": "STM-0019",
+  "description": "A customer asks about an item's price. The worker explains the quoted amount and what it includes, clarifies any known additional charges, and checks that the customer understands the total. This situation explains a price; it does not require bargaining.",
+  "flow": [
+   "Identify the item or option being priced.",
+   "State the price and what it includes.",
+   "Clarify any known additional charges.",
+   "Confirm the customer's understanding of the total."
+  ],
+  "functions": [
+   "CFN-0085"
+  ],
+  "variationPoints": [
+   "Unit price, package price or quotation total.",
+   "Included features and separately charged additions.",
+   "Confirmed price versus an amount awaiting confirmation.",
+   "Short A2 statements or connected B1 explanations."
+  ]
+ }
+}

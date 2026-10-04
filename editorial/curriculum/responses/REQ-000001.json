@@ -1,0 +1,408 @@
+{
+ "requestId": "REQ-000001",
+ "contractVersion": "1.0",
+ "model": "GPT-6",
+ "outputs": [
+  {
+   "tempId": "tmp:L0|CFN-0087|A1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0087|A1",
+   "record": {
+    "content": {
+     "function": "CFN-0087",
+     "cefr": "A1",
+     "exponents": [
+      "Could you make it ₹90, please?",
+      "Can you give me a better price?",
+      "I can take ₹95."
+     ],
+     "notes": "Use a polite question to request a lower price or a short statement to offer one."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0085|A1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0085|A1",
+   "record": {
+    "content": {
+     "function": "CFN-0085",
+     "cefr": "A1",
+     "exponents": [
+      "It is ₹100.",
+      "It is ₹50 each.",
+      "Two are ₹90."
+     ],
+     "notes": "State the price and make clear whether it is for one item or several."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0020|A1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0020|A1",
+   "record": {
+    "content": {
+     "function": "CFN-0020",
+     "cefr": "A1",
+     "exponents": [
+      "Sorry, I cannot do that.",
+      "No, sorry.",
+      "Sorry, that is not possible."
+     ],
+     "notes": "Use a brief refusal with a polite word and a calm tone."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0086|A1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0086|A1",
+   "record": {
+    "content": {
+     "function": "CFN-0086",
+     "cefr": "A1",
+     "exponents": [
+      "How many do you want?",
+      "How much do you need?",
+      "This weighs one kilo.",
+      "Do you want a small one?"
+     ],
+     "notes": "Use how many for countable items and how much for an amount or weight."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0089|A1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0089|A1",
+   "record": {
+    "content": {
+     "function": "CFN-0089",
+     "cefr": "A1",
+     "exponents": [
+      "That is ₹80, please.",
+      "Cash or UPI?",
+      "Here is your ₹20 change.",
+      "Here is your receipt."
+     ],
+     "notes": "State the amount and use the payment or change phrase that fits the transaction."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0085|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0085|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0085",
+     "cefr": "B1",
+     "exponents": [
+      "The price is ₹5,000, including the basic service.",
+      "That price is for one item; delivery costs extra.",
+      "The total comes to ₹5,500 with delivery."
+     ],
+     "notes": "Explain what the stated price covers and distinguish it from the final total."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0091|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0091|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0091",
+     "cefr": "B1",
+     "exponents": [
+      "This model has more storage space than the other one.",
+      "Both options include the same basic features.",
+      "This one costs less, but the larger one holds more."
+     ],
+     "notes": "Compare relevant features without making unsupported claims about performance."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0097|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0097|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0097",
+     "cefr": "B1",
+     "exponents": [
+      "May I come in to discuss the appointment?",
+      "Would it be all right if I started our discussion now?",
+      "May I take a photograph of this item?"
+     ],
+     "notes": "Ask permission before the proposed action and wait for the other person's response."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0022|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0022|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0022",
+     "cefr": "B1",
+     "exponents": [
+      "I am following up on the quotation I sent yesterday.",
+      "Have you had a chance to look at the options?",
+      "We agreed to speak today; is this still a good time?"
+     ],
+     "notes": "Refer to the earlier contact and invite a response without pressuring the other person."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0085|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0085|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0085",
+     "cefr": "A2",
+     "exponents": [
+      "It costs ₹500 for one.",
+      "The price includes the bag.",
+      "Delivery is ₹50 extra."
+     ],
+     "notes": "Use short statements to explain the price and any additional charge."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0028|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0028|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0028",
+     "cefr": "A2",
+     "exponents": [
+      "There is a delay with your order.",
+      "It is taking longer than expected.",
+      "I do not have a new time yet."
+     ],
+     "notes": "State the known delay clearly and avoid presenting an uncertain time as confirmed."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0007|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0007|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0007",
+     "cefr": "A2",
+     "exponents": [
+      "I am sorry I gave you the wrong time.",
+      "Sorry, I made a mistake.",
+      "I am sorry I missed your message."
+     ],
+     "notes": "Apologise for an action you actually took rather than accepting unsupported responsibility."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0095|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0095|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0095",
+     "cefr": "A2",
+     "exponents": [
+      "Is your building next to the park?",
+      "Can you confirm the building name, please?",
+      "Is that Flat 12 on the second floor?"
+     ],
+     "notes": "Check a specific location detail by asking the other person to confirm it."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0013|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0013|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0013",
+     "cefr": "A2",
+     "exponents": [
+      "Could you say that again, please?",
+      "Do you mean the main entrance?",
+      "Could you repeat the number, please?"
+     ],
+     "notes": "Ask for the particular detail you did not understand."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0037|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0037|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0037",
+     "cefr": "A2",
+     "exponents": [
+      "Please tell me which item is missing.",
+      "I understand you received the wrong item.",
+      "Let me check the order details."
+     ],
+     "notes": "Acknowledge the customer's problem and check the relevant facts before discussing an outcome."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0024|A2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0024|A2",
+   "record": {
+    "content": {
+     "function": "CFN-0024",
+     "cefr": "A2",
+     "exponents": [
+      "I will contact the support team about this.",
+      "I cannot confirm that; I will ask my supervisor.",
+      "Let me pass the details to the right team."
+     ],
+     "notes": "Explain who you will contact when the issue is outside your authority."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0035|B2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0035|B2",
+   "record": {
+    "content": {
+     "function": "CFN-0035",
+     "cefr": "B2",
+     "exponents": [
+      "Which aspects of your next role matter most to you?",
+      "What support would help you meet the agreed expectations?",
+      "Could you explain what you need from the team to make this work?"
+     ],
+     "notes": "Use open questions to explore priorities, requirements or support needs before proposing an option."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0011|B2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0011|B2",
+   "record": {
+    "content": {
+     "function": "CFN-0011",
+     "cefr": "B2",
+     "exponents": [
+      "Could you talk me through how you handled that situation?",
+      "What evidence would help us understand the change in results?",
+      "Could you clarify which part of the process you were responsible for?"
+     ],
+     "notes": "Request specific information and follow up on details that need clarification."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0070|B2",
+   "type": "function-exponents",
+   "key": "L0|CFN-0070|B2",
+   "record": {
+    "content": {
+     "function": "CFN-0070",
+     "cefr": "B2",
+     "exponents": [
+      "The last two reports missed the agreed deadline; what has been getting in the way?",
+      "How can we address the gap between the agreed standard and the work submitted?",
+      "Let us agree on achievable improvements and a date to review progress."
+     ],
+     "notes": "Discuss observable gaps respectfully, hear the employee's explanation and agree on a practical review."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0035|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0035|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0035",
+     "cefr": "B1",
+     "exponents": [
+      "What is most important to you in this role?",
+      "What help do you need to finish the task?",
+      "Which option would work best for you, and why?"
+     ],
+     "notes": "Ask clear questions that help the other person explain a need or preference."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0011|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0011|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0011",
+     "cefr": "B1",
+     "exponents": [
+      "Can you tell me about your previous role?",
+      "What happened after you spoke to the team?",
+      "Could you explain how you completed that task?"
+     ],
+     "notes": "Ask for relevant details using direct, polite questions."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L0|CFN-0070|B1",
+   "type": "function-exponents",
+   "key": "L0|CFN-0070|B1",
+   "record": {
+    "content": {
+     "function": "CFN-0070",
+     "cefr": "B1",
+     "exponents": [
+      "The report was late twice this week; what happened?",
+      "What is making it difficult to meet the agreed target?",
+      "Let us agree on a plan and check progress next week."
+     ],
+     "notes": "Name a specific performance gap, ask about the cause and agree on a next step."
+    }
+   }
+  }
+ ],
+ "selfCheck": [
+  {
+   "check": "Completeness and identifiers",
+   "result": "met",
+   "notes": "All 22 requested outputs are present with supplied identifiers unchanged."
+  },
+  {
+   "check": "CEFR fit and natural English",
+   "result": "met",
+   "notes": "AI review found short A1/A2 forms and more developed B1/B2 questioning; this is not formal CEFR validation."
+  },
+  {
+   "check": "Shared scope and communication functions",
+   "result": "met",
+   "notes": "Exponents are industry-neutral and realise the named functions."
+  },
+  {
+   "check": "Safety and review boundaries",
+   "result": "met",
+   "notes": "No specialist advice or review-completion claims; editorial review remains pending."
+  }
+ ],
+ "assumptions": [],
+ "flags": [],
+ "questions": []
+}

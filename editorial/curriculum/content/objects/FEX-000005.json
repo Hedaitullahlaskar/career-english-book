@@ -1,0 +1,37 @@
+{
+ "id": "FEX-000005",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0089|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0089|A1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "d0fd9057ea9ce75e",
+ "content": {
+  "function": "CFN-0089",
+  "cefr": "A1",
+  "exponents": [
+   "That is ₹80, please.",
+   "Cash or UPI?",
+   "Here is your ₹20 change.",
+   "Here is your receipt."
+  ],
+  "notes": "State the amount and use the payment or change phrase that fits the transaction."
+ }
+}

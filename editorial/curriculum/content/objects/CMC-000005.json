@@ -1,0 +1,79 @@
+{
+ "id": "CMC-000005",
+ "type": "core-module",
+ "layer": "L2",
+ "key": "L2|CM-10",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000003",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L2|CM-10"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "84a0c8d157e55a32",
+ "content": {
+  "coreModule": "CM-10",
+  "summary": "Coordinate a team's immediate work through briefings, clear task ownership, progress checks and everyday feedback. Invite questions, identify obstacles, and confirm handovers or revised arrangements. Keep the focus on the work and the support needed. Team supervision concerns day-to-day coordination; broader decisions and formal performance conversations belong to the management module.",
+  "communicationMoves": [
+   {
+    "move": "Brief the team on the immediate work.",
+    "functions": [
+     "CFN-0065"
+    ]
+   },
+   {
+    "move": "Clarify each task and its owner.",
+    "functions": [
+     "CFN-0066"
+    ]
+   },
+   {
+    "move": "Check understanding and invite questions.",
+    "functions": [
+     "CFN-0015",
+     "CFN-0013"
+    ]
+   },
+   {
+    "move": "Ask for progress and identify obstacles.",
+    "functions": [
+     "CFN-0027",
+     "CFN-0028"
+    ]
+   },
+   {
+    "move": "Give specific everyday feedback and agree practical support.",
+    "functions": [
+     "CFN-0067",
+     "CFN-0026"
+    ]
+   },
+   {
+    "move": "Confirm the handover and remaining actions.",
+    "functions": [
+     "CFN-0033",
+     "CFN-0014"
+    ]
+   }
+  ],
+  "qualityCriteria": [
+   "Team members understand the immediate task and owner.",
+   "Questions and obstacles receive a clear response.",
+   "Updates identify completed, ongoing or blocked work.",
+   "Feedback addresses an observable action.",
+   "Handovers explain what remains and who will follow up."
+  ]
+ }
+}

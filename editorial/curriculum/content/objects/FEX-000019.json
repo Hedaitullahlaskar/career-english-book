@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000019",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0070|B2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0070|B2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "bdf749e91423ab93",
+ "content": {
+  "function": "CFN-0070",
+  "cefr": "B2",
+  "exponents": [
+   "The last two reports missed the agreed deadline; what has been getting in the way?",
+   "How can we address the gap between the agreed standard and the work submitted?",
+   "Let us agree on achievable improvements and a date to review progress."
+  ],
+  "notes": "Discuss observable gaps respectfully, hear the employee's explanation and agree on a practical review."
+ }
+}

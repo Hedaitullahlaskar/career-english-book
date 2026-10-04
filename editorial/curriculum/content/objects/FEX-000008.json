@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000008",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0097|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0097|B1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "6bbb24d193763b34",
+ "content": {
+  "function": "CFN-0097",
+  "cefr": "B1",
+  "exponents": [
+   "May I come in to discuss the appointment?",
+   "Would it be all right if I started our discussion now?",
+   "May I take a photograph of this item?"
+  ],
+  "notes": "Ask permission before the proposed action and wait for the other person's response."
+ }
+}

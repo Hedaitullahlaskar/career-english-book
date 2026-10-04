@@ -1,0 +1,79 @@
+{
+ "id": "RCO-000006",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0013",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0013"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "58ae4be53683e1df",
+ "content": {
+  "role": "ROL-0013",
+  "parent": null,
+  "responsibilities": [
+   "Clarify recruitment needs with the relevant department head.",
+   "Ask candidates for relevant experience and specific work examples.",
+   "Discuss role expectations and onboarding questions using confirmed workplace information.",
+   "Respond to employee queries and clarify information that is uncertain.",
+   "Discuss performance gaps with evidence and invite the employee's explanation.",
+   "Hear employee concerns respectfully and identify an appropriate next conversation.",
+   "Explain agreed workplace decisions or policies without adding unconfirmed rules.",
+   "Summarise actions, ownership and review points."
+  ],
+  "stakeholders": [
+   "Candidate",
+   "Employee / team member",
+   "Department head",
+   "Senior manager"
+  ],
+  "keyFunctions": [
+   "CFN-0035",
+   "CFN-0011",
+   "CFN-0036",
+   "CFN-0070",
+   "CFN-0038",
+   "CFN-0074",
+   "CFN-0016",
+   "CFN-0024"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Recruitment conversation",
+    "text": "An HR conversation gathers information about the role and the candidate's relevant experience. The examples and work constraints come from the industry context; the shared role core does not assume one sector."
+   },
+   {
+    "title": "Performance evidence",
+    "text": "A performance gap is a difference between an agreed expectation and observed work. The manager's English should distinguish that evidence from assumptions about the employee's attitude or personal circumstances."
+   },
+   {
+    "title": "Employee concerns",
+    "text": "An employee may need information, support or a further conversation. The manager can listen, clarify the concern and explain a known next contact without promising confidentiality or an outcome beyond their authority."
+   },
+   {
+    "title": "Policy communication",
+    "text": "Explain only confirmed workplace information supplied in the situation. Do not invent employment rules, legal entitlements or disciplinary procedures."
+   },
+   {
+    "title": "Agreed follow-up",
+    "text": "A clear summary identifies the actions discussed, the people responsible and any agreed review point. It does not imply that a conversation alone settles a recruitment decision or employee concern."
+   }
+  ],
+  "deltaFromParent": []
+ }
+}

@@ -6,14 +6,6 @@
  "layer": "L6",
  "status": "BLOCKED",
  "dependsOn": [
-  "L0|CFN-0011|B2",
-  "L0|CFN-0035|B2",
-  "L0|CFN-0070|B2",
-  "L1|STM-0127",
-  "L1|STM-0143",
-  "L2|CM-10",
-  "L2|CM-11",
-  "L3|ROL-0013",
   "L4|RPF-000004",
   "L5|SEN-0008|-"
  ],
@@ -51,11 +43,162 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0035|B2": null,
-     "L0|CFN-0011|B2": null,
-     "L1|STM-0143": null,
-     "L2|CM-11": null,
-     "L3|ROL-0013": null,
+     "L0|CFN-0035|B2": {
+      "function": "CFN-0035",
+      "cefr": "B2",
+      "exponents": [
+       "Which aspects of your next role matter most to you?",
+       "What support would help you meet the agreed expectations?",
+       "Could you explain what you need from the team to make this work?"
+      ],
+      "notes": "Use open questions to explore priorities, requirements or support needs before proposing an option."
+     },
+     "L0|CFN-0011|B2": {
+      "function": "CFN-0011",
+      "cefr": "B2",
+      "exponents": [
+       "Could you talk me through how you handled that situation?",
+       "What evidence would help us understand the change in results?",
+       "Could you clarify which part of the process you were responsible for?"
+      ],
+      "notes": "Request specific information and follow up on details that need clarification."
+     },
+     "L1|STM-0143": {
+      "situation": "STM-0143",
+      "description": "An interviewer asks a candidate about relevant experience, work examples and expectations. They use questions to gather information and identify the candidate's needs, ask follow-up questions where needed, and close with a clear description of the next contact rather than an unsupported hiring promise.",
+      "flow": [
+       "Establish the focus of the interview conversation.",
+       "Ask about relevant experience and a specific example.",
+       "Follow up to clarify the candidate's contribution and priorities.",
+       "Invite questions about the role.",
+       "Clarify what is known about the next contact."
+      ],
+      "functions": [
+       "CFN-0035",
+       "CFN-0011"
+      ],
+      "variationPoints": [
+       "Role-specific evidence and examples.",
+       "Stakeholders involved in the selection conversation.",
+       "Candidate priorities and support needs.",
+       "B1 direct questions versus B2 probing and clarification.",
+       "Industry-specific constraints supplied by the later context overlay."
+      ]
+     },
+     "L2|CM-11": {
+      "coreModule": "CM-11",
+      "summary": "Communicate priorities, decisions and performance expectations across people and teams. Gather relevant information, consider options, explain decisions and responsibilities, and review agreed outcomes. Use evidence and respectful questioning to understand performance gaps. Management responsibility and language proficiency remain separate: the same decision may need simpler or more developed English depending on the learner.",
+      "communicationMoves": [
+       {
+        "move": "Set the discussion purpose and priorities.",
+        "functions": [
+         "CFN-0051",
+         "CFN-0077"
+        ]
+       },
+       {
+        "move": "Gather relevant information and summarise the situation.",
+        "functions": [
+         "CFN-0011",
+         "CFN-0016"
+        ]
+       },
+       {
+        "move": "Discuss options and their trade-offs.",
+        "functions": [
+         "CFN-0044",
+         "CFN-0052"
+        ]
+       },
+       {
+        "move": "Explain the decision and its reasoning.",
+        "functions": [
+         "CFN-0074"
+        ]
+       },
+       {
+        "move": "Agree ownership and action points.",
+        "functions": [
+         "CFN-0066",
+         "CFN-0054"
+        ]
+       },
+       {
+        "move": "Discuss performance gaps and practical support.",
+        "functions": [
+         "CFN-0070",
+         "CFN-0071"
+        ]
+       },
+       {
+        "move": "Review progress against agreed goals.",
+        "functions": [
+         "CFN-0069",
+         "CFN-0030"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The purpose and priorities are clear to participants.",
+       "Decisions reflect the information available.",
+       "Actions have understood owners and review points.",
+       "Performance discussion uses specific evidence rather than personal labels.",
+       "English difficulty reflects the specified CEFR level, not the job title."
+      ]
+     },
+     "L3|ROL-0013": {
+      "role": "ROL-0013",
+      "parent": null,
+      "responsibilities": [
+       "Clarify recruitment needs with the relevant department head.",
+       "Ask candidates for relevant experience and specific work examples.",
+       "Discuss role expectations and onboarding questions using confirmed workplace information.",
+       "Respond to employee queries and clarify information that is uncertain.",
+       "Discuss performance gaps with evidence and invite the employee's explanation.",
+       "Hear employee concerns respectfully and identify an appropriate next conversation.",
+       "Explain agreed workplace decisions or policies without adding unconfirmed rules.",
+       "Summarise actions, ownership and review points."
+      ],
+      "stakeholders": [
+       "Candidate",
+       "Employee / team member",
+       "Department head",
+       "Senior manager"
+      ],
+      "keyFunctions": [
+       "CFN-0035",
+       "CFN-0011",
+       "CFN-0036",
+       "CFN-0070",
+       "CFN-0038",
+       "CFN-0074",
+       "CFN-0016",
+       "CFN-0024"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Recruitment conversation",
+        "text": "An HR conversation gathers information about the role and the candidate's relevant experience. The examples and work constraints come from the industry context; the shared role core does not assume one sector."
+       },
+       {
+        "title": "Performance evidence",
+        "text": "A performance gap is a difference between an agreed expectation and observed work. The manager's English should distinguish that evidence from assumptions about the employee's attitude or personal circumstances."
+       },
+       {
+        "title": "Employee concerns",
+        "text": "An employee may need information, support or a further conversation. The manager can listen, clarify the concern and explain a known next contact without promising confidentiality or an outcome beyond their authority."
+       },
+       {
+        "title": "Policy communication",
+        "text": "Explain only confirmed workplace information supplied in the situation. Do not invent employment rules, legal entitlements or disciplinary procedures."
+       },
+       {
+        "title": "Agreed follow-up",
+        "text": "A clear summary identifies the actions discussed, the people responsible and any agreed review point. It does not imply that a conversation alone settles a recruitment decision or employee concern."
+       }
+      ],
+      "deltaFromParent": []
+     },
      "L4|RPF-000004": null,
      "L5|SEN-0008|-": null
     }
@@ -88,11 +231,204 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0070|B2": null,
-     "L1|STM-0127": null,
-     "L2|CM-10": null,
-     "L2|CM-11": null,
-     "L3|ROL-0013": null,
+     "L0|CFN-0070|B2": {
+      "function": "CFN-0070",
+      "cefr": "B2",
+      "exponents": [
+       "The last two reports missed the agreed deadline; what has been getting in the way?",
+       "How can we address the gap between the agreed standard and the work submitted?",
+       "Let us agree on achievable improvements and a date to review progress."
+      ],
+      "notes": "Discuss observable gaps respectfully, hear the employee's explanation and agree on a practical review."
+     },
+     "L1|STM-0127": {
+      "situation": "STM-0127",
+      "description": "A manager discusses an observable gap between agreed expectations and an employee's work. They describe the gap without personal accusations, hear the employee's explanation, discuss support, and agree on practical improvements and a review point. The exchange does not prescribe disciplinary procedures.",
+      "flow": [
+       "State the agreed expectation and a specific observed gap.",
+       "Invite the employee's explanation.",
+       "Discuss obstacles and possible support.",
+       "Agree on practical improvements and responsibilities.",
+       "Confirm a review point and summarise the agreement."
+      ],
+      "functions": [
+       "CFN-0070"
+      ],
+      "variationPoints": [
+       "The task, evidence and agreed performance expectation.",
+       "The employee's explanation and available support.",
+       "The manager's actual authority to agree actions.",
+       "B1 straightforward wording versus B2 nuanced discussion.",
+       "Workplace-specific consequences described without legal or disciplinary claims."
+      ]
+     },
+     "L2|CM-10": {
+      "coreModule": "CM-10",
+      "summary": "Coordinate a team's immediate work through briefings, clear task ownership, progress checks and everyday feedback. Invite questions, identify obstacles, and confirm handovers or revised arrangements. Keep the focus on the work and the support needed. Team supervision concerns day-to-day coordination; broader decisions and formal performance conversations belong to the management module.",
+      "communicationMoves": [
+       {
+        "move": "Brief the team on the immediate work.",
+        "functions": [
+         "CFN-0065"
+        ]
+       },
+       {
+        "move": "Clarify each task and its owner.",
+        "functions": [
+         "CFN-0066"
+        ]
+       },
+       {
+        "move": "Check understanding and invite questions.",
+        "functions": [
+         "CFN-0015",
+         "CFN-0013"
+        ]
+       },
+       {
+        "move": "Ask for progress and identify obstacles.",
+        "functions": [
+         "CFN-0027",
+         "CFN-0028"
+        ]
+       },
+       {
+        "move": "Give specific everyday feedback and agree practical support.",
+        "functions": [
+         "CFN-0067",
+         "CFN-0026"
+        ]
+       },
+       {
+        "move": "Confirm the handover and remaining actions.",
+        "functions": [
+         "CFN-0033",
+         "CFN-0014"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Team members understand the immediate task and owner.",
+       "Questions and obstacles receive a clear response.",
+       "Updates identify completed, ongoing or blocked work.",
+       "Feedback addresses an observable action.",
+       "Handovers explain what remains and who will follow up."
+      ]
+     },
+     "L2|CM-11": {
+      "coreModule": "CM-11",
+      "summary": "Communicate priorities, decisions and performance expectations across people and teams. Gather relevant information, consider options, explain decisions and responsibilities, and review agreed outcomes. Use evidence and respectful questioning to understand performance gaps. Management responsibility and language proficiency remain separate: the same decision may need simpler or more developed English depending on the learner.",
+      "communicationMoves": [
+       {
+        "move": "Set the discussion purpose and priorities.",
+        "functions": [
+         "CFN-0051",
+         "CFN-0077"
+        ]
+       },
+       {
+        "move": "Gather relevant information and summarise the situation.",
+        "functions": [
+         "CFN-0011",
+         "CFN-0016"
+        ]
+       },
+       {
+        "move": "Discuss options and their trade-offs.",
+        "functions": [
+         "CFN-0044",
+         "CFN-0052"
+        ]
+       },
+       {
+        "move": "Explain the decision and its reasoning.",
+        "functions": [
+         "CFN-0074"
+        ]
+       },
+       {
+        "move": "Agree ownership and action points.",
+        "functions": [
+         "CFN-0066",
+         "CFN-0054"
+        ]
+       },
+       {
+        "move": "Discuss performance gaps and practical support.",
+        "functions": [
+         "CFN-0070",
+         "CFN-0071"
+        ]
+       },
+       {
+        "move": "Review progress against agreed goals.",
+        "functions": [
+         "CFN-0069",
+         "CFN-0030"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The purpose and priorities are clear to participants.",
+       "Decisions reflect the information available.",
+       "Actions have understood owners and review points.",
+       "Performance discussion uses specific evidence rather than personal labels.",
+       "English difficulty reflects the specified CEFR level, not the job title."
+      ]
+     },
+     "L3|ROL-0013": {
+      "role": "ROL-0013",
+      "parent": null,
+      "responsibilities": [
+       "Clarify recruitment needs with the relevant department head.",
+       "Ask candidates for relevant experience and specific work examples.",
+       "Discuss role expectations and onboarding questions using confirmed workplace information.",
+       "Respond to employee queries and clarify information that is uncertain.",
+       "Discuss performance gaps with evidence and invite the employee's explanation.",
+       "Hear employee concerns respectfully and identify an appropriate next conversation.",
+       "Explain agreed workplace decisions or policies without adding unconfirmed rules.",
+       "Summarise actions, ownership and review points."
+      ],
+      "stakeholders": [
+       "Candidate",
+       "Employee / team member",
+       "Department head",
+       "Senior manager"
+      ],
+      "keyFunctions": [
+       "CFN-0035",
+       "CFN-0011",
+       "CFN-0036",
+       "CFN-0070",
+       "CFN-0038",
+       "CFN-0074",
+       "CFN-0016",
+       "CFN-0024"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Recruitment conversation",
+        "text": "An HR conversation gathers information about the role and the candidate's relevant experience. The examples and work constraints come from the industry context; the shared role core does not assume one sector."
+       },
+       {
+        "title": "Performance evidence",
+        "text": "A performance gap is a difference between an agreed expectation and observed work. The manager's English should distinguish that evidence from assumptions about the employee's attitude or personal circumstances."
+       },
+       {
+        "title": "Employee concerns",
+        "text": "An employee may need information, support or a further conversation. The manager can listen, clarify the concern and explain a known next contact without promising confidentiality or an outcome beyond their authority."
+       },
+       {
+        "title": "Policy communication",
+        "text": "Explain only confirmed workplace information supplied in the situation. Do not invent employment rules, legal entitlements or disciplinary procedures."
+       },
+       {
+        "title": "Agreed follow-up",
+        "text": "A clear summary identifies the actions discussed, the people responsible and any agreed review point. It does not imply that a conversation alone settles a recruitment decision or employee concern."
+       }
+      ],
+      "deltaFromParent": []
+     },
      "L4|RPF-000004": null,
      "L5|SEN-0008|-": null
     }
@@ -123,7 +459,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 10 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "blockedNote": "Built when 2 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
  },
  "style": {
   "spelling": "UK",
@@ -708,7 +1044,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 2890,
+  "inputTokens": 5727,
   "maxOutputTokens": 7000
  }
 }

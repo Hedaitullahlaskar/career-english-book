@@ -1,0 +1,70 @@
+{
+ "id": "RCO-000001",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0080",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0080"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "d59585836676bbe3",
+ "content": {
+  "role": "ROL-0080",
+  "parent": null,
+  "responsibilities": [
+   "Invite customers to ask about available items.",
+   "Explain prices and requested quantities clearly.",
+   "Respond politely to requests for a lower price.",
+   "Clarify the amount or measure supplied.",
+   "Confirm payment, change and the transaction outcome.",
+   "Recognise returning customers and invite them back respectfully."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Regular customer",
+   "Supplier"
+  ],
+  "keyFunctions": [
+   "CFN-0034",
+   "CFN-0085",
+   "CFN-0086",
+   "CFN-0087",
+   "CFN-0089",
+   "CFN-0093"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Selling unit",
+    "text": "The price may apply to an individual item, a group or a measured amount. The vendor's English should make that unit clear so the customer understands what the stated price covers."
+   },
+   {
+    "title": "Price flexibility",
+    "text": "An available selling price and a customer's proposed price are different pieces of information. The vendor can explain an offer or decline it without inventing a discount or implying that bargaining is always available."
+   },
+   {
+    "title": "Transaction details",
+    "text": "An exchange may involve cash, UPI or another available method. Communication distinguishes the amount due, the payment result and any change. It does not prescribe payment-system procedures."
+   },
+   {
+    "title": "Returning customers",
+    "text": "A returning customer may refer to an earlier purchase. The vendor can clarify the current request without assuming that today's stock, amount or price is unchanged."
+   }
+  ],
+  "deltaFromParent": []
+ }
+}

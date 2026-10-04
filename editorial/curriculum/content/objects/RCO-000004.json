@@ -1,0 +1,75 @@
+{
+ "id": "RCO-000004",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0050",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0050"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "11fefc4f2724cf94",
+ "content": {
+  "role": "ROL-0050",
+  "parent": "ROL-0016",
+  "responsibilities": [
+   "Clarify the customer's preferred vehicle model or version.",
+   "Compare relevant vehicle features from the available product information.",
+   "Explain what the selected vehicle quotation includes and what remains to be confirmed.",
+   "Arrange the customer's test-drive appointment and confirm the meeting details.",
+   "Ask permission before proceeding with an appointment-related action.",
+   "Follow up on a showroom visit or vehicle quotation with the customer's current questions."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Sales Manager",
+   "Appointment coordinator"
+  ],
+  "keyFunctions": [
+   "CFN-0035",
+   "CFN-0091",
+   "CFN-0085",
+   "CFN-0097",
+   "CFN-0022",
+   "CFN-0014"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Model and version",
+    "text": "A model may be offered in more than one version. Features discussed with the customer should correspond to the actual option under consideration, using the dealership's available information."
+   },
+   {
+    "title": "Vehicle quotation",
+    "text": "A vehicle quotation may show several components or optional additions. Explain only the information provided in the quotation and identify amounts awaiting confirmation, without offering finance or regulatory advice."
+   },
+   {
+    "title": "Appointment coordination",
+    "text": "The pilot's test-drive communication covers the preferred option, availability, timing, meeting details and related customer questions. It does not cover vehicle operation or safety training."
+   },
+   {
+    "title": "Customer choice",
+    "text": "A customer may compare options, request more information or postpone a decision. The worker can clarify that preference and agree on the next contact without claiming that an appointment commits the customer to buy."
+   }
+  ],
+  "deltaFromParent": [
+   "Adds vehicle model/version identification and relevant feature comparisons.",
+   "Adds clarification of the selected vehicle quotation.",
+   "Adds communication-only test-drive appointment coordination.",
+   "Adds follow-up tied to a vehicle enquiry or showroom visit."
+  ]
+ }
+}

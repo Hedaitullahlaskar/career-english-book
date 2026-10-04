@@ -1,0 +1,28 @@
+{
+ "responsesValidated": 4,
+ "responsesIngested": 4,
+ "recordsStored": 44,
+ "reviewRecords": 176,
+ "lessonUnitsUnlocked": 0,
+ "requestsUnlocked": [
+  "REQ-000005"
+ ],
+ "nextRequestOutputs": 8,
+ "aiQa": "PASS",
+ "errors": 0,
+ "warnings": 0,
+ "duplicateIndexEntries": 0,
+ "duplicateContent": 0,
+ "vocabularyCollisions": 0,
+ "newVocabularyCodes": 0,
+ "existingReferenceCodes": 926,
+ "searchTests": "8/8 PASS",
+ "pipelineTest": "PASS (synthetic fixtures in isolated temporary store only)",
+ "composedUnits": 0,
+ "editorialReview": "PENDING",
+ "specialistReview": "NOT_REQUIRED",
+ "nativeReview": "NOT_REQUIRED",
+ "schemaValidation": "Repository subset validator: PASS; not full JSON Schema validation",
+ "contentScope": "L0-L3 only; no L4-L6 curriculum generated",
+ "baseCommit": "e2a529bc8079aab327a0bc56ff3ade1726ddd80a"
+}

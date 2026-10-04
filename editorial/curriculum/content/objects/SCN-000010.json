@@ -1,0 +1,48 @@
+{
+ "id": "SCN-000010",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0143",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0143"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "2ee0dc34e5a30379",
+ "content": {
+  "situation": "STM-0143",
+  "description": "An interviewer asks a candidate about relevant experience, work examples and expectations. They use questions to gather information and identify the candidate's needs, ask follow-up questions where needed, and close with a clear description of the next contact rather than an unsupported hiring promise.",
+  "flow": [
+   "Establish the focus of the interview conversation.",
+   "Ask about relevant experience and a specific example.",
+   "Follow up to clarify the candidate's contribution and priorities.",
+   "Invite questions about the role.",
+   "Clarify what is known about the next contact."
+  ],
+  "functions": [
+   "CFN-0035",
+   "CFN-0011"
+  ],
+  "variationPoints": [
+   "Role-specific evidence and examples.",
+   "Stakeholders involved in the selection conversation.",
+   "Candidate priorities and support needs.",
+   "B1 direct questions versus B2 probing and clarification.",
+   "Industry-specific constraints supplied by the later context overlay."
+  ]
+ }
+}

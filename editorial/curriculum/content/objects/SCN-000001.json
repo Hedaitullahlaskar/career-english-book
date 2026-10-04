@@ -1,0 +1,47 @@
+{
+ "id": "SCN-000001",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0020",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0020"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "1e5248b48fcbcabe",
+ "content": {
+  "situation": "STM-0020",
+  "description": "A customer asks for a lower price. The seller states the current price, considers the request within their authority, and accepts an offer or declines politely. The exchange ends with a clear agreed price or a respectful decision not to buy.",
+  "flow": [
+   "Establish the item, quantity and current price.",
+   "Hear the customer's proposed price.",
+   "Offer an available price or decline politely.",
+   "Confirm the agreed price or close without a sale."
+  ],
+  "functions": [
+   "CFN-0087",
+   "CFN-0085",
+   "CFN-0020"
+  ],
+  "variationPoints": [
+   "Whether bargaining is appropriate in the setting.",
+   "The seller's authority to change the price.",
+   "Single-item or quantity-based offers.",
+   "Short A1 exchanges or fuller explanations at higher CEFR levels."
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000021",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0011|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0011|B1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "0f939fdad349dfdc",
+ "content": {
+  "function": "CFN-0011",
+  "cefr": "B1",
+  "exponents": [
+   "Can you tell me about your previous role?",
+   "What happened after you spoke to the team?",
+   "Could you explain how you completed that task?"
+  ],
+  "notes": "Ask for relevant details using direct, polite questions."
+ }
+}

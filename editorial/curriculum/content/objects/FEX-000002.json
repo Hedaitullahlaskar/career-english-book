@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000002",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0085|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0085|A1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "8d134842455ea559",
+ "content": {
+  "function": "CFN-0085",
+  "cefr": "A1",
+  "exponents": [
+   "It is ₹100.",
+   "It is ₹50 each.",
+   "Two are ₹90."
+  ],
+  "notes": "State the price and make clear whether it is for one item or several."
+ }
+}

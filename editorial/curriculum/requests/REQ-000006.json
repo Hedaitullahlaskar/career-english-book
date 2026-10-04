@@ -6,18 +6,6 @@
  "layer": "L6",
  "status": "BLOCKED",
  "dependsOn": [
-  "L0|CFN-0020|A1",
-  "L0|CFN-0085|A1",
-  "L0|CFN-0086|A1",
-  "L0|CFN-0087|A1",
-  "L0|CFN-0089|A1",
-  "L1|STM-0020",
-  "L1|STM-0021",
-  "L1|STM-0034",
-  "L2|CM-03",
-  "L2|CM-04",
-  "L3|ROL-0080",
-  "L3|ROL-0081",
   "L4|RPF-000001",
   "L5|SEN-0012|solo"
  ],
@@ -59,13 +47,205 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0087|A1": null,
-     "L0|CFN-0085|A1": null,
-     "L0|CFN-0020|A1": null,
-     "L1|STM-0020": null,
-     "L2|CM-03": null,
-     "L3|ROL-0080": null,
-     "L3|ROL-0081": null,
+     "L0|CFN-0087|A1": {
+      "function": "CFN-0087",
+      "cefr": "A1",
+      "exponents": [
+       "Could you make it ₹90, please?",
+       "Can you give me a better price?",
+       "I can take ₹95."
+      ],
+      "notes": "Use a polite question to request a lower price or a short statement to offer one."
+     },
+     "L0|CFN-0085|A1": {
+      "function": "CFN-0085",
+      "cefr": "A1",
+      "exponents": [
+       "It is ₹100.",
+       "It is ₹50 each.",
+       "Two are ₹90."
+      ],
+      "notes": "State the price and make clear whether it is for one item or several."
+     },
+     "L0|CFN-0020|A1": {
+      "function": "CFN-0020",
+      "cefr": "A1",
+      "exponents": [
+       "Sorry, I cannot do that.",
+       "No, sorry.",
+       "Sorry, that is not possible."
+      ],
+      "notes": "Use a brief refusal with a polite word and a calm tone."
+     },
+     "L1|STM-0020": {
+      "situation": "STM-0020",
+      "description": "A customer asks for a lower price. The seller states the current price, considers the request within their authority, and accepts an offer or declines politely. The exchange ends with a clear agreed price or a respectful decision not to buy.",
+      "flow": [
+       "Establish the item, quantity and current price.",
+       "Hear the customer's proposed price.",
+       "Offer an available price or decline politely.",
+       "Confirm the agreed price or close without a sale."
+      ],
+      "functions": [
+       "CFN-0087",
+       "CFN-0085",
+       "CFN-0020"
+      ],
+      "variationPoints": [
+       "Whether bargaining is appropriate in the setting.",
+       "The seller's authority to change the price.",
+       "Single-item or quantity-based offers.",
+       "Short A1 exchanges or fuller explanations at higher CEFR levels."
+      ]
+     },
+     "L2|CM-03": {
+      "coreModule": "CM-03",
+      "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+      "communicationMoves": [
+       {
+        "move": "Welcome the customer and open the exchange.",
+        "functions": [
+         "CFN-0034"
+        ]
+       },
+       {
+        "move": "Ask questions to understand the customer's needs.",
+        "functions": [
+         "CFN-0035"
+        ]
+       },
+       {
+        "move": "Describe and compare relevant options.",
+        "functions": [
+         "CFN-0091"
+        ]
+       },
+       {
+        "move": "Explain the price and respond to concerns.",
+        "functions": [
+         "CFN-0085",
+         "CFN-0061"
+        ]
+       },
+       {
+        "move": "Discuss an available alternative or offer within the worker's authority.",
+        "functions": [
+         "CFN-0026",
+         "CFN-0092"
+        ]
+       },
+       {
+        "move": "Confirm the customer's chosen option and close respectfully.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       },
+       {
+        "move": "Follow up on an earlier enquiry when appropriate.",
+        "functions": [
+         "CFN-0022"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Recommendations respond to the customer's stated needs.",
+       "Prices and included items are explained clearly.",
+       "Claims are supported by available information.",
+       "The customer can decline without pressure.",
+       "The chosen option and next step are understood."
+      ]
+     },
+     "L3|ROL-0080": {
+      "role": "ROL-0080",
+      "parent": null,
+      "responsibilities": [
+       "Invite customers to ask about available items.",
+       "Explain prices and requested quantities clearly.",
+       "Respond politely to requests for a lower price.",
+       "Clarify the amount or measure supplied.",
+       "Confirm payment, change and the transaction outcome.",
+       "Recognise returning customers and invite them back respectfully."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0085",
+       "CFN-0086",
+       "CFN-0087",
+       "CFN-0089",
+       "CFN-0093"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Selling unit",
+        "text": "The price may apply to an individual item, a group or a measured amount. The vendor's English should make that unit clear so the customer understands what the stated price covers."
+       },
+       {
+        "title": "Price flexibility",
+        "text": "An available selling price and a customer's proposed price are different pieces of information. The vendor can explain an offer or decline it without inventing a discount or implying that bargaining is always available."
+       },
+       {
+        "title": "Transaction details",
+        "text": "An exchange may involve cash, UPI or another available method. Communication distinguishes the amount due, the payment result and any change. It does not prescribe payment-system procedures."
+       },
+       {
+        "title": "Returning customers",
+        "text": "A returning customer may refer to an earlier purchase. The vendor can clarify the current request without assuming that today's stock, amount or price is unchanged."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0081": {
+      "role": "ROL-0081",
+      "parent": "ROL-0080",
+      "responsibilities": [
+       "Name the requested vegetable or clarify which variety is wanted.",
+       "Explain differences between available sizes or varieties using observable descriptions.",
+       "Clarify whether the customer wants a piece count or a measured weight.",
+       "Offer an available substitute when the requested vegetable or quantity is unavailable.",
+       "Confirm mixed-item selections before calculating their separate amounts."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Produce supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0091",
+       "CFN-0086",
+       "CFN-0088",
+       "CFN-0026"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Produce identification",
+        "text": "Customers may use different names for the same vegetable or ask for a particular variety. The seller can clarify by pointing to or describing the available produce without claiming that unfamiliar names are interchangeable."
+       },
+       {
+        "title": "Count and weight",
+        "text": "A request for two pieces is different from a request for two kilos. The seller's language should confirm the vegetable and requested unit together, especially when an order contains several items."
+       },
+       {
+        "title": "Observable condition",
+        "text": "Size, colour and visible condition can be described directly. Avoid unsupported claims about health benefits, chemical treatment or quality certification."
+       },
+       {
+        "title": "Substitutions",
+        "text": "When the requested item is unavailable, the seller can describe an available alternative and ask whether the customer wants it. A substitution remains a customer choice."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vegetable and variety identification to the parent vendor core.",
+       "Adds produce-specific descriptions without unsupported quality claims.",
+       "Adds clarification of piece-count versus weight-based produce requests.",
+       "Adds customer-approved substitutions and mixed-vegetable order clarification."
+      ]
+     },
      "L4|RPF-000001": null,
      "L5|SEN-0012|solo": null
     }
@@ -95,11 +275,184 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0086|A1": null,
-     "L1|STM-0021": null,
-     "L2|CM-03": null,
-     "L3|ROL-0080": null,
-     "L3|ROL-0081": null,
+     "L0|CFN-0086|A1": {
+      "function": "CFN-0086",
+      "cefr": "A1",
+      "exponents": [
+       "How many do you want?",
+       "How much do you need?",
+       "This weighs one kilo.",
+       "Do you want a small one?"
+      ],
+      "notes": "Use how many for countable items and how much for an amount or weight."
+     },
+     "L1|STM-0021": {
+      "situation": "STM-0021",
+      "description": "A customer and seller clarify how much of an item is wanted. They distinguish item count from weight, size or another measure and confirm the quantity before the transaction continues.",
+      "flow": [
+       "Ask which item and quantity the customer wants.",
+       "Clarify the unit of measure or size.",
+       "State the available or measured quantity.",
+       "Confirm the quantity the customer accepts."
+      ],
+      "functions": [
+       "CFN-0086"
+      ],
+      "variationPoints": [
+       "Counting items versus discussing weight, volume or length.",
+       "Available sizes and units used in the setting.",
+       "Whether the seller can supply the exact requested quantity.",
+       "Language length and clarification support by CEFR level."
+      ]
+     },
+     "L2|CM-03": {
+      "coreModule": "CM-03",
+      "summary": "Support a buying decision through clear, respectful communication. Establish what the customer needs, explain relevant options and prices, respond to questions or objections, and confirm the customer's choice. Distinguish available offers from requests that need authorisation. Good selling helps the customer understand the options and next step without pressure or unsupported claims.",
+      "communicationMoves": [
+       {
+        "move": "Welcome the customer and open the exchange.",
+        "functions": [
+         "CFN-0034"
+        ]
+       },
+       {
+        "move": "Ask questions to understand the customer's needs.",
+        "functions": [
+         "CFN-0035"
+        ]
+       },
+       {
+        "move": "Describe and compare relevant options.",
+        "functions": [
+         "CFN-0091"
+        ]
+       },
+       {
+        "move": "Explain the price and respond to concerns.",
+        "functions": [
+         "CFN-0085",
+         "CFN-0061"
+        ]
+       },
+       {
+        "move": "Discuss an available alternative or offer within the worker's authority.",
+        "functions": [
+         "CFN-0026",
+         "CFN-0092"
+        ]
+       },
+       {
+        "move": "Confirm the customer's chosen option and close respectfully.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       },
+       {
+        "move": "Follow up on an earlier enquiry when appropriate.",
+        "functions": [
+         "CFN-0022"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "Recommendations respond to the customer's stated needs.",
+       "Prices and included items are explained clearly.",
+       "Claims are supported by available information.",
+       "The customer can decline without pressure.",
+       "The chosen option and next step are understood."
+      ]
+     },
+     "L3|ROL-0080": {
+      "role": "ROL-0080",
+      "parent": null,
+      "responsibilities": [
+       "Invite customers to ask about available items.",
+       "Explain prices and requested quantities clearly.",
+       "Respond politely to requests for a lower price.",
+       "Clarify the amount or measure supplied.",
+       "Confirm payment, change and the transaction outcome.",
+       "Recognise returning customers and invite them back respectfully."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0085",
+       "CFN-0086",
+       "CFN-0087",
+       "CFN-0089",
+       "CFN-0093"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Selling unit",
+        "text": "The price may apply to an individual item, a group or a measured amount. The vendor's English should make that unit clear so the customer understands what the stated price covers."
+       },
+       {
+        "title": "Price flexibility",
+        "text": "An available selling price and a customer's proposed price are different pieces of information. The vendor can explain an offer or decline it without inventing a discount or implying that bargaining is always available."
+       },
+       {
+        "title": "Transaction details",
+        "text": "An exchange may involve cash, UPI or another available method. Communication distinguishes the amount due, the payment result and any change. It does not prescribe payment-system procedures."
+       },
+       {
+        "title": "Returning customers",
+        "text": "A returning customer may refer to an earlier purchase. The vendor can clarify the current request without assuming that today's stock, amount or price is unchanged."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0081": {
+      "role": "ROL-0081",
+      "parent": "ROL-0080",
+      "responsibilities": [
+       "Name the requested vegetable or clarify which variety is wanted.",
+       "Explain differences between available sizes or varieties using observable descriptions.",
+       "Clarify whether the customer wants a piece count or a measured weight.",
+       "Offer an available substitute when the requested vegetable or quantity is unavailable.",
+       "Confirm mixed-item selections before calculating their separate amounts."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Produce supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0091",
+       "CFN-0086",
+       "CFN-0088",
+       "CFN-0026"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Produce identification",
+        "text": "Customers may use different names for the same vegetable or ask for a particular variety. The seller can clarify by pointing to or describing the available produce without claiming that unfamiliar names are interchangeable."
+       },
+       {
+        "title": "Count and weight",
+        "text": "A request for two pieces is different from a request for two kilos. The seller's language should confirm the vegetable and requested unit together, especially when an order contains several items."
+       },
+       {
+        "title": "Observable condition",
+        "text": "Size, colour and visible condition can be described directly. Avoid unsupported claims about health benefits, chemical treatment or quality certification."
+       },
+       {
+        "title": "Substitutions",
+        "text": "When the requested item is unavailable, the seller can describe an available alternative and ask whether the customer wants it. A substitution remains a customer choice."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vegetable and variety identification to the parent vendor core.",
+       "Adds produce-specific descriptions without unsupported quality claims.",
+       "Adds clarification of piece-count versus weight-based produce requests.",
+       "Adds customer-approved substitutions and mixed-vegetable order clarification."
+      ]
+     },
      "L4|RPF-000001": null,
      "L5|SEN-0012|solo": null
     }
@@ -129,11 +482,178 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0089|A1": null,
-     "L1|STM-0034": null,
-     "L2|CM-04": null,
-     "L3|ROL-0080": null,
-     "L3|ROL-0081": null,
+     "L0|CFN-0089|A1": {
+      "function": "CFN-0089",
+      "cefr": "A1",
+      "exponents": [
+       "That is ₹80, please.",
+       "Cash or UPI?",
+       "Here is your ₹20 change.",
+       "Here is your receipt."
+      ],
+      "notes": "State the amount and use the payment or change phrase that fits the transaction."
+     },
+     "L1|STM-0034": {
+      "situation": "STM-0034",
+      "description": "A worker and customer complete a payment exchange. They confirm the amount, discuss an available payment method, and acknowledge the payment result. Where relevant, they confirm change or a receipt without presenting an unconfirmed payment as successful.",
+      "flow": [
+       "State the total amount due.",
+       "Confirm the customer's payment method from the available options.",
+       "Check and communicate the known payment result.",
+       "Confirm any change or receipt and close the exchange."
+      ],
+      "functions": [
+       "CFN-0089"
+      ],
+      "variationPoints": [
+       "Which payment methods the workplace actually accepts.",
+       "Exact payment versus change.",
+       "Whether a receipt is available or requested.",
+       "Simple spoken amounts or fuller explanations by CEFR level."
+      ]
+     },
+     "L2|CM-04": {
+      "coreModule": "CM-04",
+      "summary": "Complete the communication around a transaction accurately. Confirm the agreed order or amount, explain the available payment options, acknowledge the known payment result, and clarify any change or receipt. If payment information is unclear or a problem occurs, check the relevant facts and explain who can resolve it. This module teaches transaction language rather than financial advice or payment-system procedures.",
+      "communicationMoves": [
+       {
+        "move": "Confirm the agreed order and total.",
+        "functions": [
+         "CFN-0088",
+         "CFN-0085"
+        ]
+       },
+       {
+        "move": "Discuss an available payment method.",
+        "functions": [
+         "CFN-0089"
+        ]
+       },
+       {
+        "move": "Clarify an unclear amount or payment detail.",
+        "functions": [
+         "CFN-0013",
+         "CFN-0014"
+        ]
+       },
+       {
+        "move": "Acknowledge the known payment result and any change or receipt.",
+        "functions": [
+         "CFN-0089"
+        ]
+       },
+       {
+        "move": "Explain a payment problem or refer it to the appropriate person.",
+        "functions": [
+         "CFN-0090",
+         "CFN-0024"
+        ]
+       },
+       {
+        "move": "Close the transaction politely.",
+        "functions": [
+         "CFN-0041"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The amount matches the agreed transaction.",
+       "Available methods are distinguished from unavailable options.",
+       "Payment is not described as complete without confirmation.",
+       "Any change or receipt is communicated accurately.",
+       "Unresolved problems are explained without unsupported promises."
+      ]
+     },
+     "L3|ROL-0080": {
+      "role": "ROL-0080",
+      "parent": null,
+      "responsibilities": [
+       "Invite customers to ask about available items.",
+       "Explain prices and requested quantities clearly.",
+       "Respond politely to requests for a lower price.",
+       "Clarify the amount or measure supplied.",
+       "Confirm payment, change and the transaction outcome.",
+       "Recognise returning customers and invite them back respectfully."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0034",
+       "CFN-0085",
+       "CFN-0086",
+       "CFN-0087",
+       "CFN-0089",
+       "CFN-0093"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Selling unit",
+        "text": "The price may apply to an individual item, a group or a measured amount. The vendor's English should make that unit clear so the customer understands what the stated price covers."
+       },
+       {
+        "title": "Price flexibility",
+        "text": "An available selling price and a customer's proposed price are different pieces of information. The vendor can explain an offer or decline it without inventing a discount or implying that bargaining is always available."
+       },
+       {
+        "title": "Transaction details",
+        "text": "An exchange may involve cash, UPI or another available method. Communication distinguishes the amount due, the payment result and any change. It does not prescribe payment-system procedures."
+       },
+       {
+        "title": "Returning customers",
+        "text": "A returning customer may refer to an earlier purchase. The vendor can clarify the current request without assuming that today's stock, amount or price is unchanged."
+       }
+      ],
+      "deltaFromParent": []
+     },
+     "L3|ROL-0081": {
+      "role": "ROL-0081",
+      "parent": "ROL-0080",
+      "responsibilities": [
+       "Name the requested vegetable or clarify which variety is wanted.",
+       "Explain differences between available sizes or varieties using observable descriptions.",
+       "Clarify whether the customer wants a piece count or a measured weight.",
+       "Offer an available substitute when the requested vegetable or quantity is unavailable.",
+       "Confirm mixed-item selections before calculating their separate amounts."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Regular customer",
+       "Produce supplier"
+      ],
+      "keyFunctions": [
+       "CFN-0091",
+       "CFN-0086",
+       "CFN-0088",
+       "CFN-0026"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Produce identification",
+        "text": "Customers may use different names for the same vegetable or ask for a particular variety. The seller can clarify by pointing to or describing the available produce without claiming that unfamiliar names are interchangeable."
+       },
+       {
+        "title": "Count and weight",
+        "text": "A request for two pieces is different from a request for two kilos. The seller's language should confirm the vegetable and requested unit together, especially when an order contains several items."
+       },
+       {
+        "title": "Observable condition",
+        "text": "Size, colour and visible condition can be described directly. Avoid unsupported claims about health benefits, chemical treatment or quality certification."
+       },
+       {
+        "title": "Substitutions",
+        "text": "When the requested item is unavailable, the seller can describe an available alternative and ask whether the customer wants it. A substitution remains a customer choice."
+       }
+      ],
+      "deltaFromParent": [
+       "Adds vegetable and variety identification to the parent vendor core.",
+       "Adds produce-specific descriptions without unsupported quality claims.",
+       "Adds clarification of piece-count versus weight-based produce requests.",
+       "Adds customer-approved substitutions and mixed-vegetable order clarification."
+      ]
+     },
      "L4|RPF-000001": null,
      "L5|SEN-0012|solo": null
     }
@@ -164,7 +684,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 14 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "blockedNote": "Built when 2 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
  },
  "style": {
   "spelling": "UK",
@@ -749,7 +1269,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 3098,
+  "inputTokens": 7423,
   "maxOutputTokens": 10500
  }
 }

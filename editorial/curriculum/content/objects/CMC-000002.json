@@ -1,0 +1,78 @@
+{
+ "id": "CMC-000002",
+ "type": "core-module",
+ "layer": "L2",
+ "key": "L2|CM-04",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000003",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L2|CM-04"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "e928b0f615e38c95",
+ "content": {
+  "coreModule": "CM-04",
+  "summary": "Complete the communication around a transaction accurately. Confirm the agreed order or amount, explain the available payment options, acknowledge the known payment result, and clarify any change or receipt. If payment information is unclear or a problem occurs, check the relevant facts and explain who can resolve it. This module teaches transaction language rather than financial advice or payment-system procedures.",
+  "communicationMoves": [
+   {
+    "move": "Confirm the agreed order and total.",
+    "functions": [
+     "CFN-0088",
+     "CFN-0085"
+    ]
+   },
+   {
+    "move": "Discuss an available payment method.",
+    "functions": [
+     "CFN-0089"
+    ]
+   },
+   {
+    "move": "Clarify an unclear amount or payment detail.",
+    "functions": [
+     "CFN-0013",
+     "CFN-0014"
+    ]
+   },
+   {
+    "move": "Acknowledge the known payment result and any change or receipt.",
+    "functions": [
+     "CFN-0089"
+    ]
+   },
+   {
+    "move": "Explain a payment problem or refer it to the appropriate person.",
+    "functions": [
+     "CFN-0090",
+     "CFN-0024"
+    ]
+   },
+   {
+    "move": "Close the transaction politely.",
+    "functions": [
+     "CFN-0041"
+    ]
+   }
+  ],
+  "qualityCriteria": [
+   "The amount matches the agreed transaction.",
+   "Available methods are distinguished from unavailable options.",
+   "Payment is not described as complete without confirmation.",
+   "Any change or receipt is communicated accurately.",
+   "Unresolved problems are explained without unsupported promises."
+  ]
+ }
+}

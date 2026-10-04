@@ -1,0 +1,72 @@
+{
+ "id": "RCO-000002",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0081",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0081"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "a62b859d1920505c",
+ "content": {
+  "role": "ROL-0081",
+  "parent": "ROL-0080",
+  "responsibilities": [
+   "Name the requested vegetable or clarify which variety is wanted.",
+   "Explain differences between available sizes or varieties using observable descriptions.",
+   "Clarify whether the customer wants a piece count or a measured weight.",
+   "Offer an available substitute when the requested vegetable or quantity is unavailable.",
+   "Confirm mixed-item selections before calculating their separate amounts."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Regular customer",
+   "Produce supplier"
+  ],
+  "keyFunctions": [
+   "CFN-0091",
+   "CFN-0086",
+   "CFN-0088",
+   "CFN-0026"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Produce identification",
+    "text": "Customers may use different names for the same vegetable or ask for a particular variety. The seller can clarify by pointing to or describing the available produce without claiming that unfamiliar names are interchangeable."
+   },
+   {
+    "title": "Count and weight",
+    "text": "A request for two pieces is different from a request for two kilos. The seller's language should confirm the vegetable and requested unit together, especially when an order contains several items."
+   },
+   {
+    "title": "Observable condition",
+    "text": "Size, colour and visible condition can be described directly. Avoid unsupported claims about health benefits, chemical treatment or quality certification."
+   },
+   {
+    "title": "Substitutions",
+    "text": "When the requested item is unavailable, the seller can describe an available alternative and ask whether the customer wants it. A substitution remains a customer choice."
+   }
+  ],
+  "deltaFromParent": [
+   "Adds vegetable and variety identification to the parent vendor core.",
+   "Adds produce-specific descriptions without unsupported quality claims.",
+   "Adds clarification of piece-count versus weight-based produce requests.",
+   "Adds customer-approved substitutions and mixed-vegetable order clarification."
+  ]
+ }
+}

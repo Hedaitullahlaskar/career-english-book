@@ -1,48 +1,12 @@
 {
  "requests": [
   {
-   "request": "REQ-000001",
-   "batch": "B1",
-   "layer": "L0",
-   "status": "PREPARED",
-   "outputs": 22,
-   "estimatedInputTokens": 2428,
-   "maxOutputTokens": 5500
-  },
-  {
-   "request": "REQ-000002",
-   "batch": "B2",
-   "layer": "L1",
-   "status": "PREPARED",
-   "outputs": 11,
-   "estimatedInputTokens": 2428,
-   "maxOutputTokens": 4400
-  },
-  {
-   "request": "REQ-000003",
-   "batch": "B3",
-   "layer": "L2",
-   "status": "PREPARED",
-   "outputs": 5,
-   "estimatedInputTokens": 1346,
-   "maxOutputTokens": 3000
-  },
-  {
-   "request": "REQ-000004",
-   "batch": "B4",
-   "layer": "L3",
-   "status": "PREPARED",
-   "outputs": 6,
-   "estimatedInputTokens": 1784,
-   "maxOutputTokens": 5400
-  },
-  {
    "request": "REQ-000005",
    "batch": "B5",
    "layer": "L4+L5",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 8,
-   "estimatedInputTokens": 2343,
+   "estimatedInputTokens": 4859,
    "maxOutputTokens": 7200
   },
   {
@@ -51,7 +15,7 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 3,
-   "estimatedInputTokens": 3098,
+   "estimatedInputTokens": 7423,
    "maxOutputTokens": 10500
   },
   {
@@ -60,7 +24,7 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 3,
-   "estimatedInputTokens": 3134,
+   "estimatedInputTokens": 7941,
    "maxOutputTokens": 10500
   },
   {
@@ -69,7 +33,7 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 1,
-   "estimatedInputTokens": 2661,
+   "estimatedInputTokens": 4198,
    "maxOutputTokens": 3500
   },
   {
@@ -78,7 +42,7 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 3,
-   "estimatedInputTokens": 3200,
+   "estimatedInputTokens": 6695,
    "maxOutputTokens": 10500
   },
   {
@@ -87,7 +51,7 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 2,
-   "estimatedInputTokens": 2890,
+   "estimatedInputTokens": 5727,
    "maxOutputTokens": 7000
   },
   {
@@ -96,12 +60,12 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 2,
-   "estimatedInputTokens": 2909,
+   "estimatedInputTokens": 5685,
    "maxOutputTokens": 7000
   }
  ],
- "totalEstimatedInputTokens": 28221,
- "totalMaxOutputTokens": 74500,
+ "totalEstimatedInputTokens": 42528,
+ "totalMaxOutputTokens": 56200,
  "estimatedCost": null,
  "pricing": {
   "currency": null,

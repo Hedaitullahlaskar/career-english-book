@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000015",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0037|A2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0037|A2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "4c928a653508ad33",
+ "content": {
+  "function": "CFN-0037",
+  "cefr": "A2",
+  "exponents": [
+   "Please tell me which item is missing.",
+   "I understand you received the wrong item.",
+   "Let me check the order details."
+  ],
+  "notes": "Acknowledge the customer's problem and check the relevant facts before discussing an outcome."
+ }
+}

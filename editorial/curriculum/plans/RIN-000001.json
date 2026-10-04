@@ -22,41 +22,41 @@
   {
    "layer": "L0",
    "key": "L0|CFN-0087|A1",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000001",
+   "objectId": "FEX-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": []
   },
   {
    "layer": "L0",
    "key": "L0|CFN-0085|A1",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000001",
+   "objectId": "FEX-000002",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": []
   },
   {
    "layer": "L0",
    "key": "L0|CFN-0020|A1",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000001",
+   "objectId": "FEX-000003",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": []
   },
   {
    "layer": "L1",
    "key": "L1|STM-0020",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000002",
+   "objectId": "SCN-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": []
   },
   {
    "layer": "L2",
    "key": "L2|CM-03",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000003",
+   "objectId": "CMC-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": [
     "RIN-000002",
     "RIN-000004",
@@ -68,9 +68,9 @@
   {
    "layer": "L3",
    "key": "L3|ROL-0080",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000004",
+   "objectId": "RCO-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": [
     "RIN-000002",
     "RIN-000003"
@@ -79,9 +79,9 @@
   {
    "layer": "L3",
    "key": "L3|ROL-0081",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000004",
+   "objectId": "RCO-000002",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": [
     "RIN-000002",
     "RIN-000003"

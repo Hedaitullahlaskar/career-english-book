@@ -1,0 +1,80 @@
+{
+ "id": "CMC-000003",
+ "type": "core-module",
+ "layer": "L2",
+ "key": "L2|CM-06",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000003",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L2|CM-06"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "6350f605e8fcc606",
+ "content": {
+  "coreModule": "CM-06",
+  "summary": "Coordinate pickup, delivery and arrival through clear exchanges with customers and workplace contacts. Confirm the relevant order, address or meeting details, communicate known status and delays, and handle discrepancies within the worker's authority. The focus is information exchange and handover. It does not teach vehicle operation, routes, traffic rules or safety practices.",
+  "communicationMoves": [
+   {
+    "move": "Identify the relevant order or pickup details.",
+    "functions": [
+     "CFN-0088",
+     "CFN-0014"
+    ]
+   },
+   {
+    "move": "Clarify the address or meeting location.",
+    "functions": [
+     "CFN-0095",
+     "CFN-0013"
+    ]
+   },
+   {
+    "move": "Give a factual status or delay update.",
+    "functions": [
+     "CFN-0027",
+     "CFN-0028"
+    ]
+   },
+   {
+    "move": "Announce arrival and explain the contact purpose.",
+    "functions": [
+     "CFN-0096"
+    ]
+   },
+   {
+    "move": "Acknowledge a discrepancy and contact the appropriate team.",
+    "functions": [
+     "CFN-0037",
+     "CFN-0024"
+    ]
+   },
+   {
+    "move": "Confirm the communication or handover outcome.",
+    "functions": [
+     "CFN-0014",
+     "CFN-0041"
+    ]
+   }
+  ],
+  "qualityCriteria": [
+   "The exchange concerns the correct order or contact.",
+   "Unclear location details are checked rather than guessed.",
+   "Updates distinguish known facts from estimates.",
+   "Complaints are acknowledged without blame or unauthorised remedies.",
+   "The customer understands the next communication step."
+  ]
+ }
+}

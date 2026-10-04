@@ -1,0 +1,46 @@
+{
+ "id": "SCN-000005",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0026",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0026"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "893a777549ef4575",
+ "content": {
+  "situation": "STM-0026",
+  "description": "A customer and worker arrange a test-drive appointment. They clarify the preferred model or option, compare relevant features simply, seek permission before the proposed appointment-related action, and confirm the arrangement. The exchange covers coordination and customer communication only.",
+  "flow": [
+   "Clarify which model or option the customer wants to try.",
+   "Describe or compare the relevant options simply.",
+   "Ask permission to proceed with the proposed appointment arrangement.",
+   "Confirm the agreed time, meeting point and next contact."
+  ],
+  "functions": [
+   "CFN-0091",
+   "CFN-0097"
+  ],
+  "variationPoints": [
+   "Model availability and appointment timing.",
+   "The customer's preferred option and comparison questions.",
+   "The dealership's test-drive policy, referred to generically.",
+   "The level of language support, while keeping every version communication-only."
+  ]
+ }
+}

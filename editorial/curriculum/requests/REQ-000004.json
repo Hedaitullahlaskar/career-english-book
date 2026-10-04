@@ -4,7 +4,7 @@
  "batch": "B4",
  "mode": "generate",
  "layer": "L3",
- "status": "PREPARED",
+ "status": "INGESTED",
  "dependsOn": [],
  "expectedOutputs": [
   {

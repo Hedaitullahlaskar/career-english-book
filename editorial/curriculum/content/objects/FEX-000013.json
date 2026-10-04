@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000013",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0095|A2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0095|A2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "7285c26cde685262",
+ "content": {
+  "function": "CFN-0095",
+  "cefr": "A2",
+  "exponents": [
+   "Is your building next to the park?",
+   "Can you confirm the building name, please?",
+   "Is that Flat 12 on the second floor?"
+  ],
+  "notes": "Check a specific location detail by asking the other person to confirm it."
+ }
+}

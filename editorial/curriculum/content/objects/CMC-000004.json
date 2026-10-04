@@ -1,0 +1,87 @@
+{
+ "id": "CMC-000004",
+ "type": "core-module",
+ "layer": "L2",
+ "key": "L2|CM-11",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000003",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L2|CM-11"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "932fa1e57079c450",
+ "content": {
+  "coreModule": "CM-11",
+  "summary": "Communicate priorities, decisions and performance expectations across people and teams. Gather relevant information, consider options, explain decisions and responsibilities, and review agreed outcomes. Use evidence and respectful questioning to understand performance gaps. Management responsibility and language proficiency remain separate: the same decision may need simpler or more developed English depending on the learner.",
+  "communicationMoves": [
+   {
+    "move": "Set the discussion purpose and priorities.",
+    "functions": [
+     "CFN-0051",
+     "CFN-0077"
+    ]
+   },
+   {
+    "move": "Gather relevant information and summarise the situation.",
+    "functions": [
+     "CFN-0011",
+     "CFN-0016"
+    ]
+   },
+   {
+    "move": "Discuss options and their trade-offs.",
+    "functions": [
+     "CFN-0044",
+     "CFN-0052"
+    ]
+   },
+   {
+    "move": "Explain the decision and its reasoning.",
+    "functions": [
+     "CFN-0074"
+    ]
+   },
+   {
+    "move": "Agree ownership and action points.",
+    "functions": [
+     "CFN-0066",
+     "CFN-0054"
+    ]
+   },
+   {
+    "move": "Discuss performance gaps and practical support.",
+    "functions": [
+     "CFN-0070",
+     "CFN-0071"
+    ]
+   },
+   {
+    "move": "Review progress against agreed goals.",
+    "functions": [
+     "CFN-0069",
+     "CFN-0030"
+    ]
+   }
+  ],
+  "qualityCriteria": [
+   "The purpose and priorities are clear to participants.",
+   "Decisions reflect the information available.",
+   "Actions have understood owners and review points.",
+   "Performance discussion uses specific evidence rather than personal labels.",
+   "English difficulty reflects the specified CEFR level, not the job title."
+  ]
+ }
+}

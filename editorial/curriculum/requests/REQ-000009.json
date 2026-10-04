@@ -6,17 +6,6 @@
  "layer": "L6",
  "status": "BLOCKED",
  "dependsOn": [
-  "L0|CFN-0007|A2",
-  "L0|CFN-0013|A2",
-  "L0|CFN-0024|A2",
-  "L0|CFN-0028|A2",
-  "L0|CFN-0037|A2",
-  "L0|CFN-0095|A2",
-  "L1|STM-0040",
-  "L1|STM-0042",
-  "L1|STM-0043",
-  "L2|CM-06",
-  "L3|ROL-0157",
   "L4|RPF-000003",
   "L5|SEN-0003|-"
  ],
@@ -54,11 +43,152 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0028|A2": null,
-     "L0|CFN-0007|A2": null,
-     "L1|STM-0042": null,
-     "L2|CM-06": null,
-     "L3|ROL-0157": null,
+     "L0|CFN-0028|A2": {
+      "function": "CFN-0028",
+      "cefr": "A2",
+      "exponents": [
+       "There is a delay with your order.",
+       "It is taking longer than expected.",
+       "I do not have a new time yet."
+      ],
+      "notes": "State the known delay clearly and avoid presenting an uncertain time as confirmed."
+     },
+     "L0|CFN-0007|A2": {
+      "function": "CFN-0007",
+      "cefr": "A2",
+      "exponents": [
+       "I am sorry I gave you the wrong time.",
+       "Sorry, I made a mistake.",
+       "I am sorry I missed your message."
+      ],
+      "notes": "Apologise for an action you actually took rather than accepting unsupported responsibility."
+     },
+     "L1|STM-0042": {
+      "situation": "STM-0042",
+      "description": "A worker tells a customer that a delivery is late. They state what is known, distinguish a confirmed update from an estimate, and apologise for their own mistake where responsibility is established. They agree on the next update without making unsupported promises.",
+      "flow": [
+       "Identify the order and explain the known delay.",
+       "Give any confirmed information or identify what remains uncertain.",
+       "Apologise for an established personal mistake where relevant.",
+       "Confirm how the customer will receive the next update."
+      ],
+      "functions": [
+       "CFN-0028",
+       "CFN-0007"
+      ],
+      "variationPoints": [
+       "A known revised time versus no confirmed time.",
+       "Whether the worker caused a specific communication error.",
+       "A spoken call versus a short written update.",
+       "A2 sentence length and support for explaining uncertainty."
+      ]
+     },
+     "L2|CM-06": {
+      "coreModule": "CM-06",
+      "summary": "Coordinate pickup, delivery and arrival through clear exchanges with customers and workplace contacts. Confirm the relevant order, address or meeting details, communicate known status and delays, and handle discrepancies within the worker's authority. The focus is information exchange and handover. It does not teach vehicle operation, routes, traffic rules or safety practices.",
+      "communicationMoves": [
+       {
+        "move": "Identify the relevant order or pickup details.",
+        "functions": [
+         "CFN-0088",
+         "CFN-0014"
+        ]
+       },
+       {
+        "move": "Clarify the address or meeting location.",
+        "functions": [
+         "CFN-0095",
+         "CFN-0013"
+        ]
+       },
+       {
+        "move": "Give a factual status or delay update.",
+        "functions": [
+         "CFN-0027",
+         "CFN-0028"
+        ]
+       },
+       {
+        "move": "Announce arrival and explain the contact purpose.",
+        "functions": [
+         "CFN-0096"
+        ]
+       },
+       {
+        "move": "Acknowledge a discrepancy and contact the appropriate team.",
+        "functions": [
+         "CFN-0037",
+         "CFN-0024"
+        ]
+       },
+       {
+        "move": "Confirm the communication or handover outcome.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The exchange concerns the correct order or contact.",
+       "Unclear location details are checked rather than guessed.",
+       "Updates distinguish known facts from estimates.",
+       "Complaints are acknowledged without blame or unauthorised remedies.",
+       "The customer understands the next communication step."
+      ]
+     },
+     "L3|ROL-0157": {
+      "role": "ROL-0157",
+      "parent": null,
+      "responsibilities": [
+       "Confirm pickup and order details with restaurant staff.",
+       "Contact the customer to clarify an address or meeting point.",
+       "Announce arrival and explain the purpose of the contact.",
+       "Communicate known delays and distinguish estimates from confirmed updates.",
+       "Acknowledge reports of wrong or missing items and clarify the discrepancy.",
+       "Pass issues outside the worker's authority to the support team.",
+       "Confirm the handover information needed for the current order."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Restaurant staff",
+       "Support team",
+       "Building guard / receptionist"
+      ],
+      "keyFunctions": [
+       "CFN-0088",
+       "CFN-0095",
+       "CFN-0013",
+       "CFN-0096",
+       "CFN-0028",
+       "CFN-0037",
+       "CFN-0024",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Order identity",
+        "text": "A delivery conversation needs enough order information to identify the relevant exchange. Clarify the available order details instead of assuming that every customer query concerns the same order."
+       },
+       {
+        "title": "Location clarification",
+        "text": "A building name, flat number, entrance or landmark may need confirmation. The language task is to check those details with the customer or relevant contact, not to give route or driving guidance."
+       },
+       {
+        "title": "Delay updates",
+        "text": "The worker can report the current known status and explain when an arrival time is uncertain. An estimate should not be described as a guaranteed time."
+       },
+       {
+        "title": "Discrepancy handling",
+        "text": "A customer's report of a missing or wrong item needs clarification. The worker can communicate the reported discrepancy to the restaurant or support team without deciding an unauthorised refund or replacement."
+       },
+       {
+        "title": "Handover confirmation",
+        "text": "The information requested to confirm a handover depends on the current order and workplace arrangement. The lesson may use supplied details but must not invent a universal platform procedure."
+       }
+      ],
+      "deltaFromParent": []
+     },
      "L4|RPF-000003": null,
      "L5|SEN-0003|-": null
     }
@@ -97,11 +227,152 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0095|A2": null,
-     "L0|CFN-0013|A2": null,
-     "L1|STM-0040": null,
-     "L2|CM-06": null,
-     "L3|ROL-0157": null,
+     "L0|CFN-0095|A2": {
+      "function": "CFN-0095",
+      "cefr": "A2",
+      "exponents": [
+       "Is your building next to the park?",
+       "Can you confirm the building name, please?",
+       "Is that Flat 12 on the second floor?"
+      ],
+      "notes": "Check a specific location detail by asking the other person to confirm it."
+     },
+     "L0|CFN-0013|A2": {
+      "function": "CFN-0013",
+      "cefr": "A2",
+      "exponents": [
+       "Could you say that again, please?",
+       "Do you mean the main entrance?",
+       "Could you repeat the number, please?"
+      ],
+      "notes": "Ask for the particular detail you did not understand."
+     },
+     "L1|STM-0040": {
+      "situation": "STM-0040",
+      "description": "A worker calls a customer because an address or meeting location needs clarification. They check the relevant building, entrance, flat number or landmark, ask for repetition when needed, and read back the agreed location details.",
+      "flow": [
+       "Identify the purpose of the call.",
+       "Ask about the unclear location detail.",
+       "Request clarification or repetition as needed.",
+       "Confirm the agreed address or meeting point."
+      ],
+      "functions": [
+       "CFN-0095",
+       "CFN-0013"
+      ],
+      "variationPoints": [
+       "Building name, entrance, flat number or landmark.",
+       "Customer contact versus contact with a receptionist or guard.",
+       "Which location detail is unclear.",
+       "The number of details handled in each A2 turn."
+      ]
+     },
+     "L2|CM-06": {
+      "coreModule": "CM-06",
+      "summary": "Coordinate pickup, delivery and arrival through clear exchanges with customers and workplace contacts. Confirm the relevant order, address or meeting details, communicate known status and delays, and handle discrepancies within the worker's authority. The focus is information exchange and handover. It does not teach vehicle operation, routes, traffic rules or safety practices.",
+      "communicationMoves": [
+       {
+        "move": "Identify the relevant order or pickup details.",
+        "functions": [
+         "CFN-0088",
+         "CFN-0014"
+        ]
+       },
+       {
+        "move": "Clarify the address or meeting location.",
+        "functions": [
+         "CFN-0095",
+         "CFN-0013"
+        ]
+       },
+       {
+        "move": "Give a factual status or delay update.",
+        "functions": [
+         "CFN-0027",
+         "CFN-0028"
+        ]
+       },
+       {
+        "move": "Announce arrival and explain the contact purpose.",
+        "functions": [
+         "CFN-0096"
+        ]
+       },
+       {
+        "move": "Acknowledge a discrepancy and contact the appropriate team.",
+        "functions": [
+         "CFN-0037",
+         "CFN-0024"
+        ]
+       },
+       {
+        "move": "Confirm the communication or handover outcome.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The exchange concerns the correct order or contact.",
+       "Unclear location details are checked rather than guessed.",
+       "Updates distinguish known facts from estimates.",
+       "Complaints are acknowledged without blame or unauthorised remedies.",
+       "The customer understands the next communication step."
+      ]
+     },
+     "L3|ROL-0157": {
+      "role": "ROL-0157",
+      "parent": null,
+      "responsibilities": [
+       "Confirm pickup and order details with restaurant staff.",
+       "Contact the customer to clarify an address or meeting point.",
+       "Announce arrival and explain the purpose of the contact.",
+       "Communicate known delays and distinguish estimates from confirmed updates.",
+       "Acknowledge reports of wrong or missing items and clarify the discrepancy.",
+       "Pass issues outside the worker's authority to the support team.",
+       "Confirm the handover information needed for the current order."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Restaurant staff",
+       "Support team",
+       "Building guard / receptionist"
+      ],
+      "keyFunctions": [
+       "CFN-0088",
+       "CFN-0095",
+       "CFN-0013",
+       "CFN-0096",
+       "CFN-0028",
+       "CFN-0037",
+       "CFN-0024",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Order identity",
+        "text": "A delivery conversation needs enough order information to identify the relevant exchange. Clarify the available order details instead of assuming that every customer query concerns the same order."
+       },
+       {
+        "title": "Location clarification",
+        "text": "A building name, flat number, entrance or landmark may need confirmation. The language task is to check those details with the customer or relevant contact, not to give route or driving guidance."
+       },
+       {
+        "title": "Delay updates",
+        "text": "The worker can report the current known status and explain when an arrival time is uncertain. An estimate should not be described as a guaranteed time."
+       },
+       {
+        "title": "Discrepancy handling",
+        "text": "A customer's report of a missing or wrong item needs clarification. The worker can communicate the reported discrepancy to the restaurant or support team without deciding an unauthorised refund or replacement."
+       },
+       {
+        "title": "Handover confirmation",
+        "text": "The information requested to confirm a handover depends on the current order and workplace arrangement. The lesson may use supplied details but must not invent a universal platform procedure."
+       }
+      ],
+      "deltaFromParent": []
+     },
      "L4|RPF-000003": null,
      "L5|SEN-0003|-": null
     }
@@ -147,12 +418,164 @@
     "variantOf": null,
     "differFrom": null,
     "layers": {
-     "L0|CFN-0037|A2": null,
-     "L0|CFN-0007|A2": null,
-     "L0|CFN-0024|A2": null,
-     "L1|STM-0043": null,
-     "L2|CM-06": null,
-     "L3|ROL-0157": null,
+     "L0|CFN-0037|A2": {
+      "function": "CFN-0037",
+      "cefr": "A2",
+      "exponents": [
+       "Please tell me which item is missing.",
+       "I understand you received the wrong item.",
+       "Let me check the order details."
+      ],
+      "notes": "Acknowledge the customer's problem and check the relevant facts before discussing an outcome."
+     },
+     "L0|CFN-0007|A2": {
+      "function": "CFN-0007",
+      "cefr": "A2",
+      "exponents": [
+       "I am sorry I gave you the wrong time.",
+       "Sorry, I made a mistake.",
+       "I am sorry I missed your message."
+      ],
+      "notes": "Apologise for an action you actually took rather than accepting unsupported responsibility."
+     },
+     "L0|CFN-0024|A2": {
+      "function": "CFN-0024",
+      "cefr": "A2",
+      "exponents": [
+       "I will contact the support team about this.",
+       "I cannot confirm that; I will ask my supervisor.",
+       "Let me pass the details to the right team."
+      ],
+      "notes": "Explain who you will contact when the issue is outside your authority."
+     },
+     "L1|STM-0043": {
+      "situation": "STM-0043",
+      "description": "A customer reports a wrong or missing delivery item. The worker acknowledges the complaint, checks the order and reported discrepancy, apologises for an established personal mistake if relevant, and passes the issue to the appropriate team when a decision is outside their authority.",
+      "flow": [
+       "Hear and acknowledge the customer's complaint.",
+       "Clarify which item is wrong or missing.",
+       "Check the available order information and acknowledge any established personal error.",
+       "Explain the escalation to the appropriate team without promising an unconfirmed remedy.",
+       "Confirm the next communication step."
+      ],
+      "functions": [
+       "CFN-0037",
+       "CFN-0007",
+       "CFN-0024"
+      ],
+      "variationPoints": [
+       "Wrong item versus missing item.",
+       "What the worker can verify from the available order information.",
+       "Which person or team can decide the outcome.",
+       "A2 language support for checking details and explaining escalation."
+      ]
+     },
+     "L2|CM-06": {
+      "coreModule": "CM-06",
+      "summary": "Coordinate pickup, delivery and arrival through clear exchanges with customers and workplace contacts. Confirm the relevant order, address or meeting details, communicate known status and delays, and handle discrepancies within the worker's authority. The focus is information exchange and handover. It does not teach vehicle operation, routes, traffic rules or safety practices.",
+      "communicationMoves": [
+       {
+        "move": "Identify the relevant order or pickup details.",
+        "functions": [
+         "CFN-0088",
+         "CFN-0014"
+        ]
+       },
+       {
+        "move": "Clarify the address or meeting location.",
+        "functions": [
+         "CFN-0095",
+         "CFN-0013"
+        ]
+       },
+       {
+        "move": "Give a factual status or delay update.",
+        "functions": [
+         "CFN-0027",
+         "CFN-0028"
+        ]
+       },
+       {
+        "move": "Announce arrival and explain the contact purpose.",
+        "functions": [
+         "CFN-0096"
+        ]
+       },
+       {
+        "move": "Acknowledge a discrepancy and contact the appropriate team.",
+        "functions": [
+         "CFN-0037",
+         "CFN-0024"
+        ]
+       },
+       {
+        "move": "Confirm the communication or handover outcome.",
+        "functions": [
+         "CFN-0014",
+         "CFN-0041"
+        ]
+       }
+      ],
+      "qualityCriteria": [
+       "The exchange concerns the correct order or contact.",
+       "Unclear location details are checked rather than guessed.",
+       "Updates distinguish known facts from estimates.",
+       "Complaints are acknowledged without blame or unauthorised remedies.",
+       "The customer understands the next communication step."
+      ]
+     },
+     "L3|ROL-0157": {
+      "role": "ROL-0157",
+      "parent": null,
+      "responsibilities": [
+       "Confirm pickup and order details with restaurant staff.",
+       "Contact the customer to clarify an address or meeting point.",
+       "Announce arrival and explain the purpose of the contact.",
+       "Communicate known delays and distinguish estimates from confirmed updates.",
+       "Acknowledge reports of wrong or missing items and clarify the discrepancy.",
+       "Pass issues outside the worker's authority to the support team.",
+       "Confirm the handover information needed for the current order."
+      ],
+      "stakeholders": [
+       "Customer",
+       "Restaurant staff",
+       "Support team",
+       "Building guard / receptionist"
+      ],
+      "keyFunctions": [
+       "CFN-0088",
+       "CFN-0095",
+       "CFN-0013",
+       "CFN-0096",
+       "CFN-0028",
+       "CFN-0037",
+       "CFN-0024",
+       "CFN-0014"
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Order identity",
+        "text": "A delivery conversation needs enough order information to identify the relevant exchange. Clarify the available order details instead of assuming that every customer query concerns the same order."
+       },
+       {
+        "title": "Location clarification",
+        "text": "A building name, flat number, entrance or landmark may need confirmation. The language task is to check those details with the customer or relevant contact, not to give route or driving guidance."
+       },
+       {
+        "title": "Delay updates",
+        "text": "The worker can report the current known status and explain when an arrival time is uncertain. An estimate should not be described as a guaranteed time."
+       },
+       {
+        "title": "Discrepancy handling",
+        "text": "A customer's report of a missing or wrong item needs clarification. The worker can communicate the reported discrepancy to the restaurant or support team without deciding an unauthorised refund or replacement."
+       },
+       {
+        "title": "Handover confirmation",
+        "text": "The information requested to confirm a handover depends on the current order and workplace arrangement. The lesson may use supplied details but must not invent a universal platform procedure."
+       }
+      ],
+      "deltaFromParent": []
+     },
      "L4|RPF-000003": null,
      "L5|SEN-0003|-": null
     }
@@ -183,7 +606,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 13 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "blockedNote": "Built when 2 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
  },
  "style": {
   "spelling": "UK",
@@ -768,7 +1191,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 3200,
+  "inputTokens": 6695,
   "maxOutputTokens": 10500
  }
 }

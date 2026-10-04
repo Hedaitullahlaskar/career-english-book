@@ -1,0 +1,46 @@
+{
+ "id": "SCN-000007",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0042",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0042"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "61a3426dd52b3035",
+ "content": {
+  "situation": "STM-0042",
+  "description": "A worker tells a customer that a delivery is late. They state what is known, distinguish a confirmed update from an estimate, and apologise for their own mistake where responsibility is established. They agree on the next update without making unsupported promises.",
+  "flow": [
+   "Identify the order and explain the known delay.",
+   "Give any confirmed information or identify what remains uncertain.",
+   "Apologise for an established personal mistake where relevant.",
+   "Confirm how the customer will receive the next update."
+  ],
+  "functions": [
+   "CFN-0028",
+   "CFN-0007"
+  ],
+  "variationPoints": [
+   "A known revised time versus no confirmed time.",
+   "Whether the worker caused a specific communication error.",
+   "A spoken call versus a short written update.",
+   "A2 sentence length and support for explaining uncertainty."
+  ]
+ }
+}

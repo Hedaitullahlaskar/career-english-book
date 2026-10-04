@@ -1,0 +1,45 @@
+{
+ "id": "SCN-000002",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0021",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0021"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "5a69c912857f196e",
+ "content": {
+  "situation": "STM-0021",
+  "description": "A customer and seller clarify how much of an item is wanted. They distinguish item count from weight, size or another measure and confirm the quantity before the transaction continues.",
+  "flow": [
+   "Ask which item and quantity the customer wants.",
+   "Clarify the unit of measure or size.",
+   "State the available or measured quantity.",
+   "Confirm the quantity the customer accepts."
+  ],
+  "functions": [
+   "CFN-0086"
+  ],
+  "variationPoints": [
+   "Counting items versus discussing weight, volume or length.",
+   "Available sizes and units used in the setting.",
+   "Whether the seller can supply the exact requested quantity.",
+   "Language length and clarification support by CEFR level."
+  ]
+ }
+}

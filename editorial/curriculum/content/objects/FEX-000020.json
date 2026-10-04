@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000020",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0035|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0035|B1"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "15c4b21657480eeb",
+ "content": {
+  "function": "CFN-0035",
+  "cefr": "B1",
+  "exponents": [
+   "What is most important to you in this role?",
+   "What help do you need to finish the task?",
+   "Which option would work best for you, and why?"
+  ],
+  "notes": "Ask clear questions that help the other person explain a need or preference."
+ }
+}

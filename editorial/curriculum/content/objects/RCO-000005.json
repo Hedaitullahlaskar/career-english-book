@@ -1,0 +1,78 @@
+{
+ "id": "RCO-000005",
+ "type": "role-core",
+ "layer": "L3",
+ "key": "L3|ROL-0157",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000004",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L3|ROL-0157"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "51c67272cdf78fd8",
+ "content": {
+  "role": "ROL-0157",
+  "parent": null,
+  "responsibilities": [
+   "Confirm pickup and order details with restaurant staff.",
+   "Contact the customer to clarify an address or meeting point.",
+   "Announce arrival and explain the purpose of the contact.",
+   "Communicate known delays and distinguish estimates from confirmed updates.",
+   "Acknowledge reports of wrong or missing items and clarify the discrepancy.",
+   "Pass issues outside the worker's authority to the support team.",
+   "Confirm the handover information needed for the current order."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Restaurant staff",
+   "Support team",
+   "Building guard / receptionist"
+  ],
+  "keyFunctions": [
+   "CFN-0088",
+   "CFN-0095",
+   "CFN-0013",
+   "CFN-0096",
+   "CFN-0028",
+   "CFN-0037",
+   "CFN-0024",
+   "CFN-0014"
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Order identity",
+    "text": "A delivery conversation needs enough order information to identify the relevant exchange. Clarify the available order details instead of assuming that every customer query concerns the same order."
+   },
+   {
+    "title": "Location clarification",
+    "text": "A building name, flat number, entrance or landmark may need confirmation. The language task is to check those details with the customer or relevant contact, not to give route or driving guidance."
+   },
+   {
+    "title": "Delay updates",
+    "text": "The worker can report the current known status and explain when an arrival time is uncertain. An estimate should not be described as a guaranteed time."
+   },
+   {
+    "title": "Discrepancy handling",
+    "text": "A customer's report of a missing or wrong item needs clarification. The worker can communicate the reported discrepancy to the restaurant or support team without deciding an unauthorised refund or replacement."
+   },
+   {
+    "title": "Handover confirmation",
+    "text": "The information requested to confirm a handover depends on the current order and workplace arrangement. The lesson may use supplied details but must not invent a universal platform procedure."
+   }
+  ],
+  "deltaFromParent": []
+ }
+}

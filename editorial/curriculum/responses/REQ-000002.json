@@ -1,0 +1,331 @@
+{
+ "requestId": "REQ-000002",
+ "contractVersion": "1.0",
+ "model": "GPT-6",
+ "outputs": [
+  {
+   "tempId": "tmp:L1|STM-0020",
+   "type": "situation",
+   "key": "L1|STM-0020",
+   "record": {
+    "content": {
+     "situation": "STM-0020",
+     "description": "A customer asks for a lower price. The seller states the current price, considers the request within their authority, and accepts an offer or declines politely. The exchange ends with a clear agreed price or a respectful decision not to buy.",
+     "flow": [
+      "Establish the item, quantity and current price.",
+      "Hear the customer's proposed price.",
+      "Offer an available price or decline politely.",
+      "Confirm the agreed price or close without a sale."
+     ],
+     "functions": [
+      "CFN-0087",
+      "CFN-0085",
+      "CFN-0020"
+     ],
+     "variationPoints": [
+      "Whether bargaining is appropriate in the setting.",
+      "The seller's authority to change the price.",
+      "Single-item or quantity-based offers.",
+      "Short A1 exchanges or fuller explanations at higher CEFR levels."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0021",
+   "type": "situation",
+   "key": "L1|STM-0021",
+   "record": {
+    "content": {
+     "situation": "STM-0021",
+     "description": "A customer and seller clarify how much of an item is wanted. They distinguish item count from weight, size or another measure and confirm the quantity before the transaction continues.",
+     "flow": [
+      "Ask which item and quantity the customer wants.",
+      "Clarify the unit of measure or size.",
+      "State the available or measured quantity.",
+      "Confirm the quantity the customer accepts."
+     ],
+     "functions": [
+      "CFN-0086"
+     ],
+     "variationPoints": [
+      "Counting items versus discussing weight, volume or length.",
+      "Available sizes and units used in the setting.",
+      "Whether the seller can supply the exact requested quantity.",
+      "Language length and clarification support by CEFR level."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0034",
+   "type": "situation",
+   "key": "L1|STM-0034",
+   "record": {
+    "content": {
+     "situation": "STM-0034",
+     "description": "A worker and customer complete a payment exchange. They confirm the amount, discuss an available payment method, and acknowledge the payment result. Where relevant, they confirm change or a receipt without presenting an unconfirmed payment as successful.",
+     "flow": [
+      "State the total amount due.",
+      "Confirm the customer's payment method from the available options.",
+      "Check and communicate the known payment result.",
+      "Confirm any change or receipt and close the exchange."
+     ],
+     "functions": [
+      "CFN-0089"
+     ],
+     "variationPoints": [
+      "Which payment methods the workplace actually accepts.",
+      "Exact payment versus change.",
+      "Whether a receipt is available or requested.",
+      "Simple spoken amounts or fuller explanations by CEFR level."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0019",
+   "type": "situation",
+   "key": "L1|STM-0019",
+   "record": {
+    "content": {
+     "situation": "STM-0019",
+     "description": "A customer asks about an item's price. The worker explains the quoted amount and what it includes, clarifies any known additional charges, and checks that the customer understands the total. This situation explains a price; it does not require bargaining.",
+     "flow": [
+      "Identify the item or option being priced.",
+      "State the price and what it includes.",
+      "Clarify any known additional charges.",
+      "Confirm the customer's understanding of the total."
+     ],
+     "functions": [
+      "CFN-0085"
+     ],
+     "variationPoints": [
+      "Unit price, package price or quotation total.",
+      "Included features and separately charged additions.",
+      "Confirmed price versus an amount awaiting confirmation.",
+      "Short A2 statements or connected B1 explanations."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0026",
+   "type": "situation",
+   "key": "L1|STM-0026",
+   "record": {
+    "content": {
+     "situation": "STM-0026",
+     "description": "A customer and worker arrange a test-drive appointment. They clarify the preferred model or option, compare relevant features simply, seek permission before the proposed appointment-related action, and confirm the arrangement. The exchange covers coordination and customer communication only.",
+     "flow": [
+      "Clarify which model or option the customer wants to try.",
+      "Describe or compare the relevant options simply.",
+      "Ask permission to proceed with the proposed appointment arrangement.",
+      "Confirm the agreed time, meeting point and next contact."
+     ],
+     "functions": [
+      "CFN-0091",
+      "CFN-0097"
+     ],
+     "variationPoints": [
+      "Model availability and appointment timing.",
+      "The customer's preferred option and comparison questions.",
+      "The dealership's test-drive policy, referred to generically.",
+      "The level of language support, while keeping every version communication-only."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0028",
+   "type": "situation",
+   "key": "L1|STM-0028",
+   "record": {
+    "content": {
+     "situation": "STM-0028",
+     "description": "A worker contacts a customer after a quotation or visit. They refer to the earlier exchange, check whether it is a suitable time to follow up, invite questions or a decision, and establish the next contact without applying pressure.",
+     "flow": [
+      "Refer to the earlier quotation or visit.",
+      "Check whether the customer can discuss it now.",
+      "Invite a response or questions about the earlier information.",
+      "Confirm the next contact or close respectfully."
+     ],
+     "functions": [
+      "CFN-0022"
+     ],
+     "variationPoints": [
+      "Spoken follow-up versus a written message.",
+      "The time elapsed since the original contact.",
+      "Whether the customer wants clarification, more time or no further contact.",
+      "Brief B1 questions or more developed follow-up language."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0042",
+   "type": "situation",
+   "key": "L1|STM-0042",
+   "record": {
+    "content": {
+     "situation": "STM-0042",
+     "description": "A worker tells a customer that a delivery is late. They state what is known, distinguish a confirmed update from an estimate, and apologise for their own mistake where responsibility is established. They agree on the next update without making unsupported promises.",
+     "flow": [
+      "Identify the order and explain the known delay.",
+      "Give any confirmed information or identify what remains uncertain.",
+      "Apologise for an established personal mistake where relevant.",
+      "Confirm how the customer will receive the next update."
+     ],
+     "functions": [
+      "CFN-0028",
+      "CFN-0007"
+     ],
+     "variationPoints": [
+      "A known revised time versus no confirmed time.",
+      "Whether the worker caused a specific communication error.",
+      "A spoken call versus a short written update.",
+      "A2 sentence length and support for explaining uncertainty."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0040",
+   "type": "situation",
+   "key": "L1|STM-0040",
+   "record": {
+    "content": {
+     "situation": "STM-0040",
+     "description": "A worker calls a customer because an address or meeting location needs clarification. They check the relevant building, entrance, flat number or landmark, ask for repetition when needed, and read back the agreed location details.",
+     "flow": [
+      "Identify the purpose of the call.",
+      "Ask about the unclear location detail.",
+      "Request clarification or repetition as needed.",
+      "Confirm the agreed address or meeting point."
+     ],
+     "functions": [
+      "CFN-0095",
+      "CFN-0013"
+     ],
+     "variationPoints": [
+      "Building name, entrance, flat number or landmark.",
+      "Customer contact versus contact with a receptionist or guard.",
+      "Which location detail is unclear.",
+      "The number of details handled in each A2 turn."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0043",
+   "type": "situation",
+   "key": "L1|STM-0043",
+   "record": {
+    "content": {
+     "situation": "STM-0043",
+     "description": "A customer reports a wrong or missing delivery item. The worker acknowledges the complaint, checks the order and reported discrepancy, apologises for an established personal mistake if relevant, and passes the issue to the appropriate team when a decision is outside their authority.",
+     "flow": [
+      "Hear and acknowledge the customer's complaint.",
+      "Clarify which item is wrong or missing.",
+      "Check the available order information and acknowledge any established personal error.",
+      "Explain the escalation to the appropriate team without promising an unconfirmed remedy.",
+      "Confirm the next communication step."
+     ],
+     "functions": [
+      "CFN-0037",
+      "CFN-0007",
+      "CFN-0024"
+     ],
+     "variationPoints": [
+      "Wrong item versus missing item.",
+      "What the worker can verify from the available order information.",
+      "Which person or team can decide the outcome.",
+      "A2 language support for checking details and explaining escalation."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0143",
+   "type": "situation",
+   "key": "L1|STM-0143",
+   "record": {
+    "content": {
+     "situation": "STM-0143",
+     "description": "An interviewer asks a candidate about relevant experience, work examples and expectations. They use questions to gather information and identify the candidate's needs, ask follow-up questions where needed, and close with a clear description of the next contact rather than an unsupported hiring promise.",
+     "flow": [
+      "Establish the focus of the interview conversation.",
+      "Ask about relevant experience and a specific example.",
+      "Follow up to clarify the candidate's contribution and priorities.",
+      "Invite questions about the role.",
+      "Clarify what is known about the next contact."
+     ],
+     "functions": [
+      "CFN-0035",
+      "CFN-0011"
+     ],
+     "variationPoints": [
+      "Role-specific evidence and examples.",
+      "Stakeholders involved in the selection conversation.",
+      "Candidate priorities and support needs.",
+      "B1 direct questions versus B2 probing and clarification.",
+      "Industry-specific constraints supplied by the later context overlay."
+     ]
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0127",
+   "type": "situation",
+   "key": "L1|STM-0127",
+   "record": {
+    "content": {
+     "situation": "STM-0127",
+     "description": "A manager discusses an observable gap between agreed expectations and an employee's work. They describe the gap without personal accusations, hear the employee's explanation, discuss support, and agree on practical improvements and a review point. The exchange does not prescribe disciplinary procedures.",
+     "flow": [
+      "State the agreed expectation and a specific observed gap.",
+      "Invite the employee's explanation.",
+      "Discuss obstacles and possible support.",
+      "Agree on practical improvements and responsibilities.",
+      "Confirm a review point and summarise the agreement."
+     ],
+     "functions": [
+      "CFN-0070"
+     ],
+     "variationPoints": [
+      "The task, evidence and agreed performance expectation.",
+      "The employee's explanation and available support.",
+      "The manager's actual authority to agree actions.",
+      "B1 straightforward wording versus B2 nuanced discussion.",
+      "Workplace-specific consequences described without legal or disciplinary claims."
+     ]
+    }
+   }
+  }
+ ],
+ "selfCheck": [
+  {
+   "check": "Completeness and identifiers",
+   "result": "met",
+   "notes": "All 11 requested situation records are present with supplied identifiers unchanged."
+  },
+  {
+   "check": "Situation purpose and reuse",
+   "result": "met",
+   "notes": "Templates provide distinct communication flows; industry-specific detail is reserved for L4."
+  },
+  {
+   "check": "Corrected test-drive scope",
+   "result": "met",
+   "notes": "STM-0026 covers appointment coordination only, uses CFN-0091 and CFN-0097, and includes no operational or safety instruction."
+  },
+  {
+   "check": "Responsibility and specialist boundaries",
+   "result": "met",
+   "notes": "Apologies for personal mistakes are conditional on established responsibility; remedies and hiring outcomes are not promised."
+  }
+ ],
+ "assumptions": [],
+ "flags": [],
+ "questions": []
+}

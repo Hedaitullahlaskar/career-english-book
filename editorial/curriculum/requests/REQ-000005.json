@@ -4,7 +4,7 @@
  "batch": "B5",
  "mode": "generate",
  "layer": "L4+L5",
- "status": "BLOCKED",
+ "status": "PREPARED",
  "dependsOn": [
   "L3|ROL-0013",
   "L3|ROL-0016",
@@ -50,7 +50,52 @@
       "Registry mapping: Vegetable Seller is common in sector TRADE"
      ]
     },
-    "roleCore": null
+    "roleCore": {
+     "role": "ROL-0081",
+     "parent": "ROL-0080",
+     "responsibilities": [
+      "Name the requested vegetable or clarify which variety is wanted.",
+      "Explain differences between available sizes or varieties using observable descriptions.",
+      "Clarify whether the customer wants a piece count or a measured weight.",
+      "Offer an available substitute when the requested vegetable or quantity is unavailable.",
+      "Confirm mixed-item selections before calculating their separate amounts."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Regular customer",
+      "Produce supplier"
+     ],
+     "keyFunctions": [
+      "CFN-0091",
+      "CFN-0086",
+      "CFN-0088",
+      "CFN-0026"
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Produce identification",
+       "text": "Customers may use different names for the same vegetable or ask for a particular variety. The seller can clarify by pointing to or describing the available produce without claiming that unfamiliar names are interchangeable."
+      },
+      {
+       "title": "Count and weight",
+       "text": "A request for two pieces is different from a request for two kilos. The seller's language should confirm the vegetable and requested unit together, especially when an order contains several items."
+      },
+      {
+       "title": "Observable condition",
+       "text": "Size, colour and visible condition can be described directly. Avoid unsupported claims about health benefits, chemical treatment or quality certification."
+      },
+      {
+       "title": "Substitutions",
+       "text": "When the requested item is unavailable, the seller can describe an available alternative and ask whether the customer wants it. A substitution remains a customer choice."
+      }
+     ],
+     "deltaFromParent": [
+      "Adds vegetable and variety identification to the parent vendor core.",
+      "Adds produce-specific descriptions without unsupported quality claims.",
+      "Adds clarification of piece-count versus weight-based produce requests.",
+      "Adds customer-approved substitutions and mixed-vegetable order clarification."
+     ]
+    }
    }
   },
   {
@@ -112,7 +157,55 @@
       "Registry mapping: Car Sales Executive is common in sector AUTO"
      ]
     },
-    "roleCore": null
+    "roleCore": {
+     "role": "ROL-0050",
+     "parent": "ROL-0016",
+     "responsibilities": [
+      "Clarify the customer's preferred vehicle model or version.",
+      "Compare relevant vehicle features from the available product information.",
+      "Explain what the selected vehicle quotation includes and what remains to be confirmed.",
+      "Arrange the customer's test-drive appointment and confirm the meeting details.",
+      "Ask permission before proceeding with an appointment-related action.",
+      "Follow up on a showroom visit or vehicle quotation with the customer's current questions."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Sales Manager",
+      "Appointment coordinator"
+     ],
+     "keyFunctions": [
+      "CFN-0035",
+      "CFN-0091",
+      "CFN-0085",
+      "CFN-0097",
+      "CFN-0022",
+      "CFN-0014"
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Model and version",
+       "text": "A model may be offered in more than one version. Features discussed with the customer should correspond to the actual option under consideration, using the dealership's available information."
+      },
+      {
+       "title": "Vehicle quotation",
+       "text": "A vehicle quotation may show several components or optional additions. Explain only the information provided in the quotation and identify amounts awaiting confirmation, without offering finance or regulatory advice."
+      },
+      {
+       "title": "Appointment coordination",
+       "text": "The pilot's test-drive communication covers the preferred option, availability, timing, meeting details and related customer questions. It does not cover vehicle operation or safety training."
+      },
+      {
+       "title": "Customer choice",
+       "text": "A customer may compare options, request more information or postpone a decision. The worker can clarify that preference and agree on the next contact without claiming that an appointment commits the customer to buy."
+      }
+     ],
+     "deltaFromParent": [
+      "Adds vehicle model/version identification and relevant feature comparisons.",
+      "Adds clarification of the selected vehicle quotation.",
+      "Adds communication-only test-drive appointment coordination.",
+      "Adds follow-up tied to a vehicle enquiry or showroom visit."
+     ]
+    }
    }
   },
   {
@@ -168,7 +261,58 @@
       "Registry mapping: Food Delivery Executive is common in sector MOVE"
      ]
     },
-    "roleCore": null
+    "roleCore": {
+     "role": "ROL-0157",
+     "parent": null,
+     "responsibilities": [
+      "Confirm pickup and order details with restaurant staff.",
+      "Contact the customer to clarify an address or meeting point.",
+      "Announce arrival and explain the purpose of the contact.",
+      "Communicate known delays and distinguish estimates from confirmed updates.",
+      "Acknowledge reports of wrong or missing items and clarify the discrepancy.",
+      "Pass issues outside the worker's authority to the support team.",
+      "Confirm the handover information needed for the current order."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Restaurant staff",
+      "Support team",
+      "Building guard / receptionist"
+     ],
+     "keyFunctions": [
+      "CFN-0088",
+      "CFN-0095",
+      "CFN-0013",
+      "CFN-0096",
+      "CFN-0028",
+      "CFN-0037",
+      "CFN-0024",
+      "CFN-0014"
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Order identity",
+       "text": "A delivery conversation needs enough order information to identify the relevant exchange. Clarify the available order details instead of assuming that every customer query concerns the same order."
+      },
+      {
+       "title": "Location clarification",
+       "text": "A building name, flat number, entrance or landmark may need confirmation. The language task is to check those details with the customer or relevant contact, not to give route or driving guidance."
+      },
+      {
+       "title": "Delay updates",
+       "text": "The worker can report the current known status and explain when an arrival time is uncertain. An estimate should not be described as a guaranteed time."
+      },
+      {
+       "title": "Discrepancy handling",
+       "text": "A customer's report of a missing or wrong item needs clarification. The worker can communicate the reported discrepancy to the restaurant or support team without deciding an unauthorised refund or replacement."
+      },
+      {
+       "title": "Handover confirmation",
+       "text": "The information requested to confirm a handover depends on the current order and workplace arrangement. The lesson may use supplied details but must not invent a universal platform procedure."
+      }
+     ],
+     "deltaFromParent": []
+    }
    }
   },
   {
@@ -206,7 +350,59 @@
       "Registry mapping: HR Manager is specialisation in sector HOSP"
      ]
     },
-    "roleCore": null
+    "roleCore": {
+     "role": "ROL-0013",
+     "parent": null,
+     "responsibilities": [
+      "Clarify recruitment needs with the relevant department head.",
+      "Ask candidates for relevant experience and specific work examples.",
+      "Discuss role expectations and onboarding questions using confirmed workplace information.",
+      "Respond to employee queries and clarify information that is uncertain.",
+      "Discuss performance gaps with evidence and invite the employee's explanation.",
+      "Hear employee concerns respectfully and identify an appropriate next conversation.",
+      "Explain agreed workplace decisions or policies without adding unconfirmed rules.",
+      "Summarise actions, ownership and review points."
+     ],
+     "stakeholders": [
+      "Candidate",
+      "Employee / team member",
+      "Department head",
+      "Senior manager"
+     ],
+     "keyFunctions": [
+      "CFN-0035",
+      "CFN-0011",
+      "CFN-0036",
+      "CFN-0070",
+      "CFN-0038",
+      "CFN-0074",
+      "CFN-0016",
+      "CFN-0024"
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Recruitment conversation",
+       "text": "An HR conversation gathers information about the role and the candidate's relevant experience. The examples and work constraints come from the industry context; the shared role core does not assume one sector."
+      },
+      {
+       "title": "Performance evidence",
+       "text": "A performance gap is a difference between an agreed expectation and observed work. The manager's English should distinguish that evidence from assumptions about the employee's attitude or personal circumstances."
+      },
+      {
+       "title": "Employee concerns",
+       "text": "An employee may need information, support or a further conversation. The manager can listen, clarify the concern and explain a known next contact without promising confidentiality or an outcome beyond their authority."
+      },
+      {
+       "title": "Policy communication",
+       "text": "Explain only confirmed workplace information supplied in the situation. Do not invent employment rules, legal entitlements or disciplinary procedures."
+      },
+      {
+       "title": "Agreed follow-up",
+       "text": "A clear summary identifies the actions discussed, the people responsible and any agreed review point. It does not imply that a conversation alone settles a recruitment decision or employee concern."
+      }
+     ],
+     "deltaFromParent": []
+    }
    }
   },
   {
@@ -261,7 +457,59 @@
       "Registry mapping: HR Manager is specialisation in sector TECH"
      ]
     },
-    "roleCore": null
+    "roleCore": {
+     "role": "ROL-0013",
+     "parent": null,
+     "responsibilities": [
+      "Clarify recruitment needs with the relevant department head.",
+      "Ask candidates for relevant experience and specific work examples.",
+      "Discuss role expectations and onboarding questions using confirmed workplace information.",
+      "Respond to employee queries and clarify information that is uncertain.",
+      "Discuss performance gaps with evidence and invite the employee's explanation.",
+      "Hear employee concerns respectfully and identify an appropriate next conversation.",
+      "Explain agreed workplace decisions or policies without adding unconfirmed rules.",
+      "Summarise actions, ownership and review points."
+     ],
+     "stakeholders": [
+      "Candidate",
+      "Employee / team member",
+      "Department head",
+      "Senior manager"
+     ],
+     "keyFunctions": [
+      "CFN-0035",
+      "CFN-0011",
+      "CFN-0036",
+      "CFN-0070",
+      "CFN-0038",
+      "CFN-0074",
+      "CFN-0016",
+      "CFN-0024"
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Recruitment conversation",
+       "text": "An HR conversation gathers information about the role and the candidate's relevant experience. The examples and work constraints come from the industry context; the shared role core does not assume one sector."
+      },
+      {
+       "title": "Performance evidence",
+       "text": "A performance gap is a difference between an agreed expectation and observed work. The manager's English should distinguish that evidence from assumptions about the employee's attitude or personal circumstances."
+      },
+      {
+       "title": "Employee concerns",
+       "text": "An employee may need information, support or a further conversation. The manager can listen, clarify the concern and explain a known next contact without promising confidentiality or an outcome beyond their authority."
+      },
+      {
+       "title": "Policy communication",
+       "text": "Explain only confirmed workplace information supplied in the situation. Do not invent employment rules, legal entitlements or disciplinary procedures."
+      },
+      {
+       "title": "Agreed follow-up",
+       "text": "A clear summary identifies the actions discussed, the people responsible and any agreed review point. It does not imply that a conversation alone settles a recruitment decision or employee concern."
+      }
+     ],
+     "deltaFromParent": []
+    }
    }
   }
  ],
@@ -289,7 +537,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 6 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "note": "Overlays store only what changes. A context overlay that only replaces nouns fails review; state the genuine difference."
  },
  "style": {
   "spelling": "UK",
@@ -364,7 +612,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 2343,
+  "inputTokens": 4859,
   "maxOutputTokens": 7200
  }
 }

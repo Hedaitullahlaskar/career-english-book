@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000016",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0024|A2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0024|A2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "a6884472d82be679",
+ "content": {
+  "function": "CFN-0024",
+  "cefr": "A2",
+  "exponents": [
+   "I will contact the support team about this.",
+   "I cannot confirm that; I will ask my supervisor.",
+   "Let me pass the details to the right team."
+  ],
+  "notes": "Explain who you will contact when the issue is outside your authority."
+ }
+}

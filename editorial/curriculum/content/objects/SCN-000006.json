@@ -1,0 +1,45 @@
+{
+ "id": "SCN-000006",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0028",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0028"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "66644c0c7541b058",
+ "content": {
+  "situation": "STM-0028",
+  "description": "A worker contacts a customer after a quotation or visit. They refer to the earlier exchange, check whether it is a suitable time to follow up, invite questions or a decision, and establish the next contact without applying pressure.",
+  "flow": [
+   "Refer to the earlier quotation or visit.",
+   "Check whether the customer can discuss it now.",
+   "Invite a response or questions about the earlier information.",
+   "Confirm the next contact or close respectfully."
+  ],
+  "functions": [
+   "CFN-0022"
+  ],
+  "variationPoints": [
+   "Spoken follow-up versus a written message.",
+   "The time elapsed since the original contact.",
+   "Whether the customer wants clarification, more time or no further contact.",
+   "Brief B1 questions or more developed follow-up language."
+  ]
+ }
+}

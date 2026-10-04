@@ -1,0 +1,47 @@
+{
+ "id": "SCN-000011",
+ "type": "situation",
+ "layer": "L1",
+ "key": "L1|STM-0127",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000002",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L1|STM-0127"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "e6a1f610b5144754",
+ "content": {
+  "situation": "STM-0127",
+  "description": "A manager discusses an observable gap between agreed expectations and an employee's work. They describe the gap without personal accusations, hear the employee's explanation, discuss support, and agree on practical improvements and a review point. The exchange does not prescribe disciplinary procedures.",
+  "flow": [
+   "State the agreed expectation and a specific observed gap.",
+   "Invite the employee's explanation.",
+   "Discuss obstacles and possible support.",
+   "Agree on practical improvements and responsibilities.",
+   "Confirm a review point and summarise the agreement."
+  ],
+  "functions": [
+   "CFN-0070"
+  ],
+  "variationPoints": [
+   "The task, evidence and agreed performance expectation.",
+   "The employee's explanation and available support.",
+   "The manager's actual authority to agree actions.",
+   "B1 straightforward wording versus B2 nuanced discussion.",
+   "Workplace-specific consequences described without legal or disciplinary claims."
+  ]
+ }
+}

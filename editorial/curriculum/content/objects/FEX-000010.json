@@ -1,0 +1,36 @@
+{
+ "id": "FEX-000010",
+ "type": "function-exponents",
+ "layer": "L0",
+ "key": "L0|CFN-0085|A2",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000001",
+  "ingestedAt": "2026-10-04 21:52",
+  "tempId": "tmp:L0|CFN-0085|A2"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "47947ceba183906c",
+ "content": {
+  "function": "CFN-0085",
+  "cefr": "A2",
+  "exponents": [
+   "It costs ₹500 for one.",
+   "The price includes the bag.",
+   "Delivery is ₹50 extra."
+  ],
+  "notes": "Use short statements to explain the price and any additional charge."
+ }
+}

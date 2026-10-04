@@ -1,0 +1,10 @@
+{
+ "id": "REV-000087",
+ "target": "FEX-000022",
+ "stage": "SPECIALIST_REVIEW",
+ "reviewer": "n/a",
+ "result": "NOT_REQUIRED",
+ "reason": "U-1 roles are deliberately non-regulated general business roles; DRV-sensitive content excluded by constraint (author ruling 4 October 2026)",
+ "findings": [],
+ "date": "2026-10-04 21:52"
+}
