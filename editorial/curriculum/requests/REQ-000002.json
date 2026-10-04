@@ -121,7 +121,7 @@
    "key": "L1|STM-0026",
    "brief": {
     "situation": "STM-0026",
-    "name": "Arranging and conducting a test drive",
+    "name": "Arranging and coordinating a test drive",
     "category": "Selling & products",
     "functions": [
      {
@@ -135,12 +135,6 @@
       "name": "Ask permission (to enter, start, record or photograph)",
       "group": "Field, delivery & public interaction",
       "coreBookLocation": null
-     },
-     {
-      "id": "CFN-0108",
-      "name": "Give a safety instruction or warning",
-      "group": "Technical, safety & trades",
-      "coreBookLocation": null
      }
     ],
     "typicalStakeholders": [
@@ -148,6 +142,10 @@
     ],
     "modes": [
      "speak"
+    ],
+    "constraints": [
+     "Communication-only: arranging/coordinating the test drive and related customer communication.",
+     "No driving instructions, road-safety instructions, vehicle-operation instructions, safety training or regulatory/safety advice; refer to 'the dealership's test-drive policy' generically."
     ]
    }
   },
