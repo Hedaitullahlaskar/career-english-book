@@ -2,154 +2,126 @@
  {
   "id": "RIN-000001",
   "title": "Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000001",
-   "L5|SEN-0012|solo",
    "L6|RPF-000001|STM-0020|A1"
   ]
  },
  {
   "id": "RIN-000002",
   "title": "Discussing quantity, weight and measures — Vegetable Seller (A1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000001",
-   "L5|SEN-0012|solo",
    "L6|RPF-000001|STM-0021|A1"
   ]
  },
  {
   "id": "RIN-000003",
   "title": "Taking payment (cash, UPI, card) — Vegetable Seller (A1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000001",
-   "L5|SEN-0012|solo",
    "L6|RPF-000001|STM-0034|A1"
   ]
  },
  {
   "id": "RIN-000004",
   "title": "Discussing price — Car Sales Executive (B1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000002",
-   "L5|SEN-0003|-",
    "L6|RPF-000002|STM-0019|B1"
   ]
  },
  {
   "id": "RIN-000005",
   "title": "Arranging and conducting a test drive — Car Sales Executive (B1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000002",
-   "L5|SEN-0003|-",
    "L6|RPF-000002|STM-0026|B1"
   ]
  },
  {
   "id": "RIN-000006",
   "title": "Following up after a quotation or visit — Car Sales Executive (B1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000002",
-   "L5|SEN-0003|-",
    "L6|RPF-000002|STM-0028|B1"
   ]
  },
  {
   "id": "RIN-000007",
   "title": "Discussing price — Car Sales Executive (A2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000002",
-   "L5|SEN-0003|-",
    "L6|RPF-000002|STM-0019|A2"
   ]
  },
  {
   "id": "RIN-000008",
   "title": "Informing a customer about a late delivery — Food Delivery Executive (A2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000003",
-   "L5|SEN-0003|-",
    "L6|RPF-000003|STM-0042|A2"
   ]
  },
  {
   "id": "RIN-000009",
   "title": "Calling a customer to confirm address or landmark — Food Delivery Executive (A2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000003",
-   "L5|SEN-0003|-",
    "L6|RPF-000003|STM-0040|A2"
   ]
  },
  {
   "id": "RIN-000010",
   "title": "Wrong or missing item in a delivery — Food Delivery Executive (A2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000003",
-   "L5|SEN-0003|-",
    "L6|RPF-000003|STM-0043|A2"
   ]
  },
  {
   "id": "RIN-000011",
   "title": "Interviewing a candidate — HR Manager (B2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000004",
-   "L5|SEN-0008|-",
    "L6|RPF-000004|STM-0143|B2"
   ]
  },
  {
   "id": "RIN-000012",
   "title": "Addressing underperformance — HR Manager (B2)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000004",
-   "L5|SEN-0008|-",
    "L6|RPF-000004|STM-0127|B2"
   ]
  },
  {
   "id": "RIN-000013",
   "title": "Interviewing a candidate — HR Manager (B1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000005",
-   "L5|SEN-0008|-",
    "L6|RPF-000005|STM-0143|B1"
   ]
  },
  {
   "id": "RIN-000014",
   "title": "Addressing underperformance — HR Manager (B1)",
-  "missingLayers": 3,
+  "missingLayers": 1,
   "composed": false,
   "missing": [
-   "L4|RPF-000005",
-   "L5|SEN-0008|-",
    "L6|RPF-000005|STM-0127|B1"
   ]
  }

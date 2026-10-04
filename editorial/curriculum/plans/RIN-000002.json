@@ -71,9 +71,9 @@
   {
    "layer": "L4",
    "key": "L4|RPF-000001",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000005",
+   "objectId": "CTX-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": [
     "RIN-000001",
     "RIN-000003"
@@ -82,9 +82,9 @@
   {
    "layer": "L5",
    "key": "L5|SEN-0012|solo",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000005",
+   "objectId": "SNO-000001",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": [
     "RIN-000001",
     "RIN-000003"

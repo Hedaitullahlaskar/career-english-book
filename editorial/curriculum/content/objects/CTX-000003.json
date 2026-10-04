@@ -1,0 +1,59 @@
+{
+ "id": "CTX-000003",
+ "type": "context-overlay",
+ "layer": "L4",
+ "key": "L4|RPF-000003",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L4|RPF-000003"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "6e6491d3eb11345b",
+ "content": {
+  "profile": "RPF-000003",
+  "situationsAdded": [],
+  "situationsChanged": [
+   "STM-0042: Update the customer using the supplied restaurant preparation or order-status information.",
+   "STM-0040: Confirm the building, entrance or flat details associated with the app order.",
+   "STM-0043: Distinguish the customer's reported discrepancy from the restaurant's or support team's confirmed response."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Restaurant staff",
+   "Support team (platform)",
+   "Building guard / receptionist"
+  ],
+  "constraints": [
+   "Communication only; no traffic, driving, vehicle-operation or safety instructions.",
+   "Do not invent platform rules, arrival guarantees or refund authority.",
+   "Apologise for personal mistakes only when established.",
+   "Use the planned A2 language."
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Several contact points",
+    "text": "The customer, restaurant and platform support may hold different information. The delivery worker communicates the supplied facts and identifies which contact can answer the unresolved question."
+   },
+   {
+    "title": "Order-linked location",
+    "text": "A meeting point discussed on a call must relate to the current order. Confirm an unclear entrance or building detail without providing navigation or travel instructions."
+   }
+  ],
+  "register": "Calm, concise and helpful, including when the customer is frustrated.",
+  "differenceStatement": "Platform food delivery involves brief contacts across a restaurant, customer and support team. Unlike a shop-counter handover, the worker may need to relay incomplete order updates and report discrepancies without being able to decide the remedy."
+ }
+}

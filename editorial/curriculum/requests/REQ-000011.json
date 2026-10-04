@@ -6,8 +6,6 @@
  "layer": "L6",
  "status": "BLOCKED",
  "dependsOn": [
-  "L4|RPF-000005",
-  "L5|SEN-0008|-",
   "L6|RPF-000004|STM-0127|B2",
   "L6|RPF-000004|STM-0143|B2"
  ],
@@ -201,8 +199,59 @@
       ],
       "deltaFromParent": []
      },
-     "L4|RPF-000005": null,
-     "L5|SEN-0008|-": null
+     "L4|RPF-000005": {
+      "profile": "RPF-000005",
+      "situationsAdded": [],
+      "situationsChanged": [
+       "STM-0143: Ask for examples of project collaboration, explaining work to colleagues and coordinating in a hybrid team.",
+       "STM-0127: Explore missing progress updates or unclear ownership of agreed project actions, including dependencies on other teams."
+      ],
+      "stakeholders": [
+       "Candidate",
+       "Employee / team member",
+       "Department head"
+      ],
+      "constraints": [
+       "Use the supplied project arrangements and observable evidence.",
+       "No employment-law, monitoring or disciplinary-procedure claims.",
+       "Leave technical competence assessment to the relevant specialist; do not invent technical standards.",
+       "Use the planned B1 language."
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Complementary interview evidence",
+        "text": "HR explores communication, collaboration and candidate expectations. A department head supplies information about the technical role; the HR conversation does not certify coding ability."
+       },
+       {
+        "title": "Hybrid coordination",
+        "text": "Colleagues may work in different places or at different times. The scenario can supply an agreed update that was missed, allowing discussion of visibility, responsibility and support without assuming permanent availability."
+       },
+       {
+        "title": "Project dependencies",
+        "text": "A delayed action may depend on information from another team. The manager distinguishes that obstacle from an unsupported judgement about individual effort."
+       }
+      ],
+      "register": "Professional, direct and collaborative; explain project context in accessible language.",
+      "differenceStatement": "Software HR focuses on cross-functional project evidence, complementary technical interviews and coordination across hybrid working arrangements. Underperformance may concern visibility of progress or unresolved dependencies. Unlike hotel shift coverage, the discussion concerns project ownership and information reaching colleagues working asynchronously."
+     },
+     "L5|SEN-0008|-": {
+      "responsibilityLevel": "SEN-0008",
+      "scale": null,
+      "purpose": "Communicate responsibility for agreed team expectations, support and follow-up.",
+      "audience": [
+       "Candidate",
+       "Employee / team member",
+       "Department head",
+       "Senior manager"
+      ],
+      "accountabilityLanguage": [
+       "Let us agree on the next step.",
+       "What support do you need?",
+       "I will confirm who is responsible.",
+       "We will review the agreed actions."
+      ],
+      "decisionRights": "Agree actions within the managerial remit supplied by the scenario and involve the appropriate colleague where needed. Do not imply automatic hiring, disciplinary or budget authority. The same responsibility layer supports both B1 and B2 English."
+     }
     }
    }
   },
@@ -431,8 +480,59 @@
       ],
       "deltaFromParent": []
      },
-     "L4|RPF-000005": null,
-     "L5|SEN-0008|-": null
+     "L4|RPF-000005": {
+      "profile": "RPF-000005",
+      "situationsAdded": [],
+      "situationsChanged": [
+       "STM-0143: Ask for examples of project collaboration, explaining work to colleagues and coordinating in a hybrid team.",
+       "STM-0127: Explore missing progress updates or unclear ownership of agreed project actions, including dependencies on other teams."
+      ],
+      "stakeholders": [
+       "Candidate",
+       "Employee / team member",
+       "Department head"
+      ],
+      "constraints": [
+       "Use the supplied project arrangements and observable evidence.",
+       "No employment-law, monitoring or disciplinary-procedure claims.",
+       "Leave technical competence assessment to the relevant specialist; do not invent technical standards.",
+       "Use the planned B1 language."
+      ],
+      "jobKnowledge": [
+       {
+        "title": "Complementary interview evidence",
+        "text": "HR explores communication, collaboration and candidate expectations. A department head supplies information about the technical role; the HR conversation does not certify coding ability."
+       },
+       {
+        "title": "Hybrid coordination",
+        "text": "Colleagues may work in different places or at different times. The scenario can supply an agreed update that was missed, allowing discussion of visibility, responsibility and support without assuming permanent availability."
+       },
+       {
+        "title": "Project dependencies",
+        "text": "A delayed action may depend on information from another team. The manager distinguishes that obstacle from an unsupported judgement about individual effort."
+       }
+      ],
+      "register": "Professional, direct and collaborative; explain project context in accessible language.",
+      "differenceStatement": "Software HR focuses on cross-functional project evidence, complementary technical interviews and coordination across hybrid working arrangements. Underperformance may concern visibility of progress or unresolved dependencies. Unlike hotel shift coverage, the discussion concerns project ownership and information reaching colleagues working asynchronously."
+     },
+     "L5|SEN-0008|-": {
+      "responsibilityLevel": "SEN-0008",
+      "scale": null,
+      "purpose": "Communicate responsibility for agreed team expectations, support and follow-up.",
+      "audience": [
+       "Candidate",
+       "Employee / team member",
+       "Department head",
+       "Senior manager"
+      ],
+      "accountabilityLanguage": [
+       "Let us agree on the next step.",
+       "What support do you need?",
+       "I will confirm who is responsible.",
+       "We will review the agreed actions."
+      ],
+      "decisionRights": "Agree actions within the managerial remit supplied by the scenario and involve the appropriate colleague where needed. Do not imply automatic hiring, disciplinary or budget authority. The same responsibility layer supports both B1 and B2 English."
+     }
     }
    }
   }
@@ -461,7 +561,7 @@
    "audio": "None. Content must be fully usable as text (D-U06)."
   },
   "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
-  "blockedNote": "Built when 4 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+  "blockedNote": "Built when 2 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
  },
  "style": {
   "spelling": "UK",
@@ -1046,7 +1146,7 @@
   "questions": []
  },
  "estimate": {
-  "inputTokens": 5685,
+  "inputTokens": 6961,
   "maxOutputTokens": 7000
  }
 }

@@ -1,0 +1,57 @@
+{
+ "id": "CTX-000004",
+ "type": "context-overlay",
+ "layer": "L4",
+ "key": "L4|RPF-000004",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L4|RPF-000004"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "60f6deed89ca8101",
+ "content": {
+  "profile": "RPF-000004",
+  "situationsAdded": [],
+  "situationsChanged": [
+   "STM-0143: Explore candidates' examples of guest service, shift handovers and teamwork with operational departments.",
+   "STM-0127: Discuss an observed gap in agreed shift attendance or handover quality and its effect on department coverage."
+  ],
+  "stakeholders": [
+   "Candidate",
+   "Employee / team member",
+   "Department head"
+  ],
+  "constraints": [
+   "Use only supplied shift arrangements and performance evidence.",
+   "No employment-law or disciplinary-procedure claims.",
+   "Do not prescribe hotel safety procedures.",
+   "Use planned B2 questioning and explanation; managerial responsibility does not determine CEFR."
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Operational recruitment",
+    "text": "The department head may need coverage during a supplied busy period. Interview questions connect the candidate's experience and availability to the actual role, without assuming that all hotel staff work identical shifts."
+   },
+   {
+    "title": "Handover impact",
+    "text": "Incomplete handover information can leave the next team uncertain about outstanding guest requests. A performance conversation examines the supplied example, hears the employee's explanation and explores workable support."
+   }
+  ],
+  "register": "Respectful and evidence-led; probe specific examples without personal accusations.",
+  "differenceStatement": "Hotel HR connects staffing to service periods, roster coverage and continuity between operational shifts. Interview evidence centres on guest-facing teamwork; performance discussion may address handovers affecting the next team. These priorities differ from software HR's project collaboration and hybrid coordination."
+ }
+}

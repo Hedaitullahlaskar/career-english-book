@@ -1,30 +1,21 @@
 {
  "requests": [
   {
-   "request": "REQ-000005",
-   "batch": "B5",
-   "layer": "L4+L5",
-   "status": "PREPARED",
-   "outputs": 8,
-   "estimatedInputTokens": 4859,
-   "maxOutputTokens": 7200
-  },
-  {
    "request": "REQ-000006",
    "batch": "B6:P1",
    "layer": "L6",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 3,
-   "estimatedInputTokens": 7423,
+   "estimatedInputTokens": 12770,
    "maxOutputTokens": 10500
   },
   {
    "request": "REQ-000007",
    "batch": "B6:P2",
    "layer": "L6",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 3,
-   "estimatedInputTokens": 7941,
+   "estimatedInputTokens": 13712,
    "maxOutputTokens": 10500
   },
   {
@@ -33,25 +24,25 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 1,
-   "estimatedInputTokens": 4198,
+   "estimatedInputTokens": 4792,
    "maxOutputTokens": 3500
   },
   {
    "request": "REQ-000009",
    "batch": "B6:P3",
    "layer": "L6",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 3,
-   "estimatedInputTokens": 6695,
+   "estimatedInputTokens": 12373,
    "maxOutputTokens": 10500
   },
   {
    "request": "REQ-000010",
    "batch": "B6:P4",
    "layer": "L6",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 2,
-   "estimatedInputTokens": 5727,
+   "estimatedInputTokens": 10844,
    "maxOutputTokens": 7000
   },
   {
@@ -60,12 +51,12 @@
    "layer": "L6",
    "status": "BLOCKED",
    "outputs": 2,
-   "estimatedInputTokens": 5685,
+   "estimatedInputTokens": 6961,
    "maxOutputTokens": 7000
   }
  ],
- "totalEstimatedInputTokens": 42528,
- "totalMaxOutputTokens": 56200,
+ "totalEstimatedInputTokens": 61452,
+ "totalMaxOutputTokens": 49000,
  "estimatedCost": null,
  "pricing": {
   "currency": null,

@@ -1,0 +1,59 @@
+{
+ "id": "CTX-000002",
+ "type": "context-overlay",
+ "layer": "L4",
+ "key": "L4|RPF-000002",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L4|RPF-000002"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "ee35320adc00eeca",
+ "content": {
+  "profile": "RPF-000002",
+  "situationsAdded": [],
+  "situationsChanged": [
+   "STM-0019: Discuss the selected version's written quotation and any amounts awaiting confirmation.",
+   "STM-0026: Coordinate the preferred model, available appointment, meeting point and permission to proceed.",
+   "STM-0028: Follow up on the quotation or showroom visit using the customer's stated preferences."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Sales Manager",
+   "Appointment coordinator"
+  ],
+  "constraints": [
+   "Test-drive content is communication-only; exclude CFN-0108.",
+   "No driving, road-safety or vehicle-operation instructions, safety training or regulatory/safety advice.",
+   "Refer to the dealership's test-drive policy generically.",
+   "Do not invent prices, availability, finance terms or approvals.",
+   "Use the planned B1 language and A2 price variant without equating seniority with proficiency."
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Appointment availability",
+    "text": "The preferred vehicle and the available appointment may not coincide. The scenario supplies confirmed options so the worker can discuss a suitable time without promising unavailable access."
+   },
+   {
+    "title": "Quotation follow-up",
+    "text": "A showroom enquiry can continue after the customer leaves. Later communication refers to the quoted version and questions still open, rather than assuming a completed purchase."
+   }
+  ],
+  "register": "Consultative and courteous; allow comparison and decision time.",
+  "differenceStatement": "This dealership setting combines a considered purchase with version-specific quotations, appointment availability and follow-up contacts. It differs from an immediate counter sale because discussion can continue across visits and some requested offers need manager confirmation."
+ }
+}

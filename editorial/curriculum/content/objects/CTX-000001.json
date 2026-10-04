@@ -1,0 +1,56 @@
+{
+ "id": "CTX-000001",
+ "type": "context-overlay",
+ "layer": "L4",
+ "key": "L4|RPF-000001",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L4|RPF-000001"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "d6b65856e5d9198e",
+ "content": {
+  "profile": "RPF-000001",
+  "situationsAdded": [],
+  "situationsChanged": [
+   "STM-0020: Bargain at a vegetable stall over the customer's selected produce and amount.",
+   "STM-0021: Confirm vegetables sold by piece or kilo before weighing the requested amount.",
+   "STM-0034: Complete a small purchase using cash or UPI if accepted at the stall."
+  ],
+  "stakeholders": [
+   "Customer",
+   "Regular customer"
+  ],
+  "constraints": [
+   "Use the stated day's prices and available stock.",
+   "Do not claim health benefits, pesticide status or certification.",
+   "Keep later learner language at the planned A1 level."
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Current stall offer",
+    "text": "A regular customer may refer to yesterday's price. Today's conversation uses the current offer supplied in the scenario, not an assumed permanent price."
+   },
+   {
+    "title": "Small mixed purchase",
+    "text": "One customer may select several vegetables in different amounts. The stall context adds separate line amounts before a final total; quantities and prices must agree."
+   }
+  ],
+  "register": "Friendly, brief and respectful; clear amounts and polite refusals.",
+  "differenceStatement": "This market-stall setting involves immediate decisions about loose produce, current stock and small purchases. Unlike a packaged-goods counter, quantities can be selected individually and the seller can discuss the stated stall offer directly."
+ }
+}

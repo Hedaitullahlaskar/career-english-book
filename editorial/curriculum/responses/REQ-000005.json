@@ -1,0 +1,326 @@
+{
+ "requestId": "REQ-000005",
+ "contractVersion": "1.0",
+ "model": "GPT-6",
+ "outputs": [
+  {
+   "tempId": "tmp:L4|RPF-000001",
+   "type": "context-overlay",
+   "key": "L4|RPF-000001",
+   "record": {
+    "content": {
+     "profile": "RPF-000001",
+     "situationsAdded": [],
+     "situationsChanged": [
+      "STM-0020: Bargain at a vegetable stall over the customer's selected produce and amount.",
+      "STM-0021: Confirm vegetables sold by piece or kilo before weighing the requested amount.",
+      "STM-0034: Complete a small purchase using cash or UPI if accepted at the stall."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Regular customer"
+     ],
+     "constraints": [
+      "Use the stated day's prices and available stock.",
+      "Do not claim health benefits, pesticide status or certification.",
+      "Keep later learner language at the planned A1 level."
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Current stall offer",
+       "text": "A regular customer may refer to yesterday's price. Today's conversation uses the current offer supplied in the scenario, not an assumed permanent price."
+      },
+      {
+       "title": "Small mixed purchase",
+       "text": "One customer may select several vegetables in different amounts. The stall context adds separate line amounts before a final total; quantities and prices must agree."
+      }
+     ],
+     "register": "Friendly, brief and respectful; clear amounts and polite refusals.",
+     "differenceStatement": "This market-stall setting involves immediate decisions about loose produce, current stock and small purchases. Unlike a packaged-goods counter, quantities can be selected individually and the seller can discuss the stated stall offer directly."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L5|SEN-0012|solo",
+   "type": "seniority-overlay",
+   "key": "L5|SEN-0012|solo",
+   "record": {
+    "content": {
+     "responsibilityLevel": "SEN-0012",
+     "scale": "solo",
+     "purpose": "Communicate as the person responsible for an individual business and its current offers.",
+     "audience": [
+      "Customer",
+      "Supplier"
+     ],
+     "accountabilityLanguage": [
+      "I can offer ₹45.",
+      "I cannot lower this price.",
+      "I will check my stock."
+     ],
+     "decisionRights": "Use only the owner's choices supplied in the scenario. Do not imply employees, a supervisor or unlimited authority. Ownership is separate from English proficiency."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L4|RPF-000002",
+   "type": "context-overlay",
+   "key": "L4|RPF-000002",
+   "record": {
+    "content": {
+     "profile": "RPF-000002",
+     "situationsAdded": [],
+     "situationsChanged": [
+      "STM-0019: Discuss the selected version's written quotation and any amounts awaiting confirmation.",
+      "STM-0026: Coordinate the preferred model, available appointment, meeting point and permission to proceed.",
+      "STM-0028: Follow up on the quotation or showroom visit using the customer's stated preferences."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Sales Manager",
+      "Appointment coordinator"
+     ],
+     "constraints": [
+      "Test-drive content is communication-only; exclude CFN-0108.",
+      "No driving, road-safety or vehicle-operation instructions, safety training or regulatory/safety advice.",
+      "Refer to the dealership's test-drive policy generically.",
+      "Do not invent prices, availability, finance terms or approvals.",
+      "Use the planned B1 language and A2 price variant without equating seniority with proficiency."
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Appointment availability",
+       "text": "The preferred vehicle and the available appointment may not coincide. The scenario supplies confirmed options so the worker can discuss a suitable time without promising unavailable access."
+      },
+      {
+       "title": "Quotation follow-up",
+       "text": "A showroom enquiry can continue after the customer leaves. Later communication refers to the quoted version and questions still open, rather than assuming a completed purchase."
+      }
+     ],
+     "register": "Consultative and courteous; allow comparison and decision time.",
+     "differenceStatement": "This dealership setting combines a considered purchase with version-specific quotations, appointment availability and follow-up contacts. It differs from an immediate counter sale because discussion can continue across visits and some requested offers need manager confirmation."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L5|SEN-0003|-",
+   "type": "seniority-overlay",
+   "key": "L5|SEN-0003|-",
+   "record": {
+    "content": {
+     "responsibilityLevel": "SEN-0003",
+     "scale": null,
+     "purpose": "Communicate as an operational worker responsible for an assigned customer interaction.",
+     "audience": [
+      "Customer",
+      "Workplace colleague",
+      "Support team",
+      "Supervisor or manager"
+     ],
+     "accountabilityLanguage": [
+      "I will check the details.",
+      "I cannot confirm that yet.",
+      "I will ask the right person.",
+      "Here is the current update."
+     ],
+     "decisionRights": "Complete the assigned communication within the authority stated in the scenario. Separate confirmed information from requests awaiting another person's decision. This shared overlay fits formal and platform work without assuming the same employment arrangement or CEFR level."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L4|RPF-000003",
+   "type": "context-overlay",
+   "key": "L4|RPF-000003",
+   "record": {
+    "content": {
+     "profile": "RPF-000003",
+     "situationsAdded": [],
+     "situationsChanged": [
+      "STM-0042: Update the customer using the supplied restaurant preparation or order-status information.",
+      "STM-0040: Confirm the building, entrance or flat details associated with the app order.",
+      "STM-0043: Distinguish the customer's reported discrepancy from the restaurant's or support team's confirmed response."
+     ],
+     "stakeholders": [
+      "Customer",
+      "Restaurant staff",
+      "Support team (platform)",
+      "Building guard / receptionist"
+     ],
+     "constraints": [
+      "Communication only; no traffic, driving, vehicle-operation or safety instructions.",
+      "Do not invent platform rules, arrival guarantees or refund authority.",
+      "Apologise for personal mistakes only when established.",
+      "Use the planned A2 language."
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Several contact points",
+       "text": "The customer, restaurant and platform support may hold different information. The delivery worker communicates the supplied facts and identifies which contact can answer the unresolved question."
+      },
+      {
+       "title": "Order-linked location",
+       "text": "A meeting point discussed on a call must relate to the current order. Confirm an unclear entrance or building detail without providing navigation or travel instructions."
+      }
+     ],
+     "register": "Calm, concise and helpful, including when the customer is frustrated.",
+     "differenceStatement": "Platform food delivery involves brief contacts across a restaurant, customer and support team. Unlike a shop-counter handover, the worker may need to relay incomplete order updates and report discrepancies without being able to decide the remedy."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L4|RPF-000004",
+   "type": "context-overlay",
+   "key": "L4|RPF-000004",
+   "record": {
+    "content": {
+     "profile": "RPF-000004",
+     "situationsAdded": [],
+     "situationsChanged": [
+      "STM-0143: Explore candidates' examples of guest service, shift handovers and teamwork with operational departments.",
+      "STM-0127: Discuss an observed gap in agreed shift attendance or handover quality and its effect on department coverage."
+     ],
+     "stakeholders": [
+      "Candidate",
+      "Employee / team member",
+      "Department head"
+     ],
+     "constraints": [
+      "Use only supplied shift arrangements and performance evidence.",
+      "No employment-law or disciplinary-procedure claims.",
+      "Do not prescribe hotel safety procedures.",
+      "Use planned B2 questioning and explanation; managerial responsibility does not determine CEFR."
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Operational recruitment",
+       "text": "The department head may need coverage during a supplied busy period. Interview questions connect the candidate's experience and availability to the actual role, without assuming that all hotel staff work identical shifts."
+      },
+      {
+       "title": "Handover impact",
+       "text": "Incomplete handover information can leave the next team uncertain about outstanding guest requests. A performance conversation examines the supplied example, hears the employee's explanation and explores workable support."
+      }
+     ],
+     "register": "Respectful and evidence-led; probe specific examples without personal accusations.",
+     "differenceStatement": "Hotel HR connects staffing to service periods, roster coverage and continuity between operational shifts. Interview evidence centres on guest-facing teamwork; performance discussion may address handovers affecting the next team. These priorities differ from software HR's project collaboration and hybrid coordination."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L5|SEN-0008|-",
+   "type": "seniority-overlay",
+   "key": "L5|SEN-0008|-",
+   "record": {
+    "content": {
+     "responsibilityLevel": "SEN-0008",
+     "scale": null,
+     "purpose": "Communicate responsibility for agreed team expectations, support and follow-up.",
+     "audience": [
+      "Candidate",
+      "Employee / team member",
+      "Department head",
+      "Senior manager"
+     ],
+     "accountabilityLanguage": [
+      "Let us agree on the next step.",
+      "What support do you need?",
+      "I will confirm who is responsible.",
+      "We will review the agreed actions."
+     ],
+     "decisionRights": "Agree actions within the managerial remit supplied by the scenario and involve the appropriate colleague where needed. Do not imply automatic hiring, disciplinary or budget authority. The same responsibility layer supports both B1 and B2 English."
+    }
+   }
+  },
+  {
+   "tempId": "tmp:L4|RPF-000005",
+   "type": "context-overlay",
+   "key": "L4|RPF-000005",
+   "record": {
+    "content": {
+     "profile": "RPF-000005",
+     "situationsAdded": [],
+     "situationsChanged": [
+      "STM-0143: Ask for examples of project collaboration, explaining work to colleagues and coordinating in a hybrid team.",
+      "STM-0127: Explore missing progress updates or unclear ownership of agreed project actions, including dependencies on other teams."
+     ],
+     "stakeholders": [
+      "Candidate",
+      "Employee / team member",
+      "Department head"
+     ],
+     "constraints": [
+      "Use the supplied project arrangements and observable evidence.",
+      "No employment-law, monitoring or disciplinary-procedure claims.",
+      "Leave technical competence assessment to the relevant specialist; do not invent technical standards.",
+      "Use the planned B1 language."
+     ],
+     "jobKnowledge": [
+      {
+       "title": "Complementary interview evidence",
+       "text": "HR explores communication, collaboration and candidate expectations. A department head supplies information about the technical role; the HR conversation does not certify coding ability."
+      },
+      {
+       "title": "Hybrid coordination",
+       "text": "Colleagues may work in different places or at different times. The scenario can supply an agreed update that was missed, allowing discussion of visibility, responsibility and support without assuming permanent availability."
+      },
+      {
+       "title": "Project dependencies",
+       "text": "A delayed action may depend on information from another team. The manager distinguishes that obstacle from an unsupported judgement about individual effort."
+      }
+     ],
+     "register": "Professional, direct and collaborative; explain project context in accessible language.",
+     "differenceStatement": "Software HR focuses on cross-functional project evidence, complementary technical interviews and coordination across hybrid working arrangements. Underperformance may concern visibility of progress or unresolved dependencies. Unlike hotel shift coverage, the discussion concerns project ownership and information reaching colleagues working asynchronously."
+    }
+   }
+  }
+ ],
+ "selfCheck": [
+  {
+   "check": "A. Request generated",
+   "result": "met",
+   "notes": "REQ-000005 only; no later response generated."
+  },
+  {
+   "check": "B. Records generated",
+   "result": "met",
+   "notes": "Eight overlays: five L4 context records and three L5 responsibility records."
+  },
+  {
+   "check": "C. Shared records reused",
+   "result": "met",
+   "notes": "Six existing L3 role cores, including two parent cores, reused as dependencies; the same HR core serves both industries. None regenerated."
+  },
+  {
+   "check": "D. New records created",
+   "result": "met",
+   "notes": "Eight new response records; no repository-assigned object IDs or vocabulary codes invented."
+  },
+  {
+   "check": "E. AI-QA result",
+   "result": "met",
+   "notes": "PASS for repository response-schema and layer checks, with supplemental identifier, reference, limit, language and safety checks. Editorial Review remains pending; no specialist or native review claimed."
+  },
+  {
+   "check": "F. Duplicate result",
+   "result": "met",
+   "notes": "Zero repeated output keys or identical content; no output key already exists in the shared store."
+  },
+  {
+   "check": "G. Vocabulary-collision result",
+   "result": "met",
+   "notes": "Zero proposed vocabulary codes, so no new code collisions. Existing vocabulary unchanged."
+  },
+  {
+   "check": "H. Warnings and errors",
+   "result": "met",
+   "notes": "Zero findings in the checks performed. Shared overlays carry no CEFR field; later units retain their planned levels. Hotel and software context differ in processes, evidence and coordination needs."
+  },
+  {
+   "check": "I. Next request unlocked",
+   "result": "uncertain",
+   "notes": "None unlocked by this generation-only step. Repository ingestion and planning remain pending; later requests must not be generated yet."
+  }
+ ],
+ "assumptions": [],
+ "flags": [],
+ "questions": []
+}

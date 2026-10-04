@@ -1,0 +1,44 @@
+{
+ "id": "SNO-000003",
+ "type": "seniority-overlay",
+ "layer": "L5",
+ "key": "L5|SEN-0008|-",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L5|SEN-0008|-"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "14abe4ec7d9370b6",
+ "content": {
+  "responsibilityLevel": "SEN-0008",
+  "scale": null,
+  "purpose": "Communicate responsibility for agreed team expectations, support and follow-up.",
+  "audience": [
+   "Candidate",
+   "Employee / team member",
+   "Department head",
+   "Senior manager"
+  ],
+  "accountabilityLanguage": [
+   "Let us agree on the next step.",
+   "What support do you need?",
+   "I will confirm who is responsible.",
+   "We will review the agreed actions."
+  ],
+  "decisionRights": "Agree actions within the managerial remit supplied by the scenario and involve the appropriate colleague where needed. Do not imply automatic hiring, disciplinary or budget authority. The same responsibility layer supports both B1 and B2 English."
+ }
+}

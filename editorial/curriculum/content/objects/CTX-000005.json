@@ -1,0 +1,61 @@
+{
+ "id": "CTX-000005",
+ "type": "context-overlay",
+ "layer": "L4",
+ "key": "L4|RPF-000005",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000005",
+  "ingestedAt": "2026-10-04 17:57",
+  "tempId": "tmp:L4|RPF-000005"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [],
+ "contentHash": "efdd83eea59afbc5",
+ "content": {
+  "profile": "RPF-000005",
+  "situationsAdded": [],
+  "situationsChanged": [
+   "STM-0143: Ask for examples of project collaboration, explaining work to colleagues and coordinating in a hybrid team.",
+   "STM-0127: Explore missing progress updates or unclear ownership of agreed project actions, including dependencies on other teams."
+  ],
+  "stakeholders": [
+   "Candidate",
+   "Employee / team member",
+   "Department head"
+  ],
+  "constraints": [
+   "Use the supplied project arrangements and observable evidence.",
+   "No employment-law, monitoring or disciplinary-procedure claims.",
+   "Leave technical competence assessment to the relevant specialist; do not invent technical standards.",
+   "Use the planned B1 language."
+  ],
+  "jobKnowledge": [
+   {
+    "title": "Complementary interview evidence",
+    "text": "HR explores communication, collaboration and candidate expectations. A department head supplies information about the technical role; the HR conversation does not certify coding ability."
+   },
+   {
+    "title": "Hybrid coordination",
+    "text": "Colleagues may work in different places or at different times. The scenario can supply an agreed update that was missed, allowing discussion of visibility, responsibility and support without assuming permanent availability."
+   },
+   {
+    "title": "Project dependencies",
+    "text": "A delayed action may depend on information from another team. The manager distinguishes that obstacle from an unsupported judgement about individual effort."
+   }
+  ],
+  "register": "Professional, direct and collaborative; explain project context in accessible language.",
+  "differenceStatement": "Software HR focuses on cross-functional project evidence, complementary technical interviews and coordination across hybrid working arrangements. Underperformance may concern visibility of progress or unresolved dependencies. Unlike hotel shift coverage, the discussion concerns project ownership and information reaching colleagues working asynchronously."
+ }
+}

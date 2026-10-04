@@ -14,16 +14,15 @@
  },
  "sharedObjects": 22,
  "requests": {
-  "REQ-000005": "PREPARED",
-  "REQ-000006": "BLOCKED",
-  "REQ-000007": "BLOCKED",
+  "REQ-000006": "PREPARED",
+  "REQ-000007": "PREPARED",
   "REQ-000008": "BLOCKED",
-  "REQ-000009": "BLOCKED",
-  "REQ-000010": "BLOCKED",
+  "REQ-000009": "PREPARED",
+  "REQ-000010": "PREPARED",
   "REQ-000011": "BLOCKED"
  },
  "errors": [],
- "estimatedInputTokens": 42528,
- "maxOutputTokens": 56200,
+ "estimatedInputTokens": 61452,
+ "maxOutputTokens": 49000,
  "estimatedCost": null
 }

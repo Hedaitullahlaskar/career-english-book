@@ -4,7 +4,7 @@
  "batch": "B5",
  "mode": "generate",
  "layer": "L4+L5",
- "status": "PREPARED",
+ "status": "INGESTED",
  "dependsOn": [
   "L3|ROL-0013",
   "L3|ROL-0016",
