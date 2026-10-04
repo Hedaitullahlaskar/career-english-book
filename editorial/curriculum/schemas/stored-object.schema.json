@@ -1,0 +1,174 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Stored object envelope (repository-assigned)",
+ "type": "object",
+ "required": [
+  "id",
+  "type",
+  "layer",
+  "key",
+  "status",
+  "version",
+  "provenance",
+  "review",
+  "prototype",
+  "publishable",
+  "content"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1
+  },
+  "type": {
+   "type": "string",
+   "minLength": 1
+  },
+  "layer": {
+   "enum": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+   ]
+  },
+  "key": {
+   "type": "string",
+   "minLength": 1
+  },
+  "status": {
+   "enum": [
+    "GENERATED",
+    "AI_QA",
+    "EDITORIAL_REVIEW",
+    "SPECIALIST_REVIEW",
+    "NATIVE_REVIEW",
+    "APPROVED",
+    "COMPILED",
+    "PUBLISHED",
+    "RETIRED"
+   ]
+  },
+  "version": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "provenance": {
+   "type": "object",
+   "required": [
+    "source",
+    "generator",
+    "requestId",
+    "ingestedAt"
+   ],
+   "properties": {
+    "source": {
+     "enum": [
+      "generated",
+      "human"
+     ]
+    },
+    "generator": {
+     "type": "string",
+     "minLength": 1
+    },
+    "model": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "requestId": {
+     "type": "string",
+     "minLength": 1
+    },
+    "ingestedAt": {
+     "type": "string",
+     "minLength": 1
+    },
+    "tempId": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": false
+  },
+  "review": {
+   "type": "object",
+   "required": [
+    "aiQa",
+    "editorial",
+    "specialist",
+    "native"
+   ],
+   "properties": {
+    "aiQa": {
+     "enum": [
+      "PENDING",
+      "PASS",
+      "FAIL",
+      "NOT_REQUIRED",
+      "NOT_PERFORMED"
+     ]
+    },
+    "editorial": {
+     "enum": [
+      "PENDING",
+      "PASS",
+      "FAIL",
+      "NOT_REQUIRED",
+      "NOT_PERFORMED"
+     ]
+    },
+    "specialist": {
+     "enum": [
+      "PENDING",
+      "PASS",
+      "FAIL",
+      "NOT_REQUIRED",
+      "NOT_PERFORMED"
+     ]
+    },
+    "native": {
+     "enum": [
+      "PENDING",
+      "PASS",
+      "FAIL",
+      "NOT_REQUIRED",
+      "NOT_PERFORMED"
+     ]
+    }
+   },
+   "additionalProperties": false
+  },
+  "prototype": {
+   "type": "boolean"
+  },
+  "publishable": {
+   "type": "boolean"
+  },
+  "sharedBy": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "vocabularyCodes": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "content": {
+   "type": "object"
+  }
+ },
+ "additionalProperties": false
+}

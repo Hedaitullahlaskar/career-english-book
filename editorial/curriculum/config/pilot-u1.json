@@ -1,0 +1,91 @@
+{
+ "pilot": "U-1",
+ "contractVersion": "1.0",
+ "purpose": "Architecture-validation prototype approved by the author on 4 October 2026. Not for publication. Final state may never be COMPILED or PUBLISHED.",
+ "generator": "ChatGPT (D-U10: designated curriculum-generation engine; Claude Code builds requests, validates, stores, composes and tests)",
+ "profiles": [
+  {"key": "P1", "role": "ROL-0081", "industry": "VEGM", "department": "DEP-0048", "level": "SEN-0012", "ownershipScale": "solo", "employmentSetting": "EMP-02",
+   "specialisation": "Fresh vegetables sold from a market stall"},
+  {"key": "P2", "role": "ROL-0050", "industry": "CARD", "department": "DEP-0008", "level": "SEN-0003", "ownershipScale": null, "employmentSetting": "EMP-01",
+   "specialisation": "New-car sales in a dealership showroom"},
+  {"key": "P3", "role": "ROL-0157", "industry": "FDEL", "department": "DEP-0026", "level": "SEN-0003", "ownershipScale": null, "employmentSetting": "EMP-03",
+   "specialisation": "Restaurant food delivery through a platform app"},
+  {"key": "P4", "role": "ROL-0013", "industry": "HOTL", "department": "DEP-0005", "level": "SEN-0008", "ownershipScale": null, "employmentSetting": "EMP-01",
+   "specialisation": "HR for a hotel (shift-based operational staff)"},
+  {"key": "P5", "role": "ROL-0013", "industry": "SOFT", "department": "DEP-0005", "level": "SEN-0008", "ownershipScale": null, "employmentSetting": "EMP-01",
+   "specialisation": "HR for a software company (technical and hybrid teams)"}
+ ],
+ "units": [
+  {"profile": "P1", "situation": "STM-0020", "cefr": "A1", "stakeholders": ["Customer", "Regular customer"]},
+  {"profile": "P1", "situation": "STM-0021", "cefr": "A1", "stakeholders": ["Customer"]},
+  {"profile": "P1", "situation": "STM-0034", "cefr": "A1", "stakeholders": ["Customer"]},
+  {"profile": "P2", "situation": "STM-0019", "cefr": "B1", "stakeholders": ["Customer", "Sales Manager"]},
+  {"profile": "P2", "situation": "STM-0026", "cefr": "B1", "stakeholders": ["Customer"],
+   "excludeFunctions": [{"function": "CFN-0108", "reason": "Safety instruction/warning is a DRV trigger; U-1 must stay specialist-free (author ruling). The unit covers arranging the test drive (licence, timing, route agreed by the dealership, accompanying the customer) and contains no driving or traffic-safety instructions."}],
+   "constraints": ["No driving, traffic-law or vehicle-safety instructions; refer to 'the dealership's test-drive policy' generically"]},
+  {"profile": "P2", "situation": "STM-0028", "cefr": "B1", "stakeholders": ["Customer"]},
+  {"profile": "P2", "situation": "STM-0019", "cefr": "A2", "variantOf": "P2:STM-0019:B1", "stakeholders": ["Customer", "Sales Manager"]},
+  {"profile": "P3", "situation": "STM-0042", "cefr": "A2", "stakeholders": ["Customer", "Support team (platform)"], "constraints": ["No traffic or driving advice; communication only"]},
+  {"profile": "P3", "situation": "STM-0040", "cefr": "A2", "stakeholders": ["Customer", "Building guard / receptionist"], "constraints": ["No traffic or driving advice; communication only"]},
+  {"profile": "P3", "situation": "STM-0043", "cefr": "A2", "stakeholders": ["Customer", "Restaurant staff", "Support team (platform)"], "constraints": ["No traffic or driving advice; communication only"]},
+  {"profile": "P4", "situation": "STM-0143", "cefr": "B2", "stakeholders": ["Candidate", "Department head"], "constraints": ["Employment-law-adjacent statements kept generic; no legal procedure claims (D-U11)"]},
+  {"profile": "P4", "situation": "STM-0127", "cefr": "B2", "stakeholders": ["Employee / team member", "Department head"], "constraints": ["Employment-law-adjacent statements kept generic; no disciplinary-procedure claims (D-U11)"]},
+  {"profile": "P5", "situation": "STM-0143", "cefr": "B1", "stakeholders": ["Candidate", "Department head"], "differFrom": "P4:STM-0143:B2", "constraints": ["Employment-law-adjacent statements kept generic; no legal procedure claims (D-U11)"]},
+  {"profile": "P5", "situation": "STM-0127", "cefr": "B1", "stakeholders": ["Employee / team member", "Department head"], "differFrom": "P4:STM-0127:B2", "constraints": ["Employment-law-adjacent statements kept generic; no disciplinary-procedure claims (D-U11)"]}
+ ],
+ "reviewPolicy": {
+  "aiQa": "REQUIRED (AI/content pipeline)",
+  "editorial": "AUTHOR (author performs Editorial Review personally, D-U13b)",
+  "specialist": "NOT_REQUIRED",
+  "specialistReason": "U-1 roles are deliberately non-regulated general business roles; DRV-sensitive content excluded by constraint (author ruling 4 October 2026)",
+  "native": "NOT_REQUIRED",
+  "nativeReason": "No Bengali/Hindi content in U-1 (D-U08 clarification)"
+ },
+ "batches": {
+  "B1": {"layer": "L0", "label": "Function exponents", "maxRequests": 1, "maxInputTokens": 20000, "maxOutputTokens": 12000},
+  "B2": {"layer": "L1", "label": "Situation templates", "maxRequests": 1, "maxInputTokens": 20000, "maxOutputTokens": 8000},
+  "B3": {"layer": "L2", "label": "Core modules", "maxRequests": 1, "maxInputTokens": 20000, "maxOutputTokens": 6000},
+  "B4": {"layer": "L3", "label": "Role cores", "maxRequests": 1, "maxInputTokens": 25000, "maxOutputTokens": 10000},
+  "B5": {"layer": "L4+L5", "label": "Context and seniority overlays", "maxRequests": 1, "maxInputTokens": 30000, "maxOutputTokens": 12000},
+  "B6": {"layer": "L6", "label": "Units", "maxRequests": 6, "maxInputTokens": 150000, "maxOutputTokens": 60000}
+ },
+ "pricing": {"currency": null, "inputPer1kTokens": null, "outputPer1kTokens": null,
+  "note": "Not set: the author enters the model's actual prices. Costs are reported only when prices are set; token counts are always logged."},
+ "sizeLimits": {
+  "L0": {"exponentsPerFunctionLevel": [2, 4], "maxWordsPerExponent": 18},
+  "L1": {"maxDescriptionWords": 80, "flowSteps": [3, 6]},
+  "L2": {"maxSummaryWords": 120, "moves": [4, 10]},
+  "L3": {"responsibilities": [4, 8], "jobKnowledgeItems": [3, 6], "maxWordsPerJobKnowledgeItem": 60},
+  "L4": {"maxWords": 250, "jobKnowledgeItems": [2, 5]},
+  "L5": {"maxWords": 150},
+  "L6": {"conversationTurns": {"A1": [6, 10], "A2": [6, 12], "B1": [8, 14], "B2": [10, 16]},
+         "maxWordsPerLearnerTurn": {"A1": 8, "A2": 12, "B1": 18, "B2": 25},
+         "newVocabulary": {"A1": [5, 8], "A2": [5, 8], "B1": [6, 10], "B2": [6, 10]},
+         "guidedPracticeTasks": [2, 4], "maxUnitWords": 1600}
+ },
+ "style": {
+  "spelling": "UK", "dateFormat": "UK (e.g. 4 October 2026)", "register": "professional, respectful, realistic",
+  "currency": "Indian rupees (₹) unless the situation requires otherwise", "payments": "cash, UPI, card as realistic",
+  "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+  "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+  "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+  "audio": "None. Content must be fully usable as text (D-U06)."
+ },
+ "policies": {
+  "D-U11": "Job knowledge only to make communication realistic; not certification. No invented safety instructions, public procedures or legal/medical/financial advice. Factual claims in regulated areas must be traceable; U-1 avoids them.",
+  "D-U12": "Hybrid characters: role-specific realistic characters and reusable stakeholder archetypes; no single permanent character; Arif is not used.",
+  "D-U14": "Learning cycle for new role content: Context → Notice → Understand → Guided Practice → Role Practice → Performance Task → Feedback → Review/Retrieval. Not claimed to exist in the current book.",
+  "D-U07": "Vocabulary: propose terms only; the repository assigns V-<SCOPE>-<NUMBER> codes and reuses existing codes. Never invent codes.",
+  "D-U10": "Generate only the requested delta. Do not regenerate objects supplied in context."
+ },
+ "pilotSearchQueries": [
+  {"query": "vegetable seller English", "expectRole": "ROL-0081"},
+  {"query": "car sales customer", "expectRole": "ROL-0050"},
+  {"query": "food delivery late order", "expectRole": "ROL-0157", "expectSituation": "STM-0042"},
+  {"query": "HR interview", "expectRole": "ROL-0013", "expectSituation": "STM-0143"},
+  {"query": "BLO field visit", "expectRole": "ROL-0361"},
+  {"query": "nurse patient", "expectRole": "ROL-0318"},
+  {"query": "teacher parent meeting", "expectRole": "ROL-0038", "expectSituation": "STM-0111"},
+  {"query": "hotel check-in", "expectRole": "ROL-0001", "expectSituation": "STM-0050"}
+ ]
+}

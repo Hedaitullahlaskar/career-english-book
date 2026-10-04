@@ -1,0 +1,157 @@
+ID,Category ID,Category,Situation template,Typical functions,Typical stakeholders,Modes,Typical layers (any CEFR),Frontline-relevant,Specialist review triggers
+STM-0001,SC01,Social & first contact,"Greeting a customer, guest, patient or member of the public",CFN-0001 CFN-0034,customer,speak,Op,Y,
+STM-0002,SC01,Social & first contact,Introducing yourself on the first day at work,CFN-0002 CFN-0003,colleague; supervisor,speak,Op,Y,
+STM-0003,SC01,Social & first contact,Introducing yourself and your purpose to a household or business (field visit),CFN-0002 CFN-0096 CFN-0097,resident; shop owner,speak,Op,Y,PUB
+STM-0004,SC01,Social & first contact,Small talk with a regular customer,CFN-0004,customer,speak,Op,Y,
+STM-0005,SC01,Social & first contact,Saying goodbye and inviting a customer back,CFN-0005 CFN-0093,customer,speak,Op,Y,
+STM-0006,SC02,Information & enquiries,Answering a customer's question about a product,CFN-0010 CFN-0091,customer,speak,Op,Y,
+STM-0007,SC02,Information & enquiries,Explaining a service and what it includes,CFN-0012 CFN-0036,customer; client,speak,Op,Y,
+STM-0008,SC02,Information & enquiries,Explaining a procedure to a member of the public,CFN-0101 CFN-0013,citizen,speak,Op,Y,PUB
+STM-0009,SC02,Information & enquiries,"Giving opening hours, timings and schedules",CFN-0111 CFN-0010,customer,speak,Op,Y,
+STM-0010,SC02,Information & enquiries,Asking questions to understand what the customer needs,CFN-0035 CFN-0011,customer,speak,Op,Y,
+STM-0011,SC02,Information & enquiries,Giving directions inside a building or site,CFN-0094,visitor; customer,speak,Op,Y,
+STM-0012,SC02,Information & enquiries,Giving directions to a street address,CFN-0094 CFN-0095,caller; driver,speak,Op,Y,
+STM-0013,SC02,Information & enquiries,Asking for directions and finding an address,CFN-0094 CFN-0095 CFN-0013,passer-by; customer,speak,Op,Y,
+STM-0014,SC02,Information & enquiries,"Saying ""I don't know — I'll find out""",CFN-0017,customer,speak,Op,Y,
+STM-0015,SC03,Selling & products,Explaining a product's features and benefits,CFN-0091 CFN-0012,customer,speak write,Op,Y,
+STM-0016,SC03,Selling & products,Comparing two products for a customer,CFN-0091 CFN-0023,customer,speak,Op,Y,
+STM-0017,SC03,Selling & products,Recommending a product or service,CFN-0023 CFN-0042,customer,speak,Op,Y,
+STM-0018,SC03,Selling & products,Demonstrating a product,CFN-0012 CFN-0091,customer,speak,Op,Y,
+STM-0019,SC03,Selling & products,Discussing price,CFN-0085,customer,speak,Op,Y,
+STM-0020,SC03,Selling & products,Bargaining over price (markets and small shops),CFN-0087 CFN-0085 CFN-0020,customer,speak,Op,Y,
+STM-0021,SC03,Selling & products,"Discussing quantity, weight and measures",CFN-0086,customer,speak,Op,Y,
+STM-0022,SC03,Selling & products,"Size, colour, fitting and trial (clothing and footwear)",CFN-0086 CFN-0091 CFN-0023,customer,speak,Op,Y,
+STM-0023,SC03,Selling & products,"Offering a discount, promotion or free item",CFN-0092,customer,speak,Op,Y,
+STM-0024,SC03,Selling & products,Closing a sale,CFN-0041 CFN-0089,customer,speak,Op Sup,Y,
+STM-0025,SC03,Selling & products,Upselling or cross-selling,CFN-0042,customer,speak,Op,Y,
+STM-0026,SC03,Selling & products,Arranging and conducting a test drive,CFN-0091 CFN-0097 CFN-0108,customer,speak,Op,,DRV
+STM-0027,SC03,Selling & products,Preparing and explaining a quotation,CFN-0107 CFN-0012,customer; client,speak write,Op,,
+STM-0028,SC03,Selling & products,Following up after a quotation or visit,CFN-0022,customer; client,speak write,Op,Y,
+STM-0029,SC03,Selling & products,After-sales service call,CFN-0110 CFN-0037,customer,speak,Op,Y,
+STM-0030,SC03,Selling & products,Handling a sales objection,CFN-0061,customer; client,speak,Op Sup Mgr,Y,
+STM-0031,SC04,Orders & payment,Taking an order in person,CFN-0088,customer,speak,Op,Y,
+STM-0032,SC04,Orders & payment,Taking an order by phone or WhatsApp,CFN-0088 CFN-0013,customer,speak write,Op,Y,
+STM-0033,SC04,Orders & payment,Confirming an order and delivery time,CFN-0014 CFN-0088 CFN-0111,customer,speak write,Op,Y,
+STM-0034,SC04,Orders & payment,"Taking payment (cash, UPI, card)",CFN-0089,customer,speak,Op,Y,
+STM-0035,SC04,Orders & payment,Giving change and a receipt,CFN-0089,customer,speak,Op,Y,
+STM-0036,SC04,Orders & payment,Handling a failed or disputed payment,CFN-0090 CFN-0007,customer,speak,Op,Y,
+STM-0037,SC04,Orders & payment,Answering a billing question,CFN-0036 CFN-0010,customer,speak write,Op,Y,
+STM-0038,SC04,Orders & payment,Asking for pending payment or credit politely,CFN-0019 CFN-0022,customer; trader,speak write,Op,Y,FIN
+STM-0039,SC05,Delivery & pickup,"Picking up an order from a restaurant, shop or warehouse",CFN-0001 CFN-0014 CFN-0028,restaurant staff; store staff,speak,Op,Y,
+STM-0040,SC05,Delivery & pickup,Calling a customer to confirm address or landmark,CFN-0095 CFN-0013,customer,speak,Op,Y,
+STM-0041,SC05,Delivery & pickup,Calling or messaging a customer on arrival,CFN-0096 CFN-0095,customer,speak write,Op,Y,
+STM-0042,SC05,Delivery & pickup,Informing a customer about a late delivery,CFN-0028 CFN-0007,customer,speak write,Op,Y,
+STM-0043,SC05,Delivery & pickup,Wrong or missing item in a delivery,CFN-0037 CFN-0007 CFN-0024,customer; support team,speak,Op,Y,
+STM-0044,SC05,Delivery & pickup,Customer not available at delivery,CFN-0095 CFN-0019 CFN-0022,customer; support team,speak write,Op,Y,
+STM-0045,SC05,Delivery & pickup,Asking for proof of delivery or OTP,CFN-0098,customer,speak,Op,Y,
+STM-0046,SC05,Delivery & pickup,Delivering damaged goods or handling a return pickup,CFN-0037 CFN-0028,customer,speak,Op,Y,
+STM-0047,SC05,Delivery & pickup,Talking to a building guard or receptionist to reach a customer,CFN-0096 CFN-0097 CFN-0094,security guard; receptionist,speak,Op,Y,
+STM-0048,SC06,Appointments & bookings,Booking an appointment,CFN-0112,customer; patient,speak write,Op,Y,
+STM-0049,SC06,Appointments & bookings,Rescheduling or cancelling an appointment,CFN-0112 CFN-0007,customer; patient,speak write,Op,Y,
+STM-0050,SC06,Appointments & bookings,Checking in a customer or patient at reception,CFN-0034 CFN-0098,customer; patient,speak,Op,Y,
+STM-0051,SC06,Appointments & bookings,Explaining waiting time,CFN-0039 CFN-0111,customer; patient,speak,Op,Y,
+STM-0052,SC06,Appointments & bookings,"Taking a reservation (restaurant, hotel, travel)",CFN-0088 CFN-0014,guest,speak write,Op,Y,
+STM-0053,SC07,Complaints & service recovery,Handling a complaint in person,CFN-0038 CFN-0037 CFN-0039,customer,speak,Op Sup,Y,
+STM-0054,SC07,Complaints & service recovery,Handling a complaint by phone or message,CFN-0038 CFN-0037 CFN-0041,customer,speak write,Op,Y,
+STM-0055,SC07,Complaints & service recovery,Refund or exchange request,CFN-0036 CFN-0039 CFN-0020,customer,speak,Op,Y,
+STM-0056,SC07,Complaints & service recovery,Calming an angry customer,CFN-0038 CFN-0047,customer,speak,Op Sup,Y,
+STM-0057,SC07,Complaints & service recovery,Saying no politely within policy,CFN-0020 CFN-0036,customer,speak,Op,Y,
+STM-0058,SC07,Complaints & service recovery,Service recovery after a serious failure,CFN-0040 CFN-0008,customer; client,speak,Sup Mgr,,
+STM-0059,SC08,"Field visits, surveys & inspections",Arriving at a household or site and explaining the purpose,CFN-0096 CFN-0097,resident; site owner,speak,Op,Y,PUB
+STM-0060,SC08,"Field visits, surveys & inspections",Asking survey questions and recording answers,CFN-0099 CFN-0013,respondent,speak write,Op,Y,DATA
+STM-0061,SC08,"Field visits, surveys & inspections",Explaining and obtaining consent,CFN-0100,respondent; patient,speak,Op,Y,DATA
+STM-0062,SC08,"Field visits, surveys & inspections",Verifying documents or identity during a visit,CFN-0098,resident; customer,speak,Op,Y,DATA
+STM-0063,SC08,"Field visits, surveys & inspections",Helping someone fill in a form,CFN-0101 CFN-0013 CFN-0098,citizen; customer,speak write,Op,Y,PUB DATA
+STM-0064,SC08,"Field visits, surveys & inspections",Handling refusal or non-response,CFN-0102,resident; respondent,speak,Op,Y,
+STM-0065,SC08,"Field visits, surveys & inspections",Inspecting a site and recording observations,CFN-0029 CFN-0105,site owner; supervisor,speak write,Op Sup,Y,SAFE
+STM-0066,SC08,"Field visits, surveys & inspections",Field safety: leaving a difficult situation politely,CFN-0102 CFN-0024,resident,speak,Op,Y,SAFE
+STM-0067,SC08,"Field visits, surveys & inspections",Reporting field visit results to a supervisor,CFN-0027 CFN-0028,supervisor,speak write,Op,Y,
+STM-0068,SC09,Public service procedures,Handling public enquiries at a counter,CFN-0101 CFN-0010 CFN-0017,citizen,speak,Op,Y,PUB
+STM-0069,SC09,Public service procedures,Explaining required documents,CFN-0101 CFN-0098,citizen,speak write,Op,Y,PUB
+STM-0070,SC09,Public service procedures,Door-to-door verification (e.g. electoral roll),CFN-0096 CFN-0098 CFN-0099 CFN-0102,resident,speak,Op,Y,PUB DATA
+STM-0071,SC09,Public service procedures,Assisting elderly or disabled people,CFN-0103,citizen,speak,Op,Y,
+STM-0072,SC09,Public service procedures,Making an announcement to a queue or crowd,CFN-0104,public,speak,Op Sup,Y,PUB
+STM-0073,SC09,Public service procedures,Explaining a decision or rejection on an application,CFN-0101 CFN-0020 CFN-0024,citizen,speak,Op,Y,PUB
+STM-0074,SC10,Technical work & repair,Understanding the customer's problem,CFN-0105 CFN-0013,customer,speak,Op,Y,
+STM-0075,SC10,Technical work & repair,Asking permission to enter or start work,CFN-0097,customer; household,speak,Op,Y,
+STM-0076,SC10,Technical work & repair,Explaining the fault and the repair,CFN-0106,customer,speak,Op,Y,
+STM-0077,SC10,Technical work & repair,Giving a cost and time estimate,CFN-0107,customer,speak write,Op,Y,
+STM-0078,SC10,Technical work & repair,Asking the customer to approve extra work or cost,CFN-0107 CFN-0019,customer,speak,Op,Y,
+STM-0079,SC10,Technical work & repair,Explaining safety precautions to a customer,CFN-0108,customer,speak,Op,Y,SAFE
+STM-0080,SC10,Technical work & repair,Completing the job and explaining use and care,CFN-0110 CFN-0041,customer,speak,Op,Y,
+STM-0081,SC10,Technical work & repair,Warranty or guarantee discussion,CFN-0036 CFN-0110,customer,speak,Op,Y,
+STM-0082,SC10,Technical work & repair,Vehicle handover after service,CFN-0110 CFN-0107,customer,speak,Op,Y,
+STM-0083,SC11,Instructions & safety,Receiving and confirming instructions,CFN-0013 CFN-0014,supervisor,speak,Op,Y,
+STM-0084,SC11,Instructions & safety,Giving instructions to a helper or junior,CFN-0025,helper; junior,speak,Op Sup,Y,
+STM-0085,SC11,Instructions & safety,Following and confirming safety rules,CFN-0108 CFN-0014,supervisor,speak,Op,Y,SAFE
+STM-0086,SC11,Instructions & safety,Giving a safety warning,CFN-0108,colleague; public,speak,Op,Y,SAFE
+STM-0087,SC11,Instructions & safety,"Reporting a hazard, accident or near miss",CFN-0109,supervisor,speak write,Op,Y,SAFE
+STM-0088,SC12,Telephone & messaging,Answering a business call,CFN-0001 CFN-0010 CFN-0005,caller,speak,Op,Y,
+STM-0089,SC12,Telephone & messaging,Making an outbound call,CFN-0002 CFN-0019,customer; supplier,speak,Op,Y,
+STM-0090,SC12,Telephone & messaging,Taking a message,CFN-0018 CFN-0014,caller,speak write,Op,Y,
+STM-0091,SC12,Telephone & messaging,Work messages to customers (WhatsApp/SMS),CFN-0010 CFN-0022,customer,write,Op,Y,
+STM-0092,SC12,Telephone & messaging,Work messages to a supervisor or team (WhatsApp/Teams),CFN-0027 CFN-0019,supervisor; team,write,Op,Y,
+STM-0093,SC12,Telephone & messaging,Leaving or understanding a voice note,CFN-0010 CFN-0013,customer; supervisor,speak,Op,Y,
+STM-0094,SC13,Reporting & updates,Reporting a problem to a supervisor,CFN-0028 CFN-0043,supervisor,speak,Op,Y,
+STM-0095,SC13,Reporting & updates,Giving a daily status update,CFN-0027 CFN-0032,supervisor; team,speak write,Op,Y,
+STM-0096,SC13,Reporting & updates,End-of-shift or end-of-day report,CFN-0027 CFN-0033,supervisor,speak write,Op,Y,
+STM-0097,SC13,Reporting & updates,Writing an incident report,CFN-0029,supervisor; management,write,Op Sup,Y,SAFE
+STM-0098,SC13,Reporting & updates,Reporting sales or targets,CFN-0030,manager,speak write,Op Sup Mgr,Y,
+STM-0099,SC14,Shift & team operations,Shift handover,CFN-0033 CFN-0014,colleague,speak write,Op Sup,Y,
+STM-0100,SC14,Shift & team operations,Pre-shift team briefing,CFN-0065 CFN-0025,team,speak,Sup Mgr,Y,
+STM-0101,SC14,Shift & team operations,Allocating tasks for the day,CFN-0025 CFN-0066,team,speak,Sup Mgr,Y,
+STM-0102,SC14,Shift & team operations,Asking a colleague to cover,CFN-0019 CFN-0006,colleague,speak,Op,Y,
+STM-0103,SC14,Shift & team operations,Asking for leave or permission,CFN-0113,supervisor; employer,speak,Op,Y,
+STM-0104,SC15,Email & documents,Writing a work email,CFN-0010 CFN-0019 CFN-0022,colleague; client,write,Op Sup Mgr,,
+STM-0105,SC15,Email & documents,"Filling in forms, logs and registers",CFN-0029 CFN-0098,supervisor,write,Op,Y,
+STM-0106,SC15,Email & documents,Reading notices and instructions,CFN-0011 CFN-0013,employer,read,Op,Y,
+STM-0107,SC15,Email & documents,Writing a short report or summary,CFN-0016 CFN-0029,manager,write,Op Sup Mgr,,
+STM-0108,SC16,Meetings,Contributing in a team meeting,CFN-0052 CFN-0053,team,speak,Op Sup Mgr,,
+STM-0109,SC16,Meetings,Leading a meeting,CFN-0050 CFN-0051 CFN-0054 CFN-0055,team; peers,speak,Sup Mgr Exe,,
+STM-0110,SC16,Meetings,Meeting a client,CFN-0034 CFN-0035 CFN-0039,client,speak,Op Sup Mgr Exe,,
+STM-0111,SC16,Meetings,Parent-teacher meeting,CFN-0084 CFN-0039,parent,speak,Op Sup,,MIN
+STM-0112,SC16,Meetings,Online or video meeting,CFN-0051 CFN-0053,team; client,speak,Op Sup Mgr Exe,,
+STM-0113,SC16,Meetings,Community meeting or awareness session,CFN-0104 CFN-0083 CFN-0013,community members,speak,Op Sup,Y,
+STM-0114,SC17,Presentations & speaking to groups,Explaining a concept to a class or group,CFN-0083 CFN-0082,students; trainees,speak,Op Sup,Y,
+STM-0115,SC17,Presentations & speaking to groups,Speaking to the team as a group,CFN-0065 CFN-0073,team,speak,Sup Mgr,Y,
+STM-0116,SC17,Presentations & speaking to groups,Client presentation,CFN-0057 CFN-0058,client,speak,Sup Mgr Exe,,
+STM-0117,SC17,Presentations & speaking to groups,Business performance review,CFN-0078 CFN-0031 CFN-0030,owners; board,speak,Mgr Exe,,
+STM-0118,SC17,Presentations & speaking to groups,Pitching a business idea,CFN-0064 CFN-0081,partner; investor,speak,Ent,,
+STM-0119,SC17,Presentations & speaking to groups,Addressing all staff,CFN-0080 CFN-0075,employees,speak,Exe Ent,,
+STM-0120,SC18,Negotiation & agreements,Negotiating with a supplier,CFN-0062 CFN-0087,supplier,speak,Op Sup Mgr,Y,
+STM-0121,SC18,Negotiation & agreements,Negotiating terms with a client,CFN-0062,client,speak,Mgr Exe,,
+STM-0122,SC18,Negotiation & agreements,Discussing salary or pay,CFN-0062 CFN-0019,employer; HR,speak,Op Sup Mgr,Y,
+STM-0123,SC19,People & performance,Giving feedback to a team member,CFN-0067,team member,speak,Sup Mgr,Y,
+STM-0124,SC19,People & performance,Receiving feedback from a supervisor,CFN-0068,supervisor,speak,Op,Y,
+STM-0125,SC19,People & performance,Coaching a team member,CFN-0071,team member,speak,Mgr Exe,,
+STM-0126,SC19,People & performance,Formal performance review,CFN-0069,team member,speak,Mgr Exe,,
+STM-0127,SC19,People & performance,Addressing underperformance,CFN-0070,team member,speak,Mgr,,
+STM-0128,SC19,People & performance,Recognising good work,CFN-0009 CFN-0073,team member,speak,Sup Mgr,Y,
+STM-0129,SC20,Conflict & escalation,Disagreeing with a colleague,CFN-0052 CFN-0072,colleague,speak,Op,Y,
+STM-0130,SC20,Conflict & escalation,Resolving a conflict between team members,CFN-0072,team members,speak,Sup Mgr,Y,
+STM-0131,SC20,Conflict & escalation,Escalating an issue,CFN-0024,supervisor; manager,speak write,Op,Y,
+STM-0132,SC20,Conflict & escalation,Handling pressure from a manager or customer,CFN-0049 CFN-0047,manager; customer,speak,Op,Y,
+STM-0133,SC21,Crisis & emergencies,Calling for help in an emergency (handoff to trained responders),CFN-0024 CFN-0109,emergency services; supervisor,speak,Op,Y,SAFE
+STM-0134,SC21,Crisis & emergencies,System or service outage,CFN-0046 CFN-0045,customers; team,speak,Sup Mgr Exe,Y,
+STM-0135,SC21,Crisis & emergencies,Leading communication in a major incident,CFN-0046 CFN-0074,staff; stakeholders,speak,Mgr Exe Ent,,
+STM-0136,SC22,"Decisions, change & leadership",Communicating a decision,CFN-0074,team,speak,Mgr Exe Ent,,
+STM-0137,SC22,"Decisions, change & leadership",Announcing a change,CFN-0075,team; staff,speak,Mgr Exe Ent,,
+STM-0138,SC22,"Decisions, change & leadership",Explaining strategy and direction,CFN-0076,staff; managers,speak,Exe Ent,,
+STM-0139,SC22,"Decisions, change & leadership","Meeting owners, a board or a management company",CFN-0078,owners; board,speak,Exe Ent,,
+STM-0140,SC22,"Decisions, change & leadership",Investor or partner conversation,CFN-0081 CFN-0064,investor; partner,speak,Ent,,
+STM-0141,SC22,"Decisions, change & leadership",Speaking for the organisation in public,CFN-0080,public; media,speak,Exe Ent,,
+STM-0142,SC23,Career & employment,Job interview (as the candidate),CFN-0002 CFN-0062,interviewer,speak,Op,Y,
+STM-0143,SC23,Career & employment,Interviewing a candidate,CFN-0035 CFN-0011,candidate,speak,Sup Mgr Exe,,
+STM-0144,SC23,Career & employment,Asking for a raise or promotion,CFN-0062 CFN-0019,manager,speak,Op Sup Mgr,Y,
+STM-0145,SC23,Career & employment,Resigning politely,CFN-0006 CFN-0010,manager,speak,Op,Y,
+STM-0146,SC24,Teaching & training,Giving classroom or training instructions,CFN-0082,students; trainees,speak,Op,Y,MIN
+STM-0147,SC24,Teaching & training,Checking understanding in a class,CFN-0083 CFN-0015,students,speak,Op,Y,MIN
+STM-0148,SC24,Teaching & training,Correcting errors and giving learner feedback,CFN-0084,students,speak,Op,Y,MIN
+STM-0149,SC24,Teaching & training,Running a training session,CFN-0082 CFN-0083 CFN-0057,trainees,speak,Op Sup Mgr,Y,
+STM-0150,SC25,Health & care (non-clinical communication),Registering a patient,CFN-0034 CFN-0098 CFN-0011,patient; family,speak,Op,Y,MED DATA
+STM-0151,SC25,Health & care (non-clinical communication),Explaining the next steps of a visit (non-clinical),CFN-0012 CFN-0039,patient; family,speak,Op,Y,MED
+STM-0152,SC25,Health & care (non-clinical communication),Eye-test conversation (communication only),CFN-0013 CFN-0012 CFN-0015,patient,speak,Op,Y,MED
+STM-0153,SC25,Health & care (non-clinical communication),Pharmacy counter conversation (as labelled; referral to pharmacist),CFN-0010 CFN-0024,customer,speak,Op,Y,MED
+STM-0154,SC25,Health & care (non-clinical communication),Sample collection instructions,CFN-0025 CFN-0100,patient,speak,Op,Y,MED
+STM-0155,SC25,Health & care (non-clinical communication),Protecting patient privacy in conversation,CFN-0020 CFN-0036,visitor; caller,speak,Op,Y,MED DATA
+STM-0156,SC25,Health & care (non-clinical communication),Talking with a patient's family,CFN-0038 CFN-0012,family,speak,Op,Y,MED

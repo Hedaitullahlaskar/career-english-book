@@ -1,0 +1,714 @@
+{
+ "requestId": "REQ-000010",
+ "contractVersion": "1.0",
+ "batch": "B6:P4",
+ "mode": "generate",
+ "layer": "L6",
+ "status": "BLOCKED",
+ "dependsOn": [
+  "L0|CFN-0011|B2",
+  "L0|CFN-0035|B2",
+  "L0|CFN-0070|B2",
+  "L1|STM-0127",
+  "L1|STM-0143",
+  "L2|CM-10",
+  "L2|CM-11",
+  "L3|ROL-0013",
+  "L4|RPF-000004",
+  "L5|SEN-0008|-"
+ ],
+ "expectedOutputs": [
+  {
+   "tempId": "tmp:RIN-000011",
+   "type": "unit",
+   "key": "L6|RPF-000004|STM-0143|B2",
+   "brief": {
+    "roleInstance": "RIN-000011",
+    "title": "Interviewing a candidate — HR Manager (B2)",
+    "cefr": "B2",
+    "functions": [
+     {
+      "id": "CFN-0035",
+      "name": "Identify needs through questions",
+      "group": "Service",
+      "coreBookLocation": "L3 M6 (6.2)"
+     },
+     {
+      "id": "CFN-0011",
+      "name": "Ask for information",
+      "group": "Information",
+      "coreBookLocation": "L1 M5"
+     }
+    ],
+    "excludedFunctions": [],
+    "stakeholders": [
+     "Candidate",
+     "Department head"
+    ],
+    "constraints": [
+     "Employment-law-adjacent statements kept generic; no legal procedure claims (D-U11)"
+    ],
+    "variantOf": null,
+    "differFrom": null,
+    "layers": {
+     "L0|CFN-0035|B2": null,
+     "L0|CFN-0011|B2": null,
+     "L1|STM-0143": null,
+     "L2|CM-11": null,
+     "L3|ROL-0013": null,
+     "L4|RPF-000004": null,
+     "L5|SEN-0008|-": null
+    }
+   }
+  },
+  {
+   "tempId": "tmp:RIN-000012",
+   "type": "unit",
+   "key": "L6|RPF-000004|STM-0127|B2",
+   "brief": {
+    "roleInstance": "RIN-000012",
+    "title": "Addressing underperformance — HR Manager (B2)",
+    "cefr": "B2",
+    "functions": [
+     {
+      "id": "CFN-0070",
+      "name": "Address underperformance",
+      "group": "People leadership",
+      "coreBookLocation": "L5 M2 (2.4)"
+     }
+    ],
+    "excludedFunctions": [],
+    "stakeholders": [
+     "Employee / team member",
+     "Department head"
+    ],
+    "constraints": [
+     "Employment-law-adjacent statements kept generic; no disciplinary-procedure claims (D-U11)"
+    ],
+    "variantOf": null,
+    "differFrom": null,
+    "layers": {
+     "L0|CFN-0070|B2": null,
+     "L1|STM-0127": null,
+     "L2|CM-10": null,
+     "L2|CM-11": null,
+     "L3|ROL-0013": null,
+     "L4|RPF-000004": null,
+     "L5|SEN-0008|-": null
+    }
+   }
+  }
+ ],
+ "context": {
+  "pilot": {
+   "id": "U-1",
+   "purpose": "Architecture-validation prototype approved by the author on 4 October 2026. Not for publication. Final state may never be COMPILED or PUBLISHED."
+  },
+  "policies": {
+   "D-U11": "Job knowledge only to make communication realistic; not certification. No invented safety instructions, public procedures or legal/medical/financial advice. Factual claims in regulated areas must be traceable; U-1 avoids them.",
+   "D-U12": "Hybrid characters: role-specific realistic characters and reusable stakeholder archetypes; no single permanent character; Arif is not used.",
+   "D-U14": "Learning cycle for new role content: Context → Notice → Understand → Guided Practice → Role Practice → Performance Task → Feedback → Review/Retrieval. Not claimed to exist in the current book.",
+   "D-U07": "Vocabulary: propose terms only; the repository assigns V-<SCOPE>-<NUMBER> codes and reuses existing codes. Never invent codes.",
+   "D-U10": "Generate only the requested delta. Do not regenerate objects supplied in context."
+  },
+  "style": {
+   "spelling": "UK",
+   "dateFormat": "UK (e.g. 4 October 2026)",
+   "register": "professional, respectful, realistic",
+   "currency": "Indian rupees (₹) unless the situation requires otherwise",
+   "payments": "cash, UPI, card as realistic",
+   "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+   "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+   "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+   "audio": "None. Content must be fully usable as text (D-U06)."
+  },
+  "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
+  "blockedNote": "Built when 10 dependency objects are PRESENT (re-run plan.py after ingesting earlier batches)."
+ },
+ "style": {
+  "spelling": "UK",
+  "dateFormat": "UK (e.g. 4 October 2026)",
+  "register": "professional, respectful, realistic",
+  "currency": "Indian rupees (₹) unless the situation requires otherwise",
+  "payments": "cash, UPI, card as realistic",
+  "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+  "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+  "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+  "audio": "None. Content must be fully usable as text (D-U06)."
+ },
+ "limits": {
+  "conversationTurns": {
+   "A1": [
+    6,
+    10
+   ],
+   "A2": [
+    6,
+    12
+   ],
+   "B1": [
+    8,
+    14
+   ],
+   "B2": [
+    10,
+    16
+   ]
+  },
+  "maxWordsPerLearnerTurn": {
+   "A1": 8,
+   "A2": 12,
+   "B1": 18,
+   "B2": 25
+  },
+  "newVocabulary": {
+   "A1": [
+    5,
+    8
+   ],
+   "A2": [
+    5,
+    8
+   ],
+   "B1": [
+    6,
+    10
+   ],
+   "B2": [
+    6,
+    10
+   ]
+  },
+  "guidedPracticeTasks": [
+   2,
+   4
+  ],
+  "maxUnitWords": 1600
+ },
+ "outputSchema": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "L6 unit content, generated by ChatGPT, in the D-U14 cycle (Context, Notice, Understand, Guided Practice, Role Practice, Performance Task, Feedback, Review/Retrieval)",
+  "type": "object",
+  "required": [
+   "title",
+   "cefr",
+   "context",
+   "notice",
+   "understand",
+   "guidedPractice",
+   "rolePractice",
+   "performanceTask",
+   "feedback",
+   "reviewRetrieval",
+   "answerKey"
+  ],
+  "properties": {
+   "title": {
+    "type": "string",
+    "minLength": 1
+   },
+   "cefr": {
+    "enum": [
+     "Pre-A1",
+     "A1",
+     "A2",
+     "B1",
+     "B2",
+     "C1",
+     "C2"
+    ]
+   },
+   "context": {
+    "type": "object",
+    "required": [
+     "setting",
+     "learnerRole",
+     "stakeholders",
+     "objective",
+     "constraints"
+    ],
+    "properties": {
+     "setting": {
+      "type": "string",
+      "minLength": 1
+     },
+     "learnerRole": {
+      "type": "string",
+      "minLength": 1
+     },
+     "objective": {
+      "type": "string",
+      "minLength": 1
+     },
+     "constraints": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "stakeholders": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "archetype",
+        "name",
+        "relationship"
+       ],
+       "properties": {
+        "archetype": {
+         "type": "string",
+         "minLength": 1
+        },
+        "name": {
+         "type": "string",
+         "minLength": 1
+        },
+        "relationship": {
+         "enum": [
+          "external",
+          "senior",
+          "peer",
+          "junior"
+         ]
+        }
+       },
+       "additionalProperties": false
+      },
+      "minItems": 1
+     }
+    },
+    "additionalProperties": false
+   },
+   "notice": {
+    "type": "object",
+    "required": [
+     "conversation"
+    ],
+    "properties": {
+     "conversation": {
+      "type": "object",
+      "required": [
+       "turns"
+      ],
+      "properties": {
+       "turns": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "required": [
+          "n",
+          "speaker",
+          "learner",
+          "text"
+         ],
+         "properties": {
+          "n": {
+           "type": "integer",
+           "minimum": 1
+          },
+          "speaker": {
+           "type": "string",
+           "minLength": 1
+          },
+          "learner": {
+           "type": "boolean"
+          },
+          "text": {
+           "type": "string",
+           "minLength": 1
+          },
+          "functions": {
+           "type": "array",
+           "items": {
+            "type": "string",
+            "pattern": "^CFN-\\d{4}$"
+           }
+          }
+         },
+         "additionalProperties": false
+        },
+        "minItems": 4
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "additionalProperties": false
+   },
+   "understand": {
+    "type": "object",
+    "required": [
+     "keyExpressions",
+     "vocabulary"
+    ],
+    "properties": {
+     "keyExpressions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "text",
+        "function"
+       ],
+       "properties": {
+        "text": {
+         "type": "string",
+         "minLength": 1
+        },
+        "function": {
+         "type": "string",
+         "pattern": "^CFN-\\d{4}$"
+        },
+        "note": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": false
+      },
+      "minItems": 1
+     },
+     "vocabulary": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "term",
+        "definition",
+        "example"
+       ],
+       "properties": {
+        "term": {
+         "type": "string",
+         "minLength": 1
+        },
+        "pos": {
+         "type": "string"
+        },
+        "definition": {
+         "type": "string",
+         "minLength": 1
+        },
+        "example": {
+         "type": "string",
+         "minLength": 1
+        },
+        "existingCode": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "tempId": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       },
+       "additionalProperties": false
+      }
+     },
+     "notes": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      }
+     }
+    },
+    "additionalProperties": false
+   },
+   "jobKnowledge": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "title",
+      "text"
+     ],
+     "properties": {
+      "title": {
+       "type": "string",
+       "minLength": 1
+      },
+      "text": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "additionalProperties": false
+    }
+   },
+   "guidedPractice": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "id",
+      "type",
+      "prompt",
+      "items",
+      "answers"
+     ],
+     "properties": {
+      "id": {
+       "type": "string",
+       "minLength": 1
+      },
+      "type": {
+       "enum": [
+        "recognition",
+        "gap-fill",
+        "matching",
+        "ordering",
+        "rewriting",
+        "short-answer",
+        "choose-response"
+       ]
+      },
+      "prompt": {
+       "type": "string",
+       "minLength": 1
+      },
+      "items": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "required": [
+         "q"
+        ],
+        "properties": {
+         "q": {
+          "type": "string",
+          "minLength": 1
+         },
+         "options": {
+          "type": "array",
+          "items": {
+           "type": "string",
+           "minLength": 1
+          }
+         }
+        },
+        "additionalProperties": false
+       },
+       "minItems": 1
+      },
+      "answers": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      }
+     },
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "rolePractice": {
+    "type": "object",
+    "required": [
+     "instructions",
+     "cards"
+    ],
+    "properties": {
+     "instructions": {
+      "type": "string",
+      "minLength": 1
+     },
+     "cards": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "role",
+        "goal"
+       ],
+       "properties": {
+        "role": {
+         "type": "string",
+         "minLength": 1
+        },
+        "goal": {
+         "type": "string",
+         "minLength": 1
+        },
+        "info": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": false
+      },
+      "minItems": 2
+     }
+    },
+    "additionalProperties": false
+   },
+   "performanceTask": {
+    "type": "object",
+    "required": [
+     "prompt",
+     "modes",
+     "successCriteria"
+    ],
+    "properties": {
+     "prompt": {
+      "type": "string",
+      "minLength": 1
+     },
+     "modes": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "speak",
+        "write"
+       ]
+      },
+      "minItems": 1
+     },
+     "successCriteria": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 1
+     }
+    },
+    "additionalProperties": false
+   },
+   "feedback": {
+    "type": "object",
+    "required": [
+     "selfCheck"
+    ],
+    "properties": {
+     "selfCheck": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 1
+     },
+     "rubric": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "criterion",
+        "weight"
+       ],
+       "properties": {
+        "criterion": {
+         "type": "string",
+         "minLength": 1
+        },
+        "weight": {
+         "type": "integer",
+         "minimum": 1
+        }
+       },
+       "additionalProperties": false
+      }
+     }
+    },
+    "additionalProperties": false
+   },
+   "reviewRetrieval": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "prompt",
+      "answer"
+     ],
+     "properties": {
+      "prompt": {
+       "type": "string",
+       "minLength": 1
+      },
+      "answer": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "answerKey": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "taskRef",
+      "answer"
+     ],
+     "properties": {
+      "taskRef": {
+       "type": "string",
+       "minLength": 1
+      },
+      "answer": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "coreLinks": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "minLength": 1
+    }
+   }
+  },
+  "additionalProperties": false
+ },
+ "instructions": [
+  "Return ONE JSON object only (no prose, no Markdown fences), conforming to the response format in 'responseFormat'.",
+  "Produce exactly the outputs listed in 'expectedOutputs', using their tempId, type and key unchanged.",
+  "Generate only these outputs. Do not regenerate objects given in 'context' — use them.",
+  "Do not invent IDs or vocabulary codes. Reference existing codes only as given in context; propose new vocabulary with tempIds.",
+  "English only: no Bengali/Hindi script or transliteration. No audio references. No real brand or company names.",
+  "No legal, medical, financial or safety advice; no invented procedures or rules (D-U11).",
+  "Report honestly in selfCheck: 'met', 'not met' or 'uncertain'. Never claim approval, certification or CEFR validation."
+ ],
+ "responseFormat": {
+  "requestId": "<copy>",
+  "contractVersion": "1.0",
+  "model": "<model name if known>",
+  "outputs": [
+   {
+    "tempId": "<copy>",
+    "type": "<copy>",
+    "key": "<copy>",
+    "record": {
+     "content": "<object per outputSpec>"
+    }
+   }
+  ],
+  "selfCheck": [
+   {
+    "check": "<name>",
+    "result": "met | not met | uncertain",
+    "notes": "<text>"
+   }
+  ],
+  "assumptions": [],
+  "flags": [],
+  "questions": []
+ },
+ "estimate": {
+  "inputTokens": 2890,
+  "maxOutputTokens": 7000
+ }
+}

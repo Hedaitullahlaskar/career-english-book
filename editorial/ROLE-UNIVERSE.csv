@@ -1,0 +1,403 @@
+Role ID,Role,Family code,Role family,Parent role (inherits role core),Default responsibility level,Primary department,Employment settings,Common in sectors,Specialisation required in sectors,Special-role requirement (author list),Specialist review triggers,Search aliases (transliterations pending native review),Notes,Registry status
+ROL-0001,Front Office Executive,FO,Front office & reception,,EXE SEN-0003,DEP-0001 Front Office,formal employer,HOSP,HLTH,,,front desk executive; receptionist (hotel); front office associate,,SEEDED
+ROL-0002,Front Office Supervisor,FO,Front office & reception,,SUP SEN-0006,DEP-0001 Front Office,formal employer,HOSP,HLTH,,,,,SEEDED
+ROL-0003,Front Office Manager,FO,Front office & reception,,MGR SEN-0008,DEP-0001 Front Office,formal employer,HOSP,HLTH,,,,,SEEDED
+ROL-0004,Restaurant Captain,FNB,Food & beverage service,,SUP SEN-0006,DEP-0003 Food & Beverage,formal employer,HOSP,,,,captain; head waiter,,SEEDED
+ROL-0005,Restaurant Supervisor,FNB,Food & beverage service,,SUP SEN-0006,DEP-0003 Food & Beverage,formal employer,HOSP,,,,,,SEEDED
+ROL-0006,Restaurant Manager,FNB,Food & beverage service,,MGR SEN-0008,DEP-0003 Food & Beverage,formal employer,HOSP,,,,,,SEEDED
+ROL-0007,F&B Manager,FNB,Food & beverage service,,HOD SEN-0009,DEP-0003 Food & Beverage,formal employer,HOSP,TRVL HLTH SPRT,,,food and beverage manager,,SEEDED
+ROL-0008,Housekeeping Supervisor,HSKP,Housekeeping & cleaning,,SUP SEN-0006,DEP-0002 Housekeeping,formal employer,HOSP,HLTH,,,,,SEEDED
+ROL-0009,Housekeeping Manager,HSKP,Housekeeping & cleaning,,MGR SEN-0008,DEP-0002 Housekeeping,formal employer,HOSP,HLTH,,,executive housekeeper,,SEEDED
+ROL-0010,Administrative Executive,ADMN,Administration,,EXE SEN-0003,DEP-0007 Administration,formal employer,CORP EDU HLTH MFG PROF SMB BANK TECH BPO,,,,admin executive; office executive,,SEEDED
+ROL-0011,Office Manager,ADMN,Administration,,MGR SEN-0008,DEP-0007 Administration,formal employer,CORP PROF SMB TECH,,,,,,SEEDED
+ROL-0012,HR Executive,HR,Human resources,,EXE SEN-0003,DEP-0005 Human Resources,formal employer,BANK TRADE CORP,HOSP TECH BPO HLTH MFG,,,,,SEEDED
+ROL-0013,HR Manager,HR,Human resources,,MGR SEN-0008,DEP-0005 Human Resources,formal employer,BANK TRADE CORP,HOSP TECH BPO HLTH MFG,,,human resources manager; personnel manager,,SEEDED
+ROL-0014,Accountant,FIN,Finance & accounts,,PRO SEN-0004,DEP-0006 Finance & Accounts,formal employer,CORP PROF MFG TRADE HOSP TECH BPO EDU HLTH MOVE SMB,BANK,,,accounts executive,,SEEDED
+ROL-0015,Finance Manager,FIN,Finance & accounts,,MGR SEN-0008,DEP-0006 Finance & Accounts,formal employer,CORP MFG TRADE HOSP TECH HLTH PROF SMB,BANK,,,,,SEEDED
+ROL-0016,Sales Executive,SALE,Sales,,EXE SEN-0003,DEP-0008 Sales,formal employer,TRADE HOSP TRVL PROF SMB MOVE BPO CORP,BANK TECH MFG SPRT AUTO BUILD,,,salesperson; sales representative; sales officer,,SEEDED
+ROL-0017,Sales Manager,SALE,Sales,,MGR SEN-0008,DEP-0008 Sales,formal employer,TRADE HOSP TRVL PROF SMB MOVE BPO CORP,BANK TECH MFG SPRT AUTO BUILD,,,,,SEEDED
+ROL-0018,Marketing Executive,MKTG,Marketing & advertising,,EXE SEN-0003,DEP-0009 Marketing,formal employer,TRADE HOSP TECH CORP SMB EDU TRVL MEDIA,HLTH BANK,,,,,SEEDED
+ROL-0019,Marketing Manager,MKTG,Marketing & advertising,,MGR SEN-0008,DEP-0009 Marketing,formal employer,TRADE HOSP TECH CORP SMB EDU TRVL MEDIA,HLTH BANK,,,,,SEEDED
+ROL-0020,Operations Executive,OPS,Operations management,,EXE SEN-0003,DEP-0010 Operations,formal employer,TRADE BANK TECH HOSP CORP TRVL SMB PROF,HLTH BPO MOVE MFG,,,,,SEEDED
+ROL-0021,Operations Manager,OPS,Operations management,,MGR SEN-0008,DEP-0010 Operations,formal employer,TRADE BANK TECH HOSP CORP TRVL SMB PROF,HLTH BPO MOVE MFG,,,,,SEEDED
+ROL-0022,Customer Service Executive,CSV,Customer service,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRADE BANK TECH TRVL MOVE HOSP SMB UTIL,HLTH BPO,,,customer care executive; customer support,,SEEDED
+ROL-0023,Team Leader,OPS,Operations management,,SUP SEN-0006,DEP-0010 Operations,formal employer,TRADE BANK MOVE MFG HOSP CORP HLTH TRVL,BPO TECH,,,TL; team lead,,SEEDED
+ROL-0024,Quality Analyst,QLTY,Quality,,PRO SEN-0004,DEP-0014 Quality,formal employer,BANK,BPO MFG TECH HLTH,,,QA,,SEEDED
+ROL-0025,Trainer,TRNG,Training & L&D,,PRO SEN-0004,DEP-0015 Training / L&D,formal employer,BPO HOSP TRADE BANK TECH CORP,TRVL HLTH,,,,,SEEDED
+ROL-0026,IT Support Executive,ITF,Information technology,,EXE SEN-0003,DEP-0012 Information Technology,formal employer,TECH BPO BANK CORP HLTH EDU PROF MFG TRADE HOSP MOVE,,,,helpdesk executive; desktop support,,SEEDED
+ROL-0027,Developer,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,software developer; programmer,,SEEDED
+ROL-0028,IT / Engineering Manager,ITF,Information technology,,MGR SEN-0008,DEP-0012 Information Technology,formal employer,TECH BANK BPO CORP,,,,,,SEEDED
+ROL-0029,Project Manager,OPS,Operations management,,MGR SEN-0008,DEP-0010 Operations,formal employer,PROF CORP BANK HLTH MOVE,TECH MFG BUILD,,,,,SEEDED
+ROL-0030,Procurement Executive,PROC,Procurement,,EXE SEN-0003,DEP-0016 Procurement / Purchasing,formal employer,HOSP TRADE MOVE CORP TECH BANK,MFG HLTH,,,purchase executive; buyer,,SEEDED
+ROL-0031,Procurement Manager,PROC,Procurement,,MGR SEN-0008,DEP-0016 Procurement / Purchasing,formal employer,HOSP TRADE MOVE CORP TECH BANK,MFG HLTH,,,purchase manager,,SEEDED
+ROL-0032,Logistics Coordinator,LOGF,Logistics & supply chain,,SNR SEN-0005,DEP-0017 Logistics / Warehouse,formal employer,MOVE TRADE MFG,TRVL,,,,,SEEDED
+ROL-0033,Warehouse Supervisor,WHSF,Warehouse & stores,,SUP SEN-0006,DEP-0017 Logistics / Warehouse,formal employer,MOVE TRADE MFG,,,,,,SEEDED
+ROL-0034,Production Supervisor,PROD,Production & manufacturing,,SUP SEN-0006,DEP-0018 Production,formal employer,MFG,,,,shift in-charge; line supervisor,,SEEDED
+ROL-0035,Maintenance Engineer,MAINT,Maintenance & facilities,,PRO SEN-0004,DEP-0004 Maintenance / Engineering (facilities),formal employer,MFG HOSP HLTH BUILD,TRVL UTIL,,,,,SEEDED
+ROL-0036,Patient Services Executive,HCAD,Healthcare administration,,EXE SEN-0003,DEP-0019 Patient Services / Healthcare Administration,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0037,Healthcare Administrator,HCAD,Healthcare administration,,MGR SEN-0008,DEP-0019 Patient Services / Healthcare Administration,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0038,School Teacher,TEACH,Teaching,,PRO SEN-0004,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,teacher; class teacher,,SEEDED
+ROL-0039,Senior Teacher,TEACH,Teaching,,SNR SEN-0005,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,,,SEEDED
+ROL-0040,Subject Coordinator,TEACH,Teaching,,SNR SEN-0005,DEP-0020 Academic,formal employer,EDU,,,,,,SEEDED
+ROL-0041,Academic Coordinator,TEACH,Teaching,,AM SEN-0007,DEP-0020 Academic,formal employer,EDU,,,,,,SEEDED
+ROL-0042,Head Teacher,TEACH,Teaching,,HOD SEN-0009,DEP-0020 Academic,formal employer,EDU,,,,head of department; HOD,,SEEDED
+ROL-0043,Principal,TEACH,Teaching,,DIR SEN-0010,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,headmaster; headmistress,,SEEDED
+ROL-0044,Academic Director,TEACH,Teaching,,DIR SEN-0010,DEP-0021 Management / Executive Office,formal employer,EDU,,,,,,SEEDED
+ROL-0045,General Manager,MGMT,General management,,DIR SEN-0010,DEP-0021 Management / Executive Office,formal employer,TRADE MFG MOVE BPO TECH BANK HLTH CORP SMB,HOSP TRVL,,,GM,,SEEDED
+ROL-0046,Director,LEAD,Executive leadership,,DIR SEN-0010,DEP-0021 Management / Executive Office,formal employer,TECH BANK CORP PROF MFG HLTH,,,,,,SEEDED
+ROL-0047,Managing Director,LEAD,Executive leadership,,MD SEN-0011,DEP-0021 Management / Executive Office,formal employer,CORP MFG TECH PROF SMB BANK,,,,MD; CEO; chief executive,,SEEDED
+ROL-0048,Founder / Entrepreneur,ENTR,Entrepreneurship & small business,,OWN SEN-0012,DEP-0022 Founder's Office,self-employed / own-account,SMB TECH,,,,founder; entrepreneur; business owner,,SEEDED
+ROL-0049,Field Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,formal employer,TRADE MFG MOVE BANK TECH,HLTH AUTO AGRI,Y,,field sales; territory sales; sales rep,,SEEDED
+ROL-0050,Car Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,AUTO,,Y,,car salesman; showroom sales; relationship executive (auto),,SEEDED
+ROL-0051,Two-Wheeler Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,AUTO,,,,bike sales; scooter showroom,,SEEDED
+ROL-0052,Medical Representative,SALE,Sales,ROL-0049 Field Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,formal employer,HLTH,,Y,medical/clinical,MR; pharma sales rep,,SEEDED
+ROL-0053,FMCG Sales Representative,SALE,Sales,ROL-0049 Field Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,formal employer,MFG TRADE,,,,distributor salesman; DSR,,SEEDED
+ROL-0054,Real Estate Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,BUILD,,,legal,property advisor; property dealer staff,,SEEDED
+ROL-0055,Telesales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,BPO BANK TECH EDU,,,personal data,telesales; inside sales,,SEEDED
+ROL-0056,Key Account Executive,SALE,Sales,ROL-0016 Sales Executive,SNR SEN-0005,DEP-0008 Sales,formal employer,TECH MFG MOVE PROF,,,,,,SEEDED
+ROL-0057,Key Account Manager,SALE,Sales,ROL-0017 Sales Manager,MGR SEN-0008,DEP-0008 Sales,formal employer,TECH MFG MOVE PROF,,,,,,SEEDED
+ROL-0058,Area Sales Manager,SALE,Sales,ROL-0017 Sales Manager,MGR SEN-0008,DEP-0023 Field Sales,formal employer,MFG TRADE BANK HLTH AUTO,,,,ASM,,SEEDED
+ROL-0059,Regional Sales Manager,SALE,Sales,ROL-0017 Sales Manager,HOD SEN-0009,DEP-0023 Field Sales,formal employer,MFG TRADE BANK HLTH AUTO TECH,,,,RSM,,SEEDED
+ROL-0060,Hotel Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,HOSP,,,,,,SEEDED
+ROL-0061,Advertising Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,MEDIA,,,,ad sales; space selling,,SEEDED
+ROL-0062,Agri-Input Sales Representative,SALE,Sales,ROL-0049 Field Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,formal employer,AGRI,,,safety-critical,seed and fertiliser sales,,SEEDED
+ROL-0063,Solar Sales Executive,SALE,Sales,ROL-0049 Field Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,formal employer,UTIL,,,,,,SEEDED
+ROL-0064,Showroom Sales Executive,SALE,Sales,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0008 Sales,formal employer,TRADE,AUTO,,,furniture showroom; appliance showroom,,SEEDED
+ROL-0065,Sales Trainee,SALE,Sales,ROL-0016 Sales Executive,TRN SEN-0001,DEP-0008 Sales,formal employer,TRADE MFG AUTO BANK TECH,,,,,,SEEDED
+ROL-0066,Brand Promoter,SALE,Sales,ROL-0016 Sales Executive,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,formal employer; informal employee / helper,TRADE,,,,promoter; in-store promoter; demonstrator,,SEEDED
+ROL-0067,Small Shop Salesperson,RTLF,Retail & shop floor,,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,informal employee / helper; formal employer,TRADE,,Y,,shop assistant; counter boy; dukaan staff,,SEEDED
+ROL-0068,Shopping Mall Sales Associate,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,EXE SEN-0003,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,Y,,mall staff; sales associate; brand store staff,,SEEDED
+ROL-0069,Clothing Salesperson,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,informal employee / helper; formal employer,TRADE,,Y,,garment shop salesperson; saree shop salesman,,SEEDED
+ROL-0070,Footwear Salesperson,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,informal employee / helper; formal employer,TRADE,,,,,,SEEDED
+ROL-0071,Supermarket Associate,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,supermarket staff; floor associate,,SEEDED
+ROL-0072,Cashier,RTLF,Retail & shop floor,,EXE SEN-0003,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE HOSP,,,,billing counter; till operator,,SEEDED
+ROL-0073,Stock Associate,RTLF,Retail & shop floor,,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,shelf filler; replenishment staff,,SEEDED
+ROL-0074,Visual Merchandiser,RTLF,Retail & shop floor,,PRO SEN-0004,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,,,SEEDED
+ROL-0075,Store Supervisor,RTLF,Retail & shop floor,,SUP SEN-0006,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,floor supervisor; shift supervisor (retail),,SEEDED
+ROL-0076,Store Manager,RTLF,Retail & shop floor,,MGR SEN-0008,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,shop manager; outlet manager,,SEEDED
+ROL-0077,Mobile & Electronics Sales Associate,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,EXE SEN-0003,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,,,SEEDED
+ROL-0078,Jewellery Sales Associate,RTLF,Retail & shop floor,ROL-0067 Small Shop Salesperson,EXE SEN-0003,DEP-0024 Retail Floor / Shop Floor,formal employer,TRADE,,,,,,SEEDED
+ROL-0079,Shop Helper,RTLF,Retail & shop floor,,AST SEN-0002,DEP-0024 Retail Floor / Shop Floor,informal employee / helper,TRADE,,,,helper; delivery helper (shop),,SEEDED
+ROL-0080,Street Vendor,MKTV,Market & street vending,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE,,,,hawker; footpath vendor; thela,,SEEDED
+ROL-0081,Vegetable Seller,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,TRADE,,Y,,sabzi wala; vegetable vendor; vegetable shop,,SEEDED
+ROL-0082,Fruit Seller,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,TRADE,,,,fruit vendor; phal wala,,SEEDED
+ROL-0083,Fish Seller,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,TRADE,,Y,food safety,fishmonger; machhli wala,,SEEDED
+ROL-0084,Meat Seller,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,TRADE,,,food safety,butcher; meat shop,,SEEDED
+ROL-0085,Flower Seller,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE,,,,,,SEEDED
+ROL-0086,Street Food Vendor,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE HOSP,,,food safety,chaat stall; food cart; snacks stall,,SEEDED
+ROL-0087,Tea Stall Owner,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE HOSP,,,food safety,chai stall; tea shop,,SEEDED
+ROL-0088,Newspaper Salesperson,MKTV,Market & street vending,ROL-0080 Street Vendor,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,TRADE MEDIA,,Y,,newspaper vendor; news agent; akhbar wala; hawker (newspaper),,SEEDED
+ROL-0089,Market Stall Helper,MKTV,Market & street vending,ROL-0080 Street Vendor,AST SEN-0002,DEP-0048 Not applicable — own business / self-employed,informal employee / helper,TRADE,,,,,,SEEDED
+ROL-0090,Wholesale Trader,WHTR,Wholesale & trading,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE,,,,wholesaler; dealer; distributor,,SEEDED
+ROL-0091,Wholesale Sales Assistant,WHTR,Wholesale & trading,,AST SEN-0002,DEP-0008 Sales,informal employee / helper; formal employer,TRADE,,,,,,SEEDED
+ROL-0092,Commission Agent (Market),WHTR,Wholesale & trading,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRADE AGRI,,,financial regulation,mandi agent; arhatiya,,SEEDED
+ROL-0093,Import-Export Coordinator,WHTR,Wholesale & trading,,SNR SEN-0005,DEP-0017 Logistics / Warehouse,formal employer,TRADE MOVE,,,legal,,,SEEDED
+ROL-0094,Customer Care Representative (Counter),CSV,Customer service,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRADE TECH UTIL MOVE,,,,service counter; help counter,,SEEDED
+ROL-0095,Help Desk Executive,CSV,Customer service,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,CORP EDU HLTH TRVL,,,,,,SEEDED
+ROL-0096,Complaints Officer,CSV,Customer service,ROL-0022 Customer Service Executive,SNR SEN-0005,DEP-0011 Customer Service / Support,formal employer,BANK UTIL TECH,,,,,,SEEDED
+ROL-0097,After-Sales Service Coordinator,CSV,Customer service,ROL-0022 Customer Service Executive,SNR SEN-0005,DEP-0025 After-Sales Service,formal employer,AUTO TRADE TECH,TRDS,,,,,SEEDED
+ROL-0098,Customer Service Manager,CSV,Customer service,,MGR SEN-0008,DEP-0011 Customer Service / Support,formal employer,TRADE BANK TECH TRVL MOVE,HLTH BPO,,,,,SEEDED
+ROL-0099,Customer Support Associate (Voice),CNTC,Contact centre,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BPO,TECH BANK,,personal data,call centre agent; CSA; tele-caller (inbound),,SEEDED
+ROL-0100,Chat & Email Support Associate,CNTC,Contact centre,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BPO,TECH,,personal data,non-voice process,,SEEDED
+ROL-0101,Technical Support Associate,CNTC,Contact centre,ROL-0099 Customer Support Associate (Voice),EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BPO TECH,,,personal data,tech support process,,SEEDED
+ROL-0102,Collections Executive,CNTC,Contact centre,,EXE SEN-0003,DEP-0045 Collections & Recovery,formal employer,BPO BANK,,,financial regulation; personal data,recovery agent (calls); collections caller,,SEEDED
+ROL-0103,Telecaller,CNTC,Contact centre,,EXE SEN-0003,DEP-0008 Sales,formal employer,BPO BANK EDU BUILD,,,personal data,outbound caller,,SEEDED
+ROL-0104,Workforce / Real-Time Analyst,CNTC,Contact centre,,PRO SEN-0004,DEP-0010 Operations,formal employer,BPO,,,,,,SEEDED
+ROL-0105,Process Trainer,CNTC,Contact centre,ROL-0025 Trainer,PRO SEN-0004,DEP-0015 Training / L&D,formal employer,BPO,,,,,,SEEDED
+ROL-0106,Contact Centre Manager,CNTC,Contact centre,ROL-0021 Operations Manager,HOD SEN-0009,DEP-0010 Operations,formal employer,BPO,,,,process head; operations head (BPO),,SEEDED
+ROL-0107,Receptionist,FO,Front office & reception,ROL-0001 Front Office Executive,EXE SEN-0003,DEP-0001 Front Office,formal employer,CORP HLTH EDU BEAU,,,,front desk; reception staff,,SEEDED
+ROL-0108,Concierge,FO,Front office & reception,ROL-0001 Front Office Executive,EXE SEN-0003,DEP-0001 Front Office,formal employer,HOSP,,,,,,SEEDED
+ROL-0109,Bell Desk Associate,FO,Front office & reception,,AST SEN-0002,DEP-0001 Front Office,formal employer,HOSP,,,,bellboy; porter,,SEEDED
+ROL-0110,Reservations Executive,FO,Front office & reception,ROL-0001 Front Office Executive,EXE SEN-0003,DEP-0001 Front Office,formal employer,HOSP TRVL,,,,,,SEEDED
+ROL-0111,Guest Relations Executive,FO,Front office & reception,ROL-0001 Front Office Executive,EXE SEN-0003,DEP-0001 Front Office,formal employer,HOSP,,,,GRE,,SEEDED
+ROL-0112,Night Auditor,FO,Front office & reception,,EXE SEN-0003,DEP-0001 Front Office,formal employer,HOSP,,,financial regulation,,,SEEDED
+ROL-0113,Waiter / Server,FNB,Food & beverage service,,AST SEN-0002,DEP-0003 Food & Beverage,formal employer,HOSP,,,food safety,steward; waiter; waitress; server,,SEEDED
+ROL-0114,Bartender,FNB,Food & beverage service,,EXE SEN-0003,DEP-0003 Food & Beverage,formal employer,HOSP,,,food safety,,,SEEDED
+ROL-0115,Barista,FNB,Food & beverage service,,EXE SEN-0003,DEP-0003 Food & Beverage,formal employer,HOSP,,,food safety,,,SEEDED
+ROL-0116,Restaurant Host,FNB,Food & beverage service,,EXE SEN-0003,DEP-0003 Food & Beverage,formal employer,HOSP,,,,hostess; greeter,,SEEDED
+ROL-0117,Banquet Executive,FNB,Food & beverage service,,EXE SEN-0003,DEP-0003 Food & Beverage,formal employer,HOSP,,,,,,SEEDED
+ROL-0118,Room Service Associate,FNB,Food & beverage service,,AST SEN-0002,DEP-0003 Food & Beverage,formal employer,HOSP,,,,,,SEEDED
+ROL-0119,QSR Crew Member,FNB,Food & beverage service,,AST SEN-0002,DEP-0003 Food & Beverage,formal employer,HOSP,,,food safety,fast-food crew; counter crew,,SEEDED
+ROL-0120,QSR Shift Manager,FNB,Food & beverage service,,SUP SEN-0006,DEP-0003 Food & Beverage,formal employer,HOSP,,,,,,SEEDED
+ROL-0121,Café Owner,FNB,Food & beverage service,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,HOSP SMB,,,,,,SEEDED
+ROL-0122,Kitchen Helper,KTCH,Kitchen & culinary,,AST SEN-0002,DEP-0028 Kitchen,informal employee / helper; formal employer,HOSP,,,food safety,commis; kitchen assistant,,SEEDED
+ROL-0123,Cook,KTCH,Kitchen & culinary,,EXE SEN-0003,DEP-0028 Kitchen,formal employer; informal employee / helper,HOSP,,,food safety,,,SEEDED
+ROL-0124,Chef de Partie,KTCH,Kitchen & culinary,,SNR SEN-0005,DEP-0028 Kitchen,formal employer,HOSP,,,food safety,,,SEEDED
+ROL-0125,Sous Chef,KTCH,Kitchen & culinary,,AM SEN-0007,DEP-0028 Kitchen,formal employer,HOSP,,,food safety,,,SEEDED
+ROL-0126,Executive Chef,KTCH,Kitchen & culinary,,HOD SEN-0009,DEP-0028 Kitchen,formal employer,HOSP,,,food safety,head chef,,SEEDED
+ROL-0127,Catering Supervisor,KTCH,Kitchen & culinary,,SUP SEN-0006,DEP-0028 Kitchen,formal employer,HOSP,,,food safety,,,SEEDED
+ROL-0128,Home Food Business Owner,KTCH,Kitchen & culinary,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,SMB HOSP,,,food safety,tiffin service; home kitchen,,SEEDED
+ROL-0129,Room Attendant,HSKP,Housekeeping & cleaning,,AST SEN-0002,DEP-0002 Housekeeping,formal employer,HOSP,HLTH,,,housekeeping attendant; room boy,,SEEDED
+ROL-0130,Public Area Attendant,HSKP,Housekeeping & cleaning,,AST SEN-0002,DEP-0002 Housekeeping,formal employer,HOSP,,,,,,SEEDED
+ROL-0131,Laundry Attendant,HSKP,Housekeeping & cleaning,,AST SEN-0002,DEP-0002 Housekeeping,formal employer,HOSP,HLTH,,,,,SEEDED
+ROL-0132,Hospital Housekeeping Associate,HSKP,Housekeeping & cleaning,ROL-0129 Room Attendant,AST SEN-0002,DEP-0002 Housekeeping,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0133,Office Housekeeper,HSKP,Housekeeping & cleaning,,AST SEN-0002,DEP-0002 Housekeeping,formal employer,CORP BUILD,,,,facility housekeeping; office cleaner,,SEEDED
+ROL-0134,Travel Consultant,TRVF,Travel & tourism services,,EXE SEN-0003,DEP-0008 Sales,formal employer,TRVL,,,,travel agent,,SEEDED
+ROL-0135,Tour Guide,TRVF,Travel & tourism services,,PRO SEN-0004,DEP-0010 Operations,self-employed / own-account; formal employer,TRVL,,,,guide; heritage guide,,SEEDED
+ROL-0136,Tour Manager,TRVF,Travel & tourism services,,SNR SEN-0005,DEP-0010 Operations,formal employer,TRVL,,,,tour leader; tour escort,,SEEDED
+ROL-0137,Ticketing Executive,TRVF,Travel & tourism services,,EXE SEN-0003,DEP-0010 Operations,formal employer,TRVL,,,,,,SEEDED
+ROL-0138,Visa Assistance Executive,TRVF,Travel & tourism services,,EXE SEN-0003,DEP-0010 Operations,formal employer,TRVL,,,legal,,,SEEDED
+ROL-0139,Tour Operations Executive,TRVF,Travel & tourism services,,EXE SEN-0003,DEP-0010 Operations,formal employer,TRVL,,,,,,SEEDED
+ROL-0140,Homestay Host,TRVF,Travel & tourism services,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,TRVL HOSP,,,,,,SEEDED
+ROL-0141,Airline Check-in Agent,AVNF,Aviation services,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRVL,,,safety-critical,,,SEEDED
+ROL-0142,Gate Agent,AVNF,Aviation services,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRVL,,,safety-critical,,,SEEDED
+ROL-0143,Cabin Crew,AVNF,Aviation services,,EXE SEN-0003,DEP-0010 Operations,formal employer,TRVL,,,safety-critical,air hostess; flight attendant; steward,,SEEDED
+ROL-0144,Ground Handling Staff,AVNF,Aviation services,,AST SEN-0002,DEP-0010 Operations,formal employer,TRVL,,,safety-critical,,,SEEDED
+ROL-0145,Baggage Services Agent,AVNF,Aviation services,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRVL,,,,,,SEEDED
+ROL-0146,Airport Customer Service Agent,AVNF,Aviation services,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,TRVL,,,,,,SEEDED
+ROL-0147,Airport Duty Officer,AVNF,Aviation services,,SUP SEN-0006,DEP-0010 Operations,formal employer,TRVL,,,safety-critical,,,SEEDED
+ROL-0148,Airline Station Manager,AVNF,Aviation services,,MGR SEN-0008,DEP-0010 Operations,formal employer,TRVL,,,safety-critical,,,SEEDED
+ROL-0149,Survey Enumerator,FLDW,Field work & surveys,,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer; public service; NGO / community,PROF GOVT,,Y,personal data,survey executive; field enumerator; field investigator,,SEEDED
+ROL-0150,Field Supervisor (Surveys),FLDW,Field work & surveys,,SUP SEN-0006,DEP-0037 Field Operations & Surveys,formal employer,PROF GOVT,,,personal data,,,SEEDED
+ROL-0151,Field Officer,FLDW,Field work & surveys,,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer; NGO / community,NGO BANK AGRI,,,,field executive; field staff,,SEEDED
+ROL-0152,Market Research Field Executive,FLDW,Field work & surveys,ROL-0149 Survey Enumerator,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer,PROF,,,personal data,,,SEEDED
+ROL-0153,Census Enumerator,FLDW,Field work & surveys,ROL-0149 Survey Enumerator,EXE SEN-0003,DEP-0037 Field Operations & Surveys,public service,GOVT,,,official public procedure & political neutrality; personal data,,,SEEDED
+ROL-0154,Field Verification Officer,FLDW,Field work & surveys,,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer,BANK,,,financial regulation; personal data,address verification; KYC field verification,,SEEDED
+ROL-0155,Retail Merchandiser (Field),FLDW,Field work & surveys,,EXE SEN-0003,DEP-0023 Field Sales,formal employer,MFG TRADE,,,,field merchandiser,,SEEDED
+ROL-0156,Automobile Field Executive,FLDW,Field work & surveys,,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer,AUTO,BANK,,financial regulation,vehicle inspection executive; auto field staff; vehicle surveyor,,SEEDED
+ROL-0157,Food Delivery Executive,DLVR,Delivery & last mile,,EXE SEN-0003,DEP-0026 Last-Mile Delivery & Dispatch,gig / platform,MOVE HOSP,,Y,driving & traffic safety,delivery partner; delivery boy; rider,,SEEDED
+ROL-0158,Parcel Delivery Executive,DLVR,Delivery & last mile,,EXE SEN-0003,DEP-0026 Last-Mile Delivery & Dispatch,formal employer; gig / platform,MOVE TRADE,,,driving & traffic safety,courier boy; delivery associate; last-mile,,SEEDED
+ROL-0159,Newspaper Delivery Person,DLVR,Delivery & last mile,,AST SEN-0002,DEP-0026 Last-Mile Delivery & Dispatch,informal employee / helper; self-employed / own-account,MEDIA TRADE,,,,paper boy; newspaper hawker (delivery),,SEEDED
+ROL-0160,Milk Delivery Person,DLVR,Delivery & last mile,,AST SEN-0002,DEP-0026 Last-Mile Delivery & Dispatch,informal employee / helper; self-employed / own-account,AGRI TRADE,,,,,,SEEDED
+ROL-0161,Gas Cylinder Delivery Person,DLVR,Delivery & last mile,,AST SEN-0002,DEP-0026 Last-Mile Delivery & Dispatch,formal employer; informal employee / helper,UTIL,,,safety-critical,,,SEEDED
+ROL-0162,Water Can Delivery Person,DLVR,Delivery & last mile,,AST SEN-0002,DEP-0026 Last-Mile Delivery & Dispatch,informal employee / helper,TRADE UTIL,,,,,,SEEDED
+ROL-0163,Delivery Hub Supervisor,DLVR,Delivery & last mile,,SUP SEN-0006,DEP-0026 Last-Mile Delivery & Dispatch,formal employer,MOVE,,,,station in-charge; hub lead,,SEEDED
+ROL-0164,Dispatch Coordinator,DLVR,Delivery & last mile,ROL-0032 Logistics Coordinator,EXE SEN-0003,DEP-0026 Last-Mile Delivery & Dispatch,formal employer,MOVE HOSP TRADE,,,,,,SEEDED
+ROL-0165,Car Driver,DRVR,Driving & transport,,EXE SEN-0003,DEP-0027 Transport & Fleet,formal employer; household employer,MOVE DOMS CORP,,,driving & traffic safety,chauffeur; company driver,,SEEDED
+ROL-0166,Taxi / Ride-Hailing Driver,DRVR,Driving & transport,,EXE SEN-0003,DEP-0027 Transport & Fleet,gig / platform; self-employed / own-account,MOVE,,,driving & traffic safety,cab driver; Uber/Ola-type driver (generic),,SEEDED
+ROL-0167,Auto-Rickshaw Driver,DRVR,Driving & transport,,OWN SEN-0012,DEP-0027 Transport & Fleet,self-employed / own-account,MOVE,,,driving & traffic safety,auto driver; tuk-tuk,,SEEDED
+ROL-0168,Truck Driver,DRVR,Driving & transport,,EXE SEN-0003,DEP-0027 Transport & Fleet,formal employer; self-employed / own-account,MOVE,,,driving & traffic safety,lorry driver,,SEEDED
+ROL-0169,Bus Driver,DRVR,Driving & transport,,EXE SEN-0003,DEP-0027 Transport & Fleet,formal employer,MOVE EDU,,,driving & traffic safety,,,SEEDED
+ROL-0170,Bus Conductor,DRVR,Driving & transport,,EXE SEN-0003,DEP-0027 Transport & Fleet,formal employer; public service,MOVE,,,,,,SEEDED
+ROL-0171,School Bus Attendant,DRVR,Driving & transport,,AST SEN-0002,DEP-0027 Transport & Fleet,formal employer,EDU,,,minors/safeguarding,,,SEEDED
+ROL-0172,Fleet Supervisor,DRVR,Driving & transport,,SUP SEN-0006,DEP-0027 Transport & Fleet,formal employer,MOVE,,,,transport coordinator,,SEEDED
+ROL-0173,Shipping Documentation Executive,LOGF,Logistics & supply chain,,EXE SEN-0003,DEP-0017 Logistics / Warehouse,formal employer,MOVE,,,legal,,,SEEDED
+ROL-0174,Supply Chain Planner,LOGF,Logistics & supply chain,,PRO SEN-0004,DEP-0017 Logistics / Warehouse,formal employer,MFG MOVE TRADE,,,,,,SEEDED
+ROL-0175,Transport Planner,LOGF,Logistics & supply chain,,PRO SEN-0004,DEP-0027 Transport & Fleet,formal employer,MOVE,,,,,,SEEDED
+ROL-0176,Logistics Manager,LOGF,Logistics & supply chain,,MGR SEN-0008,DEP-0017 Logistics / Warehouse,formal employer,MOVE MFG TRADE,,,,,,SEEDED
+ROL-0177,Customs Clearance Assistant,LOGF,Logistics & supply chain,,EXE SEN-0003,DEP-0017 Logistics / Warehouse,formal employer,MOVE,,,legal,,,SEEDED
+ROL-0178,Warehouse Associate,WHSF,Warehouse & stores,,AST SEN-0002,DEP-0017 Logistics / Warehouse,formal employer,MOVE TRADE MFG,,,safety-critical,picker; packer; loader,,SEEDED
+ROL-0179,Storekeeper,WHSF,Warehouse & stores,,EXE SEN-0003,DEP-0017 Logistics / Warehouse,formal employer,MFG BUILD HOSP HLTH,,,,store in-charge; godown keeper,,SEEDED
+ROL-0180,Inventory Controller,WHSF,Warehouse & stores,,PRO SEN-0004,DEP-0017 Logistics / Warehouse,formal employer,MOVE TRADE MFG,,,,,,SEEDED
+ROL-0181,Forklift Operator,WHSF,Warehouse & stores,,EXE SEN-0003,DEP-0017 Logistics / Warehouse,formal employer,MOVE MFG,,,safety-critical,,,SEEDED
+ROL-0182,Loading Helper,WHSF,Warehouse & stores,,AST SEN-0002,DEP-0017 Logistics / Warehouse,informal employee / helper,MOVE TRADE,,,safety-critical,loader; hamal; porter,,SEEDED
+ROL-0183,Warehouse Manager,WHSF,Warehouse & stores,,MGR SEN-0008,DEP-0017 Logistics / Warehouse,formal employer,MOVE TRADE MFG,,,,,,SEEDED
+ROL-0184,Purchase Assistant,PROC,Procurement,,AST SEN-0002,DEP-0016 Procurement / Purchasing,formal employer,MFG HOSP HLTH CORP,,,,,,SEEDED
+ROL-0185,Vendor Development Executive,PROC,Procurement,,EXE SEN-0003,DEP-0016 Procurement / Purchasing,formal employer,MFG AUTO,,,,,,SEEDED
+ROL-0186,Service Advisor (Automotive),AUTF,Automotive sales & service,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer,AUTO,,,,service advisor; workshop front desk,,SEEDED
+ROL-0187,Spare Parts Executive,AUTF,Automotive sales & service,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer,AUTO,,,,,,SEEDED
+ROL-0188,Showroom Manager (Automotive),AUTF,Automotive sales & service,ROL-0017 Sales Manager,MGR SEN-0008,DEP-0008 Sales,formal employer,AUTO,,,,dealership sales manager,,SEEDED
+ROL-0189,Workshop Manager,AUTF,Automotive sales & service,,MGR SEN-0008,DEP-0041 Workshop / Service Bay,formal employer,AUTO,,,,,,SEEDED
+ROL-0190,Automobile Technician,MECH,Mechanical & vehicle repair,,EXE SEN-0003,DEP-0041 Workshop / Service Bay,formal employer; self-employed / own-account,AUTO,,,safety-critical,car mechanic; motor mechanic,,SEEDED
+ROL-0191,Two-Wheeler Mechanic,MECH,Mechanical & vehicle repair,,EXE SEN-0003,DEP-0041 Workshop / Service Bay,formal employer; self-employed / own-account,AUTO,,,safety-critical,bike mechanic,,SEEDED
+ROL-0192,Body Shop Technician,MECH,Mechanical & vehicle repair,,EXE SEN-0003,DEP-0041 Workshop / Service Bay,formal employer,AUTO,,,safety-critical,denter; painter (auto),,SEEDED
+ROL-0193,Workshop Supervisor,MECH,Mechanical & vehicle repair,,SUP SEN-0006,DEP-0041 Workshop / Service Bay,formal employer,AUTO,,,,floor in-charge,,SEEDED
+ROL-0194,Roadside Assistance Technician,MECH,Mechanical & vehicle repair,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer; gig / platform,AUTO,,,safety-critical; driving & traffic safety,,,SEEDED
+ROL-0195,Electrician,TRDF,Technical trades,,EXE SEN-0003,DEP-0004 Maintenance / Engineering (facilities),self-employed / own-account; formal employer; gig / platform,TRDS BUILD,,,safety-critical,wireman,,SEEDED
+ROL-0196,Plumber,TRDF,Technical trades,,EXE SEN-0003,DEP-0004 Maintenance / Engineering (facilities),self-employed / own-account; formal employer; gig / platform,TRDS BUILD,,,safety-critical,,,SEEDED
+ROL-0197,AC & Appliance Technician,TRDF,Technical trades,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer; self-employed / own-account; gig / platform,TRDS,,,safety-critical,AC mechanic; fridge repair,,SEEDED
+ROL-0198,Mobile Phone Repair Technician,TRDF,Technical trades,,EXE SEN-0003,DEP-0025 After-Sales Service,self-employed / own-account; formal employer,TRDS TRADE,,,,,,SEEDED
+ROL-0199,Carpenter,TRDF,Technical trades,,EXE SEN-0003,DEP-0042 Site Operations,self-employed / own-account; formal employer; gig / platform,BUILD TRDS,,,safety-critical,,,SEEDED
+ROL-0200,Painter (Building),TRDF,Technical trades,,EXE SEN-0003,DEP-0042 Site Operations,self-employed / own-account; formal employer; gig / platform,BUILD,,,safety-critical,,,SEEDED
+ROL-0201,Welder,TRDF,Technical trades,,EXE SEN-0003,DEP-0018 Production,formal employer,MFG BUILD,,,safety-critical,,,SEEDED
+ROL-0202,Field Service Technician,TRDF,Technical trades,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer; gig / platform,TRDS TECH MFG,HLTH,Y,safety-critical,service engineer; installation technician,,SEEDED
+ROL-0203,Broadband Installation Technician,TRDF,Technical trades,ROL-0202 Field Service Technician,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer,TECH TRDS,,,safety-critical,,,SEEDED
+ROL-0204,CCTV & Security Systems Technician,TRDF,Technical trades,ROL-0202 Field Service Technician,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer,SECU TRDS,,,safety-critical,,,SEEDED
+ROL-0205,Solar Panel Installer,TRDF,Technical trades,,EXE SEN-0003,DEP-0042 Site Operations,formal employer,UTIL,,,safety-critical,,,SEEDED
+ROL-0206,Lift Technician,TRDF,Technical trades,,EXE SEN-0003,DEP-0025 After-Sales Service,formal employer,BUILD TRDS,,,safety-critical,,,SEEDED
+ROL-0207,Construction Worker,CNSF,Construction,,AST SEN-0002,DEP-0042 Site Operations,informal employee / helper; formal employer,BUILD,,,safety-critical,labourer; mazdoor; site worker,,SEEDED
+ROL-0208,Mason,CNSF,Construction,,EXE SEN-0003,DEP-0042 Site Operations,informal employee / helper; self-employed / own-account,BUILD,,,safety-critical,mistri,,SEEDED
+ROL-0209,Site Supervisor,CNSF,Construction,,SUP SEN-0006,DEP-0042 Site Operations,formal employer,BUILD,,,safety-critical,,,SEEDED
+ROL-0210,Site Engineer,CNSF,Construction,,PRO SEN-0004,DEP-0042 Site Operations,formal employer,BUILD,,,safety-critical,,,SEEDED
+ROL-0211,Construction Project Manager,CNSF,Construction,ROL-0029 Project Manager,MGR SEN-0008,DEP-0042 Site Operations,formal employer,BUILD,,,,,,SEEDED
+ROL-0212,Safety Officer,CNSF,Construction,,PRO SEN-0004,DEP-0030 Health & Safety (EHS),formal employer,BUILD MFG,,,safety-critical,EHS officer; HSE officer,,SEEDED
+ROL-0213,Quantity Surveyor,CNSF,Construction,,PRO SEN-0004,DEP-0042 Site Operations,formal employer,BUILD,,,,,,SEEDED
+ROL-0214,Building Contractor,CNSF,Construction,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,BUILD,,,,thekedar; contractor,,SEEDED
+ROL-0215,Mechanical Engineer,ENGR,Engineering,,PRO SEN-0004,DEP-0018 Production,formal employer,MFG AUTO,,,,,,SEEDED
+ROL-0216,Civil Engineer,ENGR,Engineering,,PRO SEN-0004,DEP-0042 Site Operations,formal employer,BUILD,,,,,,SEEDED
+ROL-0217,Electrical Engineer,ENGR,Engineering,,PRO SEN-0004,DEP-0004 Maintenance / Engineering (facilities),formal employer,UTIL MFG BUILD,,,,,,SEEDED
+ROL-0218,Design Engineer,ENGR,Engineering,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,MFG AUTO,,,,,,SEEDED
+ROL-0219,Project Engineer,ENGR,Engineering,,PRO SEN-0004,DEP-0042 Site Operations,formal employer,BUILD MFG UTIL,,,,,,SEEDED
+ROL-0220,Machine Operator,PROD,Production & manufacturing,,EXE SEN-0003,DEP-0018 Production,formal employer,MFG,,,safety-critical,operator,,SEEDED
+ROL-0221,Production Line Worker,PROD,Production & manufacturing,,AST SEN-0002,DEP-0018 Production,formal employer; informal employee / helper,MFG,,,safety-critical,line worker; factory worker,,SEEDED
+ROL-0222,Garment Worker / Tailor,PROD,Production & manufacturing,,EXE SEN-0003,DEP-0018 Production,formal employer; self-employed / own-account; informal employee / helper,MFG,,,,tailor; darzi; stitching operator,,SEEDED
+ROL-0223,Packing Operator,PROD,Production & manufacturing,,AST SEN-0002,DEP-0018 Production,formal employer,MFG,,,safety-critical,,,SEEDED
+ROL-0224,Production Planner,PROD,Production & manufacturing,,PRO SEN-0004,DEP-0018 Production,formal employer,MFG,,,,,,SEEDED
+ROL-0225,Production Manager,PROD,Production & manufacturing,,MGR SEN-0008,DEP-0018 Production,formal employer,MFG,,,,,,SEEDED
+ROL-0226,Plant Manager,PROD,Production & manufacturing,ROL-0045 General Manager,DIR SEN-0010,DEP-0018 Production,formal employer,MFG,,,,,,SEEDED
+ROL-0227,Quality Inspector,QLTY,Quality,,EXE SEN-0003,DEP-0014 Quality,formal employer,MFG,,,safety-critical,,,SEEDED
+ROL-0228,Quality Engineer,QLTY,Quality,,PRO SEN-0004,DEP-0014 Quality,formal employer,MFG,,,,,,SEEDED
+ROL-0229,Quality Manager,QLTY,Quality,,MGR SEN-0008,DEP-0014 Quality,formal employer,MFG,HLTH,,,,,SEEDED
+ROL-0230,Food Safety Officer,QLTY,Quality,,PRO SEN-0004,DEP-0014 Quality,formal employer,HOSP MFG,,,food safety,,,SEEDED
+ROL-0231,Maintenance Technician,MAINT,Maintenance & facilities,,EXE SEN-0003,DEP-0004 Maintenance / Engineering (facilities),formal employer,MFG HOSP HLTH BUILD,,,safety-critical,,,SEEDED
+ROL-0232,Facility Executive,MAINT,Maintenance & facilities,,EXE SEN-0003,DEP-0004 Maintenance / Engineering (facilities),formal employer,BUILD CORP,,,,,,SEEDED
+ROL-0233,Facility Manager,MAINT,Maintenance & facilities,,MGR SEN-0008,DEP-0004 Maintenance / Engineering (facilities),formal employer,BUILD CORP,,,,,,SEEDED
+ROL-0234,Electricity Lineman,UTLF,Utilities field operations,,EXE SEN-0003,DEP-0042 Site Operations,formal employer; public service,UTIL,,,safety-critical,,,SEEDED
+ROL-0235,Meter Reader,UTLF,Utilities field operations,,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer; public service,UTIL,,,,,,SEEDED
+ROL-0236,Utility Customer Service Officer,UTLF,Utilities field operations,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,UTIL,,,,,,SEEDED
+ROL-0237,Water Supply Operator,UTLF,Utilities field operations,,EXE SEN-0003,DEP-0010 Operations,formal employer; public service,UTIL,,,safety-critical,,,SEEDED
+ROL-0238,Security Guard,SECF,Security,,AST SEN-0002,DEP-0029 Security,formal employer,SECU,,,safety-critical,guard; chowkidar; watchman,,SEEDED
+ROL-0239,Security Supervisor,SECF,Security,,SUP SEN-0006,DEP-0029 Security,formal employer,SECU,,,safety-critical,,,SEEDED
+ROL-0240,Security Officer (Corporate),SECF,Security,,EXE SEN-0003,DEP-0029 Security,formal employer,SECU CORP,,,,,,SEEDED
+ROL-0241,CCTV Operator,SECF,Security,,EXE SEN-0003,DEP-0029 Security,formal employer,SECU,,,personal data,,,SEEDED
+ROL-0242,Security Manager,SECF,Security,,MGR SEN-0008,DEP-0029 Security,formal employer,SECU CORP,,,,,,SEEDED
+ROL-0243,Fire Safety Officer,SECF,Security,,PRO SEN-0004,DEP-0030 Health & Safety (EHS),formal employer,SECU,,,safety-critical,,,SEEDED
+ROL-0244,Farmer,AGRF,Agriculture,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,AGRI,,,,kisan; cultivator,,SEEDED
+ROL-0245,Farm Worker,AGRF,Agriculture,,AST SEN-0002,DEP-0048 Not applicable — own business / self-employed,informal employee / helper,AGRI,,,safety-critical,agricultural labourer,,SEEDED
+ROL-0246,Agricultural Extension Worker,AGRF,Agriculture,,EXE SEN-0003,DEP-0046 Community Outreach,public service; NGO / community; formal employer,AGRI,,,safety-critical,krishi mitra; extension officer,,SEEDED
+ROL-0247,Agri-Input Dealer,AGRF,Agriculture,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,AGRI,,,safety-critical,seed and fertiliser shop,,SEEDED
+ROL-0248,Dairy Collection Centre Operator,AGRF,Agriculture,,EXE SEN-0003,DEP-0010 Operations,formal employer; self-employed / own-account,AGRI,,,,,,SEEDED
+ROL-0249,Agronomist,AGRF,Agriculture,,PRO SEN-0004,DEP-0010 Operations,formal employer,AGRI,,,,,,SEEDED
+ROL-0250,FPO Coordinator,AGRF,Agriculture,,SNR SEN-0005,DEP-0046 Community Outreach,formal employer,AGRI,,,,farmer producer organisation,,SEEDED
+ROL-0251,Fisher / Fishing Crew,FSHR,Fisheries,,AST SEN-0002,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; informal employee / helper,AGRI,,,safety-critical,fisherman; fishing crew,,SEEDED
+ROL-0252,Fish Farm Worker,FSHR,Fisheries,,AST SEN-0002,DEP-0048 Not applicable — own business / self-employed,informal employee / helper,AGRI,,,,,,SEEDED
+ROL-0253,Fish Landing Centre Agent,FSHR,Fisheries,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,AGRI TRADE,,,,fish auctioneer; aratdar (fish),,SEEDED
+ROL-0254,System Administrator,ITF,Information technology,,PRO SEN-0004,DEP-0012 Information Technology,formal employer,TECH,,,,,,SEEDED
+ROL-0255,Network Engineer,ITF,Information technology,,PRO SEN-0004,DEP-0012 Information Technology,formal employer,TECH,,,,,,SEEDED
+ROL-0256,Software Tester,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,QA engineer; test engineer,,SEEDED
+ROL-0257,DevOps Engineer,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,,,SEEDED
+ROL-0258,Product Manager,ITF,Information technology,,MGR SEN-0008,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,,,SEEDED
+ROL-0259,Business Analyst,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH BANK,,,,,,SEEDED
+ROL-0260,Cybersecurity Analyst,ITF,Information technology,,PRO SEN-0004,DEP-0012 Information Technology,formal employer,TECH,,,personal data,,,SEEDED
+ROL-0261,Technical Writer,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,,,SEEDED
+ROL-0262,UI / UX Designer,ITF,Information technology,,PRO SEN-0004,DEP-0013 Software Engineering / Development,formal employer,TECH,,,,,,SEEDED
+ROL-0263,Data Entry Operator,DATF,Data & analytics,,AST SEN-0002,DEP-0007 Administration,formal employer,BPO GOVT CORP,,,personal data,DEO; computer operator,,SEEDED
+ROL-0264,MIS Executive,DATF,Data & analytics,,EXE SEN-0003,DEP-0010 Operations,formal employer,BPO CORP BANK,,,,,,SEEDED
+ROL-0265,Data Analyst,DATF,Data & analytics,,PRO SEN-0004,DEP-0040 Research & Analytics,formal employer,TECH BANK CORP,,,,,,SEEDED
+ROL-0266,Data Scientist,DATF,Data & analytics,,PRO SEN-0004,DEP-0040 Research & Analytics,formal employer,TECH,,,,,,SEEDED
+ROL-0267,Bank Teller,BNKF,Banking,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BANK,,,financial regulation,cashier (bank),,SEEDED
+ROL-0268,Bank Customer Service Officer,BNKF,Banking,ROL-0022 Customer Service Executive,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BANK,,,financial regulation,CSO,,SEEDED
+ROL-0269,Relationship Manager (Banking),BNKF,Banking,,SNR SEN-0005,DEP-0008 Sales,formal employer,BANK,,,financial regulation,RM,,SEEDED
+ROL-0270,Loan Officer,BNKF,Banking,,EXE SEN-0003,DEP-0010 Operations,formal employer,BANK,,,financial regulation,credit officer,,SEEDED
+ROL-0271,Microfinance Loan Officer,BNKF,Banking,ROL-0270 Loan Officer,EXE SEN-0003,DEP-0037 Field Operations & Surveys,formal employer,BANK,,,financial regulation,field credit officer,,SEEDED
+ROL-0272,Banking Correspondent Agent,BNKF,Banking,,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,BANK,,,financial regulation; personal data,BC agent; CSP operator; bank mitra,,SEEDED
+ROL-0273,Branch Operations Manager,BNKF,Banking,,MGR SEN-0008,DEP-0010 Operations,formal employer,BANK,,,financial regulation,,,SEEDED
+ROL-0274,Branch Manager (Banking),BNKF,Banking,,MGR SEN-0008,DEP-0021 Management / Executive Office,formal employer,BANK,,,financial regulation,,,SEEDED
+ROL-0275,Probationary Officer,BNKF,Banking,,TRN SEN-0001,DEP-0010 Operations,formal employer,BANK,,,financial regulation,PO; management trainee (bank),,SEEDED
+ROL-0276,Accounts Assistant,FIN,Finance & accounts,,AST SEN-0002,DEP-0006 Finance & Accounts,formal employer,TRADE MOVE HOSP TRVL AUTO MFG BUILD TRDS UTIL TECH BPO BANK HLTH EDU GOVT AGRI SECU BEAU MEDIA PROF NGO SPRT CORP SMB DOMS ENVR,,,,bookkeeper; munim,,SEEDED
+ROL-0277,Accounts Payable Executive,FIN,Finance & accounts,,EXE SEN-0003,DEP-0006 Finance & Accounts,formal employer,CORP MFG TRADE TECH,,,,,,SEEDED
+ROL-0278,Internal Auditor,FIN,Finance & accounts,,PRO SEN-0004,DEP-0006 Finance & Accounts,formal employer,CORP BANK MFG,,,financial regulation,,,SEEDED
+ROL-0279,Tax Consultant,FIN,Finance & accounts,,PRO SEN-0004,DEP-0006 Finance & Accounts,self-employed / own-account; formal employer,BANK PROF,,,financial regulation; legal,,,SEEDED
+ROL-0280,Chartered Accountant,FIN,Finance & accounts,,PRO SEN-0004,DEP-0006 Finance & Accounts,self-employed / own-account; formal employer,PROF BANK,,,financial regulation,CA,,SEEDED
+ROL-0281,Chief Financial Officer,FIN,Finance & accounts,ROL-0015 Finance Manager,DIR SEN-0010,DEP-0021 Management / Executive Office,formal employer,CORP TECH MFG BANK,,,,CFO; finance director,,SEEDED
+ROL-0282,Insurance Advisor,INSF,Insurance,ROL-0016 Sales Executive,EXE SEN-0003,DEP-0023 Field Sales,self-employed / own-account; formal employer,BANK,,,financial regulation,insurance agent; LIC agent (generic),,SEEDED
+ROL-0283,Claims Executive,INSF,Insurance,,EXE SEN-0003,DEP-0011 Customer Service / Support,formal employer,BANK,HLTH AUTO,,financial regulation,,,SEEDED
+ROL-0284,Underwriter,INSF,Insurance,,PRO SEN-0004,DEP-0010 Operations,formal employer,BANK,,,financial regulation,,,SEEDED
+ROL-0285,Insurance Branch Manager,INSF,Insurance,,MGR SEN-0008,DEP-0021 Management / Executive Office,formal employer,BANK,,,financial regulation,,,SEEDED
+ROL-0286,Recruiter,HR,Human resources,ROL-0012 HR Executive,EXE SEN-0003,DEP-0005 Human Resources,formal employer,PROF TECH BPO,HOSP HLTH,,,talent acquisition executive; placement consultant,,SEEDED
+ROL-0287,HR Assistant,HR,Human resources,,AST SEN-0002,DEP-0005 Human Resources,formal employer,TRADE MOVE HOSP TRVL AUTO MFG BUILD TRDS UTIL TECH BPO BANK HLTH EDU GOVT AGRI SECU BEAU MEDIA PROF NGO SPRT CORP SMB DOMS ENVR,,,,,,SEEDED
+ROL-0288,Payroll Executive,HR,Human resources,,EXE SEN-0003,DEP-0005 Human Resources,formal employer,CORP TECH BPO MFG,,,financial regulation,,,SEEDED
+ROL-0289,HR Business Partner,HR,Human resources,,SNR SEN-0005,DEP-0005 Human Resources,formal employer,TECH CORP BPO BANK,,,,,,SEEDED
+ROL-0290,HR Director,HR,Human resources,ROL-0013 HR Manager,DIR SEN-0010,DEP-0005 Human Resources,formal employer,CORP TECH BANK MFG,,,,head of HR; CHRO,,SEEDED
+ROL-0291,Office Assistant,ADMN,Administration,,AST SEN-0002,DEP-0007 Administration,formal employer; informal employee / helper,CORP GOVT EDU PROF,,,,office boy; peon; attendant,,SEEDED
+ROL-0292,Executive Assistant,ADMN,Administration,,SNR SEN-0005,DEP-0021 Management / Executive Office,formal employer,CORP TECH BANK PROF,,,,secretary; PA,,SEEDED
+ROL-0293,Advocate / Lawyer,LGLF,Legal & compliance,,PRO SEN-0004,DEP-0031 Legal & Compliance,self-employed / own-account; formal employer,PROF,,,legal,,,SEEDED
+ROL-0294,Legal Assistant,LGLF,Legal & compliance,,EXE SEN-0003,DEP-0031 Legal & Compliance,formal employer,PROF,,,legal,paralegal; clerk (legal),,SEEDED
+ROL-0295,Compliance Officer,LGLF,Legal & compliance,,PRO SEN-0004,DEP-0031 Legal & Compliance,formal employer,BANK CORP,HLTH,,legal; financial regulation,,,SEEDED
+ROL-0296,Digital Marketing Executive,MKTG,Marketing & advertising,ROL-0018 Marketing Executive,EXE SEN-0003,DEP-0009 Marketing,formal employer,MEDIA TECH TRADE,,,,,,SEEDED
+ROL-0297,Social Media Executive,MKTG,Marketing & advertising,ROL-0018 Marketing Executive,EXE SEN-0003,DEP-0009 Marketing,formal employer,MEDIA,,,,,,SEEDED
+ROL-0298,Brand Manager,MKTG,Marketing & advertising,ROL-0019 Marketing Manager,MGR SEN-0008,DEP-0009 Marketing,formal employer,MFG TRADE,,,,,,SEEDED
+ROL-0299,Advertising Account Executive,MKTG,Marketing & advertising,,EXE SEN-0003,DEP-0009 Marketing,formal employer,MEDIA,,,,,,SEEDED
+ROL-0300,Public Relations Executive,MKTG,Marketing & advertising,,EXE SEN-0003,DEP-0009 Marketing,formal employer,MEDIA CORP,,,,PR executive,,SEEDED
+ROL-0301,Marketing Head,MKTG,Marketing & advertising,ROL-0019 Marketing Manager,HOD SEN-0009,DEP-0009 Marketing,formal employer,MEDIA TRADE MFG TECH,,,,CMO,,SEEDED
+ROL-0302,Journalist / Reporter,MEDF,Media & journalism,,PRO SEN-0004,DEP-0050 Editorial & Newsroom,formal employer; self-employed / own-account,MEDIA,,,legal,reporter; correspondent,,SEEDED
+ROL-0303,News Editor,MEDF,Media & journalism,,MGR SEN-0008,DEP-0050 Editorial & Newsroom,formal employer,MEDIA,,,legal,,,SEEDED
+ROL-0304,Camera Operator,MEDF,Media & journalism,,EXE SEN-0003,DEP-0043 Creative & Content,formal employer,MEDIA,,,,,,SEEDED
+ROL-0305,News Anchor,MEDF,Media & journalism,,PRO SEN-0004,DEP-0050 Editorial & Newsroom,formal employer,MEDIA,,,,,,SEEDED
+ROL-0306,Radio Jockey,MEDF,Media & journalism,,PRO SEN-0004,DEP-0043 Creative & Content,formal employer,MEDIA,,,,RJ,,SEEDED
+ROL-0307,Graphic Designer,CRTV,Creative & design,,PRO SEN-0004,DEP-0043 Creative & Content,formal employer; self-employed / own-account; gig / platform,MEDIA,,,,,,SEEDED
+ROL-0308,Photographer,CRTV,Creative & design,,PRO SEN-0004,DEP-0043 Creative & Content,self-employed / own-account; formal employer; gig / platform,MEDIA,,,,wedding photographer,,SEEDED
+ROL-0309,Video Editor,CRTV,Creative & design,,PRO SEN-0004,DEP-0043 Creative & Content,formal employer; self-employed / own-account; gig / platform,MEDIA,,,,,,SEEDED
+ROL-0310,Content Writer,CRTV,Creative & design,,PRO SEN-0004,DEP-0043 Creative & Content,formal employer; self-employed / own-account; gig / platform,MEDIA TECH,,,,,,SEEDED
+ROL-0311,Event Coordinator,EVTF,Events,,EXE SEN-0003,DEP-0044 Events,formal employer,MEDIA HOSP,SPRT,,,,,SEEDED
+ROL-0312,Event Manager,EVTF,Events,,MGR SEN-0008,DEP-0044 Events,formal employer,MEDIA HOSP,SPRT,,,,,SEEDED
+ROL-0313,Wedding Planner,EVTF,Events,,OWN SEN-0012,DEP-0044 Events,self-employed / own-account,MEDIA HOSP,,,,,,SEEDED
+ROL-0314,Decorator,EVTF,Events,,OWN SEN-0012,DEP-0044 Events,self-employed / own-account; informal employee / helper,MEDIA,,,,tent house; decoration,,SEEDED
+ROL-0315,Doctor,MEDC,Medical (doctors & dentists),,PRO SEN-0004,DEP-0032 Clinical & Nursing,formal employer; self-employed / own-account; public service,HLTH,,,medical/clinical,physician; medical officer; GP,,SEEDED
+ROL-0316,Dentist,MEDC,Medical (doctors & dentists),,PRO SEN-0004,DEP-0032 Clinical & Nursing,self-employed / own-account; formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0317,Medical Officer (Public Health),MEDC,Medical (doctors & dentists),ROL-0315 Doctor,PRO SEN-0004,DEP-0032 Clinical & Nursing,public service,GOVT HLTH,,,medical/clinical; official public procedure & political neutrality,,,SEEDED
+ROL-0318,Staff Nurse,NRSF,Nursing & care,,PRO SEN-0004,DEP-0032 Clinical & Nursing,formal employer,HLTH,,,medical/clinical,nurse; sister,,SEEDED
+ROL-0319,Hospital Assistant,NRSF,Nursing & care,,AST SEN-0002,DEP-0032 Clinical & Nursing,formal employer,HLTH,,Y,medical/clinical,ward assistant; ward boy; nursing assistant; patient care assistant,,SEEDED
+ROL-0320,Home Care Nurse,NRSF,Nursing & care,,PRO SEN-0004,DEP-0047 Care Services,formal employer; self-employed / own-account,HLTH DOMS,,,medical/clinical,,,SEEDED
+ROL-0321,Midwife,NRSF,Nursing & care,,PRO SEN-0004,DEP-0032 Clinical & Nursing,formal employer,HLTH GOVT,,,medical/clinical,ANM,,SEEDED
+ROL-0322,Nursing Supervisor,NRSF,Nursing & care,,SUP SEN-0006,DEP-0032 Clinical & Nursing,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0323,Optometrist,OPTF,Optical & eye care,,PRO SEN-0004,DEP-0035 Optometry & Eye Care,formal employer; self-employed / own-account,HLTH,,Y,medical/clinical,eye-care practitioner; eye tester,,SEEDED
+ROL-0324,Optical Sales Associate,OPTF,Optical & eye care,ROL-0067 Small Shop Salesperson,EXE SEN-0003,DEP-0035 Optometry & Eye Care,formal employer,HLTH TRADE,,Y,medical/clinical,optician; optical shop staff,,SEEDED
+ROL-0325,Ophthalmic Assistant,OPTF,Optical & eye care,,EXE SEN-0003,DEP-0035 Optometry & Eye Care,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0326,Optical Store Manager,OPTF,Optical & eye care,ROL-0076 Store Manager,MGR SEN-0008,DEP-0035 Optometry & Eye Care,formal employer,HLTH TRADE,,,medical/clinical,,,SEEDED
+ROL-0327,Pharmacist,PHRF,Pharmacy,,PRO SEN-0004,DEP-0034 Pharmacy,formal employer; self-employed / own-account,HLTH,,,medical/clinical,chemist,,SEEDED
+ROL-0328,Pharmacy Assistant,PHRF,Pharmacy,,AST SEN-0002,DEP-0034 Pharmacy,formal employer,HLTH,,,medical/clinical,medical store counter staff,,SEEDED
+ROL-0329,Pharmacy Store Manager,PHRF,Pharmacy,ROL-0076 Store Manager,MGR SEN-0008,DEP-0034 Pharmacy,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0330,Laboratory Technician,LABF,Laboratory & diagnostics,,PRO SEN-0004,DEP-0033 Diagnostics & Laboratory,formal employer,HLTH,,,medical/clinical,lab technician; MLT,,SEEDED
+ROL-0331,Phlebotomist / Sample Collection Executive,LABF,Laboratory & diagnostics,,EXE SEN-0003,DEP-0033 Diagnostics & Laboratory,formal employer,HLTH,,,medical/clinical,home sample collection,,SEEDED
+ROL-0332,Laboratory Manager,LABF,Laboratory & diagnostics,,MGR SEN-0008,DEP-0033 Diagnostics & Laboratory,formal employer,HLTH,,,medical/clinical,,,SEEDED
+ROL-0333,Clinic Coordinator,HCAD,Healthcare administration,,SNR SEN-0005,DEP-0019 Patient Services / Healthcare Administration,formal employer,HLTH,,,medical/clinical,clinic manager assistant,,SEEDED
+ROL-0334,Medical Records Officer,HCAD,Healthcare administration,,EXE SEN-0003,DEP-0019 Patient Services / Healthcare Administration,formal employer,HLTH,,,medical/clinical; personal data,,,SEEDED
+ROL-0335,Hospital Billing & Insurance Executive,HCAD,Healthcare administration,,EXE SEN-0003,DEP-0019 Patient Services / Healthcare Administration,formal employer,HLTH,,,medical/clinical; financial regulation,TPA executive; billing executive,,SEEDED
+ROL-0336,Vice Principal,TEACH,Teaching,,HOD SEN-0009,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,,,SEEDED
+ROL-0337,Pre-School Teacher,TEACH,Teaching,ROL-0038 School Teacher,PRO SEN-0004,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,,,SEEDED
+ROL-0338,Home Tutor,TEACH,Teaching,ROL-0038 School Teacher,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,EDU,,,minors/safeguarding,tuition teacher; private tutor,,SEEDED
+ROL-0339,Coaching Centre Faculty,TEACH,Teaching,ROL-0038 School Teacher,PRO SEN-0004,DEP-0020 Academic,formal employer,EDU,,,,,,SEEDED
+ROL-0340,College Lecturer,TEACH,Teaching,,PRO SEN-0004,DEP-0020 Academic,formal employer,EDU,,,,assistant professor; lecturer,,SEEDED
+ROL-0341,Special Educator,TEACH,Teaching,,PRO SEN-0004,DEP-0020 Academic,formal employer,EDU,,,minors/safeguarding,,,SEEDED
+ROL-0342,School Administrator,EDAD,Education administration,,MGR SEN-0008,DEP-0036 School / Education Administration,formal employer,EDU,,Y,,school office manager; administrative officer (school),,SEEDED
+ROL-0343,Admissions Counsellor,EDAD,Education administration,,EXE SEN-0003,DEP-0036 School / Education Administration,formal employer,EDU,,,,,,SEEDED
+ROL-0344,School Office Assistant,EDAD,Education administration,,AST SEN-0002,DEP-0036 School / Education Administration,formal employer,EDU,,,,school clerk,,SEEDED
+ROL-0345,Examinations Coordinator,EDAD,Education administration,,SNR SEN-0005,DEP-0036 School / Education Administration,formal employer,EDU,,,,,,SEEDED
+ROL-0346,College Registrar,EDAD,Education administration,,HOD SEN-0009,DEP-0036 School / Education Administration,formal employer,EDU,,,,,,SEEDED
+ROL-0347,Corporate Trainer,TRNG,Training & L&D,ROL-0025 Trainer,PRO SEN-0004,DEP-0015 Training / L&D,formal employer; self-employed / own-account,CORP TECH BANK,,,,,,SEEDED
+ROL-0348,Vocational Instructor,TRNG,Training & L&D,ROL-0025 Trainer,PRO SEN-0004,DEP-0015 Training / L&D,formal employer,EDU,,,safety-critical,ITI instructor; skills trainer,,SEEDED
+ROL-0349,Training Manager,TRNG,Training & L&D,,MGR SEN-0008,DEP-0015 Training / L&D,formal employer,CORP BPO HOSP BANK,,,,,,SEEDED
+ROL-0350,Driving Instructor,TRNG,Training & L&D,ROL-0025 Trainer,PRO SEN-0004,DEP-0015 Training / L&D,self-employed / own-account; formal employer,MOVE EDU,,,driving & traffic safety,,,SEEDED
+ROL-0351,Government Office Assistant,PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0039 Citizen Services & Public Enquiry,public service,GOVT,,,official public procedure & political neutrality,clerk; LDC/UDC (generic); front desk (government),,SEEDED
+ROL-0352,Citizen Service Centre Operator,PUBS,Public service & citizen services,,OWN SEN-0012,DEP-0039 Citizen Services & Public Enquiry,self-employed / own-account; public service,GOVT,,,official public procedure & political neutrality; personal data,CSC operator; VLE; seva kendra operator,,SEEDED
+ROL-0353,Local Government Officer,PUBS,Public service & citizen services,,PRO SEN-0004,DEP-0039 Citizen Services & Public Enquiry,public service,GOVT,,,official public procedure & political neutrality,panchayat secretary; ward officer,,SEEDED
+ROL-0354,Postal Assistant,PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0039 Citizen Services & Public Enquiry,public service,GOVT,,,official public procedure & political neutrality,,,SEEDED
+ROL-0355,Postman,PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0026 Last-Mile Delivery & Dispatch,public service,GOVT,,,,postal delivery,,SEEDED
+ROL-0356,Ration Shop Dealer,PUBS,Public service & citizen services,,OWN SEN-0012,DEP-0039 Citizen Services & Public Enquiry,self-employed / own-account; public service,GOVT,,,official public procedure & political neutrality,fair price shop dealer,,SEEDED
+ROL-0357,Community Health Worker,PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0046 Community Outreach,public service; NGO / community,GOVT HLTH,,,medical/clinical; official public procedure & political neutrality,ASHA worker,,SEEDED
+ROL-0358,Anganwadi Worker,PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0046 Community Outreach,public service,GOVT,,,minors/safeguarding; official public procedure & political neutrality; medical/clinical,,,SEEDED
+ROL-0359,Municipal Inspector,PUBS,Public service & citizen services,,PRO SEN-0004,DEP-0039 Citizen Services & Public Enquiry,public service,GOVT,,,official public procedure & political neutrality; legal,,,SEEDED
+ROL-0360,Police Constable (Public Interaction),PUBS,Public service & citizen services,,EXE SEN-0003,DEP-0039 Citizen Services & Public Enquiry,public service,GOVT,,,official public procedure & political neutrality; legal,constable; traffic police (public interaction),,SEEDED
+ROL-0361,Booth Level Officer,ELCT,Election administration,,EXE SEN-0003,DEP-0038 Electoral Operations,public service,GOVT,,Y,official public procedure & political neutrality; personal data,BLO; booth level officer,,SEEDED
+ROL-0362,BLO Supervisor,ELCT,Election administration,,SUP SEN-0006,DEP-0038 Electoral Operations,public service,GOVT,,,official public procedure & political neutrality,,,SEEDED
+ROL-0363,Polling Officer,ELCT,Election administration,,EXE SEN-0003,DEP-0038 Electoral Operations,public service,GOVT,,,official public procedure & political neutrality,,,SEEDED
+ROL-0364,Presiding Officer,ELCT,Election administration,,SUP SEN-0006,DEP-0038 Electoral Operations,public service,GOVT,,,official public procedure & political neutrality,,,SEEDED
+ROL-0365,Electoral Registration Assistant,ELCT,Election administration,,EXE SEN-0003,DEP-0038 Electoral Operations,public service,GOVT,,,official public procedure & political neutrality; personal data,,,SEEDED
+ROL-0366,Community Mobiliser,NGOF,NGO & community work,,EXE SEN-0003,DEP-0046 Community Outreach,NGO / community,NGO,,,,community worker; outreach worker,,SEEDED
+ROL-0367,Social Worker,NGOF,NGO & community work,,PRO SEN-0004,DEP-0046 Community Outreach,NGO / community; formal employer; public service,NGO,HLTH,,minors/safeguarding,,,SEEDED
+ROL-0368,Programme Officer,NGOF,NGO & community work,,PRO SEN-0004,DEP-0046 Community Outreach,formal employer,NGO,,,,,,SEEDED
+ROL-0369,Programme Manager (NGO),NGOF,NGO & community work,,MGR SEN-0008,DEP-0046 Community Outreach,formal employer,NGO,,,,,,SEEDED
+ROL-0370,Volunteer Coordinator,NGOF,NGO & community work,,SNR SEN-0005,DEP-0046 Community Outreach,formal employer,NGO,,,,,,SEEDED
+ROL-0371,Fundraising Executive,NGOF,NGO & community work,,EXE SEN-0003,DEP-0009 Marketing,formal employer,NGO,,,financial regulation,,,SEEDED
+ROL-0372,Beautician,BEAF,Beauty & wellness,,EXE SEN-0003,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; formal employer,BEAU,,,,beauty parlour staff,,SEEDED
+ROL-0373,Hairdresser / Barber,BEAF,Beauty & wellness,,EXE SEN-0003,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; formal employer,BEAU,,,,barber; hair stylist; nai,,SEEDED
+ROL-0374,Spa Therapist,BEAF,Beauty & wellness,,EXE SEN-0003,DEP-0010 Operations,formal employer,BEAU HOSP,,,,,,SEEDED
+ROL-0375,Salon Manager,BEAF,Beauty & wellness,,MGR SEN-0008,DEP-0010 Operations,formal employer,BEAU,,,,,,SEEDED
+ROL-0376,Makeup Artist,BEAF,Beauty & wellness,,PRO SEN-0004,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; gig / platform,BEAU MEDIA,,,,,,SEEDED
+ROL-0377,Beauty Advisor,BEAF,Beauty & wellness,ROL-0067 Small Shop Salesperson,EXE SEN-0003,DEP-0024 Retail Floor / Shop Floor,formal employer,BEAU TRADE,,,,cosmetics counter,,SEEDED
+ROL-0378,Fitness Trainer,SPRF,Sports & fitness,,PRO SEN-0004,DEP-0010 Operations,formal employer; self-employed / own-account,SPRT,,,safety-critical,gym instructor; personal trainer,,SEEDED
+ROL-0379,Yoga Instructor,SPRF,Sports & fitness,,PRO SEN-0004,DEP-0010 Operations,self-employed / own-account; formal employer,SPRT,,,safety-critical,,,SEEDED
+ROL-0380,Sports Coach,SPRF,Sports & fitness,,PRO SEN-0004,DEP-0010 Operations,formal employer; self-employed / own-account,SPRT EDU,,,minors/safeguarding; safety-critical,,,SEEDED
+ROL-0381,Cricket Coach,SPRF,Sports & fitness,ROL-0380 Sports Coach,PRO SEN-0004,DEP-0010 Operations,formal employer; self-employed / own-account,SPRT,,,minors/safeguarding; safety-critical,,Cricket context pack within Sports & Fitness,SEEDED
+ROL-0382,Sports Event Coordinator,SPRF,Sports & fitness,ROL-0311 Event Coordinator,EXE SEN-0003,DEP-0044 Events,formal employer,SPRT,,,,,,SEEDED
+ROL-0383,Club / Academy Manager,SPRF,Sports & fitness,,MGR SEN-0008,DEP-0010 Operations,formal employer,SPRT,,,minors/safeguarding,,,SEEDED
+ROL-0384,Gym Manager,SPRF,Sports & fitness,,MGR SEN-0008,DEP-0010 Operations,formal employer,SPRT,,,,,,SEEDED
+ROL-0385,Domestic Worker,DOMF,Domestic & personal services,,AST SEN-0002,DEP-0049 Household (domestic employer),household employer; informal employee / helper,DOMS,,,safety-critical,housemaid; house help; kaamwali,,SEEDED
+ROL-0386,Home Cook,DOMF,Domestic & personal services,,EXE SEN-0003,DEP-0049 Household (domestic employer),household employer; self-employed / own-account,DOMS,,,food safety,,,SEEDED
+ROL-0387,Caregiver / Elder Care Attendant,DOMF,Domestic & personal services,,AST SEN-0002,DEP-0047 Care Services,household employer; formal employer,DOMS HLTH,,,medical/clinical,attendant; aaya,,SEEDED
+ROL-0388,Nanny / Babysitter,DOMF,Domestic & personal services,,AST SEN-0002,DEP-0049 Household (domestic employer),household employer,DOMS,,,minors/safeguarding,ayah,,SEEDED
+ROL-0389,Sanitation Worker,SANF,Sanitation & waste,,AST SEN-0002,DEP-0042 Site Operations,public service; formal employer; informal employee / helper,ENVR,,,safety-critical,safai karmachari; sweeper,,SEEDED
+ROL-0390,Waste Collector,SANF,Sanitation & waste,,AST SEN-0002,DEP-0042 Site Operations,public service; formal employer; informal employee / helper; self-employed / own-account,ENVR,,,safety-critical,garbage collector; kabadiwala (scrap),,SEEDED
+ROL-0391,Recycling Centre Worker,SANF,Sanitation & waste,,AST SEN-0002,DEP-0042 Site Operations,informal employee / helper; formal employer,ENVR,,,safety-critical,,,SEEDED
+ROL-0392,Sanitation Supervisor,SANF,Sanitation & waste,,SUP SEN-0006,DEP-0042 Site Operations,public service; formal employer,ENVR,,,safety-critical,,,SEEDED
+ROL-0393,Shift Supervisor,OPS,Operations management,,SUP SEN-0006,DEP-0010 Operations,formal employer,TRADE MOVE HOSP TRVL AUTO MFG BUILD TRDS UTIL TECH BPO BANK HLTH EDU GOVT AGRI SECU BEAU MEDIA PROF NGO SPRT CORP SMB DOMS ENVR,,,,shift in-charge,,SEEDED
+ROL-0394,Operations Head,OPS,Operations management,ROL-0021 Operations Manager,HOD SEN-0009,DEP-0010 Operations,formal employer,BPO MOVE TRADE BANK TECH,,,,,,SEEDED
+ROL-0395,Area Manager,MGMT,General management,,MGR SEN-0008,DEP-0021 Management / Executive Office,formal employer,TRADE HOSP BANK MOVE,,,,cluster manager,,SEEDED
+ROL-0396,Regional Manager,MGMT,General management,,HOD SEN-0009,DEP-0021 Management / Executive Office,formal employer,TRADE BANK MOVE HLTH,,,,,,SEEDED
+ROL-0397,Branch Head,MGMT,General management,,MGR SEN-0008,DEP-0021 Management / Executive Office,formal employer,BANK EDU MOVE PROF,,,,branch in-charge,,SEEDED
+ROL-0398,Small Business Owner,ENTR,Entrepreneurship & small business,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account,SMB TRADE,,,,shop owner; dukaandar; proprietor,,SEEDED
+ROL-0399,Start-up Founder,ENTR,Entrepreneurship & small business,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0022 Founder's Office,self-employed / own-account,SMB TECH,,,,,,SEEDED
+ROL-0400,Franchise Owner,ENTR,Entrepreneurship & small business,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0022 Founder's Office,self-employed / own-account,SMB HOSP TRADE EDU,,,,,,SEEDED
+ROL-0401,Freelancer,ENTR,Entrepreneurship & small business,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; gig / platform,SMB MEDIA TECH,,,,independent professional,,SEEDED
+ROL-0402,Self-Help Group Entrepreneur,ENTR,Entrepreneurship & small business,ROL-0048 Founder / Entrepreneur,OWN SEN-0012,DEP-0048 Not applicable — own business / self-employed,self-employed / own-account; NGO / community,SMB AGRI,,,,SHG member,,SEEDED

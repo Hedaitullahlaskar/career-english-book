@@ -1,0 +1,107 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ChatGPT response packet (ChatGPT → repository)",
+ "type": "object",
+ "required": [
+  "requestId",
+  "contractVersion",
+  "outputs",
+  "selfCheck"
+ ],
+ "properties": {
+  "requestId": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^REQ-\\d{6}$"
+  },
+  "contractVersion": {
+   "type": "string",
+   "minLength": 1
+  },
+  "model": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "outputs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "tempId",
+     "type",
+     "key",
+     "record"
+    ],
+    "properties": {
+     "tempId": {
+      "type": "string",
+      "minLength": 1
+     },
+     "type": {
+      "type": "string",
+      "minLength": 1
+     },
+     "key": {
+      "type": "string",
+      "minLength": 1
+     },
+     "record": {
+      "type": "object"
+     }
+    },
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "selfCheck": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "check",
+     "result"
+    ],
+    "properties": {
+     "check": {
+      "type": "string",
+      "minLength": 1
+     },
+     "result": {
+      "enum": [
+       "met",
+       "not met",
+       "uncertain"
+      ]
+     },
+     "notes": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": false
+   }
+  },
+  "assumptions": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "flags": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   }
+  },
+  "questions": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  }
+ },
+ "additionalProperties": false
+}

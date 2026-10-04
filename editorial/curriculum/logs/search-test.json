@@ -1,0 +1,74 @@
+[
+ {
+  "query": "vegetable seller English",
+  "pass": true,
+  "top": [
+   "unit RIN-000001 Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
+   "unit RIN-000002 Discussing quantity, weight and measures — Vegetable Seller (A1)",
+   "unit RIN-000003 Taking payment (cash, UPI, card) — Vegetable Seller (A1)"
+  ]
+ },
+ {
+  "query": "car sales customer",
+  "pass": true,
+  "top": [
+   "unit RIN-000004 Discussing price — Car Sales Executive (B1)",
+   "unit RIN-000005 Arranging and conducting a test drive — Car Sales Executive (B1)",
+   "unit RIN-000006 Following up after a quotation or visit — Car Sales Executive (B1)"
+  ]
+ },
+ {
+  "query": "food delivery late order",
+  "pass": true,
+  "top": [
+   "unit RIN-000008 Informing a customer about a late delivery — Food Delivery Executive (A2)",
+   "unit RIN-000009 Calling a customer to confirm address or landmark — Food Delivery Executive (A2)",
+   "unit RIN-000010 Wrong or missing item in a delivery — Food Delivery Executive (A2)"
+  ]
+ },
+ {
+  "query": "HR interview",
+  "pass": true,
+  "top": [
+   "unit RIN-000011 Interviewing a candidate — HR Manager (B2)",
+   "unit RIN-000013 Interviewing a candidate — HR Manager (B1)",
+   "role ROL-0012 HR Executive"
+  ]
+ },
+ {
+  "query": "BLO field visit",
+  "pass": true,
+  "top": [
+   "role ROL-0362 BLO Supervisor",
+   "situation STM-0003 Introducing yourself and your purpose to a household or business (field visit)",
+   "role ROL-0361 Booth Level Officer"
+  ]
+ },
+ {
+  "query": "nurse patient",
+  "pass": true,
+  "top": [
+   "role ROL-0036 Patient Services Executive",
+   "role ROL-0318 Staff Nurse",
+   "role ROL-0320 Home Care Nurse"
+  ]
+ },
+ {
+  "query": "teacher parent meeting",
+  "pass": true,
+  "top": [
+   "situation STM-0111 Parent-teacher meeting",
+   "role ROL-0038 School Teacher",
+   "role ROL-0039 Senior Teacher"
+  ]
+ },
+ {
+  "query": "hotel check-in",
+  "pass": true,
+  "top": [
+   "role ROL-0060 Hotel Sales Executive",
+   "role ROL-0141 Airline Check-in Agent",
+   "role ROL-0001 Front Office Executive"
+  ]
+ }
+]

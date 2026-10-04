@@ -1,0 +1,206 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Unit plan for one Role Instance (RIN): profile + CEFR + situation + stakeholder + function",
+ "type": "object",
+ "required": [
+  "id",
+  "type",
+  "roleProfile",
+  "situationTemplate",
+  "cefr",
+  "functions",
+  "layers",
+  "reviewPolicy",
+  "maxStatus",
+  "prototype",
+  "publishable"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^RIN-\\d{6}$"
+  },
+  "type": {
+   "const": "unit-plan"
+  },
+  "pilot": {
+   "type": "string",
+   "minLength": 1
+  },
+  "roleProfile": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^RPF-\\d{6}$"
+  },
+  "situationTemplate": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^STM-\\d{4}$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "cefr": {
+   "enum": [
+    "Pre-A1",
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+   ]
+  },
+  "variantOf": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "differFrom": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "functions": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^CFN-\\d{4}$"
+   },
+   "minItems": 1
+  },
+  "excludedFunctions": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   }
+  },
+  "stakeholders": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "constraints": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "layers": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "layer",
+     "key",
+     "objectId",
+     "status"
+    ],
+    "properties": {
+     "layer": {
+      "enum": [
+       "L0",
+       "L1",
+       "L2",
+       "L3",
+       "L4",
+       "L5",
+       "L6"
+      ]
+     },
+     "key": {
+      "type": "string",
+      "minLength": 1
+     },
+     "objectId": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "status": {
+      "enum": [
+       "PRESENT",
+       "MISSING"
+      ]
+     },
+     "sharedWith": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "request": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    },
+    "additionalProperties": false
+   },
+   "minItems": 7
+  },
+  "reviewPolicy": {
+   "type": "object",
+   "required": [
+    "aiQa",
+    "editorial",
+    "specialist",
+    "native"
+   ],
+   "properties": {
+    "aiQa": {
+     "type": "string",
+     "minLength": 1
+    },
+    "editorial": {
+     "type": "string",
+     "minLength": 1
+    },
+    "specialist": {
+     "type": "string",
+     "minLength": 1
+    },
+    "native": {
+     "type": "string",
+     "minLength": 1
+    },
+    "specialistReason": {
+     "type": "string",
+     "minLength": 1
+    },
+    "nativeReason": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "additionalProperties": false
+  },
+  "maxStatus": {
+   "const": "APPROVED"
+  },
+  "prototype": {
+   "const": true
+  },
+  "publishable": {
+   "const": false
+  },
+  "searchTerms": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  }
+ },
+ "additionalProperties": false
+}

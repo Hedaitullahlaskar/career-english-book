@@ -1,0 +1,124 @@
+{
+ "id": "RIN-000014",
+ "type": "unit-plan",
+ "pilot": "U-1",
+ "roleProfile": "RPF-000005",
+ "situationTemplate": "STM-0127",
+ "title": "Addressing underperformance — HR Manager (B1)",
+ "cefr": "B1",
+ "variantOf": null,
+ "functions": [
+  "CFN-0070"
+ ],
+ "excludedFunctions": [],
+ "stakeholders": [
+  "Employee / team member",
+  "Department head"
+ ],
+ "constraints": [
+  "Employment-law-adjacent statements kept generic; no disciplinary-procedure claims (D-U11)"
+ ],
+ "layers": [
+  {
+   "layer": "L0",
+   "key": "L0|CFN-0070|B1",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000001",
+   "sharedWith": []
+  },
+  {
+   "layer": "L1",
+   "key": "L1|STM-0127",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000002",
+   "sharedWith": [
+    "RIN-000012"
+   ]
+  },
+  {
+   "layer": "L2",
+   "key": "L2|CM-10",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000003",
+   "sharedWith": [
+    "RIN-000012"
+   ]
+  },
+  {
+   "layer": "L2",
+   "key": "L2|CM-11",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000003",
+   "sharedWith": [
+    "RIN-000011",
+    "RIN-000012",
+    "RIN-000013"
+   ]
+  },
+  {
+   "layer": "L3",
+   "key": "L3|ROL-0013",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000004",
+   "sharedWith": [
+    "RIN-000011",
+    "RIN-000012",
+    "RIN-000013"
+   ]
+  },
+  {
+   "layer": "L4",
+   "key": "L4|RPF-000005",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000005",
+   "sharedWith": [
+    "RIN-000013"
+   ]
+  },
+  {
+   "layer": "L5",
+   "key": "L5|SEN-0008|-",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000005",
+   "sharedWith": [
+    "RIN-000011",
+    "RIN-000012",
+    "RIN-000013"
+   ]
+  },
+  {
+   "layer": "L6",
+   "key": "L6|RPF-000005|STM-0127|B1",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000011",
+   "sharedWith": []
+  }
+ ],
+ "reviewPolicy": {
+  "aiQa": "REQUIRED (AI/content pipeline)",
+  "editorial": "AUTHOR (author performs Editorial Review personally, D-U13b)",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED",
+  "specialistReason": "U-1 roles are deliberately non-regulated general business roles; DRV-sensitive content excluded by constraint (author ruling 4 October 2026)",
+  "nativeReason": "No Bengali/Hindi content in U-1 (D-U08 clarification)"
+ },
+ "maxStatus": "APPROVED",
+ "prototype": true,
+ "publishable": false,
+ "searchTerms": [
+  "HR Manager",
+  "human resources manager",
+  "personnel manager",
+  "Addressing underperformance",
+  "Software & IT services"
+ ],
+ "differFrom": "RIN-000012"
+}

@@ -1,0 +1,131 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Generation request packet (repository → ChatGPT)",
+ "type": "object",
+ "required": [
+  "requestId",
+  "contractVersion",
+  "batch",
+  "mode",
+  "layer",
+  "status",
+  "dependsOn",
+  "expectedOutputs",
+  "context",
+  "style",
+  "limits",
+  "estimate"
+ ],
+ "properties": {
+  "requestId": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^REQ-\\d{6}$"
+  },
+  "contractVersion": {
+   "type": "string",
+   "minLength": 1
+  },
+  "batch": {
+   "type": "string",
+   "minLength": 1
+  },
+  "mode": {
+   "enum": [
+    "generate",
+    "revise",
+    "review"
+   ]
+  },
+  "layer": {
+   "type": "string",
+   "minLength": 1
+  },
+  "status": {
+   "enum": [
+    "PREPARED",
+    "SENT",
+    "RECEIVED",
+    "INGESTED",
+    "BLOCKED",
+    "STOPPED_BUDGET"
+   ]
+  },
+  "dependsOn": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "expectedOutputs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "tempId",
+     "type",
+     "key"
+    ],
+    "properties": {
+     "tempId": {
+      "type": "string",
+      "minLength": 1
+     },
+     "type": {
+      "type": "string",
+      "minLength": 1
+     },
+     "key": {
+      "type": "string",
+      "minLength": 1
+     },
+     "brief": {
+      "type": "object"
+     }
+    },
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "context": {
+   "type": "object"
+  },
+  "style": {
+   "type": "object"
+  },
+  "limits": {
+   "type": "object"
+  },
+  "outputSchema": {
+   "type": "object"
+  },
+  "estimate": {
+   "type": "object",
+   "required": [
+    "inputTokens",
+    "maxOutputTokens"
+   ],
+   "properties": {
+    "inputTokens": {
+     "type": "integer"
+    },
+    "maxOutputTokens": {
+     "type": "integer"
+    }
+   },
+   "additionalProperties": false
+  },
+  "instructions": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "responseFormat": {
+   "type": "object"
+  }
+ },
+ "additionalProperties": false
+}

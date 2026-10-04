@@ -1,0 +1,79 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Engine vocabulary entry (D-U07: V-<SCOPE>-<NUMBER>; existing book codes unchanged)",
+ "type": "object",
+ "required": [
+  "code",
+  "term",
+  "definition",
+  "example",
+  "scope",
+  "home",
+  "status"
+ ],
+ "properties": {
+  "code": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^V-[A-Z]{2,8}-\\d{4}$"
+  },
+  "term": {
+   "type": "string",
+   "minLength": 1
+  },
+  "pos": {
+   "type": "string"
+  },
+  "definition": {
+   "type": "string",
+   "minLength": 1
+  },
+  "example": {
+   "type": "string",
+   "minLength": 1
+  },
+  "scope": {
+   "type": "string",
+   "minLength": 1
+  },
+  "cefr": {
+   "enum": [
+    "Pre-A1",
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+   ]
+  },
+  "home": {
+   "type": "string",
+   "minLength": 1
+  },
+  "usedBy": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "status": {
+   "enum": [
+    "GENERATED",
+    "AI_QA",
+    "EDITORIAL_REVIEW",
+    "SPECIALIST_REVIEW",
+    "NATIVE_REVIEW",
+    "APPROVED",
+    "COMPILED",
+    "PUBLISHED",
+    "RETIRED"
+   ]
+  },
+  "provenance": {
+   "type": "object"
+  }
+ },
+ "additionalProperties": false
+}

@@ -1,0 +1,282 @@
+{
+ "requestId": "REQ-000004",
+ "contractVersion": "1.0",
+ "batch": "B4",
+ "mode": "generate",
+ "layer": "L3",
+ "status": "PREPARED",
+ "dependsOn": [],
+ "expectedOutputs": [
+  {
+   "tempId": "tmp:L3|ROL-0080",
+   "type": "role-core",
+   "key": "L3|ROL-0080",
+   "brief": {
+    "role": "ROL-0080",
+    "name": "Street Vendor",
+    "parent": null,
+    "family": "Market & street vending",
+    "familyRoleCore": [
+     "attract customers",
+     "price and quantity",
+     "bargaining",
+     "weighing/measuring",
+     "payment and change",
+     "regular customers"
+    ],
+    "aliases": [
+     "hawker",
+     "footpath vendor",
+     "thela"
+    ],
+    "defaultLevel": "SEN-0012",
+    "employmentSettings": [
+     "self-employed / own-account"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L3|ROL-0081",
+   "type": "role-core",
+   "key": "L3|ROL-0081",
+   "brief": {
+    "role": "ROL-0081",
+    "name": "Vegetable Seller",
+    "parent": "ROL-0080",
+    "family": "Market & street vending",
+    "familyRoleCore": [
+     "attract customers",
+     "price and quantity",
+     "bargaining",
+     "weighing/measuring",
+     "payment and change",
+     "regular customers"
+    ],
+    "aliases": [
+     "sabzi wala",
+     "vegetable vendor",
+     "vegetable shop"
+    ],
+    "defaultLevel": "SEN-0012",
+    "employmentSettings": [
+     "self-employed / own-account",
+     "informal employee / helper"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L3|ROL-0016",
+   "type": "role-core",
+   "key": "L3|ROL-0016",
+   "brief": {
+    "role": "ROL-0016",
+    "name": "Sales Executive",
+    "parent": null,
+    "family": "Sales",
+    "familyRoleCore": [
+     "greet",
+     "discover needs",
+     "explain",
+     "recommend",
+     "handle objections",
+     "negotiate",
+     "close",
+     "follow up",
+     "handle complaints"
+    ],
+    "aliases": [
+     "salesperson",
+     "sales representative",
+     "sales officer"
+    ],
+    "defaultLevel": "SEN-0003",
+    "employmentSettings": [
+     "formal employer"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L3|ROL-0050",
+   "type": "role-core",
+   "key": "L3|ROL-0050",
+   "brief": {
+    "role": "ROL-0050",
+    "name": "Car Sales Executive",
+    "parent": "ROL-0016",
+    "family": "Sales",
+    "familyRoleCore": [
+     "greet",
+     "discover needs",
+     "explain",
+     "recommend",
+     "handle objections",
+     "negotiate",
+     "close",
+     "follow up",
+     "handle complaints"
+    ],
+    "aliases": [
+     "car salesman",
+     "showroom sales",
+     "relationship executive (auto)"
+    ],
+    "defaultLevel": "SEN-0003",
+    "employmentSettings": [
+     "formal employer"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L3|ROL-0157",
+   "type": "role-core",
+   "key": "L3|ROL-0157",
+   "brief": {
+    "role": "ROL-0157",
+    "name": "Food Delivery Executive",
+    "parent": null,
+    "family": "Delivery & last mile",
+    "familyRoleCore": [
+     "pickup",
+     "address confirmation",
+     "calls on arrival",
+     "delays",
+     "wrong/missing items",
+     "proof of delivery",
+     "app support"
+    ],
+    "aliases": [
+     "delivery partner",
+     "delivery boy",
+     "rider"
+    ],
+    "defaultLevel": "SEN-0003",
+    "employmentSettings": [
+     "gig / platform"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L3|ROL-0013",
+   "type": "role-core",
+   "key": "L3|ROL-0013",
+   "brief": {
+    "role": "ROL-0013",
+    "name": "HR Manager",
+    "parent": null,
+    "family": "Human resources",
+    "familyRoleCore": [
+     "recruitment",
+     "interviews",
+     "onboarding",
+     "employee queries",
+     "performance",
+     "grievances",
+     "policy communication"
+    ],
+    "aliases": [
+     "human resources manager",
+     "personnel manager"
+    ],
+    "defaultLevel": "SEN-0008",
+    "employmentSettings": [
+     "formal employer"
+    ]
+   }
+  }
+ ],
+ "context": {
+  "pilot": {
+   "id": "U-1",
+   "purpose": "Architecture-validation prototype approved by the author on 4 October 2026. Not for publication. Final state may never be COMPILED or PUBLISHED."
+  },
+  "policies": {
+   "D-U11": "Job knowledge only to make communication realistic; not certification. No invented safety instructions, public procedures or legal/medical/financial advice. Factual claims in regulated areas must be traceable; U-1 avoids them.",
+   "D-U12": "Hybrid characters: role-specific realistic characters and reusable stakeholder archetypes; no single permanent character; Arif is not used.",
+   "D-U14": "Learning cycle for new role content: Context → Notice → Understand → Guided Practice → Role Practice → Performance Task → Feedback → Review/Retrieval. Not claimed to exist in the current book.",
+   "D-U07": "Vocabulary: propose terms only; the repository assigns V-<SCOPE>-<NUMBER> codes and reuses existing codes. Never invent codes.",
+   "D-U10": "Generate only the requested delta. Do not regenerate objects supplied in context."
+  },
+  "style": {
+   "spelling": "UK",
+   "dateFormat": "UK (e.g. 4 October 2026)",
+   "register": "professional, respectful, realistic",
+   "currency": "Indian rupees (₹) unless the situation requires otherwise",
+   "payments": "cash, UPI, card as realistic",
+   "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+   "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+   "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+   "audio": "None. Content must be fully usable as text (D-U06)."
+  },
+  "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
+  "note": "Role cores are industry-neutral. A child role states only what it adds to its parent (deltaFromParent)."
+ },
+ "style": {
+  "spelling": "UK",
+  "dateFormat": "UK (e.g. 4 October 2026)",
+  "register": "professional, respectful, realistic",
+  "currency": "Indian rupees (₹) unless the situation requires otherwise",
+  "payments": "cash, UPI, card as realistic",
+  "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+  "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+  "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+  "audio": "None. Content must be fully usable as text (D-U06)."
+ },
+ "limits": {
+  "responsibilities": [
+   4,
+   8
+  ],
+  "jobKnowledgeItems": [
+   3,
+   6
+  ],
+  "maxWordsPerJobKnowledgeItem": 60
+ },
+ "outputSchema": {
+  "role": "ROL id",
+  "parent": "ROL id or null",
+  "responsibilities": "4–8 strings",
+  "stakeholders": "archetype names",
+  "keyFunctions": "CFN ids",
+  "jobKnowledge": "3–6 objects {title, text ≤60 words}",
+  "deltaFromParent": "what this role adds to its parent (strings; empty if no parent)"
+ },
+ "instructions": [
+  "Return ONE JSON object only (no prose, no Markdown fences), conforming to the response format in 'responseFormat'.",
+  "Produce exactly the outputs listed in 'expectedOutputs', using their tempId, type and key unchanged.",
+  "Generate only these outputs. Do not regenerate objects given in 'context' — use them.",
+  "Do not invent IDs or vocabulary codes. Reference existing codes only as given in context; propose new vocabulary with tempIds.",
+  "English only: no Bengali/Hindi script or transliteration. No audio references. No real brand or company names.",
+  "No legal, medical, financial or safety advice; no invented procedures or rules (D-U11).",
+  "Report honestly in selfCheck: 'met', 'not met' or 'uncertain'. Never claim approval, certification or CEFR validation."
+ ],
+ "responseFormat": {
+  "requestId": "<copy>",
+  "contractVersion": "1.0",
+  "model": "<model name if known>",
+  "outputs": [
+   {
+    "tempId": "<copy>",
+    "type": "<copy>",
+    "key": "<copy>",
+    "record": {
+     "content": "<object per outputSpec>"
+    }
+   }
+  ],
+  "selfCheck": [
+   {
+    "check": "<name>",
+    "result": "met | not met | uncertain",
+    "notes": "<text>"
+   }
+  ],
+  "assumptions": [],
+  "flags": [],
+  "questions": []
+ },
+ "estimate": {
+  "inputTokens": 1784,
+  "maxOutputTokens": 5400
+ }
+}

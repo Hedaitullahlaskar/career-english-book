@@ -1,0 +1,82 @@
+[
+ {
+  "id": "STK-0001",
+  "name": "Customer"
+ },
+ {
+  "id": "STK-0002",
+  "name": "Regular customer"
+ },
+ {
+  "id": "STK-0003",
+  "name": "Supervisor"
+ },
+ {
+  "id": "STK-0004",
+  "name": "Manager"
+ },
+ {
+  "id": "STK-0005",
+  "name": "Colleague"
+ },
+ {
+  "id": "STK-0006",
+  "name": "Supplier"
+ },
+ {
+  "id": "STK-0007",
+  "name": "Patient"
+ },
+ {
+  "id": "STK-0008",
+  "name": "Parent"
+ },
+ {
+  "id": "STK-0009",
+  "name": "Driver"
+ },
+ {
+  "id": "STK-0010",
+  "name": "Technician"
+ },
+ {
+  "id": "STK-0011",
+  "name": "HR Manager"
+ },
+ {
+  "id": "STK-0012",
+  "name": "Sales Manager"
+ },
+ {
+  "id": "STK-0013",
+  "name": "Candidate"
+ },
+ {
+  "id": "STK-0014",
+  "name": "Employee / team member"
+ },
+ {
+  "id": "STK-0015",
+  "name": "Restaurant staff"
+ },
+ {
+  "id": "STK-0016",
+  "name": "Support team (platform)"
+ },
+ {
+  "id": "STK-0017",
+  "name": "Building guard / receptionist"
+ },
+ {
+  "id": "STK-0018",
+  "name": "Department head"
+ },
+ {
+  "id": "STK-0019",
+  "name": "Finance / loan executive"
+ },
+ {
+  "id": "STK-0020",
+  "name": "Market neighbour (another seller)"
+ }
+]

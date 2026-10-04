@@ -1,0 +1,150 @@
+ID,Level,Parent,Scope code,Name,Search aliases,Default review flags (sector),Example roles (sector)
+SEC-01,Sector,,TRADE,"Retail, Trade & Markets",,,
+IND-0001,Industry,SEC-01,VEGM,Fresh produce markets (vegetables & fruit),sabzi mandi; vegetable market; fruit market,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0002,Industry,SEC-01,FISHM,Fish & meat markets,fish market; meat shop; machhli bazaar,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0003,Industry,SEC-01,KIRA,Grocery & neighbourhood stores,kirana store; general store; corner shop,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0004,Industry,SEC-01,SMKT,Supermarkets & hypermarkets,supermarket; hypermarket; grocery chain,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0005,Industry,SEC-01,MALL,Shopping malls & department stores,mall; department store,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0006,Industry,SEC-01,APRL,Clothing & footwear retail,clothing shop; garment shop; saree shop; shoe shop,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0007,Industry,SEC-01,ELRT,Electronics & mobile retail,mobile shop; electronics showroom,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0008,Industry,SEC-01,NWSV,Newspaper & magazine vending,newspaper stall; news agent; akhbar,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0009,Industry,SEC-01,WHSL,Wholesale & trading,wholesale market; trading firm; distributor,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0010,Industry,SEC-01,STRV,Street vending & hawking,hawker; street vendor; footpath shop,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0011,Industry,SEC-01,ECOM,E-commerce & online sellers,online seller; marketplace seller,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+IND-0012,Industry,SEC-01,JWLR,Jewellery retail,jewellery shop; gold shop,,Accountant; Accounts Assistant; Accounts Payable Executive; After-Sales Service Coordinator; Area Manager; Area Sales Manager
+SEC-02,Sector,,MOVE,"Delivery, Logistics & Transport",,DRV,
+IND-0013,Industry,SEC-02,FDEL,Food delivery (platform),food delivery; Zomato/Swiggy-type apps (generic),DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0014,Industry,SEC-02,PRCL,"Parcel, courier & last-mile delivery",courier; parcel delivery; e-commerce delivery,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0015,Industry,SEC-02,WHSE,Warehousing & stores,warehouse; godown; stores,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0016,Industry,SEC-02,FRGT,Freight & trucking,trucking; transport company; lorry,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0017,Industry,SEC-02,PAXT,"Passenger transport (bus, taxi, auto, ride-hailing)",taxi; auto-rickshaw; cab; bus,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0018,Industry,SEC-02,RAIL,Railways,railway; train,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0019,Industry,SEC-02,PORT,Ports & shipping,port; shipping; container,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+IND-0020,Industry,SEC-02,SCHN,Supply chain & procurement services,supply chain; 3PL,DRV,Accountant; Accounts Assistant; Area Manager; Auto-Rickshaw Driver; Branch Head; Bus Conductor
+SEC-03,Sector,,HOSP,Hospitality & Food Service,,FOOD,
+IND-0021,Industry,SEC-03,HOTL,Hotels & resorts,hotel; resort; guest house,FOOD,Accountant; Accounts Assistant; Area Manager; Banquet Executive; Barista; Bartender
+IND-0022,Industry,SEC-03,REST,Restaurants & cafés,restaurant; café; dhaba,FOOD,Accountant; Accounts Assistant; Area Manager; Banquet Executive; Barista; Bartender
+IND-0023,Industry,SEC-03,CATR,Catering & banquets,catering; banquet; wedding catering,FOOD,Accountant; Accounts Assistant; Area Manager; Banquet Executive; Barista; Bartender
+IND-0024,Industry,SEC-03,QSR,Quick-service restaurants & cloud kitchens,fast food; cloud kitchen; QSR,FOOD,Accountant; Accounts Assistant; Area Manager; Banquet Executive; Barista; Bartender
+SEC-04,Sector,,TRVL,"Travel, Tourism & Aviation",,SAFE,
+IND-0025,Industry,SEC-04,TAGY,Travel agencies & tour operators,travel agency; tour operator,SAFE,Accounts Assistant; Airline Check-in Agent; Airline Station Manager; Airport Customer Service Agent; Airport Duty Officer; Baggage Services Agent
+IND-0026,Industry,SEC-04,GUID,Tour guiding & local tourism,tour guide; heritage guide,SAFE,Accounts Assistant; Airline Check-in Agent; Airline Station Manager; Airport Customer Service Agent; Airport Duty Officer; Baggage Services Agent
+IND-0027,Industry,SEC-04,AIRL,Airlines,airline; cabin crew,SAFE,Accounts Assistant; Airline Check-in Agent; Airline Station Manager; Airport Customer Service Agent; Airport Duty Officer; Baggage Services Agent
+IND-0028,Industry,SEC-04,ARPT,Airports & ground handling,airport; ground staff,SAFE,Accounts Assistant; Airline Check-in Agent; Airline Station Manager; Airport Customer Service Agent; Airport Duty Officer; Baggage Services Agent
+SEC-05,Sector,,AUTO,Automotive,,,
+IND-0029,Industry,SEC-05,CARD,Car dealerships & showrooms,car showroom; car dealer,,Accounts Assistant; After-Sales Service Coordinator; Area Sales Manager; Automobile Field Executive; Automobile Technician; Body Shop Technician
+IND-0030,Industry,SEC-05,TWHD,Two-wheeler dealerships,bike showroom; scooter dealer,,Accounts Assistant; After-Sales Service Coordinator; Area Sales Manager; Automobile Field Executive; Automobile Technician; Body Shop Technician
+IND-0031,Industry,SEC-05,AUSV,Vehicle service & repair workshops,garage; service centre; workshop,,Accounts Assistant; After-Sales Service Coordinator; Area Sales Manager; Automobile Field Executive; Automobile Technician; Body Shop Technician
+IND-0032,Industry,SEC-05,APRT,Auto parts & accessories,spare parts shop,,Accounts Assistant; After-Sales Service Coordinator; Area Sales Manager; Automobile Field Executive; Automobile Technician; Body Shop Technician
+IND-0033,Industry,SEC-05,AFIN,"Vehicle finance, insurance & field services",vehicle loan; motor insurance; vehicle inspection,,Accounts Assistant; After-Sales Service Coordinator; Area Sales Manager; Automobile Field Executive; Automobile Technician; Body Shop Technician
+SEC-06,Sector,,MFG,Manufacturing & Production,,SAFE,
+IND-0034,Industry,SEC-06,FACT,General manufacturing & factories,factory; plant,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+IND-0035,Industry,SEC-06,FMCG,FMCG & consumer goods,FMCG; consumer goods,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+IND-0036,Industry,SEC-06,GRMT,Garments & textiles,garment factory; textile mill; tailoring unit,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+IND-0037,Industry,SEC-06,PHRM,Pharmaceutical manufacturing,pharma plant,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+IND-0038,Industry,SEC-06,ELMF,Electronics manufacturing,electronics assembly,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+IND-0039,Industry,SEC-06,FOOD,Food processing,food factory; bakery unit,SAFE,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Area Sales Manager; Brand Manager
+SEC-07,Sector,,BUILD,"Construction, Real Estate & Property",,SAFE,
+IND-0040,Industry,SEC-07,CNST,Construction sites & contracting,construction site; building work,SAFE,Accounts Assistant; Building Contractor; Carpenter; Civil Engineer; Construction Project Manager; Construction Worker
+IND-0041,Industry,SEC-07,REAL,Real estate sales & brokerage,property dealer; real estate agent,SAFE,Accounts Assistant; Building Contractor; Carpenter; Civil Engineer; Construction Project Manager; Construction Worker
+IND-0042,Industry,SEC-07,PROP,Property & facility management,facility management; society management,SAFE,Accounts Assistant; Building Contractor; Carpenter; Civil Engineer; Construction Project Manager; Construction Worker
+IND-0043,Industry,SEC-07,INTR,Interiors & renovation,interior design; renovation,SAFE,Accounts Assistant; Building Contractor; Carpenter; Civil Engineer; Construction Project Manager; Construction Worker
+SEC-08,Sector,,TRDS,Technical Trades & Field Services,,SAFE,
+IND-0044,Industry,SEC-08,ELEC,Electrical services,electrician; wiring,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+IND-0045,Industry,SEC-08,PLMB,Plumbing services,plumber,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+IND-0046,Industry,SEC-08,HVAC,"AC, refrigeration & appliance repair",AC repair; fridge repair; appliance service,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+IND-0047,Industry,SEC-08,TELI,Telecom & internet installation,broadband installation; fibre,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+IND-0048,Industry,SEC-08,FSVC,Equipment field service,field service; equipment repair,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+IND-0049,Industry,SEC-08,MOBR,Mobile & electronics repair,mobile repair shop,SAFE,AC & Appliance Technician; Accounts Assistant; After-Sales Service Coordinator; Broadband Installation Technician; CCTV & Security Systems Technician; Carpenter
+SEC-09,Sector,,UTIL,Energy & Utilities,,SAFE,
+IND-0050,Industry,SEC-09,POWR,Electricity distribution,electricity board; power supply,SAFE,Accounts Assistant; Complaints Officer; Customer Care Representative (Counter); Customer Service Executive; Electrical Engineer; Electricity Lineman
+IND-0051,Industry,SEC-09,WATR,Water supply,water board,SAFE,Accounts Assistant; Complaints Officer; Customer Care Representative (Counter); Customer Service Executive; Electrical Engineer; Electricity Lineman
+IND-0052,Industry,SEC-09,GASD,Gas distribution (LPG & piped gas),LPG; gas agency,SAFE,Accounts Assistant; Complaints Officer; Customer Care Representative (Counter); Customer Service Executive; Electrical Engineer; Electricity Lineman
+IND-0053,Industry,SEC-09,SOLR,Solar & renewables,solar installation,SAFE,Accounts Assistant; Complaints Officer; Customer Care Representative (Counter); Customer Service Executive; Electrical Engineer; Electricity Lineman
+SEC-10,Sector,,TECH,IT & Telecom,,DATA,
+IND-0054,Industry,SEC-10,SOFT,Software & IT services,software company; IT services,DATA,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; After-Sales Service Coordinator; Broadband Installation Technician
+IND-0055,Industry,SEC-10,ITSP,IT support & managed services,IT support; helpdesk,DATA,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; After-Sales Service Coordinator; Broadband Installation Technician
+IND-0056,Industry,SEC-10,TELC,Telecom services,telecom operator; SIM store,DATA,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; After-Sales Service Coordinator; Broadband Installation Technician
+IND-0057,Industry,SEC-10,DATA,Data & analytics,data analytics,DATA,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; After-Sales Service Coordinator; Broadband Installation Technician
+SEC-11,Sector,,BPO,BPO & Contact Centres,,DATA,
+IND-0058,Industry,SEC-11,VOIC,Voice customer support,call centre; inbound; outbound,DATA,Accountant; Accounts Assistant; Administrative Executive; Chat & Email Support Associate; Collections Executive; Contact Centre Manager
+IND-0059,Industry,SEC-11,NVOI,Non-voice & back-office processing,chat support; email support; back office,DATA,Accountant; Accounts Assistant; Administrative Executive; Chat & Email Support Associate; Collections Executive; Contact Centre Manager
+IND-0060,Industry,SEC-11,COLL,Collections,collections; recovery calls,DATA,Accountant; Accounts Assistant; Administrative Executive; Chat & Email Support Associate; Collections Executive; Contact Centre Manager
+IND-0061,Industry,SEC-11,TSPT,Technical support process,tech support process,DATA,Accountant; Accounts Assistant; Administrative Executive; Chat & Email Support Associate; Collections Executive; Contact Centre Manager
+SEC-12,Sector,,BANK,"Banking, Finance & Insurance",,FIN,
+IND-0062,Industry,SEC-12,BNKS,Banks,bank branch,FIN,Accountant; Accounts Assistant; Administrative Executive; Area Manager; Area Sales Manager; Automobile Field Executive
+IND-0063,Industry,SEC-12,MFIN,Microfinance & NBFCs,microfinance; NBFC; self-help group loans,FIN,Accountant; Accounts Assistant; Administrative Executive; Area Manager; Area Sales Manager; Automobile Field Executive
+IND-0064,Industry,SEC-12,INSU,Insurance,insurance company; LIC-type (generic),FIN,Accountant; Accounts Assistant; Administrative Executive; Area Manager; Area Sales Manager; Automobile Field Executive
+IND-0065,Industry,SEC-12,BCAG,Banking correspondents & payment agents,BC agent; CSP; payment agent,FIN,Accountant; Accounts Assistant; Administrative Executive; Area Manager; Area Sales Manager; Automobile Field Executive
+IND-0066,Industry,SEC-12,ACCT,Accounting & tax practices,CA firm; tax consultant,FIN,Accountant; Accounts Assistant; Administrative Executive; Area Manager; Area Sales Manager; Automobile Field Executive
+SEC-13,Sector,,HLTH,Healthcare,,MED,
+IND-0067,Industry,SEC-13,HOSPL,Hospitals,hospital,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0068,Industry,SEC-13,CLIN,Clinics & primary care,clinic; dispensary; health centre,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0069,Industry,SEC-13,NURS,Nursing & home care,nursing home; home nursing,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0070,Industry,SEC-13,EYEC,Eye care & optical,eye hospital; optical shop; optometry,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0071,Industry,SEC-13,PHAR,Pharmacies,chemist; medical store; pharmacy,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0072,Industry,SEC-13,DIAG,Diagnostic laboratories,pathology lab; diagnostic centre,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0073,Industry,SEC-13,DENT,Dental care,dental clinic,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+IND-0074,Industry,SEC-13,MSAL,Medical & pharmaceutical sales,medical representative; pharma sales,MED,Accountant; Accounts Assistant; Administrative Executive; Area Sales Manager; Caregiver / Elder Care Attendant; Claims Executive
+SEC-14,Sector,,EDU,Education & Training,,MIN,
+IND-0075,Industry,SEC-14,SCHL,Schools,school,MIN,Academic Coordinator; Academic Director; Accountant; Accounts Assistant; Administrative Executive; Admissions Counsellor
+IND-0076,Industry,SEC-14,HIED,Colleges & universities,college; university,MIN,Academic Coordinator; Academic Director; Accountant; Accounts Assistant; Administrative Executive; Admissions Counsellor
+IND-0077,Industry,SEC-14,COAC,Coaching & tuition,coaching centre; tuition,MIN,Academic Coordinator; Academic Director; Accountant; Accounts Assistant; Administrative Executive; Admissions Counsellor
+IND-0078,Industry,SEC-14,VOCT,Vocational & skills training,ITI; skills centre,MIN,Academic Coordinator; Academic Director; Accountant; Accounts Assistant; Administrative Executive; Admissions Counsellor
+IND-0079,Industry,SEC-14,EDTC,Edtech,online learning platform,MIN,Academic Coordinator; Academic Director; Accountant; Accounts Assistant; Administrative Executive; Admissions Counsellor
+SEC-15,Sector,,GOVT,Government & Public Service,,PUB,
+IND-0080,Industry,SEC-15,ELEX,Election administration,election; electoral roll; polling; BLO,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0081,Industry,SEC-15,LGOV,Local government & municipal services,municipality; panchayat; ward office,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0082,Industry,SEC-15,PHLT,Public health programmes,ASHA; anganwadi; public health,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0083,Industry,SEC-15,POST,Postal services,post office,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0084,Industry,SEC-15,CENS,Census & public surveys,census; government survey,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0085,Industry,SEC-15,PDS,Public distribution & ration services,ration shop; fair price shop,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0086,Industry,SEC-15,CITZ,Citizen service centres,CSC; seva kendra; citizen services,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+IND-0087,Industry,SEC-15,PLCE,Police & public safety (public interaction),police station; traffic police,PUB,Accounts Assistant; Anganwadi Worker; BLO Supervisor; Booth Level Officer; Census Enumerator; Citizen Service Centre Operator
+SEC-16,Sector,,AGRI,"Agriculture, Fisheries & Rural",,,
+IND-0088,Industry,SEC-16,FARM,Farming,farm; agriculture,,Accounts Assistant; Agri-Input Dealer; Agri-Input Sales Representative; Agricultural Extension Worker; Agronomist; Commission Agent (Market)
+IND-0089,Industry,SEC-16,AINP,Agri-inputs sales,seed shop; fertiliser dealer,,Accounts Assistant; Agri-Input Dealer; Agri-Input Sales Representative; Agricultural Extension Worker; Agronomist; Commission Agent (Market)
+IND-0090,Industry,SEC-16,DARY,Dairy,dairy; milk collection,,Accounts Assistant; Agri-Input Dealer; Agri-Input Sales Representative; Agricultural Extension Worker; Agronomist; Commission Agent (Market)
+IND-0091,Industry,SEC-16,FISH,Fisheries & aquaculture,fishing; fish farm,,Accounts Assistant; Agri-Input Dealer; Agri-Input Sales Representative; Agricultural Extension Worker; Agronomist; Commission Agent (Market)
+IND-0092,Industry,SEC-16,AEXT,Agricultural extension & FPOs,krishi; extension worker; FPO,,Accounts Assistant; Agri-Input Dealer; Agri-Input Sales Representative; Agricultural Extension Worker; Agronomist; Commission Agent (Market)
+SEC-17,Sector,,SECU,Security & Safety,,SAFE,
+IND-0093,Industry,SEC-17,PSEC,Private security services,security agency; guard,SAFE,Accounts Assistant; CCTV & Security Systems Technician; CCTV Operator; Fire Safety Officer; HR Assistant; Security Guard
+IND-0094,Industry,SEC-17,FIRE,Fire & safety services,fire safety,SAFE,Accounts Assistant; CCTV & Security Systems Technician; CCTV Operator; Fire Safety Officer; HR Assistant; Security Guard
+SEC-18,Sector,,BEAU,"Beauty, Wellness & Personal Care",,,
+IND-0095,Industry,SEC-18,SALN,Salons & barbershops,salon; parlour; barber,,Accounts Assistant; Beautician; Beauty Advisor; HR Assistant; Hairdresser / Barber; Makeup Artist
+IND-0096,Industry,SEC-18,SPAW,Spas & wellness centres,spa; wellness,,Accounts Assistant; Beautician; Beauty Advisor; HR Assistant; Hairdresser / Barber; Makeup Artist
+IND-0097,Industry,SEC-18,COSM,Cosmetics retail & beauty advisory,beauty counter; cosmetics,,Accounts Assistant; Beautician; Beauty Advisor; HR Assistant; Hairdresser / Barber; Makeup Artist
+SEC-19,Sector,,MEDIA,"Media, Marketing & Creative",,,
+IND-0098,Industry,SEC-19,NEWM,News media,newspaper; TV news; journalism,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+IND-0099,Industry,SEC-19,ADVT,Advertising & marketing agencies,ad agency; marketing agency,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+IND-0100,Industry,SEC-19,DIGM,Digital & social media,social media; digital marketing,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+IND-0101,Industry,SEC-19,DSGN,Design & creative studios,design studio; photography,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+IND-0102,Industry,SEC-19,EVNT,Events & entertainment,event management; wedding planning,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+IND-0103,Industry,SEC-19,PRNT,Printing & publishing,printing press; publisher,,Accounts Assistant; Advertising Account Executive; Advertising Sales Executive; Camera Operator; Content Writer; Decorator
+SEC-20,Sector,,PROF,Professional Services,,LEG,
+IND-0104,Industry,SEC-20,LEGL,Legal services,law firm; advocate,LEG,Accountant; Accounts Assistant; Administrative Executive; Advocate / Lawyer; Branch Head; Chartered Accountant
+IND-0105,Industry,SEC-20,CNSL,Consulting,consultancy,LEG,Accountant; Accounts Assistant; Administrative Executive; Advocate / Lawyer; Branch Head; Chartered Accountant
+IND-0106,Industry,SEC-20,HRRA,HR & recruitment agencies,placement agency; recruitment,LEG,Accountant; Accounts Assistant; Administrative Executive; Advocate / Lawyer; Branch Head; Chartered Accountant
+IND-0107,Industry,SEC-20,MRES,Market research & survey agencies,market research; field survey,LEG,Accountant; Accounts Assistant; Administrative Executive; Advocate / Lawyer; Branch Head; Chartered Accountant
+SEC-21,Sector,,NGO,NGO & Community Services,,MIN,
+IND-0108,Industry,SEC-21,NGOD,Development NGOs,NGO,MIN,Accounts Assistant; Community Mobiliser; Field Officer; Fundraising Executive; HR Assistant; Programme Manager (NGO)
+IND-0109,Industry,SEC-21,CMTY,Community & social services,community work; social work,MIN,Accounts Assistant; Community Mobiliser; Field Officer; Fundraising Executive; HR Assistant; Programme Manager (NGO)
+IND-0110,Industry,SEC-21,CHRT,Charities & foundations,charity; trust,MIN,Accounts Assistant; Community Mobiliser; Field Officer; Fundraising Executive; HR Assistant; Programme Manager (NGO)
+SEC-22,Sector,,SPRT,Sports & Fitness,,MIN,
+IND-0111,Industry,SEC-22,SPMG,Sports management & clubs,sports club; tournament,MIN,Accounts Assistant; Club / Academy Manager; Cricket Coach; Event Coordinator; Event Manager; F&B Manager
+IND-0112,Industry,SEC-22,CRKT,Cricket academies & clubs (context pack),cricket academy; cricket club,MIN,Accounts Assistant; Club / Academy Manager; Cricket Coach; Event Coordinator; Event Manager; F&B Manager
+IND-0113,Industry,SEC-22,GYMF,Gyms & fitness centres,gym; fitness; yoga studio,MIN,Accounts Assistant; Club / Academy Manager; Cricket Coach; Event Coordinator; Event Manager; F&B Manager
+SEC-23,Sector,,CORP,Corporate & Office (cross-industry functions),,,
+IND-0114,Industry,SEC-23,OFFC,Corporate offices,office; head office,,Accountant; Accounts Assistant; Accounts Payable Executive; Administrative Executive; Car Driver; Chief Financial Officer
+SEC-24,Sector,,SMB,Entrepreneurship & Small Business,,,
+IND-0115,Industry,SEC-24,SBIZ,Small businesses,small business; shop owner,,Accountant; Accounts Assistant; Administrative Executive; Café Owner; Customer Service Executive; Finance Manager
+IND-0116,Industry,SEC-24,SELF,Self-employed & own-account work,self-employed; freelancer; home business,,Accountant; Accounts Assistant; Administrative Executive; Café Owner; Customer Service Executive; Finance Manager
+IND-0117,Industry,SEC-24,STUP,Start-ups,start-up,,Accountant; Accounts Assistant; Administrative Executive; Café Owner; Customer Service Executive; Finance Manager
+SEC-25,Sector,,DOMS,Domestic & Personal Services,,MIN,
+IND-0118,Industry,SEC-25,DOMW,Domestic work,domestic help; housemaid; home cook,MIN,Accounts Assistant; Car Driver; Caregiver / Elder Care Attendant; Domestic Worker; HR Assistant; Home Care Nurse
+IND-0119,Industry,SEC-25,CARE,Personal care & caregiving,caregiver; elder care; attendant,MIN,Accounts Assistant; Car Driver; Caregiver / Elder Care Attendant; Domestic Worker; HR Assistant; Home Care Nurse
+IND-0120,Industry,SEC-25,PDRV,Private drivers,private driver; chauffeur,MIN,Accounts Assistant; Car Driver; Caregiver / Elder Care Attendant; Domestic Worker; HR Assistant; Home Care Nurse
+SEC-26,Sector,,ENVR,"Environment, Sanitation & Waste",,SAFE,
+IND-0121,Industry,SEC-26,SANT,Sanitation & waste management,sanitation; garbage collection; safai,SAFE,Accounts Assistant; HR Assistant; Recycling Centre Worker; Sanitation Supervisor; Sanitation Worker; Shift Supervisor
+IND-0122,Industry,SEC-26,RECY,Recycling,recycling; scrap,SAFE,Accounts Assistant; HR Assistant; Recycling Centre Worker; Sanitation Supervisor; Sanitation Worker; Shift Supervisor
+SEC-27,Sector,,GEN,Industry-neutral,,,

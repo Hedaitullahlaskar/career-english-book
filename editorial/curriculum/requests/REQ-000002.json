@@ -1,0 +1,422 @@
+{
+ "requestId": "REQ-000002",
+ "contractVersion": "1.0",
+ "batch": "B2",
+ "mode": "generate",
+ "layer": "L1",
+ "status": "PREPARED",
+ "dependsOn": [],
+ "expectedOutputs": [
+  {
+   "tempId": "tmp:L1|STM-0020",
+   "type": "situation",
+   "key": "L1|STM-0020",
+   "brief": {
+    "situation": "STM-0020",
+    "name": "Bargaining over price (markets and small shops)",
+    "category": "Selling & products",
+    "functions": [
+     {
+      "id": "CFN-0087",
+      "name": "Bargain over a price politely (informal negotiation)",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     },
+     {
+      "id": "CFN-0085",
+      "name": "State a price and answer price questions",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     },
+     {
+      "id": "CFN-0020",
+      "name": "Decline / say no professionally",
+      "group": "Action",
+      "coreBookLocation": "L2 M2 (2.2); L4 M2 (2.1)"
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0021",
+   "type": "situation",
+   "key": "L1|STM-0021",
+   "brief": {
+    "situation": "STM-0021",
+    "name": "Discussing quantity, weight and measures",
+    "category": "Selling & products",
+    "functions": [
+     {
+      "id": "CFN-0086",
+      "name": "Ask and answer about quantity, weight, size and measures",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0034",
+   "type": "situation",
+   "key": "L1|STM-0034",
+   "brief": {
+    "situation": "STM-0034",
+    "name": "Taking payment (cash, UPI, card)",
+    "category": "Orders & payment",
+    "functions": [
+     {
+      "id": "CFN-0089",
+      "name": "Take payment and give change or a receipt (cash, UPI, card)",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0019",
+   "type": "situation",
+   "key": "L1|STM-0019",
+   "brief": {
+    "situation": "STM-0019",
+    "name": "Discussing price",
+    "category": "Selling & products",
+    "functions": [
+     {
+      "id": "CFN-0085",
+      "name": "State a price and answer price questions",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0026",
+   "type": "situation",
+   "key": "L1|STM-0026",
+   "brief": {
+    "situation": "STM-0026",
+    "name": "Arranging and conducting a test drive",
+    "category": "Selling & products",
+    "functions": [
+     {
+      "id": "CFN-0091",
+      "name": "Describe and compare products simply",
+      "group": "Frontline transactions",
+      "coreBookLocation": null
+     },
+     {
+      "id": "CFN-0097",
+      "name": "Ask permission (to enter, start, record or photograph)",
+      "group": "Field, delivery & public interaction",
+      "coreBookLocation": null
+     },
+     {
+      "id": "CFN-0108",
+      "name": "Give a safety instruction or warning",
+      "group": "Technical, safety & trades",
+      "coreBookLocation": null
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0028",
+   "type": "situation",
+   "key": "L1|STM-0028",
+   "brief": {
+    "situation": "STM-0028",
+    "name": "Following up after a quotation or visit",
+    "category": "Selling & products",
+    "functions": [
+     {
+      "id": "CFN-0022",
+      "name": "Follow up and remind",
+      "group": "Action",
+      "coreBookLocation": "L2 M6"
+     }
+    ],
+    "typicalStakeholders": [
+     "customer",
+     "client"
+    ],
+    "modes": [
+     "speak",
+     "write"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0042",
+   "type": "situation",
+   "key": "L1|STM-0042",
+   "brief": {
+    "situation": "STM-0042",
+    "name": "Informing a customer about a late delivery",
+    "category": "Delivery & pickup",
+    "functions": [
+     {
+      "id": "CFN-0028",
+      "name": "Report a problem or delay",
+      "group": "Reporting",
+      "coreBookLocation": "L2 M1 (1.2)"
+     },
+     {
+      "id": "CFN-0007",
+      "name": "Apologise for your own mistake",
+      "group": "Social & relational",
+      "coreBookLocation": "L2 M5 (5.1–5.2)"
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak",
+     "write"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0040",
+   "type": "situation",
+   "key": "L1|STM-0040",
+   "brief": {
+    "situation": "STM-0040",
+    "name": "Calling a customer to confirm address or landmark",
+    "category": "Delivery & pickup",
+    "functions": [
+     {
+      "id": "CFN-0095",
+      "name": "Confirm an address, landmark or location",
+      "group": "Field, delivery & public interaction",
+      "coreBookLocation": null
+     },
+     {
+      "id": "CFN-0013",
+      "name": "Ask for clarification / repetition",
+      "group": "Information",
+      "coreBookLocation": "L1 M5; L2 3.3"
+     }
+    ],
+    "typicalStakeholders": [
+     "customer"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0043",
+   "type": "situation",
+   "key": "L1|STM-0043",
+   "brief": {
+    "situation": "STM-0043",
+    "name": "Wrong or missing item in a delivery",
+    "category": "Delivery & pickup",
+    "functions": [
+     {
+      "id": "CFN-0037",
+      "name": "Handle a routine complaint",
+      "group": "Service",
+      "coreBookLocation": "L2 M7 (7.4)"
+     },
+     {
+      "id": "CFN-0007",
+      "name": "Apologise for your own mistake",
+      "group": "Social & relational",
+      "coreBookLocation": "L2 M5 (5.1–5.2)"
+     },
+     {
+      "id": "CFN-0024",
+      "name": "Escalate an issue",
+      "group": "Action",
+      "coreBookLocation": "L3 M1 (1.5); L3 M5 (5.4); L4 M6"
+     }
+    ],
+    "typicalStakeholders": [
+     "customer",
+     "support team"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0143",
+   "type": "situation",
+   "key": "L1|STM-0143",
+   "brief": {
+    "situation": "STM-0143",
+    "name": "Interviewing a candidate",
+    "category": "Career & employment",
+    "functions": [
+     {
+      "id": "CFN-0035",
+      "name": "Identify needs through questions",
+      "group": "Service",
+      "coreBookLocation": "L3 M6 (6.2)"
+     },
+     {
+      "id": "CFN-0011",
+      "name": "Ask for information",
+      "group": "Information",
+      "coreBookLocation": "L1 M5"
+     }
+    ],
+    "typicalStakeholders": [
+     "candidate"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  },
+  {
+   "tempId": "tmp:L1|STM-0127",
+   "type": "situation",
+   "key": "L1|STM-0127",
+   "brief": {
+    "situation": "STM-0127",
+    "name": "Addressing underperformance",
+    "category": "People & performance",
+    "functions": [
+     {
+      "id": "CFN-0070",
+      "name": "Address underperformance",
+      "group": "People leadership",
+      "coreBookLocation": "L5 M2 (2.4)"
+     }
+    ],
+    "typicalStakeholders": [
+     "team member"
+    ],
+    "modes": [
+     "speak"
+    ]
+   }
+  }
+ ],
+ "context": {
+  "pilot": {
+   "id": "U-1",
+   "purpose": "Architecture-validation prototype approved by the author on 4 October 2026. Not for publication. Final state may never be COMPILED or PUBLISHED."
+  },
+  "policies": {
+   "D-U11": "Job knowledge only to make communication realistic; not certification. No invented safety instructions, public procedures or legal/medical/financial advice. Factual claims in regulated areas must be traceable; U-1 avoids them.",
+   "D-U12": "Hybrid characters: role-specific realistic characters and reusable stakeholder archetypes; no single permanent character; Arif is not used.",
+   "D-U14": "Learning cycle for new role content: Context → Notice → Understand → Guided Practice → Role Practice → Performance Task → Feedback → Review/Retrieval. Not claimed to exist in the current book.",
+   "D-U07": "Vocabulary: propose terms only; the repository assigns V-<SCOPE>-<NUMBER> codes and reuses existing codes. Never invent codes.",
+   "D-U10": "Generate only the requested delta. Do not regenerate objects supplied in context."
+  },
+  "style": {
+   "spelling": "UK",
+   "dateFormat": "UK (e.g. 4 October 2026)",
+   "register": "professional, respectful, realistic",
+   "currency": "Indian rupees (₹) unless the situation requires otherwise",
+   "payments": "cash, UPI, card as realistic",
+   "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+   "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+   "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+   "audio": "None. Content must be fully usable as text (D-U06)."
+  },
+  "review": "Output is stored as GENERATED, then AI QA, then Editorial Review by the author. Specialist and native review are NOT_REQUIRED for U-1. It is never published.",
+  "note": "Situation templates are industry-neutral; industry detail belongs to L4."
+ },
+ "style": {
+  "spelling": "UK",
+  "dateFormat": "UK (e.g. 4 October 2026)",
+  "register": "professional, respectful, realistic",
+  "currency": "Indian rupees (₹) unless the situation requires otherwise",
+  "payments": "cash, UPI, card as realistic",
+  "names": "realistic South Asian names by default; international names where the context has them; no stereotypes",
+  "brands": "no real company or brand names; use generic descriptions (e.g. 'the delivery app', 'the dealership')",
+  "languages": "English only. No Bengali or Hindi script or transliteration in U-1.",
+  "audio": "None. Content must be fully usable as text (D-U06)."
+ },
+ "limits": {
+  "maxDescriptionWords": 80,
+  "flowSteps": [
+   3,
+   6
+  ]
+ },
+ "outputSchema": {
+  "situation": "STM id",
+  "description": "≤80 words, industry-neutral",
+  "flow": "3–6 steps (strings)",
+  "functions": "CFN ids used",
+  "variationPoints": "what changes by role/industry/CEFR (strings)"
+ },
+ "instructions": [
+  "Return ONE JSON object only (no prose, no Markdown fences), conforming to the response format in 'responseFormat'.",
+  "Produce exactly the outputs listed in 'expectedOutputs', using their tempId, type and key unchanged.",
+  "Generate only these outputs. Do not regenerate objects given in 'context' — use them.",
+  "Do not invent IDs or vocabulary codes. Reference existing codes only as given in context; propose new vocabulary with tempIds.",
+  "English only: no Bengali/Hindi script or transliteration. No audio references. No real brand or company names.",
+  "No legal, medical, financial or safety advice; no invented procedures or rules (D-U11).",
+  "Report honestly in selfCheck: 'met', 'not met' or 'uncertain'. Never claim approval, certification or CEFR validation."
+ ],
+ "responseFormat": {
+  "requestId": "<copy>",
+  "contractVersion": "1.0",
+  "model": "<model name if known>",
+  "outputs": [
+   {
+    "tempId": "<copy>",
+    "type": "<copy>",
+    "key": "<copy>",
+    "record": {
+     "content": "<object per outputSpec>"
+    }
+   }
+  ],
+  "selfCheck": [
+   {
+    "check": "<name>",
+    "result": "met | not met | uncertain",
+    "notes": "<text>"
+   }
+  ],
+  "assumptions": [],
+  "flags": [],
+  "questions": []
+ },
+ "estimate": {
+  "inputTokens": 2428,
+  "maxOutputTokens": 4400
+ }
+}

@@ -1,0 +1,3478 @@
+[
+ {
+  "id": "STM-0001",
+  "category": "SC01",
+  "categoryName": "Social & first contact",
+  "name": "Greeting a customer, guest, patient or member of the public",
+  "functions": [
+   "CFN-0001",
+   "CFN-0034"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0002",
+  "category": "SC01",
+  "categoryName": "Social & first contact",
+  "name": "Introducing yourself on the first day at work",
+  "functions": [
+   "CFN-0002",
+   "CFN-0003"
+  ],
+  "stakeholders": [
+   "colleague",
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0003",
+  "category": "SC01",
+  "categoryName": "Social & first contact",
+  "name": "Introducing yourself and your purpose to a household or business (field visit)",
+  "functions": [
+   "CFN-0002",
+   "CFN-0096",
+   "CFN-0097"
+  ],
+  "stakeholders": [
+   "resident",
+   "shop owner"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0004",
+  "category": "SC01",
+  "categoryName": "Social & first contact",
+  "name": "Small talk with a regular customer",
+  "functions": [
+   "CFN-0004"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0005",
+  "category": "SC01",
+  "categoryName": "Social & first contact",
+  "name": "Saying goodbye and inviting a customer back",
+  "functions": [
+   "CFN-0005",
+   "CFN-0093"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0006",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Answering a customer's question about a product",
+  "functions": [
+   "CFN-0010",
+   "CFN-0091"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0007",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Explaining a service and what it includes",
+  "functions": [
+   "CFN-0012",
+   "CFN-0036"
+  ],
+  "stakeholders": [
+   "customer",
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0008",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Explaining a procedure to a member of the public",
+  "functions": [
+   "CFN-0101",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "citizen"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0009",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Giving opening hours, timings and schedules",
+  "functions": [
+   "CFN-0111",
+   "CFN-0010"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0010",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Asking questions to understand what the customer needs",
+  "functions": [
+   "CFN-0035",
+   "CFN-0011"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0011",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Giving directions inside a building or site",
+  "functions": [
+   "CFN-0094"
+  ],
+  "stakeholders": [
+   "visitor",
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0012",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Giving directions to a street address",
+  "functions": [
+   "CFN-0094",
+   "CFN-0095"
+  ],
+  "stakeholders": [
+   "caller",
+   "driver"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0013",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Asking for directions and finding an address",
+  "functions": [
+   "CFN-0094",
+   "CFN-0095",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "passer-by",
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0014",
+  "category": "SC02",
+  "categoryName": "Information & enquiries",
+  "name": "Saying \"I don't know — I'll find out\"",
+  "functions": [
+   "CFN-0017"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0015",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Explaining a product's features and benefits",
+  "functions": [
+   "CFN-0091",
+   "CFN-0012"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0016",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Comparing two products for a customer",
+  "functions": [
+   "CFN-0091",
+   "CFN-0023"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0017",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Recommending a product or service",
+  "functions": [
+   "CFN-0023",
+   "CFN-0042"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0018",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Demonstrating a product",
+  "functions": [
+   "CFN-0012",
+   "CFN-0091"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0019",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Discussing price",
+  "functions": [
+   "CFN-0085"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0020",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Bargaining over price (markets and small shops)",
+  "functions": [
+   "CFN-0087",
+   "CFN-0085",
+   "CFN-0020"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0021",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Discussing quantity, weight and measures",
+  "functions": [
+   "CFN-0086"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0022",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Size, colour, fitting and trial (clothing and footwear)",
+  "functions": [
+   "CFN-0086",
+   "CFN-0091",
+   "CFN-0023"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0023",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Offering a discount, promotion or free item",
+  "functions": [
+   "CFN-0092"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0024",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Closing a sale",
+  "functions": [
+   "CFN-0041",
+   "CFN-0089"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0025",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Upselling or cross-selling",
+  "functions": [
+   "CFN-0042"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0026",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Arranging and conducting a test drive",
+  "functions": [
+   "CFN-0091",
+   "CFN-0097",
+   "CFN-0108"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": false,
+  "reviewTriggers": [
+   "DRV"
+  ]
+ },
+ {
+  "id": "STM-0027",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Preparing and explaining a quotation",
+  "functions": [
+   "CFN-0107",
+   "CFN-0012"
+  ],
+  "stakeholders": [
+   "customer",
+   "client"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0028",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Following up after a quotation or visit",
+  "functions": [
+   "CFN-0022"
+  ],
+  "stakeholders": [
+   "customer",
+   "client"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0029",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "After-sales service call",
+  "functions": [
+   "CFN-0110",
+   "CFN-0037"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0030",
+  "category": "SC03",
+  "categoryName": "Selling & products",
+  "name": "Handling a sales objection",
+  "functions": [
+   "CFN-0061"
+  ],
+  "stakeholders": [
+   "customer",
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0031",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Taking an order in person",
+  "functions": [
+   "CFN-0088"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0032",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Taking an order by phone or WhatsApp",
+  "functions": [
+   "CFN-0088",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0033",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Confirming an order and delivery time",
+  "functions": [
+   "CFN-0014",
+   "CFN-0088",
+   "CFN-0111"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0034",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Taking payment (cash, UPI, card)",
+  "functions": [
+   "CFN-0089"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0035",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Giving change and a receipt",
+  "functions": [
+   "CFN-0089"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0036",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Handling a failed or disputed payment",
+  "functions": [
+   "CFN-0090",
+   "CFN-0007"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0037",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Answering a billing question",
+  "functions": [
+   "CFN-0036",
+   "CFN-0010"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0038",
+  "category": "SC04",
+  "categoryName": "Orders & payment",
+  "name": "Asking for pending payment or credit politely",
+  "functions": [
+   "CFN-0019",
+   "CFN-0022"
+  ],
+  "stakeholders": [
+   "customer",
+   "trader"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "FIN"
+  ]
+ },
+ {
+  "id": "STM-0039",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Picking up an order from a restaurant, shop or warehouse",
+  "functions": [
+   "CFN-0001",
+   "CFN-0014",
+   "CFN-0028"
+  ],
+  "stakeholders": [
+   "restaurant staff",
+   "store staff"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0040",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Calling a customer to confirm address or landmark",
+  "functions": [
+   "CFN-0095",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0041",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Calling or messaging a customer on arrival",
+  "functions": [
+   "CFN-0096",
+   "CFN-0095"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0042",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Informing a customer about a late delivery",
+  "functions": [
+   "CFN-0028",
+   "CFN-0007"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0043",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Wrong or missing item in a delivery",
+  "functions": [
+   "CFN-0037",
+   "CFN-0007",
+   "CFN-0024"
+  ],
+  "stakeholders": [
+   "customer",
+   "support team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0044",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Customer not available at delivery",
+  "functions": [
+   "CFN-0095",
+   "CFN-0019",
+   "CFN-0022"
+  ],
+  "stakeholders": [
+   "customer",
+   "support team"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0045",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Asking for proof of delivery or OTP",
+  "functions": [
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0046",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Delivering damaged goods or handling a return pickup",
+  "functions": [
+   "CFN-0037",
+   "CFN-0028"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0047",
+  "category": "SC05",
+  "categoryName": "Delivery & pickup",
+  "name": "Talking to a building guard or receptionist to reach a customer",
+  "functions": [
+   "CFN-0096",
+   "CFN-0097",
+   "CFN-0094"
+  ],
+  "stakeholders": [
+   "security guard",
+   "receptionist"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0048",
+  "category": "SC06",
+  "categoryName": "Appointments & bookings",
+  "name": "Booking an appointment",
+  "functions": [
+   "CFN-0112"
+  ],
+  "stakeholders": [
+   "customer",
+   "patient"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0049",
+  "category": "SC06",
+  "categoryName": "Appointments & bookings",
+  "name": "Rescheduling or cancelling an appointment",
+  "functions": [
+   "CFN-0112",
+   "CFN-0007"
+  ],
+  "stakeholders": [
+   "customer",
+   "patient"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0050",
+  "category": "SC06",
+  "categoryName": "Appointments & bookings",
+  "name": "Checking in a customer or patient at reception",
+  "functions": [
+   "CFN-0034",
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "customer",
+   "patient"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0051",
+  "category": "SC06",
+  "categoryName": "Appointments & bookings",
+  "name": "Explaining waiting time",
+  "functions": [
+   "CFN-0039",
+   "CFN-0111"
+  ],
+  "stakeholders": [
+   "customer",
+   "patient"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0052",
+  "category": "SC06",
+  "categoryName": "Appointments & bookings",
+  "name": "Taking a reservation (restaurant, hotel, travel)",
+  "functions": [
+   "CFN-0088",
+   "CFN-0014"
+  ],
+  "stakeholders": [
+   "guest"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0053",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Handling a complaint in person",
+  "functions": [
+   "CFN-0038",
+   "CFN-0037",
+   "CFN-0039"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0054",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Handling a complaint by phone or message",
+  "functions": [
+   "CFN-0038",
+   "CFN-0037",
+   "CFN-0041"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0055",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Refund or exchange request",
+  "functions": [
+   "CFN-0036",
+   "CFN-0039",
+   "CFN-0020"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0056",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Calming an angry customer",
+  "functions": [
+   "CFN-0038",
+   "CFN-0047"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0057",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Saying no politely within policy",
+  "functions": [
+   "CFN-0020",
+   "CFN-0036"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0058",
+  "category": "SC07",
+  "categoryName": "Complaints & service recovery",
+  "name": "Service recovery after a serious failure",
+  "functions": [
+   "CFN-0040",
+   "CFN-0008"
+  ],
+  "stakeholders": [
+   "customer",
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0059",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Arriving at a household or site and explaining the purpose",
+  "functions": [
+   "CFN-0096",
+   "CFN-0097"
+  ],
+  "stakeholders": [
+   "resident",
+   "site owner"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0060",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Asking survey questions and recording answers",
+  "functions": [
+   "CFN-0099",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "respondent"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0061",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Explaining and obtaining consent",
+  "functions": [
+   "CFN-0100"
+  ],
+  "stakeholders": [
+   "respondent",
+   "patient"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0062",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Verifying documents or identity during a visit",
+  "functions": [
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "resident",
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0063",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Helping someone fill in a form",
+  "functions": [
+   "CFN-0101",
+   "CFN-0013",
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "citizen",
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB",
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0064",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Handling refusal or non-response",
+  "functions": [
+   "CFN-0102"
+  ],
+  "stakeholders": [
+   "resident",
+   "respondent"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0065",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Inspecting a site and recording observations",
+  "functions": [
+   "CFN-0029",
+   "CFN-0105"
+  ],
+  "stakeholders": [
+   "site owner",
+   "supervisor"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0066",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Field safety: leaving a difficult situation politely",
+  "functions": [
+   "CFN-0102",
+   "CFN-0024"
+  ],
+  "stakeholders": [
+   "resident"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0067",
+  "category": "SC08",
+  "categoryName": "Field visits, surveys & inspections",
+  "name": "Reporting field visit results to a supervisor",
+  "functions": [
+   "CFN-0027",
+   "CFN-0028"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0068",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Handling public enquiries at a counter",
+  "functions": [
+   "CFN-0101",
+   "CFN-0010",
+   "CFN-0017"
+  ],
+  "stakeholders": [
+   "citizen"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0069",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Explaining required documents",
+  "functions": [
+   "CFN-0101",
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "citizen"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0070",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Door-to-door verification (e.g. electoral roll)",
+  "functions": [
+   "CFN-0096",
+   "CFN-0098",
+   "CFN-0099",
+   "CFN-0102"
+  ],
+  "stakeholders": [
+   "resident"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB",
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0071",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Assisting elderly or disabled people",
+  "functions": [
+   "CFN-0103"
+  ],
+  "stakeholders": [
+   "citizen"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0072",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Making an announcement to a queue or crowd",
+  "functions": [
+   "CFN-0104"
+  ],
+  "stakeholders": [
+   "public"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0073",
+  "category": "SC09",
+  "categoryName": "Public service procedures",
+  "name": "Explaining a decision or rejection on an application",
+  "functions": [
+   "CFN-0101",
+   "CFN-0020",
+   "CFN-0024"
+  ],
+  "stakeholders": [
+   "citizen"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "STM-0074",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Understanding the customer's problem",
+  "functions": [
+   "CFN-0105",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0075",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Asking permission to enter or start work",
+  "functions": [
+   "CFN-0097"
+  ],
+  "stakeholders": [
+   "customer",
+   "household"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0076",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Explaining the fault and the repair",
+  "functions": [
+   "CFN-0106"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0077",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Giving a cost and time estimate",
+  "functions": [
+   "CFN-0107"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0078",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Asking the customer to approve extra work or cost",
+  "functions": [
+   "CFN-0107",
+   "CFN-0019"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0079",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Explaining safety precautions to a customer",
+  "functions": [
+   "CFN-0108"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0080",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Completing the job and explaining use and care",
+  "functions": [
+   "CFN-0110",
+   "CFN-0041"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0081",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Warranty or guarantee discussion",
+  "functions": [
+   "CFN-0036",
+   "CFN-0110"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0082",
+  "category": "SC10",
+  "categoryName": "Technical work & repair",
+  "name": "Vehicle handover after service",
+  "functions": [
+   "CFN-0110",
+   "CFN-0107"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0083",
+  "category": "SC11",
+  "categoryName": "Instructions & safety",
+  "name": "Receiving and confirming instructions",
+  "functions": [
+   "CFN-0013",
+   "CFN-0014"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0084",
+  "category": "SC11",
+  "categoryName": "Instructions & safety",
+  "name": "Giving instructions to a helper or junior",
+  "functions": [
+   "CFN-0025"
+  ],
+  "stakeholders": [
+   "helper",
+   "junior"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0085",
+  "category": "SC11",
+  "categoryName": "Instructions & safety",
+  "name": "Following and confirming safety rules",
+  "functions": [
+   "CFN-0108",
+   "CFN-0014"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0086",
+  "category": "SC11",
+  "categoryName": "Instructions & safety",
+  "name": "Giving a safety warning",
+  "functions": [
+   "CFN-0108"
+  ],
+  "stakeholders": [
+   "colleague",
+   "public"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0087",
+  "category": "SC11",
+  "categoryName": "Instructions & safety",
+  "name": "Reporting a hazard, accident or near miss",
+  "functions": [
+   "CFN-0109"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0088",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Answering a business call",
+  "functions": [
+   "CFN-0001",
+   "CFN-0010",
+   "CFN-0005"
+  ],
+  "stakeholders": [
+   "caller"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0089",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Making an outbound call",
+  "functions": [
+   "CFN-0002",
+   "CFN-0019"
+  ],
+  "stakeholders": [
+   "customer",
+   "supplier"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0090",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Taking a message",
+  "functions": [
+   "CFN-0018",
+   "CFN-0014"
+  ],
+  "stakeholders": [
+   "caller"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0091",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Work messages to customers (WhatsApp/SMS)",
+  "functions": [
+   "CFN-0010",
+   "CFN-0022"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0092",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Work messages to a supervisor or team (WhatsApp/Teams)",
+  "functions": [
+   "CFN-0027",
+   "CFN-0019"
+  ],
+  "stakeholders": [
+   "supervisor",
+   "team"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0093",
+  "category": "SC12",
+  "categoryName": "Telephone & messaging",
+  "name": "Leaving or understanding a voice note",
+  "functions": [
+   "CFN-0010",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "customer",
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0094",
+  "category": "SC13",
+  "categoryName": "Reporting & updates",
+  "name": "Reporting a problem to a supervisor",
+  "functions": [
+   "CFN-0028",
+   "CFN-0043"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0095",
+  "category": "SC13",
+  "categoryName": "Reporting & updates",
+  "name": "Giving a daily status update",
+  "functions": [
+   "CFN-0027",
+   "CFN-0032"
+  ],
+  "stakeholders": [
+   "supervisor",
+   "team"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0096",
+  "category": "SC13",
+  "categoryName": "Reporting & updates",
+  "name": "End-of-shift or end-of-day report",
+  "functions": [
+   "CFN-0027",
+   "CFN-0033"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0097",
+  "category": "SC13",
+  "categoryName": "Reporting & updates",
+  "name": "Writing an incident report",
+  "functions": [
+   "CFN-0029"
+  ],
+  "stakeholders": [
+   "supervisor",
+   "management"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0098",
+  "category": "SC13",
+  "categoryName": "Reporting & updates",
+  "name": "Reporting sales or targets",
+  "functions": [
+   "CFN-0030"
+  ],
+  "stakeholders": [
+   "manager"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0099",
+  "category": "SC14",
+  "categoryName": "Shift & team operations",
+  "name": "Shift handover",
+  "functions": [
+   "CFN-0033",
+   "CFN-0014"
+  ],
+  "stakeholders": [
+   "colleague"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0100",
+  "category": "SC14",
+  "categoryName": "Shift & team operations",
+  "name": "Pre-shift team briefing",
+  "functions": [
+   "CFN-0065",
+   "CFN-0025"
+  ],
+  "stakeholders": [
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0101",
+  "category": "SC14",
+  "categoryName": "Shift & team operations",
+  "name": "Allocating tasks for the day",
+  "functions": [
+   "CFN-0025",
+   "CFN-0066"
+  ],
+  "stakeholders": [
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0102",
+  "category": "SC14",
+  "categoryName": "Shift & team operations",
+  "name": "Asking a colleague to cover",
+  "functions": [
+   "CFN-0019",
+   "CFN-0006"
+  ],
+  "stakeholders": [
+   "colleague"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0103",
+  "category": "SC14",
+  "categoryName": "Shift & team operations",
+  "name": "Asking for leave or permission",
+  "functions": [
+   "CFN-0113"
+  ],
+  "stakeholders": [
+   "supervisor",
+   "employer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0104",
+  "category": "SC15",
+  "categoryName": "Email & documents",
+  "name": "Writing a work email",
+  "functions": [
+   "CFN-0010",
+   "CFN-0019",
+   "CFN-0022"
+  ],
+  "stakeholders": [
+   "colleague",
+   "client"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0105",
+  "category": "SC15",
+  "categoryName": "Email & documents",
+  "name": "Filling in forms, logs and registers",
+  "functions": [
+   "CFN-0029",
+   "CFN-0098"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0106",
+  "category": "SC15",
+  "categoryName": "Email & documents",
+  "name": "Reading notices and instructions",
+  "functions": [
+   "CFN-0011",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "employer"
+  ],
+  "modes": [
+   "read"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0107",
+  "category": "SC15",
+  "categoryName": "Email & documents",
+  "name": "Writing a short report or summary",
+  "functions": [
+   "CFN-0016",
+   "CFN-0029"
+  ],
+  "stakeholders": [
+   "manager"
+  ],
+  "modes": [
+   "write"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0108",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Contributing in a team meeting",
+  "functions": [
+   "CFN-0052",
+   "CFN-0053"
+  ],
+  "stakeholders": [
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0109",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Leading a meeting",
+  "functions": [
+   "CFN-0050",
+   "CFN-0051",
+   "CFN-0054",
+   "CFN-0055"
+  ],
+  "stakeholders": [
+   "team",
+   "peers"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0110",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Meeting a client",
+  "functions": [
+   "CFN-0034",
+   "CFN-0035",
+   "CFN-0039"
+  ],
+  "stakeholders": [
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0111",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Parent-teacher meeting",
+  "functions": [
+   "CFN-0084",
+   "CFN-0039"
+  ],
+  "stakeholders": [
+   "parent"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": false,
+  "reviewTriggers": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "STM-0112",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Online or video meeting",
+  "functions": [
+   "CFN-0051",
+   "CFN-0053"
+  ],
+  "stakeholders": [
+   "team",
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0113",
+  "category": "SC16",
+  "categoryName": "Meetings",
+  "name": "Community meeting or awareness session",
+  "functions": [
+   "CFN-0104",
+   "CFN-0083",
+   "CFN-0013"
+  ],
+  "stakeholders": [
+   "community members"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0114",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Explaining a concept to a class or group",
+  "functions": [
+   "CFN-0083",
+   "CFN-0082"
+  ],
+  "stakeholders": [
+   "students",
+   "trainees"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0115",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Speaking to the team as a group",
+  "functions": [
+   "CFN-0065",
+   "CFN-0073"
+  ],
+  "stakeholders": [
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0116",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Client presentation",
+  "functions": [
+   "CFN-0057",
+   "CFN-0058"
+  ],
+  "stakeholders": [
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0117",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Business performance review",
+  "functions": [
+   "CFN-0078",
+   "CFN-0031",
+   "CFN-0030"
+  ],
+  "stakeholders": [
+   "owners",
+   "board"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0118",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Pitching a business idea",
+  "functions": [
+   "CFN-0064",
+   "CFN-0081"
+  ],
+  "stakeholders": [
+   "partner",
+   "investor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0119",
+  "category": "SC17",
+  "categoryName": "Presentations & speaking to groups",
+  "name": "Addressing all staff",
+  "functions": [
+   "CFN-0080",
+   "CFN-0075"
+  ],
+  "stakeholders": [
+   "employees"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0120",
+  "category": "SC18",
+  "categoryName": "Negotiation & agreements",
+  "name": "Negotiating with a supplier",
+  "functions": [
+   "CFN-0062",
+   "CFN-0087"
+  ],
+  "stakeholders": [
+   "supplier"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0121",
+  "category": "SC18",
+  "categoryName": "Negotiation & agreements",
+  "name": "Negotiating terms with a client",
+  "functions": [
+   "CFN-0062"
+  ],
+  "stakeholders": [
+   "client"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0122",
+  "category": "SC18",
+  "categoryName": "Negotiation & agreements",
+  "name": "Discussing salary or pay",
+  "functions": [
+   "CFN-0062",
+   "CFN-0019"
+  ],
+  "stakeholders": [
+   "employer",
+   "HR"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0123",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Giving feedback to a team member",
+  "functions": [
+   "CFN-0067"
+  ],
+  "stakeholders": [
+   "team member"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0124",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Receiving feedback from a supervisor",
+  "functions": [
+   "CFN-0068"
+  ],
+  "stakeholders": [
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0125",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Coaching a team member",
+  "functions": [
+   "CFN-0071"
+  ],
+  "stakeholders": [
+   "team member"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0126",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Formal performance review",
+  "functions": [
+   "CFN-0069"
+  ],
+  "stakeholders": [
+   "team member"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0127",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Addressing underperformance",
+  "functions": [
+   "CFN-0070"
+  ],
+  "stakeholders": [
+   "team member"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0128",
+  "category": "SC19",
+  "categoryName": "People & performance",
+  "name": "Recognising good work",
+  "functions": [
+   "CFN-0009",
+   "CFN-0073"
+  ],
+  "stakeholders": [
+   "team member"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0129",
+  "category": "SC20",
+  "categoryName": "Conflict & escalation",
+  "name": "Disagreeing with a colleague",
+  "functions": [
+   "CFN-0052",
+   "CFN-0072"
+  ],
+  "stakeholders": [
+   "colleague"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0130",
+  "category": "SC20",
+  "categoryName": "Conflict & escalation",
+  "name": "Resolving a conflict between team members",
+  "functions": [
+   "CFN-0072"
+  ],
+  "stakeholders": [
+   "team members"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0131",
+  "category": "SC20",
+  "categoryName": "Conflict & escalation",
+  "name": "Escalating an issue",
+  "functions": [
+   "CFN-0024"
+  ],
+  "stakeholders": [
+   "supervisor",
+   "manager"
+  ],
+  "modes": [
+   "speak",
+   "write"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0132",
+  "category": "SC20",
+  "categoryName": "Conflict & escalation",
+  "name": "Handling pressure from a manager or customer",
+  "functions": [
+   "CFN-0049",
+   "CFN-0047"
+  ],
+  "stakeholders": [
+   "manager",
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0133",
+  "category": "SC21",
+  "categoryName": "Crisis & emergencies",
+  "name": "Calling for help in an emergency (handoff to trained responders)",
+  "functions": [
+   "CFN-0024",
+   "CFN-0109"
+  ],
+  "stakeholders": [
+   "emergency services",
+   "supervisor"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "STM-0134",
+  "category": "SC21",
+  "categoryName": "Crisis & emergencies",
+  "name": "System or service outage",
+  "functions": [
+   "CFN-0046",
+   "CFN-0045"
+  ],
+  "stakeholders": [
+   "customers",
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0135",
+  "category": "SC21",
+  "categoryName": "Crisis & emergencies",
+  "name": "Leading communication in a major incident",
+  "functions": [
+   "CFN-0046",
+   "CFN-0074"
+  ],
+  "stakeholders": [
+   "staff",
+   "stakeholders"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0136",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Communicating a decision",
+  "functions": [
+   "CFN-0074"
+  ],
+  "stakeholders": [
+   "team"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0137",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Announcing a change",
+  "functions": [
+   "CFN-0075"
+  ],
+  "stakeholders": [
+   "team",
+   "staff"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Mgr",
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0138",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Explaining strategy and direction",
+  "functions": [
+   "CFN-0076"
+  ],
+  "stakeholders": [
+   "staff",
+   "managers"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0139",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Meeting owners, a board or a management company",
+  "functions": [
+   "CFN-0078"
+  ],
+  "stakeholders": [
+   "owners",
+   "board"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0140",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Investor or partner conversation",
+  "functions": [
+   "CFN-0081",
+   "CFN-0064"
+  ],
+  "stakeholders": [
+   "investor",
+   "partner"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0141",
+  "category": "SC22",
+  "categoryName": "Decisions, change & leadership",
+  "name": "Speaking for the organisation in public",
+  "functions": [
+   "CFN-0080"
+  ],
+  "stakeholders": [
+   "public",
+   "media"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Exe",
+   "Ent"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0142",
+  "category": "SC23",
+  "categoryName": "Career & employment",
+  "name": "Job interview (as the candidate)",
+  "functions": [
+   "CFN-0002",
+   "CFN-0062"
+  ],
+  "stakeholders": [
+   "interviewer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0143",
+  "category": "SC23",
+  "categoryName": "Career & employment",
+  "name": "Interviewing a candidate",
+  "functions": [
+   "CFN-0035",
+   "CFN-0011"
+  ],
+  "stakeholders": [
+   "candidate"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Sup",
+   "Mgr",
+   "Exe"
+  ],
+  "frontline": false,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0144",
+  "category": "SC23",
+  "categoryName": "Career & employment",
+  "name": "Asking for a raise or promotion",
+  "functions": [
+   "CFN-0062",
+   "CFN-0019"
+  ],
+  "stakeholders": [
+   "manager"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0145",
+  "category": "SC23",
+  "categoryName": "Career & employment",
+  "name": "Resigning politely",
+  "functions": [
+   "CFN-0006",
+   "CFN-0010"
+  ],
+  "stakeholders": [
+   "manager"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0146",
+  "category": "SC24",
+  "categoryName": "Teaching & training",
+  "name": "Giving classroom or training instructions",
+  "functions": [
+   "CFN-0082"
+  ],
+  "stakeholders": [
+   "students",
+   "trainees"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "STM-0147",
+  "category": "SC24",
+  "categoryName": "Teaching & training",
+  "name": "Checking understanding in a class",
+  "functions": [
+   "CFN-0083",
+   "CFN-0015"
+  ],
+  "stakeholders": [
+   "students"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "STM-0148",
+  "category": "SC24",
+  "categoryName": "Teaching & training",
+  "name": "Correcting errors and giving learner feedback",
+  "functions": [
+   "CFN-0084"
+  ],
+  "stakeholders": [
+   "students"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "STM-0149",
+  "category": "SC24",
+  "categoryName": "Teaching & training",
+  "name": "Running a training session",
+  "functions": [
+   "CFN-0082",
+   "CFN-0083",
+   "CFN-0057"
+  ],
+  "stakeholders": [
+   "trainees"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op",
+   "Sup",
+   "Mgr"
+  ],
+  "frontline": true,
+  "reviewTriggers": []
+ },
+ {
+  "id": "STM-0150",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Registering a patient",
+  "functions": [
+   "CFN-0034",
+   "CFN-0098",
+   "CFN-0011"
+  ],
+  "stakeholders": [
+   "patient",
+   "family"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED",
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0151",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Explaining the next steps of a visit (non-clinical)",
+  "functions": [
+   "CFN-0012",
+   "CFN-0039"
+  ],
+  "stakeholders": [
+   "patient",
+   "family"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED"
+  ]
+ },
+ {
+  "id": "STM-0152",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Eye-test conversation (communication only)",
+  "functions": [
+   "CFN-0013",
+   "CFN-0012",
+   "CFN-0015"
+  ],
+  "stakeholders": [
+   "patient"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED"
+  ]
+ },
+ {
+  "id": "STM-0153",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Pharmacy counter conversation (as labelled; referral to pharmacist)",
+  "functions": [
+   "CFN-0010",
+   "CFN-0024"
+  ],
+  "stakeholders": [
+   "customer"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED"
+  ]
+ },
+ {
+  "id": "STM-0154",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Sample collection instructions",
+  "functions": [
+   "CFN-0025",
+   "CFN-0100"
+  ],
+  "stakeholders": [
+   "patient"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED"
+  ]
+ },
+ {
+  "id": "STM-0155",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Protecting patient privacy in conversation",
+  "functions": [
+   "CFN-0020",
+   "CFN-0036"
+  ],
+  "stakeholders": [
+   "visitor",
+   "caller"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED",
+   "DATA"
+  ]
+ },
+ {
+  "id": "STM-0156",
+  "category": "SC25",
+  "categoryName": "Health & care (non-clinical communication)",
+  "name": "Talking with a patient's family",
+  "functions": [
+   "CFN-0038",
+   "CFN-0012"
+  ],
+  "stakeholders": [
+   "family"
+  ],
+  "modes": [
+   "speak"
+  ],
+  "layers": [
+   "Op"
+  ],
+  "frontline": true,
+  "reviewTriggers": [
+   "MED"
+  ]
+ }
+]

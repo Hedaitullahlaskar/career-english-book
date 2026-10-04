@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Review record (D-R09)",
+ "type": "object",
+ "required": [
+  "id",
+  "target",
+  "stage",
+  "reviewer",
+  "result",
+  "date"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^REV-\\d{6}$"
+  },
+  "target": {
+   "type": "string",
+   "minLength": 1
+  },
+  "stage": {
+   "enum": [
+    "AI_QA",
+    "EDITORIAL_REVIEW",
+    "SPECIALIST_REVIEW",
+    "NATIVE_REVIEW"
+   ]
+  },
+  "reviewer": {
+   "type": "string",
+   "minLength": 1
+  },
+  "result": {
+   "enum": [
+    "PENDING",
+    "PASS",
+    "FAIL",
+    "NOT_REQUIRED",
+    "NOT_PERFORMED"
+   ]
+  },
+  "reason": {
+   "type": "string"
+  },
+  "findings": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   }
+  },
+  "date": {
+   "type": "string",
+   "minLength": 1
+  }
+ },
+ "additionalProperties": false
+}

@@ -1,0 +1,170 @@
+[
+ {
+  "id": "RIN-000001",
+  "title": "Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
+  "missingLayers": 10,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0087|A1",
+   "L0|CFN-0085|A1",
+   "L0|CFN-0020|A1",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000002",
+  "title": "Discussing quantity, weight and measures — Vegetable Seller (A1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0086|A1",
+   "L1|STM-0021",
+   "L2|CM-03",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000003",
+  "title": "Taking payment (cash, UPI, card) — Vegetable Seller (A1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0089|A1",
+   "L1|STM-0034",
+   "L2|CM-04",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000004",
+  "title": "Discussing price — Car Sales Executive (B1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0085|B1",
+   "L1|STM-0019",
+   "L2|CM-03",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000005",
+  "title": "Arranging and conducting a test drive — Car Sales Executive (B1)",
+  "missingLayers": 9,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0091|B1",
+   "L0|CFN-0097|B1",
+   "L1|STM-0026",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000006",
+  "title": "Following up after a quotation or visit — Car Sales Executive (B1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0022|B1",
+   "L1|STM-0028",
+   "L2|CM-03",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000007",
+  "title": "Discussing price — Car Sales Executive (A2)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0085|A2",
+   "L1|STM-0019",
+   "L2|CM-03",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000008",
+  "title": "Informing a customer about a late delivery — Food Delivery Executive (A2)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0028|A2",
+   "L0|CFN-0007|A2",
+   "L1|STM-0042",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000009",
+  "title": "Calling a customer to confirm address or landmark — Food Delivery Executive (A2)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0095|A2",
+   "L0|CFN-0013|A2",
+   "L1|STM-0040",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000010",
+  "title": "Wrong or missing item in a delivery — Food Delivery Executive (A2)",
+  "missingLayers": 9,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0037|A2",
+   "L0|CFN-0007|A2",
+   "L0|CFN-0024|A2",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000011",
+  "title": "Interviewing a candidate — HR Manager (B2)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0035|B2",
+   "L0|CFN-0011|B2",
+   "L1|STM-0143",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000012",
+  "title": "Addressing underperformance — HR Manager (B2)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0070|B2",
+   "L1|STM-0127",
+   "L2|CM-10",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000013",
+  "title": "Interviewing a candidate — HR Manager (B1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0035|B1",
+   "L0|CFN-0011|B1",
+   "L1|STM-0143",
+   "…"
+  ]
+ },
+ {
+  "id": "RIN-000014",
+  "title": "Addressing underperformance — HR Manager (B1)",
+  "missingLayers": 8,
+  "composed": false,
+  "missing": [
+   "L0|CFN-0070|B1",
+   "L1|STM-0127",
+   "L2|CM-10",
+   "…"
+  ]
+ }
+]

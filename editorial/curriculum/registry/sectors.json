@@ -1,0 +1,202 @@
+[
+ {
+  "id": "SEC-01",
+  "code": "TRADE",
+  "name": "Retail, Trade & Markets",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-02",
+  "code": "MOVE",
+  "name": "Delivery, Logistics & Transport",
+  "reviewFlags": [
+   "DRV"
+  ]
+ },
+ {
+  "id": "SEC-03",
+  "code": "HOSP",
+  "name": "Hospitality & Food Service",
+  "reviewFlags": [
+   "FOOD"
+  ]
+ },
+ {
+  "id": "SEC-04",
+  "code": "TRVL",
+  "name": "Travel, Tourism & Aviation",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-05",
+  "code": "AUTO",
+  "name": "Automotive",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-06",
+  "code": "MFG",
+  "name": "Manufacturing & Production",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-07",
+  "code": "BUILD",
+  "name": "Construction, Real Estate & Property",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-08",
+  "code": "TRDS",
+  "name": "Technical Trades & Field Services",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-09",
+  "code": "UTIL",
+  "name": "Energy & Utilities",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-10",
+  "code": "TECH",
+  "name": "IT & Telecom",
+  "reviewFlags": [
+   "DATA"
+  ]
+ },
+ {
+  "id": "SEC-11",
+  "code": "BPO",
+  "name": "BPO & Contact Centres",
+  "reviewFlags": [
+   "DATA"
+  ]
+ },
+ {
+  "id": "SEC-12",
+  "code": "BANK",
+  "name": "Banking, Finance & Insurance",
+  "reviewFlags": [
+   "FIN"
+  ]
+ },
+ {
+  "id": "SEC-13",
+  "code": "HLTH",
+  "name": "Healthcare",
+  "reviewFlags": [
+   "MED"
+  ]
+ },
+ {
+  "id": "SEC-14",
+  "code": "EDU",
+  "name": "Education & Training",
+  "reviewFlags": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "SEC-15",
+  "code": "GOVT",
+  "name": "Government & Public Service",
+  "reviewFlags": [
+   "PUB"
+  ]
+ },
+ {
+  "id": "SEC-16",
+  "code": "AGRI",
+  "name": "Agriculture, Fisheries & Rural",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-17",
+  "code": "SECU",
+  "name": "Security & Safety",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-18",
+  "code": "BEAU",
+  "name": "Beauty, Wellness & Personal Care",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-19",
+  "code": "MEDIA",
+  "name": "Media, Marketing & Creative",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-20",
+  "code": "PROF",
+  "name": "Professional Services",
+  "reviewFlags": [
+   "LEG"
+  ]
+ },
+ {
+  "id": "SEC-21",
+  "code": "NGO",
+  "name": "NGO & Community Services",
+  "reviewFlags": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "SEC-22",
+  "code": "SPRT",
+  "name": "Sports & Fitness",
+  "reviewFlags": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "SEC-23",
+  "code": "CORP",
+  "name": "Corporate & Office (cross-industry functions)",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-24",
+  "code": "SMB",
+  "name": "Entrepreneurship & Small Business",
+  "reviewFlags": []
+ },
+ {
+  "id": "SEC-25",
+  "code": "DOMS",
+  "name": "Domestic & Personal Services",
+  "reviewFlags": [
+   "MIN"
+  ]
+ },
+ {
+  "id": "SEC-26",
+  "code": "ENVR",
+  "name": "Environment, Sanitation & Waste",
+  "reviewFlags": [
+   "SAFE"
+  ]
+ },
+ {
+  "id": "SEC-27",
+  "code": "GEN",
+  "name": "Industry-neutral",
+  "reviewFlags": []
+ }
+]

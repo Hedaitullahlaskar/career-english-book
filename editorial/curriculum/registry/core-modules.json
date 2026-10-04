@@ -1,0 +1,142 @@
+[
+ {
+  "id": "CM-01",
+  "name": "Workplace basics",
+  "situationCategories": [
+   "SC01",
+   "SC02",
+   "SC11",
+   "SC12",
+   "SC14"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-02",
+  "name": "Customer service",
+  "situationCategories": [
+   "SC02",
+   "SC06",
+   "SC07"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-03",
+  "name": "Selling",
+  "situationCategories": [
+   "SC03"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-04",
+  "name": "Transactions & payment",
+  "situationCategories": [
+   "SC04"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-05",
+  "name": "Field & public interaction",
+  "situationCategories": [
+   "SC08",
+   "SC09"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-06",
+  "name": "Delivery & mobility",
+  "situationCategories": [
+   "SC05"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-07",
+  "name": "Technical work & safety",
+  "situationCategories": [
+   "SC10",
+   "SC11"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-08",
+  "name": "Operations & reporting",
+  "situationCategories": [
+   "SC13",
+   "SC14"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-09",
+  "name": "Office & digital communication",
+  "situationCategories": [
+   "SC12",
+   "SC15",
+   "SC16"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-10",
+  "name": "Team supervision",
+  "situationCategories": [
+   "SC14",
+   "SC19",
+   "SC20"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-11",
+  "name": "Management",
+  "situationCategories": [
+   "SC18",
+   "SC19",
+   "SC20",
+   "SC21",
+   "SC22",
+   "SC23"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-12",
+  "name": "Executive & ownership",
+  "situationCategories": [
+   "SC17",
+   "SC22"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-13",
+  "name": "Teaching & training",
+  "situationCategories": [
+   "SC24",
+   "SC17"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-14",
+  "name": "Care & patient communication (non-clinical)",
+  "situationCategories": [
+   "SC25"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ },
+ {
+  "id": "CM-15",
+  "name": "Public procedures",
+  "situationCategories": [
+   "SC09"
+  ],
+  "status": "APPROVED_FOR_PILOT (revisable after U-1, D-U03)"
+ }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "id": "SEN-0001",
+  "rank": 10,
+  "name": "Intern / Trainee",
+  "layer": "operational",
+  "short": "TRN",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0002",
+  "rank": 20,
+  "name": "Assistant / Associate",
+  "layer": "operational",
+  "short": "AST",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0003",
+  "rank": 30,
+  "name": "Executive / Officer",
+  "layer": "operational",
+  "short": "EXE",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0004",
+  "rank": 35,
+  "name": "Specialist / Professional",
+  "layer": "operational",
+  "short": "PRO",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0005",
+  "rank": 40,
+  "name": "Senior Executive / Senior Specialist / Coordinator",
+  "layer": "operational",
+  "short": "SNR",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0006",
+  "rank": 50,
+  "name": "Supervisor / Team Leader",
+  "layer": "supervisory",
+  "short": "SUP",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0007",
+  "rank": 60,
+  "name": "Assistant Manager",
+  "layer": "managerial",
+  "short": "AM",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0008",
+  "rank": 70,
+  "name": "Manager",
+  "layer": "managerial",
+  "short": "MGR",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0009",
+  "rank": 80,
+  "name": "Senior Manager / Department Head",
+  "layer": "managerial",
+  "short": "HOD",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0010",
+  "rank": 90,
+  "name": "Director / General Manager",
+  "layer": "executive",
+  "short": "DIR",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0011",
+  "rank": 100,
+  "name": "Managing Director / CEO",
+  "layer": "enterprise",
+  "short": "MD",
+  "track": "main",
+  "scales": []
+ },
+ {
+  "id": "SEN-0012",
+  "rank": null,
+  "name": "Founder / Owner / Entrepreneur (ownership track)",
+  "layer": "ownership",
+  "short": "OWN",
+  "track": "ownership",
+  "scales": [
+   "solo",
+   "small-team",
+   "company"
+  ]
+ }
+]

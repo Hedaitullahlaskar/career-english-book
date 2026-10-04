@@ -1,0 +1,1154 @@
+[
+ {
+  "id": "RFM-0001",
+  "code": "SALE",
+  "name": "Sales",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "greet",
+   "discover needs",
+   "explain",
+   "recommend",
+   "handle objections",
+   "negotiate",
+   "close",
+   "follow up",
+   "handle complaints"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-04",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0002",
+  "code": "RTLF",
+  "name": "Retail & shop floor",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "greet",
+   "help find",
+   "explain product",
+   "size/price/quantity",
+   "billing",
+   "exchange/returns",
+   "complaints"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-04"
+  ]
+ },
+ {
+  "id": "RFM-0003",
+  "code": "MKTV",
+  "name": "Market & street vending",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "attract customers",
+   "price and quantity",
+   "bargaining",
+   "weighing/measuring",
+   "payment and change",
+   "regular customers"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-03",
+   "CM-04"
+  ]
+ },
+ {
+  "id": "RFM-0004",
+  "code": "WHTR",
+  "name": "Wholesale & trading",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "orders",
+   "rates",
+   "credit terms",
+   "dispatch",
+   "payment follow-up",
+   "supplier calls"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-03",
+   "CM-04",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0005",
+  "code": "CSV",
+  "name": "Customer service",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "welcome",
+   "listen",
+   "inform",
+   "resolve",
+   "apologise",
+   "escalate",
+   "close"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0006",
+  "code": "CNTC",
+  "name": "Contact centre",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "call opening",
+   "verification",
+   "troubleshooting",
+   "hold/transfer",
+   "de-escalation",
+   "closing",
+   "ticket notes"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0007",
+  "code": "FO",
+  "name": "Front office & reception",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "welcome",
+   "check-in/registration",
+   "information",
+   "telephone",
+   "requests",
+   "complaints",
+   "handover"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-04",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0008",
+  "code": "FNB",
+  "name": "Food & beverage service",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "welcome",
+   "seating",
+   "menu explanation",
+   "orders",
+   "service",
+   "bill",
+   "complaints",
+   "briefing"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-04"
+  ]
+ },
+ {
+  "id": "RFM-0009",
+  "code": "KTCH",
+  "name": "Kitchen & culinary",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "orders from service",
+   "prep instructions",
+   "hygiene",
+   "shortages",
+   "handover"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0010",
+  "code": "HSKP",
+  "name": "Housekeeping & cleaning",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "room/area status",
+   "requests",
+   "reporting damage",
+   "lost and found",
+   "checklists"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0011",
+  "code": "TRVF",
+  "name": "Travel & tourism services",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "enquiries",
+   "itineraries",
+   "bookings",
+   "guiding groups",
+   "disruptions",
+   "complaints"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0012",
+  "code": "AVNF",
+  "name": "Aviation services",
+  "group": "D Hospitality, food & travel services",
+  "roleCore": [
+   "check-in",
+   "boarding",
+   "announcements (SOP)",
+   "disruption",
+   "baggage",
+   "assistance"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0013",
+  "code": "FLDW",
+  "name": "Field work & surveys",
+  "group": "B Field, mobile & delivery work",
+  "roleCore": [
+   "introduce purpose",
+   "ask permission",
+   "survey questions",
+   "verify documents",
+   "record",
+   "handle refusal",
+   "report"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0014",
+  "code": "DLVR",
+  "name": "Delivery & last mile",
+  "group": "B Field, mobile & delivery work",
+  "roleCore": [
+   "pickup",
+   "address confirmation",
+   "calls on arrival",
+   "delays",
+   "wrong/missing items",
+   "proof of delivery",
+   "app support"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-04",
+   "CM-06"
+  ]
+ },
+ {
+  "id": "RFM-0015",
+  "code": "DRVR",
+  "name": "Driving & transport",
+  "group": "B Field, mobile & delivery work",
+  "roleCore": [
+   "passenger/customer greeting",
+   "route and directions",
+   "fares",
+   "delays",
+   "vehicle issues",
+   "safety"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-04",
+   "CM-06",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0016",
+  "code": "LOGF",
+  "name": "Logistics & supply chain",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "status updates",
+   "scheduling",
+   "documentation",
+   "delays",
+   "carrier/supplier coordination"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0017",
+  "code": "WHSF",
+  "name": "Warehouse & stores",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "receiving",
+   "picking",
+   "packing",
+   "stock counts",
+   "discrepancies",
+   "safety",
+   "shift handover"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0018",
+  "code": "PROC",
+  "name": "Procurement",
+  "group": "H Business functions",
+  "roleCore": [
+   "requirements",
+   "quotations",
+   "negotiation",
+   "purchase orders",
+   "supplier follow-up",
+   "supplier performance"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0019",
+  "code": "AUTF",
+  "name": "Automotive sales & service",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "service booking",
+   "explaining repairs and estimates",
+   "vehicle handover",
+   "inspections",
+   "after-sales"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0020",
+  "code": "MECH",
+  "name": "Mechanical & vehicle repair",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "understand the problem",
+   "explain fault and cost",
+   "ask approval",
+   "safety",
+   "handover"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0021",
+  "code": "TRDF",
+  "name": "Technical trades",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "understand the problem",
+   "explain work and cost",
+   "permission",
+   "safety",
+   "job completion",
+   "follow-up"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-04",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0022",
+  "code": "CNSF",
+  "name": "Construction",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "instructions",
+   "safety",
+   "materials",
+   "progress",
+   "problems on site",
+   "reporting"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0023",
+  "code": "ENGR",
+  "name": "Engineering",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "technical explanation",
+   "specifications",
+   "reviews",
+   "reports",
+   "coordination"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0024",
+  "code": "PROD",
+  "name": "Production & manufacturing",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "shift handover",
+   "instructions",
+   "targets",
+   "defects",
+   "breakdowns",
+   "safety"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0025",
+  "code": "QLTY",
+  "name": "Quality",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "inspection",
+   "non-conformance",
+   "feedback",
+   "audits",
+   "reports"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0026",
+  "code": "MAINT",
+  "name": "Maintenance & facilities",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "requests",
+   "fault reports",
+   "scheduling",
+   "safety",
+   "completion"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0027",
+  "code": "UTLF",
+  "name": "Utilities field operations",
+  "group": "B Field, mobile & delivery work",
+  "roleCore": [
+   "meter and site visits",
+   "outages",
+   "safety",
+   "billing queries",
+   "connections"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0028",
+  "code": "SECF",
+  "name": "Security",
+  "group": "G Public, community & safety services",
+  "roleCore": [
+   "access control",
+   "visitors",
+   "patrol reports",
+   "incidents",
+   "emergencies"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0029",
+  "code": "AGRF",
+  "name": "Agriculture",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "buying inputs",
+   "selling produce",
+   "prices",
+   "advice sessions",
+   "group meetings"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-03",
+   "CM-04"
+  ]
+ },
+ {
+  "id": "RFM-0030",
+  "code": "FSHR",
+  "name": "Fisheries",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "catch and sale",
+   "landing-centre trade",
+   "safety at sea",
+   "buyers"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-03",
+   "CM-04",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0031",
+  "code": "ITF",
+  "name": "Information technology",
+  "group": "I Technology & data",
+  "roleCore": [
+   "tickets",
+   "user support",
+   "stand-ups",
+   "requirements",
+   "releases",
+   "incidents"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0032",
+  "code": "DATF",
+  "name": "Data & analytics",
+  "group": "I Technology & data",
+  "roleCore": [
+   "data requests",
+   "data quality",
+   "reporting insights",
+   "dashboards"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0033",
+  "code": "BNKF",
+  "name": "Banking",
+  "group": "H Business functions",
+  "roleCore": [
+   "account services",
+   "KYC",
+   "fees",
+   "loans",
+   "disputes",
+   "fraud alerts",
+   "compliance-safe wording"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0034",
+  "code": "FIN",
+  "name": "Finance & accounts",
+  "group": "H Business functions",
+  "roleCore": [
+   "invoices",
+   "payments",
+   "reconciliation",
+   "queries",
+   "reports",
+   "budgets"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0035",
+  "code": "INSF",
+  "name": "Insurance",
+  "group": "H Business functions",
+  "roleCore": [
+   "explaining cover",
+   "claims",
+   "renewals",
+   "documents",
+   "disclosures"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0036",
+  "code": "HR",
+  "name": "Human resources",
+  "group": "H Business functions",
+  "roleCore": [
+   "recruitment",
+   "interviews",
+   "onboarding",
+   "employee queries",
+   "performance",
+   "grievances",
+   "policy communication"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0037",
+  "code": "ADMN",
+  "name": "Administration",
+  "group": "H Business functions",
+  "roleCore": [
+   "scheduling",
+   "office requests",
+   "records",
+   "visitors",
+   "coordination"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0038",
+  "code": "LGLF",
+  "name": "Legal & compliance",
+  "group": "H Business functions",
+  "roleCore": [
+   "client intake",
+   "explaining process (not advice)",
+   "documents",
+   "deadlines"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0039",
+  "code": "MKTG",
+  "name": "Marketing & advertising",
+  "group": "J Media, marketing & creative",
+  "roleCore": [
+   "briefs",
+   "campaigns",
+   "promotions",
+   "client presentations",
+   "reports"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-03",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0040",
+  "code": "MEDF",
+  "name": "Media & journalism",
+  "group": "J Media, marketing & creative",
+  "roleCore": [
+   "interviews",
+   "sourcing",
+   "reporting",
+   "editing",
+   "on-air delivery"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0041",
+  "code": "CRTV",
+  "name": "Creative & design",
+  "group": "J Media, marketing & creative",
+  "roleCore": [
+   "briefs",
+   "concepts",
+   "feedback",
+   "revisions",
+   "client approval"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0042",
+  "code": "EVTF",
+  "name": "Events",
+  "group": "J Media, marketing & creative",
+  "roleCore": [
+   "client needs",
+   "vendors",
+   "schedules",
+   "on-the-day coordination",
+   "problems"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-08"
+  ]
+ },
+ {
+  "id": "RFM-0043",
+  "code": "MEDC",
+  "name": "Medical (doctors & dentists)",
+  "group": "E Health & care",
+  "roleCore": [
+   "patient communication",
+   "history taking (communication only)",
+   "explaining",
+   "colleagues",
+   "handover"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0044",
+  "code": "NRSF",
+  "name": "Nursing & care",
+  "group": "E Health & care",
+  "roleCore": [
+   "patient care communication",
+   "instructions",
+   "handover",
+   "families",
+   "read-back"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0045",
+  "code": "OPTF",
+  "name": "Optical & eye care",
+  "group": "E Health & care",
+  "roleCore": [
+   "patient/customer intake",
+   "eye-test communication",
+   "explaining lenses/frames",
+   "follow-up"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0046",
+  "code": "PHRF",
+  "name": "Pharmacy",
+  "group": "E Health & care",
+  "roleCore": [
+   "counter service",
+   "prescription queries",
+   "availability",
+   "instructions as labelled",
+   "referral"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-04",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0047",
+  "code": "LABF",
+  "name": "Laboratory & diagnostics",
+  "group": "E Health & care",
+  "roleCore": [
+   "sample collection instructions",
+   "reports timing",
+   "patient queries",
+   "quality"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0048",
+  "code": "HCAD",
+  "name": "Healthcare administration",
+  "group": "E Health & care",
+  "roleCore": [
+   "registration",
+   "appointments",
+   "billing/insurance",
+   "records",
+   "complaints"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09",
+   "CM-14"
+  ]
+ },
+ {
+  "id": "RFM-0049",
+  "code": "TEACH",
+  "name": "Teaching",
+  "group": "F Education & training",
+  "roleCore": [
+   "classroom instructions",
+   "explaining",
+   "checking understanding",
+   "correction",
+   "feedback",
+   "parents",
+   "colleagues"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-13"
+  ]
+ },
+ {
+  "id": "RFM-0050",
+  "code": "EDAD",
+  "name": "Education administration",
+  "group": "F Education & training",
+  "roleCore": [
+   "admissions",
+   "parent enquiries",
+   "fees",
+   "records",
+   "exams",
+   "notices"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0051",
+  "code": "TRNG",
+  "name": "Training & L&D",
+  "group": "F Education & training",
+  "roleCore": [
+   "training sessions",
+   "instructions",
+   "assessment",
+   "feedback"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-13"
+  ]
+ },
+ {
+  "id": "RFM-0052",
+  "code": "PUBS",
+  "name": "Public service & citizen services",
+  "group": "G Public, community & safety services",
+  "roleCore": [
+   "public enquiries",
+   "procedures and eligibility",
+   "documents",
+   "forms",
+   "complaints",
+   "field visits"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-05",
+   "CM-15"
+  ]
+ },
+ {
+  "id": "RFM-0053",
+  "code": "ELCT",
+  "name": "Election administration",
+  "group": "G Public, community & safety services",
+  "roleCore": [
+   "door-to-door verification",
+   "forms",
+   "public enquiries",
+   "polling-day procedures",
+   "reporting (neutral, procedure-accurate)"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-15"
+  ]
+ },
+ {
+  "id": "RFM-0054",
+  "code": "NGOF",
+  "name": "NGO & community work",
+  "group": "G Public, community & safety services",
+  "roleCore": [
+   "community meetings",
+   "awareness sessions",
+   "field visits",
+   "reporting",
+   "donors"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-05",
+   "CM-13"
+  ]
+ },
+ {
+  "id": "RFM-0055",
+  "code": "BEAF",
+  "name": "Beauty & wellness",
+  "group": "A Frontline commerce & customer service",
+  "roleCore": [
+   "consultation",
+   "explaining services",
+   "appointments",
+   "aftercare",
+   "complaints"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-02",
+   "CM-03",
+   "CM-04"
+  ]
+ },
+ {
+  "id": "RFM-0056",
+  "code": "SPRF",
+  "name": "Sports & fitness",
+  "group": "G Public, community & safety services",
+  "roleCore": [
+   "coaching instructions",
+   "feedback",
+   "schedules",
+   "members/parents",
+   "events"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-13"
+  ]
+ },
+ {
+  "id": "RFM-0057",
+  "code": "DOMF",
+  "name": "Domestic & personal services",
+  "group": "B Field, mobile & delivery work",
+  "roleCore": [
+   "employer instructions",
+   "household tasks",
+   "schedules",
+   "permission",
+   "problems",
+   "safety"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0058",
+  "code": "SANF",
+  "name": "Sanitation & waste",
+  "group": "C Operations, trades & production",
+  "roleCore": [
+   "collection schedules",
+   "residents' requests",
+   "safety",
+   "reporting problems"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-07"
+  ]
+ },
+ {
+  "id": "RFM-0059",
+  "code": "OPS",
+  "name": "Operations management",
+  "group": "K Management, leadership & ownership",
+  "roleCore": [
+   "planning",
+   "coordination",
+   "performance",
+   "escalation",
+   "reporting"
+  ],
+  "coreModules": [
+   "CM-01",
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0060",
+  "code": "MGMT",
+  "name": "General management",
+  "group": "K Management, leadership & ownership",
+  "roleCore": [
+   "business reviews",
+   "department coordination",
+   "decisions",
+   "stakeholders"
+  ],
+  "coreModules": [
+   "CM-08",
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0061",
+  "code": "LEAD",
+  "name": "Executive leadership",
+  "group": "K Management, leadership & ownership",
+  "roleCore": [
+   "strategy",
+   "boards",
+   "change",
+   "public representation"
+  ],
+  "coreModules": [
+   "CM-09"
+  ]
+ },
+ {
+  "id": "RFM-0062",
+  "code": "ENTR",
+  "name": "Entrepreneurship & small business",
+  "group": "K Management, leadership & ownership",
+  "roleCore": [
+   "explaining the business",
+   "customers",
+   "suppliers",
+   "hiring",
+   "pitching",
+   "partners"
+  ],
+  "coreModules": [
+   "CM-03",
+   "CM-09"
+  ]
+ }
+]

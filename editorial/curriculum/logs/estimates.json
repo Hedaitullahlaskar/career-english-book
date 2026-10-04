@@ -1,0 +1,112 @@
+{
+ "requests": [
+  {
+   "request": "REQ-000001",
+   "batch": "B1",
+   "layer": "L0",
+   "status": "PREPARED",
+   "outputs": 22,
+   "estimatedInputTokens": 2428,
+   "maxOutputTokens": 5500
+  },
+  {
+   "request": "REQ-000002",
+   "batch": "B2",
+   "layer": "L1",
+   "status": "PREPARED",
+   "outputs": 11,
+   "estimatedInputTokens": 2428,
+   "maxOutputTokens": 4400
+  },
+  {
+   "request": "REQ-000003",
+   "batch": "B3",
+   "layer": "L2",
+   "status": "PREPARED",
+   "outputs": 5,
+   "estimatedInputTokens": 1346,
+   "maxOutputTokens": 3000
+  },
+  {
+   "request": "REQ-000004",
+   "batch": "B4",
+   "layer": "L3",
+   "status": "PREPARED",
+   "outputs": 6,
+   "estimatedInputTokens": 1784,
+   "maxOutputTokens": 5400
+  },
+  {
+   "request": "REQ-000005",
+   "batch": "B5",
+   "layer": "L4+L5",
+   "status": "BLOCKED",
+   "outputs": 8,
+   "estimatedInputTokens": 2343,
+   "maxOutputTokens": 7200
+  },
+  {
+   "request": "REQ-000006",
+   "batch": "B6:P1",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 3,
+   "estimatedInputTokens": 3098,
+   "maxOutputTokens": 10500
+  },
+  {
+   "request": "REQ-000007",
+   "batch": "B6:P2",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 3,
+   "estimatedInputTokens": 3134,
+   "maxOutputTokens": 10500
+  },
+  {
+   "request": "REQ-000008",
+   "batch": "B6:P2v",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 1,
+   "estimatedInputTokens": 2661,
+   "maxOutputTokens": 3500
+  },
+  {
+   "request": "REQ-000009",
+   "batch": "B6:P3",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 3,
+   "estimatedInputTokens": 3200,
+   "maxOutputTokens": 10500
+  },
+  {
+   "request": "REQ-000010",
+   "batch": "B6:P4",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 2,
+   "estimatedInputTokens": 2890,
+   "maxOutputTokens": 7000
+  },
+  {
+   "request": "REQ-000011",
+   "batch": "B6:P5",
+   "layer": "L6",
+   "status": "BLOCKED",
+   "outputs": 2,
+   "estimatedInputTokens": 2909,
+   "maxOutputTokens": 7000
+  }
+ ],
+ "totalEstimatedInputTokens": 28221,
+ "totalMaxOutputTokens": 74500,
+ "estimatedCost": null,
+ "pricing": {
+  "currency": null,
+  "inputPer1kTokens": null,
+  "outputPer1kTokens": null,
+  "note": "Not set: the author enters the model's actual prices. Costs are reported only when prices are set; token counts are always logged."
+ }
+}

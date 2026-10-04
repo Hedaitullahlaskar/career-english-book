@@ -1,0 +1,1200 @@
+[
+ {
+  "id": "CFN-0001",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Greet and respond to greetings by status",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M3 (3.1)",
+  "coreCodes": [
+   "TL-0002"
+  ]
+ },
+ {
+  "id": "CFN-0002",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Introduce yourself (role, background)",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M1 (1.2–1.3)",
+  "coreCodes": [
+   "GIC-0002",
+   "GIC-0003",
+   "CF-0002"
+  ]
+ },
+ {
+  "id": "CFN-0003",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Introduce others",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M2 (2.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0004",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Make small talk; redirect unsafe topics",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M3 (3.2–3.3)",
+  "coreCodes": [
+   "CF-0003"
+  ]
+ },
+ {
+  "id": "CFN-0005",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Close a conversation politely",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M3 (3.4); L1 2.5",
+  "coreCodes": [
+   "TL-0001"
+  ]
+ },
+ {
+  "id": "CFN-0006",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Thank specifically",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M5 (5.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0007",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Apologise for your own mistake",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M5 (5.1–5.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0008",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Apologise on behalf of the team or organisation",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L2 M5 (5.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0009",
+  "group": "G1",
+  "groupName": "Social & relational",
+  "name": "Congratulate and recognise",
+  "layer": "Supervisory",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0010",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Give information clearly",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0011",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Ask for information",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M5",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0012",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Explain a process or concept to a non-expert",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 7.2",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0013",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Ask for clarification / repetition",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M5; L2 3.3",
+  "coreCodes": [
+   "CF-0001"
+  ]
+ },
+ {
+  "id": "CFN-0014",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Confirm and read back (critical details)",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "L1 M4 (4.2)",
+  "coreCodes": [
+   "CF-0001"
+  ]
+ },
+ {
+  "id": "CFN-0015",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Check understanding (yours or theirs)",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 4.2",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0016",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Summarise",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0017",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Say \"I don't know — I'll find out\"",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0018",
+  "group": "G2",
+  "groupName": "Information",
+  "name": "Relay a message between people",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M2 (2.4); L2 3.2",
+  "coreCodes": [
+   "GIC-0006"
+  ]
+ },
+ {
+  "id": "CFN-0019",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Make a polite request",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L1 M7 (7.2); L2 M2",
+  "coreCodes": [
+   "GIC-0005",
+   "TL-0003"
+  ]
+ },
+ {
+  "id": "CFN-0020",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Decline / say no professionally",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M2 (2.2); L4 M2 (2.1)",
+  "coreCodes": [
+   "TL-0010"
+  ]
+ },
+ {
+  "id": "CFN-0021",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Negotiate timing and scope of a task",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M2 (2.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0022",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Follow up and remind",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M6",
+  "coreCodes": [
+   "CF-0007"
+  ]
+ },
+ {
+  "id": "CFN-0023",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Make a suggestion or recommendation",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.3); L3 M2 (2.5)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0024",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Escalate an issue",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M1 (1.5); L3 M5 (5.4); L4 M6",
+  "coreCodes": [
+   "CF-0023"
+  ]
+ },
+ {
+  "id": "CFN-0025",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Give instructions",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L1 M4 (receiving); L5 M1 (giving)",
+  "coreCodes": [
+   "GIC-0001",
+   "GIC-0004"
+  ]
+ },
+ {
+  "id": "CFN-0026",
+  "group": "G3",
+  "groupName": "Action",
+  "name": "Offer help or an alternative",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0027",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Give a status update (done / doing / blocked)",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M1 (1.1)",
+  "coreCodes": [
+   "PAT-0025"
+  ]
+ },
+ {
+  "id": "CFN-0028",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Report a problem or delay",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M1 (1.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0029",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Report an incident (facts → evidence → analysis → action)",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M2 (2.1, 2.3)",
+  "coreCodes": [
+   "GIC-0010"
+  ]
+ },
+ {
+  "id": "CFN-0030",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Report performance / metrics",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M2 (2.4); L3 M4 (4.2–4.3)",
+  "coreCodes": [
+   "GIC-0017"
+  ]
+ },
+ {
+  "id": "CFN-0031",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Explain variance against target or budget",
+  "layer": "Managerial",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0032",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Match update detail to the audience",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M1 (1.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0033",
+  "group": "G4",
+  "groupName": "Reporting",
+  "name": "Hand over a shift or task",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "L5 capstone (handover)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0034",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Welcome a customer / guest / patient / client",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.1); L3 M6 (6.1)",
+  "coreCodes": [
+   "TL-0007"
+  ]
+ },
+ {
+  "id": "CFN-0035",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Identify needs through questions",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M6 (6.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0036",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Explain a policy and its limits",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0037",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Handle a routine complaint",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0038",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Listen with empathy and de-escalate",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M5 (5.1–5.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0039",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Present a solution and manage expectations",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M5 (5.3); L4 M8 (8.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0040",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Recover service",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M5 (5.5)",
+  "coreCodes": [
+   "CF-0013"
+  ]
+ },
+ {
+  "id": "CFN-0041",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Close a customer interaction",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L2 M7 (7.5); L2 3.5",
+  "coreCodes": [
+   "CF-0008",
+   "CF-0005"
+  ]
+ },
+ {
+  "id": "CFN-0042",
+  "group": "G5",
+  "groupName": "Service",
+  "name": "Upsell / recommend a product or service",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0043",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Explain a problem (what, impact, cause, next step)",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L4 M4 (4.1)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0044",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Explore options and trade-offs",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M4 (4.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0045",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Deliver bad news",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M6 (6.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0046",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Give a crisis update",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M6 (6.4–6.5)",
+  "coreCodes": [
+   "CF-0023"
+  ]
+ },
+ {
+  "id": "CFN-0047",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Communicate calmly under pressure",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L4 M6 (6.1)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0048",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Admit and report a serious mistake",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L4 M2 (2.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0049",
+  "group": "G6",
+  "groupName": "Problem, escalation & crisis",
+  "name": "Manage unrealistic expectations or deadlines",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M6 (6.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0050",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Invite and set an agenda",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.1)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0051",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Open a meeting and set objectives",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0052",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Give and ask for opinions; agree / disagree diplomatically",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0053",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Interrupt politely; clarify; summarise",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0054",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Assign action points and close",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.5)",
+  "coreCodes": [
+   "CF-0011"
+  ]
+ },
+ {
+  "id": "CFN-0055",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Chair a meeting as its owner; keep it on time",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L5 M5 (5.1, 5.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0056",
+  "group": "G7",
+  "groupName": "Meetings",
+  "name": "Write minutes and follow up",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M3 (3.6)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0057",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Present data and key points",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M4",
+  "coreCodes": [
+   "CF-0012"
+  ]
+ },
+ {
+  "id": "CFN-0058",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Handle questions after a presentation",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L3 M4 (4.5); L4 M5 (5.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0059",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Build a persuasive argument with evidence",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L4 M3",
+  "coreCodes": [
+   "CF-0020"
+  ]
+ },
+ {
+  "id": "CFN-0060",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Influence without authority",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M3 (3.4)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0061",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Handle objections",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L3 M6 (6.4)",
+  "coreCodes": [
+   "TL-0008"
+  ]
+ },
+ {
+  "id": "CFN-0062",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Negotiate terms (prepare, anchor, trade, close)",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L4 M1",
+  "coreCodes": [
+   "TL-0009",
+   "CF-0018"
+  ]
+ },
+ {
+  "id": "CFN-0063",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Present to a senior or executive audience",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L4 M5 (5.1); L5 M6",
+  "coreCodes": [
+   "TL-0012",
+   "CF-0022",
+   "CF-0026"
+  ]
+ },
+ {
+  "id": "CFN-0064",
+  "group": "G8",
+  "groupName": "Persuasion, presentation & negotiation",
+  "name": "Pitch a business idea (problem → solution → value → ask)",
+  "layer": "Enterprise / founder",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0065",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Brief a team (pre-shift / daily briefing)",
+  "layer": "Supervisory",
+  "newInEngine": true,
+  "coreLocation": "— (L3 M3 partly)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0066",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Delegate a task and ownership",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L5 M1",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0067",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Give everyday feedback",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L5 M2 (2.1); L4 M2 (2.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0068",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Receive criticism gracefully",
+  "layer": "Operational",
+  "newInEngine": false,
+  "coreLocation": "L4 M2 (2.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0069",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Run a formal performance conversation; set goals",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L5 M2 (2.2–2.3, 2.5)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0070",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Address underperformance",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L5 M2 (2.4)",
+  "coreCodes": [
+   "CF-0004"
+  ]
+ },
+ {
+  "id": "CFN-0071",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Coach through questions",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L5 M3",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0072",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Resolve conflict",
+  "layer": "Supervisory",
+  "newInEngine": false,
+  "coreLocation": "L4 M2 (2.5–2.6)",
+  "coreCodes": [
+   "CF-0019",
+   "TL-0011"
+  ]
+ },
+ {
+  "id": "CFN-0073",
+  "group": "G9",
+  "groupName": "People leadership",
+  "name": "Motivate and recognise a team",
+  "layer": "Supervisory",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0074",
+  "group": "G10",
+  "groupName": "Decision & direction",
+  "name": "Communicate a decision and its reasoning",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L4 M4 (4.3); L5 M5 (5.3)",
+  "coreCodes": [
+   "CF-0021"
+  ]
+ },
+ {
+  "id": "CFN-0075",
+  "group": "G10",
+  "groupName": "Decision & direction",
+  "name": "Announce a change; address resistance",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L5 M4 (4.2–4.3)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0076",
+  "group": "G10",
+  "groupName": "Decision & direction",
+  "name": "Explain the \"why\" behind a strategy",
+  "layer": "Executive (GM/Director)",
+  "newInEngine": false,
+  "coreLocation": "L5 M4 (4.1); L5 M6 (6.2)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0077",
+  "group": "G10",
+  "groupName": "Decision & direction",
+  "name": "Allocate resources and set priorities",
+  "layer": "Managerial",
+  "newInEngine": true,
+  "coreLocation": "— (L1 M4 receiving priorities)",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0078",
+  "group": "G11",
+  "groupName": "Stakeholder & external",
+  "name": "Report to ownership / board (business review)",
+  "layer": "Executive (GM/Director)",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0079",
+  "group": "G11",
+  "groupName": "Stakeholder & external",
+  "name": "Manage a client or vendor relationship over time",
+  "layer": "Managerial",
+  "newInEngine": false,
+  "coreLocation": "L4 M8",
+  "coreCodes": [
+   "CF-0025",
+   "TL-0014"
+  ]
+ },
+ {
+  "id": "CFN-0080",
+  "group": "G11",
+  "groupName": "Stakeholder & external",
+  "name": "Represent the organisation publicly (address, statement)",
+  "layer": "Executive (GM/Director)",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0081",
+  "group": "G11",
+  "groupName": "Stakeholder & external",
+  "name": "Communicate with investors and partners",
+  "layer": "Enterprise / founder",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0082",
+  "group": "G12",
+  "groupName": "Teaching & training",
+  "name": "Give classroom or training instructions",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0083",
+  "group": "G12",
+  "groupName": "Teaching & training",
+  "name": "Explain a concept to learners and check understanding",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0084",
+  "group": "G12",
+  "groupName": "Teaching & training",
+  "name": "Correct errors and give learner feedback; report progress to parents",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "—",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0085",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "State a price and answer price questions",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0086",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Ask and answer about quantity, weight, size and measures",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0087",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Bargain over a price politely (informal negotiation)",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0088",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Take and repeat back an order",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0089",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Take payment and give change or a receipt (cash, UPI, card)",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0090",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Handle a payment problem (failed payment, wrong change)",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0091",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Describe and compare products simply",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0092",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Offer a promotion, discount or free item",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0093",
+  "group": "G13",
+  "groupName": "Frontline transactions",
+  "name": "Thank and invite a customer back",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0094",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Give and ask for directions",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0095",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Confirm an address, landmark or location",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0096",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Announce arrival and explain the purpose of a visit",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0097",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Ask permission (to enter, start, record or photograph)",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0098",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Verify identity or documents politely",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0099",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Ask survey questions neutrally and record answers",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0100",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Explain and obtain consent",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0101",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Explain a public procedure or eligibility in plain language",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0102",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Handle refusal or non-cooperation calmly",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0103",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Assist elderly people or people with disabilities",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0104",
+  "group": "G14",
+  "groupName": "Field, delivery & public interaction",
+  "name": "Make an announcement to a queue or group",
+  "layer": "Supervisory",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0105",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Understand a customer's description of a problem",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0106",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Explain a fault and the repair needed",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0107",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Give a cost and time estimate",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0108",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Give a safety instruction or warning",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0109",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Report a hazard, accident or near miss",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0110",
+  "group": "G15",
+  "groupName": "Technical, safety & trades",
+  "name": "Explain how to use or care for something after a job",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0111",
+  "group": "G16",
+  "groupName": "Time & scheduling basics",
+  "name": "Tell and ask the time and date; talk about schedules",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0112",
+  "group": "G16",
+  "groupName": "Time & scheduling basics",
+  "name": "Make, change or cancel an appointment",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ },
+ {
+  "id": "CFN-0113",
+  "group": "G16",
+  "groupName": "Time & scheduling basics",
+  "name": "Ask a supervisor or employer for leave or permission",
+  "layer": "Operational",
+  "newInEngine": true,
+  "coreLocation": "",
+  "coreCodes": []
+ }
+]

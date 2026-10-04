@@ -1,0 +1,33 @@
+{
+ "id": "RPF-000002",
+ "type": "role-profile",
+ "name": "Car Sales Executive — Car dealerships & showrooms",
+ "role": "ROL-0050",
+ "parentRoles": [
+  "ROL-0016"
+ ],
+ "industry": "IND-0029",
+ "industryCode": "CARD",
+ "sector": "SEC-05",
+ "sectorCode": "AUTO",
+ "department": "DEP-0008",
+ "specialisation": "New-car sales in a dealership showroom",
+ "responsibilityLevel": "SEN-0003",
+ "ownershipScale": null,
+ "employmentSetting": "EMP-01",
+ "coreModules": [
+  "CM-01",
+  "CM-02",
+  "CM-03",
+  "CM-04",
+  "CM-09"
+ ],
+ "reviewTriggers": [],
+ "pilot": "U-1",
+ "status": "PROFILED",
+ "prototype": true,
+ "publishable": false,
+ "notes": [
+  "Registry mapping: Car Sales Executive is common in sector AUTO"
+ ]
+}

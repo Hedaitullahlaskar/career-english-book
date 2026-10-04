@@ -1,0 +1,9197 @@
+[
+ {
+  "id": "ROL-0001",
+  "name": "Front Office Executive",
+  "family": "FO",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "front desk executive",
+   "receptionist (hotel)",
+   "front office associate"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0002",
+  "name": "Front Office Supervisor",
+  "family": "FO",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0003",
+  "name": "Front Office Manager",
+  "family": "FO",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0004",
+  "name": "Restaurant Captain",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "captain",
+   "head waiter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0005",
+  "name": "Restaurant Supervisor",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0006",
+  "name": "Restaurant Manager",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0007",
+  "name": "F&B Manager",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "TRVL",
+   "HLTH",
+   "SPRT"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "food and beverage manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0008",
+  "name": "Housekeeping Supervisor",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0009",
+  "name": "Housekeeping Manager",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "executive housekeeper"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0010",
+  "name": "Administrative Executive",
+  "family": "ADMN",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0007",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "EDU",
+   "HLTH",
+   "MFG",
+   "PROF",
+   "SMB",
+   "BANK",
+   "TECH",
+   "BPO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "admin executive",
+   "office executive"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0011",
+  "name": "Office Manager",
+  "family": "ADMN",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0007",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "PROF",
+   "SMB",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0012",
+  "name": "HR Executive",
+  "family": "HR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "TRADE",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "HOSP",
+   "TECH",
+   "BPO",
+   "HLTH",
+   "MFG"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0013",
+  "name": "HR Manager",
+  "family": "HR",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "TRADE",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "HOSP",
+   "TECH",
+   "BPO",
+   "HLTH",
+   "MFG"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "human resources manager",
+   "personnel manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0014",
+  "name": "Accountant",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "PROF",
+   "MFG",
+   "TRADE",
+   "HOSP",
+   "TECH",
+   "BPO",
+   "EDU",
+   "HLTH",
+   "MOVE",
+   "SMB"
+  ],
+  "specialisationSectors": [
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "accounts executive"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0015",
+  "name": "Finance Manager",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "MFG",
+   "TRADE",
+   "HOSP",
+   "TECH",
+   "HLTH",
+   "PROF",
+   "SMB"
+  ],
+  "specialisationSectors": [
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0016",
+  "name": "Sales Executive",
+  "family": "SALE",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP",
+   "TRVL",
+   "PROF",
+   "SMB",
+   "MOVE",
+   "BPO",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "BANK",
+   "TECH",
+   "MFG",
+   "SPRT",
+   "AUTO",
+   "BUILD"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "salesperson",
+   "sales representative",
+   "sales officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0017",
+  "name": "Sales Manager",
+  "family": "SALE",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP",
+   "TRVL",
+   "PROF",
+   "SMB",
+   "MOVE",
+   "BPO",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "BANK",
+   "TECH",
+   "MFG",
+   "SPRT",
+   "AUTO",
+   "BUILD"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0018",
+  "name": "Marketing Executive",
+  "family": "MKTG",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP",
+   "TECH",
+   "CORP",
+   "SMB",
+   "EDU",
+   "TRVL",
+   "MEDIA"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0019",
+  "name": "Marketing Manager",
+  "family": "MKTG",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP",
+   "TECH",
+   "CORP",
+   "SMB",
+   "EDU",
+   "TRVL",
+   "MEDIA"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0020",
+  "name": "Operations Executive",
+  "family": "OPS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "TECH",
+   "HOSP",
+   "CORP",
+   "TRVL",
+   "SMB",
+   "PROF"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BPO",
+   "MOVE",
+   "MFG"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0021",
+  "name": "Operations Manager",
+  "family": "OPS",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "TECH",
+   "HOSP",
+   "CORP",
+   "TRVL",
+   "SMB",
+   "PROF"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BPO",
+   "MOVE",
+   "MFG"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0022",
+  "name": "Customer Service Executive",
+  "family": "CSV",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "TECH",
+   "TRVL",
+   "MOVE",
+   "HOSP",
+   "SMB",
+   "UTIL"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BPO"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "customer care executive",
+   "customer support"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0023",
+  "name": "Team Leader",
+  "family": "OPS",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "MOVE",
+   "MFG",
+   "HOSP",
+   "CORP",
+   "HLTH",
+   "TRVL"
+  ],
+  "specialisationSectors": [
+   "BPO",
+   "TECH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "TL",
+   "team lead"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0024",
+  "name": "Quality Analyst",
+  "family": "QLTY",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0014",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [
+   "BPO",
+   "MFG",
+   "TECH",
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "QA"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0025",
+  "name": "Trainer",
+  "family": "TRNG",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "HOSP",
+   "TRADE",
+   "BANK",
+   "TECH",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "TRVL",
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0026",
+  "name": "IT Support Executive",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0012",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "BPO",
+   "BANK",
+   "CORP",
+   "HLTH",
+   "EDU",
+   "PROF",
+   "MFG",
+   "TRADE",
+   "HOSP",
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "helpdesk executive",
+   "desktop support"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0027",
+  "name": "Developer",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "software developer",
+   "programmer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0028",
+  "name": "IT / Engineering Manager",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0012",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "BANK",
+   "BPO",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0029",
+  "name": "Project Manager",
+  "family": "OPS",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF",
+   "CORP",
+   "BANK",
+   "HLTH",
+   "MOVE"
+  ],
+  "specialisationSectors": [
+   "TECH",
+   "MFG",
+   "BUILD"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0030",
+  "name": "Procurement Executive",
+  "family": "PROC",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0016",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP",
+   "TRADE",
+   "MOVE",
+   "CORP",
+   "TECH",
+   "BANK"
+  ],
+  "specialisationSectors": [
+   "MFG",
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "purchase executive",
+   "buyer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0031",
+  "name": "Procurement Manager",
+  "family": "PROC",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0016",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP",
+   "TRADE",
+   "MOVE",
+   "CORP",
+   "TECH",
+   "BANK"
+  ],
+  "specialisationSectors": [
+   "MFG",
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "purchase manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0032",
+  "name": "Logistics Coordinator",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE",
+   "MFG"
+  ],
+  "specialisationSectors": [
+   "TRVL"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0033",
+  "name": "Warehouse Supervisor",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0034",
+  "name": "Production Supervisor",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "shift in-charge",
+   "line supervisor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0035",
+  "name": "Maintenance Engineer",
+  "family": "MAINT",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "HOSP",
+   "HLTH",
+   "BUILD"
+  ],
+  "specialisationSectors": [
+   "TRVL",
+   "UTIL"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0036",
+  "name": "Patient Services Executive",
+  "family": "HCAD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0019",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0037",
+  "name": "Healthcare Administrator",
+  "family": "HCAD",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0019",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0038",
+  "name": "School Teacher",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [
+   "teacher",
+   "class teacher"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0039",
+  "name": "Senior Teacher",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0040",
+  "name": "Subject Coordinator",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0041",
+  "name": "Academic Coordinator",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0007",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0042",
+  "name": "Head Teacher",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "head of department",
+   "HOD"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0043",
+  "name": "Principal",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [
+   "headmaster",
+   "headmistress"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0044",
+  "name": "Academic Director",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0045",
+  "name": "General Manager",
+  "family": "MGMT",
+  "parent": null,
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MFG",
+   "MOVE",
+   "BPO",
+   "TECH",
+   "BANK",
+   "HLTH",
+   "CORP",
+   "SMB"
+  ],
+  "specialisationSectors": [
+   "HOSP",
+   "TRVL"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "GM"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0046",
+  "name": "Director",
+  "family": "LEAD",
+  "parent": null,
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "BANK",
+   "CORP",
+   "PROF",
+   "MFG",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0047",
+  "name": "Managing Director",
+  "family": "LEAD",
+  "parent": null,
+  "defaultLevel": "SEN-0011",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "MFG",
+   "TECH",
+   "PROF",
+   "SMB",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "MD",
+   "CEO",
+   "chief executive"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0048",
+  "name": "Founder / Entrepreneur",
+  "family": "ENTR",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0022",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SMB",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "founder",
+   "entrepreneur",
+   "business owner"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0049",
+  "name": "Field Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MFG",
+   "MOVE",
+   "BANK",
+   "TECH"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "AUTO",
+   "AGRI"
+  ],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "field sales",
+   "territory sales",
+   "sales rep"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0050",
+  "name": "Car Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "car salesman",
+   "showroom sales",
+   "relationship executive (auto)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0051",
+  "name": "Two-Wheeler Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "bike sales",
+   "scooter showroom"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0052",
+  "name": "Medical Representative",
+  "family": "SALE",
+  "parent": "ROL-0049",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "MR",
+   "pharma sales rep"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0053",
+  "name": "FMCG Sales Representative",
+  "family": "SALE",
+  "parent": "ROL-0049",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "distributor salesman",
+   "DSR"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0054",
+  "name": "Real Estate Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [
+   "property advisor",
+   "property dealer staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0055",
+  "name": "Telesales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "BANK",
+   "TECH",
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "telesales",
+   "inside sales"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0056",
+  "name": "Key Account Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "MFG",
+   "MOVE",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0057",
+  "name": "Key Account Manager",
+  "family": "SALE",
+  "parent": "ROL-0017",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "MFG",
+   "MOVE",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0058",
+  "name": "Area Sales Manager",
+  "family": "SALE",
+  "parent": "ROL-0017",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "TRADE",
+   "BANK",
+   "HLTH",
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "ASM"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0059",
+  "name": "Regional Sales Manager",
+  "family": "SALE",
+  "parent": "ROL-0017",
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "TRADE",
+   "BANK",
+   "HLTH",
+   "AUTO",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "RSM"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0060",
+  "name": "Hotel Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0061",
+  "name": "Advertising Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "ad sales",
+   "space selling"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0062",
+  "name": "Agri-Input Sales Representative",
+  "family": "SALE",
+  "parent": "ROL-0049",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "seed and fertiliser sales"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0063",
+  "name": "Solar Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0049",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0064",
+  "name": "Showroom Sales Executive",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [
+   "AUTO"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "furniture showroom",
+   "appliance showroom"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0065",
+  "name": "Sales Trainee",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0001",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MFG",
+   "AUTO",
+   "BANK",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0066",
+  "name": "Brand Promoter",
+  "family": "SALE",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "promoter",
+   "in-store promoter",
+   "demonstrator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0067",
+  "name": "Small Shop Salesperson",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "shop assistant",
+   "counter boy",
+   "dukaan staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0068",
+  "name": "Shopping Mall Sales Associate",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "mall staff",
+   "sales associate",
+   "brand store staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0069",
+  "name": "Clothing Salesperson",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "garment shop salesperson",
+   "saree shop salesman"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0070",
+  "name": "Footwear Salesperson",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0071",
+  "name": "Supermarket Associate",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "supermarket staff",
+   "floor associate"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0072",
+  "name": "Cashier",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "billing counter",
+   "till operator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0073",
+  "name": "Stock Associate",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "shelf filler",
+   "replenishment staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0074",
+  "name": "Visual Merchandiser",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0075",
+  "name": "Store Supervisor",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "floor supervisor",
+   "shift supervisor (retail)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0076",
+  "name": "Store Manager",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "shop manager",
+   "outlet manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0077",
+  "name": "Mobile & Electronics Sales Associate",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0078",
+  "name": "Jewellery Sales Associate",
+  "family": "RTLF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0079",
+  "name": "Shop Helper",
+  "family": "RTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "helper",
+   "delivery helper (shop)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0080",
+  "name": "Street Vendor",
+  "family": "MKTV",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "hawker",
+   "footpath vendor",
+   "thela"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0081",
+  "name": "Vegetable Seller",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "sabzi wala",
+   "vegetable vendor",
+   "vegetable shop"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0082",
+  "name": "Fruit Seller",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "fruit vendor",
+   "phal wala"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0083",
+  "name": "Fish Seller",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "fishmonger",
+   "machhli wala"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0084",
+  "name": "Meat Seller",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "butcher",
+   "meat shop"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0085",
+  "name": "Flower Seller",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0086",
+  "name": "Street Food Vendor",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "chaat stall",
+   "food cart",
+   "snacks stall"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0087",
+  "name": "Tea Stall Owner",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "chai stall",
+   "tea shop"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0088",
+  "name": "Newspaper Salesperson",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "newspaper vendor",
+   "news agent",
+   "akhbar wala",
+   "hawker (newspaper)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0089",
+  "name": "Market Stall Helper",
+  "family": "MKTV",
+  "parent": "ROL-0080",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0090",
+  "name": "Wholesale Trader",
+  "family": "WHTR",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "wholesaler",
+   "dealer",
+   "distributor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0091",
+  "name": "Wholesale Sales Assistant",
+  "family": "WHTR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0092",
+  "name": "Commission Agent (Market)",
+  "family": "WHTR",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "mandi agent",
+   "arhatiya"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0093",
+  "name": "Import-Export Coordinator",
+  "family": "WHTR",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0094",
+  "name": "Customer Care Representative (Counter)",
+  "family": "CSV",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "TECH",
+   "UTIL",
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "service counter",
+   "help counter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0095",
+  "name": "Help Desk Executive",
+  "family": "CSV",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "EDU",
+   "HLTH",
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0096",
+  "name": "Complaints Officer",
+  "family": "CSV",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "UTIL",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0097",
+  "name": "After-Sales Service Coordinator",
+  "family": "CSV",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO",
+   "TRADE",
+   "TECH"
+  ],
+  "specialisationSectors": [
+   "TRDS"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0098",
+  "name": "Customer Service Manager",
+  "family": "CSV",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "TECH",
+   "TRVL",
+   "MOVE"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "BPO"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0099",
+  "name": "Customer Support Associate (Voice)",
+  "family": "CNTC",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO"
+  ],
+  "specialisationSectors": [
+   "TECH",
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "call centre agent",
+   "CSA",
+   "tele-caller (inbound)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0100",
+  "name": "Chat & Email Support Associate",
+  "family": "CNTC",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO"
+  ],
+  "specialisationSectors": [
+   "TECH"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "non-voice process"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0101",
+  "name": "Technical Support Associate",
+  "family": "CNTC",
+  "parent": "ROL-0099",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "tech support process"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0102",
+  "name": "Collections Executive",
+  "family": "CNTC",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0045",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation",
+   "personal data"
+  ],
+  "aliases": [
+   "recovery agent (calls)",
+   "collections caller"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0103",
+  "name": "Telecaller",
+  "family": "CNTC",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "BANK",
+   "EDU",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "outbound caller"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0104",
+  "name": "Workforce / Real-Time Analyst",
+  "family": "CNTC",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0105",
+  "name": "Process Trainer",
+  "family": "CNTC",
+  "parent": "ROL-0025",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0106",
+  "name": "Contact Centre Manager",
+  "family": "CNTC",
+  "parent": "ROL-0021",
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "process head",
+   "operations head (BPO)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0107",
+  "name": "Receptionist",
+  "family": "FO",
+  "parent": "ROL-0001",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "HLTH",
+   "EDU",
+   "BEAU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "front desk",
+   "reception staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0108",
+  "name": "Concierge",
+  "family": "FO",
+  "parent": "ROL-0001",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0109",
+  "name": "Bell Desk Associate",
+  "family": "FO",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "bellboy",
+   "porter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0110",
+  "name": "Reservations Executive",
+  "family": "FO",
+  "parent": "ROL-0001",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP",
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0111",
+  "name": "Guest Relations Executive",
+  "family": "FO",
+  "parent": "ROL-0001",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "GRE"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0112",
+  "name": "Night Auditor",
+  "family": "FO",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0001",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0113",
+  "name": "Waiter / Server",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "steward",
+   "waiter",
+   "waitress",
+   "server"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0114",
+  "name": "Bartender",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0115",
+  "name": "Barista",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0116",
+  "name": "Restaurant Host",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "hostess",
+   "greeter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0117",
+  "name": "Banquet Executive",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0118",
+  "name": "Room Service Associate",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0119",
+  "name": "QSR Crew Member",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "fast-food crew",
+   "counter crew"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0120",
+  "name": "QSR Shift Manager",
+  "family": "FNB",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0003",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0121",
+  "name": "Café Owner",
+  "family": "FNB",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "HOSP",
+   "SMB"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0122",
+  "name": "Kitchen Helper",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "commis",
+   "kitchen assistant"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0123",
+  "name": "Cook",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0124",
+  "name": "Chef de Partie",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0125",
+  "name": "Sous Chef",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0007",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0126",
+  "name": "Executive Chef",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "head chef"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0127",
+  "name": "Catering Supervisor",
+  "family": "KTCH",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0028",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0128",
+  "name": "Home Food Business Owner",
+  "family": "KTCH",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SMB",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [
+   "tiffin service",
+   "home kitchen"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0129",
+  "name": "Room Attendant",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "housekeeping attendant",
+   "room boy"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0130",
+  "name": "Public Area Attendant",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0131",
+  "name": "Laundry Attendant",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0132",
+  "name": "Hospital Housekeeping Associate",
+  "family": "HSKP",
+  "parent": "ROL-0129",
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0133",
+  "name": "Office Housekeeper",
+  "family": "HSKP",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0002",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "facility housekeeping",
+   "office cleaner"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0134",
+  "name": "Travel Consultant",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "travel agent"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0135",
+  "name": "Tour Guide",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "guide",
+   "heritage guide"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0136",
+  "name": "Tour Manager",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "tour leader",
+   "tour escort"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0137",
+  "name": "Ticketing Executive",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0138",
+  "name": "Visa Assistance Executive",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0139",
+  "name": "Tour Operations Executive",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0140",
+  "name": "Homestay Host",
+  "family": "TRVF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "TRVL",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0141",
+  "name": "Airline Check-in Agent",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0142",
+  "name": "Gate Agent",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0143",
+  "name": "Cabin Crew",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "air hostess",
+   "flight attendant",
+   "steward"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0144",
+  "name": "Ground Handling Staff",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0145",
+  "name": "Baggage Services Agent",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0146",
+  "name": "Airport Customer Service Agent",
+  "family": "AVNF",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0147",
+  "name": "Airport Duty Officer",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0148",
+  "name": "Airline Station Manager",
+  "family": "AVNF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRVL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0149",
+  "name": "Survey Enumerator",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer",
+   "public service",
+   "NGO / community"
+  ],
+  "commonSectors": [
+   "PROF",
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "survey executive",
+   "field enumerator",
+   "field investigator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0150",
+  "name": "Field Supervisor (Surveys)",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF",
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0151",
+  "name": "Field Officer",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer",
+   "NGO / community"
+  ],
+  "commonSectors": [
+   "NGO",
+   "BANK",
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "field executive",
+   "field staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0152",
+  "name": "Market Research Field Executive",
+  "family": "FLDW",
+  "parent": "ROL-0149",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0153",
+  "name": "Census Enumerator",
+  "family": "FLDW",
+  "parent": "ROL-0149",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0154",
+  "name": "Field Verification Officer",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation",
+   "personal data"
+  ],
+  "aliases": [
+   "address verification",
+   "KYC field verification"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0155",
+  "name": "Retail Merchandiser (Field)",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "field merchandiser"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0156",
+  "name": "Automobile Field Executive",
+  "family": "FLDW",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [
+   "BANK"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "vehicle inspection executive",
+   "auto field staff",
+   "vehicle surveyor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0157",
+  "name": "Food Delivery Executive",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "delivery partner",
+   "delivery boy",
+   "rider"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0158",
+  "name": "Parcel Delivery Executive",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "courier boy",
+   "delivery associate",
+   "last-mile"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0159",
+  "name": "Newspaper Delivery Person",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "informal employee / helper",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "paper boy",
+   "newspaper hawker (delivery)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0160",
+  "name": "Milk Delivery Person",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "informal employee / helper",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AGRI",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0161",
+  "name": "Gas Cylinder Delivery Person",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0162",
+  "name": "Water Can Delivery Person",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0163",
+  "name": "Delivery Hub Supervisor",
+  "family": "DLVR",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "station in-charge",
+   "hub lead"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0164",
+  "name": "Dispatch Coordinator",
+  "family": "DLVR",
+  "parent": "ROL-0032",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "HOSP",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0165",
+  "name": "Car Driver",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer",
+   "household employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "DOMS",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "chauffeur",
+   "company driver"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0166",
+  "name": "Taxi / Ride-Hailing Driver",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "gig / platform",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "cab driver",
+   "Uber/Ola-type driver (generic)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0167",
+  "name": "Auto-Rickshaw Driver",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "auto driver",
+   "tuk-tuk"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0168",
+  "name": "Truck Driver",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [
+   "lorry driver"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0169",
+  "name": "Bus Driver",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0170",
+  "name": "Bus Conductor",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer",
+   "public service"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0171",
+  "name": "School Bus Attendant",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0172",
+  "name": "Fleet Supervisor",
+  "family": "DRVR",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "transport coordinator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0173",
+  "name": "Shipping Documentation Executive",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0174",
+  "name": "Supply Chain Planner",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "MOVE",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0175",
+  "name": "Transport Planner",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0027",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0176",
+  "name": "Logistics Manager",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "MFG",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0177",
+  "name": "Customs Clearance Assistant",
+  "family": "LOGF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0178",
+  "name": "Warehouse Associate",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "picker",
+   "packer",
+   "loader"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0179",
+  "name": "Storekeeper",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "BUILD",
+   "HOSP",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "store in-charge",
+   "godown keeper"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0180",
+  "name": "Inventory Controller",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0181",
+  "name": "Forklift Operator",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0182",
+  "name": "Loading Helper",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "loader",
+   "hamal",
+   "porter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0183",
+  "name": "Warehouse Manager",
+  "family": "WHSF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0017",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "TRADE",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0184",
+  "name": "Purchase Assistant",
+  "family": "PROC",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0016",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "HOSP",
+   "HLTH",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0185",
+  "name": "Vendor Development Executive",
+  "family": "PROC",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0016",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0186",
+  "name": "Service Advisor (Automotive)",
+  "family": "AUTF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "service advisor",
+   "workshop front desk"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0187",
+  "name": "Spare Parts Executive",
+  "family": "AUTF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0188",
+  "name": "Showroom Manager (Automotive)",
+  "family": "AUTF",
+  "parent": "ROL-0017",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "dealership sales manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0189",
+  "name": "Workshop Manager",
+  "family": "AUTF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0041",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0190",
+  "name": "Automobile Technician",
+  "family": "MECH",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0041",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "car mechanic",
+   "motor mechanic"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0191",
+  "name": "Two-Wheeler Mechanic",
+  "family": "MECH",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0041",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "bike mechanic"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0192",
+  "name": "Body Shop Technician",
+  "family": "MECH",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0041",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "denter",
+   "painter (auto)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0193",
+  "name": "Workshop Supervisor",
+  "family": "MECH",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0041",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "floor in-charge"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0194",
+  "name": "Roadside Assistance Technician",
+  "family": "MECH",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical",
+   "driving & traffic safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0195",
+  "name": "Electrician",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "TRDS",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "wireman"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0196",
+  "name": "Plumber",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "TRDS",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0197",
+  "name": "AC & Appliance Technician",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "TRDS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "AC mechanic",
+   "fridge repair"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0198",
+  "name": "Mobile Phone Repair Technician",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRDS",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0199",
+  "name": "Carpenter",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "TRDS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0200",
+  "name": "Painter (Building)",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0201",
+  "name": "Welder",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0202",
+  "name": "Field Service Technician",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "TRDS",
+   "TECH",
+   "MFG"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": true,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "service engineer",
+   "installation technician"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0203",
+  "name": "Broadband Installation Technician",
+  "family": "TRDF",
+  "parent": "ROL-0202",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "TRDS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0204",
+  "name": "CCTV & Security Systems Technician",
+  "family": "TRDF",
+  "parent": "ROL-0202",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU",
+   "TRDS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0205",
+  "name": "Solar Panel Installer",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0206",
+  "name": "Lift Technician",
+  "family": "TRDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0025",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "TRDS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0207",
+  "name": "Construction Worker",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "labourer",
+   "mazdoor",
+   "site worker"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0208",
+  "name": "Mason",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "informal employee / helper",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "mistri"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0209",
+  "name": "Site Supervisor",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0210",
+  "name": "Site Engineer",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0211",
+  "name": "Construction Project Manager",
+  "family": "CNSF",
+  "parent": "ROL-0029",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0212",
+  "name": "Safety Officer",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0030",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "EHS officer",
+   "HSE officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0213",
+  "name": "Quantity Surveyor",
+  "family": "CNSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0214",
+  "name": "Building Contractor",
+  "family": "CNSF",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "thekedar",
+   "contractor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0215",
+  "name": "Mechanical Engineer",
+  "family": "ENGR",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0216",
+  "name": "Civil Engineer",
+  "family": "ENGR",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0217",
+  "name": "Electrical Engineer",
+  "family": "ENGR",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "UTIL",
+   "MFG",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0218",
+  "name": "Design Engineer",
+  "family": "ENGR",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "AUTO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0219",
+  "name": "Project Engineer",
+  "family": "ENGR",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "MFG",
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0220",
+  "name": "Machine Operator",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "operator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0221",
+  "name": "Production Line Worker",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "line worker",
+   "factory worker"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0222",
+  "name": "Garment Worker / Tailor",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "tailor",
+   "darzi",
+   "stitching operator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0223",
+  "name": "Packing Operator",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0224",
+  "name": "Production Planner",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0225",
+  "name": "Production Manager",
+  "family": "PROD",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0226",
+  "name": "Plant Manager",
+  "family": "PROD",
+  "parent": "ROL-0045",
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0018",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0227",
+  "name": "Quality Inspector",
+  "family": "QLTY",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0014",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0228",
+  "name": "Quality Engineer",
+  "family": "QLTY",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0014",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0229",
+  "name": "Quality Manager",
+  "family": "QLTY",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0014",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0230",
+  "name": "Food Safety Officer",
+  "family": "QLTY",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0014",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HOSP",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0231",
+  "name": "Maintenance Technician",
+  "family": "MAINT",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "HOSP",
+   "HLTH",
+   "BUILD"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0232",
+  "name": "Facility Executive",
+  "family": "MAINT",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0233",
+  "name": "Facility Manager",
+  "family": "MAINT",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0004",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BUILD",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0234",
+  "name": "Electricity Lineman",
+  "family": "UTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "formal employer",
+   "public service"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0235",
+  "name": "Meter Reader",
+  "family": "UTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer",
+   "public service"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0236",
+  "name": "Utility Customer Service Officer",
+  "family": "UTLF",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0237",
+  "name": "Water Supply Operator",
+  "family": "UTLF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer",
+   "public service"
+  ],
+  "commonSectors": [
+   "UTIL"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0238",
+  "name": "Security Guard",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0029",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "guard",
+   "chowkidar",
+   "watchman"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0239",
+  "name": "Security Supervisor",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0029",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0240",
+  "name": "Security Officer (Corporate)",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0029",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0241",
+  "name": "CCTV Operator",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0029",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0242",
+  "name": "Security Manager",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0029",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0243",
+  "name": "Fire Safety Officer",
+  "family": "SECF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0030",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SECU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0244",
+  "name": "Farmer",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "kisan",
+   "cultivator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0245",
+  "name": "Farm Worker",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "agricultural labourer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0246",
+  "name": "Agricultural Extension Worker",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "public service",
+   "NGO / community",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "krishi mitra",
+   "extension officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0247",
+  "name": "Agri-Input Dealer",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "seed and fertiliser shop"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0248",
+  "name": "Dairy Collection Centre Operator",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0249",
+  "name": "Agronomist",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0250",
+  "name": "FPO Coordinator",
+  "family": "AGRF",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "farmer producer organisation"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0251",
+  "name": "Fisher / Fishing Crew",
+  "family": "FSHR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "fisherman",
+   "fishing crew"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0252",
+  "name": "Fish Farm Worker",
+  "family": "FSHR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0253",
+  "name": "Fish Landing Centre Agent",
+  "family": "FSHR",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "AGRI",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "fish auctioneer",
+   "aratdar (fish)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0254",
+  "name": "System Administrator",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0012",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0255",
+  "name": "Network Engineer",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0012",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0256",
+  "name": "Software Tester",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "QA engineer",
+   "test engineer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0257",
+  "name": "DevOps Engineer",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0258",
+  "name": "Product Manager",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0259",
+  "name": "Business Analyst",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0260",
+  "name": "Cybersecurity Analyst",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0012",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0261",
+  "name": "Technical Writer",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0262",
+  "name": "UI / UX Designer",
+  "family": "ITF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0013",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0263",
+  "name": "Data Entry Operator",
+  "family": "DATF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0007",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "GOVT",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "personal data"
+  ],
+  "aliases": [
+   "DEO",
+   "computer operator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0264",
+  "name": "MIS Executive",
+  "family": "DATF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "CORP",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0265",
+  "name": "Data Analyst",
+  "family": "DATF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0040",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "BANK",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0266",
+  "name": "Data Scientist",
+  "family": "DATF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0040",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0267",
+  "name": "Bank Teller",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "cashier (bank)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0268",
+  "name": "Bank Customer Service Officer",
+  "family": "BNKF",
+  "parent": "ROL-0022",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "CSO"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0269",
+  "name": "Relationship Manager (Banking)",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0008",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "RM"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0270",
+  "name": "Loan Officer",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "credit officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0271",
+  "name": "Microfinance Loan Officer",
+  "family": "BNKF",
+  "parent": "ROL-0270",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0037",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "field credit officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0272",
+  "name": "Banking Correspondent Agent",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation",
+   "personal data"
+  ],
+  "aliases": [
+   "BC agent",
+   "CSP operator",
+   "bank mitra"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0273",
+  "name": "Branch Operations Manager",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0274",
+  "name": "Branch Manager (Banking)",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0275",
+  "name": "Probationary Officer",
+  "family": "BNKF",
+  "parent": null,
+  "defaultLevel": "SEN-0001",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "PO",
+   "management trainee (bank)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0276",
+  "name": "Accounts Assistant",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MOVE",
+   "HOSP",
+   "TRVL",
+   "AUTO",
+   "MFG",
+   "BUILD",
+   "TRDS",
+   "UTIL",
+   "TECH",
+   "BPO",
+   "BANK",
+   "HLTH",
+   "EDU",
+   "GOVT",
+   "AGRI",
+   "SECU",
+   "BEAU",
+   "MEDIA",
+   "PROF",
+   "NGO",
+   "SPRT",
+   "CORP",
+   "SMB",
+   "DOMS",
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "bookkeeper",
+   "munim"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0277",
+  "name": "Accounts Payable Executive",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "MFG",
+   "TRADE",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0278",
+  "name": "Internal Auditor",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "BANK",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0279",
+  "name": "Tax Consultant",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation",
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0280",
+  "name": "Chartered Accountant",
+  "family": "FIN",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0006",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "CA"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0281",
+  "name": "Chief Financial Officer",
+  "family": "FIN",
+  "parent": "ROL-0015",
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "TECH",
+   "MFG",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "CFO",
+   "finance director"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0282",
+  "name": "Insurance Advisor",
+  "family": "INSF",
+  "parent": "ROL-0016",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0023",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [
+   "insurance agent",
+   "LIC agent (generic)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0283",
+  "name": "Claims Executive",
+  "family": "INSF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0011",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [
+   "HLTH",
+   "AUTO"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0284",
+  "name": "Underwriter",
+  "family": "INSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0285",
+  "name": "Insurance Branch Manager",
+  "family": "INSF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0286",
+  "name": "Recruiter",
+  "family": "HR",
+  "parent": "ROL-0012",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF",
+   "TECH",
+   "BPO"
+  ],
+  "specialisationSectors": [
+   "HOSP",
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "talent acquisition executive",
+   "placement consultant"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0287",
+  "name": "HR Assistant",
+  "family": "HR",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MOVE",
+   "HOSP",
+   "TRVL",
+   "AUTO",
+   "MFG",
+   "BUILD",
+   "TRDS",
+   "UTIL",
+   "TECH",
+   "BPO",
+   "BANK",
+   "HLTH",
+   "EDU",
+   "GOVT",
+   "AGRI",
+   "SECU",
+   "BEAU",
+   "MEDIA",
+   "PROF",
+   "NGO",
+   "SPRT",
+   "CORP",
+   "SMB",
+   "DOMS",
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0288",
+  "name": "Payroll Executive",
+  "family": "HR",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "TECH",
+   "BPO",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0289",
+  "name": "HR Business Partner",
+  "family": "HR",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TECH",
+   "CORP",
+   "BPO",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0290",
+  "name": "HR Director",
+  "family": "HR",
+  "parent": "ROL-0013",
+  "defaultLevel": "SEN-0010",
+  "primaryDepartment": "DEP-0005",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "TECH",
+   "BANK",
+   "MFG"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "head of HR",
+   "CHRO"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0291",
+  "name": "Office Assistant",
+  "family": "ADMN",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0007",
+  "employmentSettings": [
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "CORP",
+   "GOVT",
+   "EDU",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "office boy",
+   "peon",
+   "attendant"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0292",
+  "name": "Executive Assistant",
+  "family": "ADMN",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "TECH",
+   "BANK",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "secretary",
+   "PA"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0293",
+  "name": "Advocate / Lawyer",
+  "family": "LGLF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0031",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0294",
+  "name": "Legal Assistant",
+  "family": "LGLF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0031",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [
+   "paralegal",
+   "clerk (legal)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0295",
+  "name": "Compliance Officer",
+  "family": "LGLF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0031",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "CORP"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "legal",
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0296",
+  "name": "Digital Marketing Executive",
+  "family": "MKTG",
+  "parent": "ROL-0018",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "TECH",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0297",
+  "name": "Social Media Executive",
+  "family": "MKTG",
+  "parent": "ROL-0018",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0298",
+  "name": "Brand Manager",
+  "family": "MKTG",
+  "parent": "ROL-0019",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MFG",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0299",
+  "name": "Advertising Account Executive",
+  "family": "MKTG",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0300",
+  "name": "Public Relations Executive",
+  "family": "MKTG",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "CORP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "PR executive"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0301",
+  "name": "Marketing Head",
+  "family": "MKTG",
+  "parent": "ROL-0019",
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "TRADE",
+   "MFG",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "CMO"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0302",
+  "name": "Journalist / Reporter",
+  "family": "MEDF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0050",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [
+   "reporter",
+   "correspondent"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0303",
+  "name": "News Editor",
+  "family": "MEDF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0050",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0304",
+  "name": "Camera Operator",
+  "family": "MEDF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0305",
+  "name": "News Anchor",
+  "family": "MEDF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0050",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0306",
+  "name": "Radio Jockey",
+  "family": "MEDF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "RJ"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0307",
+  "name": "Graphic Designer",
+  "family": "CRTV",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0308",
+  "name": "Photographer",
+  "family": "CRTV",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "wedding photographer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0309",
+  "name": "Video Editor",
+  "family": "CRTV",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0310",
+  "name": "Content Writer",
+  "family": "CRTV",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0043",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0311",
+  "name": "Event Coordinator",
+  "family": "EVTF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0044",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "SPRT"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0312",
+  "name": "Event Manager",
+  "family": "EVTF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0044",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "HOSP"
+  ],
+  "specialisationSectors": [
+   "SPRT"
+  ],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0313",
+  "name": "Wedding Planner",
+  "family": "EVTF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0044",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "MEDIA",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0314",
+  "name": "Decorator",
+  "family": "EVTF",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0044",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "tent house",
+   "decoration"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0315",
+  "name": "Doctor",
+  "family": "MEDC",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account",
+   "public service"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "physician",
+   "medical officer",
+   "GP"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0316",
+  "name": "Dentist",
+  "family": "MEDC",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0317",
+  "name": "Medical Officer (Public Health)",
+  "family": "MEDC",
+  "parent": "ROL-0315",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical",
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0318",
+  "name": "Staff Nurse",
+  "family": "NRSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "nurse",
+   "sister"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0319",
+  "name": "Hospital Assistant",
+  "family": "NRSF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "ward assistant",
+   "ward boy",
+   "nursing assistant",
+   "patient care assistant"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0320",
+  "name": "Home Care Nurse",
+  "family": "NRSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0047",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "HLTH",
+   "DOMS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0321",
+  "name": "Midwife",
+  "family": "NRSF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH",
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "ANM"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0322",
+  "name": "Nursing Supervisor",
+  "family": "NRSF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0032",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0323",
+  "name": "Optometrist",
+  "family": "OPTF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0035",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "eye-care practitioner",
+   "eye tester"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0324",
+  "name": "Optical Sales Associate",
+  "family": "OPTF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0035",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "optician",
+   "optical shop staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0325",
+  "name": "Ophthalmic Assistant",
+  "family": "OPTF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0035",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0326",
+  "name": "Optical Store Manager",
+  "family": "OPTF",
+  "parent": "ROL-0076",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0035",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0327",
+  "name": "Pharmacist",
+  "family": "PHRF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0034",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "chemist"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0328",
+  "name": "Pharmacy Assistant",
+  "family": "PHRF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0034",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "medical store counter staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0329",
+  "name": "Pharmacy Store Manager",
+  "family": "PHRF",
+  "parent": "ROL-0076",
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0034",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0330",
+  "name": "Laboratory Technician",
+  "family": "LABF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0033",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "lab technician",
+   "MLT"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0331",
+  "name": "Phlebotomist / Sample Collection Executive",
+  "family": "LABF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0033",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "home sample collection"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0332",
+  "name": "Laboratory Manager",
+  "family": "LABF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0033",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0333",
+  "name": "Clinic Coordinator",
+  "family": "HCAD",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0019",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "clinic manager assistant"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0334",
+  "name": "Medical Records Officer",
+  "family": "HCAD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0019",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical",
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0335",
+  "name": "Hospital Billing & Insurance Executive",
+  "family": "HCAD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0019",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical",
+   "financial regulation"
+  ],
+  "aliases": [
+   "TPA executive",
+   "billing executive"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0336",
+  "name": "Vice Principal",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0337",
+  "name": "Pre-School Teacher",
+  "family": "TEACH",
+  "parent": "ROL-0038",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0338",
+  "name": "Home Tutor",
+  "family": "TEACH",
+  "parent": "ROL-0038",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [
+   "tuition teacher",
+   "private tutor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0339",
+  "name": "Coaching Centre Faculty",
+  "family": "TEACH",
+  "parent": "ROL-0038",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0340",
+  "name": "College Lecturer",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "assistant professor",
+   "lecturer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0341",
+  "name": "Special Educator",
+  "family": "TEACH",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0020",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0342",
+  "name": "School Administrator",
+  "family": "EDAD",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0036",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [],
+  "aliases": [
+   "school office manager",
+   "administrative officer (school)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0343",
+  "name": "Admissions Counsellor",
+  "family": "EDAD",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0036",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0344",
+  "name": "School Office Assistant",
+  "family": "EDAD",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0036",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "school clerk"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0345",
+  "name": "Examinations Coordinator",
+  "family": "EDAD",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0036",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0346",
+  "name": "College Registrar",
+  "family": "EDAD",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0036",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0347",
+  "name": "Corporate Trainer",
+  "family": "TRNG",
+  "parent": "ROL-0025",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "CORP",
+   "TECH",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0348",
+  "name": "Vocational Instructor",
+  "family": "TRNG",
+  "parent": "ROL-0025",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "ITI instructor",
+   "skills trainer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0349",
+  "name": "Training Manager",
+  "family": "TRNG",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "CORP",
+   "BPO",
+   "HOSP",
+   "BANK"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0350",
+  "name": "Driving Instructor",
+  "family": "TRNG",
+  "parent": "ROL-0025",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0015",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "MOVE",
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "driving & traffic safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0351",
+  "name": "Government Office Assistant",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [
+   "clerk",
+   "LDC/UDC (generic)",
+   "front desk (government)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0352",
+  "name": "Citizen Service Centre Operator",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "personal data"
+  ],
+  "aliases": [
+   "CSC operator",
+   "VLE",
+   "seva kendra operator"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0353",
+  "name": "Local Government Officer",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [
+   "panchayat secretary",
+   "ward officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0354",
+  "name": "Postal Assistant",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0355",
+  "name": "Postman",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0026",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "postal delivery"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0356",
+  "name": "Ration Shop Dealer",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [
+   "fair price shop dealer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0357",
+  "name": "Community Health Worker",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "public service",
+   "NGO / community"
+  ],
+  "commonSectors": [
+   "GOVT",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical",
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [
+   "ASHA worker"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0358",
+  "name": "Anganwadi Worker",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding",
+   "official public procedure & political neutrality",
+   "medical/clinical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0359",
+  "name": "Municipal Inspector",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "legal"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0360",
+  "name": "Police Constable (Public Interaction)",
+  "family": "PUBS",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0039",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "legal"
+  ],
+  "aliases": [
+   "constable",
+   "traffic police (public interaction)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0361",
+  "name": "Booth Level Officer",
+  "family": "ELCT",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0038",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": true,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "personal data"
+  ],
+  "aliases": [
+   "BLO",
+   "booth level officer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0362",
+  "name": "BLO Supervisor",
+  "family": "ELCT",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0038",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0363",
+  "name": "Polling Officer",
+  "family": "ELCT",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0038",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0364",
+  "name": "Presiding Officer",
+  "family": "ELCT",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0038",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0365",
+  "name": "Electoral Registration Assistant",
+  "family": "ELCT",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0038",
+  "employmentSettings": [
+   "public service"
+  ],
+  "commonSectors": [
+   "GOVT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "official public procedure & political neutrality",
+   "personal data"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0366",
+  "name": "Community Mobiliser",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "NGO / community"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "community worker",
+   "outreach worker"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0367",
+  "name": "Social Worker",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "NGO / community",
+   "formal employer",
+   "public service"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [
+   "HLTH"
+  ],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0368",
+  "name": "Programme Officer",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0369",
+  "name": "Programme Manager (NGO)",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0370",
+  "name": "Volunteer Coordinator",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0005",
+  "primaryDepartment": "DEP-0046",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0371",
+  "name": "Fundraising Executive",
+  "family": "NGOF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0009",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "NGO"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "financial regulation"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0372",
+  "name": "Beautician",
+  "family": "BEAF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BEAU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "beauty parlour staff"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0373",
+  "name": "Hairdresser / Barber",
+  "family": "BEAF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BEAU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "barber",
+   "hair stylist",
+   "nai"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0374",
+  "name": "Spa Therapist",
+  "family": "BEAF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BEAU",
+   "HOSP"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0375",
+  "name": "Salon Manager",
+  "family": "BEAF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BEAU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0376",
+  "name": "Makeup Artist",
+  "family": "BEAF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "BEAU",
+   "MEDIA"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0377",
+  "name": "Beauty Advisor",
+  "family": "BEAF",
+  "parent": "ROL-0067",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0024",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BEAU",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "cosmetics counter"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0378",
+  "name": "Fitness Trainer",
+  "family": "SPRF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "gym instructor",
+   "personal trainer"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0379",
+  "name": "Yoga Instructor",
+  "family": "SPRF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0380",
+  "name": "Sports Coach",
+  "family": "SPRF",
+  "parent": null,
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SPRT",
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding",
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0381",
+  "name": "Cricket Coach",
+  "family": "SPRF",
+  "parent": "ROL-0380",
+  "defaultLevel": "SEN-0004",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding",
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0382",
+  "name": "Sports Event Coordinator",
+  "family": "SPRF",
+  "parent": "ROL-0311",
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0044",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0383",
+  "name": "Club / Academy Manager",
+  "family": "SPRF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0384",
+  "name": "Gym Manager",
+  "family": "SPRF",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "SPRT"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0385",
+  "name": "Domestic Worker",
+  "family": "DOMF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0049",
+  "employmentSettings": [
+   "household employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "DOMS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "housemaid",
+   "house help",
+   "kaamwali"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0386",
+  "name": "Home Cook",
+  "family": "DOMF",
+  "parent": null,
+  "defaultLevel": "SEN-0003",
+  "primaryDepartment": "DEP-0049",
+  "employmentSettings": [
+   "household employer",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "DOMS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "food safety"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0387",
+  "name": "Caregiver / Elder Care Attendant",
+  "family": "DOMF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0047",
+  "employmentSettings": [
+   "household employer",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "DOMS",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "medical/clinical"
+  ],
+  "aliases": [
+   "attendant",
+   "aaya"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0388",
+  "name": "Nanny / Babysitter",
+  "family": "DOMF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0049",
+  "employmentSettings": [
+   "household employer"
+  ],
+  "commonSectors": [
+   "DOMS"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "minors/safeguarding"
+  ],
+  "aliases": [
+   "ayah"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0389",
+  "name": "Sanitation Worker",
+  "family": "SANF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "public service",
+   "formal employer",
+   "informal employee / helper"
+  ],
+  "commonSectors": [
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "safai karmachari",
+   "sweeper"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0390",
+  "name": "Waste Collector",
+  "family": "SANF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "public service",
+   "formal employer",
+   "informal employee / helper",
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [
+   "garbage collector",
+   "kabadiwala (scrap)"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0391",
+  "name": "Recycling Centre Worker",
+  "family": "SANF",
+  "parent": null,
+  "defaultLevel": "SEN-0002",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "informal employee / helper",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0392",
+  "name": "Sanitation Supervisor",
+  "family": "SANF",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0042",
+  "employmentSettings": [
+   "public service",
+   "formal employer"
+  ],
+  "commonSectors": [
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [
+   "safety-critical"
+  ],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0393",
+  "name": "Shift Supervisor",
+  "family": "OPS",
+  "parent": null,
+  "defaultLevel": "SEN-0006",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "MOVE",
+   "HOSP",
+   "TRVL",
+   "AUTO",
+   "MFG",
+   "BUILD",
+   "TRDS",
+   "UTIL",
+   "TECH",
+   "BPO",
+   "BANK",
+   "HLTH",
+   "EDU",
+   "GOVT",
+   "AGRI",
+   "SECU",
+   "BEAU",
+   "MEDIA",
+   "PROF",
+   "NGO",
+   "SPRT",
+   "CORP",
+   "SMB",
+   "DOMS",
+   "ENVR"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "shift in-charge"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0394",
+  "name": "Operations Head",
+  "family": "OPS",
+  "parent": "ROL-0021",
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0010",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BPO",
+   "MOVE",
+   "TRADE",
+   "BANK",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0395",
+  "name": "Area Manager",
+  "family": "MGMT",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "HOSP",
+   "BANK",
+   "MOVE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "cluster manager"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0396",
+  "name": "Regional Manager",
+  "family": "MGMT",
+  "parent": null,
+  "defaultLevel": "SEN-0009",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "TRADE",
+   "BANK",
+   "MOVE",
+   "HLTH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0397",
+  "name": "Branch Head",
+  "family": "MGMT",
+  "parent": null,
+  "defaultLevel": "SEN-0008",
+  "primaryDepartment": "DEP-0021",
+  "employmentSettings": [
+   "formal employer"
+  ],
+  "commonSectors": [
+   "BANK",
+   "EDU",
+   "MOVE",
+   "PROF"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "branch in-charge"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0398",
+  "name": "Small Business Owner",
+  "family": "ENTR",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SMB",
+   "TRADE"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "shop owner",
+   "dukaandar",
+   "proprietor"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0399",
+  "name": "Start-up Founder",
+  "family": "ENTR",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0022",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SMB",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0400",
+  "name": "Franchise Owner",
+  "family": "ENTR",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0022",
+  "employmentSettings": [
+   "self-employed / own-account"
+  ],
+  "commonSectors": [
+   "SMB",
+   "HOSP",
+   "TRADE",
+   "EDU"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0401",
+  "name": "Freelancer",
+  "family": "ENTR",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "gig / platform"
+  ],
+  "commonSectors": [
+   "SMB",
+   "MEDIA",
+   "TECH"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "independent professional"
+  ],
+  "status": "SEEDED"
+ },
+ {
+  "id": "ROL-0402",
+  "name": "Self-Help Group Entrepreneur",
+  "family": "ENTR",
+  "parent": "ROL-0048",
+  "defaultLevel": "SEN-0012",
+  "primaryDepartment": "DEP-0048",
+  "employmentSettings": [
+   "self-employed / own-account",
+   "NGO / community"
+  ],
+  "commonSectors": [
+   "SMB",
+   "AGRI"
+  ],
+  "specialisationSectors": [],
+  "special": false,
+  "reviewTriggers": [],
+  "aliases": [
+   "SHG member"
+  ],
+  "status": "SEEDED"
+ }
+]

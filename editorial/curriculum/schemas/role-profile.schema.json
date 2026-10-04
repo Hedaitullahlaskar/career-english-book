@@ -1,0 +1,133 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Role Profile (RPF): industry + department + role + specialisation + seniority (+ employment setting)",
+ "type": "object",
+ "required": [
+  "id",
+  "type",
+  "name",
+  "role",
+  "industry",
+  "sector",
+  "department",
+  "specialisation",
+  "responsibilityLevel",
+  "employmentSetting",
+  "coreModules",
+  "pilot",
+  "status",
+  "prototype",
+  "publishable"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^RPF-\\d{6}$"
+  },
+  "type": {
+   "const": "role-profile"
+  },
+  "name": {
+   "type": "string",
+   "minLength": 1
+  },
+  "role": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^ROL-\\d{4}$"
+  },
+  "parentRoles": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1,
+    "pattern": "^ROL-\\d{4}$"
+   }
+  },
+  "industry": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^IND-\\d{4}$"
+  },
+  "industryCode": {
+   "type": "string",
+   "minLength": 1
+  },
+  "sector": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^SEC-\\d{2}$"
+  },
+  "sectorCode": {
+   "type": "string",
+   "minLength": 1
+  },
+  "department": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^DEP-\\d{4}$"
+  },
+  "specialisation": {
+   "type": "string",
+   "minLength": 1
+  },
+  "responsibilityLevel": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^SEN-\\d{4}$"
+  },
+  "ownershipScale": {
+   "enum": [
+    "solo",
+    "small-team",
+    "company",
+    null
+   ]
+  },
+  "employmentSetting": {
+   "type": "string",
+   "minLength": 1,
+   "pattern": "^EMP-\\d{2}$"
+  },
+  "coreModules": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1,
+    "pattern": "^CM-\\d{2}$"
+   },
+   "minItems": 1
+  },
+  "reviewTriggers": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "pilot": {
+   "type": "string",
+   "minLength": 1
+  },
+  "status": {
+   "enum": [
+    "PROFILED"
+   ]
+  },
+  "prototype": {
+   "type": "boolean"
+  },
+  "publishable": {
+   "const": false
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  }
+ },
+ "additionalProperties": false
+}

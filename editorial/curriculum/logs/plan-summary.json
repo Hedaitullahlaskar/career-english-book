@@ -1,0 +1,33 @@
+{
+ "profiles": 5,
+ "unitPlans": 14,
+ "layerReferences": 116,
+ "uniqueObjects": 66,
+ "objectsByLayer": {
+  "L0": 22,
+  "L1": 11,
+  "L2": 5,
+  "L3": 6,
+  "L4": 5,
+  "L5": 3,
+  "L6": 14
+ },
+ "sharedObjects": 22,
+ "requests": {
+  "REQ-000001": "PREPARED",
+  "REQ-000002": "PREPARED",
+  "REQ-000003": "PREPARED",
+  "REQ-000004": "PREPARED",
+  "REQ-000005": "BLOCKED",
+  "REQ-000006": "BLOCKED",
+  "REQ-000007": "BLOCKED",
+  "REQ-000008": "BLOCKED",
+  "REQ-000009": "BLOCKED",
+  "REQ-000010": "BLOCKED",
+  "REQ-000011": "BLOCKED"
+ },
+ "errors": [],
+ "estimatedInputTokens": 28221,
+ "maxOutputTokens": 74500,
+ "estimatedCost": null
+}

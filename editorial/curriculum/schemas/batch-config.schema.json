@@ -1,0 +1,35 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Pilot batch configuration (per-batch limits; no global ceiling, D-U10)",
+ "type": "object",
+ "required": [
+  "pilot",
+  "contractVersion",
+  "batches",
+  "pricing",
+  "sizeLimits"
+ ],
+ "properties": {
+  "pilot": {
+   "type": "string",
+   "minLength": 1
+  },
+  "contractVersion": {
+   "type": "string",
+   "minLength": 1
+  },
+  "batches": {
+   "type": "object"
+  },
+  "pricing": {
+   "type": "object"
+  },
+  "sizeLimits": {
+   "type": "object"
+  },
+  "note": {
+   "type": "string"
+  }
+ },
+ "additionalProperties": true
+}

@@ -1,0 +1,1057 @@
+[
+ {
+  "code": "TRADE",
+  "kind": "sector",
+  "recordId": "SEC-01"
+ },
+ {
+  "code": "MOVE",
+  "kind": "sector",
+  "recordId": "SEC-02"
+ },
+ {
+  "code": "HOSP",
+  "kind": "sector",
+  "recordId": "SEC-03"
+ },
+ {
+  "code": "TRVL",
+  "kind": "sector",
+  "recordId": "SEC-04"
+ },
+ {
+  "code": "AUTO",
+  "kind": "sector",
+  "recordId": "SEC-05"
+ },
+ {
+  "code": "MFG",
+  "kind": "sector",
+  "recordId": "SEC-06"
+ },
+ {
+  "code": "BUILD",
+  "kind": "sector",
+  "recordId": "SEC-07"
+ },
+ {
+  "code": "TRDS",
+  "kind": "sector",
+  "recordId": "SEC-08"
+ },
+ {
+  "code": "UTIL",
+  "kind": "sector",
+  "recordId": "SEC-09"
+ },
+ {
+  "code": "TECH",
+  "kind": "sector",
+  "recordId": "SEC-10"
+ },
+ {
+  "code": "BPO",
+  "kind": "sector",
+  "recordId": "SEC-11"
+ },
+ {
+  "code": "BANK",
+  "kind": "sector",
+  "recordId": "SEC-12"
+ },
+ {
+  "code": "HLTH",
+  "kind": "sector",
+  "recordId": "SEC-13"
+ },
+ {
+  "code": "EDU",
+  "kind": "sector",
+  "recordId": "SEC-14"
+ },
+ {
+  "code": "GOVT",
+  "kind": "sector",
+  "recordId": "SEC-15"
+ },
+ {
+  "code": "AGRI",
+  "kind": "sector",
+  "recordId": "SEC-16"
+ },
+ {
+  "code": "SECU",
+  "kind": "sector",
+  "recordId": "SEC-17"
+ },
+ {
+  "code": "BEAU",
+  "kind": "sector",
+  "recordId": "SEC-18"
+ },
+ {
+  "code": "MEDIA",
+  "kind": "sector",
+  "recordId": "SEC-19"
+ },
+ {
+  "code": "PROF",
+  "kind": "sector",
+  "recordId": "SEC-20"
+ },
+ {
+  "code": "NGO",
+  "kind": "sector",
+  "recordId": "SEC-21"
+ },
+ {
+  "code": "SPRT",
+  "kind": "sector",
+  "recordId": "SEC-22"
+ },
+ {
+  "code": "CORP",
+  "kind": "sector",
+  "recordId": "SEC-23"
+ },
+ {
+  "code": "SMB",
+  "kind": "sector",
+  "recordId": "SEC-24"
+ },
+ {
+  "code": "DOMS",
+  "kind": "sector",
+  "recordId": "SEC-25"
+ },
+ {
+  "code": "ENVR",
+  "kind": "sector",
+  "recordId": "SEC-26"
+ },
+ {
+  "code": "GEN",
+  "kind": "sector",
+  "recordId": "SEC-27"
+ },
+ {
+  "code": "VEGM",
+  "kind": "industry",
+  "recordId": "IND-0001"
+ },
+ {
+  "code": "FISHM",
+  "kind": "industry",
+  "recordId": "IND-0002"
+ },
+ {
+  "code": "KIRA",
+  "kind": "industry",
+  "recordId": "IND-0003"
+ },
+ {
+  "code": "SMKT",
+  "kind": "industry",
+  "recordId": "IND-0004"
+ },
+ {
+  "code": "MALL",
+  "kind": "industry",
+  "recordId": "IND-0005"
+ },
+ {
+  "code": "APRL",
+  "kind": "industry",
+  "recordId": "IND-0006"
+ },
+ {
+  "code": "ELRT",
+  "kind": "industry",
+  "recordId": "IND-0007"
+ },
+ {
+  "code": "NWSV",
+  "kind": "industry",
+  "recordId": "IND-0008"
+ },
+ {
+  "code": "WHSL",
+  "kind": "industry",
+  "recordId": "IND-0009"
+ },
+ {
+  "code": "STRV",
+  "kind": "industry",
+  "recordId": "IND-0010"
+ },
+ {
+  "code": "ECOM",
+  "kind": "industry",
+  "recordId": "IND-0011"
+ },
+ {
+  "code": "JWLR",
+  "kind": "industry",
+  "recordId": "IND-0012"
+ },
+ {
+  "code": "FDEL",
+  "kind": "industry",
+  "recordId": "IND-0013"
+ },
+ {
+  "code": "PRCL",
+  "kind": "industry",
+  "recordId": "IND-0014"
+ },
+ {
+  "code": "WHSE",
+  "kind": "industry",
+  "recordId": "IND-0015"
+ },
+ {
+  "code": "FRGT",
+  "kind": "industry",
+  "recordId": "IND-0016"
+ },
+ {
+  "code": "PAXT",
+  "kind": "industry",
+  "recordId": "IND-0017"
+ },
+ {
+  "code": "RAIL",
+  "kind": "industry",
+  "recordId": "IND-0018"
+ },
+ {
+  "code": "PORT",
+  "kind": "industry",
+  "recordId": "IND-0019"
+ },
+ {
+  "code": "SCHN",
+  "kind": "industry",
+  "recordId": "IND-0020"
+ },
+ {
+  "code": "HOTL",
+  "kind": "industry",
+  "recordId": "IND-0021"
+ },
+ {
+  "code": "REST",
+  "kind": "industry",
+  "recordId": "IND-0022"
+ },
+ {
+  "code": "CATR",
+  "kind": "industry",
+  "recordId": "IND-0023"
+ },
+ {
+  "code": "QSR",
+  "kind": "industry",
+  "recordId": "IND-0024"
+ },
+ {
+  "code": "TAGY",
+  "kind": "industry",
+  "recordId": "IND-0025"
+ },
+ {
+  "code": "GUID",
+  "kind": "industry",
+  "recordId": "IND-0026"
+ },
+ {
+  "code": "AIRL",
+  "kind": "industry",
+  "recordId": "IND-0027"
+ },
+ {
+  "code": "ARPT",
+  "kind": "industry",
+  "recordId": "IND-0028"
+ },
+ {
+  "code": "CARD",
+  "kind": "industry",
+  "recordId": "IND-0029"
+ },
+ {
+  "code": "TWHD",
+  "kind": "industry",
+  "recordId": "IND-0030"
+ },
+ {
+  "code": "AUSV",
+  "kind": "industry",
+  "recordId": "IND-0031"
+ },
+ {
+  "code": "APRT",
+  "kind": "industry",
+  "recordId": "IND-0032"
+ },
+ {
+  "code": "AFIN",
+  "kind": "industry",
+  "recordId": "IND-0033"
+ },
+ {
+  "code": "FACT",
+  "kind": "industry",
+  "recordId": "IND-0034"
+ },
+ {
+  "code": "FMCG",
+  "kind": "industry",
+  "recordId": "IND-0035"
+ },
+ {
+  "code": "GRMT",
+  "kind": "industry",
+  "recordId": "IND-0036"
+ },
+ {
+  "code": "PHRM",
+  "kind": "industry",
+  "recordId": "IND-0037"
+ },
+ {
+  "code": "ELMF",
+  "kind": "industry",
+  "recordId": "IND-0038"
+ },
+ {
+  "code": "FOOD",
+  "kind": "industry",
+  "recordId": "IND-0039"
+ },
+ {
+  "code": "CNST",
+  "kind": "industry",
+  "recordId": "IND-0040"
+ },
+ {
+  "code": "REAL",
+  "kind": "industry",
+  "recordId": "IND-0041"
+ },
+ {
+  "code": "PROP",
+  "kind": "industry",
+  "recordId": "IND-0042"
+ },
+ {
+  "code": "INTR",
+  "kind": "industry",
+  "recordId": "IND-0043"
+ },
+ {
+  "code": "ELEC",
+  "kind": "industry",
+  "recordId": "IND-0044"
+ },
+ {
+  "code": "PLMB",
+  "kind": "industry",
+  "recordId": "IND-0045"
+ },
+ {
+  "code": "HVAC",
+  "kind": "industry",
+  "recordId": "IND-0046"
+ },
+ {
+  "code": "TELI",
+  "kind": "industry",
+  "recordId": "IND-0047"
+ },
+ {
+  "code": "FSVC",
+  "kind": "industry",
+  "recordId": "IND-0048"
+ },
+ {
+  "code": "MOBR",
+  "kind": "industry",
+  "recordId": "IND-0049"
+ },
+ {
+  "code": "POWR",
+  "kind": "industry",
+  "recordId": "IND-0050"
+ },
+ {
+  "code": "WATR",
+  "kind": "industry",
+  "recordId": "IND-0051"
+ },
+ {
+  "code": "GASD",
+  "kind": "industry",
+  "recordId": "IND-0052"
+ },
+ {
+  "code": "SOLR",
+  "kind": "industry",
+  "recordId": "IND-0053"
+ },
+ {
+  "code": "SOFT",
+  "kind": "industry",
+  "recordId": "IND-0054"
+ },
+ {
+  "code": "ITSP",
+  "kind": "industry",
+  "recordId": "IND-0055"
+ },
+ {
+  "code": "TELC",
+  "kind": "industry",
+  "recordId": "IND-0056"
+ },
+ {
+  "code": "DATA",
+  "kind": "industry",
+  "recordId": "IND-0057"
+ },
+ {
+  "code": "VOIC",
+  "kind": "industry",
+  "recordId": "IND-0058"
+ },
+ {
+  "code": "NVOI",
+  "kind": "industry",
+  "recordId": "IND-0059"
+ },
+ {
+  "code": "COLL",
+  "kind": "industry",
+  "recordId": "IND-0060"
+ },
+ {
+  "code": "TSPT",
+  "kind": "industry",
+  "recordId": "IND-0061"
+ },
+ {
+  "code": "BNKS",
+  "kind": "industry",
+  "recordId": "IND-0062"
+ },
+ {
+  "code": "MFIN",
+  "kind": "industry",
+  "recordId": "IND-0063"
+ },
+ {
+  "code": "INSU",
+  "kind": "industry",
+  "recordId": "IND-0064"
+ },
+ {
+  "code": "BCAG",
+  "kind": "industry",
+  "recordId": "IND-0065"
+ },
+ {
+  "code": "ACCT",
+  "kind": "industry",
+  "recordId": "IND-0066"
+ },
+ {
+  "code": "HOSPL",
+  "kind": "industry",
+  "recordId": "IND-0067"
+ },
+ {
+  "code": "CLIN",
+  "kind": "industry",
+  "recordId": "IND-0068"
+ },
+ {
+  "code": "NURS",
+  "kind": "industry",
+  "recordId": "IND-0069"
+ },
+ {
+  "code": "EYEC",
+  "kind": "industry",
+  "recordId": "IND-0070"
+ },
+ {
+  "code": "PHAR",
+  "kind": "industry",
+  "recordId": "IND-0071"
+ },
+ {
+  "code": "DIAG",
+  "kind": "industry",
+  "recordId": "IND-0072"
+ },
+ {
+  "code": "DENT",
+  "kind": "industry",
+  "recordId": "IND-0073"
+ },
+ {
+  "code": "MSAL",
+  "kind": "industry",
+  "recordId": "IND-0074"
+ },
+ {
+  "code": "SCHL",
+  "kind": "industry",
+  "recordId": "IND-0075"
+ },
+ {
+  "code": "HIED",
+  "kind": "industry",
+  "recordId": "IND-0076"
+ },
+ {
+  "code": "COAC",
+  "kind": "industry",
+  "recordId": "IND-0077"
+ },
+ {
+  "code": "VOCT",
+  "kind": "industry",
+  "recordId": "IND-0078"
+ },
+ {
+  "code": "EDTC",
+  "kind": "industry",
+  "recordId": "IND-0079"
+ },
+ {
+  "code": "ELEX",
+  "kind": "industry",
+  "recordId": "IND-0080"
+ },
+ {
+  "code": "LGOV",
+  "kind": "industry",
+  "recordId": "IND-0081"
+ },
+ {
+  "code": "PHLT",
+  "kind": "industry",
+  "recordId": "IND-0082"
+ },
+ {
+  "code": "POST",
+  "kind": "industry",
+  "recordId": "IND-0083"
+ },
+ {
+  "code": "CENS",
+  "kind": "industry",
+  "recordId": "IND-0084"
+ },
+ {
+  "code": "PDS",
+  "kind": "industry",
+  "recordId": "IND-0085"
+ },
+ {
+  "code": "CITZ",
+  "kind": "industry",
+  "recordId": "IND-0086"
+ },
+ {
+  "code": "PLCE",
+  "kind": "industry",
+  "recordId": "IND-0087"
+ },
+ {
+  "code": "FARM",
+  "kind": "industry",
+  "recordId": "IND-0088"
+ },
+ {
+  "code": "AINP",
+  "kind": "industry",
+  "recordId": "IND-0089"
+ },
+ {
+  "code": "DARY",
+  "kind": "industry",
+  "recordId": "IND-0090"
+ },
+ {
+  "code": "FISH",
+  "kind": "industry",
+  "recordId": "IND-0091"
+ },
+ {
+  "code": "AEXT",
+  "kind": "industry",
+  "recordId": "IND-0092"
+ },
+ {
+  "code": "PSEC",
+  "kind": "industry",
+  "recordId": "IND-0093"
+ },
+ {
+  "code": "FIRE",
+  "kind": "industry",
+  "recordId": "IND-0094"
+ },
+ {
+  "code": "SALN",
+  "kind": "industry",
+  "recordId": "IND-0095"
+ },
+ {
+  "code": "SPAW",
+  "kind": "industry",
+  "recordId": "IND-0096"
+ },
+ {
+  "code": "COSM",
+  "kind": "industry",
+  "recordId": "IND-0097"
+ },
+ {
+  "code": "NEWM",
+  "kind": "industry",
+  "recordId": "IND-0098"
+ },
+ {
+  "code": "ADVT",
+  "kind": "industry",
+  "recordId": "IND-0099"
+ },
+ {
+  "code": "DIGM",
+  "kind": "industry",
+  "recordId": "IND-0100"
+ },
+ {
+  "code": "DSGN",
+  "kind": "industry",
+  "recordId": "IND-0101"
+ },
+ {
+  "code": "EVNT",
+  "kind": "industry",
+  "recordId": "IND-0102"
+ },
+ {
+  "code": "PRNT",
+  "kind": "industry",
+  "recordId": "IND-0103"
+ },
+ {
+  "code": "LEGL",
+  "kind": "industry",
+  "recordId": "IND-0104"
+ },
+ {
+  "code": "CNSL",
+  "kind": "industry",
+  "recordId": "IND-0105"
+ },
+ {
+  "code": "HRRA",
+  "kind": "industry",
+  "recordId": "IND-0106"
+ },
+ {
+  "code": "MRES",
+  "kind": "industry",
+  "recordId": "IND-0107"
+ },
+ {
+  "code": "NGOD",
+  "kind": "industry",
+  "recordId": "IND-0108"
+ },
+ {
+  "code": "CMTY",
+  "kind": "industry",
+  "recordId": "IND-0109"
+ },
+ {
+  "code": "CHRT",
+  "kind": "industry",
+  "recordId": "IND-0110"
+ },
+ {
+  "code": "SPMG",
+  "kind": "industry",
+  "recordId": "IND-0111"
+ },
+ {
+  "code": "CRKT",
+  "kind": "industry",
+  "recordId": "IND-0112"
+ },
+ {
+  "code": "GYMF",
+  "kind": "industry",
+  "recordId": "IND-0113"
+ },
+ {
+  "code": "OFFC",
+  "kind": "industry",
+  "recordId": "IND-0114"
+ },
+ {
+  "code": "SBIZ",
+  "kind": "industry",
+  "recordId": "IND-0115"
+ },
+ {
+  "code": "SELF",
+  "kind": "industry",
+  "recordId": "IND-0116"
+ },
+ {
+  "code": "STUP",
+  "kind": "industry",
+  "recordId": "IND-0117"
+ },
+ {
+  "code": "DOMW",
+  "kind": "industry",
+  "recordId": "IND-0118"
+ },
+ {
+  "code": "CARE",
+  "kind": "industry",
+  "recordId": "IND-0119"
+ },
+ {
+  "code": "PDRV",
+  "kind": "industry",
+  "recordId": "IND-0120"
+ },
+ {
+  "code": "SANT",
+  "kind": "industry",
+  "recordId": "IND-0121"
+ },
+ {
+  "code": "RECY",
+  "kind": "industry",
+  "recordId": "IND-0122"
+ },
+ {
+  "code": "SALE",
+  "kind": "role-family",
+  "recordId": "RFM-0001"
+ },
+ {
+  "code": "RTLF",
+  "kind": "role-family",
+  "recordId": "RFM-0002"
+ },
+ {
+  "code": "MKTV",
+  "kind": "role-family",
+  "recordId": "RFM-0003"
+ },
+ {
+  "code": "WHTR",
+  "kind": "role-family",
+  "recordId": "RFM-0004"
+ },
+ {
+  "code": "CSV",
+  "kind": "role-family",
+  "recordId": "RFM-0005"
+ },
+ {
+  "code": "CNTC",
+  "kind": "role-family",
+  "recordId": "RFM-0006"
+ },
+ {
+  "code": "FO",
+  "kind": "role-family",
+  "recordId": "RFM-0007"
+ },
+ {
+  "code": "FNB",
+  "kind": "role-family",
+  "recordId": "RFM-0008"
+ },
+ {
+  "code": "KTCH",
+  "kind": "role-family",
+  "recordId": "RFM-0009"
+ },
+ {
+  "code": "HSKP",
+  "kind": "role-family",
+  "recordId": "RFM-0010"
+ },
+ {
+  "code": "TRVF",
+  "kind": "role-family",
+  "recordId": "RFM-0011"
+ },
+ {
+  "code": "AVNF",
+  "kind": "role-family",
+  "recordId": "RFM-0012"
+ },
+ {
+  "code": "FLDW",
+  "kind": "role-family",
+  "recordId": "RFM-0013"
+ },
+ {
+  "code": "DLVR",
+  "kind": "role-family",
+  "recordId": "RFM-0014"
+ },
+ {
+  "code": "DRVR",
+  "kind": "role-family",
+  "recordId": "RFM-0015"
+ },
+ {
+  "code": "LOGF",
+  "kind": "role-family",
+  "recordId": "RFM-0016"
+ },
+ {
+  "code": "WHSF",
+  "kind": "role-family",
+  "recordId": "RFM-0017"
+ },
+ {
+  "code": "PROC",
+  "kind": "role-family",
+  "recordId": "RFM-0018"
+ },
+ {
+  "code": "AUTF",
+  "kind": "role-family",
+  "recordId": "RFM-0019"
+ },
+ {
+  "code": "MECH",
+  "kind": "role-family",
+  "recordId": "RFM-0020"
+ },
+ {
+  "code": "TRDF",
+  "kind": "role-family",
+  "recordId": "RFM-0021"
+ },
+ {
+  "code": "CNSF",
+  "kind": "role-family",
+  "recordId": "RFM-0022"
+ },
+ {
+  "code": "ENGR",
+  "kind": "role-family",
+  "recordId": "RFM-0023"
+ },
+ {
+  "code": "PROD",
+  "kind": "role-family",
+  "recordId": "RFM-0024"
+ },
+ {
+  "code": "QLTY",
+  "kind": "role-family",
+  "recordId": "RFM-0025"
+ },
+ {
+  "code": "MAINT",
+  "kind": "role-family",
+  "recordId": "RFM-0026"
+ },
+ {
+  "code": "UTLF",
+  "kind": "role-family",
+  "recordId": "RFM-0027"
+ },
+ {
+  "code": "SECF",
+  "kind": "role-family",
+  "recordId": "RFM-0028"
+ },
+ {
+  "code": "AGRF",
+  "kind": "role-family",
+  "recordId": "RFM-0029"
+ },
+ {
+  "code": "FSHR",
+  "kind": "role-family",
+  "recordId": "RFM-0030"
+ },
+ {
+  "code": "ITF",
+  "kind": "role-family",
+  "recordId": "RFM-0031"
+ },
+ {
+  "code": "DATF",
+  "kind": "role-family",
+  "recordId": "RFM-0032"
+ },
+ {
+  "code": "BNKF",
+  "kind": "role-family",
+  "recordId": "RFM-0033"
+ },
+ {
+  "code": "FIN",
+  "kind": "role-family",
+  "recordId": "RFM-0034"
+ },
+ {
+  "code": "INSF",
+  "kind": "role-family",
+  "recordId": "RFM-0035"
+ },
+ {
+  "code": "HR",
+  "kind": "role-family",
+  "recordId": "RFM-0036"
+ },
+ {
+  "code": "ADMN",
+  "kind": "role-family",
+  "recordId": "RFM-0037"
+ },
+ {
+  "code": "LGLF",
+  "kind": "role-family",
+  "recordId": "RFM-0038"
+ },
+ {
+  "code": "MKTG",
+  "kind": "role-family",
+  "recordId": "RFM-0039"
+ },
+ {
+  "code": "MEDF",
+  "kind": "role-family",
+  "recordId": "RFM-0040"
+ },
+ {
+  "code": "CRTV",
+  "kind": "role-family",
+  "recordId": "RFM-0041"
+ },
+ {
+  "code": "EVTF",
+  "kind": "role-family",
+  "recordId": "RFM-0042"
+ },
+ {
+  "code": "MEDC",
+  "kind": "role-family",
+  "recordId": "RFM-0043"
+ },
+ {
+  "code": "NRSF",
+  "kind": "role-family",
+  "recordId": "RFM-0044"
+ },
+ {
+  "code": "OPTF",
+  "kind": "role-family",
+  "recordId": "RFM-0045"
+ },
+ {
+  "code": "PHRF",
+  "kind": "role-family",
+  "recordId": "RFM-0046"
+ },
+ {
+  "code": "LABF",
+  "kind": "role-family",
+  "recordId": "RFM-0047"
+ },
+ {
+  "code": "HCAD",
+  "kind": "role-family",
+  "recordId": "RFM-0048"
+ },
+ {
+  "code": "TEACH",
+  "kind": "role-family",
+  "recordId": "RFM-0049"
+ },
+ {
+  "code": "EDAD",
+  "kind": "role-family",
+  "recordId": "RFM-0050"
+ },
+ {
+  "code": "TRNG",
+  "kind": "role-family",
+  "recordId": "RFM-0051"
+ },
+ {
+  "code": "PUBS",
+  "kind": "role-family",
+  "recordId": "RFM-0052"
+ },
+ {
+  "code": "ELCT",
+  "kind": "role-family",
+  "recordId": "RFM-0053"
+ },
+ {
+  "code": "NGOF",
+  "kind": "role-family",
+  "recordId": "RFM-0054"
+ },
+ {
+  "code": "BEAF",
+  "kind": "role-family",
+  "recordId": "RFM-0055"
+ },
+ {
+  "code": "SPRF",
+  "kind": "role-family",
+  "recordId": "RFM-0056"
+ },
+ {
+  "code": "DOMF",
+  "kind": "role-family",
+  "recordId": "RFM-0057"
+ },
+ {
+  "code": "SANF",
+  "kind": "role-family",
+  "recordId": "RFM-0058"
+ },
+ {
+  "code": "OPS",
+  "kind": "role-family",
+  "recordId": "RFM-0059"
+ },
+ {
+  "code": "MGMT",
+  "kind": "role-family",
+  "recordId": "RFM-0060"
+ },
+ {
+  "code": "LEAD",
+  "kind": "role-family",
+  "recordId": "RFM-0061"
+ },
+ {
+  "code": "ENTR",
+  "kind": "role-family",
+  "recordId": "RFM-0062"
+ }
+]

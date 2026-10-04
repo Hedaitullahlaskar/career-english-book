@@ -1,0 +1,30 @@
+{
+ "id": "RPF-000005",
+ "type": "role-profile",
+ "name": "HR Manager — Software & IT services",
+ "role": "ROL-0013",
+ "parentRoles": [],
+ "industry": "IND-0054",
+ "industryCode": "SOFT",
+ "sector": "SEC-10",
+ "sectorCode": "TECH",
+ "department": "DEP-0005",
+ "specialisation": "HR for a software company (technical and hybrid teams)",
+ "responsibilityLevel": "SEN-0008",
+ "ownershipScale": null,
+ "employmentSetting": "EMP-01",
+ "coreModules": [
+  "CM-01",
+  "CM-09",
+  "CM-10",
+  "CM-11"
+ ],
+ "reviewTriggers": [],
+ "pilot": "U-1",
+ "status": "PROFILED",
+ "prototype": true,
+ "publishable": false,
+ "notes": [
+  "Registry mapping: HR Manager is specialisation in sector TECH"
+ ]
+}

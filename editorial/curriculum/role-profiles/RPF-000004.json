@@ -1,0 +1,30 @@
+{
+ "id": "RPF-000004",
+ "type": "role-profile",
+ "name": "HR Manager — Hotels & resorts",
+ "role": "ROL-0013",
+ "parentRoles": [],
+ "industry": "IND-0021",
+ "industryCode": "HOTL",
+ "sector": "SEC-03",
+ "sectorCode": "HOSP",
+ "department": "DEP-0005",
+ "specialisation": "HR for a hotel (shift-based operational staff)",
+ "responsibilityLevel": "SEN-0008",
+ "ownershipScale": null,
+ "employmentSetting": "EMP-01",
+ "coreModules": [
+  "CM-01",
+  "CM-09",
+  "CM-10",
+  "CM-11"
+ ],
+ "reviewTriggers": [],
+ "pilot": "U-1",
+ "status": "PROFILED",
+ "prototype": true,
+ "publishable": false,
+ "notes": [
+  "Registry mapping: HR Manager is specialisation in sector HOSP"
+ ]
+}

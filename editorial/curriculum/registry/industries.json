@@ -1,0 +1,1246 @@
+[
+ {
+  "id": "IND-0001",
+  "code": "VEGM",
+  "name": "Fresh produce markets (vegetables & fruit)",
+  "sector": "SEC-01",
+  "aliases": [
+   "sabzi mandi",
+   "vegetable market",
+   "fruit market"
+  ]
+ },
+ {
+  "id": "IND-0002",
+  "code": "FISHM",
+  "name": "Fish & meat markets",
+  "sector": "SEC-01",
+  "aliases": [
+   "fish market",
+   "meat shop",
+   "machhli bazaar"
+  ]
+ },
+ {
+  "id": "IND-0003",
+  "code": "KIRA",
+  "name": "Grocery & neighbourhood stores",
+  "sector": "SEC-01",
+  "aliases": [
+   "kirana store",
+   "general store",
+   "corner shop"
+  ]
+ },
+ {
+  "id": "IND-0004",
+  "code": "SMKT",
+  "name": "Supermarkets & hypermarkets",
+  "sector": "SEC-01",
+  "aliases": [
+   "supermarket",
+   "hypermarket",
+   "grocery chain"
+  ]
+ },
+ {
+  "id": "IND-0005",
+  "code": "MALL",
+  "name": "Shopping malls & department stores",
+  "sector": "SEC-01",
+  "aliases": [
+   "mall",
+   "department store"
+  ]
+ },
+ {
+  "id": "IND-0006",
+  "code": "APRL",
+  "name": "Clothing & footwear retail",
+  "sector": "SEC-01",
+  "aliases": [
+   "clothing shop",
+   "garment shop",
+   "saree shop",
+   "shoe shop"
+  ]
+ },
+ {
+  "id": "IND-0007",
+  "code": "ELRT",
+  "name": "Electronics & mobile retail",
+  "sector": "SEC-01",
+  "aliases": [
+   "mobile shop",
+   "electronics showroom"
+  ]
+ },
+ {
+  "id": "IND-0008",
+  "code": "NWSV",
+  "name": "Newspaper & magazine vending",
+  "sector": "SEC-01",
+  "aliases": [
+   "newspaper stall",
+   "news agent",
+   "akhbar"
+  ]
+ },
+ {
+  "id": "IND-0009",
+  "code": "WHSL",
+  "name": "Wholesale & trading",
+  "sector": "SEC-01",
+  "aliases": [
+   "wholesale market",
+   "trading firm",
+   "distributor"
+  ]
+ },
+ {
+  "id": "IND-0010",
+  "code": "STRV",
+  "name": "Street vending & hawking",
+  "sector": "SEC-01",
+  "aliases": [
+   "hawker",
+   "street vendor",
+   "footpath shop"
+  ]
+ },
+ {
+  "id": "IND-0011",
+  "code": "ECOM",
+  "name": "E-commerce & online sellers",
+  "sector": "SEC-01",
+  "aliases": [
+   "online seller",
+   "marketplace seller"
+  ]
+ },
+ {
+  "id": "IND-0012",
+  "code": "JWLR",
+  "name": "Jewellery retail",
+  "sector": "SEC-01",
+  "aliases": [
+   "jewellery shop",
+   "gold shop"
+  ]
+ },
+ {
+  "id": "IND-0013",
+  "code": "FDEL",
+  "name": "Food delivery (platform)",
+  "sector": "SEC-02",
+  "aliases": [
+   "food delivery",
+   "Zomato/Swiggy-type apps (generic)"
+  ]
+ },
+ {
+  "id": "IND-0014",
+  "code": "PRCL",
+  "name": "Parcel, courier & last-mile delivery",
+  "sector": "SEC-02",
+  "aliases": [
+   "courier",
+   "parcel delivery",
+   "e-commerce delivery"
+  ]
+ },
+ {
+  "id": "IND-0015",
+  "code": "WHSE",
+  "name": "Warehousing & stores",
+  "sector": "SEC-02",
+  "aliases": [
+   "warehouse",
+   "godown",
+   "stores"
+  ]
+ },
+ {
+  "id": "IND-0016",
+  "code": "FRGT",
+  "name": "Freight & trucking",
+  "sector": "SEC-02",
+  "aliases": [
+   "trucking",
+   "transport company",
+   "lorry"
+  ]
+ },
+ {
+  "id": "IND-0017",
+  "code": "PAXT",
+  "name": "Passenger transport (bus, taxi, auto, ride-hailing)",
+  "sector": "SEC-02",
+  "aliases": [
+   "taxi",
+   "auto-rickshaw",
+   "cab",
+   "bus"
+  ]
+ },
+ {
+  "id": "IND-0018",
+  "code": "RAIL",
+  "name": "Railways",
+  "sector": "SEC-02",
+  "aliases": [
+   "railway",
+   "train"
+  ]
+ },
+ {
+  "id": "IND-0019",
+  "code": "PORT",
+  "name": "Ports & shipping",
+  "sector": "SEC-02",
+  "aliases": [
+   "port",
+   "shipping",
+   "container"
+  ]
+ },
+ {
+  "id": "IND-0020",
+  "code": "SCHN",
+  "name": "Supply chain & procurement services",
+  "sector": "SEC-02",
+  "aliases": [
+   "supply chain",
+   "3PL"
+  ]
+ },
+ {
+  "id": "IND-0021",
+  "code": "HOTL",
+  "name": "Hotels & resorts",
+  "sector": "SEC-03",
+  "aliases": [
+   "hotel",
+   "resort",
+   "guest house"
+  ]
+ },
+ {
+  "id": "IND-0022",
+  "code": "REST",
+  "name": "Restaurants & cafés",
+  "sector": "SEC-03",
+  "aliases": [
+   "restaurant",
+   "café",
+   "dhaba"
+  ]
+ },
+ {
+  "id": "IND-0023",
+  "code": "CATR",
+  "name": "Catering & banquets",
+  "sector": "SEC-03",
+  "aliases": [
+   "catering",
+   "banquet",
+   "wedding catering"
+  ]
+ },
+ {
+  "id": "IND-0024",
+  "code": "QSR",
+  "name": "Quick-service restaurants & cloud kitchens",
+  "sector": "SEC-03",
+  "aliases": [
+   "fast food",
+   "cloud kitchen",
+   "QSR"
+  ]
+ },
+ {
+  "id": "IND-0025",
+  "code": "TAGY",
+  "name": "Travel agencies & tour operators",
+  "sector": "SEC-04",
+  "aliases": [
+   "travel agency",
+   "tour operator"
+  ]
+ },
+ {
+  "id": "IND-0026",
+  "code": "GUID",
+  "name": "Tour guiding & local tourism",
+  "sector": "SEC-04",
+  "aliases": [
+   "tour guide",
+   "heritage guide"
+  ]
+ },
+ {
+  "id": "IND-0027",
+  "code": "AIRL",
+  "name": "Airlines",
+  "sector": "SEC-04",
+  "aliases": [
+   "airline",
+   "cabin crew"
+  ]
+ },
+ {
+  "id": "IND-0028",
+  "code": "ARPT",
+  "name": "Airports & ground handling",
+  "sector": "SEC-04",
+  "aliases": [
+   "airport",
+   "ground staff"
+  ]
+ },
+ {
+  "id": "IND-0029",
+  "code": "CARD",
+  "name": "Car dealerships & showrooms",
+  "sector": "SEC-05",
+  "aliases": [
+   "car showroom",
+   "car dealer"
+  ]
+ },
+ {
+  "id": "IND-0030",
+  "code": "TWHD",
+  "name": "Two-wheeler dealerships",
+  "sector": "SEC-05",
+  "aliases": [
+   "bike showroom",
+   "scooter dealer"
+  ]
+ },
+ {
+  "id": "IND-0031",
+  "code": "AUSV",
+  "name": "Vehicle service & repair workshops",
+  "sector": "SEC-05",
+  "aliases": [
+   "garage",
+   "service centre",
+   "workshop"
+  ]
+ },
+ {
+  "id": "IND-0032",
+  "code": "APRT",
+  "name": "Auto parts & accessories",
+  "sector": "SEC-05",
+  "aliases": [
+   "spare parts shop"
+  ]
+ },
+ {
+  "id": "IND-0033",
+  "code": "AFIN",
+  "name": "Vehicle finance, insurance & field services",
+  "sector": "SEC-05",
+  "aliases": [
+   "vehicle loan",
+   "motor insurance",
+   "vehicle inspection"
+  ]
+ },
+ {
+  "id": "IND-0034",
+  "code": "FACT",
+  "name": "General manufacturing & factories",
+  "sector": "SEC-06",
+  "aliases": [
+   "factory",
+   "plant"
+  ]
+ },
+ {
+  "id": "IND-0035",
+  "code": "FMCG",
+  "name": "FMCG & consumer goods",
+  "sector": "SEC-06",
+  "aliases": [
+   "FMCG",
+   "consumer goods"
+  ]
+ },
+ {
+  "id": "IND-0036",
+  "code": "GRMT",
+  "name": "Garments & textiles",
+  "sector": "SEC-06",
+  "aliases": [
+   "garment factory",
+   "textile mill",
+   "tailoring unit"
+  ]
+ },
+ {
+  "id": "IND-0037",
+  "code": "PHRM",
+  "name": "Pharmaceutical manufacturing",
+  "sector": "SEC-06",
+  "aliases": [
+   "pharma plant"
+  ]
+ },
+ {
+  "id": "IND-0038",
+  "code": "ELMF",
+  "name": "Electronics manufacturing",
+  "sector": "SEC-06",
+  "aliases": [
+   "electronics assembly"
+  ]
+ },
+ {
+  "id": "IND-0039",
+  "code": "FOOD",
+  "name": "Food processing",
+  "sector": "SEC-06",
+  "aliases": [
+   "food factory",
+   "bakery unit"
+  ]
+ },
+ {
+  "id": "IND-0040",
+  "code": "CNST",
+  "name": "Construction sites & contracting",
+  "sector": "SEC-07",
+  "aliases": [
+   "construction site",
+   "building work"
+  ]
+ },
+ {
+  "id": "IND-0041",
+  "code": "REAL",
+  "name": "Real estate sales & brokerage",
+  "sector": "SEC-07",
+  "aliases": [
+   "property dealer",
+   "real estate agent"
+  ]
+ },
+ {
+  "id": "IND-0042",
+  "code": "PROP",
+  "name": "Property & facility management",
+  "sector": "SEC-07",
+  "aliases": [
+   "facility management",
+   "society management"
+  ]
+ },
+ {
+  "id": "IND-0043",
+  "code": "INTR",
+  "name": "Interiors & renovation",
+  "sector": "SEC-07",
+  "aliases": [
+   "interior design",
+   "renovation"
+  ]
+ },
+ {
+  "id": "IND-0044",
+  "code": "ELEC",
+  "name": "Electrical services",
+  "sector": "SEC-08",
+  "aliases": [
+   "electrician",
+   "wiring"
+  ]
+ },
+ {
+  "id": "IND-0045",
+  "code": "PLMB",
+  "name": "Plumbing services",
+  "sector": "SEC-08",
+  "aliases": [
+   "plumber"
+  ]
+ },
+ {
+  "id": "IND-0046",
+  "code": "HVAC",
+  "name": "AC, refrigeration & appliance repair",
+  "sector": "SEC-08",
+  "aliases": [
+   "AC repair",
+   "fridge repair",
+   "appliance service"
+  ]
+ },
+ {
+  "id": "IND-0047",
+  "code": "TELI",
+  "name": "Telecom & internet installation",
+  "sector": "SEC-08",
+  "aliases": [
+   "broadband installation",
+   "fibre"
+  ]
+ },
+ {
+  "id": "IND-0048",
+  "code": "FSVC",
+  "name": "Equipment field service",
+  "sector": "SEC-08",
+  "aliases": [
+   "field service",
+   "equipment repair"
+  ]
+ },
+ {
+  "id": "IND-0049",
+  "code": "MOBR",
+  "name": "Mobile & electronics repair",
+  "sector": "SEC-08",
+  "aliases": [
+   "mobile repair shop"
+  ]
+ },
+ {
+  "id": "IND-0050",
+  "code": "POWR",
+  "name": "Electricity distribution",
+  "sector": "SEC-09",
+  "aliases": [
+   "electricity board",
+   "power supply"
+  ]
+ },
+ {
+  "id": "IND-0051",
+  "code": "WATR",
+  "name": "Water supply",
+  "sector": "SEC-09",
+  "aliases": [
+   "water board"
+  ]
+ },
+ {
+  "id": "IND-0052",
+  "code": "GASD",
+  "name": "Gas distribution (LPG & piped gas)",
+  "sector": "SEC-09",
+  "aliases": [
+   "LPG",
+   "gas agency"
+  ]
+ },
+ {
+  "id": "IND-0053",
+  "code": "SOLR",
+  "name": "Solar & renewables",
+  "sector": "SEC-09",
+  "aliases": [
+   "solar installation"
+  ]
+ },
+ {
+  "id": "IND-0054",
+  "code": "SOFT",
+  "name": "Software & IT services",
+  "sector": "SEC-10",
+  "aliases": [
+   "software company",
+   "IT services"
+  ]
+ },
+ {
+  "id": "IND-0055",
+  "code": "ITSP",
+  "name": "IT support & managed services",
+  "sector": "SEC-10",
+  "aliases": [
+   "IT support",
+   "helpdesk"
+  ]
+ },
+ {
+  "id": "IND-0056",
+  "code": "TELC",
+  "name": "Telecom services",
+  "sector": "SEC-10",
+  "aliases": [
+   "telecom operator",
+   "SIM store"
+  ]
+ },
+ {
+  "id": "IND-0057",
+  "code": "DATA",
+  "name": "Data & analytics",
+  "sector": "SEC-10",
+  "aliases": [
+   "data analytics"
+  ]
+ },
+ {
+  "id": "IND-0058",
+  "code": "VOIC",
+  "name": "Voice customer support",
+  "sector": "SEC-11",
+  "aliases": [
+   "call centre",
+   "inbound",
+   "outbound"
+  ]
+ },
+ {
+  "id": "IND-0059",
+  "code": "NVOI",
+  "name": "Non-voice & back-office processing",
+  "sector": "SEC-11",
+  "aliases": [
+   "chat support",
+   "email support",
+   "back office"
+  ]
+ },
+ {
+  "id": "IND-0060",
+  "code": "COLL",
+  "name": "Collections",
+  "sector": "SEC-11",
+  "aliases": [
+   "collections",
+   "recovery calls"
+  ]
+ },
+ {
+  "id": "IND-0061",
+  "code": "TSPT",
+  "name": "Technical support process",
+  "sector": "SEC-11",
+  "aliases": [
+   "tech support process"
+  ]
+ },
+ {
+  "id": "IND-0062",
+  "code": "BNKS",
+  "name": "Banks",
+  "sector": "SEC-12",
+  "aliases": [
+   "bank branch"
+  ]
+ },
+ {
+  "id": "IND-0063",
+  "code": "MFIN",
+  "name": "Microfinance & NBFCs",
+  "sector": "SEC-12",
+  "aliases": [
+   "microfinance",
+   "NBFC",
+   "self-help group loans"
+  ]
+ },
+ {
+  "id": "IND-0064",
+  "code": "INSU",
+  "name": "Insurance",
+  "sector": "SEC-12",
+  "aliases": [
+   "insurance company",
+   "LIC-type (generic)"
+  ]
+ },
+ {
+  "id": "IND-0065",
+  "code": "BCAG",
+  "name": "Banking correspondents & payment agents",
+  "sector": "SEC-12",
+  "aliases": [
+   "BC agent",
+   "CSP",
+   "payment agent"
+  ]
+ },
+ {
+  "id": "IND-0066",
+  "code": "ACCT",
+  "name": "Accounting & tax practices",
+  "sector": "SEC-12",
+  "aliases": [
+   "CA firm",
+   "tax consultant"
+  ]
+ },
+ {
+  "id": "IND-0067",
+  "code": "HOSPL",
+  "name": "Hospitals",
+  "sector": "SEC-13",
+  "aliases": [
+   "hospital"
+  ]
+ },
+ {
+  "id": "IND-0068",
+  "code": "CLIN",
+  "name": "Clinics & primary care",
+  "sector": "SEC-13",
+  "aliases": [
+   "clinic",
+   "dispensary",
+   "health centre"
+  ]
+ },
+ {
+  "id": "IND-0069",
+  "code": "NURS",
+  "name": "Nursing & home care",
+  "sector": "SEC-13",
+  "aliases": [
+   "nursing home",
+   "home nursing"
+  ]
+ },
+ {
+  "id": "IND-0070",
+  "code": "EYEC",
+  "name": "Eye care & optical",
+  "sector": "SEC-13",
+  "aliases": [
+   "eye hospital",
+   "optical shop",
+   "optometry"
+  ]
+ },
+ {
+  "id": "IND-0071",
+  "code": "PHAR",
+  "name": "Pharmacies",
+  "sector": "SEC-13",
+  "aliases": [
+   "chemist",
+   "medical store",
+   "pharmacy"
+  ]
+ },
+ {
+  "id": "IND-0072",
+  "code": "DIAG",
+  "name": "Diagnostic laboratories",
+  "sector": "SEC-13",
+  "aliases": [
+   "pathology lab",
+   "diagnostic centre"
+  ]
+ },
+ {
+  "id": "IND-0073",
+  "code": "DENT",
+  "name": "Dental care",
+  "sector": "SEC-13",
+  "aliases": [
+   "dental clinic"
+  ]
+ },
+ {
+  "id": "IND-0074",
+  "code": "MSAL",
+  "name": "Medical & pharmaceutical sales",
+  "sector": "SEC-13",
+  "aliases": [
+   "medical representative",
+   "pharma sales"
+  ]
+ },
+ {
+  "id": "IND-0075",
+  "code": "SCHL",
+  "name": "Schools",
+  "sector": "SEC-14",
+  "aliases": [
+   "school"
+  ]
+ },
+ {
+  "id": "IND-0076",
+  "code": "HIED",
+  "name": "Colleges & universities",
+  "sector": "SEC-14",
+  "aliases": [
+   "college",
+   "university"
+  ]
+ },
+ {
+  "id": "IND-0077",
+  "code": "COAC",
+  "name": "Coaching & tuition",
+  "sector": "SEC-14",
+  "aliases": [
+   "coaching centre",
+   "tuition"
+  ]
+ },
+ {
+  "id": "IND-0078",
+  "code": "VOCT",
+  "name": "Vocational & skills training",
+  "sector": "SEC-14",
+  "aliases": [
+   "ITI",
+   "skills centre"
+  ]
+ },
+ {
+  "id": "IND-0079",
+  "code": "EDTC",
+  "name": "Edtech",
+  "sector": "SEC-14",
+  "aliases": [
+   "online learning platform"
+  ]
+ },
+ {
+  "id": "IND-0080",
+  "code": "ELEX",
+  "name": "Election administration",
+  "sector": "SEC-15",
+  "aliases": [
+   "election",
+   "electoral roll",
+   "polling",
+   "BLO"
+  ]
+ },
+ {
+  "id": "IND-0081",
+  "code": "LGOV",
+  "name": "Local government & municipal services",
+  "sector": "SEC-15",
+  "aliases": [
+   "municipality",
+   "panchayat",
+   "ward office"
+  ]
+ },
+ {
+  "id": "IND-0082",
+  "code": "PHLT",
+  "name": "Public health programmes",
+  "sector": "SEC-15",
+  "aliases": [
+   "ASHA",
+   "anganwadi",
+   "public health"
+  ]
+ },
+ {
+  "id": "IND-0083",
+  "code": "POST",
+  "name": "Postal services",
+  "sector": "SEC-15",
+  "aliases": [
+   "post office"
+  ]
+ },
+ {
+  "id": "IND-0084",
+  "code": "CENS",
+  "name": "Census & public surveys",
+  "sector": "SEC-15",
+  "aliases": [
+   "census",
+   "government survey"
+  ]
+ },
+ {
+  "id": "IND-0085",
+  "code": "PDS",
+  "name": "Public distribution & ration services",
+  "sector": "SEC-15",
+  "aliases": [
+   "ration shop",
+   "fair price shop"
+  ]
+ },
+ {
+  "id": "IND-0086",
+  "code": "CITZ",
+  "name": "Citizen service centres",
+  "sector": "SEC-15",
+  "aliases": [
+   "CSC",
+   "seva kendra",
+   "citizen services"
+  ]
+ },
+ {
+  "id": "IND-0087",
+  "code": "PLCE",
+  "name": "Police & public safety (public interaction)",
+  "sector": "SEC-15",
+  "aliases": [
+   "police station",
+   "traffic police"
+  ]
+ },
+ {
+  "id": "IND-0088",
+  "code": "FARM",
+  "name": "Farming",
+  "sector": "SEC-16",
+  "aliases": [
+   "farm",
+   "agriculture"
+  ]
+ },
+ {
+  "id": "IND-0089",
+  "code": "AINP",
+  "name": "Agri-inputs sales",
+  "sector": "SEC-16",
+  "aliases": [
+   "seed shop",
+   "fertiliser dealer"
+  ]
+ },
+ {
+  "id": "IND-0090",
+  "code": "DARY",
+  "name": "Dairy",
+  "sector": "SEC-16",
+  "aliases": [
+   "dairy",
+   "milk collection"
+  ]
+ },
+ {
+  "id": "IND-0091",
+  "code": "FISH",
+  "name": "Fisheries & aquaculture",
+  "sector": "SEC-16",
+  "aliases": [
+   "fishing",
+   "fish farm"
+  ]
+ },
+ {
+  "id": "IND-0092",
+  "code": "AEXT",
+  "name": "Agricultural extension & FPOs",
+  "sector": "SEC-16",
+  "aliases": [
+   "krishi",
+   "extension worker",
+   "FPO"
+  ]
+ },
+ {
+  "id": "IND-0093",
+  "code": "PSEC",
+  "name": "Private security services",
+  "sector": "SEC-17",
+  "aliases": [
+   "security agency",
+   "guard"
+  ]
+ },
+ {
+  "id": "IND-0094",
+  "code": "FIRE",
+  "name": "Fire & safety services",
+  "sector": "SEC-17",
+  "aliases": [
+   "fire safety"
+  ]
+ },
+ {
+  "id": "IND-0095",
+  "code": "SALN",
+  "name": "Salons & barbershops",
+  "sector": "SEC-18",
+  "aliases": [
+   "salon",
+   "parlour",
+   "barber"
+  ]
+ },
+ {
+  "id": "IND-0096",
+  "code": "SPAW",
+  "name": "Spas & wellness centres",
+  "sector": "SEC-18",
+  "aliases": [
+   "spa",
+   "wellness"
+  ]
+ },
+ {
+  "id": "IND-0097",
+  "code": "COSM",
+  "name": "Cosmetics retail & beauty advisory",
+  "sector": "SEC-18",
+  "aliases": [
+   "beauty counter",
+   "cosmetics"
+  ]
+ },
+ {
+  "id": "IND-0098",
+  "code": "NEWM",
+  "name": "News media",
+  "sector": "SEC-19",
+  "aliases": [
+   "newspaper",
+   "TV news",
+   "journalism"
+  ]
+ },
+ {
+  "id": "IND-0099",
+  "code": "ADVT",
+  "name": "Advertising & marketing agencies",
+  "sector": "SEC-19",
+  "aliases": [
+   "ad agency",
+   "marketing agency"
+  ]
+ },
+ {
+  "id": "IND-0100",
+  "code": "DIGM",
+  "name": "Digital & social media",
+  "sector": "SEC-19",
+  "aliases": [
+   "social media",
+   "digital marketing"
+  ]
+ },
+ {
+  "id": "IND-0101",
+  "code": "DSGN",
+  "name": "Design & creative studios",
+  "sector": "SEC-19",
+  "aliases": [
+   "design studio",
+   "photography"
+  ]
+ },
+ {
+  "id": "IND-0102",
+  "code": "EVNT",
+  "name": "Events & entertainment",
+  "sector": "SEC-19",
+  "aliases": [
+   "event management",
+   "wedding planning"
+  ]
+ },
+ {
+  "id": "IND-0103",
+  "code": "PRNT",
+  "name": "Printing & publishing",
+  "sector": "SEC-19",
+  "aliases": [
+   "printing press",
+   "publisher"
+  ]
+ },
+ {
+  "id": "IND-0104",
+  "code": "LEGL",
+  "name": "Legal services",
+  "sector": "SEC-20",
+  "aliases": [
+   "law firm",
+   "advocate"
+  ]
+ },
+ {
+  "id": "IND-0105",
+  "code": "CNSL",
+  "name": "Consulting",
+  "sector": "SEC-20",
+  "aliases": [
+   "consultancy"
+  ]
+ },
+ {
+  "id": "IND-0106",
+  "code": "HRRA",
+  "name": "HR & recruitment agencies",
+  "sector": "SEC-20",
+  "aliases": [
+   "placement agency",
+   "recruitment"
+  ]
+ },
+ {
+  "id": "IND-0107",
+  "code": "MRES",
+  "name": "Market research & survey agencies",
+  "sector": "SEC-20",
+  "aliases": [
+   "market research",
+   "field survey"
+  ]
+ },
+ {
+  "id": "IND-0108",
+  "code": "NGOD",
+  "name": "Development NGOs",
+  "sector": "SEC-21",
+  "aliases": [
+   "NGO"
+  ]
+ },
+ {
+  "id": "IND-0109",
+  "code": "CMTY",
+  "name": "Community & social services",
+  "sector": "SEC-21",
+  "aliases": [
+   "community work",
+   "social work"
+  ]
+ },
+ {
+  "id": "IND-0110",
+  "code": "CHRT",
+  "name": "Charities & foundations",
+  "sector": "SEC-21",
+  "aliases": [
+   "charity",
+   "trust"
+  ]
+ },
+ {
+  "id": "IND-0111",
+  "code": "SPMG",
+  "name": "Sports management & clubs",
+  "sector": "SEC-22",
+  "aliases": [
+   "sports club",
+   "tournament"
+  ]
+ },
+ {
+  "id": "IND-0112",
+  "code": "CRKT",
+  "name": "Cricket academies & clubs (context pack)",
+  "sector": "SEC-22",
+  "aliases": [
+   "cricket academy",
+   "cricket club"
+  ]
+ },
+ {
+  "id": "IND-0113",
+  "code": "GYMF",
+  "name": "Gyms & fitness centres",
+  "sector": "SEC-22",
+  "aliases": [
+   "gym",
+   "fitness",
+   "yoga studio"
+  ]
+ },
+ {
+  "id": "IND-0114",
+  "code": "OFFC",
+  "name": "Corporate offices",
+  "sector": "SEC-23",
+  "aliases": [
+   "office",
+   "head office"
+  ]
+ },
+ {
+  "id": "IND-0115",
+  "code": "SBIZ",
+  "name": "Small businesses",
+  "sector": "SEC-24",
+  "aliases": [
+   "small business",
+   "shop owner"
+  ]
+ },
+ {
+  "id": "IND-0116",
+  "code": "SELF",
+  "name": "Self-employed & own-account work",
+  "sector": "SEC-24",
+  "aliases": [
+   "self-employed",
+   "freelancer",
+   "home business"
+  ]
+ },
+ {
+  "id": "IND-0117",
+  "code": "STUP",
+  "name": "Start-ups",
+  "sector": "SEC-24",
+  "aliases": [
+   "start-up"
+  ]
+ },
+ {
+  "id": "IND-0118",
+  "code": "DOMW",
+  "name": "Domestic work",
+  "sector": "SEC-25",
+  "aliases": [
+   "domestic help",
+   "housemaid",
+   "home cook"
+  ]
+ },
+ {
+  "id": "IND-0119",
+  "code": "CARE",
+  "name": "Personal care & caregiving",
+  "sector": "SEC-25",
+  "aliases": [
+   "caregiver",
+   "elder care",
+   "attendant"
+  ]
+ },
+ {
+  "id": "IND-0120",
+  "code": "PDRV",
+  "name": "Private drivers",
+  "sector": "SEC-25",
+  "aliases": [
+   "private driver",
+   "chauffeur"
+  ]
+ },
+ {
+  "id": "IND-0121",
+  "code": "SANT",
+  "name": "Sanitation & waste management",
+  "sector": "SEC-26",
+  "aliases": [
+   "sanitation",
+   "garbage collection",
+   "safai"
+  ]
+ },
+ {
+  "id": "IND-0122",
+  "code": "RECY",
+  "name": "Recycling",
+  "sector": "SEC-26",
+  "aliases": [
+   "recycling",
+   "scrap"
+  ]
+ }
+]

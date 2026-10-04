@@ -1,0 +1,252 @@
+[
+ {
+  "id": "DEP-0001",
+  "name": "Front Office",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0002",
+  "name": "Housekeeping",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0003",
+  "name": "Food & Beverage",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0004",
+  "name": "Maintenance / Engineering (facilities)",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0005",
+  "name": "Human Resources",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0006",
+  "name": "Finance & Accounts",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0007",
+  "name": "Administration",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0008",
+  "name": "Sales",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0009",
+  "name": "Marketing",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0010",
+  "name": "Operations",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0011",
+  "name": "Customer Service / Support",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0012",
+  "name": "Information Technology",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0013",
+  "name": "Software Engineering / Development",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0014",
+  "name": "Quality",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0015",
+  "name": "Training / L&D",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0016",
+  "name": "Procurement / Purchasing",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0017",
+  "name": "Logistics / Warehouse",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0018",
+  "name": "Production",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0019",
+  "name": "Patient Services / Healthcare Administration",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0020",
+  "name": "Academic",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0021",
+  "name": "Management / Executive Office",
+  "group": "Leadership"
+ },
+ {
+  "id": "DEP-0022",
+  "name": "Founder's Office",
+  "group": "Leadership"
+ },
+ {
+  "id": "DEP-0023",
+  "name": "Field Sales",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0024",
+  "name": "Retail Floor / Shop Floor",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0025",
+  "name": "After-Sales Service",
+  "group": "Customer-facing"
+ },
+ {
+  "id": "DEP-0026",
+  "name": "Last-Mile Delivery & Dispatch",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0027",
+  "name": "Transport & Fleet",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0028",
+  "name": "Kitchen",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0029",
+  "name": "Security",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0030",
+  "name": "Health & Safety (EHS)",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0031",
+  "name": "Legal & Compliance",
+  "group": "Support function"
+ },
+ {
+  "id": "DEP-0032",
+  "name": "Clinical & Nursing",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0033",
+  "name": "Diagnostics & Laboratory",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0034",
+  "name": "Pharmacy",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0035",
+  "name": "Optometry & Eye Care",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0036",
+  "name": "School / Education Administration",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0037",
+  "name": "Field Operations & Surveys",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0038",
+  "name": "Electoral Operations",
+  "group": "Public service"
+ },
+ {
+  "id": "DEP-0039",
+  "name": "Citizen Services & Public Enquiry",
+  "group": "Public service"
+ },
+ {
+  "id": "DEP-0040",
+  "name": "Research & Analytics",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0041",
+  "name": "Workshop / Service Bay",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0042",
+  "name": "Site Operations",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0043",
+  "name": "Creative & Content",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0044",
+  "name": "Events",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0045",
+  "name": "Collections & Recovery",
+  "group": "Operations"
+ },
+ {
+  "id": "DEP-0046",
+  "name": "Community Outreach",
+  "group": "Public service"
+ },
+ {
+  "id": "DEP-0047",
+  "name": "Care Services",
+  "group": "Professional / domain"
+ },
+ {
+  "id": "DEP-0048",
+  "name": "Not applicable — own business / self-employed",
+  "group": "Self-employed"
+ },
+ {
+  "id": "DEP-0049",
+  "name": "Household (domestic employer)",
+  "group": "Self-employed"
+ },
+ {
+  "id": "DEP-0050",
+  "name": "Editorial & Newsroom",
+  "group": "Professional / domain"
+ }
+]

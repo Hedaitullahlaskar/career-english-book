@@ -1,0 +1,30 @@
+[
+ {
+  "id": "EMP-01",
+  "name": "formal employer"
+ },
+ {
+  "id": "EMP-02",
+  "name": "self-employed / own-account"
+ },
+ {
+  "id": "EMP-03",
+  "name": "gig / platform"
+ },
+ {
+  "id": "EMP-04",
+  "name": "public service"
+ },
+ {
+  "id": "EMP-05",
+  "name": "NGO / community"
+ },
+ {
+  "id": "EMP-06",
+  "name": "informal employee / helper"
+ },
+ {
+  "id": "EMP-07",
+  "name": "household employer"
+ }
+]

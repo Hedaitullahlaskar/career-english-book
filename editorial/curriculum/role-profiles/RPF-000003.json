@@ -1,0 +1,31 @@
+{
+ "id": "RPF-000003",
+ "type": "role-profile",
+ "name": "Food Delivery Executive — Food delivery (platform)",
+ "role": "ROL-0157",
+ "parentRoles": [],
+ "industry": "IND-0013",
+ "industryCode": "FDEL",
+ "sector": "SEC-02",
+ "sectorCode": "MOVE",
+ "department": "DEP-0026",
+ "specialisation": "Restaurant food delivery through a platform app",
+ "responsibilityLevel": "SEN-0003",
+ "ownershipScale": null,
+ "employmentSetting": "EMP-03",
+ "coreModules": [
+  "CM-01",
+  "CM-04",
+  "CM-06"
+ ],
+ "reviewTriggers": [
+  "driving & traffic safety"
+ ],
+ "pilot": "U-1",
+ "status": "PROFILED",
+ "prototype": true,
+ "publishable": false,
+ "notes": [
+  "Registry mapping: Food Delivery Executive is common in sector MOVE"
+ ]
+}

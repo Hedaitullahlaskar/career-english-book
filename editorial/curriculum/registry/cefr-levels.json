@@ -1,0 +1,37 @@
+[
+ {
+  "code": "Pre-A1",
+  "order": 0,
+  "standard": true
+ },
+ {
+  "code": "A1",
+  "order": 1,
+  "standard": true
+ },
+ {
+  "code": "A2",
+  "order": 2,
+  "standard": true
+ },
+ {
+  "code": "B1",
+  "order": 3,
+  "standard": true
+ },
+ {
+  "code": "B2",
+  "order": 4,
+  "standard": true
+ },
+ {
+  "code": "C1",
+  "order": 5,
+  "standard": true
+ },
+ {
+  "code": "C2",
+  "order": 6,
+  "standard": true
+ }
+]

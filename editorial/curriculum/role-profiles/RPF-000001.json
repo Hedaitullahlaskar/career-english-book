@@ -1,0 +1,31 @@
+{
+ "id": "RPF-000001",
+ "type": "role-profile",
+ "name": "Vegetable Seller — Fresh produce markets (vegetables & fruit)",
+ "role": "ROL-0081",
+ "parentRoles": [
+  "ROL-0080"
+ ],
+ "industry": "IND-0001",
+ "industryCode": "VEGM",
+ "sector": "SEC-01",
+ "sectorCode": "TRADE",
+ "department": "DEP-0048",
+ "specialisation": "Fresh vegetables sold from a market stall",
+ "responsibilityLevel": "SEN-0012",
+ "ownershipScale": "solo",
+ "employmentSetting": "EMP-02",
+ "coreModules": [
+  "CM-01",
+  "CM-03",
+  "CM-04"
+ ],
+ "reviewTriggers": [],
+ "pilot": "U-1",
+ "status": "PROFILED",
+ "prototype": true,
+ "publishable": false,
+ "notes": [
+  "Registry mapping: Vegetable Seller is common in sector TRADE"
+ ]
+}

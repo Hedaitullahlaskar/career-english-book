@@ -1,0 +1,49 @@
+Role ID,Role,Role family,DEP-0001 Front Office,DEP-0002 Housekeeping,DEP-0003 Food & Beverage,DEP-0004 Maintenance / Engineering (facilities),DEP-0005 Human Resources,DEP-0006 Finance & Accounts,DEP-0007 Administration,DEP-0008 Sales,DEP-0009 Marketing,DEP-0010 Operations,DEP-0011 Customer Service / Support,DEP-0012 Information Technology,DEP-0013 Software Engineering / Development,DEP-0014 Quality,DEP-0015 Training / L&D,DEP-0016 Procurement / Purchasing,DEP-0017 Logistics / Warehouse,DEP-0018 Production,DEP-0019 Patient Services / Healthcare Administration,DEP-0020 Academic,DEP-0021 Management / Executive Office,DEP-0022 Founder's Office,Notes
+ROL-0001,Front Office Executive,FO,Primary,,,,,,"Alternative in: TECH, MFG, CORP, PROF, SMB",,,,,,,,,,,,,,,,In Indian hospitals and schools 'front office executive' is a standard title; corporate equivalent is reception
+ROL-0002,Front Office Supervisor,FO,Primary,,,,,,,,,,,,,,,,,,,,,,
+ROL-0003,Front Office Manager,FO,Primary,,,,,,,,,,,,,,,,,,,,,,
+ROL-0004,Restaurant Captain,FNB,,,Primary,,,,,,,,,,,,,,,,,,,,Industry-specific title mapped to Supervisor level
+ROL-0005,Restaurant Supervisor,FNB,,,Primary,,,,,,,,,,,,,,,,,,,,
+ROL-0006,Restaurant Manager,FNB,,,Primary,,,,,,,,,,,,,,,,,,,Alternative in: SMB,
+ROL-0007,F&B Manager,FNB,,,Primary,,,,,,,"Alternative in: HLTH, AVIA",,,,,,,,,,,,,AVIA = inflight/lounge catering; HLTH = dietary services
+ROL-0008,Housekeeping Supervisor,HSKP,,Primary,,,,,"Alternative in: EDU, CORP",,,,,,,,,,,,,,,,HLTH housekeeping involves infection-control procedures (specialist review)
+ROL-0009,Housekeeping Manager,HSKP,,Primary,,,,,Alternative in: CORP,,,,,,,,,,,,,,,,
+ROL-0010,Administrative Executive,ADMN,"Alternative in: HLTH, EDU",,,,Alternative in: SMB,,Primary,,,,,,,,,,,,,,,,
+ROL-0011,Office Manager,ADMN,,,,,,,Primary,,,,,,,,,,,,,,,,
+ROL-0012,HR Executive,HR,,,,,Primary,,"Alternative in: EDU, SMB",,,,,,,,,,,,,,,,Specialisations: HOSP seasonal/shift hiring; TECH technical hiring and remote teams; BPO high-volume hiring and attrition; HLTH credential checks; MFG shop-floor workforce
+ROL-0013,HR Manager,HR,,,,,Primary,,"Alternative in: EDU, SMB",,,,,,,,,,,,,,,,"As HR Executive, at manager level"
+ROL-0014,Accountant,FIN,,,,,,Primary,"Alternative in: EDU, SMB",,,,,,,,,,,,,,,,
+ROL-0015,Finance Manager,FIN,,,,,,Primary,,,,,,,,,,,,,,,,,
+ROL-0016,Sales Executive,SALE,Alternative in: HOSP,,,,,,,Primary,,Alternative in: BPO,,,,,,,,,,,,,BANK regulated product sales; TECH solution sales; MFG B2B industrial; SPRT sponsorship sales
+ROL-0017,Sales Manager,SALE,,,,,,,,Primary,,,,,,,,,,,,,,Alternative in: SMB,
+ROL-0018,Marketing Executive,MKTG,,,,,,,,Alternative in: HOSP,Primary,,,,,,,,,,,,,Alternative in: SMB,HLTH and BANK marketing claims are regulated (specialist review)
+ROL-0019,Marketing Manager,MKTG,,,,,,,,Alternative in: HOSP,Primary,,,,,,,,,,,,,,
+ROL-0020,Operations Executive,OPS,,,,,,,,,,Primary,,,,,,,Alternative in: LOGI,Alternative in: MFG,,,,,
+ROL-0021,Operations Manager,OPS,,,,,,,,,,Primary,,,,,,,Alternative in: LOGI,Alternative in: MFG,,,,,
+ROL-0022,Customer Service Executive,CSV,"Alternative in: HOSP, HLTH",,,,,,,,,Alternative in: BPO,Primary,,,,,,,,Alternative in: HLTH,,,,BPO contact-centre work; HLTH patients; AVIA passengers
+ROL-0023,Team Leader,OPS,,,,,,,,"Alternative in: BANK, RETL",,Primary,"Alternative in: BANK, RETL, TRVL",,Alternative in: TECH,,,,,,,,,,Generic designation; BPO floor and TECH agile team lead are specialised
+ROL-0024,Quality Analyst,QLTY,,,,,,,,,,Alternative in: BPO,,,Alternative in: TECH,Primary,,,,Alternative in: MFG,,,,,"Same title, different work: call QA (BPO), product QA (MFG), software QA (TECH), accreditation (HLTH)"
+ROL-0025,Trainer,TRNG,,,,,"Alternative in: HOSP, BANK, RETL, CORP",,,,,Alternative in: BPO,,,,,Primary,,,,,,,,
+ROL-0026,IT Support Executive,ITF,,,,,,,,,,,,Primary,,,,,,,,,,,
+ROL-0027,Developer,ITF,,,,,,,,,,,,"Alternative in: HOSP, BANK, HLTH, RETL, BPO, AVIA, EDU, TRVL, LOGI, MFG, CORP, PROF, SPRT, SMB",Primary,,,,,,,,,,
+ROL-0028,IT / Engineering Manager,ITF,,,,,,,,,,,,Primary,Alternative in: TECH,,,,,,,,,,
+ROL-0029,Project Manager,MGMT,,,,,,,,,,Primary,,,Alternative in: TECH,,,,,Alternative in: MFG,,,Alternative in: CORP,,
+ROL-0030,Procurement Executive,PROC,,,,,,Alternative in: SMB,"Alternative in: EDU, SMB",,,,,,,,,Primary,,,,,,,
+ROL-0031,Procurement Manager,PROC,,,,,,,Alternative in: EDU,,,,,,,,,Primary,,,,,,,
+ROL-0032,Logistics Coordinator,LOGF,,,,,,,,,,"Alternative in: RETL, AVIA, MFG",,,,,,,Primary,,,,,,AVIA = air cargo
+ROL-0033,Warehouse Supervisor,LOGF,,,,,,,,,,,,,,,,,Primary,,,,,,
+ROL-0034,Production Supervisor,PROD,,,,,,,,,,,,,,,,,,Primary,,,,,
+ROL-0035,Maintenance Engineer,MAINT,,,,Primary,,,,,,,,,,,,,,Alternative in: MFG,,,,,"AVIA aircraft maintenance is regulated: communication only, specialist review"
+ROL-0036,Patient Services Executive,HCAD,Alternative in: HLTH,,,,,,,,,,,,,,,,,,Primary,,,,
+ROL-0037,Healthcare Administrator,HCAD,,,,,,,,,,,,,,,,,,,Primary,,Alternative in: HLTH,,
+ROL-0038,School Teacher,TEACH,,,,,,,,,,,,,,,,,,,,Primary,,,
+ROL-0039,Senior Teacher,TEACH,,,,,,,,,,,,,,,,,,,,Primary,,,
+ROL-0040,Subject Coordinator,TEACH,,,,,,,,,,,,,,,,,,,,Primary,,,
+ROL-0041,Academic Coordinator,TEACH,,,,,,,,,,,,,,,,,,,,Primary,,,
+ROL-0042,Head Teacher,TEACH,,,,,,,,,,,,,,,,,,,,Primary,,,Title varies: head of department / head teacher of a section
+ROL-0043,Principal,TEACH,,,,,,,,,,,,,,,,,,,,Primary,Alternative in: EDU,,Head of institution: GM-equivalent responsibility
+ROL-0044,Academic Director,TEACH,,,,,,,,,,,,,,,,,,,,Alternative in: EDU,Primary,,
+ROL-0045,General Manager,MGMT,,,,,,,,,,,,,,,,,,,,,Primary,,HOSP hotel GM reports to ownership/management company; AVIA station GM
+ROL-0046,Director,LEAD,,,,,,Alternative in: all industries,,Alternative in: all industries,,Alternative in: all industries,,,,,,,,,,,Primary,,Functional directors sit in their function (e.g. Sales Director)
+ROL-0047,Managing Director,LEAD,,,,,,,,,,,,,,,,,,,,,Primary,Alternative in: SMB,
+ROL-0048,Founder / Entrepreneur,ENTR,,,,,,,,,,,,,,,,,,,,,,Primary,Ownership track; see SENIORITY-PROGRESSION-ARCHITECTURE §8

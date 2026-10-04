@@ -1,0 +1,132 @@
+{
+ "id": "RIN-000004",
+ "type": "unit-plan",
+ "pilot": "U-1",
+ "roleProfile": "RPF-000002",
+ "situationTemplate": "STM-0019",
+ "title": "Discussing price — Car Sales Executive (B1)",
+ "cefr": "B1",
+ "variantOf": null,
+ "functions": [
+  "CFN-0085"
+ ],
+ "excludedFunctions": [],
+ "stakeholders": [
+  "Customer",
+  "Sales Manager"
+ ],
+ "constraints": [],
+ "layers": [
+  {
+   "layer": "L0",
+   "key": "L0|CFN-0085|B1",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000001",
+   "sharedWith": []
+  },
+  {
+   "layer": "L1",
+   "key": "L1|STM-0019",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000002",
+   "sharedWith": [
+    "RIN-000007"
+   ]
+  },
+  {
+   "layer": "L2",
+   "key": "L2|CM-03",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000003",
+   "sharedWith": [
+    "RIN-000001",
+    "RIN-000002",
+    "RIN-000005",
+    "RIN-000006",
+    "RIN-000007"
+   ]
+  },
+  {
+   "layer": "L3",
+   "key": "L3|ROL-0016",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000004",
+   "sharedWith": [
+    "RIN-000005",
+    "RIN-000006",
+    "RIN-000007"
+   ]
+  },
+  {
+   "layer": "L3",
+   "key": "L3|ROL-0050",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000004",
+   "sharedWith": [
+    "RIN-000005",
+    "RIN-000006",
+    "RIN-000007"
+   ]
+  },
+  {
+   "layer": "L4",
+   "key": "L4|RPF-000002",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000005",
+   "sharedWith": [
+    "RIN-000005",
+    "RIN-000006",
+    "RIN-000007"
+   ]
+  },
+  {
+   "layer": "L5",
+   "key": "L5|SEN-0003|-",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000005",
+   "sharedWith": [
+    "RIN-000005",
+    "RIN-000006",
+    "RIN-000007",
+    "RIN-000008",
+    "RIN-000009",
+    "RIN-000010"
+   ]
+  },
+  {
+   "layer": "L6",
+   "key": "L6|RPF-000002|STM-0019|B1",
+   "objectId": null,
+   "status": "MISSING",
+   "request": "REQ-000007",
+   "sharedWith": []
+  }
+ ],
+ "reviewPolicy": {
+  "aiQa": "REQUIRED (AI/content pipeline)",
+  "editorial": "AUTHOR (author performs Editorial Review personally, D-U13b)",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED",
+  "specialistReason": "U-1 roles are deliberately non-regulated general business roles; DRV-sensitive content excluded by constraint (author ruling 4 October 2026)",
+  "nativeReason": "No Bengali/Hindi content in U-1 (D-U08 clarification)"
+ },
+ "maxStatus": "APPROVED",
+ "prototype": true,
+ "publishable": false,
+ "searchTerms": [
+  "Car Sales Executive",
+  "car salesman",
+  "showroom sales",
+  "relationship executive (auto)",
+  "Discussing price",
+  "Car dealerships & showrooms"
+ ],
+ "differFrom": null
+}

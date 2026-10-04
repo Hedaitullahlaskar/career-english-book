@@ -1,0 +1,51 @@
+ID,Department / function,Function group,Roles with this primary department,Example roles
+DEP-0001,Front Office,Customer-facing,9,Front Office Executive; Front Office Supervisor; Front Office Manager; Receptionist; Concierge; Bell Desk Associate; Reservations Executive; Guest Relations Executive
+DEP-0002,Housekeeping,Operations,7,Housekeeping Supervisor; Housekeeping Manager; Room Attendant; Public Area Attendant; Laundry Attendant; Hospital Housekeeping Associate; Office Housekeeper
+DEP-0003,Food & Beverage,Operations,12,Restaurant Captain; Restaurant Supervisor; Restaurant Manager; F&B Manager; Waiter / Server; Bartender; Barista; Restaurant Host
+DEP-0004,Maintenance / Engineering (facilities),Operations,7,Maintenance Engineer; Electrician; Plumber; Electrical Engineer; Maintenance Technician; Facility Executive; Facility Manager
+DEP-0005,Human Resources,Support function,7,HR Executive; HR Manager; Recruiter; HR Assistant; Payroll Executive; HR Business Partner; HR Director
+DEP-0006,Finance & Accounts,Support function,7,Accountant; Finance Manager; Accounts Assistant; Accounts Payable Executive; Internal Auditor; Tax Consultant; Chartered Accountant
+DEP-0007,Administration,Support function,4,Administrative Executive; Office Manager; Data Entry Operator; Office Assistant
+DEP-0008,Sales,Customer-facing,17,Sales Executive; Sales Manager; Car Sales Executive; Two-Wheeler Sales Executive; Real Estate Sales Executive; Telesales Executive; Key Account Executive; Key Account Manager
+DEP-0009,Marketing,Support function,9,Marketing Executive; Marketing Manager; Digital Marketing Executive; Social Media Executive; Brand Manager; Advertising Account Executive; Public Relations Executive; Marketing Head
+DEP-0010,Operations,Operations,33,Operations Executive; Operations Manager; Team Leader; Project Manager; Workforce / Real-Time Analyst; Contact Centre Manager; Tour Guide; Tour Manager
+DEP-0011,Customer Service / Support,Customer-facing,16,Customer Service Executive; Customer Care Representative (Counter); Help Desk Executive; Complaints Officer; Customer Service Manager; Customer Support Associate (Voice); Chat & Email Support Associate; Technical Support Associate
+DEP-0012,Information Technology,Support function,5,IT Support Executive; IT / Engineering Manager; System Administrator; Network Engineer; Cybersecurity Analyst
+DEP-0013,Software Engineering / Development,Professional / domain,8,Developer; Design Engineer; Software Tester; DevOps Engineer; Product Manager; Business Analyst; Technical Writer; UI / UX Designer
+DEP-0014,Quality,Operations,5,Quality Analyst; Quality Inspector; Quality Engineer; Quality Manager; Food Safety Officer
+DEP-0015,Training / L&D,Support function,6,Trainer; Process Trainer; Corporate Trainer; Vocational Instructor; Training Manager; Driving Instructor
+DEP-0016,Procurement / Purchasing,Support function,4,Procurement Executive; Procurement Manager; Purchase Assistant; Vendor Development Executive
+DEP-0017,Logistics / Warehouse,Operations,13,Logistics Coordinator; Warehouse Supervisor; Import-Export Coordinator; Shipping Documentation Executive; Supply Chain Planner; Logistics Manager; Customs Clearance Assistant; Warehouse Associate
+DEP-0018,Production,Operations,10,Production Supervisor; Welder; Mechanical Engineer; Machine Operator; Production Line Worker; Garment Worker / Tailor; Packing Operator; Production Planner
+DEP-0019,Patient Services / Healthcare Administration,Professional / domain,5,Patient Services Executive; Healthcare Administrator; Clinic Coordinator; Medical Records Officer; Hospital Billing & Insurance Executive
+DEP-0020,Academic,Professional / domain,11,School Teacher; Senior Teacher; Subject Coordinator; Academic Coordinator; Head Teacher; Principal; Vice Principal; Pre-School Teacher
+DEP-0021,Management / Executive Office,Leadership,11,Academic Director; General Manager; Director; Managing Director; Branch Manager (Banking); Chief Financial Officer; Insurance Branch Manager; Executive Assistant
+DEP-0022,Founder's Office,Leadership,3,Founder / Entrepreneur; Start-up Founder; Franchise Owner
+DEP-0023,Field Sales,Customer-facing,9,Field Sales Executive; Medical Representative; FMCG Sales Representative; Area Sales Manager; Regional Sales Manager; Agri-Input Sales Representative; Solar Sales Executive; Retail Merchandiser (Field)
+DEP-0024,Retail Floor / Shop Floor,Customer-facing,15,Brand Promoter; Small Shop Salesperson; Shopping Mall Sales Associate; Clothing Salesperson; Footwear Salesperson; Supermarket Associate; Cashier; Stock Associate
+DEP-0025,After-Sales Service,Customer-facing,10,After-Sales Service Coordinator; Service Advisor (Automotive); Spare Parts Executive; Roadside Assistance Technician; AC & Appliance Technician; Mobile Phone Repair Technician; Field Service Technician; Broadband Installation Technician
+DEP-0026,Last-Mile Delivery & Dispatch,Operations,9,Food Delivery Executive; Parcel Delivery Executive; Newspaper Delivery Person; Milk Delivery Person; Gas Cylinder Delivery Person; Water Can Delivery Person; Delivery Hub Supervisor; Dispatch Coordinator
+DEP-0027,Transport & Fleet,Operations,9,Car Driver; Taxi / Ride-Hailing Driver; Auto-Rickshaw Driver; Truck Driver; Bus Driver; Bus Conductor; School Bus Attendant; Fleet Supervisor
+DEP-0028,Kitchen,Operations,6,Kitchen Helper; Cook; Chef de Partie; Sous Chef; Executive Chef; Catering Supervisor
+DEP-0029,Security,Support function,5,Security Guard; Security Supervisor; Security Officer (Corporate); CCTV Operator; Security Manager
+DEP-0030,Health & Safety (EHS),Support function,2,Safety Officer; Fire Safety Officer
+DEP-0031,Legal & Compliance,Support function,3,Advocate / Lawyer; Legal Assistant; Compliance Officer
+DEP-0032,Clinical & Nursing,Professional / domain,7,Doctor; Dentist; Medical Officer (Public Health); Staff Nurse; Hospital Assistant; Midwife; Nursing Supervisor
+DEP-0033,Diagnostics & Laboratory,Professional / domain,3,Laboratory Technician; Phlebotomist / Sample Collection Executive; Laboratory Manager
+DEP-0034,Pharmacy,Professional / domain,3,Pharmacist; Pharmacy Assistant; Pharmacy Store Manager
+DEP-0035,Optometry & Eye Care,Professional / domain,4,Optometrist; Optical Sales Associate; Ophthalmic Assistant; Optical Store Manager
+DEP-0036,School / Education Administration,Professional / domain,5,School Administrator; Admissions Counsellor; School Office Assistant; Examinations Coordinator; College Registrar
+DEP-0037,Field Operations & Surveys,Operations,9,Survey Enumerator; Field Supervisor (Surveys); Field Officer; Market Research Field Executive; Census Enumerator; Field Verification Officer; Automobile Field Executive; Meter Reader
+DEP-0038,Electoral Operations,Public service,5,Booth Level Officer; BLO Supervisor; Polling Officer; Presiding Officer; Electoral Registration Assistant
+DEP-0039,Citizen Services & Public Enquiry,Public service,7,Government Office Assistant; Citizen Service Centre Operator; Local Government Officer; Postal Assistant; Ration Shop Dealer; Municipal Inspector; Police Constable (Public Interaction)
+DEP-0040,Research & Analytics,Professional / domain,2,Data Analyst; Data Scientist
+DEP-0041,Workshop / Service Bay,Operations,5,Workshop Manager; Automobile Technician; Two-Wheeler Mechanic; Body Shop Technician; Workshop Supervisor
+DEP-0042,Site Operations,Operations,16,Carpenter; Painter (Building); Solar Panel Installer; Construction Worker; Mason; Site Supervisor; Site Engineer; Construction Project Manager
+DEP-0043,Creative & Content,Professional / domain,6,Camera Operator; Radio Jockey; Graphic Designer; Photographer; Video Editor; Content Writer
+DEP-0044,Events,Operations,5,Event Coordinator; Event Manager; Wedding Planner; Decorator; Sports Event Coordinator
+DEP-0045,Collections & Recovery,Operations,1,Collections Executive
+DEP-0046,Community Outreach,Public service,9,Agricultural Extension Worker; FPO Coordinator; Community Health Worker; Anganwadi Worker; Community Mobiliser; Social Worker; Programme Officer; Programme Manager (NGO)
+DEP-0047,Care Services,Professional / domain,2,Home Care Nurse; Caregiver / Elder Care Attendant
+DEP-0048,Not applicable — own business / self-employed,Self-employed,30,Street Vendor; Vegetable Seller; Fruit Seller; Fish Seller; Meat Seller; Flower Seller; Street Food Vendor; Tea Stall Owner
+DEP-0049,Household (domestic employer),Self-employed,3,Domestic Worker; Home Cook; Nanny / Babysitter
+DEP-0050,Editorial & Newsroom,Professional / domain,3,Journalist / Reporter; News Editor; News Anchor
