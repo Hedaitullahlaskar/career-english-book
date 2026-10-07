@@ -1,0 +1,438 @@
+{
+  "requestId": "REQ-000006",
+  "contractVersion": "1.0",
+  "model": "GPT-6",
+  "outputs": [
+    {
+      "tempId": "tmp:RIN-000001",
+      "type": "unit",
+      "key": "L6|RPF-000001|STM-0020|A1",
+      "record": {
+        "content": {
+          "title": "Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
+          "cefr": "A1",
+          "context": {
+            "setting": "Your vegetable stall at a local market. Today's tomatoes are ₹50 a kilo. You can offer ₹45 for one kilo.",
+            "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+            "stakeholders": [
+              {"archetype": "Customer", "name": "Rupa", "relationship": "external"},
+              {"archetype": "Regular customer", "name": "Neel", "relationship": "external"}
+            ],
+            "objective": "State a price, politely refuse a low offer, and agree a price for one kilo of tomatoes.",
+            "constraints": [
+              "Use only the prices and stock given in each practice.",
+              "Agree only an offer you can make at your own stall.",
+              "Make no health, pesticide or certification claims."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {"n": 1, "speaker": "Rupa", "learner": false, "text": "How much are the tomatoes?"},
+                {"n": 2, "speaker": "You", "learner": true, "text": "₹50 a kilo.", "functions": ["CFN-0085"]},
+                {"n": 3, "speaker": "Rupa", "learner": false, "text": "Can you make it ₹40?"},
+                {"n": 4, "speaker": "You", "learner": true, "text": "Sorry, I cannot do that.", "functions": ["CFN-0020"]},
+                {"n": 5, "speaker": "Rupa", "learner": false, "text": "What is your best price?"},
+                {"n": 6, "speaker": "You", "learner": true, "text": "I can offer ₹45.", "functions": ["CFN-0087", "CFN-0085"]},
+                {"n": 7, "speaker": "Rupa", "learner": false, "text": "₹45 for one kilo?"},
+                {"n": 8, "speaker": "You", "learner": true, "text": "Yes, one kilo for ₹45.", "functions": ["CFN-0085"]},
+                {"n": 9, "speaker": "Rupa", "learner": false, "text": "I'll take one kilo, please."},
+                {"n": 10, "speaker": "You", "learner": true, "text": "One kilo for ₹45.", "functions": ["CFN-0085"]}
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {"text": "₹50 a kilo.", "function": "CFN-0085", "note": "Say the price and the amount."},
+              {"text": "Sorry, I cannot do that.", "function": "CFN-0020", "note": "Politely refuse the customer's offer."},
+              {"text": "I can offer ₹45.", "function": "CFN-0087", "note": "Give a price you can accept."}
+            ],
+            "vocabulary": [
+              {"term": "tomato", "definition": "A red vegetable sold at the stall.", "example": "These tomatoes are ₹50 a kilo.", "tempId": "tmp:RIN-000001:v1"},
+              {"term": "price", "definition": "The money you ask for an item.", "example": "The price is ₹50 a kilo.", "tempId": "tmp:RIN-000001:v2"},
+              {"term": "cheaper", "definition": "Costing less money.", "example": "₹45 is cheaper than ₹50.", "tempId": "tmp:RIN-000001:v3"},
+              {"term": "offer", "definition": "A price someone suggests.", "example": "I cannot accept your ₹40 offer.", "tempId": "tmp:RIN-000001:v4"},
+              {"term": "best price", "definition": "The lowest price you can offer here.", "example": "My best price is ₹45 a kilo.", "tempId": "tmp:RIN-000001:v5"}
+            ],
+            "notes": [
+              "₹ means rupees. These prices are for this practice.",
+              "Listen for the price per kilo, not just the number."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "choose-response",
+              "prompt": "Choose the seller's reply.",
+              "items": [
+                {"q": "The customer asks the price. Tomatoes are ₹50 a kilo.", "options": ["₹50 a kilo.", "Two tomatoes, please.", "Here is your change."]}
+              ],
+              "answers": ["₹50 a kilo."]
+            },
+            {
+              "id": "GP2",
+              "type": "gap-fill",
+              "prompt": "Complete the polite refusal.",
+              "items": [{"q": "Sorry, I ___ do that."}],
+              "answers": ["cannot"]
+            },
+            {
+              "id": "GP3",
+              "type": "short-answer",
+              "prompt": "Give a new offer.",
+              "items": [{"q": "The customer offers ₹40. Your lowest price is ₹45 a kilo. Offer that price."}],
+              "answers": ["I can offer ₹45 a kilo."]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Work in pairs. Read your own card. Ask, offer and reply. Agree a price. Then change roles.",
+            "cards": [
+              {"role": "Vegetable Seller", "goal": "Sell one kilo of tomatoes at a price you can accept.", "info": "Start at ₹50 a kilo. You can accept ₹45, but not ₹40."},
+              {"role": "Rupa, customer", "goal": "Buy one kilo of tomatoes.", "info": "Offer ₹40 first. Ask for the best price. You can accept ₹45."}
+            ]
+          },
+          "performanceTask": {
+            "prompt": "Neel wants one kilo of tomatoes. In this new practice, your price is ₹60 a kilo and your lowest price is ₹55. Neel offers ₹50, then accepts ₹55. Speak as the seller without reading the model.",
+            "modes": ["speak"],
+            "successCriteria": [
+              "State ₹60 a kilo.",
+              "Politely refuse ₹50.",
+              "Offer ₹55.",
+              "Confirm one kilo for ₹55."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I say the price per kilo?",
+              "Did I refuse politely?",
+              "Did I stay within my given prices?",
+              "Did I confirm the final amount and price?"
+            ],
+            "rubric": [
+              {"criterion": "Clear starting price", "weight": 25},
+              {"criterion": "Polite refusal", "weight": 25},
+              {"criterion": "Suitable new offer", "weight": 25},
+              {"criterion": "Clear final agreement", "weight": 25}
+            ]
+          },
+          "reviewRetrieval": [
+            {"prompt": "Later, cover the model. Say a polite refusal.", "answer": "Sorry, I cannot do that."},
+            {"prompt": "Offer one kilo for ₹45.", "answer": "I can offer ₹45 a kilo."}
+          ],
+          "answerKey": [
+            {"taskRef": "GP1", "answer": "₹50 a kilo."},
+            {"taskRef": "GP2", "answer": "cannot"},
+            {"taskRef": "GP3", "answer": "I can offer ₹45 a kilo."},
+            {"taskRef": "performance", "answer": "Possible seller replies: ₹60 a kilo. / Sorry, I cannot do that. / I can offer ₹55. / One kilo for ₹55."}
+          ]
+        }
+      }
+    },
+    {
+      "tempId": "tmp:RIN-000002",
+      "type": "unit",
+      "key": "L6|RPF-000001|STM-0021|A1",
+      "record": {
+        "content": {
+          "title": "Discussing quantity, weight and measures — Vegetable Seller (A1)",
+          "cefr": "A1",
+          "context": {
+            "setting": "Your vegetable stall. Potatoes are sold by weight. Onions are also available as individual small or large ones.",
+            "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+            "stakeholders": [
+              {"archetype": "Customer", "name": "Sana", "relationship": "external"}
+            ],
+            "objective": "Ask how much the customer wants and confirm weight, number and size.",
+            "constraints": [
+              "Use only the vegetables and amounts given in each practice.",
+              "Check unclear amounts before confirming the order.",
+              "Make no health, pesticide or certification claims."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {"n": 1, "speaker": "Sana", "learner": false, "text": "Potatoes, please."},
+                {"n": 2, "speaker": "You", "learner": true, "text": "How much do you need?", "functions": ["CFN-0086"]},
+                {"n": 3, "speaker": "Sana", "learner": false, "text": "Half a kilo."},
+                {"n": 4, "speaker": "You", "learner": true, "text": "These weigh half a kilo.", "functions": ["CFN-0086"]},
+                {"n": 5, "speaker": "Sana", "learner": false, "text": "And two onions, please."},
+                {"n": 6, "speaker": "You", "learner": true, "text": "Two small ones or two large ones?", "functions": ["CFN-0086"]},
+                {"n": 7, "speaker": "Sana", "learner": false, "text": "Two large ones."},
+                {"n": 8, "speaker": "You", "learner": true, "text": "Half a kilo and two large onions.", "functions": ["CFN-0086"]},
+                {"n": 9, "speaker": "Sana", "learner": false, "text": "Yes, that's right."},
+                {"n": 10, "speaker": "You", "learner": true, "text": "Two large onions, as you asked.", "functions": ["CFN-0086"]}
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {"text": "How much do you need?", "function": "CFN-0086", "note": "Ask about weight."},
+              {"text": "How many do you want?", "function": "CFN-0086", "note": "Ask about number."},
+              {"text": "These weigh half a kilo.", "function": "CFN-0086", "note": "Say the weight."},
+              {"text": "Two small ones or two large ones?", "function": "CFN-0086", "note": "Check the size."}
+            ],
+            "vocabulary": [
+              {"term": "potato", "definition": "A vegetable often sold by weight.", "example": "Half a kilo of potatoes, please.", "tempId": "tmp:RIN-000002:v1"},
+              {"term": "onion", "definition": "A round vegetable with layers.", "example": "Two large onions, please.", "tempId": "tmp:RIN-000002:v2"},
+              {"term": "kilo", "definition": "A short word for kilogram; a unit of weight.", "example": "One kilo of potatoes, please.", "tempId": "tmp:RIN-000002:v3"},
+              {"term": "half", "definition": "One of two equal parts.", "example": "Half a kilo, please.", "tempId": "tmp:RIN-000002:v4"},
+              {"term": "weigh", "definition": "To have a particular weight.", "example": "These potatoes weigh half a kilo.", "tempId": "tmp:RIN-000002:v5"}
+            ],
+            "notes": [
+              "Use 'how much' for weight and 'how many' for a number of items.",
+              "Here, 'ones' means onions."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "choose-response",
+              "prompt": "Choose the question about weight.",
+              "items": [
+                {"q": "A customer wants potatoes. You need the weight.", "options": ["How much do you need?", "How many large onions?"]}
+              ],
+              "answers": ["How much do you need?"]
+            },
+            {
+              "id": "GP2",
+              "type": "gap-fill",
+              "prompt": "Ask about number.",
+              "items": [{"q": "How ___ onions do you want?"}],
+              "answers": ["many"]
+            },
+            {
+              "id": "GP3",
+              "type": "short-answer",
+              "prompt": "Confirm the order.",
+              "items": [{"q": "The customer wants half a kilo of potatoes and two large onions. Say both amounts."}],
+              "answers": ["Half a kilo of potatoes and two large onions."]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Work in pairs. Ask about weight, number and size. Repeat the complete order. The customer checks it. Then change roles.",
+            "cards": [
+              {"role": "Vegetable Seller", "goal": "Find out and confirm the order.", "info": "You have potatoes and small or large onions. Ask for any missing amount or size."},
+              {"role": "Sana, customer", "goal": "Get the amounts you want.", "info": "Start with 'Potatoes and onions, please.' You want half a kilo of potatoes and two large onions. Give the amounts when asked."}
+            ]
+          },
+          "performanceTask": {
+            "prompt": "A customer says, 'Potatoes and onions, please.' Ask for the missing details. Your partner wants one kilo of potatoes and three small onions. Confirm the complete order without reading the model.",
+            "modes": ["speak"],
+            "successCriteria": [
+              "Ask for the potato weight.",
+              "Ask for the number of onions.",
+              "Check the onion size.",
+              "Confirm one kilo of potatoes and three small onions."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I ask 'how much' about weight?",
+              "Did I ask 'how many' about number?",
+              "Did I check the size?",
+              "Did I repeat the correct order?"
+            ],
+            "rubric": [
+              {"criterion": "Weight question", "weight": 25},
+              {"criterion": "Number question", "weight": 25},
+              {"criterion": "Size check", "weight": 25},
+              {"criterion": "Correct final order", "weight": 25}
+            ]
+          },
+          "reviewRetrieval": [
+            {"prompt": "Later, cover the model. Ask about the weight a customer wants.", "answer": "How much do you need?"},
+            {"prompt": "Ask about the number of onions.", "answer": "How many onions do you want?"}
+          ],
+          "answerKey": [
+            {"taskRef": "GP1", "answer": "How much do you need?"},
+            {"taskRef": "GP2", "answer": "many"},
+            {"taskRef": "GP3", "answer": "Half a kilo of potatoes and two large onions."},
+            {"taskRef": "performance", "answer": "Possible replies: How much do you need? / How many onions do you want? / Small ones or large ones? / One kilo of potatoes. Three small onions."}
+          ]
+        }
+      }
+    },
+    {
+      "tempId": "tmp:RIN-000003",
+      "type": "unit",
+      "key": "L6|RPF-000001|STM-0034|A1",
+      "record": {
+        "content": {
+          "title": "Taking payment (cash, UPI, card) — Vegetable Seller (A1)",
+          "cefr": "A1",
+          "context": {
+            "setting": "Your vegetable stall. Dev's potatoes cost ₹40 and onions cost ₹20: ₹60 in total. This stall accepts cash and UPI, but not cards.",
+            "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+            "stakeholders": [
+              {"archetype": "Customer", "name": "Dev", "relationship": "external"}
+            ],
+            "objective": "State the total, discuss the available payment methods, and confirm change or a known payment result.",
+            "constraints": [
+              "Use only the prices and payment facts given in each practice.",
+              "Do not say a UPI payment is received unless the practice says it is confirmed.",
+              "Give no financial, regulatory or payment-system advice."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {"n": 1, "speaker": "Dev", "learner": false, "text": "What is the total?"},
+                {"n": 2, "speaker": "You", "learner": true, "text": "That is ₹60, please.", "functions": ["CFN-0089"]},
+                {"n": 3, "speaker": "Dev", "learner": false, "text": "Can I pay cash?"},
+                {"n": 4, "speaker": "You", "learner": true, "text": "Yes. Cash or UPI is fine.", "functions": ["CFN-0089"]},
+                {"n": 5, "speaker": "Dev", "learner": false, "text": "Here is ₹100."},
+                {"n": 6, "speaker": "You", "learner": true, "text": "Here is your ₹40 change.", "functions": ["CFN-0089"]},
+                {"n": 7, "speaker": "Dev", "learner": false, "text": "Can I have a receipt?"},
+                {"n": 8, "speaker": "You", "learner": true, "text": "Here is your receipt.", "functions": ["CFN-0089"]}
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {"text": "That is ₹60, please.", "function": "CFN-0089", "note": "State the total."},
+              {"text": "Cash or UPI is fine.", "function": "CFN-0089", "note": "Say which payment methods are available."},
+              {"text": "Here is your ₹40 change.", "function": "CFN-0089", "note": "Say the change you return."},
+              {"text": "Here is your receipt.", "function": "CFN-0089", "note": "Give the payment record."}
+            ],
+            "vocabulary": [
+              {"term": "cash", "definition": "Money in notes or coins.", "example": "Can I pay cash?", "tempId": "tmp:RIN-000003:v1"},
+              {"term": "change", "definition": "Money returned when someone pays more than the total.", "example": "Here is your ₹40 change.", "tempId": "tmp:RIN-000003:v2"},
+              {"term": "receipt", "definition": "A written record of a payment.", "example": "Here is your receipt.", "tempId": "tmp:RIN-000003:v3"},
+              {"term": "total", "definition": "The full amount to pay.", "example": "The total is ₹60.", "tempId": "tmp:RIN-000003:v4"},
+              {"term": "UPI", "definition": "A digital payment method used in India.", "example": "Cash or UPI is fine.", "tempId": "tmp:RIN-000003:v5"}
+            ],
+            "notes": [
+              "In the model, ₹100 minus ₹60 is ₹40 change.",
+              "UPI means Unified Payments Interface. Practise payment communication, not how to use an app."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "short-answer",
+              "prompt": "Say the change.",
+              "items": [{"q": "The total is ₹60. The customer gives you ₹100."}],
+              "answers": ["Here is your ₹40 change."]
+            },
+            {
+              "id": "GP2",
+              "type": "choose-response",
+              "prompt": "Use the payment fact given.",
+              "items": [
+                {
+                  "q": "The UPI payment of ₹60 is confirmed as received. Choose your reply.",
+                  "options": ["Your ₹60 payment is received. Thank you.", "Here is your ₹40 change."]
+                }
+              ],
+              "answers": ["Your ₹60 payment is received. Thank you."]
+            },
+            {
+              "id": "GP3",
+              "type": "choose-response",
+              "prompt": "State the available methods.",
+              "items": [
+                {
+                  "q": "The customer asks, 'Can I pay by card?' Your stall accepts cash and UPI only.",
+                  "options": ["Sorry, cash or UPI only.", "Yes, all cards are fine."]
+                }
+              ],
+              "answers": ["Sorry, cash or UPI only."]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Work in pairs. State the total and payment methods. Take the customer's cash, say the change and give a receipt. Then change roles.",
+            "cards": [
+              {"role": "Vegetable Seller", "goal": "Complete payment for the vegetables.", "info": "The total is ₹75. You accept cash and UPI. For this practice, the customer gives you ₹100 cash. You have ₹25 change and a receipt."},
+              {"role": "Dev, customer", "goal": "Pay for the vegetables and get a receipt.", "info": "Ask the total and whether cash is accepted. Give ₹100 cash. Ask for a receipt."}
+            ]
+          },
+          "performanceTask": {
+            "prompt": "The vegetables total ₹90. Your stall accepts cash and UPI only. Your partner asks to pay by card, then gives you ₹100 cash. You have ₹10 change and a receipt. Complete the payment conversation without reading the model.",
+            "modes": ["speak"],
+            "successCriteria": [
+              "State the ₹90 total.",
+              "Say cash or UPI only.",
+              "Return and state ₹10 change.",
+              "Give the receipt."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I state the correct total?",
+              "Did I name only the available methods?",
+              "Did I say the correct change?",
+              "Did I give the receipt?"
+            ],
+            "rubric": [
+              {"criterion": "Correct total", "weight": 25},
+              {"criterion": "Accurate payment methods", "weight": 25},
+              {"criterion": "Correct change", "weight": 25},
+              {"criterion": "Receipt communication", "weight": 25}
+            ]
+          },
+          "reviewRetrieval": [
+            {"prompt": "Later, cover the model. Ask the customer's payment method.", "answer": "Cash or UPI?"},
+            {"prompt": "The total is ₹90 and the customer pays ₹100. Say the change.", "answer": "Here is your ₹10 change."}
+          ],
+          "answerKey": [
+            {"taskRef": "GP1", "answer": "Here is your ₹40 change."},
+            {"taskRef": "GP2", "answer": "Your ₹60 payment is received. Thank you."},
+            {"taskRef": "GP3", "answer": "Sorry, cash or UPI only."},
+            {"taskRef": "performance", "answer": "Possible seller replies: That is ₹90, please. / Sorry, cash or UPI only. / Here is your ₹10 change. / Here is your receipt."}
+          ]
+        }
+      }
+    }
+  ],
+  "selfCheck": [
+    {
+      "check": "Request generated",
+      "result": "met",
+      "notes": "REQ-000006 only. Request identifier, tempIds, types and keys preserved."
+    },
+    {
+      "check": "Records generated",
+      "result": "met",
+      "notes": "3 L6 units, all A1, in record.content."
+    },
+    {
+      "check": "Shared records reused",
+      "result": "met",
+      "notes": "14 unique existing L0–L5 records reused across 23 dependency references. All dependencies exist. Parent ROL-0080 and child ROL-0081 retained; no shared records regenerated."
+    },
+    {
+      "check": "New records",
+      "result": "met",
+      "notes": "3 new unit records; 15 proposed vocabulary terms with temporary identifiers. Vocabulary code allocation remains pending ingestion."
+    },
+    {
+      "check": "AI-QA result",
+      "result": "met",
+      "notes": "PASS. Repository response/unit schema checks and qa_unit checks returned no findings. AI review checked A1 appropriateness, role and situation realism, communication functions, answer keys, arithmetic, vegetable-market context and specialist/safety boundaries. Editorial Review remains PENDING. No specialist/native review or formal CEFR validation claimed."
+    },
+    {
+      "check": "Duplicate result",
+      "result": "met",
+      "notes": "0 duplicate output keys, 0 existing-store output-key matches and 0 duplicate proposed vocabulary terms."
+    },
+    {
+      "check": "Vocabulary result",
+      "result": "met",
+      "notes": "0 vocabulary collisions detected against existing core vocabulary and the curriculum vocabulary store. No vocabulary codes invented, assigned or changed."
+    },
+    {
+      "check": "Warnings/errors",
+      "result": "met",
+      "notes": "0 warnings and 0 errors. No later requests generated. No protected repository files changed; nothing compiled or published."
+    },
+    {
+      "check": "Next processing step",
+      "result": "met",
+      "notes": "Save this unchanged response as editorial/curriculum/responses/REQ-000006.json, then validate and ingest using the official repository process when authorised. No ingestion, planning, unlocking or commit performed during this generation step."
+    }
+  ],
+  "assumptions": [],
+  "flags": [],
+  "questions": []
+}

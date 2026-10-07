@@ -1,1 +1,302 @@
-[]
+[
+ {
+  "code": "V-VEGM-0001",
+  "term": "tomato",
+  "pos": "",
+  "definition": "A red vegetable sold at the stall.",
+  "example": "These tomatoes are ₹50 a kilo.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000001",
+  "usedBy": [
+   "RIN-000001"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000001:v1"
+  }
+ },
+ {
+  "code": "V-VEGM-0002",
+  "term": "price",
+  "pos": "",
+  "definition": "The money you ask for an item.",
+  "example": "The price is ₹50 a kilo.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000001",
+  "usedBy": [
+   "RIN-000001"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000001:v2"
+  }
+ },
+ {
+  "code": "V-VEGM-0003",
+  "term": "cheaper",
+  "pos": "",
+  "definition": "Costing less money.",
+  "example": "₹45 is cheaper than ₹50.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000001",
+  "usedBy": [
+   "RIN-000001"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000001:v3"
+  }
+ },
+ {
+  "code": "V-VEGM-0004",
+  "term": "offer",
+  "pos": "",
+  "definition": "A price someone suggests.",
+  "example": "I cannot accept your ₹40 offer.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000001",
+  "usedBy": [
+   "RIN-000001"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000001:v4"
+  }
+ },
+ {
+  "code": "V-VEGM-0005",
+  "term": "best price",
+  "pos": "",
+  "definition": "The lowest price you can offer here.",
+  "example": "My best price is ₹45 a kilo.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000001",
+  "usedBy": [
+   "RIN-000001"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000001:v5"
+  }
+ },
+ {
+  "code": "V-VEGM-0006",
+  "term": "potato",
+  "pos": "",
+  "definition": "A vegetable often sold by weight.",
+  "example": "Half a kilo of potatoes, please.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000002",
+  "usedBy": [
+   "RIN-000002"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000002:v1"
+  }
+ },
+ {
+  "code": "V-VEGM-0007",
+  "term": "onion",
+  "pos": "",
+  "definition": "A round vegetable with layers.",
+  "example": "Two large onions, please.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000002",
+  "usedBy": [
+   "RIN-000002"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000002:v2"
+  }
+ },
+ {
+  "code": "V-VEGM-0008",
+  "term": "kilo",
+  "pos": "",
+  "definition": "A short word for kilogram; a unit of weight.",
+  "example": "One kilo of potatoes, please.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000002",
+  "usedBy": [
+   "RIN-000002"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000002:v3"
+  }
+ },
+ {
+  "code": "V-VEGM-0009",
+  "term": "half",
+  "pos": "",
+  "definition": "One of two equal parts.",
+  "example": "Half a kilo, please.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000002",
+  "usedBy": [
+   "RIN-000002"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000002:v4"
+  }
+ },
+ {
+  "code": "V-VEGM-0010",
+  "term": "weigh",
+  "pos": "",
+  "definition": "To have a particular weight.",
+  "example": "These potatoes weigh half a kilo.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000002",
+  "usedBy": [
+   "RIN-000002"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000002:v5"
+  }
+ },
+ {
+  "code": "V-VEGM-0011",
+  "term": "cash",
+  "pos": "",
+  "definition": "Money in notes or coins.",
+  "example": "Can I pay cash?",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000003",
+  "usedBy": [
+   "RIN-000003"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000003:v1"
+  }
+ },
+ {
+  "code": "V-VEGM-0012",
+  "term": "change",
+  "pos": "",
+  "definition": "Money returned when someone pays more than the total.",
+  "example": "Here is your ₹40 change.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000003",
+  "usedBy": [
+   "RIN-000003"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000003:v2"
+  }
+ },
+ {
+  "code": "V-VEGM-0013",
+  "term": "receipt",
+  "pos": "",
+  "definition": "A written record of a payment.",
+  "example": "Here is your receipt.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000003",
+  "usedBy": [
+   "RIN-000003"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000003:v3"
+  }
+ },
+ {
+  "code": "V-VEGM-0014",
+  "term": "total",
+  "pos": "",
+  "definition": "The full amount to pay.",
+  "example": "The total is ₹60.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000003",
+  "usedBy": [
+   "RIN-000003"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000003:v4"
+  }
+ },
+ {
+  "code": "V-VEGM-0015",
+  "term": "UPI",
+  "pos": "",
+  "definition": "A digital payment method used in India.",
+  "example": "Cash or UPI is fine.",
+  "scope": "VEGM",
+  "cefr": "A1",
+  "home": "RIN-000003",
+  "usedBy": [
+   "RIN-000003"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000006",
+   "tempId": "tmp:RIN-000003:v5"
+  }
+ }
+]

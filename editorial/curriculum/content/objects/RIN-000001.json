@@ -1,0 +1,327 @@
+{
+ "id": "RIN-000001",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000001|STM-0020|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000006",
+  "ingestedAt": "2026-10-07 20:45",
+  "tempId": "tmp:RIN-000001"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-VEGM-0001",
+  "V-VEGM-0002",
+  "V-VEGM-0003",
+  "V-VEGM-0004",
+  "V-VEGM-0005"
+ ],
+ "contentHash": "678d82e85db62f88",
+ "content": {
+  "title": "Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
+  "cefr": "A1",
+  "context": {
+   "setting": "Your vegetable stall at a local market. Today's tomatoes are ₹50 a kilo. You can offer ₹45 for one kilo.",
+   "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Rupa",
+     "relationship": "external"
+    },
+    {
+     "archetype": "Regular customer",
+     "name": "Neel",
+     "relationship": "external"
+    }
+   ],
+   "objective": "State a price, politely refuse a low offer, and agree a price for one kilo of tomatoes.",
+   "constraints": [
+    "Use only the prices and stock given in each practice.",
+    "Agree only an offer you can make at your own stall.",
+    "Make no health, pesticide or certification claims."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "Rupa",
+      "learner": false,
+      "text": "How much are the tomatoes?"
+     },
+     {
+      "n": 2,
+      "speaker": "You",
+      "learner": true,
+      "text": "₹50 a kilo.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 3,
+      "speaker": "Rupa",
+      "learner": false,
+      "text": "Can you make it ₹40?"
+     },
+     {
+      "n": 4,
+      "speaker": "You",
+      "learner": true,
+      "text": "Sorry, I cannot do that.",
+      "functions": [
+       "CFN-0020"
+      ]
+     },
+     {
+      "n": 5,
+      "speaker": "Rupa",
+      "learner": false,
+      "text": "What is your best price?"
+     },
+     {
+      "n": 6,
+      "speaker": "You",
+      "learner": true,
+      "text": "I can offer ₹45.",
+      "functions": [
+       "CFN-0087",
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 7,
+      "speaker": "Rupa",
+      "learner": false,
+      "text": "₹45 for one kilo?"
+     },
+     {
+      "n": 8,
+      "speaker": "You",
+      "learner": true,
+      "text": "Yes, one kilo for ₹45.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 9,
+      "speaker": "Rupa",
+      "learner": false,
+      "text": "I'll take one kilo, please."
+     },
+     {
+      "n": 10,
+      "speaker": "You",
+      "learner": true,
+      "text": "One kilo for ₹45.",
+      "functions": [
+       "CFN-0085"
+      ]
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "₹50 a kilo.",
+     "function": "CFN-0085",
+     "note": "Say the price and the amount."
+    },
+    {
+     "text": "Sorry, I cannot do that.",
+     "function": "CFN-0020",
+     "note": "Politely refuse the customer's offer."
+    },
+    {
+     "text": "I can offer ₹45.",
+     "function": "CFN-0087",
+     "note": "Give a price you can accept."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "tomato",
+     "definition": "A red vegetable sold at the stall.",
+     "example": "These tomatoes are ₹50 a kilo.",
+     "tempId": "tmp:RIN-000001:v1",
+     "existingCode": "V-VEGM-0001"
+    },
+    {
+     "term": "price",
+     "definition": "The money you ask for an item.",
+     "example": "The price is ₹50 a kilo.",
+     "tempId": "tmp:RIN-000001:v2",
+     "existingCode": "V-VEGM-0002"
+    },
+    {
+     "term": "cheaper",
+     "definition": "Costing less money.",
+     "example": "₹45 is cheaper than ₹50.",
+     "tempId": "tmp:RIN-000001:v3",
+     "existingCode": "V-VEGM-0003"
+    },
+    {
+     "term": "offer",
+     "definition": "A price someone suggests.",
+     "example": "I cannot accept your ₹40 offer.",
+     "tempId": "tmp:RIN-000001:v4",
+     "existingCode": "V-VEGM-0004"
+    },
+    {
+     "term": "best price",
+     "definition": "The lowest price you can offer here.",
+     "example": "My best price is ₹45 a kilo.",
+     "tempId": "tmp:RIN-000001:v5",
+     "existingCode": "V-VEGM-0005"
+    }
+   ],
+   "notes": [
+    "₹ means rupees. These prices are for this practice.",
+    "Listen for the price per kilo, not just the number."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "choose-response",
+    "prompt": "Choose the seller's reply.",
+    "items": [
+     {
+      "q": "The customer asks the price. Tomatoes are ₹50 a kilo.",
+      "options": [
+       "₹50 a kilo.",
+       "Two tomatoes, please.",
+       "Here is your change."
+      ]
+     }
+    ],
+    "answers": [
+     "₹50 a kilo."
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "gap-fill",
+    "prompt": "Complete the polite refusal.",
+    "items": [
+     {
+      "q": "Sorry, I ___ do that."
+     }
+    ],
+    "answers": [
+     "cannot"
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "short-answer",
+    "prompt": "Give a new offer.",
+    "items": [
+     {
+      "q": "The customer offers ₹40. Your lowest price is ₹45 a kilo. Offer that price."
+     }
+    ],
+    "answers": [
+     "I can offer ₹45 a kilo."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Work in pairs. Read your own card. Ask, offer and reply. Agree a price. Then change roles.",
+   "cards": [
+    {
+     "role": "Vegetable Seller",
+     "goal": "Sell one kilo of tomatoes at a price you can accept.",
+     "info": "Start at ₹50 a kilo. You can accept ₹45, but not ₹40."
+    },
+    {
+     "role": "Rupa, customer",
+     "goal": "Buy one kilo of tomatoes.",
+     "info": "Offer ₹40 first. Ask for the best price. You can accept ₹45."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "Neel wants one kilo of tomatoes. In this new practice, your price is ₹60 a kilo and your lowest price is ₹55. Neel offers ₹50, then accepts ₹55. Speak as the seller without reading the model.",
+   "modes": [
+    "speak"
+   ],
+   "successCriteria": [
+    "State ₹60 a kilo.",
+    "Politely refuse ₹50.",
+    "Offer ₹55.",
+    "Confirm one kilo for ₹55."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I say the price per kilo?",
+    "Did I refuse politely?",
+    "Did I stay within my given prices?",
+    "Did I confirm the final amount and price?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Clear starting price",
+     "weight": 25
+    },
+    {
+     "criterion": "Polite refusal",
+     "weight": 25
+    },
+    {
+     "criterion": "Suitable new offer",
+     "weight": 25
+    },
+    {
+     "criterion": "Clear final agreement",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, cover the model. Say a polite refusal.",
+    "answer": "Sorry, I cannot do that."
+   },
+   {
+    "prompt": "Offer one kilo for ₹45.",
+    "answer": "I can offer ₹45 a kilo."
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "₹50 a kilo."
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "cannot"
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "I can offer ₹45 a kilo."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible seller replies: ₹60 a kilo. / Sorry, I cannot do that. / I can offer ₹55. / One kilo for ₹55."
+   }
+  ]
+ }
+}

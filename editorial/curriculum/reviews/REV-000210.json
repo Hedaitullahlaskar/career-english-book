@@ -1,0 +1,10 @@
+{
+ "id": "REV-000210",
+ "target": "RIN-000001",
+ "stage": "EDITORIAL_REVIEW",
+ "reviewer": "author",
+ "result": "PENDING",
+ "reason": "Editorial Review is performed by the author (D-U13b)",
+ "findings": [],
+ "date": "2026-10-07 20:45"
+}

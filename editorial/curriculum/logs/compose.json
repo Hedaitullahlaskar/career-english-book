@@ -2,28 +2,51 @@
  {
   "id": "RIN-000001",
   "title": "Bargaining over price (markets and small shops) — Vegetable Seller (A1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000001|STM-0020|A1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000001",
+   "FEX-000002",
+   "FEX-000003",
+   "SCN-000001",
+   "CMC-000001",
+   "RCO-000001",
+   "RCO-000002",
+   "CTX-000001",
+   "SNO-000001",
+   "RIN-000001"
   ]
  },
  {
   "id": "RIN-000002",
   "title": "Discussing quantity, weight and measures — Vegetable Seller (A1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000001|STM-0021|A1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000004",
+   "SCN-000002",
+   "CMC-000001",
+   "RCO-000001",
+   "RCO-000002",
+   "CTX-000001",
+   "SNO-000001",
+   "RIN-000002"
   ]
  },
  {
   "id": "RIN-000003",
   "title": "Taking payment (cash, UPI, card) — Vegetable Seller (A1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000001|STM-0034|A1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000005",
+   "SCN-000003",
+   "CMC-000002",
+   "RCO-000001",
+   "RCO-000002",
+   "CTX-000001",
+   "SNO-000001",
+   "RIN-000003"
   ]
  },
  {

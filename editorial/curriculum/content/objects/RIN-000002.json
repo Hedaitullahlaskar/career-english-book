@@ -1,0 +1,325 @@
+{
+ "id": "RIN-000002",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000001|STM-0021|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000006",
+  "ingestedAt": "2026-10-07 20:45",
+  "tempId": "tmp:RIN-000002"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-VEGM-0006",
+  "V-VEGM-0007",
+  "V-VEGM-0008",
+  "V-VEGM-0009",
+  "V-VEGM-0010"
+ ],
+ "contentHash": "2b079f459ffb249b",
+ "content": {
+  "title": "Discussing quantity, weight and measures — Vegetable Seller (A1)",
+  "cefr": "A1",
+  "context": {
+   "setting": "Your vegetable stall. Potatoes are sold by weight. Onions are also available as individual small or large ones.",
+   "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Sana",
+     "relationship": "external"
+    }
+   ],
+   "objective": "Ask how much the customer wants and confirm weight, number and size.",
+   "constraints": [
+    "Use only the vegetables and amounts given in each practice.",
+    "Check unclear amounts before confirming the order.",
+    "Make no health, pesticide or certification claims."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "Sana",
+      "learner": false,
+      "text": "Potatoes, please."
+     },
+     {
+      "n": 2,
+      "speaker": "You",
+      "learner": true,
+      "text": "How much do you need?",
+      "functions": [
+       "CFN-0086"
+      ]
+     },
+     {
+      "n": 3,
+      "speaker": "Sana",
+      "learner": false,
+      "text": "Half a kilo."
+     },
+     {
+      "n": 4,
+      "speaker": "You",
+      "learner": true,
+      "text": "These weigh half a kilo.",
+      "functions": [
+       "CFN-0086"
+      ]
+     },
+     {
+      "n": 5,
+      "speaker": "Sana",
+      "learner": false,
+      "text": "And two onions, please."
+     },
+     {
+      "n": 6,
+      "speaker": "You",
+      "learner": true,
+      "text": "Two small ones or two large ones?",
+      "functions": [
+       "CFN-0086"
+      ]
+     },
+     {
+      "n": 7,
+      "speaker": "Sana",
+      "learner": false,
+      "text": "Two large ones."
+     },
+     {
+      "n": 8,
+      "speaker": "You",
+      "learner": true,
+      "text": "Half a kilo and two large onions.",
+      "functions": [
+       "CFN-0086"
+      ]
+     },
+     {
+      "n": 9,
+      "speaker": "Sana",
+      "learner": false,
+      "text": "Yes, that's right."
+     },
+     {
+      "n": 10,
+      "speaker": "You",
+      "learner": true,
+      "text": "Two large onions, as you asked.",
+      "functions": [
+       "CFN-0086"
+      ]
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "How much do you need?",
+     "function": "CFN-0086",
+     "note": "Ask about weight."
+    },
+    {
+     "text": "How many do you want?",
+     "function": "CFN-0086",
+     "note": "Ask about number."
+    },
+    {
+     "text": "These weigh half a kilo.",
+     "function": "CFN-0086",
+     "note": "Say the weight."
+    },
+    {
+     "text": "Two small ones or two large ones?",
+     "function": "CFN-0086",
+     "note": "Check the size."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "potato",
+     "definition": "A vegetable often sold by weight.",
+     "example": "Half a kilo of potatoes, please.",
+     "tempId": "tmp:RIN-000002:v1",
+     "existingCode": "V-VEGM-0006"
+    },
+    {
+     "term": "onion",
+     "definition": "A round vegetable with layers.",
+     "example": "Two large onions, please.",
+     "tempId": "tmp:RIN-000002:v2",
+     "existingCode": "V-VEGM-0007"
+    },
+    {
+     "term": "kilo",
+     "definition": "A short word for kilogram; a unit of weight.",
+     "example": "One kilo of potatoes, please.",
+     "tempId": "tmp:RIN-000002:v3",
+     "existingCode": "V-VEGM-0008"
+    },
+    {
+     "term": "half",
+     "definition": "One of two equal parts.",
+     "example": "Half a kilo, please.",
+     "tempId": "tmp:RIN-000002:v4",
+     "existingCode": "V-VEGM-0009"
+    },
+    {
+     "term": "weigh",
+     "definition": "To have a particular weight.",
+     "example": "These potatoes weigh half a kilo.",
+     "tempId": "tmp:RIN-000002:v5",
+     "existingCode": "V-VEGM-0010"
+    }
+   ],
+   "notes": [
+    "Use 'how much' for weight and 'how many' for a number of items.",
+    "Here, 'ones' means onions."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "choose-response",
+    "prompt": "Choose the question about weight.",
+    "items": [
+     {
+      "q": "A customer wants potatoes. You need the weight.",
+      "options": [
+       "How much do you need?",
+       "How many large onions?"
+      ]
+     }
+    ],
+    "answers": [
+     "How much do you need?"
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "gap-fill",
+    "prompt": "Ask about number.",
+    "items": [
+     {
+      "q": "How ___ onions do you want?"
+     }
+    ],
+    "answers": [
+     "many"
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "short-answer",
+    "prompt": "Confirm the order.",
+    "items": [
+     {
+      "q": "The customer wants half a kilo of potatoes and two large onions. Say both amounts."
+     }
+    ],
+    "answers": [
+     "Half a kilo of potatoes and two large onions."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Work in pairs. Ask about weight, number and size. Repeat the complete order. The customer checks it. Then change roles.",
+   "cards": [
+    {
+     "role": "Vegetable Seller",
+     "goal": "Find out and confirm the order.",
+     "info": "You have potatoes and small or large onions. Ask for any missing amount or size."
+    },
+    {
+     "role": "Sana, customer",
+     "goal": "Get the amounts you want.",
+     "info": "Start with 'Potatoes and onions, please.' You want half a kilo of potatoes and two large onions. Give the amounts when asked."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "A customer says, 'Potatoes and onions, please.' Ask for the missing details. Your partner wants one kilo of potatoes and three small onions. Confirm the complete order without reading the model.",
+   "modes": [
+    "speak"
+   ],
+   "successCriteria": [
+    "Ask for the potato weight.",
+    "Ask for the number of onions.",
+    "Check the onion size.",
+    "Confirm one kilo of potatoes and three small onions."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I ask 'how much' about weight?",
+    "Did I ask 'how many' about number?",
+    "Did I check the size?",
+    "Did I repeat the correct order?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Weight question",
+     "weight": 25
+    },
+    {
+     "criterion": "Number question",
+     "weight": 25
+    },
+    {
+     "criterion": "Size check",
+     "weight": 25
+    },
+    {
+     "criterion": "Correct final order",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, cover the model. Ask about the weight a customer wants.",
+    "answer": "How much do you need?"
+   },
+   {
+    "prompt": "Ask about the number of onions.",
+    "answer": "How many onions do you want?"
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "How much do you need?"
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "many"
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "Half a kilo of potatoes and two large onions."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible replies: How much do you need? / How many onions do you want? / Small ones or large ones? / One kilo of potatoes. Three small onions."
+   }
+  ]
+ }
+}

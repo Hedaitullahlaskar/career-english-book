@@ -1,0 +1,314 @@
+{
+ "id": "RIN-000003",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000001|STM-0034|A1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000006",
+  "ingestedAt": "2026-10-07 20:45",
+  "tempId": "tmp:RIN-000003"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-VEGM-0011",
+  "V-VEGM-0012",
+  "V-VEGM-0013",
+  "V-VEGM-0014",
+  "V-VEGM-0015"
+ ],
+ "contentHash": "758139c20d60b3ff",
+ "content": {
+  "title": "Taking payment (cash, UPI, card) — Vegetable Seller (A1)",
+  "cefr": "A1",
+  "context": {
+   "setting": "Your vegetable stall. Dev's potatoes cost ₹40 and onions cost ₹20: ₹60 in total. This stall accepts cash and UPI, but not cards.",
+   "learnerRole": "Vegetable Seller; you own and run the stall alone.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Dev",
+     "relationship": "external"
+    }
+   ],
+   "objective": "State the total, discuss the available payment methods, and confirm change or a known payment result.",
+   "constraints": [
+    "Use only the prices and payment facts given in each practice.",
+    "Do not say a UPI payment is received unless the practice says it is confirmed.",
+    "Give no financial, regulatory or payment-system advice."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "Dev",
+      "learner": false,
+      "text": "What is the total?"
+     },
+     {
+      "n": 2,
+      "speaker": "You",
+      "learner": true,
+      "text": "That is ₹60, please.",
+      "functions": [
+       "CFN-0089"
+      ]
+     },
+     {
+      "n": 3,
+      "speaker": "Dev",
+      "learner": false,
+      "text": "Can I pay cash?"
+     },
+     {
+      "n": 4,
+      "speaker": "You",
+      "learner": true,
+      "text": "Yes. Cash or UPI is fine.",
+      "functions": [
+       "CFN-0089"
+      ]
+     },
+     {
+      "n": 5,
+      "speaker": "Dev",
+      "learner": false,
+      "text": "Here is ₹100."
+     },
+     {
+      "n": 6,
+      "speaker": "You",
+      "learner": true,
+      "text": "Here is your ₹40 change.",
+      "functions": [
+       "CFN-0089"
+      ]
+     },
+     {
+      "n": 7,
+      "speaker": "Dev",
+      "learner": false,
+      "text": "Can I have a receipt?"
+     },
+     {
+      "n": 8,
+      "speaker": "You",
+      "learner": true,
+      "text": "Here is your receipt.",
+      "functions": [
+       "CFN-0089"
+      ]
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "That is ₹60, please.",
+     "function": "CFN-0089",
+     "note": "State the total."
+    },
+    {
+     "text": "Cash or UPI is fine.",
+     "function": "CFN-0089",
+     "note": "Say which payment methods are available."
+    },
+    {
+     "text": "Here is your ₹40 change.",
+     "function": "CFN-0089",
+     "note": "Say the change you return."
+    },
+    {
+     "text": "Here is your receipt.",
+     "function": "CFN-0089",
+     "note": "Give the payment record."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "cash",
+     "definition": "Money in notes or coins.",
+     "example": "Can I pay cash?",
+     "tempId": "tmp:RIN-000003:v1",
+     "existingCode": "V-VEGM-0011"
+    },
+    {
+     "term": "change",
+     "definition": "Money returned when someone pays more than the total.",
+     "example": "Here is your ₹40 change.",
+     "tempId": "tmp:RIN-000003:v2",
+     "existingCode": "V-VEGM-0012"
+    },
+    {
+     "term": "receipt",
+     "definition": "A written record of a payment.",
+     "example": "Here is your receipt.",
+     "tempId": "tmp:RIN-000003:v3",
+     "existingCode": "V-VEGM-0013"
+    },
+    {
+     "term": "total",
+     "definition": "The full amount to pay.",
+     "example": "The total is ₹60.",
+     "tempId": "tmp:RIN-000003:v4",
+     "existingCode": "V-VEGM-0014"
+    },
+    {
+     "term": "UPI",
+     "definition": "A digital payment method used in India.",
+     "example": "Cash or UPI is fine.",
+     "tempId": "tmp:RIN-000003:v5",
+     "existingCode": "V-VEGM-0015"
+    }
+   ],
+   "notes": [
+    "In the model, ₹100 minus ₹60 is ₹40 change.",
+    "UPI means Unified Payments Interface. Practise payment communication, not how to use an app."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "short-answer",
+    "prompt": "Say the change.",
+    "items": [
+     {
+      "q": "The total is ₹60. The customer gives you ₹100."
+     }
+    ],
+    "answers": [
+     "Here is your ₹40 change."
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "choose-response",
+    "prompt": "Use the payment fact given.",
+    "items": [
+     {
+      "q": "The UPI payment of ₹60 is confirmed as received. Choose your reply.",
+      "options": [
+       "Your ₹60 payment is received. Thank you.",
+       "Here is your ₹40 change."
+      ]
+     }
+    ],
+    "answers": [
+     "Your ₹60 payment is received. Thank you."
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "choose-response",
+    "prompt": "State the available methods.",
+    "items": [
+     {
+      "q": "The customer asks, 'Can I pay by card?' Your stall accepts cash and UPI only.",
+      "options": [
+       "Sorry, cash or UPI only.",
+       "Yes, all cards are fine."
+      ]
+     }
+    ],
+    "answers": [
+     "Sorry, cash or UPI only."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Work in pairs. State the total and payment methods. Take the customer's cash, say the change and give a receipt. Then change roles.",
+   "cards": [
+    {
+     "role": "Vegetable Seller",
+     "goal": "Complete payment for the vegetables.",
+     "info": "The total is ₹75. You accept cash and UPI. For this practice, the customer gives you ₹100 cash. You have ₹25 change and a receipt."
+    },
+    {
+     "role": "Dev, customer",
+     "goal": "Pay for the vegetables and get a receipt.",
+     "info": "Ask the total and whether cash is accepted. Give ₹100 cash. Ask for a receipt."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "The vegetables total ₹90. Your stall accepts cash and UPI only. Your partner asks to pay by card, then gives you ₹100 cash. You have ₹10 change and a receipt. Complete the payment conversation without reading the model.",
+   "modes": [
+    "speak"
+   ],
+   "successCriteria": [
+    "State the ₹90 total.",
+    "Say cash or UPI only.",
+    "Return and state ₹10 change.",
+    "Give the receipt."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I state the correct total?",
+    "Did I name only the available methods?",
+    "Did I say the correct change?",
+    "Did I give the receipt?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Correct total",
+     "weight": 25
+    },
+    {
+     "criterion": "Accurate payment methods",
+     "weight": 25
+    },
+    {
+     "criterion": "Correct change",
+     "weight": 25
+    },
+    {
+     "criterion": "Receipt communication",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, cover the model. Ask the customer's payment method.",
+    "answer": "Cash or UPI?"
+   },
+   {
+    "prompt": "The total is ₹90 and the customer pays ₹100. Say the change.",
+    "answer": "Here is your ₹10 change."
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "Here is your ₹40 change."
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "Your ₹60 payment is received. Thank you."
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "Sorry, cash or UPI only."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible seller replies: That is ₹90, please. / Sorry, cash or UPI only. / Here is your ₹10 change. / Here is your receipt."
+   }
+  ]
+ }
+}

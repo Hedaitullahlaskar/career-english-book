@@ -14,7 +14,6 @@
  },
  "sharedObjects": 22,
  "requests": {
-  "REQ-000006": "PREPARED",
   "REQ-000007": "PREPARED",
   "REQ-000008": "BLOCKED",
   "REQ-000009": "PREPARED",
@@ -22,7 +21,7 @@
   "REQ-000011": "BLOCKED"
  },
  "errors": [],
- "estimatedInputTokens": 61452,
- "maxOutputTokens": 49000,
+ "estimatedInputTokens": 52794,
+ "maxOutputTokens": 38500,
  "estimatedCost": null
 }
