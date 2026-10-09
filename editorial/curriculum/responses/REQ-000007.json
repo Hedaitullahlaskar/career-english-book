@@ -1,0 +1,967 @@
+{
+  "requestId": "REQ-000007",
+  "contractVersion": "1.0",
+  "model": "GPT-6",
+  "outputs": [
+    {
+      "tempId": "tmp:RIN-000004",
+      "type": "unit",
+      "key": "L6|RPF-000002|STM-0019|B1",
+      "record": {
+        "content": {
+          "title": "Discussing price — Car Sales Executive (B1)",
+          "cefr": "B1",
+          "context": {
+            "setting": "A dealership showroom. Meera has a written quotation for her selected vehicle version. It lists optional additions separately; their amounts still need confirmation.",
+            "learnerRole": "Car Sales Executive responsible for explaining the quotation; price changes require the Sales Manager's confirmation.",
+            "stakeholders": [
+              {
+                "archetype": "Customer",
+                "name": "Meera",
+                "relationship": "external"
+              },
+              {
+                "archetype": "Sales Manager",
+                "name": "Farhan",
+                "relationship": "senior"
+              }
+            ],
+            "objective": "Explain which quoted figure applies to the selected version and separate it from additions and an unconfirmed final total.",
+            "constraints": [
+              "Refer to the written quotation without inventing numerical prices or charges.",
+              "Do not promise a price change, approval, finance terms or a final total awaiting confirmation.",
+              "Give no financial or regulatory advice."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {
+                  "n": 1,
+                  "speaker": "Meera",
+                  "learner": false,
+                  "text": "Is this the price for the version I chose?"
+                },
+                {
+                  "n": 2,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Yes. The figure beside your selected version is its quoted price.",
+                  "functions": [
+                    "CFN-0085"
+                  ]
+                },
+                {
+                  "n": 3,
+                  "speaker": "Meera",
+                  "learner": false,
+                  "text": "Does it include the optional additions below?"
+                },
+                {
+                  "n": 4,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Those additions are listed separately. Their amounts still need confirmation.",
+                  "functions": [
+                    "CFN-0085"
+                  ]
+                },
+                {
+                  "n": 5,
+                  "speaker": "Meera",
+                  "learner": false,
+                  "text": "So I cannot use this figure as the total with additions?"
+                },
+                {
+                  "n": 6,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "That's right. It is the quoted version price, not a confirmed total with additions.",
+                  "functions": [
+                    "CFN-0085"
+                  ]
+                },
+                {
+                  "n": 7,
+                  "speaker": "Meera",
+                  "learner": false,
+                  "text": "Could the price change if I choose another version?"
+                },
+                {
+                  "n": 8,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Another version needs its own quotation. I cannot confirm its price from this document.",
+                  "functions": [
+                    "CFN-0085"
+                  ]
+                },
+                {
+                  "n": 9,
+                  "speaker": "Meera",
+                  "learner": false,
+                  "text": "Please ask about the additions before I decide."
+                },
+                {
+                  "n": 10,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "I'll ask Farhan to confirm their amounts before giving you a total.",
+                  "functions": [
+                    "CFN-0085"
+                  ]
+                }
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {
+                "text": "The figure beside your selected version is its quoted price.",
+                "function": "CFN-0085",
+                "note": "Link a quoted amount to the exact version."
+              },
+              {
+                "text": "Those additions are listed separately.",
+                "function": "CFN-0085",
+                "note": "Explain the quotation's scope."
+              },
+              {
+                "text": "Their amounts still need confirmation.",
+                "function": "CFN-0085",
+                "note": "Keep unconfirmed charges separate from confirmed information."
+              }
+            ],
+            "vocabulary": [
+              {
+                "term": "quotation",
+                "definition": "A document stating a proposed price and what it covers.",
+                "example": "Let's look at the quotation for your selected version.",
+                "tempId": "tmp:RIN-000004:v1"
+              },
+              {
+                "term": "quoted price",
+                "definition": "The price stated in a quotation.",
+                "example": "This figure is the quoted price for that version.",
+                "tempId": "tmp:RIN-000004:v2"
+              },
+              {
+                "term": "optional addition",
+                "definition": "An extra item the customer can choose.",
+                "example": "The optional additions are listed separately.",
+                "tempId": "tmp:RIN-000004:v3"
+              },
+              {
+                "term": "included",
+                "definition": "Part of the stated price or package.",
+                "example": "Is this item included in the quoted price?",
+                "tempId": "tmp:RIN-000004:v4"
+              },
+              {
+                "term": "separately",
+                "definition": "Apart from another item or amount.",
+                "example": "The additions are listed separately.",
+                "tempId": "tmp:RIN-000004:v5"
+              },
+              {
+                "term": "final total",
+                "definition": "The complete amount after all chosen items are confirmed.",
+                "example": "The final total with additions is not confirmed.",
+                "tempId": "tmp:RIN-000004:v6"
+              }
+            ],
+            "notes": [
+              "Use the quotation's actual figures when supplied. This practice gives no numerical prices.",
+              "A quotation for one version does not establish another version's price."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "choose-response",
+              "prompt": "Choose an accurate explanation.",
+              "items": [
+                {
+                  "q": "The quotation lists additions separately and their amounts are unconfirmed.",
+                  "options": [
+                    "Everything is included in that figure.",
+                    "The additions are separate, and their amounts still need confirmation."
+                  ]
+                }
+              ],
+              "answers": [
+                "The additions are separate, and their amounts still need confirmation."
+              ]
+            },
+            {
+              "id": "GP2",
+              "type": "gap-fill",
+              "prompt": "Complete the price explanation.",
+              "items": [
+                {
+                  "q": "This is the ___ price for your selected version, not the final ___ with additions."
+                }
+              ],
+              "answers": [
+                "quoted; total"
+              ]
+            },
+            {
+              "id": "GP3",
+              "type": "rewriting",
+              "prompt": "Remove the unsupported price promise.",
+              "items": [
+                {
+                  "q": "Rewrite: 'The other version costs the same.' You only have the selected version's quotation."
+                }
+              ],
+              "answers": [
+                "The other version needs its own quotation. I cannot confirm its price yet."
+              ]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Work in pairs. The customer refers to the quotation and asks what the figure covers. Explain its scope, identify unconfirmed amounts and agree what needs checking. Change roles.",
+            "cards": [
+              {
+                "role": "Car Sales Executive",
+                "goal": "Explain the selected-version quotation without promising an unconfirmed total.",
+                "info": "The version's quoted figure is on the document. Additions are separate and await confirmation from Farhan. Do not supply numerical prices."
+              },
+              {
+                "role": "Meera, customer",
+                "goal": "Understand the quotation before choosing additions.",
+                "info": "Ask whether the version figure covers the additions, whether it is the final total, and what happens if you choose a different version."
+              }
+            ]
+          },
+          "performanceTask": {
+            "prompt": "A customer treats the selected-version figure as the final total with optional additions. Explain the difference in your own words. Their amounts are unconfirmed. Say what the Sales Manager needs to confirm before you can provide the total.",
+            "modes": [
+              "speak"
+            ],
+            "successCriteria": [
+              "Identify the figure as the selected-version quoted price.",
+              "Explain that additions are listed separately.",
+              "Clearly state that their amounts and the final total are unconfirmed.",
+              "Identify the manager confirmation needed without inventing an approval."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I identify the selected version?",
+              "Did I explain separate additions?",
+              "Did I state what remains unconfirmed?",
+              "Did I respect my authority?"
+            ],
+            "rubric": [
+              {
+                "criterion": "Identify the selected version",
+                "weight": 25
+              },
+              {
+                "criterion": "Explain separate additions",
+                "weight": 25
+              },
+              {
+                "criterion": "State what remains unconfirmed",
+                "weight": 25
+              },
+              {
+                "criterion": "Respect my authority",
+                "weight": 25
+              }
+            ]
+          },
+          "reviewRetrieval": [
+            {
+              "prompt": "Later, without looking, distinguish a version price from a total with unconfirmed additions.",
+              "answer": "This is the quoted version price. The final total with additions is not confirmed."
+            },
+            {
+              "prompt": "The customer changes version. What can you say about its price?",
+              "answer": "That version needs its own quotation. I cannot confirm its price from this document."
+            }
+          ],
+          "answerKey": [
+            {
+              "taskRef": "GP1",
+              "answer": "The additions are separate, and their amounts still need confirmation."
+            },
+            {
+              "taskRef": "GP2",
+              "answer": "quoted; total"
+            },
+            {
+              "taskRef": "GP3",
+              "answer": "The other version needs its own quotation. I cannot confirm its price yet."
+            },
+            {
+              "taskRef": "performance",
+              "answer": "Possible answer: The figure is for your selected version. Additions are listed separately. Their amounts still need confirmation. I'll ask the Sales Manager before giving you a final total."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tempId": "tmp:RIN-000005",
+      "type": "unit",
+      "key": "L6|RPF-000002|STM-0026|B1",
+      "record": {
+        "content": {
+          "title": "Arranging and conducting a test drive — Car Sales Executive (B1)",
+          "cefr": "B1",
+          "context": {
+            "setting": "A dealership showroom. Kunal is comparing two versions of a model. The comparison sheet shows more boot space in the larger version. He wants a test-drive appointment; availability has not been checked.",
+            "learnerRole": "Car Sales Executive coordinating the customer's appointment request.",
+            "stakeholders": [
+              {
+                "archetype": "Customer",
+                "name": "Kunal",
+                "relationship": "external"
+              }
+            ],
+            "objective": "Compare the stated space feature, ask permission to send an appointment request, and clarify the requested time, proposed meeting point and next contact.",
+            "constraints": [
+              "Communication only: exclude CFN-0108.",
+              "No driving, road-safety, vehicle-operation or safety-training instructions; no regulatory or safety advice.",
+              "Refer to the dealership's test-drive policy generically; do not invent policy requirements.",
+              "Do not promise vehicle availability or an appointment before confirmation."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {
+                  "n": 1,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "Which version has more space for our luggage?"
+                },
+                {
+                  "n": 2,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "The comparison sheet shows more boot space in the larger version.",
+                  "functions": [
+                    "CFN-0091"
+                  ]
+                },
+                {
+                  "n": 3,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "I'd like to arrange a test drive for that version."
+                },
+                {
+                  "n": 4,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "May I send an appointment request for the larger version?",
+                  "functions": [
+                    "CFN-0097"
+                  ]
+                },
+                {
+                  "n": 5,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "Yes, please. Friday at three would suit me."
+                },
+                {
+                  "n": 6,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "May I include Friday at three as your preferred time?",
+                  "functions": [
+                    "CFN-0097"
+                  ]
+                },
+                {
+                  "n": 7,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "Yes. Where would we meet?"
+                },
+                {
+                  "n": 8,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "May I suggest showroom reception as the meeting point, subject to appointment confirmation?",
+                  "functions": [
+                    "CFN-0097"
+                  ]
+                },
+                {
+                  "n": 9,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "That works. Please email me when you know."
+                },
+                {
+                  "n": 10,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "May I email you the confirmed details after checking availability under the dealership's test-drive policy?",
+                  "functions": [
+                    "CFN-0097"
+                  ]
+                },
+                {
+                  "n": 11,
+                  "speaker": "Kunal",
+                  "learner": false,
+                  "text": "Yes. I'll wait for that email before making plans."
+                }
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {
+                "text": "The comparison sheet shows more boot space in the larger version.",
+                "function": "CFN-0091",
+                "note": "Base a comparison on the supplied product information."
+              },
+              {
+                "text": "May I send an appointment request for the larger version?",
+                "function": "CFN-0097",
+                "note": "Ask permission and wait for the customer's answer."
+              },
+              {
+                "text": "May I include Friday at three as your preferred time?",
+                "function": "CFN-0097",
+                "note": "A preferred time is a request, not a confirmed booking."
+              }
+            ],
+            "vocabulary": [
+              {
+                "term": "version",
+                "definition": "One form of a vehicle model with particular features.",
+                "example": "Which version would you like to try?",
+                "tempId": "tmp:RIN-000005:v1"
+              },
+              {
+                "term": "boot space",
+                "definition": "Room for luggage in the back storage area of a car.",
+                "example": "The larger version has more boot space.",
+                "tempId": "tmp:RIN-000005:v2"
+              },
+              {
+                "term": "comparison sheet",
+                "definition": "A document showing features of different options.",
+                "example": "The comparison sheet shows the difference.",
+                "tempId": "tmp:RIN-000005:v3"
+              },
+              {
+                "term": "preferred time",
+                "definition": "The time a customer would like.",
+                "example": "Friday at three is your preferred time.",
+                "tempId": "tmp:RIN-000005:v4"
+              },
+              {
+                "term": "appointment request",
+                "definition": "A request for an appointment that may still need confirmation.",
+                "example": "May I send the appointment request?",
+                "tempId": "tmp:RIN-000005:v5"
+              },
+              {
+                "term": "subject to confirmation",
+                "definition": "Dependent on receiving confirmation before it is definite.",
+                "example": "The meeting point is subject to appointment confirmation.",
+                "tempId": "tmp:RIN-000005:v6"
+              }
+            ],
+            "notes": [
+              "The comparison sheet supplies the space difference for this fictional practice; make no further product claims.",
+              "Record a request with permission. Keep the booking pending until availability is confirmed.",
+              "The title is copied from the request. This unit covers appointment communication only."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "choose-response",
+              "prompt": "Choose the supported comparison.",
+              "items": [
+                {
+                  "q": "The sheet states only that the larger version has more boot space.",
+                  "options": [
+                    "Both versions have the same boot space.",
+                    "The larger version has more boot space."
+                  ]
+                }
+              ],
+              "answers": [
+                "The larger version has more boot space."
+              ]
+            },
+            {
+              "id": "GP2",
+              "type": "rewriting",
+              "prompt": "Ask permission before sending the request.",
+              "items": [
+                {
+                  "q": "Rewrite: 'I'll send your appointment request now.'"
+                }
+              ],
+              "answers": [
+                "May I send your appointment request now?"
+              ]
+            },
+            {
+              "id": "GP3",
+              "type": "short-answer",
+              "prompt": "Explain the booking status.",
+              "items": [
+                {
+                  "q": "The customer has requested Friday at three. Availability is not checked. Is the appointment confirmed?"
+                }
+              ],
+              "answers": [
+                "No. Friday at three is the requested time; the appointment still needs confirmation."
+              ]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Use the comparison sheet fact on the cards. Discuss the preferred version. Ask permission to send the request and wait for an answer. Clarify the requested time, proposed meeting point and next contact. Do not act out the test drive.",
+            "cards": [
+              {
+                "role": "Car Sales Executive",
+                "goal": "Agree the details of an appointment request without promising availability.",
+                "info": "The sheet shows more boot space in the larger version. No appointment slot is confirmed. Ask before sending a request or arranging a confirmation email."
+              },
+              {
+                "role": "Kunal, customer",
+                "goal": "Request a test drive in the larger version and understand the next step.",
+                "info": "Friday at three is your preference. Showroom reception would suit you as a meeting point. You want an email after availability is checked. Answer each permission question."
+              }
+            ]
+          },
+          "performanceTask": {
+            "prompt": "A customer wants the version with more boot space and requests Saturday morning. Use only the supplied comparison fact. Ask permission to send the request. Agree a proposed reception meeting point and the customer's preferred confirmation channel. Availability remains unchecked; finish with the appointment clearly pending.",
+            "modes": [
+              "speak"
+            ],
+            "successCriteria": [
+              "Compare only the stated boot-space feature.",
+              "Ask permission before sending the request and wait for the reply.",
+              "Clarify the preferred time, proposed meeting point and next contact.",
+              "Keep the appointment pending and stay within communication-only boundaries."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I use the supplied comparison?",
+              "Did I ask and wait for permission?",
+              "Did I clarify the requested arrangement?",
+              "Did I keep the booking status clear?"
+            ],
+            "rubric": [
+              {
+                "criterion": "Use the supplied comparison",
+                "weight": 25
+              },
+              {
+                "criterion": "Ask and wait for permission",
+                "weight": 25
+              },
+              {
+                "criterion": "Clarify the requested arrangement",
+                "weight": 25
+              },
+              {
+                "criterion": "Keep the booking status clear",
+                "weight": 25
+              }
+            ]
+          },
+          "reviewRetrieval": [
+            {
+              "prompt": "Later, without looking, ask permission to send an appointment request.",
+              "answer": "May I send your appointment request?"
+            },
+            {
+              "prompt": "Explain the difference between a preferred time and a confirmed appointment.",
+              "answer": "A preferred time is the customer's request. The appointment still needs confirmation."
+            }
+          ],
+          "answerKey": [
+            {
+              "taskRef": "GP1",
+              "answer": "The larger version has more boot space."
+            },
+            {
+              "taskRef": "GP2",
+              "answer": "May I send your appointment request now?"
+            },
+            {
+              "taskRef": "GP3",
+              "answer": "No. Friday at three is the requested time; the appointment still needs confirmation."
+            },
+            {
+              "taskRef": "performance",
+              "answer": "Possible sequence: The sheet shows more boot space in this version. May I request Saturday morning? The appointment is not confirmed yet. Would reception suit you as the meeting point? May I email you after checking availability? Accept another contact channel if the customer prefers it."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tempId": "tmp:RIN-000006",
+      "type": "unit",
+      "key": "L6|RPF-000002|STM-0028|B1",
+      "record": {
+        "content": {
+          "title": "Following up after a quotation or visit — Car Sales Executive (B1)",
+          "cefr": "B1",
+          "context": {
+            "setting": "A telephone follow-up after Aditi's showroom visit. She received a quotation for her chosen version and agreed to a follow-up call. Her purchase decision remains open.",
+            "learnerRole": "Car Sales Executive following up respectfully on an earlier enquiry.",
+            "stakeholders": [
+              {
+                "archetype": "Customer",
+                "name": "Aditi",
+                "relationship": "external"
+              }
+            ],
+            "objective": "Refer to the earlier quotation, check whether the customer can talk, invite questions and agree the next contact without pressure.",
+            "constraints": [
+              "Do not assume the customer has decided to buy.",
+              "Do not invent prices, stock availability, delivery dates, finance terms or approvals.",
+              "Respect the customer's stated contact preference; give no financial or regulatory advice."
+            ]
+          },
+          "notice": {
+            "conversation": {
+              "turns": [
+                {
+                  "n": 1,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Hello, Aditi. I'm following up on the quotation after your showroom visit. Is now a good time?",
+                  "functions": [
+                    "CFN-0022"
+                  ]
+                },
+                {
+                  "n": 2,
+                  "speaker": "Aditi",
+                  "learner": false,
+                  "text": "I have a few minutes, but I haven't decided yet."
+                },
+                {
+                  "n": 3,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Have you had a chance to look at the quotation for your chosen version?",
+                  "functions": [
+                    "CFN-0022"
+                  ]
+                },
+                {
+                  "n": 4,
+                  "speaker": "Aditi",
+                  "learner": false,
+                  "text": "Yes. I still have a question about the optional additions."
+                },
+                {
+                  "n": 5,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Which part would you like us to clarify before you consider the quotation further?",
+                  "functions": [
+                    "CFN-0022"
+                  ]
+                },
+                {
+                  "n": 6,
+                  "speaker": "Aditi",
+                  "learner": false,
+                  "text": "I'd like to know which additions are included. Please reply by email."
+                },
+                {
+                  "n": 7,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "I'll check that question. When would you prefer us to follow up again?",
+                  "functions": [
+                    "CFN-0022"
+                  ]
+                },
+                {
+                  "n": 8,
+                  "speaker": "Aditi",
+                  "learner": false,
+                  "text": "Please wait until I've read the email. I'll contact you if I need anything else."
+                },
+                {
+                  "n": 9,
+                  "speaker": "You",
+                  "learner": true,
+                  "text": "Understood. I'll send the clarification after checking it and leave the next contact to you.",
+                  "functions": [
+                    "CFN-0022"
+                  ]
+                },
+                {
+                  "n": 10,
+                  "speaker": "Aditi",
+                  "learner": false,
+                  "text": "Thank you. That would help."
+                }
+              ]
+            }
+          },
+          "understand": {
+            "keyExpressions": [
+              {
+                "text": "I'm following up on the quotation after your showroom visit.",
+                "function": "CFN-0022",
+                "note": "Name the earlier exchange."
+              },
+              {
+                "text": "Have you had a chance to look at the quotation for your chosen version?",
+                "function": "CFN-0022",
+                "note": "Invite a response without assuming a decision."
+              },
+              {
+                "text": "When would you prefer us to follow up again?",
+                "function": "CFN-0022",
+                "note": "Let the customer state a contact preference."
+              }
+            ],
+            "vocabulary": [
+              {
+                "term": "following up on",
+                "definition": "Contacting someone again about an earlier matter.",
+                "example": "I'm following up on the quotation.",
+                "existingCode": "V-0313"
+              },
+              {
+                "term": "showroom visit",
+                "definition": "A visit to see and discuss vehicles at a dealership.",
+                "example": "I'm calling after your showroom visit.",
+                "tempId": "tmp:RIN-000006:v1"
+              },
+              {
+                "term": "clarification",
+                "definition": "An explanation that makes something clearer.",
+                "example": "I'll email the clarification after checking it.",
+                "tempId": "tmp:RIN-000006:v2"
+              },
+              {
+                "term": "purchase decision",
+                "definition": "A choice about whether or what to buy.",
+                "example": "Your purchase decision is still open.",
+                "tempId": "tmp:RIN-000006:v3"
+              },
+              {
+                "term": "contact preference",
+                "definition": "How or when someone wants to be contacted.",
+                "example": "I'll respect your contact preference.",
+                "tempId": "tmp:RIN-000006:v4"
+              },
+              {
+                "term": "consider",
+                "definition": "To think about an option before deciding.",
+                "example": "Take time to consider the quotation.",
+                "tempId": "tmp:RIN-000006:v5"
+              },
+              {
+                "term": "enquiry",
+                "definition": "A request for information.",
+                "example": "I'm following up on your vehicle enquiry.",
+                "tempId": "tmp:RIN-000006:v6"
+              }
+            ],
+            "notes": [
+              "A question about the quotation is not acceptance of it.",
+              "In the model, the next purchase-related contact is left to the customer after the requested clarification email."
+            ]
+          },
+          "guidedPractice": [
+            {
+              "id": "GP1",
+              "type": "choose-response",
+              "prompt": "Choose a respectful opening.",
+              "items": [
+                {
+                  "q": "You are calling after an agreed showroom follow-up.",
+                  "options": [
+                    "I'm following up on your quotation. Is now a good time?",
+                    "You haven't bought the car yet. Why not?"
+                  ]
+                }
+              ],
+              "answers": [
+                "I'm following up on your quotation. Is now a good time?"
+              ]
+            },
+            {
+              "id": "GP2",
+              "type": "rewriting",
+              "prompt": "Remove the assumed purchase decision.",
+              "items": [
+                {
+                  "q": "Rewrite: 'Since you've chosen to buy, I'll arrange the next step.' The customer has not decided."
+                }
+              ],
+              "answers": [
+                "Have you had a chance to consider the quotation?"
+              ]
+            },
+            {
+              "id": "GP3",
+              "type": "short-answer",
+              "prompt": "Respect the customer's contact preference.",
+              "items": [
+                {
+                  "q": "The customer asks for one clarification email and says they will contact you afterwards. What will you do?"
+                }
+              ],
+              "answers": [
+                "Send the checked clarification by email and leave the next contact to the customer."
+              ]
+            }
+          ],
+          "rolePractice": {
+            "instructions": "Work in pairs. Refer to the earlier showroom visit, check whether the customer can talk, and ask about the quotation. Listen to the contact preference and close accordingly. Change roles.",
+            "cards": [
+              {
+                "role": "Car Sales Executive",
+                "goal": "Find out what the customer needs after the visit.",
+                "info": "The quotation concerns the chosen version. You cannot assume a purchase decision or answer an unverified inclusion question. Agree the next contact respectfully."
+              },
+              {
+                "role": "Aditi, customer",
+                "goal": "Get clarification without committing to buy.",
+                "info": "You can talk briefly. Ask about optional additions. Request an email, then explain that you will contact the dealership if you need anything else."
+              }
+            ]
+          },
+          "performanceTask": {
+            "prompt": "Write a short follow-up message after a showroom visit. The customer has a quotation but has not decided. Refer to that quotation, invite questions, and ask how they would prefer to continue. Do not add a deadline, offer or availability claim.",
+            "modes": [
+              "write"
+            ],
+            "successCriteria": [
+              "Identify the earlier visit or quotation.",
+              "Invite a response without assuming a purchase.",
+              "Ask about the customer's preferred next contact.",
+              "Use courteous B1 English without pressure or unsupported claims."
+            ]
+          },
+          "feedback": {
+            "selfCheck": [
+              "Did I refer to the earlier enquiry?",
+              "Did I invite the customer's questions?",
+              "Did I respect the contact preference?",
+              "Did I avoid pressure or assumptions?"
+            ],
+            "rubric": [
+              {
+                "criterion": "Refer to the earlier enquiry",
+                "weight": 25
+              },
+              {
+                "criterion": "Invite the customer's questions",
+                "weight": 25
+              },
+              {
+                "criterion": "Respect the contact preference",
+                "weight": 25
+              },
+              {
+                "criterion": "Avoid pressure or assumptions",
+                "weight": 25
+              }
+            ]
+          },
+          "reviewRetrieval": [
+            {
+              "prompt": "Later, without looking, open a follow-up linked to a quotation.",
+              "answer": "I'm following up on the quotation after your showroom visit."
+            },
+            {
+              "prompt": "The customer wants to make the next contact. Give an appropriate closing.",
+              "answer": "Understood. I'll leave the next contact to you."
+            }
+          ],
+          "answerKey": [
+            {
+              "taskRef": "GP1",
+              "answer": "I'm following up on your quotation. Is now a good time?"
+            },
+            {
+              "taskRef": "GP2",
+              "answer": "Have you had a chance to consider the quotation?"
+            },
+            {
+              "taskRef": "GP3",
+              "answer": "Send the checked clarification by email and leave the next contact to the customer."
+            },
+            {
+              "taskRef": "performance",
+              "answer": "Possible message: Hello, Aditi. I'm following up on the quotation after your showroom visit. Have you had a chance to consider it? Please let me know if you have any questions. How would you prefer us to continue?"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "selfCheck": [
+    {
+      "check": "Request generated",
+      "result": "met",
+      "notes": "REQ-000007 only; all three supplied tempId/type/key triples and titles preserved."
+    },
+    {
+      "check": "Records generated",
+      "result": "met",
+      "notes": "3 B1 L6 units in record.content, following the complete D-U14 learning cycle."
+    },
+    {
+      "check": "Shared records reused",
+      "result": "met",
+      "notes": "12 unique existing L0–L5 records reused across 22 layer references, including parent ROL-0016 and child ROL-0050. No shared records regenerated."
+    },
+    {
+      "check": "New records",
+      "result": "met",
+      "notes": "3 new unit records; 18 vocabulary proposals with temporary identifiers, plus existing V-0313 reused. No new vocabulary codes assigned."
+    },
+    {
+      "check": "AI-QA result",
+      "result": "met",
+      "notes": "PASS. Repository response/unit schema and qa_unit checks returned no findings. AI review checked B1 fit, role and dealership realism, function coverage, answer keys, permissions, quotation scope, authority limits and specialist boundaries. STM-0026 excludes CFN-0108 and remains communication-only. Editorial Review PENDING; specialist/native review not performed or claimed."
+    },
+    {
+      "check": "Duplicate result",
+      "result": "met",
+      "notes": "0 duplicate output keys, existing-store key matches or duplicate new vocabulary terms. Industry context uses version-specific quotations, pending appointment coordination and follow-up preferences."
+    },
+    {
+      "check": "Vocabulary result",
+      "result": "met",
+      "notes": "V-0313 copied from supplied core vocabulary. All 18 proposed terms checked against existing core and curriculum vocabulary: 0 collisions. Existing codes unchanged."
+    },
+    {
+      "check": "Warnings/errors",
+      "result": "met",
+      "notes": "0 automated warnings or errors. Prices, availability, finance terms and approvals not invented. No driving, road-safety, vehicle-operation, safety-training or regulatory/safety advice. No other request generated; no repository files changed; nothing compiled or published."
+    },
+    {
+      "check": "Next processing step",
+      "result": "met",
+      "notes": "Save the unchanged response as editorial/curriculum/responses/REQ-000007.json, then validate and ingest with the official tools when authorised. No ingestion, planning, unlocking or commit performed in this generation step."
+    }
+  ],
+  "assumptions": [
+    "No numerical prices or confirmed appointment slots are supplied; quotation-relative wording and pending appointment requests are used.",
+    "The fictional comparison sheet instantiates the supplied storage-space comparison; no further product or performance claims are made."
+  ],
+  "flags": [],
+  "questions": []
+}

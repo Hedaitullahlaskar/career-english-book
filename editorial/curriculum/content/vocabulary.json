@@ -298,5 +298,365 @@
    "requestId": "REQ-000006",
    "tempId": "tmp:RIN-000003:v5"
   }
+ },
+ {
+  "code": "V-CARD-0001",
+  "term": "quotation",
+  "pos": "",
+  "definition": "A document stating a proposed price and what it covers.",
+  "example": "Let's look at the quotation for your selected version.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v1"
+  }
+ },
+ {
+  "code": "V-CARD-0002",
+  "term": "quoted price",
+  "pos": "",
+  "definition": "The price stated in a quotation.",
+  "example": "This figure is the quoted price for that version.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v2"
+  }
+ },
+ {
+  "code": "V-CARD-0003",
+  "term": "optional addition",
+  "pos": "",
+  "definition": "An extra item the customer can choose.",
+  "example": "The optional additions are listed separately.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v3"
+  }
+ },
+ {
+  "code": "V-CARD-0004",
+  "term": "included",
+  "pos": "",
+  "definition": "Part of the stated price or package.",
+  "example": "Is this item included in the quoted price?",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v4"
+  }
+ },
+ {
+  "code": "V-CARD-0005",
+  "term": "separately",
+  "pos": "",
+  "definition": "Apart from another item or amount.",
+  "example": "The additions are listed separately.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v5"
+  }
+ },
+ {
+  "code": "V-CARD-0006",
+  "term": "final total",
+  "pos": "",
+  "definition": "The complete amount after all chosen items are confirmed.",
+  "example": "The final total with additions is not confirmed.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000004",
+  "usedBy": [
+   "RIN-000004"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000004:v6"
+  }
+ },
+ {
+  "code": "V-CARD-0007",
+  "term": "version",
+  "pos": "",
+  "definition": "One form of a vehicle model with particular features.",
+  "example": "Which version would you like to try?",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v1"
+  }
+ },
+ {
+  "code": "V-CARD-0008",
+  "term": "boot space",
+  "pos": "",
+  "definition": "Room for luggage in the back storage area of a car.",
+  "example": "The larger version has more boot space.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v2"
+  }
+ },
+ {
+  "code": "V-CARD-0009",
+  "term": "comparison sheet",
+  "pos": "",
+  "definition": "A document showing features of different options.",
+  "example": "The comparison sheet shows the difference.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v3"
+  }
+ },
+ {
+  "code": "V-CARD-0010",
+  "term": "preferred time",
+  "pos": "",
+  "definition": "The time a customer would like.",
+  "example": "Friday at three is your preferred time.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v4"
+  }
+ },
+ {
+  "code": "V-CARD-0011",
+  "term": "appointment request",
+  "pos": "",
+  "definition": "A request for an appointment that may still need confirmation.",
+  "example": "May I send the appointment request?",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v5"
+  }
+ },
+ {
+  "code": "V-CARD-0012",
+  "term": "subject to confirmation",
+  "pos": "",
+  "definition": "Dependent on receiving confirmation before it is definite.",
+  "example": "The meeting point is subject to appointment confirmation.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000005",
+  "usedBy": [
+   "RIN-000005"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000005:v6"
+  }
+ },
+ {
+  "code": "V-CARD-0013",
+  "term": "showroom visit",
+  "pos": "",
+  "definition": "A visit to see and discuss vehicles at a dealership.",
+  "example": "I'm calling after your showroom visit.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v1"
+  }
+ },
+ {
+  "code": "V-CARD-0014",
+  "term": "clarification",
+  "pos": "",
+  "definition": "An explanation that makes something clearer.",
+  "example": "I'll email the clarification after checking it.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v2"
+  }
+ },
+ {
+  "code": "V-CARD-0015",
+  "term": "purchase decision",
+  "pos": "",
+  "definition": "A choice about whether or what to buy.",
+  "example": "Your purchase decision is still open.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v3"
+  }
+ },
+ {
+  "code": "V-CARD-0016",
+  "term": "contact preference",
+  "pos": "",
+  "definition": "How or when someone wants to be contacted.",
+  "example": "I'll respect your contact preference.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v4"
+  }
+ },
+ {
+  "code": "V-CARD-0017",
+  "term": "consider",
+  "pos": "",
+  "definition": "To think about an option before deciding.",
+  "example": "Take time to consider the quotation.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v5"
+  }
+ },
+ {
+  "code": "V-CARD-0018",
+  "term": "enquiry",
+  "pos": "",
+  "definition": "A request for information.",
+  "example": "I'm following up on your vehicle enquiry.",
+  "scope": "CARD",
+  "cefr": "B1",
+  "home": "RIN-000006",
+  "usedBy": [
+   "RIN-000006"
+  ],
+  "status": "GENERATED",
+  "provenance": {
+   "source": "generated",
+   "generator": "ChatGPT",
+   "requestId": "REQ-000007",
+   "tempId": "tmp:RIN-000006:v6"
+  }
  }
 ]

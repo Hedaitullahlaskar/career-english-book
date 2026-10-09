@@ -4,7 +4,7 @@
  "batch": "B6:P2",
  "mode": "generate",
  "layer": "L6",
- "status": "PREPARED",
+ "status": "INGESTED",
  "dependsOn": [
   "L0|CFN-0022|B1",
   "L0|CFN-0085|B1",

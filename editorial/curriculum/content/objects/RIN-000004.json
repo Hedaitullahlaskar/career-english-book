@@ -1,0 +1,333 @@
+{
+ "id": "RIN-000004",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000002|STM-0019|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000007",
+  "ingestedAt": "2026-10-09 17:37",
+  "tempId": "tmp:RIN-000004"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-CARD-0001",
+  "V-CARD-0002",
+  "V-CARD-0003",
+  "V-CARD-0004",
+  "V-CARD-0005",
+  "V-CARD-0006"
+ ],
+ "contentHash": "9d2683b49e3f4ec5",
+ "content": {
+  "title": "Discussing price — Car Sales Executive (B1)",
+  "cefr": "B1",
+  "context": {
+   "setting": "A dealership showroom. Meera has a written quotation for her selected vehicle version. It lists optional additions separately; their amounts still need confirmation.",
+   "learnerRole": "Car Sales Executive responsible for explaining the quotation; price changes require the Sales Manager's confirmation.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Meera",
+     "relationship": "external"
+    },
+    {
+     "archetype": "Sales Manager",
+     "name": "Farhan",
+     "relationship": "senior"
+    }
+   ],
+   "objective": "Explain which quoted figure applies to the selected version and separate it from additions and an unconfirmed final total.",
+   "constraints": [
+    "Refer to the written quotation without inventing numerical prices or charges.",
+    "Do not promise a price change, approval, finance terms or a final total awaiting confirmation.",
+    "Give no financial or regulatory advice."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "Meera",
+      "learner": false,
+      "text": "Is this the price for the version I chose?"
+     },
+     {
+      "n": 2,
+      "speaker": "You",
+      "learner": true,
+      "text": "Yes. The figure beside your selected version is its quoted price.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 3,
+      "speaker": "Meera",
+      "learner": false,
+      "text": "Does it include the optional additions below?"
+     },
+     {
+      "n": 4,
+      "speaker": "You",
+      "learner": true,
+      "text": "Those additions are listed separately. Their amounts still need confirmation.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 5,
+      "speaker": "Meera",
+      "learner": false,
+      "text": "So I cannot use this figure as the total with additions?"
+     },
+     {
+      "n": 6,
+      "speaker": "You",
+      "learner": true,
+      "text": "That's right. It is the quoted version price, not a confirmed total with additions.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 7,
+      "speaker": "Meera",
+      "learner": false,
+      "text": "Could the price change if I choose another version?"
+     },
+     {
+      "n": 8,
+      "speaker": "You",
+      "learner": true,
+      "text": "Another version needs its own quotation. I cannot confirm its price from this document.",
+      "functions": [
+       "CFN-0085"
+      ]
+     },
+     {
+      "n": 9,
+      "speaker": "Meera",
+      "learner": false,
+      "text": "Please ask about the additions before I decide."
+     },
+     {
+      "n": 10,
+      "speaker": "You",
+      "learner": true,
+      "text": "I'll ask Farhan to confirm their amounts before giving you a total.",
+      "functions": [
+       "CFN-0085"
+      ]
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "The figure beside your selected version is its quoted price.",
+     "function": "CFN-0085",
+     "note": "Link a quoted amount to the exact version."
+    },
+    {
+     "text": "Those additions are listed separately.",
+     "function": "CFN-0085",
+     "note": "Explain the quotation's scope."
+    },
+    {
+     "text": "Their amounts still need confirmation.",
+     "function": "CFN-0085",
+     "note": "Keep unconfirmed charges separate from confirmed information."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "quotation",
+     "definition": "A document stating a proposed price and what it covers.",
+     "example": "Let's look at the quotation for your selected version.",
+     "tempId": "tmp:RIN-000004:v1",
+     "existingCode": "V-CARD-0001"
+    },
+    {
+     "term": "quoted price",
+     "definition": "The price stated in a quotation.",
+     "example": "This figure is the quoted price for that version.",
+     "tempId": "tmp:RIN-000004:v2",
+     "existingCode": "V-CARD-0002"
+    },
+    {
+     "term": "optional addition",
+     "definition": "An extra item the customer can choose.",
+     "example": "The optional additions are listed separately.",
+     "tempId": "tmp:RIN-000004:v3",
+     "existingCode": "V-CARD-0003"
+    },
+    {
+     "term": "included",
+     "definition": "Part of the stated price or package.",
+     "example": "Is this item included in the quoted price?",
+     "tempId": "tmp:RIN-000004:v4",
+     "existingCode": "V-CARD-0004"
+    },
+    {
+     "term": "separately",
+     "definition": "Apart from another item or amount.",
+     "example": "The additions are listed separately.",
+     "tempId": "tmp:RIN-000004:v5",
+     "existingCode": "V-CARD-0005"
+    },
+    {
+     "term": "final total",
+     "definition": "The complete amount after all chosen items are confirmed.",
+     "example": "The final total with additions is not confirmed.",
+     "tempId": "tmp:RIN-000004:v6",
+     "existingCode": "V-CARD-0006"
+    }
+   ],
+   "notes": [
+    "Use the quotation's actual figures when supplied. This practice gives no numerical prices.",
+    "A quotation for one version does not establish another version's price."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "choose-response",
+    "prompt": "Choose an accurate explanation.",
+    "items": [
+     {
+      "q": "The quotation lists additions separately and their amounts are unconfirmed.",
+      "options": [
+       "Everything is included in that figure.",
+       "The additions are separate, and their amounts still need confirmation."
+      ]
+     }
+    ],
+    "answers": [
+     "The additions are separate, and their amounts still need confirmation."
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "gap-fill",
+    "prompt": "Complete the price explanation.",
+    "items": [
+     {
+      "q": "This is the ___ price for your selected version, not the final ___ with additions."
+     }
+    ],
+    "answers": [
+     "quoted; total"
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "rewriting",
+    "prompt": "Remove the unsupported price promise.",
+    "items": [
+     {
+      "q": "Rewrite: 'The other version costs the same.' You only have the selected version's quotation."
+     }
+    ],
+    "answers": [
+     "The other version needs its own quotation. I cannot confirm its price yet."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Work in pairs. The customer refers to the quotation and asks what the figure covers. Explain its scope, identify unconfirmed amounts and agree what needs checking. Change roles.",
+   "cards": [
+    {
+     "role": "Car Sales Executive",
+     "goal": "Explain the selected-version quotation without promising an unconfirmed total.",
+     "info": "The version's quoted figure is on the document. Additions are separate and await confirmation from Farhan. Do not supply numerical prices."
+    },
+    {
+     "role": "Meera, customer",
+     "goal": "Understand the quotation before choosing additions.",
+     "info": "Ask whether the version figure covers the additions, whether it is the final total, and what happens if you choose a different version."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "A customer treats the selected-version figure as the final total with optional additions. Explain the difference in your own words. Their amounts are unconfirmed. Say what the Sales Manager needs to confirm before you can provide the total.",
+   "modes": [
+    "speak"
+   ],
+   "successCriteria": [
+    "Identify the figure as the selected-version quoted price.",
+    "Explain that additions are listed separately.",
+    "Clearly state that their amounts and the final total are unconfirmed.",
+    "Identify the manager confirmation needed without inventing an approval."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I identify the selected version?",
+    "Did I explain separate additions?",
+    "Did I state what remains unconfirmed?",
+    "Did I respect my authority?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Identify the selected version",
+     "weight": 25
+    },
+    {
+     "criterion": "Explain separate additions",
+     "weight": 25
+    },
+    {
+     "criterion": "State what remains unconfirmed",
+     "weight": 25
+    },
+    {
+     "criterion": "Respect my authority",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, without looking, distinguish a version price from a total with unconfirmed additions.",
+    "answer": "This is the quoted version price. The final total with additions is not confirmed."
+   },
+   {
+    "prompt": "The customer changes version. What can you say about its price?",
+    "answer": "That version needs its own quotation. I cannot confirm its price from this document."
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "The additions are separate, and their amounts still need confirmation."
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "quoted; total"
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "The other version needs its own quotation. I cannot confirm its price yet."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible answer: The figure is for your selected version. Additions are listed separately. Their amounts still need confirmation. I'll ask the Sales Manager before giving you a final total."
+   }
+  ]
+ }
+}

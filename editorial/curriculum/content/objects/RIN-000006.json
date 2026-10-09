@@ -1,0 +1,335 @@
+{
+ "id": "RIN-000006",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000002|STM-0028|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000007",
+  "ingestedAt": "2026-10-09 17:37",
+  "tempId": "tmp:RIN-000006"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-0313",
+  "V-CARD-0013",
+  "V-CARD-0014",
+  "V-CARD-0015",
+  "V-CARD-0016",
+  "V-CARD-0017",
+  "V-CARD-0018"
+ ],
+ "contentHash": "2910ddee2ef4acbb",
+ "content": {
+  "title": "Following up after a quotation or visit — Car Sales Executive (B1)",
+  "cefr": "B1",
+  "context": {
+   "setting": "A telephone follow-up after Aditi's showroom visit. She received a quotation for her chosen version and agreed to a follow-up call. Her purchase decision remains open.",
+   "learnerRole": "Car Sales Executive following up respectfully on an earlier enquiry.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Aditi",
+     "relationship": "external"
+    }
+   ],
+   "objective": "Refer to the earlier quotation, check whether the customer can talk, invite questions and agree the next contact without pressure.",
+   "constraints": [
+    "Do not assume the customer has decided to buy.",
+    "Do not invent prices, stock availability, delivery dates, finance terms or approvals.",
+    "Respect the customer's stated contact preference; give no financial or regulatory advice."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "You",
+      "learner": true,
+      "text": "Hello, Aditi. I'm following up on the quotation after your showroom visit. Is now a good time?",
+      "functions": [
+       "CFN-0022"
+      ]
+     },
+     {
+      "n": 2,
+      "speaker": "Aditi",
+      "learner": false,
+      "text": "I have a few minutes, but I haven't decided yet."
+     },
+     {
+      "n": 3,
+      "speaker": "You",
+      "learner": true,
+      "text": "Have you had a chance to look at the quotation for your chosen version?",
+      "functions": [
+       "CFN-0022"
+      ]
+     },
+     {
+      "n": 4,
+      "speaker": "Aditi",
+      "learner": false,
+      "text": "Yes. I still have a question about the optional additions."
+     },
+     {
+      "n": 5,
+      "speaker": "You",
+      "learner": true,
+      "text": "Which part would you like us to clarify before you consider the quotation further?",
+      "functions": [
+       "CFN-0022"
+      ]
+     },
+     {
+      "n": 6,
+      "speaker": "Aditi",
+      "learner": false,
+      "text": "I'd like to know which additions are included. Please reply by email."
+     },
+     {
+      "n": 7,
+      "speaker": "You",
+      "learner": true,
+      "text": "I'll check that question. When would you prefer us to follow up again?",
+      "functions": [
+       "CFN-0022"
+      ]
+     },
+     {
+      "n": 8,
+      "speaker": "Aditi",
+      "learner": false,
+      "text": "Please wait until I've read the email. I'll contact you if I need anything else."
+     },
+     {
+      "n": 9,
+      "speaker": "You",
+      "learner": true,
+      "text": "Understood. I'll send the clarification after checking it and leave the next contact to you.",
+      "functions": [
+       "CFN-0022"
+      ]
+     },
+     {
+      "n": 10,
+      "speaker": "Aditi",
+      "learner": false,
+      "text": "Thank you. That would help."
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "I'm following up on the quotation after your showroom visit.",
+     "function": "CFN-0022",
+     "note": "Name the earlier exchange."
+    },
+    {
+     "text": "Have you had a chance to look at the quotation for your chosen version?",
+     "function": "CFN-0022",
+     "note": "Invite a response without assuming a decision."
+    },
+    {
+     "text": "When would you prefer us to follow up again?",
+     "function": "CFN-0022",
+     "note": "Let the customer state a contact preference."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "following up on",
+     "definition": "Contacting someone again about an earlier matter.",
+     "example": "I'm following up on the quotation.",
+     "existingCode": "V-0313"
+    },
+    {
+     "term": "showroom visit",
+     "definition": "A visit to see and discuss vehicles at a dealership.",
+     "example": "I'm calling after your showroom visit.",
+     "tempId": "tmp:RIN-000006:v1",
+     "existingCode": "V-CARD-0013"
+    },
+    {
+     "term": "clarification",
+     "definition": "An explanation that makes something clearer.",
+     "example": "I'll email the clarification after checking it.",
+     "tempId": "tmp:RIN-000006:v2",
+     "existingCode": "V-CARD-0014"
+    },
+    {
+     "term": "purchase decision",
+     "definition": "A choice about whether or what to buy.",
+     "example": "Your purchase decision is still open.",
+     "tempId": "tmp:RIN-000006:v3",
+     "existingCode": "V-CARD-0015"
+    },
+    {
+     "term": "contact preference",
+     "definition": "How or when someone wants to be contacted.",
+     "example": "I'll respect your contact preference.",
+     "tempId": "tmp:RIN-000006:v4",
+     "existingCode": "V-CARD-0016"
+    },
+    {
+     "term": "consider",
+     "definition": "To think about an option before deciding.",
+     "example": "Take time to consider the quotation.",
+     "tempId": "tmp:RIN-000006:v5",
+     "existingCode": "V-CARD-0017"
+    },
+    {
+     "term": "enquiry",
+     "definition": "A request for information.",
+     "example": "I'm following up on your vehicle enquiry.",
+     "tempId": "tmp:RIN-000006:v6",
+     "existingCode": "V-CARD-0018"
+    }
+   ],
+   "notes": [
+    "A question about the quotation is not acceptance of it.",
+    "In the model, the next purchase-related contact is left to the customer after the requested clarification email."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "choose-response",
+    "prompt": "Choose a respectful opening.",
+    "items": [
+     {
+      "q": "You are calling after an agreed showroom follow-up.",
+      "options": [
+       "I'm following up on your quotation. Is now a good time?",
+       "You haven't bought the car yet. Why not?"
+      ]
+     }
+    ],
+    "answers": [
+     "I'm following up on your quotation. Is now a good time?"
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "rewriting",
+    "prompt": "Remove the assumed purchase decision.",
+    "items": [
+     {
+      "q": "Rewrite: 'Since you've chosen to buy, I'll arrange the next step.' The customer has not decided."
+     }
+    ],
+    "answers": [
+     "Have you had a chance to consider the quotation?"
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "short-answer",
+    "prompt": "Respect the customer's contact preference.",
+    "items": [
+     {
+      "q": "The customer asks for one clarification email and says they will contact you afterwards. What will you do?"
+     }
+    ],
+    "answers": [
+     "Send the checked clarification by email and leave the next contact to the customer."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Work in pairs. Refer to the earlier showroom visit, check whether the customer can talk, and ask about the quotation. Listen to the contact preference and close accordingly. Change roles.",
+   "cards": [
+    {
+     "role": "Car Sales Executive",
+     "goal": "Find out what the customer needs after the visit.",
+     "info": "The quotation concerns the chosen version. You cannot assume a purchase decision or answer an unverified inclusion question. Agree the next contact respectfully."
+    },
+    {
+     "role": "Aditi, customer",
+     "goal": "Get clarification without committing to buy.",
+     "info": "You can talk briefly. Ask about optional additions. Request an email, then explain that you will contact the dealership if you need anything else."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "Write a short follow-up message after a showroom visit. The customer has a quotation but has not decided. Refer to that quotation, invite questions, and ask how they would prefer to continue. Do not add a deadline, offer or availability claim.",
+   "modes": [
+    "write"
+   ],
+   "successCriteria": [
+    "Identify the earlier visit or quotation.",
+    "Invite a response without assuming a purchase.",
+    "Ask about the customer's preferred next contact.",
+    "Use courteous B1 English without pressure or unsupported claims."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I refer to the earlier enquiry?",
+    "Did I invite the customer's questions?",
+    "Did I respect the contact preference?",
+    "Did I avoid pressure or assumptions?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Refer to the earlier enquiry",
+     "weight": 25
+    },
+    {
+     "criterion": "Invite the customer's questions",
+     "weight": 25
+    },
+    {
+     "criterion": "Respect the contact preference",
+     "weight": 25
+    },
+    {
+     "criterion": "Avoid pressure or assumptions",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, without looking, open a follow-up linked to a quotation.",
+    "answer": "I'm following up on the quotation after your showroom visit."
+   },
+   {
+    "prompt": "The customer wants to make the next contact. Give an appropriate closing.",
+    "answer": "Understood. I'll leave the next contact to you."
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "I'm following up on your quotation. Is now a good time?"
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "Have you had a chance to consider the quotation?"
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "Send the checked clarification by email and leave the next contact to the customer."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible message: Hello, Aditi. I'm following up on the quotation after your showroom visit. Have you had a chance to consider it? Please let me know if you have any questions. How would you prefer us to continue?"
+   }
+  ]
+ }
+}

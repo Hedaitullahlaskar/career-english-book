@@ -1,21 +1,12 @@
 {
  "requests": [
   {
-   "request": "REQ-000007",
-   "batch": "B6:P2",
-   "layer": "L6",
-   "status": "PREPARED",
-   "outputs": 3,
-   "estimatedInputTokens": 15082,
-   "maxOutputTokens": 10500
-  },
-  {
    "request": "REQ-000008",
    "batch": "B6:P2v",
    "layer": "L6",
-   "status": "BLOCKED",
+   "status": "PREPARED",
    "outputs": 1,
-   "estimatedInputTokens": 4792,
+   "estimatedInputTokens": 11929,
    "maxOutputTokens": 3500
   },
   {
@@ -24,7 +15,7 @@
    "layer": "L6",
    "status": "PREPARED",
    "outputs": 3,
-   "estimatedInputTokens": 13744,
+   "estimatedInputTokens": 15560,
    "maxOutputTokens": 10500
   },
   {
@@ -33,7 +24,7 @@
    "layer": "L6",
    "status": "PREPARED",
    "outputs": 2,
-   "estimatedInputTokens": 12215,
+   "estimatedInputTokens": 14031,
    "maxOutputTokens": 7000
   },
   {
@@ -46,8 +37,8 @@
    "maxOutputTokens": 7000
   }
  ],
- "totalEstimatedInputTokens": 52794,
- "totalMaxOutputTokens": 38500,
+ "totalEstimatedInputTokens": 48481,
+ "totalMaxOutputTokens": 28000,
  "estimatedCost": null,
  "pricing": {
   "currency": null,

@@ -1,0 +1,336 @@
+{
+ "id": "RIN-000005",
+ "type": "unit",
+ "layer": "L6",
+ "key": "L6|RPF-000002|STM-0026|B1",
+ "status": "AI_QA",
+ "version": 1,
+ "provenance": {
+  "source": "generated",
+  "generator": "ChatGPT",
+  "model": "GPT-6",
+  "requestId": "REQ-000007",
+  "ingestedAt": "2026-10-09 17:37",
+  "tempId": "tmp:RIN-000005"
+ },
+ "review": {
+  "aiQa": "PASS",
+  "editorial": "PENDING",
+  "specialist": "NOT_REQUIRED",
+  "native": "NOT_REQUIRED"
+ },
+ "prototype": true,
+ "publishable": false,
+ "vocabularyCodes": [
+  "V-CARD-0007",
+  "V-CARD-0008",
+  "V-CARD-0009",
+  "V-CARD-0010",
+  "V-CARD-0011",
+  "V-CARD-0012"
+ ],
+ "contentHash": "c1f8edde5c5778cc",
+ "content": {
+  "title": "Arranging and conducting a test drive — Car Sales Executive (B1)",
+  "cefr": "B1",
+  "context": {
+   "setting": "A dealership showroom. Kunal is comparing two versions of a model. The comparison sheet shows more boot space in the larger version. He wants a test-drive appointment; availability has not been checked.",
+   "learnerRole": "Car Sales Executive coordinating the customer's appointment request.",
+   "stakeholders": [
+    {
+     "archetype": "Customer",
+     "name": "Kunal",
+     "relationship": "external"
+    }
+   ],
+   "objective": "Compare the stated space feature, ask permission to send an appointment request, and clarify the requested time, proposed meeting point and next contact.",
+   "constraints": [
+    "Communication only: exclude CFN-0108.",
+    "No driving, road-safety, vehicle-operation or safety-training instructions; no regulatory or safety advice.",
+    "Refer to the dealership's test-drive policy generically; do not invent policy requirements.",
+    "Do not promise vehicle availability or an appointment before confirmation."
+   ]
+  },
+  "notice": {
+   "conversation": {
+    "turns": [
+     {
+      "n": 1,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "Which version has more space for our luggage?"
+     },
+     {
+      "n": 2,
+      "speaker": "You",
+      "learner": true,
+      "text": "The comparison sheet shows more boot space in the larger version.",
+      "functions": [
+       "CFN-0091"
+      ]
+     },
+     {
+      "n": 3,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "I'd like to arrange a test drive for that version."
+     },
+     {
+      "n": 4,
+      "speaker": "You",
+      "learner": true,
+      "text": "May I send an appointment request for the larger version?",
+      "functions": [
+       "CFN-0097"
+      ]
+     },
+     {
+      "n": 5,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "Yes, please. Friday at three would suit me."
+     },
+     {
+      "n": 6,
+      "speaker": "You",
+      "learner": true,
+      "text": "May I include Friday at three as your preferred time?",
+      "functions": [
+       "CFN-0097"
+      ]
+     },
+     {
+      "n": 7,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "Yes. Where would we meet?"
+     },
+     {
+      "n": 8,
+      "speaker": "You",
+      "learner": true,
+      "text": "May I suggest showroom reception as the meeting point, subject to appointment confirmation?",
+      "functions": [
+       "CFN-0097"
+      ]
+     },
+     {
+      "n": 9,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "That works. Please email me when you know."
+     },
+     {
+      "n": 10,
+      "speaker": "You",
+      "learner": true,
+      "text": "May I email you the confirmed details after checking availability under the dealership's test-drive policy?",
+      "functions": [
+       "CFN-0097"
+      ]
+     },
+     {
+      "n": 11,
+      "speaker": "Kunal",
+      "learner": false,
+      "text": "Yes. I'll wait for that email before making plans."
+     }
+    ]
+   }
+  },
+  "understand": {
+   "keyExpressions": [
+    {
+     "text": "The comparison sheet shows more boot space in the larger version.",
+     "function": "CFN-0091",
+     "note": "Base a comparison on the supplied product information."
+    },
+    {
+     "text": "May I send an appointment request for the larger version?",
+     "function": "CFN-0097",
+     "note": "Ask permission and wait for the customer's answer."
+    },
+    {
+     "text": "May I include Friday at three as your preferred time?",
+     "function": "CFN-0097",
+     "note": "A preferred time is a request, not a confirmed booking."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "version",
+     "definition": "One form of a vehicle model with particular features.",
+     "example": "Which version would you like to try?",
+     "tempId": "tmp:RIN-000005:v1",
+     "existingCode": "V-CARD-0007"
+    },
+    {
+     "term": "boot space",
+     "definition": "Room for luggage in the back storage area of a car.",
+     "example": "The larger version has more boot space.",
+     "tempId": "tmp:RIN-000005:v2",
+     "existingCode": "V-CARD-0008"
+    },
+    {
+     "term": "comparison sheet",
+     "definition": "A document showing features of different options.",
+     "example": "The comparison sheet shows the difference.",
+     "tempId": "tmp:RIN-000005:v3",
+     "existingCode": "V-CARD-0009"
+    },
+    {
+     "term": "preferred time",
+     "definition": "The time a customer would like.",
+     "example": "Friday at three is your preferred time.",
+     "tempId": "tmp:RIN-000005:v4",
+     "existingCode": "V-CARD-0010"
+    },
+    {
+     "term": "appointment request",
+     "definition": "A request for an appointment that may still need confirmation.",
+     "example": "May I send the appointment request?",
+     "tempId": "tmp:RIN-000005:v5",
+     "existingCode": "V-CARD-0011"
+    },
+    {
+     "term": "subject to confirmation",
+     "definition": "Dependent on receiving confirmation before it is definite.",
+     "example": "The meeting point is subject to appointment confirmation.",
+     "tempId": "tmp:RIN-000005:v6",
+     "existingCode": "V-CARD-0012"
+    }
+   ],
+   "notes": [
+    "The comparison sheet supplies the space difference for this fictional practice; make no further product claims.",
+    "Record a request with permission. Keep the booking pending until availability is confirmed.",
+    "The title is copied from the request. This unit covers appointment communication only."
+   ]
+  },
+  "guidedPractice": [
+   {
+    "id": "GP1",
+    "type": "choose-response",
+    "prompt": "Choose the supported comparison.",
+    "items": [
+     {
+      "q": "The sheet states only that the larger version has more boot space.",
+      "options": [
+       "Both versions have the same boot space.",
+       "The larger version has more boot space."
+      ]
+     }
+    ],
+    "answers": [
+     "The larger version has more boot space."
+    ]
+   },
+   {
+    "id": "GP2",
+    "type": "rewriting",
+    "prompt": "Ask permission before sending the request.",
+    "items": [
+     {
+      "q": "Rewrite: 'I'll send your appointment request now.'"
+     }
+    ],
+    "answers": [
+     "May I send your appointment request now?"
+    ]
+   },
+   {
+    "id": "GP3",
+    "type": "short-answer",
+    "prompt": "Explain the booking status.",
+    "items": [
+     {
+      "q": "The customer has requested Friday at three. Availability is not checked. Is the appointment confirmed?"
+     }
+    ],
+    "answers": [
+     "No. Friday at three is the requested time; the appointment still needs confirmation."
+    ]
+   }
+  ],
+  "rolePractice": {
+   "instructions": "Use the comparison sheet fact on the cards. Discuss the preferred version. Ask permission to send the request and wait for an answer. Clarify the requested time, proposed meeting point and next contact. Do not act out the test drive.",
+   "cards": [
+    {
+     "role": "Car Sales Executive",
+     "goal": "Agree the details of an appointment request without promising availability.",
+     "info": "The sheet shows more boot space in the larger version. No appointment slot is confirmed. Ask before sending a request or arranging a confirmation email."
+    },
+    {
+     "role": "Kunal, customer",
+     "goal": "Request a test drive in the larger version and understand the next step.",
+     "info": "Friday at three is your preference. Showroom reception would suit you as a meeting point. You want an email after availability is checked. Answer each permission question."
+    }
+   ]
+  },
+  "performanceTask": {
+   "prompt": "A customer wants the version with more boot space and requests Saturday morning. Use only the supplied comparison fact. Ask permission to send the request. Agree a proposed reception meeting point and the customer's preferred confirmation channel. Availability remains unchecked; finish with the appointment clearly pending.",
+   "modes": [
+    "speak"
+   ],
+   "successCriteria": [
+    "Compare only the stated boot-space feature.",
+    "Ask permission before sending the request and wait for the reply.",
+    "Clarify the preferred time, proposed meeting point and next contact.",
+    "Keep the appointment pending and stay within communication-only boundaries."
+   ]
+  },
+  "feedback": {
+   "selfCheck": [
+    "Did I use the supplied comparison?",
+    "Did I ask and wait for permission?",
+    "Did I clarify the requested arrangement?",
+    "Did I keep the booking status clear?"
+   ],
+   "rubric": [
+    {
+     "criterion": "Use the supplied comparison",
+     "weight": 25
+    },
+    {
+     "criterion": "Ask and wait for permission",
+     "weight": 25
+    },
+    {
+     "criterion": "Clarify the requested arrangement",
+     "weight": 25
+    },
+    {
+     "criterion": "Keep the booking status clear",
+     "weight": 25
+    }
+   ]
+  },
+  "reviewRetrieval": [
+   {
+    "prompt": "Later, without looking, ask permission to send an appointment request.",
+    "answer": "May I send your appointment request?"
+   },
+   {
+    "prompt": "Explain the difference between a preferred time and a confirmed appointment.",
+    "answer": "A preferred time is the customer's request. The appointment still needs confirmation."
+   }
+  ],
+  "answerKey": [
+   {
+    "taskRef": "GP1",
+    "answer": "The larger version has more boot space."
+   },
+   {
+    "taskRef": "GP2",
+    "answer": "May I send your appointment request now?"
+   },
+   {
+    "taskRef": "GP3",
+    "answer": "No. Friday at three is the requested time; the appointment still needs confirmation."
+   },
+   {
+    "taskRef": "performance",
+    "answer": "Possible sequence: The sheet shows more boot space in this version. May I request Saturday morning? The appointment is not confirmed yet. Would reception suit you as the meeting point? May I email you after checking availability? Accept another contact channel if the customer prefers it."
+   }
+  ]
+ }
+}

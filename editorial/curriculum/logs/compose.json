@@ -52,28 +52,50 @@
  {
   "id": "RIN-000004",
   "title": "Discussing price — Car Sales Executive (B1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000002|STM-0019|B1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000006",
+   "SCN-000004",
+   "CMC-000001",
+   "RCO-000003",
+   "RCO-000004",
+   "CTX-000002",
+   "SNO-000002",
+   "RIN-000004"
   ]
  },
  {
   "id": "RIN-000005",
   "title": "Arranging and conducting a test drive — Car Sales Executive (B1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000002|STM-0026|B1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000007",
+   "FEX-000008",
+   "SCN-000005",
+   "CMC-000001",
+   "RCO-000003",
+   "RCO-000004",
+   "CTX-000002",
+   "SNO-000002",
+   "RIN-000005"
   ]
  },
  {
   "id": "RIN-000006",
   "title": "Following up after a quotation or visit — Car Sales Executive (B1)",
-  "missingLayers": 1,
-  "composed": false,
-  "missing": [
-   "L6|RPF-000002|STM-0028|B1"
+  "missingLayers": 0,
+  "composed": true,
+  "layerObjects": [
+   "FEX-000009",
+   "SCN-000006",
+   "CMC-000001",
+   "RCO-000003",
+   "RCO-000004",
+   "CTX-000002",
+   "SNO-000002",
+   "RIN-000006"
   ]
  },
  {

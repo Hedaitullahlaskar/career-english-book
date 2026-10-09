@@ -116,9 +116,9 @@
   {
    "layer": "L6",
    "key": "L6|RPF-000002|STM-0026|B1",
-   "objectId": null,
-   "status": "MISSING",
-   "request": "REQ-000007",
+   "objectId": "RIN-000005",
+   "status": "PRESENT",
+   "request": null,
    "sharedWith": []
   }
  ],
