@@ -45,7 +45,7 @@ The repository's 1 October QA report records a full AI editorial read of all 196
 
 Five repeated-word scanner hits were inspected and are intentional teaching examples or grammatically valid sequences: “really really”, “so so”, and “check in in”. They are not treated as errors.
 
-The 29 bracketed patterns found by a broad scan are instructional sentence frames (for example, `[first step]` and `[deadline]`), not unfinished answer-key placeholders. The answer-key-region scan found zero such placeholders.
+The broad bracket scan found 554 bracketed formula slots across lesson text; these are instructional sentence frames (for example, `[first step]` and `[deadline]`), not automatically unfinished placeholders. A targeted scan of common placeholder-like terms found 29 candidate occurrences, all outside the answer-key region. The answer-key-region scan found zero such placeholders.
 
 ## Targeted AI language findings
 
