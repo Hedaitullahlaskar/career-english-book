@@ -1,0 +1,197 @@
+unit_id,level,unit_type,title,exercise_blocks,answer_key_markers,required_fields,broken_reference_mentions,answer_key_placeholders,html_nesting_flags,prior_ai_full_text_editorial_review,fresh_ai_static_qa,human_pdf_proofread,bn_hi_review_items,publication_approved
+CE-L01-M01-L01,1,lesson,"Understanding What ""Professional"" Means at Work",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M01-L02,1,lesson,Talking About Your Background and Experience,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M01-L03,1,lesson,Introducing Yourself Professionally,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M01-L04,1,lesson,Talking About Your Job Role and Responsibilities,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M01-L05,1,lesson,Building Basic Workplace Confidence,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L01-M02-L01,1,lesson,Arriving and Greeting on Day One,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M02-L02,1,lesson,Meeting Your Supervisor and Team,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M02-L03,1,lesson,Receiving Instructions and Understanding Routines,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M02-L04,1,lesson,Finding Your Way and Asking Where Things Are,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M02-L05,1,lesson,Ending Your First Day Professionally,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L01-M03-L01,1,lesson,Formal and Informal Greetings,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M03-L02,1,lesson,Starting a Conversation,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M03-L03,1,lesson,Safe and Unsafe Small-Talk Topics,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M03-L04,1,lesson,Ending a Conversation Politely,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M04-L01,1,lesson,Listening for Key Information,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M04-L02,1,lesson,Confirming and Repeating Instructions,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M04-L03,1,lesson,"Understanding Priorities, Sequence and Deadlines",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M04-L04,1,lesson,Saying When Something Is Unclear,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M05-L01,1,lesson,Asking Someone to Repeat or Explain,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M05-L02,1,lesson,Asking the Right Clarifying Question,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M05-L03,1,lesson,Asking Colleagues vs. Asking Supervisors,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M06-L01,1,lesson,"People, Roles and Departments",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M06-L02,1,lesson,"Places, Tools and Documents at Work",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M06-L03,1,lesson,"Time, Schedules and Deadlines",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M06-L04,1,lesson,"Tasks, Responsibility and Priority",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M06-L05,1,lesson,Core Workplace Verbs and Professional Phrases,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M07-L01,1,lesson,"Why Tone Matters: Same Message, Different Sound",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M07-L02,1,lesson,Making Polite and Confident Requests,5,5,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M07-L03,1,lesson,Responding Professionally,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L01-M07-L04,1,lesson,"Tone, Hierarchy and Respect at Work",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L01-ASSESSMENT,1,assessment,Level 1 Assessment,18,18,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L01-CAPSTONE,1,capstone,Your First Weeks at Work,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M01-L01,2,lesson,Giving a Clear Status Update,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L02-M01-L02,2,lesson,Reporting Problems and Delays,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M01-L03,2,lesson,Matching Update Detail to Your Audience,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M01-L04,2,lesson,The Standup Habit,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M02-L01,2,lesson,Requests with Conditions and Trade-offs,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M02-L02,2,lesson,Turning Down a Request Without Damaging the Relationship,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M02-L03,2,lesson,Negotiating Timing and Scope,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M02-L04,2,lesson,Relaying a Request Between People,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L02-M02-L05,2,lesson,Written Requests: Short and Clear,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M03-L01,2,lesson,Answering and Identifying Yourself,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M03-L02,2,lesson,Taking a Message Accurately,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M03-L03,2,lesson,Asking Someone to Repeat or Slow Down,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M03-L04,2,lesson,Putting Someone on Hold and Transferring,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M03-L05,2,lesson,Handling a Difficult or Unclear Caller & Ending the Call,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M04-L01,2,lesson,Chat Register: How Chat Differs from Email and Speech,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L02-M04-L02,2,lesson,"Writing Clear, Short Work Messages",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M04-L03,2,lesson,Marking Urgency and Asking for a Quick Reply,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M04-L04,2,lesson,Reading the Room in Group Chats,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M04-L05,2,lesson,"Message, Call, or Talk in Person?",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M05-L01,2,lesson,A Real Apology vs. a Weak One,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L02-M05-L02,2,lesson,Apologizing for Your Own Mistake,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M05-L03,2,lesson,Thanking Someone Specifically and Sincerely,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M05-L04,2,lesson,Apologizing on Behalf of the Team,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M06-L01,2,lesson,The Follow-Up Habit: Why and When,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M06-L02,2,lesson,Writing a Polite Follow-Up Message,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M06-L03,2,lesson,Following Up Without Sounding Pushy,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M06-L04,2,lesson,Closing the Loop,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M07-L01,2,lesson,Greeting and Welcoming a Customer,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M07-L02,2,lesson,Answering Simple Customer Questions Clearly,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M07-L03,2,lesson,"""I Don't Know"" — But I'll Find Out",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M07-L04,2,lesson,Handling a Simple Complaint (Non-Escalated),3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M07-L05,2,lesson,Closing a Customer Interaction Well,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M08-L01,2,lesson,Punctuality and Time Norms at Work,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M08-L02,2,lesson,Digital Etiquette and Confidentiality Basics,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-M08-L03,2,lesson,"Hierarchy, Titles, and Respectful Address",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L02-M08-L04,2,lesson,Putting It All Together: A Full Workday,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-ASSESSMENT,2,assessment,Level 2 Assessment,20,20,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L02-CAPSTONE,2,capstone,A Normal Week,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M01-L01,3,lesson,Anatomy of a Professional Email,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M01-L02,3,lesson,Making Requests and Sharing Information,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M01-L03,3,lesson,"Following Up, Reminding, and Confirming",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M01-L04,3,lesson,Apologizing and Responding to a Complaint,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M01-L05,3,lesson,Escalating an Issue by Email,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M01-L06,3,lesson,Putting a Full Email Thread Together,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M02-L01,3,lesson,The Facts → Evidence → Analysis → Action → Recommendation Framework,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M02-L02,3,lesson,Daily and Weekly Reports,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M02-L03,3,lesson,Incident and Complaint Reports,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M02-L04,3,lesson,Performance and Operational Reports,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M02-L05,3,lesson,Writing a Recommendation That Gets Acted On,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L01,3,lesson,Before a Meeting: Invitations and Agendas,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L02,3,lesson,Opening a Meeting and Setting Objectives,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L03,3,lesson,"Giving and Asking for Opinions, Agreeing and Disagreeing Diplomatically",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L04,3,lesson,"Clarifying, Interrupting Politely, and Summarizing",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L05,3,lesson,Assigning Action Points and Closing a Meeting,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M03-L06,3,lesson,After a Meeting: Minutes and Follow-Up,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M04-L01,3,lesson,Opening a Presentation and Introducing Your Topic,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M04-L02,3,lesson,"Explaining Slides, Charts, and Data",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M04-L03,3,lesson,Comparing Data and Highlighting Key Points,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M04-L04,3,lesson,Transitions and Structure,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M04-L05,3,lesson,Handling Questions After a Presentation,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M05-L01,3,lesson,Listening with Empathy,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M05-L02,3,lesson,De-escalating an Angry Customer,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M05-L03,3,lesson,Presenting Solutions and Managing Expectations,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M05-L04,3,lesson,Escalating a Complaint Internally,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M05-L05,3,lesson,Service Recovery: Turning a Bad Experience Around,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M06-L01,3,lesson,Welcoming a Client and Building Rapport,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M06-L02,3,lesson,Understanding Client Needs Through Questions,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M06-L03,3,lesson,Presenting a Solution to a Client,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M06-L04,3,lesson,Handling Client Objections,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M06-L05,3,lesson,Closing and Following Up with a Client,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M07-L01,3,lesson,Tenses and Aspect for Professional Writing,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M07-L02,3,lesson,Modals and Conditionals for Professional Nuance,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M07-L03,3,lesson,Passive Voice and Reported Speech in Professional Documents,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M07-L04,3,lesson,"Articles, Prepositions, and Subject-Verb Agreement in Practice",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M07-L05,3,lesson,"Relative Clauses, Gerunds, and Infinitives for Fluent Writing",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M07-L06,3,lesson,Comparatives and Formal Sentence Structures,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M08-L01,3,lesson,Word Stress and Sentence Stress,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M08-L02,3,lesson,Intonation and Rhythm in Professional Speech,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M08-L03,3,lesson,Connected Speech and Commonly Confused Sounds,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L03-M08-L04,3,lesson,Speaking with Confidence,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M09-L01,3,lesson,Video Call Etiquette (Zoom/Google Meet),3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M09-L02,3,lesson,"Choosing Between Email, Chat, Call, and Video Call",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M09-L03,3,lesson,Adapting One Message Across Every Channel,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-M09-L04,3,lesson,Level 3 Synthesis: A Full Professional Week,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-ASSESSMENT,3,assessment,Level 3 Assessment,12,12,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L03-CAPSTONE,3,capstone,The Client Review,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M01-L01,4,lesson,Preparing to Negotiate: Knowing Your Position,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M01-L02,4,lesson,Opening a Negotiation and Anchoring,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M01-L03,4,lesson,Trading Concessions Without Giving Away Too Much,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M01-L04,4,lesson,Handling Pressure Tactics and Deadlocks,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M01-L05,4,lesson,Closing a Negotiation and Confirming the Deal,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M02-L01,4,lesson,Saying No Firmly and Professionally,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M02-L02,4,lesson,Giving Critical Feedback Without Damaging the Relationship,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M02-L03,4,lesson,Receiving Criticism Gracefully,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M02-L04,4,lesson,Admitting and Reporting a Serious Mistake,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M02-L05,4,lesson,Handling a Difficult Colleague,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M02-L06,4,lesson,Managing Conflict to a Resolution,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M03-L01,4,lesson,The Anatomy of a Persuasive Argument,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M03-L02,4,lesson,Using Evidence and Framing,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M03-L03,4,lesson,Persuading a Skeptical Audience,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M03-L04,4,lesson,Influencing Without Authority,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M04-L01,4,lesson,Structuring an Ambiguous Problem Out Loud,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M04-L02,4,lesson,Exploring Options and Trade-offs Collaboratively,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M04-L03,4,lesson,Communicating a Decision and Its Reasoning,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M04-L04,4,lesson,Solving a Problem Live Under Time Pressure,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M05-L01,4,lesson,Presenting to a Senior or Executive Audience,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M05-L02,4,lesson,Handling Tough and Skeptical Questions,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M05-L03,4,lesson,Presenting Under Time Pressure or Interruption,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M05-L04,4,lesson,Storytelling and Persuasive Structure in Presentations,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M06-L01,4,lesson,Communicating Calmly Under Pressure,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M06-L02,4,lesson,Delivering Bad News,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M06-L03,4,lesson,Managing Unrealistic Deadlines and Expectations Under Pressure,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M06-L04,4,lesson,Crisis Communication: Keeping People Informed,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M06-L05,4,lesson,"A Full Crisis Scenario: Communicate, Escalate, Resolve",3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M07-L01,4,lesson,Recognizing Cultural Differences in Communication Style,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M07-L02,4,lesson,Adapting Directness and Formality Across Cultures,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M07-L03,4,lesson,Avoiding Misunderstandings in Cross-Cultural Teams,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M07-L04,4,lesson,Communicating Respectfully Without Stereotyping,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M08-L01,4,lesson,Managing a Long-Term Client or Vendor Relationship,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M08-L02,4,lesson,Renewing or Renegotiating a Contract,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M08-L03,4,lesson,Difficult Vendor Conversations,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L04-M08-L04,4,lesson,Managing Client Expectations Over Time,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-M08-L05,4,lesson,A Full Relationship-Management Scenario,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-ASSESSMENT,4,assessment,Level 4 Assessment,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L04-CAPSTONE,4,capstone,The Difficult Quarter,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M01-L01,5,lesson,Delegating a Task Clearly,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M01-L02,5,lesson,Matching Instruction Detail to the Person's Experience,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M01-L03,5,lesson,"Delegating Ownership, Not Just Tasks",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M01-L04,5,lesson,Following Up on Delegated Work Without Micromanaging,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M02-L01,5,lesson,"Giving Ongoing, Everyday Feedback",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M02-L02,5,lesson,Structuring a Formal Performance Conversation,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M02-L03,5,lesson,Setting Goals and Expectations Together,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M02-L04,5,lesson,Addressing Underperformance,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M02-L05,5,lesson,A Full Performance Review Conversation,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M03-L01,5,lesson,The Difference Between Telling and Coaching,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L05-M03-L02,5,lesson,Asking Questions That Open Up Thinking,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M03-L03,5,lesson,Coaching Someone Through a Problem They Own,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M03-L04,5,lesson,Knowing When to Coach and When to Just Tell Them,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M04-L01,5,lesson,"Communicating the ""Why"" Behind a Strategy",4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M04-L02,5,lesson,Announcing a Change to a Team,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M04-L03,5,lesson,Addressing Resistance to Change,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M04-L04,5,lesson,Keeping People Aligned Over Time,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M04-L05,5,lesson,Leading a Team Through a Full Change Cycle,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M05-L01,5,lesson,Chairing a Meeting as Its Owner,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M05-L02,5,lesson,Making a Decision When the Group Disagrees,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M05-L03,5,lesson,Communicating a Decision the Room Didn't Fully Agree With,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M05-L04,5,lesson,Keeping a Meeting Focused and On Time,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M05-L05,5,lesson,Leading a Full Decision-Making Meeting,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M06-L01,5,lesson,Presenting as the Senior Voice in the Room,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L05-M06-L02,5,lesson,Presenting Strategy and Vision,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M06-L03,5,lesson,Commanding a Room Under Scrutiny,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M06-L04,5,lesson,A Full Executive Presentation,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M07-L01,5,lesson,Writing Your Story: CV and LinkedIn English,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L05-M07-L02,5,lesson,Interviewing with Confidence,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M07-L03,5,lesson,Networking and Building Professional Relationships,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M07-L04,5,lesson,Asking for Feedback and Discussing Promotion,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,PENDING,NO
+CE-L05-M07-L05,5,lesson,Discussing Salary and Compensation,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M07-L06,5,lesson,Resigning and Exit Interviews Gracefully,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M08-L01,5,lesson,What Makes a Communication Style Recognizably Yours,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M08-L02,5,lesson,Staying Authentic Under Pressure,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M08-L03,5,lesson,Leading With Consistency Across Every Channel,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-M08-L04,5,lesson,Putting It All Together: A Week as a Leader,4,4,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-ASSESSMENT,5,assessment,Level 5 Assessment,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
+CE-L05-CAPSTONE,5,capstone,The Handover,3,3,PASS,0,0,0,"PASS (recorded in QA-REPORT.md, 1 Oct 2026)",PASS,PENDING,NOT_LISTED,NO
